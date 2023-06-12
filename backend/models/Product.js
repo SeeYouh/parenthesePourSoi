@@ -15,11 +15,11 @@ const productSchema = mongoose.Schema({
     },
     imageUrl: {
         type: String,
-        required: true,
+        required: false,
     },
     icon: [{
         type: Number,
-        required: true
+        required: false
     }]
 });
 

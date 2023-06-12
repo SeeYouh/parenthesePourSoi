@@ -2,6 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
+
+  const user = [
+    "Créer un compte",
+    "Se connecter"
+  ]
+
   const category = [
     "Gestion du poids",
     "Santé",
@@ -32,15 +38,28 @@ const Navigation = () => {
           aria-label="Indiquez ici ce que vous recherchez"
         />
       </div> */}
-      <div className="all-menu-navbar">
-        {category.map((menu) => (
-          <li className="menu-navbar">
-            <NavLink className="cursor">
-              <button className="btn btn-navbar">{menu}</button>
-            </NavLink>
-            <div className="line"></div>
-          </li>
-        ))}
+      <div>
+        <div className="menuUser all-menu-navbar">
+          {
+            user.map((userMenu) => (
+              <li className="menu-navbar">
+                <NavLink className="cursor" >
+                <button className="btn btn-navbar">{userMenu}</button>
+                </NavLink>
+              </li>
+            ))
+          }
+        </div>
+        <div className="all-menu-navbar">
+          {category.map((menu) => (
+            <li className="menu-navbar">
+              <NavLink className="cursor">
+                <button className="btn btn-navbar">{menu}</button>
+              </NavLink>
+              <div className="line"></div>
+            </li>
+          ))}
+        </div>
       </div>
     </nav>
   );

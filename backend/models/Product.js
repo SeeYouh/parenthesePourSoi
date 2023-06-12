@@ -5,6 +5,10 @@ const productSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    summary: {
+        type: String,
+        required: true
+    },
     description: {
         type: String,
         required: true
@@ -13,10 +17,10 @@ const productSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    price: {
+    icon: [{
         type: Number,
         required: true
-    }
+    }]
 });
 
 module.exports = mongoose.model( 'Product', productSchema );

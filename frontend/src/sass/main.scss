@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;700&display=swap');
+
+@import "./components/button",
+        "./components/flex",
+        "./components/nav",
+        "./components/reset",
+        "./components/variable";
+
+@import "./base/body";
+
+@import "./layout/button",
+        "./layout/color",
+        "./layout/fonts",
+        "./layout/search";

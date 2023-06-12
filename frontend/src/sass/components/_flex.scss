@@ -1,0 +1,33 @@
+//header
+
+.all-menu-navbar,
+.search-bar,
+.navbar,
+.menu-navbar,
+.menu-navbar .a,
+.logo {
+  display: flex;
+}
+
+.navbar,
+.menu-navbar {
+  flex-direction: row;
+}
+
+.navbar {
+  justify-content: space-around;
+}
+
+.search-bar {
+  justify-content: flex-end;
+}
+
+.menu-navbar {
+  justify-content: space-between;
+}
+
+.navbar,
+.search-bar,
+.menu-navbar {
+  align-items: center;
+}

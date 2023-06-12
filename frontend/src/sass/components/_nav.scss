@@ -1,0 +1,29 @@
+.navbar {
+  // background-color: $bgColor2;
+  width: 100%;
+  height: 100px;
+  // gap: 5rem;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+  .menu-navbar {
+
+    li {
+      margin: 0 2px 0 10px;
+    }
+  }
+}
+
+// .search-bar,
+// .logo,
+// .menu-navbar {
+//     border: 1px solid black;
+// }
+
+.logo {
+  margin-left: 20px;
+}
+
+.all-menu-navbar {
+  margin-right: 20px;
+}

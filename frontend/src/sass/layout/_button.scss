@@ -1,0 +1,33 @@
+.btn {
+  position: relative;
+  border: transparent;
+  background-color: transparent;
+}
+
+.line {
+  // margin-left: 10px;
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(to top, transparent, $bgColor6, transparent);
+}
+
+.btn-navbar {
+    margin: 0 10px 0 10px;
+    // border: 1px solid black;
+
+    &:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: $bgColor5;
+    transition: all 0.2s;
+    transform: translateX(-50%);
+  }
+
+  &:hover:before {
+    width: 100%;
+  }
+}

@@ -1,16 +1,14 @@
-import React from 'react';
-import Navigation from './../components/Navigation';
-import Product from './../components/product/Product';
+import React from "react";
+import Navigation from "./../components/Navigation";
+import Product from "./../components/data/Product";
 
 const Home = () => {
-
-
-    return (
-        <header>
-            <Navigation />
-            <Product />
-        </header>
-    );
+  return (
+    <div>
+      <Navigation />
+      <Product />
+    </div>
+  );
 };
 
 export default Home;

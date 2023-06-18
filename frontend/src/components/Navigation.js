@@ -2,11 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
-
-  const user = [
-    "Créer un compte",
-    "Se connecter"
-  ]
+  const userLinks = ["Créer un compte", "Se connecter"];
 
   const category = [
     "Gestion du poids",
@@ -27,32 +23,19 @@ const Navigation = () => {
         src="./img/png/Une parenthèse pour soi logo 100px.png"
         alt="Logo Une parenthèse pour soi"
       />
-      {/* <div className="search-bar">
-        <button className="btn-search color">
-          <i className="fa-solid fa-magnifying-glass"></i>
-        </button>
-        <input
-          type="search"
-          placeholder="Que recherchez-vous ?"
-          className="search-label"
-          aria-label="Indiquez ici ce que vous recherchez"
-        />
-      </div> */}
       <div>
         <div className="menuUser all-menu-navbar">
-          {
-            user.map((userMenu) => (
-              <li className="menu-navbar">
-                <NavLink className="cursor" >
-                <button className="btn btn-navbar">{userMenu}</button>
-                </NavLink>
-              </li>
-            ))
-          }
+          {userLinks.map((link, index) => (
+            <li className="menu-navbar" key={index}>
+              <NavLink className="cursor">
+                <button className="btn btn-navbar">{link.name}</button>
+              </NavLink>
+            </li>
+          ))}
         </div>
         <div className="all-menu-navbar">
-          {category.map((menu) => (
-            <li className="menu-navbar">
+          {category.map((menu, index) => (
+            <li className="menu-navbar" key={index}>
               <NavLink className="cursor">
                 <button className="btn btn-navbar">{menu}</button>
               </NavLink>

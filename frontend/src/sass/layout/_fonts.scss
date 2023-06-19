@@ -1,23 +1,30 @@
 body {
-    font-family: 'Farro','Courier New', Courier, monospace;
+  font-family: "Farro", "Courier New", Courier, monospace;
 }
 
+.productCard h1,
+.productCard h2,
 .btn-search,
 .search-label,
 .btn-navbar {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 //      FONT SIZE      //
 
+.productCard h1,
 .search-label {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
+}
+
+.textProductCard p {
+  font-size: 0.9rem;
 }
 
 .btn-navbar {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .btn-search {
-    font-size: 2rem;
+  font-size: 2rem;
 }

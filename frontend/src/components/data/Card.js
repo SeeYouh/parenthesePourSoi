@@ -2,35 +2,24 @@ import React from "react";
 import { productCard } from "../../data/productList";
 
 const Card = () => {
-  const category = productCard.reduce(
-    (acc, product) =>
-      acc.includes(product.firstCategory)
-        ? acc
-        : acc.concat(product.firstCategory),
-    []
-  );
-  console.log(productCard);
-  console.log(category);
   return (
-    <div>
-      <ul>
-        {category.map((cat) => (
-          <li key={cat}>{cat}</li>
-        ))}
-      </ul>
-      <ul>
-        {productCard.map((product) => (
-          <>
-            <li key={product.id + "-name"}>{product.nameProduct} </li>
-            <li key={product.id + "-title"}>{product.summary.title} </li>
-            {/* <ul key={product.id + "-summary"}>
-              {product.summary.map((paragraph, index) => (
-                <li key={index}>{paragraph}</li>
-              ))}
-            </ul> */}
-          </>
-        ))}
-      </ul>
+    <div className="arrayProductCard">
+      {Array.from({ length: 20 }).map(() =>
+        productCard.map((product) => (
+          <React.Fragment key={product.id}>
+            <div className="productCard">
+              <img src={product.picture} alt={product.altPicture} />
+              <div className="textProductCard">
+                <h1>{product.nameProduct} </h1>
+                <h2>{product.summary.title} </h2>
+                {product.summary.paragraph.map((para) => (
+                  <p key={para.id}>{para.text}</p>
+                ))}{" "}
+              </div>
+            </div>
+          </React.Fragment>
+        ))
+      )}
     </div>
   );
 };

@@ -35,7 +35,12 @@ const Navigation = () => {
         </div>
         <div className="all-menu-navbar">
           {category.map((menu, index) => (
-            <li className="menu-navbar" key={index}>
+            <li
+              className={`menu-navbar ${
+                index === category.length - 1 ? "textColor" : ""
+              }`}
+              key={index}
+            >
               <NavLink className="cursor">
                 <button className="btn btn-navbar">{menu}</button>
               </NavLink>

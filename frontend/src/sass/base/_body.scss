@@ -1,3 +1,10 @@
 body {
-    background-color: $bgColor4;
+  background-color: $bgColor7;
+  letter-spacing: 0.6px;
+}
+
+.textColor {
+  button {
+    color: $bgColor5 !important;
+  }
 }

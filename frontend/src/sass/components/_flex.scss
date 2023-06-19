@@ -1,5 +1,7 @@
 //header
 
+.textProductCard,
+.arrayProductCard,
 .menuUser,
 .all-menu-navbar,
 .search-bar,
@@ -10,11 +12,16 @@
   display: flex;
 }
 
+.textProductCard {
+  flex-direction: column;
+}
+
 .navbar,
 .menu-navbar {
   flex-direction: row;
 }
 
+.arrayProductCard,
 .navbar {
   justify-content: space-around;
 }
@@ -32,4 +39,8 @@
 .search-bar,
 .menu-navbar {
   align-items: center;
+}
+
+.arrayProductCard {
+  flex-wrap: wrap;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "./../components/Navigation";
-import Card from "../components/data/CardProduct";
+import Card from "../components/data/ProductCard";
 
 const Home = () => {
   return (

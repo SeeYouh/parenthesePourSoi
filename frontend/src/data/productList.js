@@ -18,7 +18,7 @@ let getSecondCategoryById = (id) => {
   return null; // retourne null si l'ID de la sous-catégorie n'est pas trouvé
 };
 
-export const productCard = [
+export const productList = [
   {
     id: "1ld",
     nameProduct: "La détox",

@@ -1,12 +1,12 @@
 import React from "react";
-import { productCard } from "../../data/productList";
+import { productList } from "../../data/productList";
 
 const Card = () => {
   return (
     <main className="arrayProductCard">
       {Array.from({ length: 20 }).map(() =>
         // récupère la totalité des produits et les intègres dans une fiche
-        productCard.map((product) => (
+        productList.map((product) => (
           <React.Fragment key={product.id}>
             <div className="productCard">
               <img src={product.picture} alt={product.altPicture} />

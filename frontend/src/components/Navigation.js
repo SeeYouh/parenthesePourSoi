@@ -20,7 +20,7 @@ const Navigation = () => {
     <nav className="navbar">
       <img
         className="logo"
-        src="./img/png/Une parenthèse pour soi logo 100px.png"
+        src="./img/svg/Logo une parenthèse pour soi-min.svg"
         alt="Logo Une parenthèse pour soi"
       />
       <div>

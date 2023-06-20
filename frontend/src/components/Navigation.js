@@ -25,6 +25,7 @@ const Navigation = () => {
       />
       <div>
         <div className="menuUser all-menu-navbar">
+          {/* récupère la totalité des menus utilisateur et les intègres à une balise "li" */}
           {userLinks.map((link, index) => (
             <li className="menu-navbar" key={index}>
               <NavLink className="cursor">
@@ -34,6 +35,7 @@ const Navigation = () => {
           ))}
         </div>
         <div className="all-menu-navbar">
+          {/* récupère la totalité des menus des produits et les intègres à une balise "li" */}
           {category.map((menu, index) => (
             <li
               className={`menu-navbar ${

@@ -3,41 +3,28 @@
   overflow: hidden; /* Important pour cacher la partie de bordure qui dépasse */
   display: block;
   border: 3px solid $bgColor6;
+  // border-top-color: $bgColor6;
+  // border-left-color: $bgColor6;
+  // border-right-color: $bgColor7;
+  // border-bottom-color: $bgColor7;
+  border-radius: 5%;
+  border-bottom-right-radius: 20%;
+  border-top-left-radius: 20%;
   width: 300px;
   height: 300px;
   margin: 15px;
   padding: 10px;
   box-shadow: 8px 8px 2px white;
-  transition: all 3s;
-  box-shadow: 6px 6px 2px $bgColor8;
-
-  // &::before {
-  //   /* Le pseudo-élément qui servira comme bordure */
-  //   content: "";
-  //   position: absolute;
-  //   border: 3px solid $bgColor5; /* La couleur de votre bordure */
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   width: 100%;
-  //   z-index: 2; /* Assurez-vous que le z-index est assez grand pour que la bordure soit au-dessus des autres éléments */
-  //   transform: scaleX(0) scaleY(0);
-  //   transform-origin: bottom right;
-  //   transition: transform 0s; /* Pas de transition au départ */
-  // }
+  transition: all 1.5s;
+  // box-shadow: 6px 6px 2px $bgColor8;
 }
 
 .bgColorHover {
   background-color: $bgColor6;
-  transition: all 0.6s;
+  transition: all 0.3s;
+  // border-radius: 0;
   border: 3px solid $bgColor5;
-  box-shadow: -10px -10px 4px $bgColor9;
-
-  // &.bgColorHover::before {
-  //   transform: scaleX(1) scaleY(1); /* Lorsque la souris passe sur l'élément, étendez le pseudo-élément pour couvrir tout l'élément */
-  //   transition: transform 0.6s; /* La transition prend 3 secondes lorsque la souris passe sur l'élément */
-  // }
+  // box-shadow: -10px -10px 4px $bgColor9;
 }
 
 .productCard {

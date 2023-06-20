@@ -5,17 +5,16 @@
 }
 
 .line {
-  // margin-left: 10px;
   width: 2px;
   height: 40px;
   background: linear-gradient(to top, transparent, $bgColor6, transparent);
 }
 
 .btn-navbar {
-    margin: 0 10px 0 10px;
-    // border: 1px solid black;
+  margin: 0 10px 0 10px;
+  // border: 1px solid black;
 
-    &:before {
+  &:before {
     content: "";
     position: absolute;
     bottom: -5px;

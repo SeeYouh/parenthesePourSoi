@@ -54,7 +54,7 @@ export const productList = [
       getSecondCategoryById("2bsCt2").text,
       getSecondCategoryById("3besCt1").text,
     ],
-    picture: "./img/jpg/product/produit1.jpg",
+    picture: "./img/png/product/produit1.png",
     altPicture: "Photo du produit La Détox",
   },
   {
@@ -92,7 +92,7 @@ export const productList = [
       getSecondCategoryById("2bsCt2").text,
       getSecondCategoryById("3besCt1").text,
     ],
-    picture: "./img/jpg/product/produit1.jpg",
+    picture: "./img/png/product/produit1.png",
     altPicture: "Photo du produit La Détox",
   },
 ];

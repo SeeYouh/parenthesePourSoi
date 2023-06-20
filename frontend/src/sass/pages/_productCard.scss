@@ -1,13 +1,52 @@
-.productCard {
+.bgProductCard {
+  position: relative; /* Important pour le positionnement du pseudo-élément */
+  overflow: hidden; /* Important pour cacher la partie de bordure qui dépasse */
+  display: block;
   border: 3px solid $bgColor6;
   width: 300px;
-  height: 500px;
+  height: 300px;
   margin: 15px;
   padding: 10px;
+  box-shadow: 8px 8px 2px white;
+  transition: all 3s;
+  box-shadow: 6px 6px 2px $bgColor8;
+
+  // &::before {
+  //   /* Le pseudo-élément qui servira comme bordure */
+  //   content: "";
+  //   position: absolute;
+  //   border: 3px solid $bgColor5; /* La couleur de votre bordure */
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   width: 100%;
+  //   z-index: 2; /* Assurez-vous que le z-index est assez grand pour que la bordure soit au-dessus des autres éléments */
+  //   transform: scaleX(0) scaleY(0);
+  //   transform-origin: bottom right;
+  //   transition: transform 0s; /* Pas de transition au départ */
+  // }
+}
+
+.bgColorHover {
+  background-color: $bgColor6;
+  transition: all 0.6s;
+  border: 3px solid $bgColor5;
+  box-shadow: -10px -10px 4px $bgColor9;
+
+  // &.bgColorHover::before {
+  //   transform: scaleX(1) scaleY(1); /* Lorsque la souris passe sur l'élément, étendez le pseudo-élément pour couvrir tout l'élément */
+  //   transition: transform 0.6s; /* La transition prend 3 secondes lorsque la souris passe sur l'élément */
+  // }
+}
+
+.productCard {
+  width: 100%;
+  height: 100%;
+  position: relative;
 
   .textProductCard {
-    text-align: justify;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-right: 10px;
 
     h1 {
@@ -19,16 +58,11 @@
       padding-top: 10px;
       padding-bottom: 10px;
     }
-
-    p {
-      line-height: 1.2rem;
-      margin-top: 2px;
-      margin-bottom: 5px;
-    }
   }
 
   img {
     height: auto;
     width: 300px;
+    margin-bottom: 10px;
   }
 }

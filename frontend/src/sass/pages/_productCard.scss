@@ -1,12 +1,8 @@
 .bgProductCard {
-  position: relative; /* Important pour le positionnement du pseudo-élément */
-  overflow: hidden; /* Important pour cacher la partie de bordure qui dépasse */
+  position: relative;
+  overflow: hidden;
   display: block;
   border: 3px solid $bgColor6;
-  // border-top-color: $bgColor6;
-  // border-left-color: $bgColor6;
-  // border-right-color: $bgColor7;
-  // border-bottom-color: $bgColor7;
   border-radius: 5%;
   border-bottom-right-radius: 20%;
   border-top-left-radius: 20%;
@@ -14,16 +10,17 @@
   height: 300px;
   margin: 15px;
   padding: 10px;
-  box-shadow: 8px 8px 2px white;
-  transition: all 1.5s;
+  box-shadow: 0 0 2px white;
+  transition: background-color 2s, transform 0.3s, border 1.5s, box-shadow 0.7s;
 }
 
 .bgColorHover {
+  cursor: pointer;
   background-color: $bgColor6;
   transition: all 0.3s;
-  // border-radius: 0;
   border: 3px solid $bgColor5;
-  // box-shadow: -10px -10px 4px $bgColor9;
+  transform: scale(1.05);
+  box-shadow: 4px 8px 8px $bgColor9;
 }
 
 .productCard {

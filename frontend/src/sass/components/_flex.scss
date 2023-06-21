@@ -1,7 +1,5 @@
 //header
 
-// .bgLogo,
-// #logoPicture,
 .textProductCard,
 .arrayProductCard,
 .menuUser,
@@ -18,16 +16,11 @@
   flex-direction: column;
 }
 
-// .bgLogo,
 .arrayProductCard,
 .navbar,
 .menu-navbar {
   flex-direction: row;
 }
-
-// #logoPicture {
-//   justify-content: center;
-// }
 
 .arrayProductCard,
 .navbar {
@@ -43,16 +36,11 @@
   justify-content: space-between;
 }
 
-// #logoPicture,
 .navbar,
 .search-bar,
 .menu-navbar {
   align-items: center;
 }
-
-// .bgLogo {
-//   flex-wrap: nowrap;
-// }
 
 .arrayProductCard {
   flex-wrap: wrap;

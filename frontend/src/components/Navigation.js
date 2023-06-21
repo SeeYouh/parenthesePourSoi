@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { generalDataImg } from "../data/generalData";
 
 const Navigation = () => {
   const userLinks = ["Créer un compte", "Se connecter"];
@@ -20,8 +21,9 @@ const Navigation = () => {
     <nav className="navbar">
       <img
         className="logo"
-        src="./img/svg/Logo une parenthèse pour soi-min.svg"
-        alt="Logo Une parenthèse pour soi"
+        key={generalDataImg[0].id}
+        src={generalDataImg[0].src}
+        alt={generalDataImg[0].alt}
       />
       <div>
         <div className="menuUser all-menu-navbar">

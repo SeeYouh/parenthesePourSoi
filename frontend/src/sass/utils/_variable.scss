@@ -6,14 +6,24 @@ $bgColor1: #f8fafa;
 $bgColor2: #747474;
 $bgColor3: #fff;
 
-// Background Body
+// Background
 
 $bgColor4: #f2fdd6;
 $bgColor5: #55a045;
 $bgColor6: #b2d45a;
 $bgColor7: white;
 
+.bgWhite {
+  background-color: white;
+}
+
 //Shadow
 
 $bgColor8: #b1d45a85;
 $bgColor9: #b1d45a91;
+
+//position
+
+.positionFixed {
+  position: fixed;
+}

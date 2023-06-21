@@ -5,10 +5,12 @@ import Logo from "../components/Logo";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Logo />
-      <Navigation />
-      <Card />
+      <div className="bgWhite">
+        <Navigation />
+        <Card />
+      </div>
     </div>
   );
 };

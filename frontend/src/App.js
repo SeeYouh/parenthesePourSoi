@@ -1,16 +1,25 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React, { useRef } from "react";
+import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+
+import Logo from "./components/Logo";
 import Home from "./pages/Home";
-import PagesError from "./pages/PagesError";
 
 const App = () => {
+  const containerRef = useRef();
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<PagesError />} />
-      </Routes>
-    </BrowserRouter>
+    <LocomotiveScrollProvider
+      options={{
+        smooth: true,
+      }}
+      watch={[]}
+      containerRef={containerRef}
+    >
+      <div data-scroll-container ref={containerRef} className="home">
+        <Logo />
+        <Home />
+      </div>
+    </LocomotiveScrollProvider>
   );
 };
 

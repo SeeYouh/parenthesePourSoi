@@ -4,12 +4,6 @@ import { generalDataImg } from "../data/generalData";
 const Logo = () => {
   return (
     <div id="bgLogo">
-      {/* <img src="./img/svg/leafLeft.svg" alt="Illustration de feuille" />
-      <img
-        src="./img/svg/Logo une parenthèse pour soi-min.svg"
-        alt="Logo d'Une parenthèse pour Soi"
-      />
-      <img src="./img/svg/leafRight.svg" alt="Illustration de feuille" /> */}
       <div className="positionFixed">
         <div id="leaf">
           <div id="leafBottomLeft">

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 
 import Logo from "./components/Logo";
@@ -11,6 +11,8 @@ const App = () => {
     <LocomotiveScrollProvider
       options={{
         smooth: true,
+        lerp: 0.06,
+        multiplier: 3,
       }}
       watch={[]}
       containerRef={containerRef}

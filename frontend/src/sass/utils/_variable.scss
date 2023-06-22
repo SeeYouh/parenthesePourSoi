@@ -14,7 +14,8 @@ $bgColor6: #b2d45a;
 $bgColor7: white;
 
 .bgWhite {
-  background-color: white;
+  background-color: $bgColor7;
+  transform: translateZ(0);
 }
 
 //Shadow

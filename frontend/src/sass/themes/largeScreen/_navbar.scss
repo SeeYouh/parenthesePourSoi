@@ -1,0 +1,15 @@
+@media screen and (min-width: 1110px) {
+  .all-menu-navbar {
+    flex-direction: row;
+  }
+
+  .line {
+    width: 2px;
+    height: 40px;
+    background: linear-gradient(to top, transparent, $bgColor6, transparent);
+  }
+
+  .burgerMenu {
+    display: none;
+  }
+}

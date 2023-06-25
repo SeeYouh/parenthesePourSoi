@@ -21,9 +21,9 @@ const Navigation = () => {
     <nav className="navbar">
       <img
         className="logo"
-        key={generalDataImg[0].id}
-        src={generalDataImg[0].src}
-        alt={generalDataImg[0].alt}
+        key={generalDataImg[3].id}
+        src={generalDataImg[3].src}
+        alt={generalDataImg[3].alt}
       />
       <div>
         <div className="menuUser all-menu-navbar">

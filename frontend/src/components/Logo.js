@@ -27,8 +27,9 @@ const Logo = () => {
         </div>
         <img
           id="logoPicture"
-          src="./img/png/Une parenthèse pour soi logo 1500px.png"
-          alt="Logo d'Une parenthèse pour Soi"
+          key={generalDataImg[0].id}
+          src={generalDataImg[0].src}
+          alt={generalDataImg[0].alt}
         />
       </div>
     </div>

@@ -26,5 +26,9 @@
         "./pages/home";
 
 // prettier-ignore
-@import "./themes/largeScreen",
-        "./themes/smallScreen";
+@import "./themes/largeScreen/logo",
+        "./themes/largeScreen/navbar";
+
+// prettier-ignore
+@import "./themes/smallScreen/logo",
+        "./themes/smallScreen/navbar";

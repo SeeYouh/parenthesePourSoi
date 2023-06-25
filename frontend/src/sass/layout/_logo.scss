@@ -36,20 +36,9 @@
     position: absolute;
   }
 
-  #logoPicture {
-    width: calc(50% - 10px);
-  }
-
   #leafBottomLeftImg img,
   #leafTopRightImg img {
     width: calc(100% - 10px);
-  }
-
-  #logoPicture,
-  #leafBottomLeftImg img,
-  #leafTopRightImg img {
-    max-width: 800px;
-    height: auto;
   }
 
   #logoPicture {

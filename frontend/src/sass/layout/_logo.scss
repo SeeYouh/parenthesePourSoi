@@ -3,7 +3,7 @@
   min-height: 100vh;
 
   #leaf {
-    position: relative;
+    // position: relative;
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -12,21 +12,18 @@
     #leafBottomLeft,
     #leafTopRight {
       position: relative;
-      bottom: 0;
-      left: 0;
       width: 100%;
       height: 100%;
     }
   }
 
   #leafTopRightImg {
-    top: 0;
     right: -10px;
+    top: 0;
   }
 
   #leafBottomLeftImg {
     bottom: -2px;
-    left: 0;
   }
 
   #leafTopRightImg,

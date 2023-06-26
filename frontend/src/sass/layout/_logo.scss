@@ -1,12 +1,10 @@
 #bgLogo {
   position: relative;
-  min-width: 100vw;
   min-height: 100vh;
 
   #leaf {
     position: relative;
     display: grid;
-    z-index: 1;
     width: 100vw;
     height: 100vh;
     grid-template-columns: repeat(2, 1fr);
@@ -42,7 +40,6 @@
   }
 
   #logoPicture {
-    z-index: 3;
     position: absolute;
     top: 50%;
     left: 50%;

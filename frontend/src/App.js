@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 
-import Logo from "./components/Logo";
+// import Logo from "./components/Logo";
 import Home from "./pages/Home";
 import Navigation from "./components/Navigation";
 
@@ -18,9 +18,9 @@ const App = () => {
       watch={[]}
       containerRef={containerRef}
     >
-      <div data-scroll-container ref={containerRef} className="home">
+      <div data-scroll-container ref={containerRef} className="home bgWhite">
+        {/* <Logo /> */}
         <Navigation />
-        <Logo />
         <Home />
       </div>
     </LocomotiveScrollProvider>

@@ -64,6 +64,9 @@ const Logo = () => {
           alt={generalDataImg[0].alt}
         />
       </div>
+      <div id="logoPicture"></div>
+      <div id="leafBottomLeft"></div>
+      <div></div>
     </div>
   );
 };

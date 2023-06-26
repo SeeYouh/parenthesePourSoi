@@ -1,5 +1,6 @@
 .bgProductCard {
   position: relative;
+  z-index: 2;
   overflow: hidden;
   display: block;
   border: 3px solid $bgColor6;

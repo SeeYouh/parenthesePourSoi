@@ -1,27 +1,26 @@
-@media screen and (max-width: 1109px) {
-  .burgerMenu {
-    display: block;
-  }
+// @media screen and (max-width: 1109px) {
+//   .burgerMenu {
+//     display: block;
+//   }
 
-  .line {
-    height: 2px;
-    width: 100%;
-    background: linear-gradient(to top, transparent, $bgColor6, transparent);
-  }
+//   .line {
+//     height: 2px;
+//     width: 100%;
+//     background: linear-gradient(to top, transparent, $bgColor6, transparent);
+//   }
 
-  .menu-navbar,
-  .all-menu-navbar {
-    flex-direction: column;
-  }
+//   .menu-navbar,
+//   .all-menu-navbar {
+//     flex-direction: column;
+//   }
 
-  .all-menu-navbar {
-    z-index: 5;
-    background-color: $bgColor7;
-    width: 100%;
-    margin-top: 50px;
-  }
+//   .all-menu-navbar {
+//     background-color: $bgColor7;
+//     width: 100%;
+//     margin-top: 50px;
+//   }
 
-  .menu-navbar .btn {
-    margin: 15px;
-  }
-}
+//   .menu-navbar .btn {
+//     margin: 15px;
+//   }
+// }

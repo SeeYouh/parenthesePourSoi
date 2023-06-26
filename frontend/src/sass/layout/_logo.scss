@@ -1,51 +1,42 @@
 #bgLogo {
   position: relative;
-  min-width: 100vw;
   min-height: 100vh;
+  min-width: 100vw;
+}
 
-  #leaf {
-    position: relative;
-    display: grid;
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
-    grid-template-columns: repeat(2, 1fr);
+.parallax {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    #leafBottomLeft,
-    #leafTopRight {
-      position: relative;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
+#leafTopRight {
+  background: url(../../../public/img/png/leafTopRight.png) no-repeat right top;
+  background-attachment: fixed;
+  right: 0;
+  top: 0;
+}
 
-  #leafTopRightImg {
-    top: 0;
-    right: -10px;
-  }
+#logoPicture {
+  background: url(../../../public/img/png/Une_parenthèse_pour_soi_logo_1500px.png)
+    no-repeat center center;
+  background-attachment: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  #leafBottomLeftImg {
-    bottom: -2px;
-    left: 0;
-  }
+#leafBottomLeft {
+  background: url(../../../public/img/png/leafBottomLeft.png) no-repeat left
+    bottom;
+  background-attachment: fixed;
+}
 
-  #leafTopRightImg,
-  #leafBottomLeftImg {
-    position: absolute;
-  }
-
-  #leafBottomLeftImg img,
-  #leafTopRightImg img {
-    width: calc(100% - 10px);
-  }
-
-  #logoPicture {
-    z-index: 3;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+#leafBottomLeft,
+#logoPicture,
+#leafTopRight {
+  background-size: 500px auto;
 }

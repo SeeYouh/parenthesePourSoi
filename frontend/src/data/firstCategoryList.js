@@ -110,21 +110,48 @@ export const firstCategoryList = [
   {
     id: "6e",
     name: "Enfants",
-    secondCategory: ["Santé générale", "Affections cutanées"],
+    secondCategory: [
+      { id: "6eSg0", text: "Santé générale" },
+      {
+        id: "6eSg1",
+        text: "Affections cutanées",
+      },
+    ],
   },
   {
     id: "7s",
     name: "Sport",
-    secondCategory: ["Récupération | Performance", "Substitut de repas"],
+    secondCategory: [
+      {
+        id: "7sRp0",
+        text: "Récupération | Performance",
+      },
+      {
+        id: "7sRp0",
+        text: "Substitut de repas",
+      },
+    ],
   },
   {
     id: "8ps",
     name: "Produits de saison",
     secondCategory: [
-      "Crème solaire",
-      "Aide au bronzage",
-      "Coup de soleil",
-      "Piqûres moustique ou guêpes",
+      {
+        id: "8psCs0",
+        text: "Crème solaire",
+      },
+      {
+        id: "8psAaB1",
+        text: "Aide au bronzage",
+      },
+      {
+        id: "8psCdS2",
+        text: "Coup de soleil",
+      },
+      {
+        id: "8psPmOg3",
+        text: "Piqûres moustique ou guêpes",
+      },
     ],
   },
 ];

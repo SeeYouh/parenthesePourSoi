@@ -93,29 +93,38 @@ export const firstCategoryList = [
       },
     ],
   },
+  {
+    id: "5p",
+    name: "Purification",
+    secondCategory: [
+      {
+        id: "5pA0",
+        text: "Air",
+      },
+      {
+        id: "5pE1",
+        text: "Eau",
+      },
+    ],
+  },
+  {
+    id: "6e",
+    name: "Enfants",
+    secondCategory: ["Santé générale", "Affections cutanées"],
+  },
+  {
+    id: "7s",
+    name: "Sport",
+    secondCategory: ["Récupération | Performance", "Substitut de repas"],
+  },
+  {
+    id: "8ps",
+    name: "Produits de saison",
+    secondCategory: [
+      "Crème solaire",
+      "Aide au bronzage",
+      "Coup de soleil",
+      "Piqûres moustique ou guêpes",
+    ],
+  },
 ];
-// {
-//     id: "5p",
-//     name: "Purification",
-//     secondCategory: ["Air", "Eau"],
-//   },
-//   {
-//     id: "6e",
-//     name: "Enfants",
-//     secondCategory: ["Santé générale", "Affections cutanées"],
-//   },
-//   {
-//     id: "7s",
-//     name: "Sport",
-//     secondCategory: ["Récupération | Performance", "Substitut de repas"],
-//   },
-//   {
-//     id: "8ps",
-//     name: "Produits de saison",
-//     secondCategory: [
-//       "Crème solaire",
-//       "Aide au bronzage",
-//       "Coup de soleil",
-//       "Piqûres moustique ou guêpes",
-//     ],
-//   },

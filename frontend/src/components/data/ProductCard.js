@@ -23,7 +23,7 @@ const Product = ({ product, index }) => {
       onMouseLeave={handleMouseLeave}
     >
       <div className="productCard">
-        <img key={index} src={product.picture} alt={product.altPicture} />
+        <img key={index} src={product.picture} alt={product.nameProduct} />
         <div className="textProductCard">
           <h1>{product.nameProduct} </h1>
           <h2>{product.summary.title} </h2>
@@ -36,11 +36,9 @@ const Product = ({ product, index }) => {
 const Card = () => {
   return (
     <main className="arrayProductCard">
-      {Array.from({ length: 20 }).map(() =>
-        productList.map((product) => (
-          <Product key={product.id} product={product} />
-        ))
-      )}
+      {productList.map((product) => (
+        <Product key={product.id} product={product} />
+      ))}
     </main>
   );
 };

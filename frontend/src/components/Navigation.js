@@ -12,9 +12,7 @@ const Navigation = () => {
     "Bien-être",
     "Huiles essentielles",
     "Purification",
-    "Enfants",
-    "Sport",
-    "Produits de saison",
+    "Profils particuliers",
   ];
 
   return (
@@ -39,12 +37,7 @@ const Navigation = () => {
         <div className="all-menu-navbar">
           {/* récupère la totalité des menus des produits et les intègres à une balise "li" */}
           {category.map((menu, index) => (
-            <li
-              className={`menu-navbar ${
-                index === category.length - 1 ? "textColor" : ""
-              }`}
-              key={index}
-            >
+            <li className={`menu-navbar ${index}`} key={index}>
               <NavLink className="cursor">
                 <button className="btn btn-navbar">{menu}</button>
               </NavLink>

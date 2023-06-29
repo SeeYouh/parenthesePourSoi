@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { productList } from "../../data/productList";
 
-// Nouveau composant pour le produit
 const Product = ({ product, index }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -35,10 +34,12 @@ const Product = ({ product, index }) => {
 
 const Card = () => {
   return (
-    <main className="arrayProductCard">
-      {productList.map((product) => (
-        <Product key={product.id} product={product} />
-      ))}
+    <main>
+      <div className="arrayProductCard">
+        {productList.map((product) => (
+          <Product key={product.id} product={product} />
+        ))}
+      </div>
     </main>
   );
 };

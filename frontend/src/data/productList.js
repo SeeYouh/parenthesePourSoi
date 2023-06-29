@@ -24,26 +24,29 @@ export const productList = [
     nameProduct: "La détox",
     summary: {
       id: "0lds0",
-      title: "Un équilibre à toute épreuve !",
+      title: "Nettoyer son corps en profondeur ! ",
       paragraph: [
         {
           id: "0ldpt0",
-          text: "Nettoyer votre corps pour relancer votre métabolisme et faire en sorte que votre corps retrouve ses fonctions optimales en éliminant les toxines et les radicaux libres.",
+          text: "Votre alimentation et vos habitudes de vie entraînent une accumulation de toxines dans votre corps. Cela a un impact important sur votre santé et crée des désagréments quotidiens tels que la fatigue, le manque de concentration, des petits problèmes de peau, des soucis digestifs, des douleurs articulaires et musculaires, une incapacité à perdre du poids…",
         },
         {
           id: "0ldpt1",
-          text: "Prenez le contrôle de votre bien-être quotidien en soutenant l’équilibre interne de votre corps.",
+          text: "Il est donc indispensable de nettoyer votre corps pour relancer votre métabolisme afin que ce dernier retrouve ses fonctions optimales.",
         },
         {
           id: "0ldpt2",
-          text: "Un complément unique en son genre pour ceux qui veulent se sentir au mieux de leur forme.",
+          text: "Prenez le contrôle de votre bien-être quotidien en soutenant l’équilibre interne de votre corps.",
+        },
+        {
+          id: "0ldpt3",
+          text: "Notre détox’ est un produit unique en son genre si vous souhaitez vous sentir au mieux de votre forme.",
         },
       ],
     },
     firstCategory: [
       getCategoryById("0gp").name,
       getCategoryById("1s").name,
-      getCategoryById("2b").name,
       getCategoryById("3be").name,
     ],
     secondCategory: [
@@ -51,11 +54,9 @@ export const productList = [
       getSecondCategoryById("1ssCt0").text,
       getSecondCategoryById("1ssCt1").text,
       getSecondCategoryById("1ssCt2").text,
-      getSecondCategoryById("2bsCt2").text,
       getSecondCategoryById("3besCt1").text,
     ],
     picture: "./img/png/product/0_1_white.png",
-    hoveredPicture: "./img/png/product/0_1_vert.png",
     altPicture: "Photo du produit La Détox",
   },
   {

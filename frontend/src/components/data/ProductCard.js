@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { productList } from "../../data/productList";
 
 // Nouveau composant pour le produit
-const Product = ({ product }) => {
+const Product = ({ product, index }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -23,13 +23,10 @@ const Product = ({ product }) => {
       onMouseLeave={handleMouseLeave}
     >
       <div className="productCard">
-        <img src={product.picture} alt={product.altPicture} />
+        <img key={index} src={product.picture} alt={product.altPicture} />
         <div className="textProductCard">
           <h1>{product.nameProduct} </h1>
           <h2>{product.summary.title} </h2>
-          {/* {product.summary.paragraph.map((para) => (
-            <p key={para.id}>{para.text}</p>
-          ))}{" "} */}
         </div>
       </div>
     </div>

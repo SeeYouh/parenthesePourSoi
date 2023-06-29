@@ -119,16 +119,20 @@ export const firstCategoryList = [
     ],
   },
   {
-    id: "7s",
-    name: "Sport",
+    id: "7Pp",
+    name: "Profils Particuliers",
     secondCategory: [
       {
-        id: "7sRp0",
-        text: "Récupération | Performance",
+        id: "7PpF0",
+        text: "Femmes",
       },
       {
-        id: "7sRp0",
-        text: "Substitut de repas",
+        id: "7PpE1",
+        text: "Enfants",
+      },
+      {
+        id: "7PpS2",
+        text: "Sportifs",
       },
     ],
   },

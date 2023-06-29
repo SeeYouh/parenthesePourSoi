@@ -18,7 +18,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="navbar">
+    <nav className="navbar positionFixed">
       <img
         className="logo"
         key={generalDataImg[3].id}

@@ -1,121 +1,128 @@
 export const firstCategoryList = [
   {
-    id: "0gp",
+    id: "0GestionDuPoids",
     name: "Gestion du poids",
     secondCategory: [
       {
-        id: "0gpsCt0",
+        id: "0GestionDuPoids0CureMinceur",
         text: "Cure minceur",
       },
       {
-        id: "0gpsCt1",
+        id: "0GestionDuPoids1PriseDePoids",
         text: "Prise de poids",
       },
     ],
   },
   {
-    id: "1s",
+    id: "1Sante",
     name: "Santé",
     secondCategory: [
       {
-        id: "1ssCt0",
+        id: "1Sante0ProblemesCutanes",
         text: "Problèmes cutanés",
       },
       {
-        id: "1ssCt1",
+        id: "1Sante1TroublesDigestifsIntestinauxRespiratoires",
         text: "Troubles digestifs, intestinaux et respiratoires",
       },
       {
-        id: "1ssCt2",
+        id: "1Sante2SystemesCorps",
         text: "Systèmes du corps",
       },
       {
-        id: "1ssCt3",
+        id: "1Sante3Pathologies",
         text: "Pathologies",
       },
     ],
   },
   {
-    id: "2b",
+    id: "2Beaute",
     name: "Beauté",
     secondCategory: [
       {
-        id: "2bsCt0",
+        id: "2Beaute0SoinsCheveux",
         text: "Soins des cheveux",
       },
       {
-        id: "2bsCt1",
+        id: "2Beaute1SoinsVisage",
         text: "Soins du visage",
       },
       {
-        id: "2bsCt2",
+        id: "2Beaute2SoinsCorps",
         text: "Soins du corps",
       },
     ],
   },
   {
-    id: "3be",
+    id: "3BienEtre",
     name: "Bien-être",
     secondCategory: [
       {
-        id: "3besCt0",
+        id: "3BienEtre0GestionStress",
         text: "Gestion du stress",
       },
       {
-        id: "3besCt1",
+        id: "3BienEtre1Energie",
         text: "Energie",
       },
       {
-        id: "3besCt2",
+        id: "3BienEtre2FatigueSommeil",
         text: "Fatigue et sommeil",
       },
       {
-        id: "3besCt3",
-        text: "humeur",
+        id: "3BienEtre3Humeur",
+        text: "Humeur",
       },
     ],
   },
   {
-    id: "4he",
+    id: "4HuilesEssentielles",
     name: "Huiles essentielles",
     secondCategory: [
       {
-        id: "4hesCt0",
+        id: "4HuilesEssentielles0MieuxEtre",
         text: "Mieux-être",
       },
       {
-        id: "4hesCt1",
+        id: "4HuilesEssentielles1ProblemesDermathologiquesPoux",
         text: "Problèmes dermathologiques et poux",
       },
       {
-        id: "4hesCt2",
+        id: "4HuilesEssentielles2MauxDivers",
         text: "Maux divers",
       },
     ],
   },
+  {
+    id: "5Purification",
+    name: "Purification",
+    secondCategory: [
+      {
+        id: "5Purification0Air",
+        text: "Air",
+      },
+      {
+        id: "5Purification1Eau",
+        text: "Eau",
+      },
+    ],
+  },
+  {
+    id: "6ProfilsParticuliers",
+    name: "Profils Particuliers",
+    secondCategory: [
+      {
+        id: "6ProfilsParticuliers0Femmes",
+        text: "Femmes",
+      },
+      {
+        id: "6ProfilsParticuliers1Enfants",
+        text: "Enfants",
+      },
+      {
+        id: "6ProfilsParticuliers2Sportifs",
+        text: "Sportifs",
+      },
+    ],
+  },
 ];
-// {
-//     id: "5p",
-//     name: "Purification",
-//     secondCategory: ["Air", "Eau"],
-//   },
-//   {
-//     id: "6e",
-//     name: "Enfants",
-//     secondCategory: ["Santé générale", "Affections cutanées"],
-//   },
-//   {
-//     id: "7s",
-//     name: "Sport",
-//     secondCategory: ["Récupération | Performance", "Substitut de repas"],
-//   },
-//   {
-//     id: "8ps",
-//     name: "Produits de saison",
-//     secondCategory: [
-//       "Crème solaire",
-//       "Aide au bronzage",
-//       "Coup de soleil",
-//       "Piqûres moustique ou guêpes",
-//     ],
-//   },

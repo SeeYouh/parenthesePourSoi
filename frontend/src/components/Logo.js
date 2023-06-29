@@ -4,7 +4,7 @@ import { generalDataImg } from "../data/generalData";
 const Logo = () => {
   return (
     <div id="bgLogo">
-      <div className="positionFixed">
+      <div>
         <div id="leaf">
           <div id="leafBottomLeft">
             <div id="leafBottomLeftImg">
@@ -25,12 +25,14 @@ const Logo = () => {
             </div>
           </div>
         </div>
-        <img
-          id="logoPicture"
-          key={generalDataImg[0].id}
-          src={generalDataImg[0].src}
-          alt={generalDataImg[0].alt}
-        />
+        <div>
+          <img
+            id="logoPicture"
+            key={generalDataImg[0].id}
+            src={generalDataImg[0].src}
+            alt={generalDataImg[0].alt}
+          />
+        </div>
       </div>
     </div>
   );

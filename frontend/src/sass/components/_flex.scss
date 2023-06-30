@@ -1,12 +1,11 @@
 //header
 
-main,
 .textProductCard,
 .arrayProductCard,
 .menuUser,
 .all-menu-navbar,
 .search-bar,
-.navbar,
+// .navbar,
 .menu-navbar,
 .menu-navbar .a,
 .logo {
@@ -18,19 +17,18 @@ main,
 }
 
 .arrayProductCard,
-.navbar,
+// .navbar,
 .menu-navbar {
   flex-direction: row;
 }
 
-main {
-  justify-content: center;
-}
+// main {
+//   align-items: center;
+// }
 
-.arrayProductCard,
-.navbar {
-  justify-content: space-around;
-}
+// .navbar {
+//   justify-content: space-around;
+// }
 
 .menuUser,
 .search-bar {

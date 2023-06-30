@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-
 import Home from "./pages/Home";
 import Navigation from "./components/Navigation";
 

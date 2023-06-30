@@ -26,3 +26,25 @@ $bgColor9: #b1d45a91;
 .positionFixed {
   position: fixed;
 }
+
+main,
+.home,
+#leafBottomLeft,
+#leafTopRight,
+#bgLogo,
+.btn,
+.bgProductCard {
+  position: relative;
+}
+
+.all-menu-navbar,
+#logoPicture,
+.btn-navbar:before,
+#leafTopRightImg,
+#leafBottomLeftImg {
+  position: absolute;
+}
+
+.navbar {
+  position: sticky;
+}

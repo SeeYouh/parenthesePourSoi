@@ -1,5 +1,4 @@
 .btn {
-  position: relative;
   border: transparent;
   background-color: transparent;
 }
@@ -10,13 +9,16 @@
   background: linear-gradient(to top, transparent, $bgColor6, transparent);
 }
 
+input[type="radio"] .active:checked + label {
+  border: 2px solid black;
+}
+
 .btn-navbar {
   margin: 0 10px 0 10px;
   // border: 1px solid black;
 
   &:before {
     content: "";
-    position: absolute;
     bottom: -5px;
     left: 50%;
     width: 0;

@@ -34,7 +34,7 @@ const Product = ({ product, index }) => {
 };
 
 const Card = () => {
-  const { selectedRadio, setSelectedRadio } = useState("");
+  const [selectedRadio, setSelectedRadio] = useState("");
 
   const category = [
     "Gestion du poids",
@@ -43,7 +43,7 @@ const Card = () => {
     "Bien-être",
     "Huiles essentielles",
     "Purification",
-    "Profils particuliers",
+    "Profils Particuliers",
   ];
 
   return (
@@ -54,6 +54,7 @@ const Card = () => {
           key={generalDataImg[3].id}
           src={generalDataImg[3].src}
           alt={generalDataImg[3].alt}
+          onClick={() => setSelectedRadio("")}
         />
 
         <div className="all-menu-navbar">
@@ -66,7 +67,7 @@ const Card = () => {
                 className="active"
                 name="categorie"
                 checked={menu === selectedRadio}
-                onChange={() => setSelectedRadio(menu)}
+                onChange={(e) => setSelectedRadio(e.target.id)}
               />
               <label className="btn btn-navbar" htmlFor={menu}>
                 {menu}
@@ -82,9 +83,13 @@ const Card = () => {
 
       <div className="arrayProductCard">
         {productList
-          // .filter((category) => category.firstCategory[0].includes("santé"))
-          .map((product) => (
-            <Product key={product.id} product={product} />
+          .filter((category) =>
+            selectedRadio
+              ? category.firstCategory.includes(selectedRadio)
+              : true
+          )
+          .map((product, index) => (
+            <Product key={index} product={product} />
           ))}
       </div>
     </main>

@@ -1,5 +1,6 @@
 //header
 
+main,
 .textProductCard,
 .arrayProductCard,
 .menuUser,
@@ -22,6 +23,10 @@
   flex-direction: row;
 }
 
+main {
+  justify-content: center;
+}
+
 .arrayProductCard,
 .navbar {
   justify-content: space-around;
@@ -34,6 +39,10 @@
 
 .menu-navbar {
   justify-content: space-between;
+}
+
+.arrayProductCard {
+  align-content: baseline;
 }
 
 .navbar,

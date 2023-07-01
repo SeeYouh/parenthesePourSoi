@@ -61,7 +61,8 @@ const Card = () => {
           ))}
         </div>
       </div>
-
+      {/* récupère la totalité des sous-menus des produits et les intègres à une
+      balise "li"*/}
       <div className="category">
         {selectedRadio && (
           <div className="subCategory">

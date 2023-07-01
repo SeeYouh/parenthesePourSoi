@@ -16,12 +16,13 @@
   margin: 15px;
   padding: 10px;
   box-shadow: 0 0 2px white;
-  transition: background-color 2s, transform 0.3s, border 1.5s, box-shadow 0.7s;
+  transition: background-color 2s, transform 0.3s, border 1.5s,
+    box-shadow 0.7s ease-in-out;
 }
 
 .bgColorHover {
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
   border: 3px solid $bgColor5;
   transform: scale(1.05);
   box-shadow: 4px 8px 8px $bgColor9;

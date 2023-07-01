@@ -5,6 +5,7 @@ const SubCategory = ({ subCategory }) => {
     <div>
       <ul>
         <h1>{subCategory.name}</h1>
+        <div className="lineBottom"></div>
         <ul>
           {subCategory.secondCategory.map((subCategory, index) => (
             <li key={index}> {subCategory.text} </li>

@@ -109,7 +109,7 @@ export const firstCategoryList = [
   },
   {
     id: "6ProfilsParticuliers",
-    name: "Profils Particuliers",
+    name: "Profils particuliers",
     secondCategory: [
       {
         id: "6ProfilsParticuliers0Femmes",

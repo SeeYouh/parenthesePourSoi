@@ -9,10 +9,6 @@
   background: linear-gradient(to top, transparent, $bgColor6, transparent);
 }
 
-input[type="radio"] .active:checked + label {
-  border: 2px solid black;
-}
-
 .btn-navbar {
   margin: 0 10px 0 10px;
   // border: 1px solid black;
@@ -31,4 +27,8 @@ input[type="radio"] .active:checked + label {
   &:hover:before {
     width: 100%;
   }
+}
+
+.selected:before {
+  width: 100%;
 }

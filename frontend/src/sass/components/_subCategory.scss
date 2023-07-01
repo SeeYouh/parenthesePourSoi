@@ -1,9 +1,11 @@
 .category {
   padding: 15px 20px 0 20px;
   margin: 0 auto;
+  transition: all 0.3s ease-in-out;
 }
 
 .subCategory {
+  display: inline-block;
   width: 300px;
   position: fixed;
   left: 0;
@@ -16,9 +18,7 @@
   border-radius: 5%;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
-  font-size: calc(5px + 1vmin);
-  line-height: calc(5px + 1vmin);
-  transition: border 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   li {
     padding: calc(10px + 1vmin) calc(15px + 1vmin);

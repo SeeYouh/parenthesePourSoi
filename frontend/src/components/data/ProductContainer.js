@@ -4,10 +4,16 @@ import { generalDataImg } from "../../data/generalData";
 import ProductCard from "./ProductCard";
 import SubCategory from "./SubCategory";
 import { firstCategoryList } from "../../data/firstCategoryList";
+import { useHover } from "../utils/useHover";
 
 const Card = () => {
   const [selectedRadio, setSelectedRadio] = useState("");
   const [isActive, setIsActive] = useState(false);
+  const [isHovered, hoverProps] = useHover();
+
+  let subCategryClass = isHovered
+    ? "bgSubCategory subBgColorHover"
+    : "bgSubCategory";
 
   const category = [
     "Gestion du poids",
@@ -63,9 +69,9 @@ const Card = () => {
       </div>
       {/* récupère la totalité des sous-menus des produits et les intègres à une
       balise "li"*/}
-      <div className="category">
+      <div className={`category ${subCategryClass}`} {...hoverProps}>
         {selectedRadio && (
-          <div className="subCategory">
+          <div className={`subCategory ${subCategryClass}`} {...hoverProps}>
             {firstCategoryList
               .filter((category) => category.name.includes(selectedRadio))
               .map((subCategory, index) => (

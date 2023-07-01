@@ -3,11 +3,15 @@
 
 // prettier-ignore
 @import "./utils/variable",
-        "./utils/reset",
+        "./utils/keyframe",
         "./utils/locomotive-scroll";
 
 // prettier-ignore
-@import "./base/body";
+@import "./base/color",
+        "./base/flex",
+        "./base/fonts",
+        "./base/grid",
+        "./base/reset";
 
 // prettier-ignore
 @import "./components/nav",
@@ -16,15 +20,12 @@
 
 // prettier-ignore
 @import "./layout/button",
-        "./layout/color",
-        "./layout/flex",
-        "./layout/fonts",
-        "./layout/grid",
         "./layout/logo",
         "./layout/search";
 
 // prettier-ignore
-@import "./pages/home";
+@import "./pages/body",
+        "./pages/home";
 
 // prettier-ignore
 @import "./themes/largeScreen/logo",

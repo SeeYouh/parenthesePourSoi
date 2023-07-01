@@ -1,0 +1,20 @@
+.category {
+  padding: 15px 20px 0 20px;
+  margin: 0 auto;
+}
+
+.subCategory {
+  flex-grow: 1;
+  min-width: 300px;
+  position: fixed;
+  left: 0;
+  margin-right: calc(10px + 1vmin);
+  margin-left: calc(10px + 1vmin);
+  border: 1px solid black;
+  padding-top: 15px;
+  overflow: hidden;
+
+  li {
+    padding: calc(10px + 1vmin) calc(15px + 1vmin);
+  }
+}

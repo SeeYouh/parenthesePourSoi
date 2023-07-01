@@ -1,5 +1,5 @@
-//header
-
+.category,
+main,
 .textProductCard,
 .arrayProductCard,
 .menuUser,
@@ -12,23 +12,23 @@
   display: flex;
 }
 
+main,
 .textProductCard {
   flex-direction: column;
 }
 
 .arrayProductCard,
-// .navbar,
 .menu-navbar {
   flex-direction: row;
 }
 
-// main {
-//   align-items: center;
-// }
+main {
+  align-items: center;
+}
 
-// .navbar {
-//   justify-content: space-around;
-// }
+.arrayProductCard {
+  justify-content: space-around;
+}
 
 .menuUser,
 .search-bar {

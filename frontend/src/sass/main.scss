@@ -3,27 +3,28 @@
 
 // prettier-ignore
 @import "./utils/variable",
+        "./utils/reset",
         "./utils/locomotive-scroll";
 
 // prettier-ignore
 @import "./base/body";
 
 // prettier-ignore
-@import "./components/button",
-        "./components/flex",
-        "./components/nav",
-        "./components/reset";
+@import "./components/nav",
+        "./components/productCard",
+        "./components/subCategory";
 
 // prettier-ignore
 @import "./layout/button",
         "./layout/color",
+        "./layout/flex",
         "./layout/fonts",
+        "./layout/grid",
         "./layout/logo",
         "./layout/search";
 
 // prettier-ignore
-@import "./pages/productCard",
-        "./pages/home";
+@import "./pages/home";
 
 // prettier-ignore
 @import "./themes/largeScreen/logo",

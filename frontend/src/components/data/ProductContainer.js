@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { productList } from "../../data/productList";
 import { generalDataImg } from "../../data/generalData";
-import ProductContainer from "./ProductCard";
+import ProductCard from "./ProductCard";
+import SubCategory from "./SubCategory";
+import { firstCategoryList } from "../../data/firstCategoryList";
 
 const Card = () => {
   const [selectedRadio, setSelectedRadio] = useState("");
-  // const [setCategoryMenu, setSelectedCategoryMenu] = useState("");
+  const [isActive, setIsActive] = useState(false);
 
   const category = [
     "Gestion du poids",
@@ -25,7 +27,10 @@ const Card = () => {
           key={generalDataImg[3].id}
           src={generalDataImg[3].src}
           alt={generalDataImg[3].alt}
-          onClick={() => setSelectedRadio("")}
+          onClick={() => {
+            setSelectedRadio("");
+            setIsActive(false);
+          }}
         />
 
         <div className="all-menu-navbar">
@@ -38,7 +43,10 @@ const Card = () => {
                 className="active"
                 name="categorie"
                 checked={menu === selectedRadio}
-                onChange={(e) => setSelectedRadio(e.target.id)}
+                onChange={(e) => {
+                  setSelectedRadio(e.target.id);
+                  setIsActive(true);
+                }}
               />
               <label
                 className={`btn btn-navbar ${
@@ -54,17 +62,29 @@ const Card = () => {
         </div>
       </div>
 
-      <div className="arrayProductCard">
-        {productList
-          .filter((category) =>
-            selectedRadio
-              ? category.firstCategory.includes(selectedRadio)
-              : true
-          )
-          .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct))
-          .map((product, index) => (
-            <ProductContainer key={index} product={product} />
-          ))}
+      <div className="category">
+        {selectedRadio && (
+          <div className="subCategory">
+            {firstCategoryList
+              .filter((category) => category.name.includes(selectedRadio))
+              .map((subCategory, index) => (
+                <SubCategory key={index} subCategory={subCategory} />
+              ))}
+          </div>
+        )}
+
+        <div className={`arrayProductCard ${isActive ? "padding-left" : ""}`}>
+          {productList
+            .filter((category) =>
+              selectedRadio
+                ? category.firstCategory.includes(selectedRadio)
+                : true
+            )
+            .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct))
+            .map((product, index) => (
+              <ProductCard key={index} product={product} />
+            ))}
+        </div>
       </div>
     </main>
   );

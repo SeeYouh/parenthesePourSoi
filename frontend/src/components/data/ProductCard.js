@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ProductContainer = ({ product, index }) => {
+const ProductCard = ({ product, index }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -31,4 +31,4 @@ const ProductContainer = ({ product, index }) => {
   );
 };
 
-export default ProductContainer;
+export default ProductCard;

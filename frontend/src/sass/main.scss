@@ -6,29 +6,32 @@
         "./utils/locomotive-scroll";
 
 // prettier-ignore
-@import "./base/body";
+@import "./base/color",
+        "./base/flex",
+        "./base/fonts",
+        "./base/grid",
+        "./base/reset";
 
 // prettier-ignore
-@import "./components/button",
-        "./components/flex",
-        "./components/nav",
-        "./components/reset";
+@import "./components/nav",
+        "./components/productCard",
+        "./components/subCategory";
 
 // prettier-ignore
 @import "./layout/button",
-        "./layout/color",
-        "./layout/fonts",
         "./layout/logo",
         "./layout/search";
 
 // prettier-ignore
-@import "./pages/productCard",
+@import "./pages/body",
         "./pages/home";
 
 // prettier-ignore
 @import "./themes/largeScreen/logo",
-        "./themes/largeScreen/navbar";
+        "./themes/largeScreen/navbar",
+        "./themes/largeScreen/productContainer";
 
 // prettier-ignore
 @import "./themes/smallScreen/logo",
-        "./themes/smallScreen/navbar";
+        "./themes/smallScreen/navbar",
+        "./themes/smallScreen/productContainer";

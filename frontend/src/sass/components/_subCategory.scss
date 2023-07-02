@@ -1,0 +1,17 @@
+.category {
+  padding: 15px 20px 0 20px;
+  margin: 0 auto;
+}
+
+.subCategory {
+  display: inline-block;
+
+  li {
+    padding: calc(10px + 1vmin) calc(15px + 1vmin);
+  }
+
+  h1 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}

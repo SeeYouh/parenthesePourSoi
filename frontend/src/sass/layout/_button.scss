@@ -1,5 +1,4 @@
 .btn {
-  position: relative;
   border: transparent;
   background-color: transparent;
 }
@@ -16,7 +15,6 @@
 
   &:before {
     content: "";
-    position: absolute;
     bottom: -5px;
     left: 50%;
     width: 0;
@@ -29,4 +27,8 @@
   &:hover:before {
     width: 100%;
   }
+}
+
+.selected:before {
+  width: 100%;
 }

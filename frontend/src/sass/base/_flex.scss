@@ -1,29 +1,32 @@
-//header
-
+.category,
+main,
 .textProductCard,
 .arrayProductCard,
 .menuUser,
 .all-menu-navbar,
 .search-bar,
-.navbar,
+// .navbar,
 .menu-navbar,
 .menu-navbar .a,
 .logo {
   display: flex;
 }
 
+main,
 .textProductCard {
   flex-direction: column;
 }
 
 .arrayProductCard,
-.navbar,
 .menu-navbar {
   flex-direction: row;
 }
 
-.arrayProductCard,
-.navbar {
+main {
+  align-items: center;
+}
+
+.arrayProductCard {
   justify-content: space-around;
 }
 
@@ -34,6 +37,10 @@
 
 .menu-navbar {
   justify-content: space-between;
+}
+
+.arrayProductCard {
+  align-content: baseline;
 }
 
 .navbar,

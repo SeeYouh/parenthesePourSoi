@@ -26,3 +26,37 @@ $bgColor9: #b1d45a91;
 .positionFixed {
   position: fixed;
 }
+
+main,
+.home,
+#leafBottomLeft,
+#leafTopRight,
+#bgLogo,
+.btn,
+.bgProductCard {
+  position: relative;
+}
+
+.all-menu-navbar,
+#logoPicture,
+.btn-navbar:before,
+#leafTopRightImg,
+#leafBottomLeftImg {
+  position: absolute;
+}
+
+.navbar {
+  position: sticky;
+}
+
+// Padding
+
+.padding-left {
+  padding-left: 300px;
+}
+
+.lineBottom {
+  background: linear-gradient(to right, transparent, $bgColor5, transparent);
+  width: 100%;
+  height: 3px;
+}

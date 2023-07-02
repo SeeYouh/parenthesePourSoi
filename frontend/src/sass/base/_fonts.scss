@@ -2,6 +2,7 @@ body {
   font-family: "Farro", "Courier New", Courier, monospace;
 }
 
+.subCategory,
 .productCard h1,
 .productCard h2,
 .btn-search,
@@ -12,6 +13,7 @@ body {
 
 //      FONT SIZE      //
 
+.subCategory h1,
 .productCard h1,
 .search-label {
   font-size: 1.4rem;
@@ -21,6 +23,7 @@ body {
   font-size: 0.9rem;
 }
 
+.subCategory,
 .btn-navbar {
   font-size: 1rem;
 }

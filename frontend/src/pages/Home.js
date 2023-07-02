@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../components/data/ProductCard";
+import Card from "../components/data/ProductContainer";
 import Logo from "../components/Logo";
 
 const Home = () => {

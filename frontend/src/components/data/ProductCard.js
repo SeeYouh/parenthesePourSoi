@@ -1,48 +1,30 @@
-import React, { useState } from "react";
-import { productList } from "../../data/productList";
+import { useHover } from "../utils/useHover";
+import { motion } from "framer-motion";
 
-// Nouveau composant pour le produit
-const Product = ({ product, index }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
+const ProductCard = ({ product, index }) => {
+  const [isHovered, hoverProps] = useHover();
 
   let productCardClass = isHovered
     ? "bgProductCard bgColorHover"
     : "bgProductCard";
+
   return (
-    <div
-      className={productCardClass}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+    <motion.div
+      whileHover={{
+        scale: 1.08,
+      }}
     >
-      <div className="productCard">
-        <img key={index} src={product.picture} alt={product.altPicture} />
-        <div className="textProductCard">
-          <h1>{product.nameProduct} </h1>
-          <h2>{product.summary.title} </h2>
+      <div className={productCardClass} {...hoverProps}>
+        <div className="productCard">
+          <img key={index} src={product.picture} alt={product.nameProduct} />
+          <div className="textProductCard">
+            <h1>{product.nameProduct} </h1>
+            <h2>{product.summary.title} </h2>
+          </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
-const Card = () => {
-  return (
-    <main className="arrayProductCard">
-      {Array.from({ length: 20 }).map(() =>
-        productList.map((product) => (
-          <Product key={product.id} product={product} />
-        ))
-      )}
-    </main>
-  );
-};
-
-export default Card;
+export default ProductCard;

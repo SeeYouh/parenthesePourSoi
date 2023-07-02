@@ -1,7 +1,7 @@
 .category {
   padding: 15px 20px 0 20px;
   margin: 0 auto;
-  transition: all 0.3s ease-in-out;
+  // transition: all 0.3s ease-in-out;
 }
 
 .subCategory {
@@ -11,14 +11,14 @@
   left: 0;
   margin-right: calc(10px + 1vmin);
   margin-left: calc(10px + 1vmin);
-  border: 2px solid $bgColor5;
+  border: 3px solid $bgColor5;
   padding-top: 20px;
   padding-bottom: 15px;
   overflow: hidden;
   border-radius: 5%;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
-  transition: all 0.3s ease-in-out;
+  // transition: all 0.3s ease-in-out;
 
   li {
     padding: calc(10px + 1vmin) calc(15px + 1vmin);

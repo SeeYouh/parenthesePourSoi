@@ -5,7 +5,6 @@ import ProductCard from "./ProductCard";
 import SubCategory from "./SubCategory";
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { useHover } from "../utils/useHover";
-import { AnimatePresence, motion } from "framer-motion";
 
 const Card = () => {
   const [selectedRadio, setSelectedRadio] = useState("");
@@ -71,48 +70,28 @@ const Card = () => {
       {/* récupère la totalité des sous-menus des produits et les intègres à une
       balise "li"*/}
       <div className={`category ${subCategryClass}`} {...hoverProps}>
-        <AnimatePresence>
-          {selectedRadio && (
-            <motion.div
-              layout
-              className={`subCategory ${subCategryClass}`}
-              {...hoverProps}
-              initial={{ x: -400, opacity: 1 }}
-              animate={{ x: 0, opacity: 1 }}
-              exit={{ x: -400, opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100 }}
-            >
-              {firstCategoryList
-                .filter((category) => category.name.includes(selectedRadio))
-                .map((subCategory, index) => (
-                  <SubCategory key={index} subCategory={subCategory} />
-                ))}
-            </motion.div>
-          )}
-        </AnimatePresence>
-        <motion.div
-          initial={{ x: 0 }}
-          animate={{ x: isActive ? 300 : 0 }}
-          transition={{ type: "spring", stiffness: 100 }}
-          className="arrayProductCardContainer"
-        >
-          <motion.div
-            initial={{ width: "100%" }}
-            animate={{ width: isActive ? "70%" : "100%" }}
-            className="arrayProductCard"
-          >
-            {productList
-              .filter((category) =>
-                selectedRadio
-                  ? category.firstCategory.includes(selectedRadio)
-                  : true
-              )
-              .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct))
-              .map((product, index) => (
-                <ProductCard key={index} product={product} />
+        {selectedRadio && (
+          <div className={`subCategory ${subCategryClass}`} {...hoverProps}>
+            {firstCategoryList
+              .filter((category) => category.name.includes(selectedRadio))
+              .map((subCategory, index) => (
+                <SubCategory key={index} subCategory={subCategory} />
               ))}
-          </motion.div>
-        </motion.div>
+          </div>
+        )}
+
+        <div className={`arrayProductCard ${isActive ? "padding-left" : ""}`}>
+          {productList
+            .filter((category) =>
+              selectedRadio
+                ? category.firstCategory.includes(selectedRadio)
+                : true
+            )
+            .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct))
+            .map((product, index) => (
+              <ProductCard key={index} product={product} />
+            ))}
+        </div>
       </div>
     </main>
   );

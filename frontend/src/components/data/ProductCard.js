@@ -1,4 +1,5 @@
 import { useHover } from "../utils/useHover";
+import { motion } from "framer-motion";
 
 const ProductCard = ({ product, index }) => {
   const [isHovered, hoverProps] = useHover();
@@ -8,15 +9,21 @@ const ProductCard = ({ product, index }) => {
     : "bgProductCard";
 
   return (
-    <div className={productCardClass} {...hoverProps}>
-      <div className="productCard">
-        <img key={index} src={product.picture} alt={product.nameProduct} />
-        <div className="textProductCard">
-          <h1>{product.nameProduct} </h1>
-          <h2>{product.summary.title} </h2>
+    <motion.div
+      whileHover={{
+        scale: 1.03,
+      }}
+    >
+      <div className={productCardClass} {...hoverProps}>
+        <div className="productCard">
+          <img key={index} src={product.picture} alt={product.nameProduct} />
+          <div className="textProductCard">
+            <h1>{product.nameProduct} </h1>
+            <h2>{product.summary.title} </h2>
+          </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

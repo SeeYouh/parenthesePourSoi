@@ -1,45 +1,24 @@
 import React, { useState, useEffect } from "react";
-import { productList } from "../../data/productList";
-import { generalDataImg } from "../../data/generalData";
-import ProductCard from "./ProductCard";
-import { firstCategoryList } from "../../data/firstCategoryList";
-import { useHover } from "../utils/useHover";
 import { AnimatePresence, motion } from "framer-motion";
 
+import { firstCategoryList } from "../../data/firstCategoryList";
+import { productList } from "../../data/productList";
+import ProductCard from "./ProductCard";
+import { useHover } from "../utils/useHover";
+import NavBarProduct from "./NavBarProduct";
+
 const Card = () => {
-  const [selectedRadio, setSelectedRadio] = useState("");
+  const [selectedRadio] = useState("");
   const [selectedSubRadio, setSelectedSubRadio] = useState("");
-  const [isActive, setIsActive] = useState(false);
+  const [isActive] = useState(false);
   const [isHovered, hoverProps] = useHover();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  const category = [
-    "Gestion du poids",
-    "Santé",
-    "Beauté",
-    "Bien-être",
-    "Huiles essentielles",
-    "Purification",
-    "Profils particuliers",
-  ];
 
   useEffect(() => {
     const handleResizeWidth = () => setWindowWidth(window.innerWidth);
     window.addEventListener("resize", handleResizeWidth);
     return () => window.removeEventListener("resize", handleResizeWidth);
   }, []);
-
-  const handleCategoryChange = (e) => {
-    if (e.target.checked) {
-      setSelectedRadio(e.target.id);
-      setSelectedSubRadio("");
-      setIsActive(true);
-    } else {
-      setSelectedRadio("");
-      setSelectedSubRadio("");
-      setIsActive(false);
-    }
-  };
 
   const handleSubCategoryChange = (e) => {
     if (e.target.checked) {
@@ -62,43 +41,7 @@ const Card = () => {
 
   return (
     <main>
-      <div className="navbar">
-        <img
-          className="logo"
-          key={generalDataImg[3].id}
-          src={generalDataImg[3].src}
-          alt={generalDataImg[3].alt}
-          onClick={() => {
-            setSelectedRadio("");
-            setSelectedSubRadio("");
-            setIsActive(false);
-          }}
-        />
-
-        <div className="all-menu-navbar">
-          {category.map((menu, index) => (
-            <li className={`cursor menu-navbar ${index}`} key={index}>
-              <input
-                type="checkbox"
-                id={menu}
-                className="active"
-                name="categorie"
-                checked={menu === selectedRadio}
-                onChange={handleCategoryChange}
-              />
-              <label
-                className={`btn btn-navbar ${
-                  menu === selectedRadio ? "selected" : ""
-                }`}
-                htmlFor={menu}
-              >
-                {menu}
-              </label>
-              <div className="line"></div>
-            </li>
-          ))}
-        </div>
-      </div>
+      <NavBarProduct />
       <div
         className={`category ${
           isHovered ? "bgSubCategory subBgColorHover" : "bgSubCategory"

@@ -5,18 +5,6 @@
 
 .subCategory {
   display: inline-block;
-  width: 300px;
-  position: fixed;
-  left: 0;
-  margin-right: calc(10px + 1vmin);
-  margin-left: calc(10px + 1vmin);
-  border: 3px solid $bgColor5;
-  padding-top: 20px;
-  padding-bottom: 15px;
-  overflow: hidden;
-  border-radius: 5%;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
 
   li {
     padding: calc(10px + 1vmin) calc(15px + 1vmin);

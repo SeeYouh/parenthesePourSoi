@@ -3,7 +3,6 @@
 
 // prettier-ignore
 @import "./utils/variable",
-        "./utils/keyframe",
         "./utils/locomotive-scroll";
 
 // prettier-ignore
@@ -29,8 +28,10 @@
 
 // prettier-ignore
 @import "./themes/largeScreen/logo",
-        "./themes/largeScreen/navbar";
+        "./themes/largeScreen/navbar",
+        "./themes/largeScreen/productContainer";
 
 // prettier-ignore
 @import "./themes/smallScreen/logo",
-        "./themes/smallScreen/navbar";
+        "./themes/smallScreen/navbar",
+        "./themes/smallScreen/productContainer";

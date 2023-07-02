@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const SubCategory = ({ subCategory }) => {
+  const [selectedRadio, setSelectedRadio] = useState("");
   return (
     <div>
       <ul>
@@ -8,7 +9,26 @@ const SubCategory = ({ subCategory }) => {
         <div className="lineBottom"></div>
         <ul>
           {subCategory.secondCategory.map((subCategory, index) => (
-            <li key={index}> {subCategory.text} </li>
+            <li key={index}>
+              <input
+                className="active"
+                type="radio"
+                name="subCategory"
+                id={subCategory}
+                checked={subCategory === selectedRadio}
+                onChange={(e) => {
+                  setSelectedRadio(e.target.id);
+                }}
+              />
+              <label
+                className={`btn btn-navbar ${
+                  subCategory === selectedRadio ? "selected" : ""
+                }`}
+                htmlFor={subCategory}
+              >
+                {subCategory.text}{" "}
+              </label>
+            </li>
           ))}
         </ul>
       </ul>

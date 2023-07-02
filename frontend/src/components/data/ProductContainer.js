@@ -1,20 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { productList } from "../../data/productList";
 import { generalDataImg } from "../../data/generalData";
 import ProductCard from "./ProductCard";
-import SubCategory from "./SubCategory";
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { useHover } from "../utils/useHover";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Card = () => {
   const [selectedRadio, setSelectedRadio] = useState("");
+  const [selectedSubRadio, setSelectedSubRadio] = useState("");
   const [isActive, setIsActive] = useState(false);
   const [isHovered, hoverProps] = useHover();
-
-  let subCategryClass = isHovered
-    ? "bgSubCategory subBgColorHover"
-    : "bgSubCategory";
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const category = [
     "Gestion du poids",
@@ -26,6 +23,42 @@ const Card = () => {
     "Profils particuliers",
   ];
 
+  useEffect(() => {
+    const handleResizeWidth = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResizeWidth);
+    return () => window.removeEventListener("resize", handleResizeWidth);
+  }, []);
+
+  const handleCategoryChange = (e) => {
+    if (e.target.checked) {
+      setSelectedRadio(e.target.id);
+      setSelectedSubRadio("");
+      setIsActive(true);
+    } else {
+      setSelectedRadio("");
+      setIsActive(false);
+    }
+  };
+
+  const handleSubCategoryChange = (e) => {
+    if (e.target.checked) {
+      setSelectedSubRadio(e.target.id);
+    } else {
+      setSelectedSubRadio("");
+    }
+  };
+
+  const filteredProducts = productList
+    .filter((product) =>
+      selectedRadio ? product.firstCategory.includes(selectedRadio) : true
+    )
+    .filter((product) =>
+      selectedSubRadio
+        ? product.secondCategory.includes(selectedSubRadio)
+        : true
+    )
+    .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct));
+
   return (
     <main>
       <div className="navbar">
@@ -36,24 +69,21 @@ const Card = () => {
           alt={generalDataImg[3].alt}
           onClick={() => {
             setSelectedRadio("");
+            setSelectedSubRadio("");
             setIsActive(false);
           }}
         />
 
         <div className="all-menu-navbar">
-          {/* récupère la totalité des menus des produits et les intègres à une balise "li" */}
           {category.map((menu, index) => (
             <li className={`cursor menu-navbar ${index}`} key={index}>
               <input
-                type="radio"
+                type="checkbox"
                 id={menu}
                 className="active"
                 name="categorie"
                 checked={menu === selectedRadio}
-                onChange={(e) => {
-                  setSelectedRadio(e.target.id);
-                  setIsActive(true);
-                }}
+                onChange={handleCategoryChange}
               />
               <label
                 className={`btn btn-navbar ${
@@ -68,49 +98,96 @@ const Card = () => {
           ))}
         </div>
       </div>
-      {/* récupère la totalité des sous-menus des produits et les intègres à une
-      balise "li"*/}
-      <div className={`category ${subCategryClass}`} {...hoverProps}>
+      <div
+        className={`category ${
+          isHovered ? "bgSubCategory subBgColorHover" : "bgSubCategory"
+        }`}
+        {...hoverProps}
+      >
         <AnimatePresence>
           {selectedRadio && (
             <motion.div
               layout
-              className={`subCategory ${subCategryClass}`}
+              className={`subCategory ${
+                isHovered ? "bgSubCategory subBgColorHover" : "bgSubCategory"
+              }`}
               {...hoverProps}
-              initial={{ x: -400, opacity: 1 }}
-              animate={{ x: 0, opacity: 1 }}
-              exit={{ x: -400, opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100 }}
+              initial={{ x: -150 }}
+              animate={{
+                x: 0,
+              }}
+              exit={{
+                x: isActive ? "-100vw" : -150,
+              }}
             >
               {firstCategoryList
                 .filter((category) => category.name.includes(selectedRadio))
-                .map((subCategory, index) => (
-                  <SubCategory key={index} subCategory={subCategory} />
+                .map((subCategory) => (
+                  <div key={subCategory.id}>
+                    <ul>
+                      <h1>{subCategory.name}</h1>
+                      <div className="lineBottom"></div>
+                      <ul>
+                        {subCategory.secondCategory.map(
+                          (subCategory, index) => (
+                            <li key={index}>
+                              <input
+                                className="active"
+                                type="checkbox"
+                                name="subCategory"
+                                id={subCategory.text}
+                                checked={subCategory.text === selectedSubRadio}
+                                onChange={handleSubCategoryChange}
+                              />
+                              <label
+                                className={`btn btn-navbar ${
+                                  subCategory.text === selectedSubRadio
+                                    ? "selected"
+                                    : ""
+                                }`}
+                                htmlFor={subCategory.text}
+                              >
+                                {subCategory.text}{" "}
+                              </label>
+                            </li>
+                          )
+                        )}
+                      </ul>
+                    </ul>
+                  </div>
                 ))}
             </motion.div>
           )}
         </AnimatePresence>
         <motion.div
           initial={{ x: 0 }}
-          animate={{ x: isActive ? 300 : 0 }}
-          transition={{ type: "spring", stiffness: 100 }}
+          animate={{
+            x:
+              isActive && windowWidth >= 1073 && windowWidth < 1339
+                ? 300
+                : isActive && windowWidth >= 1340 && windowWidth < 1712
+                ? 150
+                : 0,
+          }}
           className="arrayProductCardContainer"
         >
           <motion.div
             initial={{ width: "100%" }}
-            animate={{ width: isActive ? "70%" : "100%" }}
+            animate={{
+              width:
+                isActive && windowWidth <= 1072
+                  ? "100%"
+                  : isActive && windowWidth >= 1073 && windowWidth <= 1339
+                  ? "70%"
+                  : isActive && windowWidth >= 1340 && windowWidth < 1600
+                  ? "80%"
+                  : "100%",
+            }}
             className="arrayProductCard"
           >
-            {productList
-              .filter((category) =>
-                selectedRadio
-                  ? category.firstCategory.includes(selectedRadio)
-                  : true
-              )
-              .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct))
-              .map((product, index) => (
-                <ProductCard key={index} product={product} />
-              ))}
+            {filteredProducts.map((product, index) => (
+              <ProductCard key={index} product={product} />
+            ))}
           </motion.div>
         </motion.div>
       </div>

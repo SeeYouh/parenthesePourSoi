@@ -11,7 +11,7 @@ const ProductCard = ({ product, index }) => {
   return (
     <motion.div
       whileHover={{
-        scale: 1.03,
+        scale: 1.08,
       }}
     >
       <div className={productCardClass} {...hoverProps}>

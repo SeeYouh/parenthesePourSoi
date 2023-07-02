@@ -36,6 +36,7 @@ const Card = () => {
       setIsActive(true);
     } else {
       setSelectedRadio("");
+      setSelectedSubRadio("");
       setIsActive(false);
     }
   };

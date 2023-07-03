@@ -8,6 +8,7 @@ const ProductCardList = ({
   selectedRadio,
   setSelectedRadio,
   selectedSubRadio,
+  setSelectedSubRadio,
   selectedProduct,
   setSelectedProduct,
   isActive,
@@ -16,9 +17,18 @@ const ProductCardList = ({
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const handleProductClick = (uniqueProduct) => {
+    console.log("handleProductClick called with product:", uniqueProduct);
+    console.log(
+      "setSelectedRadio called with product:",
+      uniqueProduct.firstCategory
+    );
+    console.log(
+      "setSelectedSubRadio called with product:",
+      uniqueProduct.secondCategory
+    );
     setSelectedProduct(uniqueProduct);
     setSelectedRadio(uniqueProduct.firstCategory);
-    setSelectedRadio(uniqueProduct.secondCategory);
+    setSelectedSubRadio(uniqueProduct.secondCategory);
     setIsActive(true);
   };
 

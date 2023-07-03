@@ -1,7 +1,7 @@
 import { useHover } from "../utils/useHover";
 import { motion } from "framer-motion";
 
-const ProductCard = ({ product, index }) => {
+const ProductCard = ({ product, onProductClick, index }) => {
   const [isHovered, hoverProps] = useHover();
 
   let productCardClass = isHovered
@@ -10,6 +10,7 @@ const ProductCard = ({ product, index }) => {
 
   return (
     <motion.div
+      onClick={() => onProductClick(product)}
       whileHover={{
         scale: 1.08,
       }}

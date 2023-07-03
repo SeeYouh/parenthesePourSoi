@@ -5,10 +5,12 @@ import ProductCard from "./ProductCard";
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { useHover } from "../utils/useHover";
 import { AnimatePresence, motion } from "framer-motion";
+import ProductDetails from "../ProductDetails";
 
 const Card = () => {
   const [selectedRadio, setSelectedRadio] = useState("");
   const [selectedSubRadio, setSelectedSubRadio] = useState("");
+  const [selectedProduct, setSelectedProduct] = useState("");
   const [isActive, setIsActive] = useState(false);
   const [isHovered, hoverProps] = useHover();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -33,10 +35,12 @@ const Card = () => {
     if (e.target.checked) {
       setSelectedRadio(e.target.id);
       setSelectedSubRadio("");
+      setSelectedProduct("");
       setIsActive(true);
     } else {
       setSelectedRadio("");
       setSelectedSubRadio("");
+      setSelectedProduct("");
       setIsActive(false);
     }
   };
@@ -45,17 +49,27 @@ const Card = () => {
     if (e.target.checked) {
       setSelectedSubRadio(e.target.id);
     } else {
+      setSelectedRadio("");
       setSelectedSubRadio("");
+      setSelectedProduct("");
+      setIsActive(false);
     }
   };
 
+  const handleProductClick = (uniqueProduct) => {
+    setSelectedProduct(uniqueProduct);
+    setSelectedRadio(uniqueProduct.firstCategory);
+    setSelectedSubRadio(uniqueProduct.secondCategory);
+    setIsActive(true);
+  };
+
   const filteredProducts = productList
-    .filter((product) =>
-      selectedRadio ? product.firstCategory.includes(selectedRadio) : true
+    .filter((productList) =>
+      selectedRadio ? productList.firstCategory.includes(selectedRadio) : true
     )
-    .filter((product) =>
+    .filter((productList) =>
       selectedSubRadio
-        ? product.secondCategory.includes(selectedSubRadio)
+        ? productList.secondCategory.includes(selectedSubRadio)
         : true
     )
     .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct));
@@ -71,6 +85,7 @@ const Card = () => {
           onClick={() => {
             setSelectedRadio("");
             setSelectedSubRadio("");
+            setSelectedProduct("");
             setIsActive(false);
           }}
         />
@@ -160,6 +175,7 @@ const Card = () => {
             </motion.div>
           )}
         </AnimatePresence>
+
         <motion.div
           initial={{ x: 0 }}
           animate={{
@@ -186,9 +202,17 @@ const Card = () => {
             }}
             className="arrayProductCard"
           >
-            {filteredProducts.map((product, index) => (
-              <ProductCard key={index} product={product} />
-            ))}
+            {selectedProduct ? (
+              <ProductDetails product={selectedProduct} />
+            ) : (
+              filteredProducts.map((productDetails, index) => (
+                <ProductCard
+                  key={index}
+                  product={productDetails}
+                  onProductClick={handleProductClick}
+                />
+              ))
+            )}
           </motion.div>
         </motion.div>
       </div>

@@ -51,7 +51,7 @@ export const productList = [
       getSecondCategoryById("1Sante2SystemesCorps").text,
       getSecondCategoryById("1Sante3Pathologies").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Détox’.png",
   },
   {
     nameProduct: "BB",
@@ -86,7 +86,7 @@ export const productList = [
       getSecondCategoryById("3BienEtre1Energie").text,
       getSecondCategoryById("6ProfilsParticuliers1Enfants").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/BB.png",
   },
   {
     nameProduct: "Mère de Tous",
@@ -124,7 +124,7 @@ export const productList = [
       getSecondCategoryById("6ProfilsParticuliers0Femmes").text,
       getSecondCategoryById("6ProfilsParticuliers1Enfants").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Mère de Tous.png",
   },
   {
     nameProduct: "Booster d’énergie",
@@ -166,7 +166,7 @@ export const productList = [
       getSecondCategoryById("6ProfilsParticuliers0Femmes").text,
       getSecondCategoryById("6ProfilsParticuliers1Enfants").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Booster d’énergie.png",
   },
   {
     nameProduct: "Collagène",
@@ -198,7 +198,7 @@ export const productList = [
       getSecondCategoryById("2Beaute1SoinsVisage").text,
       getSecondCategoryById("2Beaute2SoinsCorps").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Collagène.png",
   },
   {
     nameProduct: "Régénérateur cellulaire",
@@ -235,7 +235,7 @@ export const productList = [
       getSecondCategoryById("3BienEtre1Energie").text,
       getSecondCategoryById("6ProfilsParticuliers1Enfants").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Régénérateur cellulaire.png",
   },
   {
     nameProduct: "Bien-être intérieur",
@@ -269,7 +269,7 @@ export const productList = [
       getSecondCategoryById("3BienEtre2FatigueSommeil").text,
       getSecondCategoryById("6ProfilsParticuliers0Femmes").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Bien-être-intérieur.png",
   },
   {
     nameProduct: "Equilibre corps et esprit",
@@ -301,7 +301,7 @@ export const productList = [
       getSecondCategoryById("3BienEtre3Humeur").text,
       getSecondCategoryById("6ProfilsParticuliers0Femmes").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Equilibre corps et esprit.png",
   },
   {
     nameProduct: "Gouttes minceur",
@@ -336,7 +336,7 @@ export const productList = [
       getSecondCategoryById("3BienEtre1Energie").text,
       getSecondCategoryById("3BienEtre3Humeur").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Gouttes minceur.png",
   },
   {
     nameProduct: "Harmonie",
@@ -375,7 +375,7 @@ export const productList = [
       getSecondCategoryById("3BienEtre3Humeur").text,
       getSecondCategoryById("6ProfilsParticuliers0Femmes").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Harmonie.png",
   },
   {
     nameProduct: "Os et Muscles",
@@ -412,6 +412,6 @@ export const productList = [
       getSecondCategoryById("3BienEtre0GestionStress").text,
       getSecondCategoryById("6ProfilsParticuliers0Femmes").text,
     ],
-    picture: "./img/png/product/0_1_white.png",
+    picture: "./img/png/product/Os et Muscles.png",
   },
 ];

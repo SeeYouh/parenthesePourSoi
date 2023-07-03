@@ -1,13 +1,13 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
 
-export function MouseFollower({ src, alt, className }) {
+export function MouseFollower({ src, alt, className, scaleFactor }) {
   // Créez des valeurs de mouvement pour la position x et y de la souris
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
   // Inversez les valeurs de x et y
-  const invertedX = useTransform(x, (value) => -value);
-  const invertedY = useTransform(y, (value) => -value);
+  const invertedX = useTransform(x, (value) => -value * scaleFactor);
+  const invertedY = useTransform(y, (value) => -value * scaleFactor);
 
   return (
     <motion.div

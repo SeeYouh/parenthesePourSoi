@@ -1,8 +1,6 @@
 import React from "react";
-import { MouseFollower } from "./utils/MouseFollower";
 
 const ProductDetails = (productDescription, index) => {
-  console.log(MouseFollower);
   return (
     <div className="bgProductDetails">
       <img
@@ -19,5 +17,4 @@ const ProductDetails = (productDescription, index) => {
     </div>
   );
 };
-
 export default ProductDetails;

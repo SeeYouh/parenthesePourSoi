@@ -1,10 +1,8 @@
 import React from "react";
-import { MouseFollower } from "./utils/MouseFollower";
 
 const ProductDetails = (productDescription, index) => {
-  const MouseFollower = console.log(MouseFollower);
   return (
-    <div>
+    <div className="bgProductDetails">
       <img
         src={productDescription.product.picture}
         alt={productDescription.nameProduct}
@@ -16,13 +14,7 @@ const ProductDetails = (productDescription, index) => {
           <p key={index}>{productDescription.text}</p>
         )
       )}
-      <MouseFollower
-        className="bg-img-blur-desaturate"
-        src={productDescription.product.picture}
-        alt={productDescription.nameProduct}
-      />
     </div>
   );
 };
-
 export default ProductDetails;

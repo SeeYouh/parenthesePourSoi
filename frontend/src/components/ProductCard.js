@@ -1,4 +1,4 @@
-import { useHover } from "../utils/useHover";
+import { useHover } from "./utils/useHover";
 import { motion } from "framer-motion";
 
 const ProductCard = ({ product, index }) => {

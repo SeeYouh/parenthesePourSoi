@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { productList } from "../../data/productList";
 import { generalDataImg } from "../../data/generalData";
-import ProductCard from "./ProductCard";
+import ProductCard from "../ProductCard";
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { useHover } from "../utils/useHover";
 import { AnimatePresence, motion } from "framer-motion";
@@ -12,16 +12,6 @@ const Card = () => {
   const [isActive, setIsActive] = useState(false);
   const [isHovered, hoverProps] = useHover();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  const category = [
-    "Gestion du poids",
-    "Santé",
-    "Beauté",
-    "Bien-être",
-    "Huiles essentielles",
-    "Purification",
-    "Profils particuliers",
-  ];
 
   useEffect(() => {
     const handleResizeWidth = () => setWindowWidth(window.innerWidth);
@@ -76,23 +66,23 @@ const Card = () => {
         />
 
         <div className="all-menu-navbar">
-          {category.map((menu, index) => (
+          {firstCategoryList.map((menu, index) => (
             <li className={`cursor menu-navbar ${index}`} key={index}>
               <input
                 type="checkbox"
-                id={menu}
+                id={menu.name}
                 className="active"
                 name="categorie"
-                checked={menu === selectedRadio}
+                checked={menu.name === selectedRadio}
                 onChange={handleCategoryChange}
               />
               <label
                 className={`btn btn-navbar ${
-                  menu === selectedRadio ? "selected" : ""
+                  menu.name === selectedRadio ? "selected" : ""
                 }`}
-                htmlFor={menu}
+                htmlFor={menu.name}
               >
-                {menu}
+                {menu.name}
               </label>
               <div className="line"></div>
             </li>

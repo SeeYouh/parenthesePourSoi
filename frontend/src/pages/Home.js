@@ -4,7 +4,7 @@ import Logo from "../components/Logo";
 
 const Home = () => {
   return (
-    <div data-scroll-section>
+    <div>
       <div className="bgWhite">
         <Logo />
         <Card />

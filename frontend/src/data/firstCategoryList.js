@@ -29,10 +29,6 @@ export const firstCategoryList = [
         id: "1Sante2SystemesCorps",
         text: "Systèmes du corps",
       },
-      {
-        id: "1Sante3Pathologies",
-        text: "Pathologies",
-      },
     ],
   },
   {
@@ -111,10 +107,6 @@ export const firstCategoryList = [
     id: "6ProfilsParticuliers",
     name: "Profils particuliers",
     secondCategory: [
-      {
-        id: "6ProfilsParticuliers0Femmes",
-        text: "Femmes",
-      },
       {
         id: "6ProfilsParticuliers1Enfants",
         text: "Enfants",

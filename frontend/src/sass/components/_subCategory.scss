@@ -1,10 +1,13 @@
 .category {
   padding: 15px 20px 0 20px;
-  margin: 0 auto;
+  position: relative;
+  // margin: 0 auto;
 }
 
 .subCategory {
   display: inline-block;
+  z-index: 1;
+  background-color: $bgColor7;
 
   li {
     padding: calc(10px + 1vmin) calc(15px + 1vmin);

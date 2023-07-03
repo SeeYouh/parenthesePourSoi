@@ -17,6 +17,8 @@ const SecondCategoryNavBar = ({
     console.log("handleSubCategoryChange called with event:", e);
     if (e.target.id) {
       setSelectedSubRadio(e.target.id);
+      setSelectedProduct("");
+      setIsActive(true);
     } else {
       setSelectedRadio("");
       setSelectedSubRadio("");

@@ -4,7 +4,7 @@ import { MouseFollower } from "./utils/MouseFollower";
 const ProductDetails = (productDescription, index) => {
   console.log(MouseFollower);
   return (
-    <div>
+    <div className="bgProductDetails">
       <img
         src={productDescription.product.picture}
         alt={productDescription.nameProduct}

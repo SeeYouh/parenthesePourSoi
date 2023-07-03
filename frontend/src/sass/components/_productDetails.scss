@@ -1,0 +1,14 @@
+.bg-img-blur-desaturate {
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(10px) grayscale(100%);
+  -webkit-filter: blur(10px) grayscale(100%);
+  -moz-filter: blur(10px) grayscale(100%);
+  -o-filter: blur(10px) grayscale(100%);
+  -ms-filter: blur(10px) grayscale(100%);
+  position: absolute;
+  top: 0;
+  left: -300px;
+  width: auto;
+  height: 100%;
+}

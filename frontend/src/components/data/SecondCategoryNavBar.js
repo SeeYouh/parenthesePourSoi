@@ -5,13 +5,14 @@ import { firstCategoryList } from "../../data/firstCategoryList";
 const SecondCategoryNavBar = ({
   selectedRadio,
   setSelectedRadio,
+  selectedSubRadio,
   setSelectedSubRadio,
+  selectedProduct,
   setSelectedProduct,
   isActive,
   setIsActive,
   isHovered,
   hoverProps,
-  selectedSubRadio,
 }) => {
   const handleSubCategoryChange = (e) => {
     console.log("handleSubCategoryChange called with event:", e);

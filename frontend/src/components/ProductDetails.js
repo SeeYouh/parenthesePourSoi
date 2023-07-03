@@ -14,6 +14,11 @@ const ProductDetails = (productDescription, index) => {
           <p key={index}>{productDescription.text}</p>
         )
       )}
+      <img
+        className="bg-img-blur-desaturate"
+        src={productDescription.product.picture}
+        alt={productDescription.nameProduct}
+      />
     </div>
   );
 };

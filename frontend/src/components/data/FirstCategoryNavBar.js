@@ -42,10 +42,10 @@ const FirstCategoryNavBar = ({
         {firstCategoryList.map((menu, index) => (
           <li className={`cursor menu-navbar ${index}`} key={index}>
             <input
-              type="checkbox"
-              id={menu.name}
               className="active"
+              type="checkbox"
               name="categorie"
+              id={menu.name}
               checked={menu.name === selectedRadio}
               onChange={handleCategoryChange}
             />

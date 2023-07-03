@@ -16,19 +16,16 @@ const ProductCardList = ({
 }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  const handleProductClick = (uniqueProduct) => {
-    console.log("handleProductClick called with product:", uniqueProduct);
-    console.log(
-      "setSelectedRadio called with product:",
-      uniqueProduct.firstCategory
-    );
+  const handleProductClick = (product) => {
+    console.log("handleProductClick called with product:", product);
+    console.log("setSelectedRadio called with product:", product.firstCategory);
     console.log(
       "setSelectedSubRadio called with product:",
-      uniqueProduct.secondCategory
+      product.secondCategory
     );
-    setSelectedProduct(uniqueProduct);
-    setSelectedRadio(uniqueProduct.firstCategory);
-    setSelectedSubRadio(uniqueProduct.secondCategory);
+    setSelectedProduct(product);
+    setSelectedRadio(product.firstCategory[0]);
+    setSelectedSubRadio(product.secondCategory[0]);
     setIsActive(true);
   };
 

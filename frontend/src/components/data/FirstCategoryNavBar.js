@@ -38,7 +38,7 @@ const FirstCategoryNavBar = ({
         }}
       />
 
-      <div className="all-menu-navbar">
+      <div className="no-select all-menu-navbar">
         {firstCategoryList.map((menu, index) => (
           <li className={`cursor menu-navbar ${index}`} key={index}>
             <input

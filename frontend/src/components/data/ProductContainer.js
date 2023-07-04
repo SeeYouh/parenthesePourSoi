@@ -24,10 +24,10 @@ const Card = () => {
         setIsActive={setIsActive}
       />
       <div
-        className={`category ${
-          isHovered ? "bgSubCategory subBgColorHover" : "bgSubCategory"
-        }`}
-        {...hoverProps}
+      // className={`category ${
+      //   isHovered ? "bgSubCategory subBgColorHover" : "bgSubCategory"
+      // }`}
+      // {...hoverProps}
       >
         <SecondCategoryNavBar
           selectedRadio={selectedRadio}

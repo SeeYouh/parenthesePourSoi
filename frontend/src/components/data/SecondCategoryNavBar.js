@@ -4,24 +4,21 @@ import { firstCategoryList } from "../../data/firstCategoryList";
 
 const SecondCategoryNavBar = ({
   selectedRadio,
-  setSelectedRadio,
   selectedSubRadio,
   setSelectedSubRadio,
   setSelectedProduct,
   isActive,
   setIsActive,
-  isHovered,
-  hoverProps,
 }) => {
   const handleSubCategoryChange = (e) => {
     console.log("handleSubCategoryChange called with event:", e);
-    if (e.target.id) {
+    if (e.target.checked) {
       setSelectedSubRadio(e.target.id);
+      setSelectedProduct("");
+      setIsActive(true);
     } else {
-      setSelectedRadio("");
       setSelectedSubRadio("");
       setSelectedProduct("");
-      setIsActive(false);
     }
   };
 
@@ -29,11 +26,7 @@ const SecondCategoryNavBar = ({
     <AnimatePresence>
       {selectedRadio && (
         <motion.div
-          layout
-          className={`subCategory ${
-            isHovered ? "bgSubCategory subBgColorHover" : "bgSubCategory"
-          }`}
-          {...hoverProps}
+          className="no-select subCategory"
           initial={{ x: -150 }}
           animate={{
             x: 0,
@@ -68,7 +61,7 @@ const SecondCategoryNavBar = ({
                           }`}
                           htmlFor={subCategory.text}
                         >
-                          {subCategory.text}{" "}
+                          {subCategory.text}
                         </label>
                       </li>
                     ))}

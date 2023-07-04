@@ -1,16 +1,9 @@
 import React from "react";
 import { generalDataImg } from "../data/generalData";
-import { motion, useScroll } from "framer-motion";
 
 const Logo = () => {
-  const scrollYProgress = useScroll();
-
   return (
     <>
-      <motion.div
-        className="progressBar"
-        style={{ scaleX: scrollYProgress }}
-      ></motion.div>
       <div id="bgLogo">
         <div>
           <div id="leaf">

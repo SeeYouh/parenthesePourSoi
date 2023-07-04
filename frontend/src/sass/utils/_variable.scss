@@ -71,12 +71,13 @@ main,
 }
 
 .progressBar {
-  height: 20px;
+  z-index: 1000;
+  height: 10px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   overflow: hidden;
-  background-color: green;
+  background-color: $bgColor5;
   transform-origin: 0%;
 }

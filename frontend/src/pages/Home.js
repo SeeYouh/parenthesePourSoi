@@ -9,7 +9,6 @@ const Home = () => {
     stiffness: 100,
     damping: 30,
   });
-  // const scrollYProgress = useScroll();
 
   return (
     <>

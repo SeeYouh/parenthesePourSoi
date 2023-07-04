@@ -18,12 +18,12 @@ function Image({ id }) {
   const y = useParallax(scrollYProgress, 840);
 
   return (
-    <section>
+    <>
       <div ref={ref}>
         <img src={`/${id}.jpg`} alt="Un gratte-ciel de Londres" />
       </div>
       <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
-    </section>
+    </>
   );
 }
 

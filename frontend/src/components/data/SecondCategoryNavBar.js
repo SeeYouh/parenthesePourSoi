@@ -11,7 +11,6 @@ const SecondCategoryNavBar = ({
   setIsActive,
 }) => {
   const handleSubCategoryChange = (e) => {
-    console.log("handleSubCategoryChange called with event:", e);
     if (e.target.checked) {
       setSelectedSubRadio(e.target.id);
       setSelectedProduct("");
@@ -27,12 +26,14 @@ const SecondCategoryNavBar = ({
       {selectedRadio && (
         <motion.div
           className="no-select subCategory"
-          initial={{ x: -150 }}
+          initial={{ x: -450 }}
           animate={{
             x: 0,
+            transition: { duration: 0.5 },
           }}
           exit={{
-            x: isActive ? "-100vw" : -150,
+            x: isActive ? "-100vw" : -450,
+            transition: { duration: 0.5 },
           }}
         >
           {firstCategoryList

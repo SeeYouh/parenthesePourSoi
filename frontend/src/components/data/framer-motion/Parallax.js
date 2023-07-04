@@ -15,15 +15,19 @@ function Image({ id }) {
   // useScroll est utilisé pour obtenir la valeur de défilement de l'élément référencé.
   const { scrollYProgress } = useScroll({ target: ref });
   // useParallax est utilisé pour obtenir la valeur de déplacement pour l'effet de parallaxe.
-  const y = useParallax(scrollYProgress, 840);
+  const y = useParallax(scrollYProgress, 50);
 
   return (
-    <section>
+    <>
       <div ref={ref}>
-        <img src={`/${id}.jpg`} alt="Un gratte-ciel de Londres" />
+        <img
+          src={`../../../../../public/img/png/leafBottomLeft${id}.png`}
+          alt="feuille"
+        />
+        {/* <img src={`./${id}.jpg`} alt="Un gratte-ciel de Londres" /> */}
       </div>
       <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
-    </section>
+    </>
   );
 }
 

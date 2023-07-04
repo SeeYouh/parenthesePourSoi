@@ -69,3 +69,15 @@ main,
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
 }
+
+.progressBar {
+  z-index: 1000;
+  height: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: $bgColor5;
+  transform-origin: 0%;
+}

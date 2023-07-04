@@ -1,5 +1,5 @@
-body {
-  font-family: "Farro", "Courier New", Courier, monospace;
+#root {
+  font-family: "Farro", sans-serif;
 }
 
 .subCategory,
@@ -9,6 +9,10 @@ body {
 .search-label,
 .btn-navbar {
   font-weight: bold;
+}
+
+#root {
+  font-weight: lighter;
 }
 
 //      FONT SIZE      //

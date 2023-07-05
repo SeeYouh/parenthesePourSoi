@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { generalDataImg } from "../../data/generalData";
+import { RadioContext } from "../utils/radioContext";
 
-const FirstCategoryNavBar = ({
-  selectedRadio,
-  setSelectedRadio,
-  setSelectedSubRadio,
-  setSelectedProduct,
-  setIsActive,
-}) => {
+const FirstCategoryNavBar = () => {
+  const {
+    selectedRadio,
+    setSelectedRadio,
+    setSelectedSubRadio,
+    setSelectedProduct,
+    setIsActive,
+  } = useContext(RadioContext);
+
   const handleCategoryChange = (e) => {
     if (e.target.checked) {
       setSelectedRadio(e.target.id);

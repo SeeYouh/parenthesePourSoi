@@ -24,7 +24,7 @@ const FirstCategoryNavBar = ({
   };
 
   return (
-    <div className="navbar">
+    <div className="navbar positionFixed">
       <img
         className="logo"
         key={generalDataImg[3].id}

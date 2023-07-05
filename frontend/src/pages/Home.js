@@ -1,8 +1,7 @@
 import React from "react";
-import Card from "../components/data/ProductContainer";
+import Card from "../components/data/Card";
 import Logo from "../components/Logo";
 import { motion, useScroll, useSpring } from "framer-motion";
-import Parallax from "../components/data/framer-motion/Parallax";
 
 const Home = () => {
   const { scrollYProgress } = useScroll();
@@ -15,7 +14,6 @@ const Home = () => {
     <>
       <motion.div className="progressBar" style={{ scaleX }}></motion.div>
       <div className="bgWhite">
-        <Parallax />
         <Logo />
         <Card />
       </div>

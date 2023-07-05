@@ -4,12 +4,20 @@ export const firstCategoryList = [
     name: "Gestion du poids",
     secondCategory: [
       {
-        id: "0GestionDuPoids0CureMinceur",
-        text: "Cure minceur",
+        id: "0GestionDuPoids0Detoxification",
+        text: "Détoxification",
       },
       {
-        id: "0GestionDuPoids1PriseDePoids",
-        text: "Prise de poids",
+        id: "0GestionDuPoids1AidePertePoids",
+        text: "Aide perte de poids",
+      },
+      {
+        id: "0GestionDuPoids2Grignotage",
+        text: "Grignotage",
+      },
+      {
+        id: "0GestionDuPoids3SubstitutRepas",
+        text: "Substitut de repas",
       },
     ],
   },
@@ -104,16 +112,20 @@ export const firstCategoryList = [
     ],
   },
   {
-    id: "6ProfilsParticuliers",
-    name: "Profils particuliers",
+    id: "6Sportifs",
+    name: "Sportifs",
     secondCategory: [
       {
-        id: "6ProfilsParticuliers1Enfants",
-        text: "Enfants",
+        id: "6Sportifs0RécupérationPerformance",
+        text: "Récupération / Performance",
       },
       {
-        id: "6ProfilsParticuliers2Sportifs",
-        text: "Sportifs",
+        id: "6Sportifs1SubstitutRepas",
+        text: "Substitut de repas",
+      },
+      {
+        id: "6Sportifs2SoulagementDouleurs",
+        text: "Soulagement douleurs",
       },
     ],
   },

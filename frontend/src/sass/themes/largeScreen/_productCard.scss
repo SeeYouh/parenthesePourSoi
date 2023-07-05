@@ -9,11 +9,10 @@
 }
 
 .imgProduit {
-  background: url("../../../../public/img/png/product/Détox’.png") no-repeat
-    50px;
+  background: no-repeat url("../../../../public/img/png/product/Détox’.png");
   width: 100%;
   height: 500px;
-  background-position: left;
+  background-position: center;
   background-size: 350px;
   // border: 1px solid black;
 }
@@ -25,6 +24,7 @@
   justify-content: center;
 
   h1 {
+    color: $bgColor5;
     font-size: 4rem;
     font-weight: 700;
     margin: 0;

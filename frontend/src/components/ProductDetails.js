@@ -5,7 +5,10 @@ const ProductDetails = (productDescription, index) => {
     <>
       <div className="bgProductDetails">
         <div className="imgProduit">
-          <img src={productDescription.product.picture} />
+          <img
+            src={productDescription.product.picture}
+            alt={productDescription.product.alt}
+          />
         </div>
         <div className="titleTextProduct">
           <h1 key={index}> {productDescription.product.nameProduct} </h1>

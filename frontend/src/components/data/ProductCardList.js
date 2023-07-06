@@ -28,7 +28,7 @@ const ProductCardList = () => {
     scroller.scrollTo("productList", {
       smooth: "easeInOutQuint",
       duration: 1000,
-      offset: -125,
+      offset: -200,
     });
   };
 

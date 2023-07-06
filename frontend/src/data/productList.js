@@ -198,7 +198,10 @@ export const productList = [
       title: "Équilibrez votre corps, équilibrez votre vie.",
       paragraph: [
         {
-          text: "Notre produit agit en régulant votre microbiote, favorisant ainsi un équilibre optimal. Le microbiote est essentiel pour votre bien-être, car il participe à de nombreuses fonctions, de la digestion à l'absorption des nutriments, en passant par le renforcement de votre système immunitaire. En rétablissant l'équilibre de votre microbiote, notre produit contribue à améliorer votre santé globale et à prévenir divers troubles digestifs et maladies chroniques associées. Le pouvoir antioxydant de notre produit aide à neutraliser les toxines présentes dans votre organisme. Il contribue également à diminuer les troubles digestifs en maintenant l'équilibre des bonnes bactéries et en améliorant la flore intestinale. Recommandé pour les maladies chroniques telles que le côlon irritable et la maladie de Crohn (avec avis médical), il améliore également votre santé globale.",
+          text: "Notre produit agit en régulant votre microbiote, favorisant ainsi un équilibre optimal. Le microbiote est essentiel pour votre bien-être, car il participe à de nombreuses fonctions, de la digestion à l'absorption des nutriments, en passant par le renforcement de votre système immunitaire. ",
+        },
+        {
+          text: "En rétablissant l'équilibre de votre microbiote, notre produit contribue à améliorer votre santé globale et à prévenir divers troubles digestifs et maladies chroniques associées. Le pouvoir antioxydant de notre produit aide à neutraliser les toxines présentes dans votre organisme. Il contribue également à diminuer les troubles digestifs en maintenant l'équilibre des bonnes bactéries et en améliorant la flore intestinale. Recommandé pour les maladies chroniques telles que le côlon irritable et la maladie de Crohn (avec avis médical), il améliore également votre santé globale.",
         },
         {
           text: "Notre produit de bien-être intérieur joue un rôle clé dans la gestion du poids en contrôlant la satiété et en réduisant les envies de sucre et de gras. En favorisant un microbiote équilibré, il permet de vous aider à atteindre et maintenir un poids santé. De plus, il booste votre système immunitaire, facilite l'absorption des nutriments et régule le taux de cholestérol.",
@@ -247,16 +250,22 @@ export const productList = [
       title: "Laissez les éléments naturels agir en votre faveur.",
       paragraph: [
         {
-          text: "Avec ses deux fioles uniques sous forme de gouttes, ce produit offre un avantage de pointe en soutenant votre apport nutritionnel quotidien.",
+          text: "Avec ses deux fioles uniques sous forme de gouttes, ce produit offre un avantage de pointe dans votre cure minceur.",
         },
         {
-          text: "Ces gouttes sont spécialement conçues pour réguler l’appétit, favoriser la combustion des graisses sous-cutanées et viscérales, ainsi que d’améliorer la digestion et le sommeil afin d’éviter le stockage de nouvelles graisses pendant la nuit.",
+          text: "Les gouttes jour vous offre une solution complète pour une gestion efficace du poids. En régulant votre appétit et en vous procurant un effet de satiété durable, il vous aide à contrôler vos portions alimentaires et à éviter les fringales incontrôlées. De plus, notre formule puissante cible les graisses sous-cutanées et viscérales, celles qui sont difficiles à éliminer même avec un exercice physique intense. Vous serez surpris(e) par la capacité de notre produit à brûler ces graisses tenaces, vous permettant ainsi d'atteindre vos objectifs de perte de poids de manière efficace. De plus, il agit également en tant que régulateur de sucre, vous aidant à réduire l'excès de sucre dans votre corps. Il ralentit l'absorption des glucides, ce qui vous aide à éviter les pics glycémiques et à maintenir un niveau de sucre sanguin stable..",
         },
         {
-          text: "Elles s’intègrent facilement dans votre mode de vie et ont des résultats prouvés !",
+          text: "Notre produit va au-delà de la simple gestion du poids. Il améliore également votre bien-être général en stimulant le métabolisme et en vous offrant un regain d'énergie essentiel au corps pour brûler les calories efficacement, sans ressentir de fatigue physique. Vous remarquerez une amélioration de votre humeur, vous permettant d'aborder chaque journée avec une énergie positive et une motivation accrue. De plus, notre formule contribue à améliorer la cellulite, en aidant à réduire son apparence et à améliorer la texture de la peau.",
         },
         {
-          text: "Prenez le contrôle de votre corps en utilisant des produits uniques.",
+          text: "Les gouttes nuit empêchent l'accumulation de nouvelles graisses durant votre sommeil Grâce à sa formule unique, les gouttes diminuent le cortisol, l'hormone du stress, vous offrant ainsi un soulagement naturel et une relaxation de votre corps et de votre esprit. Ce bien-être aide à réguler le fonctionnement de votre système digestif, favorisant ainsi une digestion harmonieuse et confortable. De plus, notre formule contribue à combattre le mauvais cholestérol, vous permettant de maintenir un équilibre lipidique sain dans votre corps.",
+        },
+        {
+          text: "Vous êtes détendue, vous digérez mieux, votre sommeil est de meilleure qualité et le corps n’a pas besoin de stocker de nouvelles graisses. Notre produit favorise ainsi une récupération optimale pendant la nuit.",
+        },
+        {
+          text: "Prenez le contrôle de votre corps jour et nuit en utilisant nos gouttes uniques.",
         },
       ],
     },
@@ -296,10 +305,22 @@ export const productList = [
         "Soutenez votre santé musculaire et osseuse avec notre produit essentiel.",
       paragraph: [
         {
-          text: "Ce mélange unique de vitamines et de minéraux, incluant du calcium, de la vitamine D et du magnésium, est spécialement conçu pour favoriser la santé des muscles et des os.",
+          text: "Notre produit contient des ingrédients aux propriétés anti-inflammatoires qui agissent en synergie pour soulager vos articulations douloureuses, vous permettant de retrouver votre mobilité et votre confort. Grâce à sa capacité à stimuler la production de collagène, il favorise des gencives saines et des os solides. Vous retrouverez un sourire éclatant et une confiance en vous renouvelée. De plus, le collagène est la base de la minéralisation osseuse, ce qui contribue à renforcer vos os pour une meilleure santé globale. Avec notre produit, votre beauté rayonne à travers votre sourire éblouissant et votre démarche assurée.",
         },
         {
-          text: "Sa formule pratique et simple vous offre une source fiable de nutriments essentiels. De plus, notre ajout d’un mélange de curcuma et de gingembre apporte des bienfaits supplémentaires.",
+          text: "Notre formule spéciale est également conçue pour répondre à vos besoins en période de stress. L’apport en magnésium est essentiel pour contrer les effets néfastes du stress sur votre corps.",
+        },
+        {
+          text: "En plus des bienfaits cités ci-dessus, notre produit offre une multitude d'avantages pour votre santé globale. Vous serez agréablement surpris(e) de constater que notre formule aide à réduire la cellulite, pour une peau plus lisse et tonique. Il favorise un transit intestinal régulier en luttant efficacement contre la constipation et soutient votre système immunitaire, renforçant ainsi vos défenses naturelles.",
+        },
+        {
+          text: "Il joue également un rôle essentiel dans la régulation du taux de sucre et de cholestérol dans le sang, vous aidant ainsi à maintenir une bonne santé à long terme.",
+        },
+        {
+          text: "Dites adieu aux fringales salées qui sont omniprésentes ! Notre produit innovant est spécialement formulé pour réduire ces envies irrésistibles. En le choisissant, vous vous donnez toutes les chances de réussir votre gestion du poids de manière saine et durable.",
+        },
+        {
+          text: "Mesdames, notre produit a été spécialement formulé pour répondre à vos besoins spécifiques. Il favorise l'équilibre hormonal, vous permettant ainsi de mieux gérer les fluctuations de votre cycle et de retrouver un bien-être intérieur.",
         },
         {
           text: "Un produit efficace pour soutenir la santé musculaire et osseuse !",

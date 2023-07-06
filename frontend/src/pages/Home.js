@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <FirstCategoryNavBar />
       <motion.div className="progressBar" style={{ scaleX }}></motion.div>
-      <div data-scroll-section className="bgWhite">
+      <div className="bgWhite">
         <Logo />
         <Card />
       </div>

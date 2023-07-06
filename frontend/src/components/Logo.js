@@ -1,9 +1,10 @@
 import React from "react";
 import { generalDataImg } from "../data/generalData";
+import { Element } from "react-scroll";
 
 const Logo = () => {
   return (
-    <>
+    <Element name="scrollTop">
       <div id="bgLogo">
         <div>
           <div id="leaf">
@@ -36,7 +37,7 @@ const Logo = () => {
           </div>
         </div>
       </div>
-    </>
+    </Element>
   );
 };
 

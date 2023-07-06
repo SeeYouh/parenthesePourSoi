@@ -4,6 +4,7 @@ import ProductDetails from "../ProductDetails";
 import { productList } from "../../data/productList";
 import ProductCard from "./ProductCard";
 import { RadioContext } from "../utils/radioContext";
+import { scroller } from "react-scroll";
 
 const ProductCardList = () => {
   const {
@@ -24,6 +25,11 @@ const ProductCardList = () => {
     setSelectedRadio(product.firstCategory[0]);
     setSelectedSubRadio(product.secondCategory[0]);
     setIsActive(true);
+    scroller.scrollTo("productList", {
+      smooth: "easeInOutQuint",
+      duration: 1000,
+      offset: -200,
+    });
   };
 
   useEffect(() => {

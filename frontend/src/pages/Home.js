@@ -4,7 +4,6 @@ import Logo from "../components/Logo";
 import { motion, useScroll, useSpring } from "framer-motion";
 import FirstCategoryNavBar from "../components/data/FirstCategoryNavBar";
 import Footer from "../components/data/Footer";
-import { Element } from "react-scroll";
 
 const Home = () => {
   const { scrollYProgress } = useScroll();
@@ -14,7 +13,7 @@ const Home = () => {
   });
 
   return (
-    <Element name="scrollTop">
+    <div data-scroll-section>
       <FirstCategoryNavBar />
       <motion.div className="progressBar" style={{ scaleX }}></motion.div>
       <div className="bgWhite">
@@ -22,7 +21,7 @@ const Home = () => {
         <Card />
       </div>
       <Footer />
-    </Element>
+    </div>
   );
 };
 

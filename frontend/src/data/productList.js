@@ -31,13 +31,13 @@ export const productList = [
           text: "Notre produit agit comme un véritable agent de détoxification, absorbant les toxines présentes dans votre corps et les transportant hors de celui-ci. Ces toxines, issues de votre métabolisme et de votre environnement, peuvent s'accumuler dans vos organes émonctoires, tels que le foie, les reins, les poumons, les intestins et la peau. Lorsque ces organes sont surchargés de toxines, des problèmes de santé peuvent survenir. En optant pour notre produit, vous permettez à votre corps de se débarrasser de ces toxines, favorisant ainsi une gestion du poids plus efficace et une meilleure santé globale.",
         },
         {
-          text: "Les ingrédients présents dans cette détox’ protège vos cellules contre le stress oxydatif grâce à la présence de vitamine E dans certains ingrédients. De plus, ils renforcent votre système immunitaire, maintiennent la santé de vos muqueuses et permettent un fonctionnement normal de la thyroïde, jouant ainsi un rôle clé dans la gestion du poids.",
+          text: "Les ingrédients présents dans cette détox’ protègent vos cellules contre le stress oxydatif grâce à la présence de vitamine E dans certains ingrédients. De plus, ils renforcent votre système immunitaire, maintiennent la santé de vos muqueuses et permettent un fonctionnement normal de la thyroïde, jouant ainsi un rôle clé dans la gestion du poids. ",
         },
         {
           text: "En rééquilibrant votre système digestif, notre produit diminue les ballonnements, les gaz, la constipation et la diarrhée. De plus, il contribue à réduire la cellulite, vous offrant ainsi une silhouette plus harmonieuse.",
         },
         {
-          text: "Notre produit booste l'énergie naturelle de votre corps, vous permettant ainsi de retrouver une vitalité et un bien-être général. Vous vous sentirez revitalisé(e), prêt(e) à faire face aux défis quotidiens avec une énergie renouvelée.",
+          text: "Notre détox’ booste l'énergie naturelle de votre corps, vous permettant ainsi de retrouver une vitalité et un bien-être général. Vous vous sentirez revitalisé(e), prêt(e) à faire face aux défis quotidiens avec une énergie renouvelée.",
         },
         {
           text: "Optez pour notre détox, c’est choisir un produit révolutionnaire conçu pour vous aider à atteindre vos objectifs de perte de poids tout en favorisant un bien-être optimal.",
@@ -281,16 +281,25 @@ export const productList = [
       title: "Soutenez votre corps et votre beauté.",
       paragraph: [
         {
-          text: "La beauté prend son essence de l’intérieur : n’est-il pas temps de libérer la version la plus rayonnante de vous-même ?",
+          text: "Notre produit est composé d’ingrédients aux propriétés antidépressives naturelles vous permettant de ressentir une amélioration significative de votre humeur et de votre moral. Il agit en tant que rempart contre la fatigue physique et mentale, vous aidant à retrouver votre énergie vitale et à aborder chaque journée avec enthousiasme. Vous constaterez également une amélioration de votre sommeil, favorisant un repos réparateur et une détente profonde. Enfin, notre formule unique stimule vos capacités cognitives, vous permettant ainsi d'optimiser votre concentration et votre clarté mentale.",
         },
         {
-          text: "Détoxifiant, antidépresseur, anti-âge, gestion des douleurs, problèmes cutanés… Un seul produit pour de nombreux bienfaits.",
+          text: "“Harmonie” est spécialement conçue pour offrir une efficacité anti-inflammatoire exceptionnelle, soulageant ainsi les douleurs liées à l'arthrite, l'arthrose, l'ostéoporose, les rhumatismes et bien d'autres affections. Retrouvez votre mobilité et votre liberté grâce à notre solution naturelle et puissante. Il améliore également la santé oculaire en préservant la santé de vos yeux. De plus, il renforce votre système immunitaire, vous aidant à vous remettre plus rapidement des maladies et à prévenir les infections.",
         },
         {
-          text: "Faites ressortir le meilleur de votre corps grâce à ce puissant mélange de plantes et de nutriments que vous trouverez dans ce produit.",
+          text: "Ses ingrédients minutieusement sélectionnés favorisent une digestion saine et équilibrée vous évitant ainsi les troubles digestifs courants. Grâce à ses propriétés détoxifiantes, il vous aide à éliminer les toxines accumulées dans votre corps, favorisant ainsi la perte de poids naturelle et durable.",
         },
         {
-          text: "Soyez en forme la journée et dormez paisiblement la nuit.",
+          text: "Notre solution naturelle accélère la cicatrisation des verrues, des boutons de fièvre et des aphtes, vous permettant de retrouver une peau saine et apaisée. Enfin, il aide à réduire l'eczéma grâce à sa teneur en oméga-6, offrant un soulagement bienvenu aux problèmes de peau.",
+        },
+        {
+          text: "Et le plus de ce produit, c’est son action sur la production de DHEA, l'hormone anti-vieillissement. Vous retrouverez une peau éclatante, plus lisse et plus hydratée, grâce à une diminution notable de la sécheresse cutanée et à une stimulation de la production de collagène. De plus, notre formule aide à réduire la chute des cheveux, vous offrant ainsi une chevelure volumineuse et luxuriante.",
+        },
+        {
+          text: "Mesdames, notre produit est spécialement conçu pour vous aider à atténuer les douleurs menstruelles grâce à sa teneur en oméga-6, vous offrant ainsi un soulagement bien mérité. De plus, il diminue les désagréments de la ménopause en stimulant la production d'œstrogènes, vous permettant de traverser cette période de transition avec sérénité et confort.",
+        },
+        {
+          text: "Sentez-vous belle et en forme la journée et dormez paisiblement la nuit avec ce produit exceptionnel.",
         },
       ],
     },
@@ -329,6 +338,191 @@ export const productList = [
     },
     firstCategory: [getCategoryById("1Sante").name],
     secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
+    picture: "./img/png/product/Os et Muscles.png",
+  },
+  {
+    nameProduct: "Shampooing",
+    summary: {
+      title: "Sublimez vos cheveux avec ce shampooing d’exception.",
+      paragraph: [
+        {
+          text: "Notre shampooing offre à vos cheveux le traitement qu'ils méritent avec notre produit révolutionnaire. Il nettoie en profondeur, éliminant les impuretés et les résidus de produits capillaires, pour des cheveux propres et sains. De plus, sa formule spéciale revitalise et hydrate intensément chaque mèche, rendant vos cheveux doux, brillants et pleins de vitalité.",
+        },
+        {
+          text: "Notre produit ne se limite pas à cela, il est également votre allié pour un cuir chevelu sain et protégé. Sa formule contribue à apaiser les problèmes cutanés tels que les irritations et les rougeurs. De plus, il combat efficacement les pellicules, réduit les démangeaisons et  l'eczéma capillaire restaurant l'équilibre du cuir chevelu. ",
+        },
+        {
+          text: "Notre shampooing convient aux cheveux colorés.",
+        },
+        {
+          text: "Offrez-vous une expérience luxueuse en découvrant ce shampooing qui prend soin de vos cheveux, ravive votre peau et élimine les problèmes courants du cuir chevelu.",
+        },
+        {
+          text: "Pour compléter votre expérience de bien-être, je vous recommande vivement de jeter un coup d'œil à notre après-shampooing, qui se marie parfaitement avec notre shampooing.",
+        },
+      ],
+    },
+    firstCategory: [getCategoryById("2Beaute").name],
+    secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
+    picture: "./img/png/product/Os et Muscles.png",
+  },
+  {
+    nameProduct: "Après shampooing",
+    summary: {
+      title: "Protégez vos cheveux et prenez en soin.",
+      paragraph: [
+        {
+          text: "Notre après-shampooing chouchoute vos cheveux de la racine jusqu'aux pointes. Il élimine en douceur les impuretés sans en introduire de nouvelles, laissant vos cheveux frais et légers. De plus, il facilite le brossage, réduisant ainsi la casse et les nœuds. Vous serez émerveillé(e) par l'élasticité, la brillance et la douceur retrouvées de vos cheveux, révélant toute leur beauté naturelle.",
+        },
+        {
+          text: "Tout comme le shampooing, il cible les problèmes cutanés tels que les pellicules, l’eczéma, les rougeurs et les démangeaisons, apportant un soulagement instantané en réduisant l'inflammation et favorisant la guérison de la peau.",
+        },
+        {
+          text: "En plus de prendre soin de votre cuir chevelu, notre produit agit comme un bouclier protecteur contre les rayons UV nocifs. Grâce à sa formulation avancée, il vous offre une protection solaire naturelle, préservant vos cheveux tout en vous permettant de profiter du soleil en toute tranquillité.",
+        },
+        {
+          text: "Offrez à vos cheveux une attention particulière avec des soins doux, une facilité de brossage et une protection contre les rayons UV.",
+        },
+        {
+          text: "Pour une expérience de bien-être complète, vous ne pouvez pas manquer de découvrir notre shampooing exceptionnel qui se marie parfaitement avec notre après-shampooing. Ensemble, ils vous offrent une approche globale pour des cheveux soyeux et sains. ",
+        },
+      ],
+    },
+    firstCategory: [getCategoryById("2Beaute").name],
+    secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
+    picture: "./img/png/product/Os et Muscles.png",
+  },
+  {
+    nameProduct: "HE Relaxante",
+    summary: {
+      title: "Quand le stress laisse la place à la paix intérieure.",
+      paragraph: [
+        {
+          text: "Cette huile essentielle a des effets bénéfiques sur la santé mentale. Elle est connue pour apaiser la dépression et les symptômes qui y sont liés. Son parfum doux et relaxant peut aider à améliorer l'humeur, à réduire les sentiments de tristesse et à favoriser un sentiment général de bien-être. Elle est particulièrement efficace pour diminuer l'anxiété et le stress. Son parfum naturellement apaisant peut aider à calmer l'esprit, à réduire les tensions et à favoriser une sensation de tranquillité intérieure. Elle peut également aider à évacuer la pression accumulée au cours de la journée, vous permettant de vous détendre et de vous ressourcer.",
+        },
+        {
+          text: "De plus, l'huile essentielle Relaxante peut être utilisée pour favoriser l'endormissement, diminuer les terreurs nocturnes et les insomnies. Son utilisation avant le coucher peut aider à créer une atmosphère propice au sommeil, favorisant ainsi un repos de qualité et réduisant les troubles du sommeil.",
+        },
+        {
+          text: "Ce produit possède des propriétés apaisantes qui peuvent soulager les irritations cutanées. Il peut être utilisé pour calmer les démangeaisons, les rougeurs et les inflammations, offrant un soulagement rapide et apaisant. Il peut également apaiser la douleur et l'inconfort associés au grincement de dents. Son application régulière peut aider à détendre les muscles de la mâchoire, à réduire le grincement et à atténuer les sensations désagréables.",
+        },
+        {
+          text: "Bénéficiez d’un précieux outil pour améliorer votre qualité de vie et favoriser votre équilibre intérieur.",
+        },
+      ],
+    },
+    firstCategory: [getCategoryById("4HuilesEssentielles").name],
+    secondCategory: [
+      getSecondCategoryById("4HuilesEssentielles0MieuxEtre").text,
+    ],
+    picture: "./img/png/product/Os et Muscles.png",
+  },
+  {
+    nameProduct: "Coco’oil",
+    summary: {
+      title:
+        "Un précieux élixir polyvalent, un véritable trésor pour votre santé et votre beauté.",
+      paragraph: [
+        {
+          text: "Notre huile coco est riche en propriétés antioxydantes, ce qui en fait une alliée précieuse pour votre santé. Vous pouvez même l'ingérer pour bénéficier de ses bienfaits internes. De plus, il possède des vertus cicatrisantes, idéales pour favoriser la guérison des blessures cutanées. Les coups de soleil, les brûlures, les rougeurs ou les irritations liées au rasage sont apaisés efficacement. Vous serez également surpris de constater que notre élixir peut enlever les croûtes de lait chez les tout-petits, offrant ainsi un soulagement aux parents soucieux du bien-être de leur enfant. Les démangeaisons dues au psoriasis ou à l'eczéma sont également atténuées, offrant un soulagement bienvenu à ceux qui souffrent de ces affections cutanées.",
+        },
+        {
+          text: "Grâce à sa propriété hydratante exceptionnelle, ce produit nourrit votre peau en profondeur, la laissant douce, souple et éclatante. De plus, il peut être utilisé comme un masque capillaire revitalisant, offrant une nutrition intense à vos cheveux et les laissant brillants et soyeux. Pour celles et ceux qui cherchent une solution démaquillante douce mais efficace, notre élixir est là pour répondre à vos besoins. Il élimine en douceur le maquillage sans agresser votre peau délicate.",
+        },
+        {
+          text: "Et ce n'est pas tout ! Notre élixir peut même être utilisé en cuisine, sans être cuit. Il ajoute une touche subtile à vos plats et vous permet de bénéficier de ses bienfaits internes. Son état liquide et son odeur légère et subtile en font un plaisir à utiliser au quotidien.",
+        },
+        {
+          text: "N'hésitez plus, laissez-vous séduire par notre huile coco aux multiples vertus.",
+        },
+        {
+          text: "Dites adieu aux fringales salées qui sont omniprésentes ! Notre produit innovant est spécialement formulé pour réduire ces envies irrésistibles. En le choisissant, vous vous donnez toutes les chances de réussir votre gestion du poids de manière saine et durable.",
+        },
+        {
+          text: "Mesdames, notre produit a été spécialement formulé pour répondre à vos besoins spécifiques. Il favorise l'équilibre hormonal, vous permettant ainsi de mieux gérer les fluctuations de votre cycle et de retrouver un bien-être intérieur.",
+        },
+        {
+          text: "Un produit efficace pour soutenir la santé musculaire et osseuse !",
+        },
+      ],
+    },
+    firstCategory: [getCategoryById("1Sante").name],
+    secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
+    picture: "./img/png/product/Os et Muscles.png",
+  },
+  {
+    nameProduct: "Gel douche",
+    summary: {
+      title: "Une expérience de soin incomparable pour votre peau.",
+      paragraph: [
+        {
+          text: "Doté d'une formule délicate, notre gel douche nettoie votre peau en profondeur, éliminant efficacement les impuretés sans en introduire de nouvelles. Fini les résidus chimiques indésirables ! Votre peau retrouve toute sa fraîcheur et sa pureté. De plus, notre gel douche agit comme un véritable purificateur, éliminant les toxines superficielles qui peuvent ternir l'éclat de votre teint. Avec chaque utilisation, vous ressentez une sensation de propreté et de légèreté, pour une peau éclatante de beauté naturelle.",
+        },
+        {
+          text: "Grâce à sa composition douce et naturelle, il réduit les rougeurs et démangeaisons, apportant un soulagement bienvenu aux peaux sensibles et réactives. De plus, il diminue les irritations, offrant un confort optimal à votre épiderme. Les personnes souffrant d'eczéma et de psoriasis seront ravies de constater les propriétés apaisantes de notre gel douche, qui contribue à apaiser ces affections cutanées.",
+        },
+        {
+          text: "Plongez dans un rituel de bien-être, où la santé et la beauté se rejoignent harmonieusement.",
+        },
+      ],
+    },
+    firstCategory: [getCategoryById("1Sante").name],
+    secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
+    picture: "./img/png/product/Os et Muscles.png",
+  },
+  {
+    nameProduct: "PN",
+    summary: {
+      title: "Un substitut de repas complet.",
+      paragraph: [
+        {
+          text: "Notre produit a été conçu pour faciliter la gestion de votre poids. Vous pouvez le substituer à votre petit-déjeuner, à votre goûter ou à votre dîner pour maintenir un équilibre nutritionnel optimal. Il contient des protéines végétales de haute qualité qui favorisent une digestion améliorée et une meilleure absorption des nutriments essentiels. Chaque dose de PN vous fournit l'apport nécessaire pour une perte de poids saine et durable.",
+        },
+        {
+          text: "Au-delà de la gestion du poids, le PN soutient une pression artérielle saine, ce qui contribue à maintenir un système cardiovasculaire en bonne santé. De plus, il favorise une meilleure santé des reins et du foie en les aidant à fonctionner de manière optimale. Vous serez ravi(e) de constater que notre produit a également des effets positifs sur la digestion, en favorisant une bonne santé intestinale et en améliorant votre confort digestif.",
+        },
+        {
+          text: "En l'incorporant dans votre quotidien, vous ressentirez un véritable boost d'énergie qui vous accompagnera tout au long de la journée. Vous pourrez ainsi aborder vos activités quotidiennes avec vitalité et enthousiasme, vous permettant de vous sentir pleinement épanoui(e).",
+        },
+        {
+          text: "Explorez tous les bienfaits de ce produits et ne laissez pas les obstacles entraver vos objectifs de bien-être.",
+        },
+        {
+          text: "Dites adieu aux fringales salées qui sont omniprésentes ! Notre produit innovant est spécialement formulé pour réduire ces envies irrésistibles. En le choisissant, vous vous donnez toutes les chances de réussir votre gestion du poids de manière saine et durable.",
+        },
+        {
+          text: "Mesdames, notre produit a été spécialement formulé pour répondre à vos besoins spécifiques. Il favorise l'équilibre hormonal, vous permettant ainsi de mieux gérer les fluctuations de votre cycle et de retrouver un bien-être intérieur.",
+        },
+        {
+          text: "Un produit efficace pour soutenir la santé musculaire et osseuse !",
+        },
+      ],
+    },
+    firstCategory: [getCategoryById("2Beaute").name],
+    secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
+    picture: "./img/png/product/Os et Muscles.png",
+  },
+  {
+    nameProduct: "Dentifrice",
+    summary: {
+      title: "Une expérience de soin bucco-dentaire exceptionnelle.",
+      paragraph: [
+        {
+          text: "Notre dentifrice est formulé à partir d'ingrédients naturels de haute qualité. Vous n'y trouverez aucun produit chimique agressif. Il offre un blanchiment naturel en éliminant les tâches en douceur et vous aide à obtenir des dents plus éclatantes qui illumine votre sourire. Il est enrichi en extraits de plantes apaisants et antibactériens pour vous aider à maintenir des gencives saines et revitalisées.",
+        },
+        {
+          text: "Avec l'huile essentielle de menthe poivrée, notre produit laisse une agréable sensation de fraîcheur dans votre bouche. Dites adieu à la mauvaise haleine et profitez d'une bouffée de fraîcheur durable après chaque brossage.",
+        },
+        {
+          text: "Notre dentifrice est sans fluorure pour ceux qui préfèrent éviter cet élément, sans triclosan qui peut être nocif, sans paraben pour une tranquillité d'esprit, sans édulcorants artificiels pour une saveur pure, et sans colorants pour une expérience naturelle authentique.",
+        },
+        {
+          text: "Découvrez une nouvelle façon de prendre soin de votre sourire, naturellement.",
+        },
+      ],
+    },
+    firstCategory: [getCategoryById("2Beaute").name],
+    secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
     picture: "./img/png/product/Os et Muscles.png",
   },
 ];

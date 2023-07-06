@@ -12,11 +12,13 @@ const ProductDetails = (productDescription, index) => {
           <h2 key={index}> {productDescription.product.summary.title} </h2>
         </div>
       </div>
-      {productDescription.product.summary.paragraph.map(
-        (productDescription, index) => (
-          <p key={index}>{productDescription.text}</p>
-        )
-      )}
+      <div className="bgParagraph">
+        {productDescription.product.summary.paragraph.map(
+          (productDescription, index) => (
+            <p key={index}>{productDescription.text}</p>
+          )
+        )}
+      </div>
     </>
   );
 };

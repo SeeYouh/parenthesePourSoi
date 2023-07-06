@@ -25,21 +25,29 @@ export const productList = [
       title: "Nettoyer son corps en profondeur ! ",
       paragraph: [
         {
-          text: "Votre alimentation et vos habitudes de vie entraînent une accumulation de toxines dans votre corps. Cela a un impact important sur votre santé et crée des désagréments quotidiens tels que la fatigue, le manque de concentration, des problèmes de peau, des troubles digestifs, des douleurs articulaires et musculaires, ainsi qu'une difficulté à perdre du poids…",
+          text: "La base essentielle de toute cure minceur est le nettoyage du corps afin de le préparer à une perte de poids saine et durable.",
         },
         {
-          text: "Il est donc indispensable de détoxifier votre corps pour relancer votre métabolisme afin qu'il retrouve ses fonctions optimales.",
+          text: "Notre produit agit comme un véritable agent de détoxification, absorbant les toxines présentes dans votre corps et les transportant hors de celui-ci. Ces toxines, issues de votre métabolisme et de votre environnement, peuvent s'accumuler dans vos organes émonctoires, tels que le foie, les reins, les poumons, les intestins et la peau. Lorsque ces organes sont surchargés de toxines, des problèmes de santé peuvent survenir. En optant pour notre produit, vous permettez à votre corps de se débarrasser de ces toxines, favorisant ainsi une gestion du poids plus efficace et une meilleure santé globale.",
         },
         {
-          text: "Prenez le contrôle de votre bien-être quotidien en soutenant l’équilibre interne de votre corps.",
+          text: "Les ingrédients présents dans cette détox’ protège vos cellules contre le stress oxydatif grâce à la présence de vitamine E dans certains ingrédients. De plus, ils renforcent votre système immunitaire, maintiennent la santé de vos muqueuses et permettent un fonctionnement normal de la thyroïde, jouant ainsi un rôle clé dans la gestion du poids.",
         },
         {
-          text: "Prenez le contrôle de votre bien-être quotidien en soutenant l'équilibre interne de votre corps. Notre détox est un produit unique en son genre si vous souhaitez vous sentir au mieux de votre forme.",
+          text: "En rééquilibrant votre système digestif, notre produit diminue les ballonnements, les gaz, la constipation et la diarrhée. De plus, il contribue à réduire la cellulite, vous offrant ainsi une silhouette plus harmonieuse.",
+        },
+        {
+          text: "Notre produit booste l'énergie naturelle de votre corps, vous permettant ainsi de retrouver une vitalité et un bien-être général. Vous vous sentirez revitalisé(e), prêt(e) à faire face aux défis quotidiens avec une énergie renouvelée.",
+        },
+        {
+          text: "Optez pour notre détox, c’est choisir un produit révolutionnaire conçu pour vous aider à atteindre vos objectifs de perte de poids tout en favorisant un bien-être optimal.",
         },
       ],
     },
     firstCategory: [getCategoryById("0GestionDuPoids").name],
-    secondCategory: [getSecondCategoryById("0GestionDuPoids0CureMinceur").text],
+    secondCategory: [
+      getSecondCategoryById("0GestionDuPoids0Detoxification").text,
+    ],
     picture: "./img/png/product/Détox’.png",
   },
   {
@@ -48,13 +56,13 @@ export const productList = [
       title: "Le secret d’un éclat intérieur et extérieur",
       paragraph: [
         {
-          text: "Ce complément offre une combinaison unique d'ingrédients pour favoriser la santé optimale de vos cheveux, de vos ongles, de votre peau et de votre bien-être global.",
+          text: "Notre produit a une capacité exceptionnelle à régénérer les cellules. Sa formule accélère la pousse des ongles et des cheveux, vous permettant ainsi de profiter d'une chevelure plus abondante et d'ongles forts et sains. En augmentant la production de kératine, notre produit revitalise en profondeur vos cheveux, les rendant plus résistants à la casse et leur redonnant brillance et vitalité. De plus, il réduit considérablement la chute des cheveux, vous offrant ainsi une chevelure dense et volumineuse qui fera des envieux.",
         },
         {
-          text: "Sa formule exclusive renferme un mélange d'ingrédients qui apportent de nombreux bienfaits pour la santé, en particulier si vous souhaitez compléter votre apport quotidien en vitamines. Conçu spécifiquement pour répondre aux besoins nutritionnels des cheveux, des ongles et de la peau, le BB ne se limite pas à l'aspect externe.",
+          text: "Notre produit booste votre énergie naturelle. Il agit comme un véritable stimulant, vous offrant une énergie durable tout au long de la journée. De plus, il augmente les fonctions mentales, vous aidant à rester concentré(e) et alerte, même dans les moments les plus intenses. Vous vous sentirez prêt(e) à relever tous les défis qui se présentent à vous.",
         },
         {
-          text: "Votre bien-être interne bénéficiera également des vitamines, minéraux et bioflavonoïdes contenus dans ce complément, tous issus d'extraits naturels de plantes.",
+          text: "Grâce à son pouvoir régénérateur cellulaire exceptionnel, notre produit réduit efficacement les problèmes cutanés : rougeurs, démangeaisons et psoriasis qui perturbent votre vie quotidienne, vous permettant ainsi de retrouver une peau saine et apaisée. De plus, il diminue l'acné et régule l'excès de sébum, offrant une solution naturelle pour les peaux grasses. Notre formule restreint également les pellicules, vous offrant un cuir chevelu sain et sans démangeaisons. Enfin, notre produit contribue à améliorer le bon fonctionnement du système nerveux, favorisant ainsi votre bien-être global.",
         },
         {
           text: "Que vous souhaitiez améliorer votre santé globale ou simplement dynamiser votre routine beauté, ce puissant complément vous procurera une sensation de renouveau et de vitalité.",
@@ -71,16 +79,25 @@ export const productList = [
       title: "Un produit breveté et unique",
       paragraph: [
         {
-          text: "Ce produit est breveté et donc disponible uniquement dans notre boutique. Il est unique car a été formulé avec 36 des ingrédients naturels les plus puissants du monde. Chaque gourde contient une purée de fruits entiers, de champignons, d’huiles essentielles et d’herbes aromatiques du monde entier. ",
+          text: "Ce produit est breveté et donc disponible uniquement dans notre boutique. Il est unique car a été formulé avec 36 des ingrédients naturels les plus puissants du monde.",
         },
         {
-          text: "Ces 36 superaliments ont été soigneusement sélectionnés pour leurs propriétés énergisantes, antioxydantes, leurs propriétés anti-inflammatoires et leurs bienfaits sur l’organisme.",
+          text: "Notre produit agit comme un puissant anti-inflammatoire, soulageant les douleurs musculaires, articulaires et les maladies chroniques douloureuses. Il offre un répit bienvenu et vous permet de retrouver une mobilité et un confort que vous méritez.",
         },
         {
-          text: "De plus, ce produit a l’avantage d’accélérer le bronzage et de donner un teint hâlé.",
+          text: "Il booste naturellement l'énergie de votre corps, combat la fatigue et améliore votre humeur. Il soutient également un équilibre psychologique et une clarté mentale, vous permettant de faire face aux défis quotidiens avec sérénité.",
         },
         {
-          text: "Prenez le contrôle de vos maux pour vivre dans un état de bien-être total.",
+          text: "Grâce à sa capacité à protéger les cellules, notre produit favorise une santé optimale. Il soutient également votre système immunitaire, ce qui est particulièrement important pour une guérison plus rapide lors de rhumes ou de périodes de pandémie. De plus, il soulage les allergies, combat l'acné, favorise la digestion et soulage les brûlures d'estomac. Notre produit contribue également à réguler le taux de cholestérol, à stabiliser le diabète et à lutter contre la constipation.",
+        },
+        {
+          text: "Pour vous, mesdames, ce produit offre un soulagement appréciable pour les règles douloureuses, vous permettant de vivre cette période de manière plus confortable.",
+        },
+        {
+          text: "Et ce n’est pas tout ! Ce produit est également connu pour accélérer le processus de bronzage. Vous pouvez profiter d'une peau rayonnante et d'un teint hâlé en seulement 30 minutes d'exposition, équivalant à 2 heures de bronzage.",
+        },
+        {
+          text: "Prenez le contrôle de vos maux pour retrouver un état de bien-être et une vie plus confortable.",
         },
       ],
     },
@@ -94,13 +111,19 @@ export const productList = [
       title: "Un mélange vivifiant pour booster votre journée !",
       paragraph: [
         {
-          text: "Ce produit incroyable regorge de bienfaits sur votre santé physique et mentale. Avec ses précieux nutriments, il apporte une énergie revitalisante, combat la fatigue, améliore l’attention et la vigilance mentale, et renforce le système immunitaire et cardiovasculaire.",
+          text: "Notre booster d’énergie est le véritable catalyseur de votre bien-être. Il dynamise votre corps en stimulant votre énergie naturelle, combat efficacement la fatigue et vous aide à retrouver un sommeil réparateur. En favorisant la bonne humeur et la gaieté, il contribue à une vision positive de la vie. De plus, il est votre allié pour diminuer le stress et l'anxiété, vous permettant de vous sentir léger(e) et détendu(e) au quotidien.",
         },
         {
-          text: "Il favorise une meilleure qualité de sommeil et favorise une humeur positive en éliminant le stress, les angoisses et le surmenage. Une sensation de sérénité, de calme et de relaxation se fait ressentir.",
+          text: "Notre produit est également une solution efficace pour vous aider à atteindre vos objectifs de gestion du poids. Grâce à ses propriétés détoxifiantes, il élimine les toxines accumulées dans votre corps, favorisant ainsi une meilleure combustion des graisses, augmentée de 17%. ",
         },
         {
-          text: "Les ingrédients sélectionnés de ce produit ont également des effets antioxydants et anti-inflammatoires qui contribuent à atténuer les douleurs, les allergies et les troubles digestifs.",
+          text: "Votre santé est notre priorité. Notre booster d’énergie stimule votre système immunitaire et cardiovasculaire, renforçant ainsi votre résistance aux maladies et protégeant votre cœur. Les oméga 6 et 9 présents dans notre formule améliorent l'attention et la vigilance mentale, vous permettant de rester concentré(e) et productif(ve) tout au long de la journée. De plus, il combat les manifestations allergiques et favorise une digestion saine, améliorant le transit intestinal et optimisant le fonctionnement de vos organes.",
+        },
+        {
+          text: "Grâce à ses propriétés antioxydantes exceptionnelles, notre produit réduit visiblement les signes de l'âge, vous offrant une peau éclatante et rajeunie. En nourrissant votre peau de manière profonde, il révèle votre beauté naturelle, vous permettant de vous sentir confiant(e) et épanoui(e) dans votre propre peau.",
+        },
+        {
+          text: "Mesdames, notre booster d’énergie a aussi des effets sur les désagréments féminins car il diminue efficacement les douleurs menstruelles, soulageant ainsi les gênes liées à votre cycle. De plus, il prévient les infections urinaires, vous offrant une protection essentielle pour votre santé intime.",
         },
         {
           text: "Faites le choix d’un bien-être optimal et votre corps vous remerciera pour cette décision qui va changer votre quotidien !",
@@ -112,7 +135,7 @@ export const productList = [
     picture: "./img/png/product/Booster d’énergie.png",
   },
   {
-    nameProduct: "Collagène",
+    nameProduct: "Collagènoni",
     summary: {
       title: "Un produit de santé globale qui fait rajeunir.",
       paragraph: [
@@ -123,10 +146,16 @@ export const productList = [
           text: "A partir de l’âge de 25 ans, nous perdons environ 1% de collagène chaque année. Cette protéine n’est pas renouvelée naturellement. C’est ce que l’on appelle le vieillissement cutané. C'est à ce stade que l'on peut commencer à remarquer l'apparition de ridules, de rides et une perte de fermeté de la peau. Nous pouvons également ressentir des douleurs musculaires, articulaires et osseuses.",
         },
         {
-          text: "Pour remédier à cela, notre Collagène offre une solution en combinant 10 000 mg de collagène marin hydrolysé d'origine durable avec du fruit de Noni provenant de Tahiti. Cette combinaison stimule la production de collagène, favorisant ainsi une peau visiblement plus ferme et plus jeune et un mieux-être intérieur incomparable.",
+          text: "Notre produit favorise le renouvellement cellulaire. En stimulant ce processus naturel, il aide à éliminer les cellules mortes et à régénérer la peau, vous offrant ainsi un teint plus frais, plus lumineux et plus éclatant. En augmentant l'élasticité de la peau, il lui procure une hydratation en profondeur, réduisant ainsi les signes de sécheresse et de déshydratation. Il lutte efficacement contre les rides, ridules et cernes, vous permettant de retrouver une peau lisse, ferme et éclatante. Notre formule aide également à diminuer l'apparence des tâches pigmentaires, vous offrant un teint plus uniforme et éclatant.",
         },
         {
-          text: "Optez pour ce produit, c’est retrouver une peau plus ferme, une apparence rajeunie et un bien-être total.",
+          text: "Enfin, notre produit renforce les ongles fragiles et les cheveux ternes, en leur apportant les nutriments essentiels pour leur santé et leur vitalité.",
+        },
+        {
+          text: "La synergie du collagène marin avec le Noni, un fruit de Tahiti aux vertus multiples, permet de diminuer les douleurs corporelles, vous offrant un soulagement naturel pour les tensions musculaires et les inconforts articulaires.",
+        },
+        {
+          text: "Optez pour ce produit, c’est retrouver une peau plus ferme, une apparence rajeunie et un bien-être intérieur total.",
         },
       ],
     },
@@ -140,16 +169,19 @@ export const productList = [
       title: "Un support quotidien !",
       paragraph: [
         {
-          text: "C’est notre best-seller, notre chouchou ! Son efficacité est incontestable !",
+          text: "Notre produit est le best seller de notre boutique car il est l’allié ultime pour améliorer la qualité de votre peau. Grâce à son action sur la régénération cellulaire, il favorise l'élasticité et la fermeté de votre peau, vous offrant ainsi un teint éclatant et une apparence plus jeune. Que vous souhaitiez réduire la cellulite, atténuer les vergetures, traiter l'acné ou apaiser les problèmes d'eczéma et de psoriasis, notre produit est votre solution !",
         },
         {
-          text: "C’est un antioxydant offre un mieux-être certain à votre corps. Il joue un rôle essentiel sur la qualité de la peau, la santé globale et l’énergie.",
+          text: "En plus de ses bienfaits pour la peau, notre produit soutient également votre santé globale. Il contribue à la santé cardiovasculaire en renforçant le système nerveux et immunitaire. Grâce à sa teneur en vitamine C, il favorise la formation et le maintien du collagène, essentiel pour la santé des tissus, des cartilages, des ligaments et des os. De plus, il aide à la réparation osseuse après une intervention chirurgicale et diminue les rhumes, vous offrant ainsi une meilleure résistance aux maladies.",
         },
         {
-          text: "Ce produit complet résoudra plusieurs de vos préoccupations telles que la cellulite, les vergetures, les cicatrices, l’acné, la rétention d’eau, la circulation sanguine… tout en stimulant votre système immunitaire et votre énergie de façon naturelle.",
+          text: "Nous croyons en la beauté naturelle de chaque individu. Notre produit accélère la cicatrisation des plaies et améliore l'aspect des cicatrices, vous permettant ainsi de retrouver une peau lisse et uniforme. Que ce soit pour des cicatrices post-chirurgicales ou des marques d'acné, notre produit vous aide à retrouver une confiance éclatante.",
         },
         {
-          text: "Un produit unique pour des résultats multiples.",
+          text: "En stimulant votre énergie naturelle, notre produit vous offre une vitalité renouvelée. Il vous aide à vous sentir plus dynamique et épanoui(e) au quotidien. De plus, il contribue à diminuer la rétention d'eau, soulageant ainsi les sensations de gonflement des mains et des pieds. En améliorant la circulation sanguine, il soulage les jambes lourdes et douloureuses. Son pouvoir antioxydant favorise également les fonctions respiratoires, apaisant les allergies et les symptômes de l'asthme.",
+        },
+        {
+          text: "Un produit unique pour des bienfaits multiples.",
         },
       ],
     },
@@ -163,13 +195,19 @@ export const productList = [
       title: "Équilibrez votre corps, équilibrez votre vie.",
       paragraph: [
         {
-          text: "Le moment est venu de prendre votre santé en main et d'atteindre enfin un état de bien-être total pour votre corps en régulant votre microbiote. Dites adieu aux problèmes gastriques, intestinaux et digestifs !",
+          text: "Notre produit agit en régulant votre microbiote, favorisant ainsi un équilibre optimal. Le microbiote est essentiel pour votre bien-être, car il participe à de nombreuses fonctions, de la digestion à l'absorption des nutriments, en passant par le renforcement de votre système immunitaire. En rétablissant l'équilibre de votre microbiote, notre produit contribue à améliorer votre santé globale et à prévenir divers troubles digestifs et maladies chroniques associées. Le pouvoir antioxydant de notre produit aide à neutraliser les toxines présentes dans votre organisme. Il contribue également à diminuer les troubles digestifs en maintenant l'équilibre des bonnes bactéries et en améliorant la flore intestinale. Recommandé pour les maladies chroniques telles que le côlon irritable et la maladie de Crohn (avec avis médical), il améliore également votre santé globale.",
         },
         {
-          text: "Rétablissez l'équilibre naturel de votre corps grâce à une formulation avancée contenant 15 souches différentes de cultures vivantes à large spectre.",
+          text: "Notre produit de bien-être intérieur joue un rôle clé dans la gestion du poids en contrôlant la satiété et en réduisant les envies de sucre et de gras. En favorisant un microbiote équilibré, il permet de vous aider à atteindre et maintenir un poids santé. De plus, il booste votre système immunitaire, facilite l'absorption des nutriments et régule le taux de cholestérol.",
         },
         {
-          text: "Expérimentez un bien-être intérieur inégalé !",
+          text: "Notre produit vous offre un bien-être complet en boostant l'énergie naturelle de votre corps grâce à la synthèse des vitamines B et K. Il contribue également à réduire le stress et l'anxiété, à combattre la fatigue, à améliorer la qualité du sommeil et à stimuler votre humeur, vous permettant ainsi de profiter pleinement de chaque journée.",
+        },
+        {
+          text: "Notre produit offre des bienfaits spécifiques pour les femmes en diminuant les troubles vaginaux et en améliorant le tractus génital. Il vous permet de prendre soin de votre santé intime de manière naturelle et équilibrée.",
+        },
+        {
+          text: "Expérimentez ce produit, c’est côtoyez un bien-être intérieur inégalé !",
         },
       ],
     },
@@ -220,7 +258,9 @@ export const productList = [
       ],
     },
     firstCategory: [getCategoryById("0GestionDuPoids").name],
-    secondCategory: [getSecondCategoryById("0GestionDuPoids0CureMinceur").text],
+    secondCategory: [
+      getSecondCategoryById("0GestionDuPoids1AidePertePoids").text,
+    ],
     picture: "./img/png/product/Gouttes minceur.png",
   },
   {

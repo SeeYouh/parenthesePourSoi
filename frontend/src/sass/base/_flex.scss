@@ -1,3 +1,4 @@
+.imgProduit,
 .category,
 main,
 .textProductCard,
@@ -8,6 +9,7 @@ main,
 // .navbar,
 .menu-navbar,
 .menu-navbar .a,
+.bgProductDetails,
 .logo {
   display: flex;
 }
@@ -17,11 +19,13 @@ main,
   flex-direction: column;
 }
 
+.bgProductDetails,
 .arrayProductCard,
 .menu-navbar {
   flex-direction: row;
 }
 
+.bgProductDetails,
 main {
   align-items: center;
 }
@@ -35,6 +39,7 @@ main {
   justify-content: flex-end;
 }
 
+.bgProductDetails,
 .menu-navbar {
   justify-content: space-between;
 }

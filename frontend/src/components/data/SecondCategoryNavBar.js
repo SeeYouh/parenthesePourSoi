@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { firstCategoryList } from "../../data/firstCategoryList";
+import { RadioContext } from "../utils/radioContext";
 
-const SecondCategoryNavBar = ({
-  selectedRadio,
-  selectedSubRadio,
-  setSelectedSubRadio,
-  setSelectedProduct,
-  isActive,
-  setIsActive,
-}) => {
+const SecondCategoryNavBar = () => {
+  const {
+    selectedRadio,
+    selectedSubRadio,
+    isActive,
+    setIsActive,
+    setSelectedProduct,
+    setSelectedSubRadio,
+  } = useContext(RadioContext);
+
   const handleSubCategoryChange = (e) => {
     if (e.target.checked) {
       setSelectedSubRadio(e.target.id);

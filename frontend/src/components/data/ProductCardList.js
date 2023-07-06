@@ -1,28 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import ProductDetails from "../ProductDetails";
 import { productList } from "../../data/productList";
 import ProductCard from "./ProductCard";
+import { RadioContext } from "../utils/radioContext";
 
-const ProductCardList = ({
-  selectedRadio,
-  setSelectedRadio,
-  selectedSubRadio,
-  setSelectedSubRadio,
-  selectedProduct,
-  setSelectedProduct,
-  isActive,
-  setIsActive,
-}) => {
+const ProductCardList = () => {
+  const {
+    selectedProduct,
+    setSelectedProduct,
+    isActive,
+    setIsActive,
+    selectedRadio,
+    setSelectedRadio,
+    selectedSubRadio,
+    setSelectedSubRadio,
+  } = useContext(RadioContext);
+
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const handleProductClick = (product) => {
-    console.log("handleProductClick called with product:", product);
-    console.log("setSelectedRadio called with product:", product.firstCategory);
-    console.log(
-      "setSelectedSubRadio called with product:",
-      product.secondCategory
-    );
     setSelectedProduct(product);
     setSelectedRadio(product.firstCategory[0]);
     setSelectedSubRadio(product.secondCategory[0]);

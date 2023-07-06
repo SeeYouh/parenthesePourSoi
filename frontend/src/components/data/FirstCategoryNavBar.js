@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { generalDataImg } from "../../data/generalData";
 import { RadioContext } from "../utils/radioContext";
+import { Link } from "react-scroll";
 
 const FirstCategoryNavBar = () => {
   const {
@@ -44,14 +45,16 @@ const FirstCategoryNavBar = () => {
       <div className="no-select all-menu-navbar">
         {firstCategoryList.map((menu, index) => (
           <li className={`cursor menu-navbar ${index}`} key={index}>
-            <input
-              className="active"
-              type="checkbox"
-              name="categorie"
-              id={menu.name}
-              checked={menu.name === selectedRadio}
-              onChange={handleCategoryChange}
-            />
+            <Link to="productList" smooth={true} duration={500} offset={-125}>
+              <input
+                className="active"
+                type="checkbox"
+                name="categorie"
+                id={menu.name}
+                checked={menu.name === selectedRadio}
+                onChange={handleCategoryChange}
+              />
+            </Link>
             <label
               className={`btn btn-navbar ${
                 menu.name === selectedRadio ? "selected" : ""

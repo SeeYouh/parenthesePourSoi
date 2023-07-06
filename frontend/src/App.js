@@ -16,11 +16,13 @@ const App = () => {
       watch={[]}
       containerRef={containerRef}
     >
-      <RadioProvider>
-        <div className="home">
-          <Home />
-        </div>
-      </RadioProvider>
+      <div data-scroll-container ref={containerRef}>
+        <RadioProvider>
+          <div className="home">
+            <Home />
+          </div>
+        </RadioProvider>
+      </div>
     </LocomotiveScrollProvider>
   );
 };

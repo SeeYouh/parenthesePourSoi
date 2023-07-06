@@ -13,15 +13,15 @@ const Home = () => {
   });
 
   return (
-    <div data-scroll-section>
+    <>
       <FirstCategoryNavBar />
       <motion.div className="progressBar" style={{ scaleX }}></motion.div>
-      <div className="bgWhite">
+      <div data-scroll-section className="bgWhite">
         <Logo />
         <Card />
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

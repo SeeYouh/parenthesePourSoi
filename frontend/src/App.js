@@ -10,19 +10,18 @@ const App = () => {
     <LocomotiveScrollProvider
       options={{
         smooth: true,
+        nativeScroll: true,
         // lerp: 0.1,
         // multiplier: 1.5,
       }}
       watch={[]}
       containerRef={containerRef}
     >
-      <div data-scroll-container ref={containerRef}>
-        <RadioProvider>
-          <div className="home">
-            <Home />
-          </div>
-        </RadioProvider>
-      </div>
+      <RadioProvider>
+        <div data-scroll-container ref={containerRef} className="home">
+          <Home />
+        </div>
+      </RadioProvider>
     </LocomotiveScrollProvider>
   );
 };

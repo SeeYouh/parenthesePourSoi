@@ -22,7 +22,7 @@ export const productList = [
   {
     nameProduct: "Détox’",
     summary: {
-      title: "Nettoyer son corps en profondeur ! ",
+      title: "Nettoyer son corps en profondeur.",
       paragraph: [
         {
           text: "La base essentielle de toute cure minceur est le nettoyage du corps afin de le préparer à une perte de poids saine et durable.",
@@ -53,7 +53,7 @@ export const productList = [
   {
     nameProduct: "BB",
     summary: {
-      title: "Le secret d’un éclat intérieur et extérieur",
+      title: "Le secret d’un éclat intérieur et extérieur.",
       paragraph: [
         {
           text: "Notre produit a une capacité exceptionnelle à régénérer les cellules. Sa formule accélère la pousse des ongles et des cheveux, vous permettant ainsi de profiter d'une chevelure plus abondante et d'ongles forts et sains. En augmentant la production de kératine, notre produit revitalise en profondeur vos cheveux, les rendant plus résistants à la casse et leur redonnant brillance et vitalité. De plus, il réduit considérablement la chute des cheveux, vous offrant ainsi une chevelure dense et volumineuse qui fera des envieux.",
@@ -76,7 +76,7 @@ export const productList = [
   {
     nameProduct: "Mère de Tous",
     summary: {
-      title: "Un produit breveté et unique",
+      title: "Un produit breveté et unique.",
       paragraph: [
         {
           text: "Ce produit est breveté et donc disponible uniquement dans notre boutique. Il est unique car a été formulé avec 36 des ingrédients naturels les plus puissants du monde.",
@@ -108,7 +108,7 @@ export const productList = [
   {
     nameProduct: "Booster d’énergie",
     summary: {
-      title: "Un mélange vivifiant pour booster votre journée !",
+      title: "Un mélange vivifiant pour booster votre journée.",
       paragraph: [
         {
           text: "Notre booster d’énergie est le véritable catalyseur de votre bien-être. Il dynamise votre corps en stimulant votre énergie naturelle, combat efficacement la fatigue et vous aide à retrouver un sommeil réparateur. En favorisant la bonne humeur et la gaieté, il contribue à une vision positive de la vie. De plus, il est votre allié pour diminuer le stress et l'anxiété, vous permettant de vous sentir léger(e) et détendu(e) au quotidien.",
@@ -166,7 +166,7 @@ export const productList = [
   {
     nameProduct: "Régénérateur cellulaire",
     summary: {
-      title: "Un support quotidien !",
+      title: "Un support quotidien.",
       paragraph: [
         {
           text: "Notre produit est le best seller de notre boutique car il est l’allié ultime pour améliorer la qualité de votre peau. Grâce à son action sur la régénération cellulaire, il favorise l'élasticité et la fermeté de votre peau, vous offrant ainsi un teint éclatant et une apparence plus jeune. Que vous souhaitiez réduire la cellulite, atténuer les vergetures, traiter l'acné ou apaiser les problèmes d'eczéma et de psoriasis, notre produit est votre solution !",
@@ -221,7 +221,7 @@ export const productList = [
   {
     nameProduct: "Equilibre corps et esprit",
     summary: {
-      title: "Harmonisez votre corps pour un équilibre complet !",
+      title: "Harmonisez votre corps pour un équilibre complet.",
       paragraph: [
         {
           text: "Tout au long de votre vie, votre corps subit d'importants changements significatifs, tant à l’intérieur qu’à l’extérieur.",
@@ -241,7 +241,7 @@ export const productList = [
   {
     nameProduct: "Gouttes minceur",
     summary: {
-      title: "Laissez les éléments naturels agir en votre faveur !",
+      title: "Laissez les éléments naturels agir en votre faveur.",
       paragraph: [
         {
           text: "Avec ses deux fioles uniques sous forme de gouttes, ce produit offre un avantage de pointe en soutenant votre apport nutritionnel quotidien.",
@@ -266,7 +266,7 @@ export const productList = [
   {
     nameProduct: "Harmonie",
     summary: {
-      title: "Soutenez votre corps et votre beauté !",
+      title: "Soutenez votre corps et votre beauté.",
       paragraph: [
         {
           text: "La beauté prend son essence de l’intérieur : n’est-il pas temps de libérer la version la plus rayonnante de vous-même ?",
@@ -290,7 +290,7 @@ export const productList = [
     nameProduct: "Os et Muscles",
     summary: {
       title:
-        "Soutenez votre santé musculaire et osseuse avec notre produit essentiel !",
+        "Soutenez votre santé musculaire et osseuse avec notre produit essentiel.",
       paragraph: [
         {
           text: "Ce mélange unique de vitamines et de minéraux, incluant du calcium, de la vitamine D et du magnésium, est spécialement conçu pour favoriser la santé des muscles et des os.",

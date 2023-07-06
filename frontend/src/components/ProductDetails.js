@@ -4,7 +4,9 @@ const ProductDetails = (productDescription, index) => {
   return (
     <>
       <div className="bgProductDetails">
-        <div className="imgProduit"></div>
+        <div className="imgProduit">
+          <img src={productDescription.product.picture} />
+        </div>
         <div className="titleTextProduct">
           <h1 key={index}> {productDescription.product.nameProduct} </h1>
           <h2 key={index}> {productDescription.product.summary.title} </h2>

@@ -46,6 +46,10 @@ const FirstCategoryNavBar = () => {
         src={generalDataImg[3].src}
         alt={generalDataImg[3].alt}
         onClick={() => {
+          scroller.scrollTo("scrollTop", {
+            smooth: "easeInOutQuint",
+            duration: 1000,
+          });
           setSelectedRadio("");
           setSelectedSubRadio("");
           setSelectedProduct("");

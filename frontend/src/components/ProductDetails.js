@@ -18,7 +18,10 @@ const ProductDetails = (productDescription, index) => {
       <div className="bgParagraph">
         {productDescription.product.summary.paragraph.map(
           (productDescription, index) => (
-            <p key={index}>{productDescription.text}</p>
+            <>
+              <h3 key={index}> {productDescription.subTitle} </h3>
+              <p key={index}>{productDescription.text}</p>
+            </>
           )
         )}
       </div>

@@ -48,7 +48,7 @@ export const productList = [
     secondCategory: [
       getSecondCategoryById("0GestionDuPoids0Detoxification").text,
     ],
-    picture: "./img/png/product/Détox’.png",
+    picture: "./img/jpg/product/detox.jpg",
   },
   {
     nameProduct: "BB",
@@ -74,7 +74,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("2Beaute").name],
     secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-    picture: "./img/png/product/BB.png",
+    picture: "./img/jpg/product/bb.jpg",
   },
   {
     nameProduct: "Mère de Tous",
@@ -106,7 +106,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("3BienEtre").name],
     secondCategory: [getSecondCategoryById("3BienEtre3Humeur").text],
-    picture: "./img/png/product/Mère de Tous.png",
+    picture: "./img/jpg/product/mereDeTous.jpg",
   },
   {
     nameProduct: "Booster d’énergie",
@@ -135,7 +135,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("3BienEtre").name],
     secondCategory: [getSecondCategoryById("3BienEtre3Humeur").text],
-    picture: "./img/png/product/Booster d’énergie.png",
+    picture: "./img/jpg/product/boosterEnergie.jpg",
   },
   {
     nameProduct: "Collagènoni",
@@ -164,7 +164,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("2Beaute").name],
     secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-    picture: "./img/png/product/Collagène.png",
+    picture: "./img/jpg/product/collagene.jpg",
   },
   {
     nameProduct: "Régénérateur cellulaire",
@@ -190,7 +190,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("1Sante").name],
     secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
-    picture: "./img/png/product/Régénérateur cellulaire.png",
+    picture: "./img/jpg/product/regenerateurCellulaire.jpg",
   },
   {
     nameProduct: "Bien-être intérieur",
@@ -222,7 +222,7 @@ export const productList = [
       getSecondCategoryById("1Sante1TroublesDigestifsIntestinauxRespiratoires")
         .text,
     ],
-    picture: "./img/png/product/Bien-être-intérieur.png",
+    picture: "./img/jpg/product/bienEtreInterieur.jpg",
   },
   {
     nameProduct: "Equilibre corps et esprit",
@@ -242,7 +242,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("3BienEtre").name],
     secondCategory: [getSecondCategoryById("3BienEtre1Energie").text],
-    picture: "./img/png/product/Equilibre corps et esprit.png",
+    picture: "./img/jpg/product/equilibreCorpsEsprit.jpg",
   },
   {
     nameProduct: "Gouttes minceur",
@@ -273,7 +273,7 @@ export const productList = [
     secondCategory: [
       getSecondCategoryById("0GestionDuPoids1AidePertePoids").text,
     ],
-    picture: "./img/png/product/Gouttes minceur.png",
+    picture: "./img/jpg/product/goutteMinceur.jpg",
   },
   {
     nameProduct: "Harmonie",
@@ -305,7 +305,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("3BienEtre").name],
     secondCategory: [getSecondCategoryById("3BienEtre2FatigueSommeil").text],
-    picture: "./img/png/product/Harmonie.png",
+    picture: "./img/jpg/product/harmonie.jpg",
   },
   {
     nameProduct: "Os et Muscles",
@@ -338,7 +338,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("1Sante").name],
     secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
-    picture: "./img/png/product/Os et Muscles.png",
+    picture: "./img/jpg/product/osMuscle.jpg",
   },
   {
     nameProduct: "Shampooing",
@@ -364,7 +364,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("2Beaute").name],
     secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
-    picture: "./img/png/product/Os et Muscles.png",
+    picture: "./img/jpg/product/shampooing.jpg",
   },
   {
     nameProduct: "Après shampooing",
@@ -390,7 +390,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("2Beaute").name],
     secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
-    picture: "./img/png/product/Os et Muscles.png",
+    picture: "./img/jpg/product/aprèsShampooing.jpg",
   },
   {
     nameProduct: "HE Relaxante",
@@ -415,7 +415,7 @@ export const productList = [
     secondCategory: [
       getSecondCategoryById("4HuilesEssentielles0MieuxEtre").text,
     ],
-    picture: "./img/png/product/Os et Muscles.png",
+    picture: "./img/jpg/product/heRelaxante.jpg",
   },
   {
     nameProduct: "Coco’oil",
@@ -448,7 +448,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("1Sante").name],
     secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
-    picture: "./img/png/product/Os et Muscles.png",
+    picture: "./img/jpg/product/cocoOil.jpg",
   },
   {
     nameProduct: "Gel douche",
@@ -468,7 +468,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("1Sante").name],
     secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
-    picture: "./img/png/product/Os et Muscles.png",
+    picture: "./img/jpg/product/gelDouche.jpg",
   },
   {
     nameProduct: "PN",
@@ -500,7 +500,7 @@ export const productList = [
     },
     firstCategory: [getCategoryById("2Beaute").name],
     secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-    picture: "./img/png/product/Os et Muscles.png",
+    picture: "./img/jpg/product/Os et Muscles.jpg",
   },
   {
     nameProduct: "Dentifrice",
@@ -523,6 +523,6 @@ export const productList = [
     },
     firstCategory: [getCategoryById("2Beaute").name],
     secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-    picture: "./img/png/product/Os et Muscles.png",
+    picture: "./img/jpg/product/dentifrice.jpg",
   },
 ];

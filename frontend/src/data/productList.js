@@ -25,28 +25,38 @@ export const productList = [
       title: "Nettoyer son corps en profondeur.",
       paragraph: [
         {
-          subTitle: "Préparez votre corps : clé d'une perte de poids réussie",
+          subTitle: "Préparez-vous à mincir avec notre détox’",
           text: "La base essentielle de toute cure minceur est le nettoyage du corps afin de le préparer à une perte de poids saine et durable.",
         },
         {
-          subTitle: "Détoxification complète pour une meilleure santé",
+          subTitle: "Laissez notre détox’ faire le grand nettoyage !",
           text: "Notre produit agit comme un véritable agent de détoxification, absorbant les toxines présentes dans votre corps et les transportant hors de celui-ci. Ces toxines, issues de votre métabolisme et de votre environnement, peuvent s'accumuler dans vos organes émonctoires, tels que le foie, les reins, les poumons, les intestins et la peau. Lorsque ces organes sont surchargés de toxines, des problèmes de santé peuvent survenir. En optant pour notre produit, vous permettez à votre corps de se débarrasser de ces toxines, favorisant ainsi une gestion du poids plus efficace et une meilleure santé globale.",
         },
         {
-          subTitle: "Ingrédients puissants pour gestion du poids",
+          subTitle: "Boostez vos défenses, c'est bon pour la balance !",
           text: "Les ingrédients de notre détox' protègent vos cellules contre le stress oxydatif grâce à la vitamine E présente dans certains d'entre eux. Ils renforcent également votre système immunitaire, maintiennent la santé de vos muqueuses et favorisent un fonctionnement normal de la thyroïde, jouant ainsi un rôle clé dans la gestion du poids. ",
         },
         {
-          subTitle: "Équilibrez votre système digestif : adieu ballonnements",
+          subTitle: "Dites adieu aux ballonnements avec notre détox’",
           text: "En rééquilibrant votre système digestif, notre produit diminue les ballonnements, les gaz, la constipation et la diarrhée. De plus, il contribue à réduire la cellulite, vous offrant ainsi une silhouette plus harmonieuse.",
         },
         {
-          subTitle: "Boostez votre énergie naturelle : vitalité retrouvée",
+          subTitle: "Ressourcez-vous et faites le plein d'énergie !",
           text: "Notre détox’ booste l'énergie naturelle de votre corps, vous permettant ainsi de retrouver une vitalité et un bien-être général. Vous vous sentirez revitalisé(e), prêt(e) à faire face aux défis quotidiens avec une énergie renouvelée.",
         },
         {
-          subTitle: "Détox' révolutionnaire : objectifs minceur atteints",
-          text: "Découvrez notre détox' révolutionnaire et atteignez vos objectifs de perte de poids. Conçu spécialement pour vous, notre produit offre une approche novatrice pour une perte de poids réussie, tout en améliorant votre bien-être global.",
+          subTitle:
+            "Atteignez vos objectifs minceur grâce à notre révolution détox’",
+          text: "Optez pour notre détox’, c’est choisir un produit révolutionnaire conçu pour vous aider à atteindre vos objectifs de perte de poids tout en favorisant un bien-être optimal.",
+        },
+        {
+          subTitle:
+            "Pour une perte de poids sans effet yo-yo, essayez nos gouttes !",
+          text: "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo.",
+        },
+        {
+          subTitle: "Pré-probiotiques : votre allié pour un système équilibré",
+          text: "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci ou avec un apport de légumes et vitamines via la détox végétale.",
         },
       ],
     },

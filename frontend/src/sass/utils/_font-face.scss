@@ -25,3 +25,23 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: "hyperspace";
+  src: url("../../../public/fonts/hyperspace-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hyperspace";
+  src: url("../../../public/fonts/hyperspace-Light.otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hyperspace";
+  src: url("../../../public/fonts/hyperspace-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}

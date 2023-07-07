@@ -15,7 +15,7 @@ let getSecondCategoryById = (id) => {
       return subcategory;
     }
   }
-  return null; // retourne null si l'ID de la sous-catégorie n'est pas trouvé
+  return null;
 };
 
 export const productList = [

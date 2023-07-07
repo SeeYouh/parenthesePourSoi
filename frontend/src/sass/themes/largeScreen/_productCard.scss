@@ -52,6 +52,12 @@
   }
 }
 
+.productTab {
+  // border: 1px solid $bgColor5;
+  width: 100%;
+  padding-left: 45px;
+}
+
 .bgParagraph {
   text-align: justify;
 
@@ -69,7 +75,7 @@
   }
 
   :first-child {
-    margin-top: 50px;
+    margin-top: 15px;
     border-top-left-radius: 20px;
     border-top-right-radius: 40px;
     border-top: 5px solid $bgColor5;

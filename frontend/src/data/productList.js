@@ -27,6 +27,10 @@ export const productList = [
         {
           subTitle: "Préparez-vous à mincir avec notre détox’",
           text: "La base essentielle de toute cure minceur est le nettoyage du corps afin de le préparer à une perte de poids saine et durable.",
+          picture150: "./img/jpg/product/DétoxIllusText150.jpg",
+          picture300: "./img/jpg/product/DétoxIllusText300.jpg",
+          picture450: "./img/jpg/product/DétoxIllusText450.jpg",
+          picture600: "./img/jpg/product/DétoxIllusText60.jpg",
         },
         {
           subTitle: "Laissez notre détox’ faire le grand nettoyage !",

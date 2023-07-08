@@ -73,15 +73,19 @@
     line-height: 2.5rem;
   }
 
-  .productDescriptPresentFirst:first-child {
+  .productDescriptPresentFirst {
     display: flex;
     flex-grow: 1;
     align-items: center;
+  }
+
+  .productDescriptPresentNext:first-child {
     margin-top: 15px;
     border-top-left-radius: 20px;
     border-top-right-radius: 40px;
     border-top: 5px solid $bgColor5;
   }
+
   .productDescriptPresentNext:last-child {
     margin-bottom: 50px;
     border-bottom-right-radius: 20px;

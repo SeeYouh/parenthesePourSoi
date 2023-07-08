@@ -1,6 +1,6 @@
 import React from "react";
 
-const Description = ({ productDescription, index }) => {
+const Description = ({ productDescription }) => {
   return (
     <>
       <div className="bgParagraph">
@@ -9,18 +9,14 @@ const Description = ({ productDescription, index }) => {
             <div
               key={index}
               className={
-                index === 0
+                index === 2
                   ? "productDescriptPresentFirst"
                   : "productDescriptPresentNext"
               }
             >
-              {index === 0 && (
-                <div>
-                  <h3> {productDescription.subTitle} </h3>
-                  <p>{productDescription.text}</p>
-                </div>
-              )}
-              {index === 0 && (
+              <h3> {productDescription.subTitle} </h3>
+              <p>{productDescription.text}</p>
+              {index === 2 && (
                 <picture>
                   <source
                     media="(max-width: 1439px)"
@@ -35,16 +31,10 @@ const Description = ({ productDescription, index }) => {
                     srcSet={productDescription.picture900}
                   />
                   <img
-                    src={productDescription.picture1000}
+                    src={productDescription.picture900}
                     alt={productDescription.alt}
                   />
                 </picture>
-              )}
-              {index !== 0 && (
-                <>
-                  <h3> {productDescription.subTitle} </h3>
-                  <p>{productDescription.text}</p>
-                </>
               )}
             </div>
           )

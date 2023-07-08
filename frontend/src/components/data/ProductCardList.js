@@ -45,7 +45,7 @@ const ProductCardList = () => {
         animate={{
           width:
             isActive && windowWidth <= 1072
-              ? "85vw"
+              ? "100vw"
               : isActive && windowWidth >= 1073 && windowWidth <= 1439
               ? "70vw"
               : isActive && windowWidth >= 1440 && windowWidth < 1600

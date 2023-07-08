@@ -23,23 +23,19 @@ const Description = ({ productDescription, index }) => {
               {index === 0 && (
                 <picture>
                   <source
-                    media="(max-width: 1072)"
-                    srcSet={productDescription.picture150}
-                  />
-                  <source
-                    media="(min-width: 151px) and (max-width: 300px)"
-                    srcSet={productDescription.picture300}
-                  />
-                  <source
-                    media="(min-width: 301px) and (max-width: 450px)"
+                    media="(max-width: 1439px)"
                     srcSet={productDescription.picture450}
                   />
                   <source
-                    media="(min-width: 451px)"
-                    srcSet={productDescription.picture600}
+                    media="(min-width: 1440px) and (max-width: 1600px)"
+                    srcSet={productDescription.picture675}
+                  />
+                  <source
+                    media="(min-width: 1601px)"
+                    srcSet={productDescription.picture900}
                   />
                   <img
-                    src={productDescription.picture600}
+                    src={productDescription.picture1000}
                     alt={productDescription.alt}
                   />
                 </picture>

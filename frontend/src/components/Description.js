@@ -6,14 +6,20 @@ const Description = ({ productDescription, index }) => {
       <div className="bgParagraph">
         {productDescription.product.summary.paragraph.map(
           (productDescription, index) => (
-            <React.Fragment
+            <div
               key={index}
-              className="productionDescriptionPresentation"
+              className={
+                index === 0
+                  ? "productDescriptPresentFirst"
+                  : "productDescriptPresentNext"
+              }
             >
-              <>
-                <h3> {productDescription.subTitle} </h3>
-                <p>{productDescription.text}</p>
-              </>
+              {index === 0 && (
+                <div>
+                  <h3> {productDescription.subTitle} </h3>
+                  <p>{productDescription.text}</p>
+                </div>
+              )}
               {index === 0 && (
                 <picture>
                   <source
@@ -38,7 +44,13 @@ const Description = ({ productDescription, index }) => {
                   />
                 </picture>
               )}
-            </React.Fragment>
+              {index !== 0 && (
+                <>
+                  <h3> {productDescription.subTitle} </h3>
+                  <p>{productDescription.text}</p>
+                </>
+              )}
+            </div>
           )
         )}
       </div>

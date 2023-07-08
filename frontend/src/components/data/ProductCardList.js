@@ -39,57 +39,57 @@ const ProductCardList = () => {
   }, []);
 
   return (
-    <motion.div
-      initial={{ x: 0 }}
-      animate={{
-        x:
-          isActive && windowWidth >= 1073 && windowWidth < 1339
-            ? 300
-            : isActive && windowWidth >= 1340 && windowWidth < 1712
-            ? 150
-            : 0,
-      }}
-      className="arrayProductCardContainer"
-    >
+    <div className="arrayProductCardContainer">
       <motion.div
-        initial={{ width: "100%" }}
+        initial={{ width: "100vw", x: 0 }}
         animate={{
           width:
             isActive && windowWidth <= 1072
-              ? "100%"
-              : isActive && windowWidth >= 1073 && windowWidth <= 1339
-              ? "70%"
-              : isActive && windowWidth >= 1340 && windowWidth < 1600
-              ? "80%"
-              : "100%",
+              ? "85vw"
+              : isActive && windowWidth >= 1073 && windowWidth <= 1439
+              ? "70vw"
+              : isActive && windowWidth >= 1440 && windowWidth < 1600
+              ? "85vw"
+              : "100vw",
+          x:
+            isActive && windowWidth >= 1073 && windowWidth < 1239
+              ? 150
+              : isActive && windowWidth >= 1240
+              ? 200
+              : 0,
+          display: selectedProduct ? "none" : "flex",
         }}
         className="arrayProductCard"
       >
-        {selectedProduct ? (
-          <ProductDetails product={selectedProduct} />
-        ) : (
-          productList
-            .filter((product) =>
-              selectedRadio
-                ? product.firstCategory.includes(selectedRadio)
-                : true
-            )
-            .filter((product) =>
-              selectedSubRadio
-                ? product.secondCategory.includes(selectedSubRadio)
-                : true
-            )
-            .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct))
-            .map((productDetails, index) => (
-              <ProductCard
-                key={index}
-                product={productDetails}
-                onProductClick={handleProductClick}
-              />
-            ))
-        )}
+        {productList
+          .filter((product) =>
+            selectedRadio ? product.firstCategory.includes(selectedRadio) : true
+          )
+          .filter((product) =>
+            selectedSubRadio
+              ? product.secondCategory.includes(selectedSubRadio)
+              : true
+          )
+          .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct))
+          .map((productDetails, index) => (
+            <ProductCard
+              key={index}
+              product={productDetails}
+              onProductClick={handleProductClick}
+            />
+          ))}{" "}
       </motion.div>
-    </motion.div>
+      <motion.div
+        initial={{ width: "0%" }}
+        animate={{
+          width: selectedProduct ? "90vw" : "0%", // Utilise toute la largeur lorsqu'un produit est sélectionné
+          display: selectedProduct ? "block" : "none", // Affiche les détails lorsque un produit est sélectionné
+        }}
+        className="productDetailsContainer"
+      >
+        {selectedProduct ? <ProductDetails product={selectedProduct} /> : null}
+      </motion.div>
+    </div>
   );
 };
 

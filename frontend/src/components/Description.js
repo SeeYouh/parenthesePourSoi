@@ -9,14 +9,18 @@ const Description = ({ productDescription }) => {
             <div
               key={index}
               className={
-                index === 2
+                index === 1
                   ? "productDescriptPresentFirst"
                   : "productDescriptPresentNext"
               }
             >
-              <h3> {productDescription.subTitle} </h3>
-              <p>{productDescription.text}</p>
-              {index === 2 && (
+              {index === 1 && (
+                <div>
+                  <h3> {productDescription.subTitle} </h3>
+                  <p>{productDescription.text}</p>
+                </div>
+              )}
+              {index === 1 && (
                 <picture>
                   <source
                     media="(max-width: 1439px)"
@@ -35,6 +39,12 @@ const Description = ({ productDescription }) => {
                     alt={productDescription.alt}
                   />
                 </picture>
+              )}
+              {index !== 1 && (
+                <>
+                  <h3> {productDescription.subTitle} </h3>
+                  <p>{productDescription.text}</p>
+                </>
               )}
             </div>
           )

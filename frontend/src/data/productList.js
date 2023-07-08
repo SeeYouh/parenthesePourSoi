@@ -27,13 +27,13 @@ export const productList = [
         {
           subTitle: "Préparez-vous à mincir avec notre détox’",
           text: "La base essentielle de toute cure minceur est le nettoyage du corps afin de le préparer à une perte de poids saine et durable.",
-          picture450: "./img/jpg/product/DetoxIllusText450.jpg",
-          picture675: "./img/jpg/product/DetoxIllusText675.jpg",
-          picture900: "./img/jpg/product/DetoxIllusText900.jpg",
         },
         {
           subTitle: "Laissez notre détox’ faire le grand nettoyage !",
           text: "Notre produit agit comme un véritable agent de détoxification, absorbant les toxines présentes dans votre corps et les transportant hors de celui-ci. Ces toxines, issues de votre métabolisme et de votre environnement, peuvent s'accumuler dans vos organes émonctoires, tels que le foie, les reins, les poumons, les intestins et la peau. Lorsque ces organes sont surchargés de toxines, des problèmes de santé peuvent survenir. En optant pour notre produit, vous permettez à votre corps de se débarrasser de ces toxines, favorisant ainsi une gestion du poids plus efficace et une meilleure santé globale.",
+          picture450: "./img/jpg/product/DetoxIllusText450.jpg",
+          picture675: "./img/jpg/product/DetoxIllusText675.jpg",
+          picture900: "./img/jpg/product/DetoxIllusText900.jpg",
         },
         {
           subTitle: "Boostez vos défenses, c'est bon pour la balance !",
@@ -53,12 +53,9 @@ export const productList = [
           text: "Optez pour notre détox’, c’est choisir un produit révolutionnaire conçu pour vous aider à atteindre vos objectifs de perte de poids tout en favorisant un bien-être optimal.",
         },
         {
-          subTitle:
-            "Pour une perte de poids sans effet yo-yo, essayez nos gouttes !",
           text: "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo.",
         },
         {
-          subTitle: "Pré-probiotiques : votre allié pour un système équilibré",
           text: "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci ou avec un apport de légumes et vitamines via la détox végétale.",
         },
       ],

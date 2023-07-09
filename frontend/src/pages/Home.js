@@ -13,7 +13,7 @@ const Home = () => {
   });
 
   return (
-    <div data-scroll-section>
+    <>
       <FirstCategoryNavBar />
       <motion.div className="progressBar" style={{ scaleX }}></motion.div>
       <div className="bgWhite">
@@ -21,7 +21,7 @@ const Home = () => {
         <Card />
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

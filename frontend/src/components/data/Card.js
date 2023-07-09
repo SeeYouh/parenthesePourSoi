@@ -3,6 +3,8 @@ import SecondCategoryNavBar from "./SecondCategoryNavBar";
 import ProductCardList from "./ProductCardList";
 import { Element } from "react-scroll";
 
+// Page qui affiche la liste des produits
+
 const Card = () => {
   return (
     <main>

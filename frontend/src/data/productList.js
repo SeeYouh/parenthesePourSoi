@@ -5,6 +5,8 @@ let getCategoryById = (id) => {
   return firstCategoryList.find((cat) => cat.id === id);
 };
 
+//Commentaire pour tester le push
+
 // Récupère le nom des sous-catégories par leur id
 let getSecondCategoryById = (id) => {
   for (let category of firstCategoryList) {

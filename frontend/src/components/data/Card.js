@@ -7,8 +7,8 @@ import { Element } from "react-scroll";
 const Card = () => {
   return (
     <main>
-      <Element name="productList" className="width-100">
-        <div className="productList">
+      <Element name="productList">
+        <div>
           <SecondCategoryNavBar />
           <ProductCardList />
         </div>

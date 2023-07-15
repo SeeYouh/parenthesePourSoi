@@ -1,6 +1,6 @@
 import React from "react";
 
-const Description = ({ productDescription }) => {
+const Description = ({ productDescription, onProductChange }) => {
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
   const productLiketIt = productDescription.product.summary.youLikeIt;
@@ -24,8 +24,7 @@ const Description = ({ productDescription }) => {
                     color: themeColors.textColor
                   }}
                 >
-                  {" "}
-                  {productDescription.subTitle}{" "}
+                  {productDescription.subTitle}
                 </h3>
                 <p>{productDescription.text}</p>
               </div>
@@ -54,7 +53,11 @@ const Description = ({ productDescription }) => {
               <>
                 <div className="youWillLikeIt">
                   {productLiketIt.map((productDescription, index) => (
-                    <div key={index} className="youWillLikeIt-content">
+                    <div
+                      key={index}
+                      className="youWillLikeIt-content"
+                      onClick={() => onProductChange(productDescription)}
+                    >
                       <img
                         className="imgYouWillLikeIt"
                         src={productDescription.pictureLove}

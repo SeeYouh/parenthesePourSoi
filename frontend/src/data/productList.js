@@ -53,11 +53,13 @@ export const productList = [
           text: "Optez pour notre détox’, c’est choisir un produit révolutionnaire conçu pour vous aider à atteindre vos objectifs de perte de poids tout en favorisant un bien-être optimal."
         },
         {
-          subTitle: "Vous aimerez aussi…",
-          text: "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+          subTitleLove: "Vous aimerez aussi…",
+          textLove:
+            "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
         },
         {
-          text: "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci ou avec un apport de légumes et vitamines via la détox végétale."
+          textLove:
+            "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci ou avec un apport de légumes et vitamines via la détox végétale."
         }
       ]
     },
@@ -65,7 +67,11 @@ export const productList = [
     secondCategory: [
       getSecondCategoryById("0GestionDuPoids0Detoxification").text
     ],
-    picture: "./img/jpg/product/detox.jpg"
+    picture: "./img/jpg/product/detox.jpg",
+    colors: {
+      textColor: "#7e1450",
+      borderColor: "1px solid #7e1450"
+    }
   },
   {
     nameProduct: "BB",

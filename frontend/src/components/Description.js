@@ -1,6 +1,7 @@
 import React from "react";
 
 const Description = ({ productDescription }) => {
+  const themeColors = productDescription.product.colors;
   return (
     <>
       <div className="bgParagraph">
@@ -16,7 +17,14 @@ const Description = ({ productDescription }) => {
             >
               {index === 1 && (
                 <div>
-                  <h3> {productDescription.subTitle} </h3>
+                  <h3
+                    style={{
+                      color: themeColors.textColor
+                    }}
+                  >
+                    {" "}
+                    {productDescription.subTitle}{" "}
+                  </h3>
                   <p>{productDescription.text}</p>
                 </div>
               )}
@@ -42,10 +50,18 @@ const Description = ({ productDescription }) => {
               )}
               {index !== 1 && (
                 <>
-                  <h3> {productDescription.subTitle} </h3>
+                  <h3
+                    style={{
+                      color: themeColors.textColor
+                    }}
+                  >
+                    {" "}
+                    {productDescription.subTitle}{" "}
+                  </h3>
                   <p>{productDescription.text}</p>
                 </>
               )}
+              <div></div>
             </div>
           )
         )}

@@ -59,7 +59,11 @@ export const productList = [
         },
         {
           textLove:
-            "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci ou avec un apport de légumes et vitamines via la détox végétale."
+            "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+        },
+        {
+          textLove:
+            "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
         }
       ]
     },

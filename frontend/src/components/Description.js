@@ -61,7 +61,18 @@ const Description = ({ productDescription }) => {
                   <p>{productDescription.text}</p>
                 </>
               )}
-              <div></div>
+              <div>
+                <h3
+                  style={{
+                    color: themeColors.textColor
+                  }}
+                >
+                  {productDescription.subTitleLove}
+                </h3>
+                <div className="youWillLikeIt">
+                  <p>{productDescription.textLove}</p>
+                </div>
+              </div>
             </div>
           )
         )}

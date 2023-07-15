@@ -3,6 +3,7 @@ import React from "react";
 const Description = ({ productDescription }) => {
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
+  const productLiketIt = productDescription.product.summary.youLikeIt;
 
   return (
     <>
@@ -49,35 +50,35 @@ const Description = ({ productDescription }) => {
                 />
               </picture>
             )}
-            {index !== 1 && (
+            {index === productParagraph.length - 1 ? (
               <>
-                <h3
-                  style={{
-                    color: themeColors.textColor
-                  }}
-                >
-                  {" "}
-                  {productDescription.subTitle}{" "}
-                </h3>
-                <p>{productDescription.text}</p>
+                <div className="youWillLikeIt">
+                  {productLiketIt.map((productDescription, index) => (
+                    <div key={index} className="youWillLikeIt-content">
+                      <img
+                        className="imgYouWillLikeIt"
+                        src={productDescription.pictureLove}
+                        alt={productDescription.alt}
+                      />
+                      <p>{productDescription.textLove}</p>
+                    </div>
+                  ))}
+                </div>
               </>
+            ) : (
+              index !== 1 && (
+                <>
+                  <h3
+                    style={{
+                      color: themeColors.textColor
+                    }}
+                  >
+                    {productDescription.subTitle}
+                  </h3>
+                  <p>{productDescription.text}</p>
+                </>
+              )
             )}
-            <h3
-              style={{
-                color: themeColors.textColor
-              }}
-            >
-              {productDescription.subTitleLove}
-            </h3>
-            <div className="youWillLikeIt">
-              <div className="youWillLikeIt-content">
-                <img
-                  src={productDescription.pictureLove}
-                  alt={productDescription.alt}
-                />
-                <p>{productDescription.textLove}</p>
-              </div>
-            </div>
           </div>
         ))}
       </div>

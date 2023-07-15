@@ -53,7 +53,16 @@ export const productList = [
           text: "Optez pour notre détox’, c’est choisir un produit révolutionnaire conçu pour vous aider à atteindre vos objectifs de perte de poids tout en favorisant un bien-être optimal."
         },
         {
-          subTitleLove: "Vous aimerez aussi…",
+          subTitle: "Vous aimerez aussi…",
+          text: ""
+        },
+        {
+          subTitle: "",
+          text: ""
+        }
+      ],
+      youLikeIt: [
+        {
           pictureLove: "./img/jpg/product/goutteMinceur.jpg",
           textLove:
             "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."

@@ -92,20 +92,26 @@
 .youWillLikeIt {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: space-around;
+  justify-content: center;
   width: 100%;
+  margin-top: 25px;
 
   .youWillLikeIt-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 500px;
     height: 500px;
+    // border: 2px solid black;
 
-    img {
-      height: 200px;
-      width: auto;
-    }
   }
 
+}
+
+.imgYouWillLikeIt {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  margin: 10px auto;
 }

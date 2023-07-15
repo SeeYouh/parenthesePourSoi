@@ -82,21 +82,36 @@
 
   .productDescriptPresentNext:first-child {
     margin-top: 15px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 40px;
-    border-top: 5px solid $bgColor5;
   }
 
   .productDescriptPresentNext:last-child {
     margin-bottom: 50px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 40px;
-    border-bottom: 5px solid $bgColor5;
+  }
+}
+
+.youWillLikeIt {
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+
+  .youWillLikeIt-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    // border: 2px solid black;
+
   }
 
-  .productDescriptPresentFirst,
-  .productDescriptPresentNext {
-    border-left: 5px solid $bgColor5;
-    border-right: 5px solid $bgColor5;
-  }
+}
+
+.imgYouWillLikeIt {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  margin: 10px auto;
 }

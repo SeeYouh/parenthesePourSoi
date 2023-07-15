@@ -15,7 +15,7 @@ const ProductCardList = () => {
     selectedRadio,
     setSelectedRadio,
     selectedSubRadio,
-    setSelectedSubRadio,
+    setSelectedSubRadio
   } = useContext(RadioContext);
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -28,7 +28,7 @@ const ProductCardList = () => {
     scroller.scrollTo("productList", {
       smooth: "easeInOutQuint",
       duration: 1000,
-      offset: -125,
+      offset: -125
     });
   };
 
@@ -57,7 +57,7 @@ const ProductCardList = () => {
               : isActive && windowWidth >= 1240
               ? 200
               : 0,
-          display: selectedProduct ? "none" : "flex",
+          display: selectedProduct ? "none" : "flex"
         }}
         className="arrayProductCard"
       >
@@ -83,7 +83,7 @@ const ProductCardList = () => {
         initial={{ width: "0%" }}
         animate={{
           width: selectedProduct ? "90vw" : "0%", // Utilise toute la largeur lorsqu'un produit est sélectionné
-          display: selectedProduct ? "block" : "none", // Affiche les détails lorsque un produit est sélectionné
+          display: selectedProduct ? "block" : "none" // Affiche les détails lorsque un produit est sélectionné
         }}
         className="productDetailsContainer"
       >

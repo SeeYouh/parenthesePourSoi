@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Description from "./Description";
 // import AdditionnalInformation from "./AdditionnalInformation";
 // import AsaComplement from "./AsaComplement";
 // import InSummary from "./InSummary";
 
 const ProductDetails = (productDescription, index) => {
+  const [currentProduct, setCurrentProduct] = useState(productDescription);
+
   return (
     <>
       <div className="bgProductDetails">
@@ -63,7 +65,12 @@ const ProductDetails = (productDescription, index) => {
       />
       <AsaComplement productDescription={productDescription} index={index} />
       <InSummary productDescription={productDescription} index={index} /> */}
-      <Description productDescription={productDescription} index={index} />
+      {/* <Description productDescription={productDescription} index={index} /> */}
+      <Description
+        productDescription={currentProduct}
+        onProductChange={setCurrentProduct}
+        index={index}
+      />
     </>
   );
 };

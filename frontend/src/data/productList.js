@@ -121,31 +121,83 @@ export const productList = [
       title: "Un produit breveté et unique.",
       paragraph: [
         {
+          subTitle:
+            "Exclusivité garantie : Un produit unique pour votre bien-être",
           text: "Ce produit est breveté et donc disponible uniquement dans notre boutique. Il est unique car a été formulé avec 36 des ingrédients naturels les plus puissants du monde."
         },
         {
+          subtitle: "Soulagement naturel : Combattez douleurs et inflammations",
           text: "Notre produit agit comme un puissant anti-inflammatoire, soulageant les douleurs musculaires, articulaires et les maladies chroniques douloureuses. Il offre un répit bienvenu et vous permet de retrouver une mobilité et un confort que vous méritez."
         },
         {
-          text: "Il booste naturellement l'énergie de votre corps, combat la fatigue et améliore votre humeur. Il soutient également un équilibre psychologique et une clarté mentale, vous permettant de faire face aux défis quotidiens avec sérénité."
+          subtitle: "Boostez votre énergie : Dites adieu à la fatigue",
+          text: "Il booste naturellement l'énergie de votre corps, combat la fatigue et améliore votre humeur."
         },
         {
-          text: "Grâce à sa capacité à protéger les cellules, notre produit favorise une santé optimale. Il soutient également votre système immunitaire, ce qui est particulièrement important pour une guérison plus rapide lors de rhumes ou de périodes de pandémie. De plus, il soulage les allergies, combat l'acné, favorise la digestion et soulage les brûlures d'estomac. Notre produit contribue également à réguler le taux de cholestérol, à stabiliser le diabète et à lutter contre la constipation."
+          subtitle: "Clarté mentale : Affrontez le quotidien avec sérénité",
+          text: "Il soutient également un équilibre psychologique et une clarté mentale, vous permettant de faire face aux défis quotidiens avec sérénité."
         },
         {
+          subtitle: "Défense immunitaire : Votre allié contre les maladies",
+          text: "Grâce à sa capacité à protéger les cellules, il favorise une santé optimale et soutient également votre système immunitaire, ce qui est particulièrement important pour une guérison plus rapide lors de rhumes ou de périodes de pandémie."
+        },
+        {
+          subtitle:
+            "Soulagement des allergies : Une solution pour votre confort",
+          text: "De plus, il soulage les allergies, combat l'acné, favorise la digestion et soulage les brûlures d'estomac."
+        },
+        {
+          subtitle: "Régulation du cholestérol : Un soutien pour votre santé",
+          text: "Notre produit contribue également à réguler le taux de cholestérol, à stabiliser le diabète et à lutter contre la constipation."
+        },
+        {
+          subtitle:
+            "Pour les femmes : Un soulagement pour les règles douloureuses",
           text: "Pour vous, mesdames, ce produit offre un soulagement appréciable pour les règles douloureuses, vous permettant de vivre cette période de manière plus confortable."
         },
         {
+          subtitle: "Bronzage accéléré : Une peau hâlée en un temps record",
           text: "Et ce n’est pas tout ! Ce produit est également connu pour accélérer le processus de bronzage. Vous pouvez profiter d'une peau rayonnante et d'un teint hâlé en seulement 30 minutes d'exposition, équivalant à 2 heures de bronzage."
         },
         {
+          subtitle:
+            "Retrouvez votre bien-être : Prenez le contrôle de vos maux",
           text: "Prenez le contrôle de vos maux pour retrouver un état de bien-être et une vie plus confortable."
+        },
+        {
+          subTitle: "Vous aimerez aussi…",
+          text: ""
+        },
+        {
+          subTitle: "",
+          text: ""
+        }
+      ],
+      youLikeIt: [
+        {
+          pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+          textLove:
+            "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+        },
+        {
+          pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+          textLove:
+            "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+        },
+        {
+          pictureLove: "./img/jpg/product/GG.jpg",
+          textLove:
+            "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
         }
       ]
     },
     firstCategory: [getCategoryById("3BienEtre").name],
     secondCategory: [getSecondCategoryById("3BienEtre3Humeur").text],
-    picture: "./img/jpg/product/mereDeTous.jpg"
+    picture: "./img/jpg/product/mereDeTous.jpg",
+    colors: {
+      textColor: "#e21e1e",
+      borderColor: "1px solid #e21e1e"
+    }
   },
   {
     nameProduct: "Booster d’énergie",

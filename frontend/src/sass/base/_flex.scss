@@ -1,12 +1,17 @@
+
+
+
+main,
+.productDescriptPresentFirst,
+.youWillLikeIt-content,
+.youWillLikeIt,
 .imgProduit,
 .category,
-main,
 .textProductCard,
 .arrayProductCard,
 .menuUser,
 .all-menu-navbar,
 .search-bar,
-// .navbar,
 .menu-navbar,
 .menu-navbar .a,
 .bgProductDetails,
@@ -15,7 +20,10 @@ main,
   display: flex;
 }
 
+//------ FLEX-DIRECTION --------//
+
 main,
+.youWillLikeIt-content,
 .textProductCard {
   flex-direction: column;
 }
@@ -26,10 +34,8 @@ main,
   flex-direction: row;
 }
 
-.bgProductDetails,
-main {
-  align-items: center;
-}
+
+//------ JUSTIFY-CONTENT --------//
 
 .arrayProductCard {
   justify-content: space-around;
@@ -45,16 +51,39 @@ main {
   justify-content: space-between;
 }
 
+//------ ALIGN-CONTENT --------//
+
 .arrayProductCard {
   align-content: baseline;
 }
 
+//------ ALIGN-ITEMS --------//
+
+main,
+.productDescriptPresentFirst,
+.youWillLikeIt-content,
+.bgProductDetails,
 .navbar,
 .search-bar,
 .menu-navbar {
   align-items: center;
 }
 
+.youWillLikeIt {
+  align-items: space-around;
+}
+
+//------ FLEX --------//
+
 .arrayProductCard {
   flex-wrap: wrap;
+}
+
+
+.youWillLikeIt {
+  flex-flow: row wrap;
+}
+
+.productDescriptPresentFirst {
+  flex-grow: 1;
 }

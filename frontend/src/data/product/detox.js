@@ -66,7 +66,6 @@ export const detox = {
   ],
   picture: "./img/jpg/product/detox.jpg",
   colors: {
-    textColor: "#7e1450",
-    borderColor: "1px solid #7e1450"
+    textColor: "#7e1450"
   }
 };

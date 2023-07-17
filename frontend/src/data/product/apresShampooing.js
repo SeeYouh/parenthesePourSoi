@@ -11,7 +11,10 @@ export const apresShampooing = {
       },
       {
         subTitle: "Soulagement cutané",
-        text: "Tout comme le shampooing, notre après-shampooing cible les problèmes cutanés tels que les pellicules, l’eczéma, les rougeurs et les démangeaisons. Il apporte un soulagement instantané en réduisant l'inflammation et favorisant la guérison de la peau. C'est une solution naturelle pour ceux qui cherchent à apaiser leur cuir chevelu et à améliorer la santé de leur peau."
+        text: "Tout comme le shampooing, notre après-shampooing cible les problèmes cutanés tels que les pellicules, l’eczéma, les rougeurs et les démangeaisons. Il apporte un soulagement instantané en réduisant l'inflammation et favorisant la guérison de la peau. C'est une solution naturelle pour ceux qui cherchent à apaiser leur cuir chevelu et à améliorer la santé de leur peau.",
+        picture450: "./img/jpg/product/ApresShampooingIllusText450.jpg",
+        picture675: "./img/jpg/product/ApresShampooingIllusText675.jpg",
+        picture900: "./img/jpg/product/ApresShampooingIllusText900.jpg"
       },
       {
         subTitle: "Protection UV",
@@ -32,19 +35,19 @@ export const apresShampooing = {
     ],
     youLikeIt: [
       {
-        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        pictureLove: "./img/jpg/product/shampooing.jpg",
         textLove:
-          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+          "Pour une expérience de bien-être complète, découvrez notre shampooing d’exception qui se marie parfaitement avec notre après-shampooing. Ensemble, ils vous offrent une approche globale pour des cheveux soyeux et sains."
       },
       {
-        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove: "./img/jpg/product/bb.jpg",
         textLove:
-          "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+          "Le BB est également excellent pour une pousse des ongles et cheveux."
       },
       {
-        pictureLove: "./img/jpg/product/GG.jpg",
+        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
-          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+          "Pour encore plus d’amélioration au niveau de la peau, notre chouchou est conseillé par tous "
       }
     ]
   },

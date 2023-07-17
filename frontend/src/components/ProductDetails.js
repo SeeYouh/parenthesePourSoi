@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Description from "./Description";
 // import AdditionnalInformation from "./AdditionnalInformation";
 // import AsaComplement from "./AsaComplement";
 // import InSummary from "./InSummary";
 
 const ProductDetails = (productDescription, index) => {
-  const [currentProduct, setCurrentProduct] = useState(productDescription);
+  // const [currentProduct, setCurrentProduct] = useState(productDescription);
   const themeColors = productDescription.product.colors;
 
   return (

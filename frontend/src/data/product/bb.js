@@ -50,12 +50,12 @@ export const bb = {
       {
         pictureLove: "./img/jpg/product/shampooing.jpg",
         textLove:
-          "Pour des cheveux brillants, le BB se combine parfaitement bien avec notre shampooing d’exception et notre après-shampooing."
+          "Pour des cheveux brillants, le BB se combine parfaitement bien avec notre shampooing d’exception."
       },
       {
         pictureLove: "./img/jpg/product/aprèsShampooing.jpg",
         textLove:
-          "Pour des cheveux brillants, le BB se combine parfaitement bien avec notre shampooing d’exception et notre après-shampooing."
+          "Pour des cheveux éclatants, notre BB s'associe merveilleusement bien avec notre après-shampooing nourissant."
       },
       {
         pictureLove: "./img/jpg/product/collagene.jpg",

@@ -46,7 +46,6 @@
 }
 
 .bgParagraph {
-  text-align: justify;
 
   h3 {
     padding: 20px 0 0 100px;
@@ -77,9 +76,10 @@
   margin-top: 25px;
   
   .youWillLikeIt-content {
-    border: 1px solid black;
-    width: 500px;
-    height: 500px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    width: 50%;
+    height: 200px;
   }
 
 }

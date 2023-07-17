@@ -3,8 +3,8 @@
 
 main,
 .productDescriptPresentFirst,
-.youWillLikeIt-content,
 .youWillLikeIt,
+.youWillLikeIt-content,
 .imgProduit,
 .category,
 .textProductCard,
@@ -23,11 +23,12 @@ main,
 //------ FLEX-DIRECTION --------//
 
 main,
-.youWillLikeIt-content,
+.youWillLikeIt,
 .textProductCard {
   flex-direction: column;
 }
 
+.youWillLikeIt-content,
 .bgProductDetails,
 .arrayProductCard,
 .menu-navbar {
@@ -51,6 +52,10 @@ main,
   justify-content: space-between;
 }
 
+.youWillLikeIt {
+  justify-content: center;
+}
+
 //------ ALIGN-CONTENT --------//
 
 .arrayProductCard {
@@ -61,16 +66,13 @@ main,
 
 main,
 .productDescriptPresentFirst,
+.youWillLikeIt,
 .youWillLikeIt-content,
 .bgProductDetails,
 .navbar,
 .search-bar,
 .menu-navbar {
   align-items: center;
-}
-
-.youWillLikeIt {
-  align-items: space-around;
 }
 
 //------ FLEX --------//
@@ -80,9 +82,9 @@ main,
 }
 
 
-.youWillLikeIt {
-  flex-flow: row wrap;
-}
+// .youWillLikeIt {
+//   flex-flow: row wrap;
+// }
 
 .productDescriptPresentFirst {
   flex-grow: 1;

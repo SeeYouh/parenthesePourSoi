@@ -1,6 +1,6 @@
 import React from "react";
 
-const Description = ({ productDescription, onProductChange }) => {
+const Description = ({ productDescription }) => {
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
   const productLiketIt = productDescription.product.summary.youLikeIt;
@@ -53,11 +53,7 @@ const Description = ({ productDescription, onProductChange }) => {
               <>
                 <div className="youWillLikeIt">
                   {productLiketIt.map((productDescription, index) => (
-                    <div
-                      key={index}
-                      className="youWillLikeIt-content"
-                      onClick={() => onProductChange(productDescription)}
-                    >
+                    <div key={index} className="youWillLikeIt-content">
                       <img
                         className="imgYouWillLikeIt"
                         src={productDescription.pictureLove}

@@ -75,7 +75,7 @@ const ProductDetails = (productDescription, index) => {
           name="productTab"
         />
         <label htmlFor="check" className="btn btn-navbar">
-          Informations complémentaires
+          Informations supplémentaires
         </label>
       </div>
       {/* <AdditionnalInformation

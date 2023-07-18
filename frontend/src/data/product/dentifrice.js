@@ -11,7 +11,7 @@ export const dentifrice = {
       },
       {
         subTitle: "Gencives saines",
-        text: "Il est enrichi en extraits de plantes apaisants et antibactériens pour vous aider à maintenir des gencives saines et revitalisées. ",
+        text: "Il est enrichi en extraits de plantes sélectionnés pour leurs propriétés apaisantes et antibactériennes. Ces ingrédients naturels travaillent en synergie pour aider à maintenir vos gencives en bonne santé et revitalisées. Ils combattent les bactéries qui peuvent causer des problèmes de gencives et apaisent les inflammations, favorisant ainsi une bouche saine et un sourire éclatant. Que vous cherchiez à prévenir les problèmes de gencives ou à soutenir une santé buccale déjà optimale, notre produit offre une solution naturelle et efficace.",
         picture675: "./img/jpg/product/dentifriceIllusText675.jpg",
         picture450: "./img/jpg/product/dentifriceIllusText450.jpg",
         picture900: "./img/jpg/product/dentifriceIllusText900.jpg"
@@ -51,6 +51,6 @@ export const dentifrice = {
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "./img/jpg/product/dentifrice.jpg",
   colors: {
-    textColor: "#808080"
+    textColor: "#929f95"
   }
 };

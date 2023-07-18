@@ -53,7 +53,7 @@ const Description = ({ productDescription }) => {
               <>
                 <div className="youWillLikeIt">
                   {productLiketIt.map((productDescription, index) => (
-                    <div key={index} className="youWillLikeIt-content">
+                    <div className="youWillLikeIt-content">
                       <img
                         className="imgYouWillLikeIt"
                         src={productDescription.pictureLove}

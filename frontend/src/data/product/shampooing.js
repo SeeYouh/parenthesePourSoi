@@ -20,9 +20,29 @@ export const shampooing = {
       {
         text: "Pour compléter votre expérience de bien-être, je vous recommande vivement de jeter un coup d'œil à notre après-shampooing, qui se marie parfaitement avec notre shampooing."
       }
+    ],
+    youLikeIt: [
+      {
+        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        textLove:
+          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+      },
+      {
+        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        textLove:
+          "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+      },
+      {
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+      }
     ]
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
-  picture: "./img/jpg/product/shampooing.jpg"
+  picture: "./img/jpg/product/shampooing.jpg",
+  colors: {
+    textColor: "#808080"
+  }
 };

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 const ProductCard = ({ product, onProductClick, index }) => {
   const [isHovered, hoverProps] = useHover();
+  const colors = product.colors;
 
   let productCardClass = isHovered
     ? "bgProductCard bgColorHover"
@@ -12,14 +13,20 @@ const ProductCard = ({ product, onProductClick, index }) => {
     <motion.div
       onClick={() => onProductClick(product)}
       whileHover={{
-        scale: 1.08,
+        scale: 1.08
       }}
     >
       <div className={productCardClass} {...hoverProps}>
         <div className="productCard">
           <img key={index} src={product.picture} alt={product.nameProduct} />
           <div className="textProductCard">
-            <h1>{product.nameProduct} </h1>
+            <h1
+              style={{
+                borderBottom: `2px solid ${colors.textColor}`
+              }}
+            >
+              {product.nameProduct}{" "}
+            </h1>
             <h2>{product.summary.title} </h2>
           </div>
         </div>

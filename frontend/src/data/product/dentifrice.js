@@ -17,9 +17,29 @@ export const dentifrice = {
       {
         text: "Découvrez une nouvelle façon de prendre soin de votre sourire, naturellement."
       }
+    ],
+    youLikeIt: [
+      {
+        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        textLove:
+          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+      },
+      {
+        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        textLove:
+          "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+      },
+      {
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+      }
     ]
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-  picture: "./img/jpg/product/dentifrice.jpg"
+  picture: "./img/jpg/product/dentifrice.jpg",
+  colors: {
+    textColor: "#808080"
+  }
 };

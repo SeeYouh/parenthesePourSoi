@@ -11,7 +11,10 @@ export const collagenoni = {
       },
       {
         subTitle: "Vieillissement cutané",
-        text: "A partir de l’âge de 25 ans, nous perdons environ 1% de collagène chaque année. Cette protéine n’est pas renouvelée naturellement. C’est ce que l’on appelle le vieillissement cutané. C'est à ce stade que l'on peut commencer à remarquer l'apparition de ridules, de rides et une perte de fermeté de la peau. Nous pouvons également ressentir des douleurs musculaires, articulaires et osseuses."
+        text: "A partir de l’âge de 25 ans, nous perdons environ 1% de collagène chaque année. Cette protéine n’est pas renouvelée naturellement. C’est ce que l’on appelle le vieillissement cutané. C'est à ce stade que l'on peut commencer à remarquer l'apparition de ridules, de rides et une perte de fermeté de la peau. Nous pouvons également ressentir des douleurs musculaires, articulaires et osseuses.",
+        picture675: "./img/jpg/product/CollagenoniIllusText675.jpg",
+        picture450: "./img/jpg/product/CollagenoniIllusText450.jpg",
+        picture900: "./img/jpg/product/CollagenoniIllusText900.jpg"
       },
       {
         subTitle: "Renouvellement cellulaire",
@@ -64,6 +67,6 @@ export const collagenoni = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "./img/jpg/product/collagene.jpg",
   colors: {
-    textColor: "#a81616"
+    textColor: "#9f348b"
   }
 };

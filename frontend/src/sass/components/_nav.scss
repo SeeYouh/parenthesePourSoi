@@ -6,13 +6,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.514);
-  transition: background-color 2s;
-
-  &:hover {
-    background-color: $bgColor7;
-    transition: all 0.5s;
-  }
+  background-color: $bgColor7;
 
   img {
     width: 100px;

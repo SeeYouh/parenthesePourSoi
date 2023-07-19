@@ -20,9 +20,29 @@ export const regenerateurCellulaire = {
       {
         text: "Un produit unique pour des bienfaits multiples."
       }
+    ],
+    youLikeIt: [
+      {
+        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        textLove:
+          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+      },
+      {
+        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        textLove:
+          "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+      },
+      {
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+      }
     ]
   },
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
-  picture: "./img/jpg/product/regenerateurCellulaire.jpg"
+  picture: "./img/jpg/product/regenerateurCellulaire.jpg",
+  colors: {
+    textColor: "#a81616"
+  }
 };

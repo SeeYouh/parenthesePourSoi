@@ -23,11 +23,31 @@ export const goutteMinceur = {
       {
         text: "Prenez le contrôle de votre corps jour et nuit en utilisant nos gouttes uniques."
       }
+    ],
+    youLikeIt: [
+      {
+        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        textLove:
+          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+      },
+      {
+        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        textLove:
+          "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+      },
+      {
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+      }
     ]
   },
   firstCategory: [getCategoryById("0GestionDuPoids").name],
   secondCategory: [
     getSecondCategoryById("0GestionDuPoids1AidePertePoids").text
   ],
-  picture: "./img/jpg/product/goutteMinceur.jpg"
+  picture: "./img/jpg/product/goutteMinceur.jpg",
+  colors: {
+    textColor: "#e58000"
+  }
 };

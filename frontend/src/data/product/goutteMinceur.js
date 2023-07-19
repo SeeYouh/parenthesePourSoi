@@ -6,29 +6,51 @@ export const goutteMinceur = {
     title: "Laissez les éléments naturels agir en votre faveur.",
     paragraph: [
       {
+        subTitle: "La Double Force Minceur : Jour et Nuit",
         text: "Avec ses deux fioles uniques sous forme de gouttes, ce produit offre un avantage de pointe dans votre cure minceur."
       },
       {
-        text: "Les gouttes jour vous offre une solution complète pour une gestion efficace du poids. En régulant votre appétit et en vous procurant un effet de satiété durable, il vous aide à contrôler vos portions alimentaires et à éviter les fringales incontrôlées. De plus, notre formule puissante cible les graisses sous-cutanées et viscérales, celles qui sont difficiles à éliminer même avec un exercice physique intense. Vous serez surpris(e) par la capacité de notre produit à brûler ces graisses tenaces, vous permettant ainsi d'atteindre vos objectifs de perte de poids de manière efficace. De plus, il agit également en tant que régulateur de sucre, vous aidant à réduire l'excès de sucre dans votre corps. Il ralentit l'absorption des glucides, ce qui vous aide à éviter les pics glycémiques et à maintenir un niveau de sucre sanguin stable.."
+        subTitle: "Gestion du Poids Efficace avec les Gouttes Jour",
+        text: "Avec ses deux fioles uniques sous forme de gouttes, ce produit offre un avantage de pointe dans votre cure minceur. Les gouttes jour vous offrent une solution complète pour une gestion efficace du poids. Elles régulent votre appétit et vous procurent un effet de satiété durable, vous aidant à contrôler vos portions alimentaires et à éviter les fringales incontrôlées. De plus, notre formule puissante cible les graisses sous-cutanées et viscérales, celles qui sont difficiles à éliminer même avec un exercice physique intense. Vous serez surpris(e) par la capacité de notre produit à brûler ces graisses tenaces, vous permettant ainsi d'atteindre vos objectifs de perte de poids de manière efficace.",
+        picture450: "./img/jpg/product/gouttesIllusText450.jpg",
+        picture675: "./img/jpg/product/gouttesIllusText675.jpg",
+        picture900: "./img/jpg/product/gouttesIllusText900.jpg"
       },
       {
-        text: "Notre produit va au-delà de la simple gestion du poids. Il améliore également votre bien-être général en stimulant le métabolisme et en vous offrant un regain d'énergie essentiel au corps pour brûler les calories efficacement, sans ressentir de fatigue physique. Vous remarquerez une amélioration de votre humeur, vous permettant d'aborder chaque journée avec une énergie positive et une motivation accrue. De plus, notre formule contribue à améliorer la cellulite, en aidant à réduire son apparence et à améliorer la texture de la peau."
+        subTitle: "Régulation du Sucre et Boost d'Énergie",
+        text: "Au-delà de la simple gestion du poids, notre produit améliore également votre bien-être général. Il agit en tant que régulateur de sucre, vous aidant à réduire l'excès de sucre dans votre corps et à maintenir un niveau de sucre sanguin stable. De plus, il stimule le métabolisme et vous offre un regain d'énergie essentiel pour brûler les calories efficacement, sans ressentir de fatigue physique."
       },
       {
-        text: "Les gouttes nuit empêchent l'accumulation de nouvelles graisses durant votre sommeil Grâce à sa formule unique, les gouttes diminuent le cortisol, l'hormone du stress, vous offrant ainsi un soulagement naturel et une relaxation de votre corps et de votre esprit. Ce bien-être aide à réguler le fonctionnement de votre système digestif, favorisant ainsi une digestion harmonieuse et confortable. De plus, notre formule contribue à combattre le mauvais cholestérol, vous permettant de maintenir un équilibre lipidique sain dans votre corps."
+        subTitle: "Amélioration de l'Humeur et de la Peau",
+        text: "Vous remarquerez une amélioration de votre humeur, vous permettant d'aborder chaque journée avec une énergie positive et une motivation accrue. De plus, notre formule contribue à améliorer la cellulite, en aidant à réduire son apparence et à améliorer la texture de la peau."
       },
       {
-        text: "Vous êtes détendue, vous digérez mieux, votre sommeil est de meilleure qualité et le corps n’a pas besoin de stocker de nouvelles graisses. Notre produit favorise ainsi une récupération optimale pendant la nuit."
+        subTitle: "Gouttes Nuit pour une Récupération Optimale",
+        text: "Les gouttes nuit empêchent l'accumulation de nouvelles graisses durant votre sommeil. Elles diminuent le cortisol, l'hormone du stress, vous offrant ainsi un soulagement naturel et une relaxation de votre corps et de votre esprit. Ce bien-être aide à réguler le fonctionnement de votre système digestif, favorisant ainsi une digestion harmonieuse et confortable. De plus, notre formule contribue à combattre le mauvais cholestérol, vous permettant de maintenir un équilibre lipidique sain dans votre corps. Vous êtes détendue, vous digérez mieux, votre sommeil est de meilleure qualité et le corps n’a pas besoin de stocker de nouvelles graisses. Notre produit favorise ainsi une récupération optimale pendant la nuit."
       },
       {
-        text: "Prenez le contrôle de votre corps jour et nuit en utilisant nos gouttes uniques."
+        subTitle: "Prenez le Contrôle de Votre Corps Jour et Nuit",
+        text: "Avec nos gouttes uniques, prenez le contrôle de votre corps jour et nuit. Profitez d'une gestion du poids efficace, d'un regain d'énergie, d'une amélioration de l'humeur et de la peau, et d'une récupération optimale pendant la nuit."
+      },
+      {
+        subTitle: "Vous aimerez aussi…",
+        text: ""
+      },
+      {
+        subTitle: "",
+        text: ""
       }
     ],
     youLikeIt: [
       {
-        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        pictureLove: "./img/jpg/product/detox.jpg",
         textLove:
-          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+          "Pour une cure minceur efficace, nous recommandons de faire une détoxification du corps afin de le préparer à une perte de poids saine et durable."
+      },
+      {
+        pictureLove: "./img/jpg/product/boosterEnergie.jpg",
+        textLove:
+          "Pour brûler encore plus de graisses et avoir une énergie boostée, notre booster d’énergie sera idéal car il permet la combustion des graisses de +17% tout en apportant bonne humeur et énergie. "
       },
       {
         pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
@@ -38,7 +60,12 @@ export const goutteMinceur = {
       {
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
-          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+          "Si vous cherchez un apport supplémentaire de légumes et de vitamines, optez pour notre détox végétale. C'est une solution naturelle pour enrichir votre alimentation et soutenir votre bien-être général."
+      },
+      {
+        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
+        textLove:
+          "Une perte de poids peut entraîner des changements au niveau de la peau. Afin de remédier à ça, le chouchou sera idéal."
       }
     ]
   },

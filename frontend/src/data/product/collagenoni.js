@@ -41,6 +41,10 @@ export const collagenoni = {
         text: "Optez pour ce produit, c’est retrouver une peau plus ferme, une apparence rajeunie et un bien-être intérieur total."
       },
       {
+        subTitle: "Vous aimerez aussi…",
+        text: ""
+      },
+      {
         subTitle: "",
         text: ""
       }

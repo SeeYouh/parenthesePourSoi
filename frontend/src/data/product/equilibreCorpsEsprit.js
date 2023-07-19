@@ -10,8 +10,11 @@ export const equilibreCorpsEsprit = {
         text: "Au cours de notre existence, notre corps traverse une série de transformations, à la fois visibles et invisibles. Ces changements peuvent être le résultat de facteurs tels que l'âge, le style de vie, l'environnement et même notre état d'esprit. Ils peuvent affecter notre apparence physique, notre santé globale, notre niveau d'énergie et notre bien-être émotionnel."
       },
       {
-        subTitle: "Soutien psychologique pour une journée équilibrée",
-        text: "Notre produit est un allié précieux pour votre bien-être mental. Il joue un rôle crucial dans le maintien de fonctions psychologiques normales, vous aidant à naviguer à travers les défis de chaque journée avec un sentiment de calme et d'équilibre. Que vous soyez confronté à un stress professionnel, à des défis personnels ou simplement à la pression du quotidien, notre produit est conçu pour vous aider à maintenir votre équilibre mental."
+        subTitle: "Soutien psychologique",
+        text: "Notre produit est un allié précieux pour votre bien-être mental. Il joue un rôle crucial dans le maintien de fonctions psychologiques normales, vous aidant à naviguer à travers les défis de chaque journée avec un sentiment de calme et d'équilibre. Que vous soyez confronté à un stress professionnel, à des défis personnels ou simplement à la pression du quotidien, notre produit est conçu pour vous aider à maintenir votre équilibre mental.",
+        picture675: "./img/jpg/product/equilibreCorpsEspritIllusText675.jpg",
+        picture450: "./img/jpg/product/equilibreCorpsEspritIllusText450.jpg",
+        picture900: "./img/jpg/product/equilibreCorpsEspritIllusText900.jpg"
       },
       {
         subTitle: "Boost d'énergie",
@@ -40,6 +43,14 @@ export const equilibreCorpsEsprit = {
       {
         subTitle: "Promotion de la fertilité et de la reproduction",
         text: "En plus de ses bienfaits pour les femmes, notre produit joue un rôle clé dans la promotion d'une fertilité et d'une reproduction normales. Il contient des nutriments essentiels qui soutiennent la santé reproductive, tant chez les femmes que chez les hommes. Chez ces derniers, notre produit soutient la spermatogenèse, le processus de production de spermatozoïdes. Ainsi, que vous cherchiez à concevoir ou simplement à maintenir une santé reproductive optimale, notre produit peut être un précieux allié."
+      },
+      {
+        subTitle: "Vous aimerez aussi…",
+        text: ""
+      },
+      {
+        subTitle: "",
+        text: ""
       }
     ],
     youLikeIt: [
@@ -59,6 +70,6 @@ export const equilibreCorpsEsprit = {
   secondCategory: [getSecondCategoryById("3BienEtre1Energie").text],
   picture: "./img/jpg/product/equilibreCorpsEsprit.jpg",
   colors: {
-    textColor: "#1d2548"
+    textColor: "#e2b100"
   }
 };

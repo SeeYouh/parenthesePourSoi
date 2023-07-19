@@ -11,7 +11,10 @@ export const shampooing = {
       },
       {
         subTitles: "",
-        text: "Notre produit ne se limite pas à cela, il est également votre allié pour un cuir chevelu sain et protégé. Sa formule contribue à apaiser les problèmes cutanés tels que les irritations et les rougeurs. De plus, il combat efficacement les pellicules, réduit les démangeaisons et  l'eczéma capillaire restaurant l'équilibre du cuir chevelu. "
+        text: "Notre produit ne se limite pas à cela, il est également votre allié pour un cuir chevelu sain et protégé. Sa formule contribue à apaiser les problèmes cutanés tels que les irritations et les rougeurs. De plus, il combat efficacement les pellicules, réduit les démangeaisons et  l'eczéma capillaire restaurant l'équilibre du cuir chevelu. ",
+        picture450: "./img/jpg/product/shampooingIllusText450.jpg",
+        picture675: "./img/jpg/product/shampooingIllusText675.jpg",
+        picture900: "./img/jpg/product/shampooingIllusText900.jpg"
       },
       {
         subTitles: "",

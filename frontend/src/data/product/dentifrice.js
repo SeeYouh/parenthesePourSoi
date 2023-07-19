@@ -27,6 +27,14 @@ export const dentifrice = {
       {
         subTitle: "Sourire naturel",
         text: "Découvrez une nouvelle façon de prendre soin de votre sourire, naturellement."
+      },
+      {
+        subTitle: "Vous aimerez aussi…",
+        text: ""
+      },
+      {
+        subTitle: "",
+        text: ""
       }
     ],
     youLikeIt: [

@@ -76,10 +76,13 @@
   margin-top: 25px;
   
   .youWillLikeIt-content {
+    margin-left: 50px;
     margin-top: 15px;
     margin-bottom: 35px;
-    width: 50%;
+    // width: 50%;
+    max-width: 80%;
     height: 300px;
+    // border: 1px solid black;
   }
 
 }
@@ -88,5 +91,5 @@
   width: auto;
   height: 300px;
   object-fit: cover;
-  margin: 10px auto;
+  // margin: 10px auto;
 }

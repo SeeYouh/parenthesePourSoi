@@ -13,10 +13,22 @@ const Description = ({ productDescription }) => {
             key={index}
             className={
               index === 1
-                ? "productDescriptPresentFirst"
-                : "productDescriptPresentNext"
+                ? "selectText productDescriptPresentFirst"
+                : "selectText productDescriptPresentNext"
             }
           >
+            <style>
+              {`
+              ::selection {
+                background: ${themeColors.textColor};
+                color: white;
+              }
+              ::-moz-selection {
+                background: ${themeColors.textColor};
+                color: white;
+              }
+              `}
+            </style>
             {index === 1 && (
               <div>
                 <h3

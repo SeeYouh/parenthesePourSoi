@@ -6,42 +6,53 @@ export const PN = {
     title: "Un substitut de repas complet.",
     paragraph: [
       {
-        text: "Notre produit a été conçu pour faciliter la gestion de votre poids. Vous pouvez le substituer à votre petit-déjeuner, à votre goûter ou à votre dîner pour maintenir un équilibre nutritionnel optimal. Il contient des protéines végétales de haute qualité qui favorisent une digestion améliorée et une meilleure absorption des nutriments essentiels. Chaque dose de PN vous fournit l'apport nécessaire pour une perte de poids saine et durable."
+        subTitle:
+          "Un booster de performances sportives : Votre complice dans la vie active",
+        text: "Que vous soyez un athlète chevronné, un adepte du fitness ou une personne dynamique, cette formule est l'ajout idéal à votre routine quotidienne. Elle a été spécifiquement conçue pour augmenter votre endurance, tout en accélérant le rétablissement de vos muscles après un effort physique. L'effet ? Vous pouvez vous adonner à des entraînements plus intensifs et plus fréquents, franchissant ainsi de nouvelles barrières de performances. Expérimentez la satisfaction de dépasser vos limites et d'atteindre de nouveaux sommets, avec le soutien de cette formule révolutionnaire."
       },
       {
-        text: "Au-delà de la gestion du poids, le PN soutient une pression artérielle saine, ce qui contribue à maintenir un système cardiovasculaire en bonne santé. De plus, il favorise une meilleure santé des reins et du foie en les aidant à fonctionner de manière optimale. Vous serez ravi(e) de constater que notre produit a également des effets positifs sur la digestion, en favorisant une bonne santé intestinale et en améliorant votre confort digestif."
+        subTitle:
+          "Un allié dans la gestion du poids : Transformez votre silhouette naturellement",
+        text: "Si la maîtrise de votre poids fait partie de vos préoccupations, cette composition est là pour vous aider. Dotée d'une capacité unique à agir comme un puissant coupe-faim, elle aide à contrôler vos envies tout en réduisant l'apport calorique. En prime, elle stimule la combustion des graisses, vous permettant de remodeler votre silhouette de manière naturelle et efficace. Son autre atout ? Elle contient un sucre naturel à faible indice glycémique, fournissant une énergie constante sans les indésirables pics de glycémie. Imaginez atteindre et maintenir votre poids idéal avec moins d'efforts et une plus grande satisfaction."
       },
       {
-        text: "En l'incorporant dans votre quotidien, vous ressentirez un véritable boost d'énergie qui vous accompagnera tout au long de la journée. Vous pourrez ainsi aborder vos activités quotidiennes avec vitalité et enthousiasme, vous permettant de vous sentir pleinement épanoui(e)."
+        subTitle: "Régénération des tissus : Un corps sain et résilient",
+        text: "L'élaboration de cette composition a été faite avec soin, dans le but précis de favoriser la régénération et la réparation des tissus. Que vous soyez en phase de convalescence ou simplement désireux de renforcer votre corps, elle peut vous accompagner dans cet objectif. De plus, elle soutient une digestion optimale en atténuant les irritations intestinales et en favorisant une digestion saine. Et ce n'est pas tout : elle contribue également à la santé cardiovasculaire, se traduisant par un bien-être général renforcé."
       },
       {
+        subTitle: "",
         text: "Explorez tous les bienfaits de ce produits et ne laissez pas les obstacles entraver vos objectifs de bien-être."
       },
       {
+        subTitle: "Énergie et bien-être émotionnel : Un soutien global",
         text: "Dites adieu aux fringales salées qui sont omniprésentes ! Notre produit innovant est spécialement formulé pour réduire ces envies irrésistibles. En le choisissant, vous vous donnez toutes les chances de réussir votre gestion du poids de manière saine et durable."
       },
       {
-        text: "Mesdames, notre produit a été spécialement formulé pour répondre à vos besoins spécifiques. Il favorise l'équilibre hormonal, vous permettant ainsi de mieux gérer les fluctuations de votre cycle et de retrouver un bien-être intérieur."
+        subTitle: "",
+        text: "Cette formule ne se limite pas à améliorer votre bien-être physique. Elle a été conçue pour stimuler également votre bien-être émotionnel, vous offrant une énergie revitalisante qui rayonne de l'intérieur. Imaginez démarrer chaque journée avec un regain d'énergie, un esprit plus alerte et un sentiment de sérénité intérieure."
       },
       {
-        text: "Un produit efficace pour soutenir la santé musculaire et osseuse !"
+        text: "Explorez tous les avantages extraordinaires de cette composition innovante et réveillez votre plein potentiel. Offrez à votre corps et à votre esprit le soutien dont ils ont besoin pour prospérer. Faites le choix de l'optimisation, optez pour cette formule spéciale."
+      },
+      {
+        subTitle: "Vous aimerez aussi…",
+        text: ""
+      },
+      {
+        subTitle: "",
+        text: ""
       }
     ],
     youLikeIt: [
       {
-        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        pictureLove: "./img/jpg/product/PN.jpg",
         textLove:
-          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
-      },
-      {
-        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
-        textLove:
-          "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+          "Pour les journées chargées où chaque minute compte, la combinaison du PB et du PN est votre allié ultime. Le PB vous offre un regain d'énergie instantané, tandis que le PN assure une libération énergétique stable et durable. Ensemble, ils garantissent une vigilance et une productivité maximales, même lorsqu'un repas complet n'est pas à l'ordre du jour. Intrigué ? Découvrez-en plus sur le PN et son alliance parfaite avec le PB."
       },
       {
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
-          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+          "Pour ceux dont l'alimentation est pauvre en légumes, la solution est à portée de main. La détox végétale est l'alliée idéale du PB, vous apportant les nutriments précieux que seuls les légumes peuvent offrir. C'est une combinaison harmonieuse qui veille à ce que votre corps reçoive toute la nutrition dont il a besoin. Envie d'en savoir plus ? Découvrez les merveilles de la détox végétale et comment elle complète parfaitement le PB."
       }
     ]
   },

@@ -7,49 +7,55 @@ export const osMuscle = {
       "Soutenez votre santé musculaire et osseuse avec notre produit essentiel.",
     paragraph: [
       {
-        subTitle: "",
-        text: "Notre produit contient des ingrédients aux propriétés anti-inflammatoires qui agissent en synergie pour soulager vos articulations douloureuses, vous permettant de retrouver votre mobilité et votre confort. Grâce à sa capacité à stimuler la production de collagène, il favorise des gencives saines et des os solides. Vous retrouverez un sourire éclatant et une confiance en vous renouvelée. De plus, le collagène est la base de la minéralisation osseuse, ce qui contribue à renforcer vos os pour une meilleure santé globale. Avec notre produit, votre beauté rayonne à travers votre sourire éblouissant et votre démarche assurée."
+        subTitle: "Soutien à la santé musculaire et osseuse : Un choix naturel",
+        text: "Qui n'a pas eu à affronter des douleurs articulaires qui gênent les mouvements quotidiens et ralentissent le rythme de vie ? Notre formule spéciale, enrichie en ingrédients naturels aux puissantes propriétés anti-inflammatoires, est prête à vous apporter le soulagement tant recherché. Imaginez retrouver la légèreté des mouvements et un confort physique accru, tout cela grâce à un produit créé dans le respect de votre corps. Notre solution promet une action profonde, atténuant non seulement les symptômes douloureux mais agissant également sur les causes sous-jacentes de l'inflammation."
+      },
+      {
+        subTitle:
+          "Des gencives saines et des os robustes : Votre confiance renouvelée",
+        text: "La santé bucco-dentaire est un indicateur important du bien-être global, et c'est là que notre produit entre en jeu. En stimulant la production de collagène, élément essentiel pour maintenir la santé de vos gencives et la robustesse de vos os, notre formule offre une solution holistique pour la santé buccale. Au-delà de ses effets bénéfiques internes, elle contribue à améliorer votre apparence extérieure. Un sourire rayonnant est un signe de confiance en soi et de santé intérieure, et avec notre produit, vous aurez toutes les raisons de sourire.",
+        picture450: "./img/jpg/product/osMuscleIllusText450.jpg",
+        picture675: "./img/jpg/product/osMuscleIllusText675.jpg",
+        picture900: "./img/jpg/product/osMuscleIllusText900.jpg"
+      },
+      {
+        subTitle: "Gestion du stress : Retrouvez votre sérénité",
+        text: "Le stress est une réalité de la vie moderne que la plupart d'entre nous connaissent. Cependant, avec notre produit, vous avez un allié de taille. Enrichi en magnésium, il vous aide à faire face aux effets néfastes du stress, favorisant une récupération optimale et une relaxation profonde. Chaque dose est comme une bouffée d'air frais qui vous éloigne de l'agitation et vous rapproche de la tranquillité."
+      },
+      {
+        subTitle:
+          "Dites adieu à la cellulite : Un teint lisse et tonique vous attend",
+        text: "Notre produit va au-delà des bienfaits internes et offre des avantages esthétiques significatifs. Grâce à sa formule innovante, il contribue à réduire la cellulite, laissant votre peau lisse et tonique. Il vous aidera à embrasser votre beauté naturelle et à vous sentir à l'aise dans votre peau, augmentant ainsi votre confiance en vous."
+      },
+      {
+        subTitle: "L'équilibre hormonal chez les femmes : Une aide précieuse",
+        text: "Mesdames, nous comprenons que les fluctuations hormonales peuvent causer des désagréments dans votre vie quotidienne. Notre produit a été spécialement conçu pour favoriser un équilibre hormonal sain, ce qui peut grandement améliorer votre confort et votre bien-être. Il peut aider à atténuer les symptômes courants liés aux déséquilibres hormonaux, tels que l'irritabilité, la fatigue et les troubles du sommeil, ce qui peut avoir un impact significatif sur votre qualité de vie."
+      },
+      {
+        subTitle: "Votre allié contre les fringales salées",
+        text: "Nous savons tous à quel point les fringales salées peuvent être un obstacle à la gestion du poids. Notre produit est là pour vous aider. Il a été spécialement conçu pour contrer ces envies irrésistibles qui peuvent saboter vos efforts pour maintenir un poids sain."
+      },
+      {
+        subTitle: "Maintien d'une bonne santé : un partenaire de confiance",
+        text: "Que ce soit pour réguler votre taux de sucre et de cholestérol, soutenir votre système immunitaire ou promouvoir une bonne santé intestinale, notre produit offre une solution complète pour votre bien-être. Il est votre partenaire de confiance, vous aidant à maintenir une bonne santé à long terme et à mener une vie plus épanouie."
+      },
+      {
+        text: " Alors, qu'attendez-vous ? Il est temps de donner à votre corps le soutien dont il a besoin avec notre produit essentiel. Faites le choix du bien-être."
+      },
+      {
+        subTitle: "Vous aimerez aussi…",
+        text: ""
       },
       {
         subTitle: "",
-        text: "Notre formule spéciale est également conçue pour répondre à vos besoins en période de stress. L’apport en magnésium est essentiel pour contrer les effets néfastes du stress sur votre corps."
-      },
-      {
-        subTitle: "",
-        text: "En plus des bienfaits cités ci-dessus, notre produit offre une multitude d'avantages pour votre santé globale. Vous serez agréablement surpris(e) de constater que notre formule aide à réduire la cellulite, pour une peau plus lisse et tonique. Il favorise un transit intestinal régulier en luttant efficacement contre la constipation et soutient votre système immunitaire, renforçant ainsi vos défenses naturelles."
-      },
-      {
-        subTitle: "",
-        text: "Il joue également un rôle essentiel dans la régulation du taux de sucre et de cholestérol dans le sang, vous aidant ainsi à maintenir une bonne santé à long terme."
-      },
-      {
-        subTitle: "",
-        text: "Dites adieu aux fringales salées qui sont omniprésentes ! Notre produit innovant est spécialement formulé pour réduire ces envies irrésistibles. En le choisissant, vous vous donnez toutes les chances de réussir votre gestion du poids de manière saine et durable."
-      },
-      {
-        subTitle: "",
-        text: "Mesdames, notre produit a été spécialement formulé pour répondre à vos besoins spécifiques. Il favorise l'équilibre hormonal, vous permettant ainsi de mieux gérer les fluctuations de votre cycle et de retrouver un bien-être intérieur."
-      },
-      {
-        subTitle: "",
-        text: "Un produit efficace pour soutenir la santé musculaire et osseuse !"
+        text: ""
       }
     ],
     youLikeIt: [
       {
         pictureLove: "./img/jpg/product/goutteMinceur.jpg",
         textLove:
-          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
-      },
-      {
-        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
-        textLove:
-          "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
-      },
-      {
-        pictureLove: "./img/jpg/product/GG.jpg",
-        textLove:
-          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+          "Pour un rééquilibrage total de votre organisme, notre produit est la solution idéale. Il agit sur l'ensemble du corps pour favoriser un bien-être général. Combiné à notre huile essentielle, il offre une synergie parfaite pour maximiser les bienfaits sur votre santé. Pour en savoir plus sur ce produit révolutionnaire pour le bien-être et le rééquilibrage total de votre organisme, n'hésitez pas à me contacter."
       }
     ]
   },
@@ -57,6 +63,6 @@ export const osMuscle = {
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "./img/jpg/product/osMuscle.jpg",
   colors: {
-    textColor: "#a81616"
+    textColor: "#799198"
   }
 };

@@ -1,4 +1,5 @@
 import { heRelaxante } from "./product/HERelaxante";
+import { heRafraichissant } from "./product/HErafraichissant";
 import { PN } from "./product/PN";
 import { apresShampooing } from "./product/apresShampooing";
 import { bb } from "./product/bb";
@@ -35,5 +36,6 @@ export const productList = [
   cocoOil,
   gelDouche,
   PN,
-  dentifrice
+  dentifrice,
+  heRafraichissant
 ];

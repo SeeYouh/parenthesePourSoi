@@ -61,19 +61,19 @@ export const mereDeTous = {
     ],
     youLikeIt: [
       {
-        pictureLove: "./img/jpg/product/HERafraichissant800.jpg",
+        pictureLove: "./img/jpg/product/HERafraichissant.jpg",
         textLove:
-          "Ce produit peut être parfaitement combiné à l’huile essentielle bleue qui agit sur les douleurs musculaires en un temps record."
+          "Exploitez au maximum le potentiel de notre produit en le combinant avec l'huile essentielle bleue, réputée pour son efficacité rapide sur les douleurs musculaires. Cette alliance naturelle offre un réconfort immédiat pour vos muscles endoloris, favorisant une récupération rapide et vous permettant de reprendre vos activités avec une nouvelle énergie."
       },
       {
         pictureLove: "./img/jpg/product/ApportMinéraux.jpg",
         textLove:
-          "Il peut également être associé à notre produit contenant des minéraux spécifiques pour une action ciblée sur les muscles, les os et les nerfs."
+          "Pour un soutien accru à votre système musculosquelettique et nerveux, n'hésitez pas à associer notre produit avec notre complément spécialement formulé à base de minéraux spécifiques. Cette combinaison renforce l'action sur les muscles, les os et les nerfs, fournissant ainsi une approche complète pour un bien-être optimal."
       },
       {
         pictureLove: "./img/jpg/product/ApportVitamines.jpg",
         textLove:
-          "Il peut aussi s'associer à notre produit contenant des vitamines sélectionnées pour agir sur les douleurs musculaires et nerveuses."
+          "Pour une prise en charge globale des douleurs musculaires et nerveuses, considérez l'association de notre produit avec notre complément spécialement enrichi en vitamines soigneusement sélectionnées. Cette synergie vous offre une approche naturelle pour soulager et prévenir les inconforts tout en soutenant le bien-être de votre système neuromusculaire."
       }
     ]
   },

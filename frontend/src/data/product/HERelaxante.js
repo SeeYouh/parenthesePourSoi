@@ -3,8 +3,7 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 export const heRelaxante = {
   nameProduct: "HE Relaxante",
   summary: {
-    title:
-      "De l'agitation à la sérénité : Découvrez le pouvoir des huiles essentielles sur le bien-être",
+    title: "Découvrez le pouvoir de l'huile essentielle sur le bien-être",
     paragraph: [
       {
         subTitle: "L'huile essentielle, un remède naturel contre le stress",
@@ -71,6 +70,6 @@ export const heRelaxante = {
   secondCategory: [getSecondCategoryById("4HuilesEssentielles0MieuxEtre").text],
   picture: "./img/jpg/product/heRelaxante.jpg",
   colors: {
-    textColor: "#a81616"
+    textColor: "#9f348b"
   }
 };

@@ -12,7 +12,10 @@ export const heRelaxante = {
       },
       {
         subTitle: "Un sommeil de qualité grâce aux huiles essentielles",
-        text: "Le sommeil est un élément essentiel de notre santé et de notre bien-être. Malheureusement, de nombreux facteurs peuvent perturber notre sommeil, comme le stress, l'anxiété ou les préoccupations quotidiennes. L'huile essentielle peut être une solution naturelle pour améliorer la qualité de notre sommeil. En créant une atmosphère propice au repos, elle peut aider à réduire les troubles du sommeil et favoriser un sommeil profond et réparateur. Imaginez-vous préparant votre chambre pour la nuit, diffusant quelques gouttes d'huile essentielle, et laissant son parfum vous envelopper alors que vous vous glissez dans vos draps. C'est une routine qui peut transformer votre nuit et vous aider à vous réveiller frais et dispos le matin."
+        text: "Le sommeil est un élément essentiel de notre santé et de notre bien-être. Malheureusement, de nombreux facteurs peuvent perturber notre sommeil, comme le stress, l'anxiété ou les préoccupations quotidiennes. L'huile essentielle peut être une solution naturelle pour améliorer la qualité de notre sommeil. En créant une atmosphère propice au repos, elle peut aider à réduire les troubles du sommeil et favoriser un sommeil profond et réparateur. Imaginez-vous préparant votre chambre pour la nuit, diffusant quelques gouttes d'huile essentielle, et laissant son parfum vous envelopper alors que vous vous glissez dans vos draps. C'est une routine qui peut transformer votre nuit et vous aider à vous réveiller frais et dispos le matin.",
+        picture450: "./img/jpg/product/heRelaxantIllusText450.jpg",
+        picture675: "./img/jpg/product/heRelaxantIllusText675.jpg",
+        picture900: "./img/jpg/product/heRelaxantIllusText900.jpg"
       },
       {
         subTitle: "Les huiles essentielles pour une peau apaisée",
@@ -25,7 +28,7 @@ export const heRelaxante = {
       },
       {
         subTitle: "En conclusion",
-        text: " l'huile essentielle est un outil polyvalent qui peut améliorer votre bien-être de plusieurs façons. Que vous cherchiez à réduire le stress, améliorer votre sommeil, soulager les irritations cutanées ou atténuer la douleur, elle peut vous aider à atteindre votre objectif. Alors pourquoi ne pas essayer ? Vous pourriez être surpris par les effets positifs de ce cadeau de la nature."
+        text: " L'huile essentielle est un outil polyvalent qui peut améliorer votre bien-être de plusieurs façons. Que vous cherchiez à réduire le stress, améliorer votre sommeil, soulager les irritations cutanées ou atténuer la douleur, elle peut vous aider à atteindre votre objectif. Alors pourquoi ne pas essayer ? Vous pourriez être surpris par les effets positifs de ce cadeau de la nature."
       },
       {
         subTitle: "Vous aimerez aussi…",
@@ -40,17 +43,27 @@ export const heRelaxante = {
       {
         pictureLove: "./img/jpg/product/detox.jpg",
         textLove:
-          "L'huile essentielle peut être un excellent complément à notre produit de détoxification. En aidant à apaiser l'esprit et le corps, elle peut favoriser un environnement plus propice à la détoxification. Imaginez-vous combinant les bienfaits de l'huile essentielle avec ceux de notre produit de détoxification, créant ainsi une routine de bien-être complète qui favorise la perte de poids et la santé globale. C'est une approche holistique qui peut transformer votre parcours de perte de poids et vous aider à atteindre vos objectifs de santé."
+          "Notre produit de détoxification, lorsqu'il est associé à cette huile, peut aider à éliminer les toxines du corps et à stimuler le métabolisme, favorisant ainsi une perte de poids efficace."
+      },
+      {
+        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        textLove:
+          "En complément, nos gouttes super puissantes peuvent renforcer l'efficacité de cette cure minceur. Elles agissent en synergie avec l'huile essentielle et le produit de détoxification pour offrir une solution complète de perte de poids. C'est une combinaison que je recommande vivement."
       },
       {
         pictureLove: "./img/jpg/product/boosterEnergie.jpg",
         textLove:
-          "Nos gouttes super puissantes.Une cure complète que je vous recommande."
+          "Si vous traversez une période de baisse de moral ou de mal-être, cette huile essentielle peut apporter une aide précieuse. Elle peut être utilisée conjointement avec notre produit d'augmentation d'énergie pour améliorer votre humeur et votre bien-être général. Optimisez votre santé émotionnelle avec notre huile essentielle et notre booster d'énergie."
       },
       {
-        pictureLove: "./img/jpg/product/GG.jpg",
+        pictureLove: "./img/jpg/product/PN.jpg",
         textLove:
-          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+          "Cette huile essentielle est un outil puissant pour aider à surmonter la dépendance au tabac. En la combinant avec notre booster d'énergie et notre produit spécialement conçu pour remplacer les repas, vous pouvez éviter les grignotages et la prise de poids souvent associés à l'arrêt du tabac. Optimisez votre parcours de sevrage tabagique avec notre huile essentielle, notre booster d'énergie et notre substitut de repas."
+      },
+      {
+        pictureLove: "./img/jpg/product/cocoOil.jpg",
+        textLove:
+          "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau."
       }
     ]
   },

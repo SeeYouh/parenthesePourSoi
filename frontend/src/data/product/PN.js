@@ -45,7 +45,7 @@ export const PN = {
     ],
     youLikeIt: [
       {
-        pictureLove: "./img/jpg/product/PN.jpg",
+        pictureLove: "./img/jpg/product/PB.jpg",
         textLove:
           "Pour les journées chargées où chaque minute compte, la combinaison du PB et du PN est votre allié ultime. Le PB vous offre un regain d'énergie instantané, tandis que le PN assure une libération énergétique stable et durable. Ensemble, ils garantissent une vigilance et une productivité maximales, même lorsqu'un repas complet n'est pas à l'ordre du jour. Intrigué ? Découvrez-en plus sur le PN et son alliance parfaite avec le PB."
       },

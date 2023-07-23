@@ -69,9 +69,9 @@ main,
 
 .progressBar {
   z-index: 1000;
-  height: 5px;
+  height: 8px;
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
   overflow: hidden;

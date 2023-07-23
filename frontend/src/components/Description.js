@@ -38,7 +38,15 @@ const Description = ({ productDescription }) => {
                 >
                   {productDescription.subTitle}
                 </h3>
-                <p>{productDescription.text}</p>
+                {Array.isArray(productDescription.text) ? (
+                  <ul>
+                    {productDescription.text.map((text, index) => (
+                      <li key={index}>{text}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>{productDescription.text}</p>
+                )}
               </div>
             )}
             {index === 1 && (
@@ -48,7 +56,7 @@ const Description = ({ productDescription }) => {
                   srcSet={productDescription.picture450}
                 />
                 <source
-                  media="(min-width: 1440px) and (max-width: 1600px)"
+                  media="(min-width: 1440px)"
                   srcSet={productDescription.picture675}
                 />
                 <source
@@ -71,7 +79,7 @@ const Description = ({ productDescription }) => {
                         src={productDescription.pictureLove}
                         alt={productDescription.alt}
                       />
-                      <p>{productDescription.textLove}</p>
+                      <p key={index}>{productDescription.textLove}</p>
                     </div>
                   ))}
                 </div>

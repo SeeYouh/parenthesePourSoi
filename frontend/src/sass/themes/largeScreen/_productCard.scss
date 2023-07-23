@@ -62,13 +62,18 @@
     padding-bottom: -30px;
   }
 
+    .productDescriptPresentNext {
+      padding-bottom: 30px;
+    }
+
   .productDescriptPresentNext:first-child {
+    padding-bottom: -50px;
     margin-top: 15px;
   }
 
-  .productDescriptPresentNext:last-child {
-    margin-bottom: 50px;
-  }
+  // .productDescriptPresentNext:last-child {
+  //   margin-bottom: 50px;
+  // }
 }
 
 .youWillLikeIt {

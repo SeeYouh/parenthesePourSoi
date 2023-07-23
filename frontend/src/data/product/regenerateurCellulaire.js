@@ -45,7 +45,17 @@ export const regenerateurCellulaire = {
       {
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
-          "Associez notre produit à un autre pour un rééquilibrage total de votre organisme. Ensemble, ils favorisent votre bien-être général, augmentent votre énergie et soutiennent votre équilibre psychologique. Vous naviguerez avec sérénité à travers les transitions de la vie, tout en conservant une peau éclatante et une santé optimale. Ressentez la différence, optez pour un bien-être complet."
+          "Pour une action renforcée et des résultats encore plus impressionnants, notre produit phare peut être associé à notre formule riche en ubiquinol, qui constitue une version très puissante de la CoQ10. Ce mélange stimule la régénération cellulaire pour un effet particulièrement marqué sur les vergetures profondes et les varices importantes. Ces deux produits, utilisés ensemble, vous offrent un traitement intensif pour une peau saine et revitalisée, ainsi qu'une amélioration visible de votre circulation sanguine."
+      },
+      {
+        pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
+        textLove:
+          "Face à une cellulite récalcitrante, augmentez l'efficacité de votre traitement en l'associant à notre produit aux multiples bienfaits, le Guérisseur des maux. Cette association renforcée fournit des enzymes CoQ10 supplémentaires, boostant ainsi l'action anti-cellulite de notre best-seller. Ce duo agit en synergie pour cibler efficacement la cellulite tenace, tout en apportant une panoplie d'autres bienfaits pour votre santé et votre bien-être général."
+      },
+      {
+        pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
+        textLove:
+          "Si vous cherchez à revitaliser votre quotidien, je vous recommande vivement notre dynamiseur d'énergie. Ce puissant catalyseur de bien-être saura insuffler à votre quotidien la vitalité et la vigueur que vous méritez."
       }
     ]
   },

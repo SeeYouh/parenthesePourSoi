@@ -1,16 +1,21 @@
 import React from "react";
 
 const Description = ({ productDescription }) => {
+  const productDesc = productDescription.product;
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
   const productLiketIt = productDescription.product.summary.youLikeIt;
+  const idKey =
+    productDesc.nameProduct +
+    productDesc.firstCategory +
+    productDesc.secondCategory;
 
   return (
     <>
       <div className="bgParagraph">
         {productParagraph.map((productDescription, index) => (
           <div
-            key={index}
+            key={idKey}
             className={
               index === 1
                 ? "selectText productDescriptPresentFirst"
@@ -40,12 +45,14 @@ const Description = ({ productDescription }) => {
                 </h3>
                 {Array.isArray(productDescription.text) ? (
                   <ul>
-                    {productDescription.text.map((text, index) => (
-                      <li key={index}>{text}</li>
+                    {productDescription.text.map((text) => (
+                      <li className="textParagraph" key={idKey}>
+                        {text}
+                      </li>
                     ))}
                   </ul>
                 ) : (
-                  <p>{productDescription.text}</p>
+                  <p className="textParagraph">{productDescription.text}</p>
                 )}
               </div>
             )}
@@ -56,7 +63,7 @@ const Description = ({ productDescription }) => {
                   srcSet={productDescription.picture450}
                 />
                 <source
-                  media="(min-width: 1440px)"
+                  media="(min-width: 1440px) && (max-width: 1600px)"
                   srcSet={productDescription.picture675}
                 />
                 <source
@@ -72,14 +79,16 @@ const Description = ({ productDescription }) => {
             {index === productParagraph.length - 1 ? (
               <>
                 <div className="youWillLikeIt">
-                  {productLiketIt.map((productDescription, index) => (
+                  {productLiketIt.map((productDescription) => (
                     <div className="youWillLikeIt-content">
                       <img
                         className="imgYouWillLikeIt"
                         src={productDescription.pictureLove}
                         alt={productDescription.alt}
                       />
-                      <p key={index}>{productDescription.textLove}</p>
+                      <p className="textParagraph" key={idKey}>
+                        {productDescription.textLove}
+                      </p>
                     </div>
                   ))}
                 </div>
@@ -94,7 +103,7 @@ const Description = ({ productDescription }) => {
                   >
                     {productDescription.subTitle}
                   </h3>
-                  <p>{productDescription.text}</p>
+                  <p className="textParagraph">{productDescription.text}</p>
                 </>
               )
             )}

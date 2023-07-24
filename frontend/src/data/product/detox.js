@@ -1,19 +1,24 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const detox = {
+  id: "detox",
   nameProduct: "Détox’",
   summary: {
     title: "Nettoyer son corps en profondeur",
     paragraph: [
       {
-        subTitle: "Préparez-vous à mincir avec notre détox’ !",
+        subTitle: "Préparez-vous à mincir avec notre détox’",
         text: "La base essentielle de toute cure minceur est le nettoyage du corps afin de le préparer à une perte de poids saine et durable."
       },
       {
-        subTitle: "Laissez notre détox’ faire le grand nettoyage !",
+        subTitle: "Laissez notre détox’ faire le grand nettoyage",
         text: [
-          "Notre produit agit comme un véritable agent de détoxification, absorbant les toxines présentes dans votre corps et les transportant hors de celui-ci. Ces toxines, issues de votre métabolisme et de votre environnement (polluants aériens, alimentation…), s'accumulent dans tout votre corps et sont transportées vers les cinq organes émonctoires :",
-          [" le foie", "les reins", "les poumons", "les intestins", "la peau"],
+          "Notre produit agit comme un véritable agent de détoxification, absorbant les toxines présentes dans votre corps et les transportant hors de celui-ci. Ces toxines, issues de votre métabolisme et de votre environnement (polluants aériens, alimentation…), s'accumulent dans tout votre corps et sont transportées vers les cinq organes émonctoires:",
+          "- la peau",
+          "- le foie",
+          "- les reins",
+          "- les poumons",
+          "- les intestins",
           " Lorsque votre organisme est surchargé de toxines, des problèmes de santé peuvent survenir. En optant pour notre produit, vous permettez à votre corps de se débarrasser de ces toxines, favorisant ainsi une gestion du poids plus efficace et une meilleure santé globale."
         ],
         picture450: "./img/jpg/product/DetoxIllusText450.jpg",
@@ -29,15 +34,15 @@ export const detox = {
         text: "En rééquilibrant votre système digestif, notre produit diminue les ballonnements, les gaz, la constipation et la diarrhée."
       },
       {
-        subTitle: "Agissez pour votre peau !",
+        subTitle: "Agissez pour votre peau",
         text: "L’élimination des toxines contribue à réduire la cellulite, vous offrant ainsi une silhouette plus harmonieuse."
       },
       {
-        subTitle: "Ressourcez-vous et faites le plein d'énergie !",
+        subTitle: "Ressourcez-vous et faites le plein d'énergie",
         text: "Notre détox’ booste l'énergie naturelle de votre corps, vous permettant ainsi de retrouver une vitalité et un bien-être général. Vous vous sentirez revitalisé(e), prêt(e) à faire face aux défis quotidiens avec une énergie renouvelée."
       },
       {
-        subTitle: "Préparez-vous à atteindre votre objectif minceur !",
+        subTitle: "Préparez-vous à atteindre votre objectif minceur",
         text: "Optez pour notre détox’, c’est choisir un produit naturel, efficace et révolutionnaire conçu pour vous aider à atteindre vos objectifs de perte de poids tout en favorisant un bien-être optimal."
       },
       {

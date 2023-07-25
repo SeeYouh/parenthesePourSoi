@@ -1,28 +1,26 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Description from "./Description";
 // import AdditionnalInformation from "./AdditionnalInformation";
 // import AsaComplement from "./AsaComplement";
 // import InSummary from "./InSummary";
 
 const ProductDetails = (productDescription, index) => {
+  const descriptionName = productDescription.product.nameProduct;
+  const subCategoryProduct = [
+    "Description",
+    "Résumé",
+    "En complément",
+    "informations supplémentaires"
+  ];
+
+  const [selectedCategoryProduct, setSelectedCategoryProduct] = useState("");
+
   // const [currentProduct, setCurrentProduct] = useState(productDescription);
   const themeColors = productDescription.product.colors;
-  const [activeTab, setActiveTab] = useState("Description");
-
-  useEffect(() => {
-    const checkboxes = document.querySelectorAll(".productTab input");
-    checkboxes.forEach((checkbox) => {
-      checkbox.checked = checkbox.id === activeTab;
-    });
-  }, [activeTab]);
-
-  const handleTabChange = (e) => {
-    setActiveTab(e.target.id);
-  };
 
   return (
     <>
-      <div className="bgProductDetails">
+      <div className="bgProductDetails" key={descriptionName}>
         <div className="imgProduit">
           <img
             src={productDescription.product.picture}
@@ -34,10 +32,8 @@ const ProductDetails = (productDescription, index) => {
             style={{
               color: themeColors.textColor
             }}
-            key={index}
           >
-            {" "}
-            {productDescription.product.nameProduct}{" "}
+            {productDescription.product.nameProduct}
           </h1>
           <h2
             style={{
@@ -45,51 +41,32 @@ const ProductDetails = (productDescription, index) => {
               borderLeft: `3px solid ${themeColors.textColor}`,
               borderBottomLeftRadius: "20px"
             }}
-            key={index}
           >
-            {" "}
-            {productDescription.product.summary.title}{" "}
+            {productDescription.product.summary.title}
           </h2>
         </div>
       </div>
       <div className="no-select productTab">
-        <label htmlFor="Description" className={`btn btn-navbar`}>
-          Description
-        </label>
-        <input
-          type="checkbox"
-          id="Description"
-          className="active"
-          name="productTab"
-          onChange={handleTabChange}
-        />
-        <label htmlFor="summary" className="btn btn-navbar">
-          Résumé
-        </label>
-        <input
-          type="checkbox"
-          id="summary"
-          className="active"
-          name="productTab"
-        />
-        <label htmlFor="complementary" className="btn btn-navbar">
-          En complément
-        </label>
-        <input
-          type="checkbox"
-          id="complementary"
-          className="active"
-          name="productTab"
-        />
-        <label htmlFor="infoSupp" className="btn btn-navbar">
-          Informations supplémentaires
-        </label>
-        <input
-          type="checkbox"
-          id="infoSupp"
-          className="active"
-          name="productTab"
-        />
+        {subCategoryProduct.map((subCategory) => (
+          <li key={subCategory}>
+            <label
+              htmlFor={subCategory}
+              className={`btn btn-navbar ${
+                subCategory === selectedCategoryProduct ? "selected" : ""
+              }`}
+            >
+              {subCategory}
+            </label>
+            <input
+              type="radio"
+              id={subCategory}
+              name="productTab"
+              onChange={(e) => setSelectedCategoryProduct(e.target.id)}
+              checked={subCategory === selectedCategoryProduct}
+            />
+          </li>
+        ))}
+        ;
       </div>
       {/* <AdditionnalInformation
         productDescription={productDescription}
@@ -97,7 +74,7 @@ const ProductDetails = (productDescription, index) => {
       />
       <AsaComplement productDescription={productDescription} index={index} />
       <InSummary productDescription={productDescription} index={index} /> */}
-      <Description productDescription={productDescription} index={index} />
+      <Description productDescription={productDescription} />
     </>
   );
 };

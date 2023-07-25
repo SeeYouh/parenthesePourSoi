@@ -1,7 +1,7 @@
 import { useHover } from "../utils/useHover";
 import { motion } from "framer-motion";
 
-const ProductCard = ({ product, onProductClick, index }) => {
+const ProductCard = ({ product, onProductClick }) => {
   const [isHovered, hoverProps] = useHover();
   const colors = product.colors;
 
@@ -15,10 +15,11 @@ const ProductCard = ({ product, onProductClick, index }) => {
       whileHover={{
         scale: 1.08
       }}
+      key={product.nameProduct}
     >
       <div className={productCardClass} {...hoverProps}>
         <div className="productCard">
-          <img key={index} src={product.picture} alt={product.nameProduct} />
+          <img src={product.picture} alt={product.nameProduct} />
           <div className="textProductCard">
             <h1
               style={{

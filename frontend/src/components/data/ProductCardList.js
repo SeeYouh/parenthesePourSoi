@@ -71,9 +71,9 @@ const ProductCardList = () => {
               : true
           )
           .sort((a, b) => a.nameProduct.localeCompare(b.nameProduct))
-          .map((productDetails, index) => (
+          .map((productDetails) => (
             <ProductCard
-              key={index}
+              key={productDetails.nameProduct}
               product={productDetails}
               onProductClick={handleProductClick}
             />

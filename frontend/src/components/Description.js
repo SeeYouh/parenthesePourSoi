@@ -1,21 +1,21 @@
 import React from "react";
 
 const Description = ({ productDescription }) => {
-  const productDesc = productDescription.product;
+  // const productDesc = productDescription.product;
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
   const productLiketIt = productDescription.product.summary.youLikeIt;
-  const idKey =
-    productDesc.nameProduct +
-    productDesc.firstCategory +
-    productDesc.secondCategory;
+  // const idKey =
+  //   productDesc.nameProduct +
+  //   productDesc.firstCategory +
+  //   productDesc.secondCategory;
 
   return (
     <>
       <div className="bgParagraph">
         {productParagraph.map((productDescription, index) => (
           <div
-            key={idKey}
+            key={index}
             className={
               index === 1
                 ? "selectText productDescriptPresentFirst"
@@ -46,7 +46,7 @@ const Description = ({ productDescription }) => {
                 {Array.isArray(productDescription.text) ? (
                   <ul>
                     {productDescription.text.map((text) => (
-                      <li className="textParagraph" key={idKey}>
+                      <li className="textParagraph" key={index}>
                         {text}
                       </li>
                     ))}
@@ -86,7 +86,7 @@ const Description = ({ productDescription }) => {
                         src={productDescription.pictureLove}
                         alt={productDescription.alt}
                       />
-                      <p className="textParagraph" key={idKey}>
+                      <p className="textParagraph" key={index}>
                         {productDescription.textLove}
                       </p>
                     </div>

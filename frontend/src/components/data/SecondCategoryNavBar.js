@@ -47,8 +47,11 @@ const SecondCategoryNavBar = () => {
                   <h1>{subCategory.name}</h1>
                   <div className="lineBottom"></div>
                   <ul>
-                    {subCategory.secondCategory.map((subCategory, index) => (
-                      <li className={`cursor menu-navbar ${index}`} key={index}>
+                    {subCategory.secondCategory.map((subCategory) => (
+                      <li
+                        className={`cursor menu-navbar`}
+                        key={subCategory.text}
+                      >
                         <input
                           className="active"
                           type="checkbox"

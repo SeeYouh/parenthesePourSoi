@@ -10,7 +10,7 @@ const FirstCategoryNavBar = () => {
     setSelectedRadio,
     setSelectedSubRadio,
     setSelectedProduct,
-    setIsActive,
+    setIsActive
   } = useContext(RadioContext);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ const FirstCategoryNavBar = () => {
     scroller.scrollTo("productList", {
       smooth: "easeInOutQuint",
       duration: 1000,
-      offset: -125,
+      offset: -125
     });
   };
 
@@ -48,7 +48,7 @@ const FirstCategoryNavBar = () => {
         onClick={() => {
           scroller.scrollTo("scrollTop", {
             smooth: "easeInOutQuint",
-            duration: 1000,
+            duration: 1000
           });
           setSelectedRadio("");
           setSelectedSubRadio("");
@@ -58,8 +58,8 @@ const FirstCategoryNavBar = () => {
       />
 
       <div className="no-select all-menu-navbar">
-        {firstCategoryList.map((menu, index) => (
-          <li className={`cursor menu-navbar ${index}`} key={index}>
+        {firstCategoryList.map((menu) => (
+          <li className={`cursor menu-navbar`} key={menu.id}>
             <input
               className="active"
               type="checkbox"

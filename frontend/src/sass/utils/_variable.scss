@@ -29,20 +29,20 @@ $bgColor9: #b1d45a91;
   position: fixed;
 }
 
-main,
+#bgLogo,
+.btn,
 .home,
 #leafBottomLeft,
 #leafTopRight,
-#bgLogo,
-.btn,
+main,
 .bgProductCard {
   position: relative;
 }
 
 .all-menu-navbar,
-#logoPicture,
 .btn-navbar:before,
 #leafTopRightImg,
+#logoPicture,
 #leafBottomLeftImg {
   position: absolute;
 }
@@ -65,16 +65,4 @@ main,
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
-}
-
-.progressBar {
-  z-index: 1000;
-  height: 8px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  background-color: $bgColor5;
-  transform-origin: 0%;
 }

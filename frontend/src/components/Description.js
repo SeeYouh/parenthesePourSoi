@@ -1,14 +1,9 @@
 import React from "react";
 
 const Description = ({ productDescription }) => {
-  // const productDesc = productDescription.product;
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
   const productLiketIt = productDescription.product.summary.youLikeIt;
-  // const idKey =
-  //   productDesc.nameProduct +
-  //   productDesc.firstCategory +
-  //   productDesc.secondCategory;
 
   return (
     <>

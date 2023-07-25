@@ -15,7 +15,6 @@ const ProductDetails = (productDescription) => {
 
   const [selectedCategoryProduct, setSelectedCategoryProduct] = useState("");
 
-  // const [currentProduct, setCurrentProduct] = useState(productDescription);
   const themeColors = productDescription.product.colors;
 
   return (

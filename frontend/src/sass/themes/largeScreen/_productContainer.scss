@@ -5,12 +5,9 @@
 
   .arrayProductCard {
     min-height: calc(100vh - 125px);
-    max-width: 1100px;
   }
 
   .subCategory {
-    position: fixed;
-    width: 300px;
     left: 0;
     margin-right: calc(10px + 1vmin);
     margin-left: calc(10px + 1vmin);

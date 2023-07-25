@@ -10,7 +10,6 @@
   border-radius: 5%;
   border-bottom-right-radius: 20%;
   border-top-left-radius: 20%;
-  width: 300px;
   height: 300px;
   margin: 0 15px 30px 20px;
   padding: 10px;
@@ -26,7 +25,6 @@
 }
 
 .productCard {
-  width: 100%;
   height: 100%;
   position: relative;
   z-index: 4;
@@ -36,7 +34,6 @@
     margin-top: 20px;
     padding-right: 10px;
     bottom: 0;
-    width: 100%;
     height: 92px;
 
     h1 {

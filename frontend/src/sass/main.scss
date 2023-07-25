@@ -7,7 +7,8 @@
         "./base/flex",
         "./base/fonts",
         "./base/grid",
-        "./base/reset";
+        "./base/reset",
+        "./base/width";
 
 // prettier-ignore
 @import "./components/nav",
@@ -18,6 +19,7 @@
 // prettier-ignore
 @import "./layout/button",
         "./layout/logo",
+        "./layout/progressBar",
         "./layout/search";
 
 // prettier-ignore

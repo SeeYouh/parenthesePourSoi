@@ -1,0 +1,70 @@
+// ------ WIDTH ------ //
+
+.bgProductDetails img,
+footer,
+#leafBottomLeft,
+#leafTopRight,
+.lineBottom,
+.navbar,
+.productCard,
+.productTab,
+.search-bar,
+.search-label:focus,
+.textProductCard,
+.youWillLikeIt {
+  width: 100%;
+}
+
+.bgProductDetails,
+.imgYouWillLikeIt,
+.navbar img {
+  width: auto;
+}
+
+.line {
+  width: 2px;
+}
+
+.search-label {
+  width: 15px;
+}
+
+.bgProductCard,
+.subCategory {
+  width: 300px;
+}
+
+.titleTextProduct {
+  width: 800px;
+}
+
+.imgProduit {
+  width: 1000px;
+}
+
+#leaf {
+  width: 100vw;
+}
+
+#logoPicture {
+  width: calc(40% - 10px);
+}
+
+#leafBottomLeftImg img,
+#leafTopRightImg img {
+  width: calc(100% - 10px);
+}
+
+// ------ MAX-WIDTH ------ //
+
+.arrayProductCard {
+  max-width: 1100px;
+}
+
+.bgParagraph {
+  max-width: 1800px;
+}
+
+.youWillLikeIt-content {
+  max-width: 80%;
+}

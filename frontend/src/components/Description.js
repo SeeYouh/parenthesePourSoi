@@ -1,9 +1,14 @@
 import React from "react";
 
 const Description = ({ productDescription }) => {
+  // const productDesc = productDescription.product;
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
   const productLiketIt = productDescription.product.summary.youLikeIt;
+  // const idKey =
+  //   productDesc.nameProduct +
+  //   productDesc.firstCategory +
+  //   productDesc.secondCategory;
 
   return (
     <>
@@ -38,7 +43,17 @@ const Description = ({ productDescription }) => {
                 >
                   {productDescription.subTitle}
                 </h3>
-                <p>{productDescription.text}</p>
+                {Array.isArray(productDescription.text) ? (
+                  <ul>
+                    {productDescription.text.map((text) => (
+                      <li className="textParagraph" key={index}>
+                        {text}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="textParagraph">{productDescription.text}</p>
+                )}
               </div>
             )}
             {index === 1 && (
@@ -48,7 +63,7 @@ const Description = ({ productDescription }) => {
                   srcSet={productDescription.picture450}
                 />
                 <source
-                  media="(min-width: 1440px) and (max-width: 1600px)"
+                  media="(min-width: 1440px) && (max-width: 1600px)"
                   srcSet={productDescription.picture675}
                 />
                 <source
@@ -64,14 +79,16 @@ const Description = ({ productDescription }) => {
             {index === productParagraph.length - 1 ? (
               <>
                 <div className="youWillLikeIt">
-                  {productLiketIt.map((productDescription, index) => (
+                  {productLiketIt.map((productDescription) => (
                     <div className="youWillLikeIt-content">
                       <img
                         className="imgYouWillLikeIt"
                         src={productDescription.pictureLove}
                         alt={productDescription.alt}
                       />
-                      <p>{productDescription.textLove}</p>
+                      <p className="textParagraph" key={index}>
+                        {productDescription.textLove}
+                      </p>
                     </div>
                   ))}
                 </div>
@@ -86,7 +103,7 @@ const Description = ({ productDescription }) => {
                   >
                     {productDescription.subTitle}
                   </h3>
-                  <p>{productDescription.text}</p>
+                  <p className="textParagraph">{productDescription.text}</p>
                 </>
               )
             )}

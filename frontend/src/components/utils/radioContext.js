@@ -18,7 +18,7 @@ export const RadioProvider = ({ children }) => {
         selectedProduct,
         setSelectedProduct,
         isActive,
-        setIsActive,
+        setIsActive
       }}
     >
       {children}

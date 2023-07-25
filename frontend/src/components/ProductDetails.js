@@ -4,7 +4,7 @@ import Description from "./Description";
 // import AsaComplement from "./AsaComplement";
 // import InSummary from "./InSummary";
 
-const ProductDetails = (productDescription, index) => {
+const ProductDetails = (productDescription) => {
   const descriptionName = productDescription.product.nameProduct;
   const subCategoryProduct = [
     "Description",

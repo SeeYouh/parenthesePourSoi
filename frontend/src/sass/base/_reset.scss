@@ -128,6 +128,7 @@ a {
   cursor: default;
 }
 
-// input[type="checkbox"] {
-//   display: none;
-// }
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+}

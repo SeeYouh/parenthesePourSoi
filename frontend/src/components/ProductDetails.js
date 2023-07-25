@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Description from "./Description";
 // import AdditionnalInformation from "./AdditionnalInformation";
 // import AsaComplement from "./AsaComplement";
@@ -7,6 +7,18 @@ import Description from "./Description";
 const ProductDetails = (productDescription, index) => {
   // const [currentProduct, setCurrentProduct] = useState(productDescription);
   const themeColors = productDescription.product.colors;
+  const [activeTab, setActiveTab] = useState("Description");
+
+  useEffect(() => {
+    const checkboxes = document.querySelectorAll(".productTab input");
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = checkbox.id === activeTab;
+    });
+  }, [activeTab]);
+
+  const handleTabChange = (e) => {
+    setActiveTab(e.target.id);
+  };
 
   return (
     <>
@@ -41,42 +53,43 @@ const ProductDetails = (productDescription, index) => {
         </div>
       </div>
       <div className="no-select productTab">
-        <input
-          type="checkbox"
-          id="check"
-          className="active"
-          name="productTab"
-        />
-        <label htmlFor="check" className="btn btn-navbar">
+        <label htmlFor="Description" className={`btn btn-navbar`}>
           Description
         </label>
         <input
           type="checkbox"
-          id="check"
+          id="Description"
           className="active"
           name="productTab"
+          onChange={handleTabChange}
         />
-        <label htmlFor="check" className="btn btn-navbar">
+        <label htmlFor="summary" className="btn btn-navbar">
           Résumé
         </label>
         <input
           type="checkbox"
-          id="check"
+          id="summary"
           className="active"
           name="productTab"
         />
-        <label htmlFor="check" className="btn btn-navbar">
+        <label htmlFor="complementary" className="btn btn-navbar">
           En complément
         </label>
         <input
           type="checkbox"
-          id="check"
+          id="complementary"
           className="active"
           name="productTab"
         />
-        <label htmlFor="check" className="btn btn-navbar">
+        <label htmlFor="infoSupp" className="btn btn-navbar">
           Informations supplémentaires
         </label>
+        <input
+          type="checkbox"
+          id="infoSupp"
+          className="active"
+          name="productTab"
+        />
       </div>
       {/* <AdditionnalInformation
         productDescription={productDescription}

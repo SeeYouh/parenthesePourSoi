@@ -60,7 +60,7 @@ export const mereDeTous = {
           "Réputée pour son action rapide sur les douleurs musculaires, notre essentielle bleue fait une parfaite alliance naturelle. Elle offre un réconfort immédiat pour vos muscles endoloris, favorisant une récupération rapide et vous permettant de reprendre vos activités avec une nouvelle énergie."
       },
       {
-        pictureLove: "./img/jpg/product/ApportMinéraux.jpg",
+        pictureLove: "./img/jpg/product/ApportMineraux.jpg",
         textLove:
           "Pour un soutien accru à votre système musculosquelettique et nerveux, n'hésitez pas à associer notre produit avec notre complément spécialement formulé à base de minéraux spécifiques. Cette combinaison renforce l'action sur les muscles, les os et les nerfs, fournissant ainsi une approche complète pour un bien-être optimal."
       },
@@ -81,8 +81,8 @@ export const mereDeTous = {
       }
     ]
   },
-  firstCategory: [getCategoryById("3BienEtre").name],
-  secondCategory: [getSecondCategoryById("3BienEtre3Humeur").text],
+  firstCategory: [getCategoryById("1Sante").name],
+  secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "./img/jpg/product/mereDeTous.jpg",
   colors: {
     textColor: "#e21e1e",

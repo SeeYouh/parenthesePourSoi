@@ -46,8 +46,8 @@ export const gelDouche = {
       }
     ]
   },
-  firstCategory: [getCategoryById("1Sante").name],
-  secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
+  firstCategory: [getCategoryById("2Beaute").name],
+  secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "./img/jpg/product/gelDouche.jpg",
   colors: {
     textColor: "#808080"

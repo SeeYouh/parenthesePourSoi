@@ -2,6 +2,9 @@ import { beaumeLevre } from "./product/BeaumeLevres";
 import { heRelaxante } from "./product/HERelaxante";
 import { heRafraichissant } from "./product/HErafraichissant";
 import { PN } from "./product/PN";
+import { apportMineraux } from "./product/apportMineraux";
+import { apportQ10 } from "./product/apportQ10";
+import { apportVitamines } from "./product/apportVitamines";
 import { apresShampooing } from "./product/apresShampooing";
 import { bb } from "./product/bb";
 import { bienEtreInterieur } from "./product/bienEtreInterieur";
@@ -15,6 +18,7 @@ import { equilibreCorpsEsprit } from "./product/equilibreCorpsEsprit";
 import { gelDouche } from "./product/gelDouche";
 import { gelNettoyant } from "./product/gelNetoyant";
 import { goutteMinceur } from "./product/goutteMinceur";
+import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";
 import { mereDeTous } from "./product/mèreDeTous";
 import { osMuscle } from "./product/osMuscle";
@@ -43,5 +47,9 @@ export const productList = [
   heRafraichissant,
   beaumeLevre,
   gelNettoyant,
-  decontaminant
+  decontaminant,
+  apportMineraux,
+  apportVitamines,
+  apportQ10,
+  guerisseurMaux
 ];

@@ -10,7 +10,7 @@ const SecondCategoryNavBar = () => {
     isActive,
     setIsActive,
     setSelectedProduct,
-    setSelectedSubRadio,
+    setSelectedSubRadio
   } = useContext(RadioContext);
 
   const handleSubCategoryChange = (e) => {
@@ -32,11 +32,11 @@ const SecondCategoryNavBar = () => {
           initial={{ x: -450 }}
           animate={{
             x: 0,
-            transition: { duration: 0.5 },
+            transition: { duration: 0.5 }
           }}
           exit={{
             x: isActive ? "-100vw" : -450,
-            transition: { duration: 0.5 },
+            transition: { duration: 0.5 }
           }}
         >
           {firstCategoryList

@@ -2,6 +2,7 @@
 
 
 main,
+.bgParagraph,
 .productDescriptPresentFirst,
 .youWillLikeIt,
 .youWillLikeIt-content,
@@ -23,6 +24,7 @@ main,
 //------ FLEX-DIRECTION --------//
 
 main,
+.bgParagraph,
 .youWillLikeIt,
 .textProductCard {
   flex-direction: column;
@@ -52,6 +54,7 @@ main,
   justify-content: space-between;
 }
 
+.bgParagraph,
 .youWillLikeIt {
   justify-content: center;
 }
@@ -67,7 +70,6 @@ main,
 
 main,
 .productDescriptPresentFirst,
-// .youWillLikeIt,
 .youWillLikeIt-content,
 .bgProductDetails,
 .navbar,

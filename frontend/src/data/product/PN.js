@@ -56,8 +56,11 @@ export const PN = {
       }
     ]
   },
-  firstCategory: [getCategoryById("2Beaute").name],
-  secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
+  firstCategory: [getCategoryById("1Sante").name],
+  secondCategory: [
+    getSecondCategoryById("1Sante1TroublesDigestifsIntestinauxRespiratoires")
+      .text
+  ],
   picture: "./img/jpg/product/PN.jpg",
   colors: {
     textColor: "#e58000"

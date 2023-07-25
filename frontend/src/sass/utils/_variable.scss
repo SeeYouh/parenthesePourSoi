@@ -24,6 +24,7 @@ $bgColor9: #b1d45a91;
 
 //position
 
+.subCategory,
 .positionFixed {
   position: fixed;
 }
@@ -54,7 +55,6 @@ main,
 
 .lineBottom {
   background: linear-gradient(to right, transparent, $bgColor5, transparent);
-  width: 100%;
   height: 3px;
 }
 

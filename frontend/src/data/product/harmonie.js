@@ -12,15 +12,13 @@ export const harmonie = {
       {
         subTitle:
           "Retrouvez votre mobilité avec notre anti-inflammatoire efficace",
-        text: "Harmonie est spécialement conçu pour offrir une efficacité anti-inflammatoire exceptionnelle, soulageant ainsi les douleurs liées à l'arthrite, l'arthrose, l'ostéoporose, les rhumatismes et bien d'autres affections. Retrouvez votre mobilité et votre liberté grâce à notre solution naturelle et puissante. Il améliore également la santé oculaire en préservant la santé de vos yeux. De plus, il renforce votre système immunitaire, vous aidant à vous remettre plus rapidement des maladies et à prévenir les infections.",
+        text: [
+          "Il est spécialement conçu pour offrir une efficacité anti-inflammatoire exceptionnelle, soulageant ainsi les douleurs liées à l'arthrite, l'arthrose, l'ostéoporose, les rhumatismes et bien d'autres affections. Retrouvez votre mobilité et votre liberté grâce à notre solution naturelle et puissante. Il améliore également la santé oculaire en préservant la santé de vos yeux. De plus, il renforce votre système immunitaire, vous aidant à vous remettre plus rapidement des maladies et à prévenir les infections.",
+          "Les ingrédients minutieusement sélectionnés de notre produit favorisent une digestion saine et équilibrée, vous évitant ainsi les troubles digestifs courants. Grâce à ses propriétés détoxifiantes, il vous aide à éliminer les toxines accumulées dans votre corps, favorisant ainsi ainsi un mieux-être intérieur."
+        ],
         picture450: "./img/jpg/product/eliteIllusText450.jpg",
         picture675: "./img/jpg/product/eliteIllusText675.jpg",
         picture900: "./img/jpg/product/eliteIllusText900.jpg"
-      },
-      {
-        subTitle:
-          "Optez pour une digestion saine avec notre détoxifiant naturel",
-        text: "Les ingrédients minutieusement sélectionnés de notre produit favorisent une digestion saine et équilibrée, vous évitant ainsi les troubles digestifs courants. Grâce à ses propriétés détoxifiantes, il vous aide à éliminer les toxines accumulées dans votre corps, favorisant ainsi la perte de poids naturelle et durable."
       },
       {
         subTitle:
@@ -32,14 +30,16 @@ export const harmonie = {
         text: "Et le plus de ce produit, c’est son action sur la production de DHEA, l'hormone anti-vieillissement. Vous retrouverez une peau éclatante, plus lisse et plus hydratée, grâce à une diminution notable de la sécheresse cutanée et à une stimulation de la production de collagène. De plus, notre formule aide à réduire la chute des cheveux, vous offrant ainsi une chevelure volumineuse et luxuriante."
       },
       {
-        subTitle:
-          "Soulagez vos douleurs menstruelles avec notre produit naturel",
+        subTitle: "Pour vous, Mesdames",
         text: "Mesdames, notre produit est spécialement conçu pour vous aider à atténuer les douleurs menstruelles grâce à sa teneur en oméga-6, vous offrant ainsi un soulagement bien mérité. De plus, il diminue les désagréments de la ménopause en stimulant la production d'œstrogènes, vous permettant de traverser cette période de transition avec sérénité et confort."
       },
       {
-        subTitle:
-          "Sentez-vous belle et en forme avec notre produit exceptionnel",
-        text: "Sentez-vous belle et en forme la journée et dormez paisiblement la nuit avec ce produit exceptionnel. Notre formule naturelle est conçue pour améliorer votre bien-être général, en vous aidant à vous sentir plus énergique et en forme pendant la journée, tout en favorisant un sommeil réparateur la nuit. Profitez des bienfaits de notre produit pour une vie plus saine et plus équilibrée."
+        subTitle: "Vous aimerez aussi…",
+        text: ""
+      },
+      {
+        subTitle: "",
+        text: ""
       }
     ],
     youLikeIt: [
@@ -47,6 +47,26 @@ export const harmonie = {
         pictureLove: "./img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Pour une santé mentale optimale et la prévention du burn-out, ce produit se marie idéalement avec un autre qui offre un regain d'énergie, vous permettant de traverser la journée avec un sourire éclatant."
+      },
+      {
+        pictureLove: "./img/jpg/product/gelNettoyant.jpg",
+        textLove:
+          "Pour une peau hydratée et adoucie tout en éliminant les impuretés de la journée, découvrez notre gel nettoyant naturel. Plongez dans une expérience de pureté et explorez notre gamme de produits pour une routine de soins naturels complète."
+      },
+      {
+        pictureLove: "./img/jpg/product/serumFlash.jpg",
+        textLove:
+          "Vos yeux sont gonflés au réveil ? Alors, regardez notre sérum instantané, une véritable révolution pour faire disparaitre les rides, ridules et poches sous les yeux en seulement 90 secondes. Plongez dans une expérience de rajeunissement et offrez à votre peau une cure de jeunesse en un temps record."
+      },
+      {
+        pictureLove: "./img/jpg/product/cremeNuit.jpg",
+        textLove:
+          "Pour une peau rayonnante et lisse, découvrez notre crème de nuit spécialement formulée pour lutter contre les signes visibles de l'âge et restaurer le processus cellulaire du visage. Réveillez-vous chaque matin avec une peau revitalisée et rajeunie grâce à ses multiples bienfaits."
+      },
+      {
+        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
+        textLove:
+          "Si vous souhaitez gommer les imperfections de votre peau, ne passez pas à côté de notre produit best seller : un régénérateur cellulaire qui opère des miracles sur la peau. Offrez à votre peau une transformation positive et retrouvez une apparence éblouissante."
       }
     ]
   },

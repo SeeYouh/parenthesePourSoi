@@ -16,9 +16,19 @@
     content: "";
     bottom: -5px;
     left: 50%;
+    width: 0;
     height: 2px;
     background-color: $bgColor5;
     transition: all 0.2s;
     transform: translateX(-50%);
+  }
+
+  &:hover:before {
+    width: 100%;
+  }
+}
+.selected {
+  &:before {
+    width: 100%;
   }
 }

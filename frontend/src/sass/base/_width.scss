@@ -1,7 +1,6 @@
 // ------ WIDTH ------ //
 
 .bgProductDetails img,
-.btn-navbar:hover:before,
 footer,
 #leafBottomLeft,
 #leafTopRight,
@@ -11,7 +10,6 @@ footer,
 .productTab,
 .search-bar,
 .search-label:focus,
-.selected:before,
 .textProductCard,
 .youWillLikeIt {
   width: 100%;
@@ -23,16 +21,12 @@ footer,
   width: auto;
 }
 
-.btn-navbar:before {
-  width: 0;
+.line {
+  width: 2px;
 }
 
 .search-label {
   width: 15px;
-}
-
-.line {
-  width: 2px;
 }
 
 .bgProductCard,

@@ -39,26 +39,31 @@ export const apportMineraux = {
     ],
     youLikeIt: [
       {
+        id: "apportVitamines0",
         pictureLove: "./img/jpg/product/apportVitamines.jpg",
         textLove:
           "Dans le cas de nombreuses pathologies, ce concentré de minéraux est associé à notre produit vitaminé qui est un véritable allié pour vos os, vos muscles et vos nerfs grâce à ses propriétés anti-inflammatoires naturelles."
       },
       {
+        id: "mereDeTous1",
         pictureLove: "./img/jpg/product/mereDeTous.jpg",
         textLove:
           "Dans le cas de nombreuses pathologies, ce concentré de minéraux est associé à notre produit vitaminé qui est un véritable allié pour vos os, vos muscles et vos nerfs grâce à ses propriétés anti-inflammatoires naturelles."
       },
       {
+        id: "equilibreCorpsEsprit2",
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Une formule tout-en-un pour améliorer votre bien-être global. Grâce à ses propriétés, notre produit lutte efficacement contre la fatigue et agit en profondeur pour améliorer la qualité de votre sommeil, vous permettant de vous réveiller chaque matin frais et revitalisé. Notre formule est également votre alliée pour faire face au stress, à l'anxiété et au surmenage. Ses ingrédients naturels procurent un soulagement apaisant."
       },
       {
+        id: "regenerateurCellulaire3",
         pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre régénérateur cellulaire, une solution exceptionnelle pour améliorer la qualité de la peau, soulage également les allergies et l'asthme. Retrouvez une peau éclatante et une respiration apaisée grâce à notre produit bienfaisant."
       },
       {
+        id: "collagene4",
         pictureLove: "./img/jpg/product/collagene.jpg",
         textLove:
           "Le collagène n’agit pas seulement sur la peau, il est avant tout un allié essentiel pour soutenir votre corps de manière globale. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante."
@@ -73,24 +78,24 @@ export const apportMineraux = {
   },
   inSummary: [
     {
-      title: "Gestioin du poids",
+      title: "Gestion du poids",
       text: "Détoxifiant"
+    },
+    {
+      title: "Problèmes cutanés",
+      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+    },
+    {
+      title: "Santé",
+      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+    },
+    {
+      title: "Beauté ",
+      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+    },
+    {
+      title: "Bien-être",
+      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
     }
-    // {
-    //   title: "Problèmes cutanés",
-    //   text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    // },
-    // {
-    //   title: "Santé",
-    //   text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    // },
-    // {
-    //   title: "Beauté ",
-    //   text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    // },
-    // {
-    //   title: "Bien-être",
-    //   text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
-    // }
   ]
 };

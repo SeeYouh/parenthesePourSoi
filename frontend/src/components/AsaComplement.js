@@ -1,16 +1,35 @@
 import React from "react";
 
-const AsaComplement = (productDescription) => {
-  const productInSummary = productDescription.product.inSummary;
+const AsaComplement = ({ productDescription }) => {
+  const productYouLikeIt = productDescription.product.summary.youLikeIt;
+  const themeColors = productDescription.product.colors;
 
   return (
     <ul>
-      {productInSummary.map(({ title, text }) => (
-        <li>
-          <h4 className="textParagraph">{title}</h4>
-          <p className="textParagraph">{text}</p>
-        </li>
-      ))}
+      <style>
+        {`
+        ::selection {
+          background: ${themeColors.textColor};
+          color: white;
+        }
+        ::-moz-selection {
+          background: ${themeColors.textColor};
+          color: white;
+        }
+        `}
+      </style>
+      <div className="youWillLikeIt">
+        {productYouLikeIt.map((productDescription) => (
+          <div className="youWillLikeIt-content" key={productDescription.id}>
+            <img
+              className="imgYouWillLikeIt"
+              src={productDescription.pictureLove}
+              alt={productDescription.alt}
+            />
+            <p className="textParagraph">{productDescription.textLove}</p>
+          </div>
+        ))}
+      </div>
     </ul>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 
 const InSummary = () => {
-  return <div></div>;
+  return <div>Résumé</div>;
 };
 
 export default InSummary;

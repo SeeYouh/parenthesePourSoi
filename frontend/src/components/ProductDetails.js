@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Description from "./Description";
-// import AdditionnalInformation from "./AdditionnalInformation";
-// import AsaComplement from "./AsaComplement";
-// import InSummary from "./InSummary";
+import InSummary from "./InSummary";
+import AsaComplement from "./AsaComplement";
+import AdditionnalInformation from "./AdditionnalInformation";
 
 const ProductDetails = (productDescription) => {
   const descriptionName = productDescription.product.nameProduct;
@@ -10,10 +10,12 @@ const ProductDetails = (productDescription) => {
     "Description",
     "Résumé",
     "En complément",
-    "informations supplémentaires"
+    "Informations supplémentaires"
   ];
 
-  const [selectedCategoryProduct, setSelectedCategoryProduct] = useState("");
+  const [selectedCategoryProduct, setSelectedCategoryProduct] = useState(
+    subCategoryProduct[0]
+  );
 
   const themeColors = productDescription.product.colors;
 
@@ -65,15 +67,19 @@ const ProductDetails = (productDescription) => {
             />
           </li>
         ))}
-        ;
       </div>
-      {/* <AdditionnalInformation
-        productDescription={productDescription}
-        index={index}
-      />
-      <AsaComplement productDescription={productDescription} index={index} />
-      <InSummary productDescription={productDescription} index={index} /> */}
-      <Description productDescription={productDescription} />
+      {selectedCategoryProduct === "Description" && (
+        <Description productDescription={productDescription} />
+      )}
+      {selectedCategoryProduct === "Résumé" && (
+        <InSummary productDescription={productDescription} />
+      )}
+      {selectedCategoryProduct === "En complément" && (
+        <AsaComplement productDescription={productDescription} />
+      )}
+      {selectedCategoryProduct === "Informations supplémentaires" && (
+        <AdditionnalInformation productDescription={productDescription} />
+      )}
     </>
   );
 };

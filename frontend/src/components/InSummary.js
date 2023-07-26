@@ -1,12 +1,12 @@
 import React from "react";
 
-const InSummary = (productDescription) => {
+const InSummary = ({ productDescription }) => {
   const productInSummary = productDescription.product.inSummary;
 
   return (
     <ul>
-      {productInSummary.map((title, text) => (
-        <li key={title + text}>
+      {productInSummary.map(({ title, text }) => (
+        <li>
           <h4 className="textParagraph">{title}</h4>
           <p className="textParagraph">{text}</p>
         </li>

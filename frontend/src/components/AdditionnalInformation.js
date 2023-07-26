@@ -1,7 +1,7 @@
 import React from "react";
 
 const AdditionnalInformation = () => {
-  return <div></div>;
+  return <div>Informations supplémentaires</div>;
 };
 
 export default AdditionnalInformation;

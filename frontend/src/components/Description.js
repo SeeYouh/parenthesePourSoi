@@ -1,21 +1,17 @@
 import React from "react";
 
 const Description = ({ productDescription }) => {
-  // const productDesc = productDescription.product;
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
+  const productTitle = productDescription.product.summary.title;
   const productLiketIt = productDescription.product.summary.youLikeIt;
-  // const idKey =
-  //   productDesc.nameProduct +
-  //   productDesc.firstCategory +
-  //   productDesc.secondCategory;
 
   return (
     <>
       <div className="bgParagraph">
         {productParagraph.map((productDescription, index) => (
           <div
-            key={index}
+            key={productTitle}
             className={
               index === 1
                 ? "selectText productDescriptPresentFirst"
@@ -46,7 +42,7 @@ const Description = ({ productDescription }) => {
                 {Array.isArray(productDescription.text) ? (
                   <ul>
                     {productDescription.text.map((text) => (
-                      <li className="textParagraph" key={index}>
+                      <li className="textParagraph" key={text}>
                         {text}
                       </li>
                     ))}
@@ -80,13 +76,13 @@ const Description = ({ productDescription }) => {
               <>
                 <div className="youWillLikeIt">
                   {productLiketIt.map((productDescription) => (
-                    <div className="youWillLikeIt-content">
+                    <div className="youWillLikeIt-content" key={index}>
                       <img
                         className="imgYouWillLikeIt"
                         src={productDescription.pictureLove}
                         alt={productDescription.alt}
                       />
-                      <p className="textParagraph" key={index}>
+                      <p className="textParagraph">
                         {productDescription.textLove}
                       </p>
                     </div>

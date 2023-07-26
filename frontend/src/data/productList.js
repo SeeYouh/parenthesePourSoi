@@ -16,7 +16,7 @@ import { dentifrice } from "./product/dentifrice";
 import { detox } from "./product/detox";
 import { equilibreCorpsEsprit } from "./product/equilibreCorpsEsprit";
 import { gelDouche } from "./product/gelDouche";
-import { gelNettoyant } from "./product/gelNetoyant";
+import { gelNettoyant } from "./product/gelNettoyant";
 import { goutteMinceur } from "./product/goutteMinceur";
 import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";

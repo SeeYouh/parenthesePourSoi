@@ -24,6 +24,7 @@ import { mereDeTous } from "./product/mèreDeTous";
 import { osMuscle } from "./product/osMuscle";
 import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
 import { shampooing } from "./product/shampooing";
+import { serumComplet } from "./product/serumComplet";
 
 export const productList = [
   detox,
@@ -51,5 +52,6 @@ export const productList = [
   apportMineraux,
   apportVitamines,
   apportQ10,
-  guerisseurMaux
+  guerisseurMaux,
+  serumComplet
 ];

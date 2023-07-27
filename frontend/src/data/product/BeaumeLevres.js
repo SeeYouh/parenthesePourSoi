@@ -44,13 +44,13 @@ export const beaumeLevre = {
     ],
     youLikeIt: [
       {
-        id: "blPB0",
+        id: "BLPB0",
         pictureLove: "./img/jpg/product/PB.jpg",
         textLove:
           "JPour renforcer davantage votre bien-être centré sur le soin du visage, je vous suggère d'explorer notre gamme beauté exhaustive, notamment notre décontaminant. Cet élément de notre collection peut compléter parfaitement l'expérience d'hydratation que procure notre baume à lèvres."
       },
       {
-        id: "blmereDeTous1",
+        id: "BLmereDeTous1",
         pictureLove: "./img/jpg/product/mereDeTous.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
@@ -62,5 +62,32 @@ export const beaumeLevre = {
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
     textColor: "#30d1d9"
-  }
+  },
+  inSummary: [
+    {
+      id: "BLiS0",
+      title: "Gestion du poids",
+      text: "Détoxifiant"
+    },
+    {
+      id: "BLiS1",
+      title: "Problèmes cutanés",
+      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+    },
+    {
+      id: "BLiS2",
+      title: "Santé",
+      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+    },
+    {
+      id: "BLiS3",
+      title: "Beauté ",
+      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+    },
+    {
+      id: "BLiS4",
+      title: "Bien-être",
+      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+    }
+  ]
 };

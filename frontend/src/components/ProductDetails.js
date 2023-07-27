@@ -8,13 +8,18 @@ import AdditionnalInformation from "./AdditionnalInformation";
 
 const ProductDetails = (productDescription) => {
   const descriptionName = productDescription.product.nameProduct;
+  const themeColors = productDescription.product.colors;
+
   const subCategoryProduct = [
     "Description",
     "Résumé",
     "En complément",
     "Informations supplémentaires"
   ];
-  console.log(descriptionName);
+
+  const [selectedCategoryProduct, setSelectedCategoryProduct] = useState(
+    subCategoryProduct[0]
+  );
 
   const handleSubCategoryProductClick = () => {
     scroller.scrollTo("bgProductDetails", {
@@ -23,12 +28,6 @@ const ProductDetails = (productDescription) => {
       offset: -125
     });
   };
-
-  const [selectedCategoryProduct, setSelectedCategoryProduct] = useState(
-    subCategoryProduct[0]
-  );
-
-  const themeColors = productDescription.product.colors;
 
   return (
     <>

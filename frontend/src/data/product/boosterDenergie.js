@@ -83,5 +83,32 @@ export const boosterEnergie = {
   picture: "./img/jpg/product/boosterEnergie.jpg",
   colors: {
     textColor: "#a81616"
-  }
+  },
+  inSummary: [
+    {
+      id: "BdEiS0",
+      title: "Gestion du poids",
+      text: "Détoxifiant"
+    },
+    {
+      id: "BdEiS1",
+      title: "Problèmes cutanés",
+      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+    },
+    {
+      id: "BdEiS2",
+      title: "Santé",
+      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+    },
+    {
+      id: "BdEiS3",
+      title: "Beauté ",
+      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+    },
+    {
+      id: "BdEiS4",
+      title: "Bien-être",
+      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+    }
+  ]
 };

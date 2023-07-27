@@ -6,10 +6,12 @@ export const regenerateurCellulaire = {
     title: "Un support quotidien.",
     paragraph: [
       {
+        id: "0regenerateurCellulaire",
         subTitle: "Dites bonjour à votre nouveau vous",
         text: "Notre best-seller est le joyau de notre boutique, spécifiquement formulé pour la régénération cellulaire, il rehausse l'élasticité et la fermeté de votre peau."
       },
       {
+        id: "1regenerateurCellulaire",
         subTitle: "Effacez vos imperfections et soulagez vos maux",
         text: [
           "Nous croyons en la beauté naturelle de chaque individu, et ce produit est là pour la révéler. Notre régénérateur cellulaire lutte efficacement contre la cellulite, diminue les vergetures, traite les problèmes d'acné ou apaise les symptômes d'eczéma et de psoriasis. Finies les démangeaisons et les irritations. Votre peau vous remerciera !",
@@ -21,26 +23,32 @@ export const regenerateurCellulaire = {
         picture900: "./img/jpg/product/REIllusText900.jpg"
       },
       {
+        id: "2regenerateurCellulaire",
         subTitle: "Revitalisez votre santé",
         text: "Ce formidable allié pour votre santé globale renforce votre système nerveux et immunitaire, contribuant à un cœur en pleine forme. Grâce à sa richesse en vitamine C, il encourage la formation et le maintien du collagène, garantissant la santé de vos tissus, cartilages, ligaments et os."
       },
       {
+        id: "3regenerateurCellulaire",
         subTitle: "Boostez votre quotidien",
         text: "En stimulant l’énergie naturellement présente dans votre organisme, il vous offre une vitalité renouvelée. Vous vous sentez plus dynamique et épanoui(e) au quotidien"
       },
       {
+        id: "4regenerateurCellulaire",
         subTitle: "Respirez à pleins poumons",
         text: "Son pouvoir antioxydant stimule les fonctions respiratoires, apaisant ainsi les allergies et les symptômes de l'asthme. Un produit unique pour des bienfaits multiples : laissez notre formule vous transformer, apaiser vos maux et améliorer votre quotidien."
       },
       {
+        id: "5regenerateurCellulaire",
         subTitle: "Optez pour ce produit unique",
         text: "Procurez-vous ce joyau naturel et découvrez comment un seul produit peut changer votre vie."
       },
       {
+        id: "6regenerateurCellulaire",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
+        id: "7regenerateurCellulaire",
         subTitle: "",
         text: ""
       }
@@ -83,5 +91,32 @@ export const regenerateurCellulaire = {
   picture: "./img/jpg/product/regenerateurCellulaire.jpg",
   colors: {
     textColor: "#83218f"
-  }
+  },
+  inSummary: [
+    {
+      id: "RCiSGP0",
+      title: "Gestion du poids",
+      text: "Détoxifiant"
+    },
+    {
+      id: "RCiSPC1",
+      title: "Problèmes cutanés",
+      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+    },
+    {
+      id: "RCiSS2",
+      title: "Santé",
+      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+    },
+    {
+      id: "RCiSB3",
+      title: "Beauté ",
+      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+    },
+    {
+      id: "RCiSBE4",
+      title: "Bien-être",
+      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+    }
+  ]
 };

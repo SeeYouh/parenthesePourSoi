@@ -6,10 +6,12 @@ export const bienEtreInterieur = {
     title: "Neutralisez vos toxines",
     paragraph: [
       {
+        id: "0BienEtreInterieur",
         subTitle: "Neutralisez vos toxines",
         text: "Le pouvoir antioxydant de notre produit aide à neutraliser les toxines présentes dans votre organisme. Il contribue également à diminuer les troubles digestifs en maintenant l'équilibre des bonnes bactéries et en améliorant la flore intestinale."
       },
       {
+        id: "1BienEtreInterieur",
         subTitle: "Équilibrez votre microbiote",
         text: [
           "Le microbiote, également connu sous le nom de flore microbienne ou microbiome, fait référence à l'ensemble des micro-organismes qui vivent à l'intérieur et sur la surface de divers organismes. Chez les humains, le microbiote est principalement présent dans le tube digestif, mais il existe également dans d'autres parties du corps, telles que la peau, la bouche, le nez et les voies génito-urinaires. Des recherches scientifiques approfondies ont mis en évidence l'importance du microbiote dans de nombreux aspects de la santé. Par conséquent, il est crucial de maintenir un équilibre sain du microbiote pour favoriser une bonne santé globale.",
@@ -20,57 +22,63 @@ export const bienEtreInterieur = {
         picture900: "./img/jpg/product/bienEtreInterieurIllusText900.jpg"
       },
       {
+        id: "2BienEtreInterieur",
         subTitle: "Gérez votre poids",
         text: "Notre produit de bien-être intérieur joue un rôle clé dans la gestion du poids en contrôlant la satiété et en réduisant les envies de sucre et de gras. En favorisant un microbiote équilibré, il permet de vous aider à atteindre et maintenir un poids santé. De plus, il booste votre système immunitaire, facilite l'absorption des nutriments et régule le taux de cholestérol."
       },
       {
+        id: "3BienEtreInterieur",
         subTitle: "Restez en forme",
         text: "Nos pré-probiotiques vous offrent un bien-être complet en boostant l'énergie naturelle de votre corps grâce à la synthèse des vitamines B et K. Il contribue également à réduire le stress et l'anxiété, à combattre la fatigue, à améliorer la qualité du sommeil et à stimuler votre humeur, vous permettant ainsi de profiter pleinement de chaque journée."
       },
       {
+        id: "4BienEtreInterieur",
         subTitle: "Pour vous, Mesdames",
         text: "Le bien-être intérieur n’est pas seulement digestif pour vous Mesdames, car ce produit offre des bienfaits spécifiques pour les femmes en diminuant les troubles vaginaux et en améliorant le tractus génital. Il vous permet de prendre soin de votre santé intime de manière naturelle et équilibrée."
       },
       {
+        id: "5BienEtreInterieur",
         subTitle: "Réinventez votre bien-être",
         text: "Expérimentez ces pré-probiotiques, c’est côtoyez un bien-être intérieur inégalé !"
       },
       {
+        id: "6BienEtreInterieur",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
+        id: "7BienEtreInterieur",
         subTitle: "",
         text: ""
       }
     ],
     youLikeIt: [
       {
-        id: "bEiGoutteMinceur0",
+        id: "BEIGoutteMinceur0",
         pictureLove: "./img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Dans le cadre d’une cure minceur, nos gouttes super puissantes seront la solution idéale pour perdre du poids sainement et durablement, sans vous soumettre à un régime contraignant. Laissez-vous séduire par cette méthode naturelle pour atteindre vos objectifs de bien-être en toute efficacité."
       },
       {
-        id: "bE1Detox1",
+        id: "BEIDetox1",
         pictureLove: "./img/jpg/product/detox.jpg",
         textLove:
           "Notre détox naturelle est conçue pour éliminer les toxines de votre organisme, vous offrant ainsi une sensation de pureté et de bien-être. Plongez dans une expérience revitalisante et laissez votre corps retrouver son équilibre naturel grâce à cette solution bienfaisante."
       },
       {
-        id: "bEiEquilibreCorpsEsprit2",
+        id: "BEIEquilibreCorpsEsprit2",
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Les pré-probiotiques ont une action sur la qualité du sommeil. Si c’est ce que vous recherchez, je vous conseille de découvrir notre produit naturel pour un sommeil récupérateur optimal, offrant une nuit paisible et régénérante. Plongez dans un sommeil profond et réparateur, pour des journées remplies d'énergie et de vitalité."
       },
       {
-        id: "bEiGG3",
+        id: "BEIGG3",
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
           "Pour aller encore plus loin dans votre bien-être intestinal et le stimuler naturellement, découvrez notre produit innovant qui vous apporte 900 grammes de légumes en une seule dose journalière. Profitez d'une dose concentrée de nutriments essentiels pour une santé digestive optimale."
       },
       {
-        id: "bEiMereDeTous4",
+        id: "BEIMereDeTous4",
         pictureLove: "./img/jpg/product/mereDeTous.jpg",
         textLove:
           "Pour les maladies chroniques ou les douleurs corporelles (articulaires, osseuses, musculaires), notre produit naturel aux propriétés anti-inflammatoires est là pour vous"
@@ -85,5 +93,32 @@ export const bienEtreInterieur = {
   picture: "./img/jpg/product/bienEtreInterieur.jpg",
   colors: {
     textColor: "#8a7540"
-  }
+  },
+  inSummary: [
+    {
+      id: "BEIiS0",
+      title: "Gestion du poids",
+      text: "Détoxifiant"
+    },
+    {
+      id: "BEIiS1",
+      title: "Problèmes cutanés",
+      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+    },
+    {
+      id: "BEIiS2",
+      title: "Santé",
+      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+    },
+    {
+      id: "BEIiS3",
+      title: "Beauté ",
+      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+    },
+    {
+      id: "BEIiS4",
+      title: "Bien-être",
+      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+    }
+  ]
 };

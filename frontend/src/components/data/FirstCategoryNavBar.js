@@ -1,7 +1,8 @@
 import React, { useContext, useEffect } from "react";
+
+import { RadioContext } from "../utils/radioContext";
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { generalDataImg } from "../../data/generalData";
-import { RadioContext } from "../utils/radioContext";
 import { scroller } from "react-scroll";
 
 const FirstCategoryNavBar = () => {

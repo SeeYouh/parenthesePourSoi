@@ -1,7 +1,8 @@
-import React, { useContext } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { firstCategoryList } from "../../data/firstCategoryList";
+import React, { useContext } from "react";
+
 import { RadioContext } from "../utils/radioContext";
+import { firstCategoryList } from "../../data/firstCategoryList";
 
 const SecondCategoryNavBar = () => {
   const {

@@ -1,6 +1,6 @@
-import React from "react";
 import Home from "./pages/Home";
 import { RadioProvider } from "./components/utils/radioContext";
+import React from "react";
 
 const App = () => {
   return (

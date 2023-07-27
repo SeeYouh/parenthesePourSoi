@@ -1,3 +1,4 @@
+import { PN } from "./product/PN";
 import { apportMineraux } from "./product/apportMineraux";
 import { apportQ10 } from "./product/apportQ10";
 import { apportVitamines } from "./product/apportVitamines";
@@ -17,14 +18,13 @@ import { gelNettoyant } from "./product/gelNettoyant";
 import { goutteMinceur } from "./product/goutteMinceur";
 import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";
-import { heRelaxante } from "./product/HERelaxante";
 import { heRafraichissant } from "./product/HErafraichissant";
+import { heRelaxante } from "./product/HERelaxante";
 import { mereDeTous } from "./product/mèreDeTous";
 import { osMuscle } from "./product/osMuscle";
-import { PN } from "./product/PN";
 import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
-import { shampooing } from "./product/shampooing";
 import { serumComplet } from "./product/serumComplet";
+import { shampooing } from "./product/shampooing";
 
 export const productList = [
   apresShampooing,

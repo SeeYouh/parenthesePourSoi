@@ -1,6 +1,6 @@
+import { Element } from "react-scroll";
 import React from "react";
 import { generalDataImg } from "../data/generalData";
-import { Element } from "react-scroll";
 
 const Logo = () => {
   return (

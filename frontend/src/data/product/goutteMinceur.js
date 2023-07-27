@@ -43,26 +43,31 @@ export const goutteMinceur = {
     ],
     youLikeIt: [
       {
+        id: "gMdetox0",
         pictureLove: "./img/jpg/product/detox.jpg",
         textLove:
           "Pour une cure minceur efficace, nous recommandons de faire une détoxification du corps afin de le préparer à une perte de poids saine et durable."
       },
       {
+        id: "gMboosterEnergie1",
         pictureLove: "./img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Pour brûler encore plus de graisses et avoir une énergie boostée, notre booster d’énergie sera idéal car il permet la combustion des graisses de +17% tout en apportant bonne humeur et énergie. "
       },
       {
+        id: "gMbienEtreInterieur2",
         pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
       },
       {
+        id: "gMGG3",
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
           "Si vous cherchez un apport supplémentaire de légumes et de vitamines, optez pour notre détox végétale. C'est une solution naturelle pour enrichir votre alimentation et soutenir votre bien-être général."
       },
       {
+        id: "gMregenerateurCellulaire4",
         pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Une perte de poids peut entraîner des changements au niveau de la peau. Afin de remédier à ça, le chouchou sera idéal."

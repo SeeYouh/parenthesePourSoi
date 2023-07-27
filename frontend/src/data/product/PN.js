@@ -45,11 +45,13 @@ export const PN = {
     ],
     youLikeIt: [
       {
+        id: "PN0",
         pictureLove: "./img/jpg/product/PB.jpg",
         textLove:
           "Pour les journées chargées où chaque minute compte, la combinaison du PB et du PN est votre allié ultime. Le PB vous offre un regain d'énergie instantané, tandis que le PN assure une libération énergétique stable et durable. Ensemble, ils garantissent une vigilance et une productivité maximales, même lorsqu'un repas complet n'est pas à l'ordre du jour. Intrigué ? Découvrez-en plus sur le PN et son alliance parfaite avec le PB."
       },
       {
+        id: "PN1",
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
           "Pour ceux dont l'alimentation est pauvre en légumes, la solution est à portée de main. La détox végétale est l'alliée idéale du PB, vous apportant les nutriments précieux que seuls les légumes peuvent offrir. C'est une combinaison harmonieuse qui veille à ce que votre corps reçoive toute la nutrition dont il a besoin. Envie d'en savoir plus ? Découvrez les merveilles de la détox végétale et comment elle complète parfaitement le PB."

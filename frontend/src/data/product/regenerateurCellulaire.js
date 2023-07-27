@@ -47,26 +47,31 @@ export const regenerateurCellulaire = {
     ],
     youLikeIt: [
       {
+        id: "regenerateurCellulaire0",
         pictureLove: "./img/jpg/product/apportQ10.jpg",
         textLove:
           "Pour une action renforcée et des résultats encore plus impressionnants, notre produit phare peut être associé à notre formule riche en ubiquinol, qui constitue une version très puissante de la CoQ10. Ce mélange stimule la régénération cellulaire pour un effet particulièrement marqué sur les vergetures profondes et les varices importantes."
       },
       {
+        id: "regenerateurCellulaire1",
         pictureLove: "./img/jpg/product/guerisseurDeMaux.jpg",
         textLove:
           "Face à une cellulite récalcitrante, augmentez l'efficacité de votre traitement en l'associant à notre produit aux multiples bienfaits, le Guérisseur des maux. Cette association renforcée fournit des enzymes CoQ10 supplémentaires, boostant ainsi l'action anti-cellulite de notre best-seller."
       },
       {
+        id: "regenerateurCellulaire2",
         pictureLove: "./img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Si vous cherchez à revitaliser votre quotidien, je vous recommande vivement notre booster d'énergie. Ce puissant catalyseur de bien-être saura insuffler à votre quotidien la vitalité et la vigueur que vous méritez tout à long de la journée. Finis les coups de fatigue, vivez pleinement votre journée !"
       },
       {
+        id: "regenerateurCellulaire3",
         pictureLove: "./img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Pour des problèmes cutanés, notre chouchou se combine parfaitement avec nos produits de la gamme beauté. Pour retrouver une peau adoucie et éliminer les impuretés de la journée, le gel nettoyant sera satisfaire ces objectifs."
       },
       {
+        id: "regenerateurCellulaire4",
         pictureLove: "./img/jpg/product/cocoOil.jpg",
         textLove:
           "Ne laissez pas votre peau s’assécher et dirigez-vous vers notre huile de coco qui regorge de bienfaits. Elle vient de Tahiti et est sous forme liquide car elle n’a subi aucune transformation."

@@ -41,16 +41,19 @@ export const shampooing = {
     ],
     youLikeIt: [
       {
+        id: "shampooing0",
         pictureLove: "./img/jpg/product/aprèsShampooing.jpg",
         textLove:
           "Pour enrichir davantage votre routine de soins capillaires et renforcer les bénéfices obtenus avec notre shampooing, je vous encourage vivement à explorer notre après-shampooing. Conçu pour nourrir vos cheveux de la racine à la pointe, il promet non seulement de faciliter le brossage, mais également de protéger votre chevelure des rayons UV. Ainsi, vous bénéficierez d'une expérience complète de bien-être pour vos cheveux."
       },
       {
+        id: "shampooing1",
         pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Pour parfaire votre rituel beauté et maximiser les bienfaits de notre shampooing, nous vous proposons notre produit phare qui se marie idéalement avec ce dernier. Ce complément de choix intervient en faveur de la qualité de votre peau, stimule la régénération cellulaire et soutient votre santé globale, y compris votre énergie naturelle. Un binôme parfait pour une expérience de soin optimale !"
       },
       {
+        id: "shampooing2",
         pictureLove: "./img/jpg/product/gelDouche.jpg",
         textLove:
           "Pour amplifier votre rituel de bien-être, nous vous suggérons d'associer notre shampooing à notre gel douche naturel de la même gamme, reconnu pour ses effets remarquables sur la peau. Ces deux produits complémentaires transformeront votre routine quotidienne en une expérience de soin enrichissante et bienfaisante."

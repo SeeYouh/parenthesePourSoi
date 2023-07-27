@@ -44,26 +44,31 @@ export const harmonie = {
     ],
     youLikeIt: [
       {
+        id: "HBoosterEnergie0",
         pictureLove: "./img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Pour une santé mentale optimale et la prévention du burn-out, ce produit se marie idéalement avec un autre qui offre un regain d'énergie, vous permettant de traverser la journée avec un sourire éclatant."
       },
       {
+        id: "HGelNettoyant1",
         pictureLove: "./img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Pour une peau hydratée et adoucie tout en éliminant les impuretés de la journée, découvrez notre gel nettoyant naturel. Plongez dans une expérience de pureté et explorez notre gamme de produits pour une routine de soins naturels complète."
       },
       {
+        id: "HserumFlash2",
         pictureLove: "./img/jpg/product/serumFlash.jpg",
         textLove:
           "Vos yeux sont gonflés au réveil ? Alors, regardez notre sérum instantané, une véritable révolution pour faire disparaitre les rides, ridules et poches sous les yeux en seulement 90 secondes. Plongez dans une expérience de rajeunissement et offrez à votre peau une cure de jeunesse en un temps record."
       },
       {
+        id: "HcremeNuit3",
         pictureLove: "./img/jpg/product/cremeNuit.jpg",
         textLove:
           "Pour une peau rayonnante et lisse, découvrez notre crème de nuit spécialement formulée pour lutter contre les signes visibles de l'âge et restaurer le processus cellulaire du visage. Réveillez-vous chaque matin avec une peau revitalisée et rajeunie grâce à ses multiples bienfaits."
       },
       {
+        id: "HRegenerateurCellulaire4",
         pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Si vous souhaitez gommer les imperfections de votre peau, ne passez pas à côté de notre produit best seller : un régénérateur cellulaire qui opère des miracles sur la peau. Offrez à votre peau une transformation positive et retrouvez une apparence éblouissante."

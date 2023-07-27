@@ -47,26 +47,31 @@ export const boosterEnergie = {
     ],
     youLikeIt: [
       {
+        id: "bEGoutteMinceur0",
         pictureLove: "./img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Pour une cure minceur, ce booster d’énergie fonctionne en synergie parfaite avec nos gouttes minceur naturelles, conçues pour brûler efficacement les graisses sous-cutanées et viscérales, tout en bloquant le stockage des graisses indésirables."
       },
       {
+        id: "bEHarmonie1",
         pictureLove: "./img/jpg/product/harmonie.jpg",
         textLove:
           "Pour un bien-être psychologique et la prévention du burn-out, ce produit s'associe idéalement à un autre de nos produits. Une combinaison parfaite pour retrouver l'équilibre intérieur et une sérénité épanouissante."
       },
       {
+        id: "bERegenerateurCellulaire2",
         pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Pour les problèmes d’ordre cutané, notre produit chouchou régénérateur cellulaire est un véritable miracle pour votre peau. Une expérience naturelle et revitalisante pour une peau éclatante et rayonnante."
       },
       {
+        id: "beOsMuscle3",
         pictureLove: "./img/jpg/product/osMuscle.jpg",
         textLove:
           "Vous vous sentez stressée ? Anxieuse ? Un apport en magnésium est essentiel pour contrer les effets néfastes du stress sur votre corps. Découvrez une expérience apaisante pour retrouver équilibre et bien-être."
       },
       {
+        id: "beEquilibreCorpsEsprit4",
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Parfois, la fatigue est associée à un manque de sommeil ou un repos non récupérateur. Notre produit naturel est spécialement conçu pour vous offrir un sommeil profond et réparateur. Plongez dans des nuits paisibles et revitalisantes qui vous donneront l'énergie et le bien-être nécessaires pour une journée épanouissante."

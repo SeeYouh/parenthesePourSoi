@@ -39,25 +39,29 @@ export const heRafraichissant = {
     ],
     youLikeIt: [
       {
+        id: "HErafraichissant0",
         pictureLove: "./img/jpg/product/PB.jpg",
         textLove:
           "Je conseille vivement aux sportifs d'explorer notre produit destiné à la récupération musculaire et à l'amélioration des performances, qui offre une énergie stimulante à base de cacao."
       },
       {
+        id: "HErafraichissant1",
         pictureLove: "./img/jpg/product/mereDeTous.jpg",
         textLove:
           "En ce qui concerne les tendinites et les douleurs associées à l'exercice physique, cette huile se révèle être un allié précieux."
+      },
+      {
+        id: "HErafraichissant2",
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "Elle s'associe parfaitement à notre anti-inflammatoire naturel, offrant ainsi une solution complète pour gérer les douleurs liées à l'activité physique."
+      },
+      {
+        id: "HErafraichissant3",
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "En complément, nos produits spécifiques en minéraux et en vitamines, soigneusement sélectionnés pour leurs vertus, peuvent renforcer l'efficacité de cette combinaison."
       }
-      // {
-      //   pictureLove: "./img/jpg/product/GG.jpg",
-      //   textLove:
-      //     "Elle s'associe parfaitement à notre anti-inflammatoire naturel, offrant ainsi une solution complète pour gérer les douleurs liées à l'activité physique."
-      // }
-      // {
-      //   pictureLove: "./img/jpg/product/GG.jpg",
-      //   textLove:
-      //     "En complément, nos produits spécifiques en minéraux et en vitamines, soigneusement sélectionnés pour leurs vertus, peuvent renforcer l'efficacité de cette combinaison."
-      // }
     ]
   },
   firstCategory: [getCategoryById("4HuilesEssentielles").name],

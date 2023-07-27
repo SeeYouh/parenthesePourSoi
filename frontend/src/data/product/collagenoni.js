@@ -50,21 +50,24 @@ export const collagenoni = {
       }
     ],
     youLikeIt: [
-      // {
-      //   pictureLove: "./img/jpg/product/goutteMinceur.jpg",
-      //   textLove:
-      //     "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
-      // },
-      // {
-      //   pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
-      //   textLove:
-      //     "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
-      // },
-      // {
-      //   pictureLove: "./img/jpg/product/GG.jpg",
-      //   textLove:
-      //     "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
-      // }
+      {
+        id: "CnApportQ100",
+        pictureLove: "./img/jpg/product/apportQ10.jpg",
+        textLove:
+          "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
+      },
+      {
+        id: "CnGelNettoyant1",
+        pictureLove: "./img/jpg/product/gelNettoyant.jpg",
+        textLove:
+          "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+      },
+      {
+        id: "CnSerumFlash2",
+        pictureLove: "./img/jpg/product/serumFlash.jpg",
+        textLove:
+          "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
+      }
     ]
   },
   firstCategory: [getCategoryById("2Beaute").name],

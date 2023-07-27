@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { scroller, Element } from "react-scroll";
 
 import Description from "./Description";
 import InSummary from "./InSummary";
@@ -13,6 +14,15 @@ const ProductDetails = (productDescription) => {
     "En complément",
     "Informations supplémentaires"
   ];
+  console.log(descriptionName);
+
+  const handleSubCategoryProductClick = () => {
+    scroller.scrollTo("bgProductDetails", {
+      smooth: "easeInOutQuint",
+      duration: 1000,
+      offset: -125
+    });
+  };
 
   const [selectedCategoryProduct, setSelectedCategoryProduct] = useState(
     subCategoryProduct[0]
@@ -48,27 +58,30 @@ const ProductDetails = (productDescription) => {
           </h2>
         </div>
       </div>
-      <div className="no-select productTab">
-        {subCategoryProduct.map((subCategory) => (
-          <li key={subCategory}>
-            <label
-              htmlFor={subCategory}
-              className={`btn btn-navbar ${
-                subCategory === selectedCategoryProduct ? "selected" : ""
-              }`}
-            >
-              {subCategory}
-            </label>
-            <input
-              type="radio"
-              id={subCategory}
-              name="productTab"
-              onChange={(e) => setSelectedCategoryProduct(e.target.id)}
-              checked={subCategory === selectedCategoryProduct}
-            />
-          </li>
-        ))}
-      </div>
+      <Element name="bgProductDetails">
+        <div className="no-select productTab">
+          {subCategoryProduct.map((subCategory) => (
+            <li key={subCategory}>
+              <label
+                htmlFor={subCategory}
+                className={`btn btn-navbar ${
+                  subCategory === selectedCategoryProduct ? "selected" : ""
+                }`}
+              >
+                {subCategory}
+              </label>
+              <input
+                type="radio"
+                id={subCategory}
+                name="productTab"
+                onChange={(e) => setSelectedCategoryProduct(e.target.id)}
+                checked={subCategory === selectedCategoryProduct}
+                onClick={handleSubCategoryProductClick}
+              />
+            </li>
+          ))}
+        </div>
+      </Element>
       {selectedCategoryProduct === "Description" && (
         <Description productDescription={productDescription} />
       )}

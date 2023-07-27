@@ -46,26 +46,31 @@ export const bienEtreInterieur = {
     ],
     youLikeIt: [
       {
+        id: "bEiGoutteMinceur0",
         pictureLove: "./img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Dans le cadre d’une cure minceur, nos gouttes super puissantes seront la solution idéale pour perdre du poids sainement et durablement, sans vous soumettre à un régime contraignant. Laissez-vous séduire par cette méthode naturelle pour atteindre vos objectifs de bien-être en toute efficacité."
       },
       {
+        id: "bE1Detox1",
         pictureLove: "./img/jpg/product/detox.jpg",
         textLove:
           "Notre détox naturelle est conçue pour éliminer les toxines de votre organisme, vous offrant ainsi une sensation de pureté et de bien-être. Plongez dans une expérience revitalisante et laissez votre corps retrouver son équilibre naturel grâce à cette solution bienfaisante."
       },
       {
+        id: "bEiEquilibreCorpsEsprit2",
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Les pré-probiotiques ont une action sur la qualité du sommeil. Si c’est ce que vous recherchez, je vous conseille de découvrir notre produit naturel pour un sommeil récupérateur optimal, offrant une nuit paisible et régénérante. Plongez dans un sommeil profond et réparateur, pour des journées remplies d'énergie et de vitalité."
       },
       {
+        id: "bEiGG3",
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
           "Pour aller encore plus loin dans votre bien-être intestinal et le stimuler naturellement, découvrez notre produit innovant qui vous apporte 900 grammes de légumes en une seule dose journalière. Profitez d'une dose concentrée de nutriments essentiels pour une santé digestive optimale."
       },
       {
+        id: "bEiMereDeTous4",
         pictureLove: "./img/jpg/product/mereDeTous.jpg",
         textLove:
           "Pour les maladies chroniques ou les douleurs corporelles (articulaires, osseuses, musculaires), notre produit naturel aux propriétés anti-inflammatoires est là pour vous"

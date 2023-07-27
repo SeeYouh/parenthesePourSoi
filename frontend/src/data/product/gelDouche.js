@@ -35,11 +35,13 @@ export const gelDouche = {
     ],
     youLikeIt: [
       {
+        id: "gDcocoOil0",
         pictureLove: "./img/jpg/product/cocoOil.jpg",
         textLove:
           "Le gel douche combiné à notre huile hydratante permet à votre peau de retrouver confort et hydratation."
       },
       {
+        id: "gDregenerateurCellulaire1",
         pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Concernant les problèmes de peau, le gel douche s’associe très souvent à notre chouchou qui régénère les cellules. Ce combo est idéal pour les soucis cutanés."

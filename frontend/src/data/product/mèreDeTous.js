@@ -55,26 +55,31 @@ export const mereDeTous = {
     ],
     youLikeIt: [
       {
+        id: "mereDeTous0",
         pictureLove: "./img/jpg/product/HERafraichissant.jpg",
         textLove:
           "Réputée pour son action rapide sur les douleurs musculaires, notre essentielle bleue fait une parfaite alliance naturelle. Elle offre un réconfort immédiat pour vos muscles endoloris, favorisant une récupération rapide et vous permettant de reprendre vos activités avec une nouvelle énergie."
       },
       {
+        id: "mereDeTous1",
         pictureLove: "./img/jpg/product/ApportMineraux.jpg",
         textLove:
           "Pour un soutien accru à votre système musculosquelettique et nerveux, n'hésitez pas à associer notre produit avec notre complément spécialement formulé à base de minéraux spécifiques. Cette combinaison renforce l'action sur les muscles, les os et les nerfs, fournissant ainsi une approche complète pour un bien-être optimal."
       },
       {
+        id: "mereDeTous2",
         pictureLove: "./img/jpg/product/ApportVitamines.jpg",
         textLove:
           "Pour une prise en charge globale des douleurs musculaires et nerveuses, associer notre produit avec notre complément spécialement enrichi en vitamines soigneusement sélectionnées. Cette synergie vous offre une approche naturelle pour soulager et prévenir les inconforts tout en soutenant le bien-être de votre système neuromusculaire."
       },
       {
+        id: "mereDeTous3",
         pictureLove: "./img/jpg/product/osMuscle.jpg",
         textLove:
           "Un autre de nos produits contient des ingrédients aux propriétés anti-inflammatoires qui agissent en synergie pour soulager vos articulations douloureuses, vous permettant de retrouver votre mobilité et votre confort. Grâce à sa capacité à stimuler la production de collagène, il favorise des gencives saines et des os solides."
       },
       {
+        id: "mereDeTous4",
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Les douleurs peuvent avoir des répercussions sur le sommeil. Une nuit saccadée peut avoir des effets néfastes sur votre humeur. Consultez notre produit naturel conçu pour favoriser un sommeil récupérateur afin de vous offrir des nuits paisibles et revitalisantes, propices à une journée pleine d'énergie et de bien-être."

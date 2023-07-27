@@ -56,16 +56,19 @@ export const detox = {
     ],
     youLikeIt: [
       {
+        id: "detGoutteMinceur0",
         pictureLove: "./img/jpg/product/goutteMinceur.jpg",
         textLove:
           "La détox’ permet de préparer le corps à une perte de poids saine et durable. Vous ne souhaitez pas vous priver de nourriture ? Vous ne pouvez pas faire de sport ? Vous en avez marre des effets yoyo ? Nos gouttes super puissantes vont vous intéresser pour perdre du poids sans frustration et sans effort !"
       },
       {
+        id: "detBienEtreInterieur1",
         pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Le microbiote est considéré comme le deuxième cerveau humain. Une bonne digestion est importante pour se sentir bien. Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
       },
       {
+        id: "detGG2",
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
           "Une autre approche consiste à rétablir l'équilibre de votre organisme en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale. Ce produit est un concentré de nutriments essentiels pour notre corps."

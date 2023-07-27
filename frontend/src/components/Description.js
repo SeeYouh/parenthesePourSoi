@@ -3,7 +3,7 @@ import React from "react";
 const Description = ({ productDescription }) => {
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
-  const productTitle = productDescription.product.summary.title;
+  const productId = productDescription.product.summary.paragraph.id;
   const productLiketIt = productDescription.product.summary.youLikeIt;
 
   return (
@@ -11,7 +11,7 @@ const Description = ({ productDescription }) => {
       <div className="bgParagraph">
         {productParagraph.map((productDescription, index) => (
           <div
-            key={productTitle}
+            key={productId}
             className={
               index === 1
                 ? "selectText productDescriptPresentFirst"
@@ -76,7 +76,10 @@ const Description = ({ productDescription }) => {
               <>
                 <div className="youWillLikeIt">
                   {productLiketIt.map((productDescription) => (
-                    <div className="youWillLikeIt-content" key={index}>
+                    <div
+                      className="youWillLikeIt-content"
+                      key={productDescription.id}
+                    >
                       <img
                         className="imgYouWillLikeIt"
                         src={productDescription.pictureLove}

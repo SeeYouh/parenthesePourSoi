@@ -40,26 +40,31 @@ export const heRelaxante = {
     ],
     youLikeIt: [
       {
+        id: "HERelaxante0",
         pictureLove: "./img/jpg/product/detox.jpg",
         textLove:
           "Notre produit de détoxification, lorsqu'il est associé à cette huile, peut aider à éliminer les toxines du corps et à stimuler le métabolisme, favorisant ainsi une perte de poids efficace."
       },
       {
+        id: "HERelaxante1",
         pictureLove: "./img/jpg/product/goutteMinceur.jpg",
         textLove:
           "En complément, nos gouttes super puissantes peuvent renforcer l'efficacité de cette cure minceur. Elles agissent en synergie avec l'huile essentielle et le produit de détoxification pour offrir une solution complète de perte de poids. C'est une combinaison que je recommande vivement."
       },
       {
+        id: "HERelaxante2",
         pictureLove: "./img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Si vous traversez une période de baisse de moral ou de mal-être, cette huile essentielle peut apporter une aide précieuse. Elle peut être utilisée conjointement avec notre produit d'augmentation d'énergie pour améliorer votre humeur et votre bien-être général. Optimisez votre santé émotionnelle avec notre huile essentielle et notre booster d'énergie."
       },
       {
+        id: "HERelaxante3",
         pictureLove: "./img/jpg/product/PN.jpg",
         textLove:
           "Cette huile essentielle est un outil puissant pour aider à surmonter la dépendance au tabac. En la combinant avec notre booster d'énergie et notre produit spécialement conçu pour remplacer les repas, vous pouvez éviter les grignotages et la prise de poids souvent associés à l'arrêt du tabac. Optimisez votre parcours de sevrage tabagique avec notre huile essentielle, notre booster d'énergie et notre substitut de repas."
       },
       {
+        id: "HERelaxante4",
         pictureLove: "./img/jpg/product/cocoOil.jpg",
         textLove:
           "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau."

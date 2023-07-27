@@ -55,26 +55,31 @@ export const equilibreCorpsEsprit = {
     ],
     youLikeIt: [
       {
+        id: "eCedetox0",
         pictureLove: "./img/jpg/product/detox.jpg",
         textLove:
           "Vous aimerez sûrement notre produit détoxifiant pour un dégonflement naturel en éliminant les toxines de votre corps. Cette détoxification vous apportera bien-être et légèreté."
       },
       {
+        id: "eCeGoutteMinceur1",
         pictureLove: "./img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Si vous souhaitez perdre du poids sans contrainte, alors nos gouttes minceur puissantes devraient vous plaire. Elles ont été spécialement conçues pour brûler les graisses de manière naturelle et empêcher le stockage de nouvelles graisses durant le sommeil."
       },
       {
+        id: "eCeBienEtreInterieur2",
         pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Soucis digestifs ou intestinaux ? Nos pré-probiotiques sont parfaits pour un bien-être intérieur optimal. Des cellules souches qui offrent à votre corps une harmonie digestive naturelle en rééquilibrant votre microbiote."
       },
       {
+        id: "eCeCremeNight3",
         pictureLove: "./img/jpg/product/cremeNight.jpg",
         textLove:
           "Pour compléter les bienfaits de ce produit, améliorer la qualité de la peau de votre visage en découvrant notre crème de nuit conçue pour lutter efficacement contre les signes visibles de l'âge et restaurer le processus cellulaire de votre visage pendant que vous dormez."
       },
       {
+        id: "eCeSerumComplet4",
         pictureLove: "./img/jpg/product/serumComplet.jpg",
         textLove:
           "Notre sérum complet utilisant la technologie liposomale est spécialement conçu pour hydrater votre peau de l’intérieur. Elle permet de lisser les rides et ridules tout en apportant un teint plus éclatant à votre peau."

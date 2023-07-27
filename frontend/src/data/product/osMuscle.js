@@ -50,26 +50,31 @@ export const osMuscle = {
     ],
     youLikeIt: [
       {
+        id: "osMuscle0",
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Pour un rééquilibrage total de votre organisme, découvrez notre produit qui agit sur l'ensemble du corps pour favoriser un bien-être général. Combiné à notre huile essentielle, il offre une synergie parfaite pour maximiser les bienfaits sur votre santé. Pour en savoir plus sur ce produit révolutionnaire pour le bien-être et le rééquilibrage total de votre organisme, n'hésitez pas à me contacter."
       },
       {
+        id: "osMuscle1",
         pictureLove: "./img/jpg/product/apportMineraux.jpg",
         textLove:
           "Les minéraux ne sont pas assez présents dans notre alimentation. C’est pourquoi, nous proposons un produit exceptionnel composé de 32 minéraux, oligo-éléments, enzymes et super aliments bénéfiques pour votre système nerveux, vos os et vos muscles. Offrez à votre corps les nutriments essentiels dont il a besoin pour une santé globale épanouissante."
       },
       {
+        id: "osMuscle2",
         pictureLove: "./img/jpg/product/apportVitamines.jpg",
         textLove:
           "Nous manquons tous de vitamines. Notre produit riche de 17 vitamines et nutriments essentiels pour prendre soin de vos yeux, votre cœur, votre peau et vos poumons pourrait donc vous satisfaire. Grâce à ses propriétés anti-inflammatoires, il permet de plonger dans une nouvelle dimension de vitalité et de santé en choisissant notre formule complète."
       },
       {
+        id: "osMuscle3",
         pictureLove: "./img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Le magnésium est efficace contre le stress. Si vous êtes de nature anxieuse ou si vous vous sentez surmenée, je vous conseille de consulter les bienfaits de notre booster naturel. Une combinaison parfaite pour retrouver l'équilibre intérieur, une sérénité épanouissante et un bien-être psychologique."
       },
       {
+        id: "osMuscle4",
         pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Vos fringales sont plutôt sucrées ou grasses ? Cliquez sur ce produit pour découvrir nos pré-probiotiques qui, en plus de réguler les grignotages, offrent un bien-être intérieur sans égal."

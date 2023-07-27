@@ -10,6 +10,7 @@ export const apportMineraux = {
         text: "Ce n’est pas moins de 32 minéraux, oligo-éléments, enzymes et super-aliments contenus dans ce produit révolutionnaire. Cette composition unique vous promet un soulagement efficace et une amélioration globale de votre bien-être."
       },
       {
+        id: "0apportMineraux",
         subTitle: "Soulagez efficacement votre corps",
         text: [
           "Notre formule avancée agit en harmonie avec votre corps pour apaiser le système nerveux, vous procurant une sensation de calme et de bien-être. De plus, elle est spécialement conçue pour soulager les douleurs osseuses, musculaires et articulaires. Que ce soit en cas de douleurs chroniques ou de malaises occasionnels, notre produit offre un soulagement durable pour vous permettre de profiter pleinement de vos activités quotidiennes.",
@@ -21,49 +22,53 @@ export const apportMineraux = {
         picture900: "./img/jpg/product/ApportMinerauxIllusText900.jpg"
       },
       {
+        id: "1apportMineraux",
         subTitle: "Régénérez vos tissus",
         text: "En plus de soulager les douleurs, notre formule avancée stimule la régénération des tissus endommagés. Elle contribue ainsi à accélérer le processus de guérison, vous permettant de récupérer plus rapidement après des blessures ou des tensions musculaires. Cela vous aide à maintenir une mobilité optimale et à retrouver votre vitalité."
       },
       {
+        id: "2apportMineraux",
         subTitle: "Maintenez des ongles et des cheveux en bonne santé",
         text: "En prenant régulièrement notre formule avancée, vous bénéficiez d'un apport en nutriments essentiels qui soutiennent la santé de vos ongles et de vos cheveux. Des cheveux forts et des ongles sains sont des indicateurs d'une bonne santé globale, et notre produit vous aide à maintenir ces aspects essentiels de votre bien-être."
       },
       {
+        id: "3apportMineraux",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
+        id: "4apportMineraux",
         subTitle: "",
         text: ""
       }
     ],
     youLikeIt: [
       {
-        id: "apportVitamines0",
+        id: "amapportVitamines0",
         pictureLove: "./img/jpg/product/apportVitamines.jpg",
         textLove:
           "Dans le cas de nombreuses pathologies, ce concentré de minéraux est associé à notre produit vitaminé qui est un véritable allié pour vos os, vos muscles et vos nerfs grâce à ses propriétés anti-inflammatoires naturelles."
       },
       {
-        id: "mereDeTous1",
+        id: "ammereDeTous1",
         pictureLove: "./img/jpg/product/mereDeTous.jpg",
         textLove:
           "Dans le cas de nombreuses pathologies, ce concentré de minéraux est associé à notre produit vitaminé qui est un véritable allié pour vos os, vos muscles et vos nerfs grâce à ses propriétés anti-inflammatoires naturelles."
       },
       {
-        id: "equilibreCorpsEsprit2",
+        id: "amequilibreCorpsEsprit2",
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Une formule tout-en-un pour améliorer votre bien-être global. Grâce à ses propriétés, notre produit lutte efficacement contre la fatigue et agit en profondeur pour améliorer la qualité de votre sommeil, vous permettant de vous réveiller chaque matin frais et revitalisé. Notre formule est également votre alliée pour faire face au stress, à l'anxiété et au surmenage. Ses ingrédients naturels procurent un soulagement apaisant."
       },
       {
-        id: "regenerateurCellulaire3",
+        id: "amregenerateurCellulaire3",
         pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre régénérateur cellulaire, une solution exceptionnelle pour améliorer la qualité de la peau, soulage également les allergies et l'asthme. Retrouvez une peau éclatante et une respiration apaisée grâce à notre produit bienfaisant."
       },
       {
-        id: "collagene4",
+        id: "amcollagene4",
         pictureLove: "./img/jpg/product/collagene.jpg",
         textLove:
           "Le collagène n’agit pas seulement sur la peau, il est avant tout un allié essentiel pour soutenir votre corps de manière globale. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante."

@@ -16,11 +16,13 @@ const ProductDetails = (productDescription) => {
   ];
   console.log(descriptionName);
 
-  const handleSubCategoryProductClick = scroller.scrollTo("bgProductDetails", {
-    smooth: "easeInOutQuint",
-    duration: 1000,
-    offset: -125
-  });
+  const handleSubCategoryProductClick = () => {
+    scroller.scrollTo("bgProductDetails", {
+      smooth: "easeInOutQuint",
+      duration: 1000,
+      offset: -125
+    });
+  };
 
   const [selectedCategoryProduct, setSelectedCategoryProduct] = useState(
     subCategoryProduct[0]

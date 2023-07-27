@@ -6,11 +6,12 @@ export const apportMineraux = {
     title: "Un apport de minéraux sans pareille",
     paragraph: [
       {
+        id: "0apportMineraux",
         subTitle: "Apportez des minéraux à votre organisme",
         text: "Ce n’est pas moins de 32 minéraux, oligo-éléments, enzymes et super-aliments contenus dans ce produit révolutionnaire. Cette composition unique vous promet un soulagement efficace et une amélioration globale de votre bien-être."
       },
       {
-        id: "0apportMineraux",
+        id: "1apportMineraux",
         subTitle: "Soulagez efficacement votre corps",
         text: [
           "Notre formule avancée agit en harmonie avec votre corps pour apaiser le système nerveux, vous procurant une sensation de calme et de bien-être. De plus, elle est spécialement conçue pour soulager les douleurs osseuses, musculaires et articulaires. Que ce soit en cas de douleurs chroniques ou de malaises occasionnels, notre produit offre un soulagement durable pour vous permettre de profiter pleinement de vos activités quotidiennes.",
@@ -22,7 +23,7 @@ export const apportMineraux = {
         picture900: "./img/jpg/product/ApportMinerauxIllusText900.jpg"
       },
       {
-        id: "1apportMineraux",
+        id: "2apportMineraux",
         subTitle: "Régénérez vos tissus",
         text: "En plus de soulager les douleurs, notre formule avancée stimule la régénération des tissus endommagés. Elle contribue ainsi à accélérer le processus de guérison, vous permettant de récupérer plus rapidement après des blessures ou des tensions musculaires. Cela vous aide à maintenir une mobilité optimale et à retrouver votre vitalité."
       },
@@ -83,22 +84,27 @@ export const apportMineraux = {
   },
   inSummary: [
     {
+      id: "amis0",
       title: "Gestion du poids",
       text: "Détoxifiant"
     },
     {
+      id: "AMiS1",
       title: "Problèmes cutanés",
       text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
     },
     {
+      id: "AMiS2",
       title: "Santé",
       text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
     },
     {
+      id: "AMiS3",
       title: "Beauté ",
       text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
     },
     {
+      id: "AMiS4",
       title: "Bien-être",
       text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
     }

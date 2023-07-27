@@ -19,8 +19,8 @@ const InSummary = ({ productDescription }) => {
         `}
       </style>
 
-      {productInSummary.map(({ title, text }) => (
-        <li>
+      {productInSummary.map(({ title, text, id }) => (
+        <li key={id}>
           <h4
             style={{
               color: themeColors.textColor

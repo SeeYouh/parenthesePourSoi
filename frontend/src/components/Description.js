@@ -3,15 +3,14 @@ import React from "react";
 const Description = ({ productDescription }) => {
   const themeColors = productDescription.product.colors;
   const productParagraph = productDescription.product.summary.paragraph;
-  const productId = productDescription.product.summary.paragraph.id;
   const productLiketIt = productDescription.product.summary.youLikeIt;
 
   return (
     <>
       <div className="bgParagraph">
-        {productParagraph.map((productDescription, index) => (
+        {productParagraph.map((productDescription, index, id) => (
           <div
-            key={productId}
+            key={id}
             className={
               index === 1
                 ? "selectText productDescriptPresentFirst"

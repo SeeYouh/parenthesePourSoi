@@ -14,6 +14,7 @@ const ProductDetails = (productDescription) => {
     "En complément",
     "Informations supplémentaires"
   ];
+  console.log(descriptionName);
 
   const handleSubCategoryProductClick = scroller.scrollTo("bgProductDetails", {
     smooth: "easeInOutQuint",

@@ -1,11 +1,8 @@
-import { baumesLevres } from "./product/BeaumeLevres";
-import { heRelaxante } from "./product/HERelaxante";
-import { heRafraichissant } from "./product/HErafraichissant";
-import { PN } from "./product/PN";
 import { apportMineraux } from "./product/apportMineraux";
 import { apportQ10 } from "./product/apportQ10";
 import { apportVitamines } from "./product/apportVitamines";
 import { apresShampooing } from "./product/apresShampooing";
+import { baumesLevres } from "./product/BeaumeLevres";
 import { bb } from "./product/bb";
 import { bienEtreInterieur } from "./product/bienEtreInterieur";
 import { boosterEnergie } from "./product/boosterDenergie";
@@ -20,38 +17,41 @@ import { gelNettoyant } from "./product/gelNettoyant";
 import { goutteMinceur } from "./product/goutteMinceur";
 import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";
+import { heRelaxante } from "./product/HERelaxante";
+import { heRafraichissant } from "./product/HErafraichissant";
 import { mereDeTous } from "./product/mèreDeTous";
 import { osMuscle } from "./product/osMuscle";
+import { PN } from "./product/PN";
 import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
 import { shampooing } from "./product/shampooing";
 import { serumComplet } from "./product/serumComplet";
 
 export const productList = [
-  detox,
+  apresShampooing,
+  apportMineraux,
+  apportQ10,
+  apportVitamines,
+  baumesLevres,
   bb,
-  mereDeTous,
+  bienEtreInterieur,
   boosterEnergie,
   collagenoni,
-  regenerateurCellulaire,
-  bienEtreInterieur,
-  equilibreCorpsEsprit,
-  goutteMinceur,
-  harmonie,
-  osMuscle,
-  shampooing,
-  apresShampooing,
-  heRelaxante,
   cocoOil,
-  gelDouche,
-  PN,
   dentifrice,
-  heRafraichissant,
-  baumesLevres,
-  gelNettoyant,
   decontaminant,
-  apportMineraux,
-  apportVitamines,
-  apportQ10,
+  detox,
+  equilibreCorpsEsprit,
+  gelDouche,
+  gelNettoyant,
+  goutteMinceur,
   guerisseurMaux,
-  serumComplet
+  harmonie,
+  heRafraichissant,
+  heRelaxante,
+  mereDeTous,
+  osMuscle,
+  PN,
+  regenerateurCellulaire,
+  serumComplet,
+  shampooing
 ];

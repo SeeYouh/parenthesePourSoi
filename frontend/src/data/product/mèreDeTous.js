@@ -6,11 +6,13 @@ export const mereDeTous = {
     title: "Un produit breveté et unique.",
     paragraph: [
       {
+        id: "0mereDeTous",
         subTitle:
           "Découvrez un produit breveté que vous ne trouverez nulle part ailleurs",
         text: "Disponible uniquement dans notre boutique en ligne, cette composition brevetée est un trésor de bien-être. Avec 36 ingrédients naturels parmi les plus puissants du monde, elle se distingue par son efficacité et sa qualité supérieure. Chaque élément a été soigneusement choisi pour ses propriétés bénéfiques, créant une synergie qui maximise les bienfaits pour votre santé."
       },
       {
+        id: "1mereDeTous",
         subTitle: "Combattez douleurs et inflammations",
         text: [
           "Imaginez un monde sans douleur. C'est ce que cette formule unique offre. Composée de superaliments aux propriétés anti-inflammatoires, elle soulage efficacement les douleurs musculaires, osseuses, articulaires et les affections chroniques. Elle offre une alternative naturelle aux médicaments traditionnels, sans les effets secondaires indésirables.",
@@ -21,10 +23,12 @@ export const mereDeTous = {
         picture900: "./img/jpg/product/MereDeTousIllusText900.jpg"
       },
       {
+        id: "2mereDeTous",
         subTitle: "Soulagez vos maux",
         text: "Une bonne santé est essentielle pour une vie saine. Heureusement, cette formule est là pour vous aider. En soulageant les allergies, en combattant l'acné, en favorisant la digestion, en luttant contre la constipation et en soulageant les brûlures d'estomac, elle améliore votre confort quotidien. Ce mélange aide également à réguler le taux de cholestérol, à stabiliser le diabète et améliore le système cardiovasculaire. C' est une solution naturelle pour ceux qui cherchent à améliorer leur santé de manière holistique."
       },
       {
+        id: "3mereDeTous",
         subTitle: "Boostez votre énergie et votre clarté mentale",
         text: [
           "Fatigué de vous sentir fatigué ? Cette solution énergisante est là pour vous aider. Elle booste naturellement votre énergie, combat la fatigue et améliore votre humeur. Elle vous donne l'énergie nécessaire pour affronter votre journée, que ce soit pour le travail, le sport ou les activités de loisirs.",
@@ -32,23 +36,28 @@ export const mereDeTous = {
         ]
       },
       {
+        id: "4mereDeTous",
         subTitle: "Optez pour un teint hâlé",
         text: "Qui n'aime pas avoir une belle peau bronzée ? Avec cette formule, vous pouvez accélérer le processus de bronzage et obtenir une peau rayonnante et un teint hâlé en seulement 30 minutes d'exposition. C'est votre secret pour un bronzage rapide et naturel."
       },
       {
+        id: "5mereDeTous",
         subTitle: "Pour vous, Mesdames…",
         text: "Mesdames, nous comprenons les défis uniques que vous rencontrez. C'est pourquoi ce produit offre un soulagement appréciable pour les règles douloureuses, vous permettant de vivre cette période de manière plus confortable. Il est conçu pour vous aider à gérer les symptômes menstruels de manière naturelle."
       },
       {
+        id: "6mereDeTous",
         subTitle:
           "Retrouvez votre bien-être en prenant le contrôle de vos maux",
         text: "La vie est trop courte pour souffrir. Avec cette composition, vous pouvez prendre le contrôle de vos maux et retrouver un état de bien-être et une vie plus confortable. Elle est une solution naturelle pour ceux qui cherchent à améliorer leur qualité de vie et leur bien-être général."
       },
       {
+        id: "7mereDeTous",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
+        id: "8mereDeTous",
         subTitle: "",
         text: ""
       }
@@ -95,27 +104,27 @@ export const mereDeTous = {
   },
   inSummary: [
     {
-      id: "amis0",
+      id: "MdTGP0",
       title: "Gestion du poids",
       text: "Détoxifiant"
     },
     {
-      id: "AMiS1",
+      id: "MdTPC1",
       title: "Problèmes cutanés",
       text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
     },
     {
-      id: "AMiS2",
+      id: "MdTS2",
       title: "Santé",
       text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
     },
     {
-      id: "AMiS3",
+      id: "MdTB3",
       title: "Beauté ",
       text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
     },
     {
-      id: "AMiS4",
+      id: "MdTBE4",
       title: "Bien-être",
       text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
     }

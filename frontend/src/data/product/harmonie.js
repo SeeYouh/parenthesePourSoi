@@ -6,10 +6,12 @@ export const harmonie = {
     title: "Soutenez votre corps et votre beauté.",
     paragraph: [
       {
+        id: "0harmonie",
         subTitle: "Boostez votre moral avec notre antidépresseur naturel",
         text: "Notre produit, riche en ingrédients aux propriétés antidépressives naturelles, est votre allié pour améliorer significativement votre humeur et votre moral. Il agit comme un bouclier contre la fatigue physique et mentale, vous aidant à retrouver votre énergie vitale et à aborder chaque journée avec enthousiasme. Vous constaterez également une amélioration de votre sommeil, favorisant un repos réparateur et une détente profonde. Enfin, notre formule unique stimule vos capacités cognitives, vous permettant ainsi d'optimiser votre concentration et votre clarté mentale."
       },
       {
+        id: "1harmonie",
         subTitle:
           "Retrouvez votre mobilité avec notre anti-inflammatoire efficace",
         text: [
@@ -21,23 +23,28 @@ export const harmonie = {
         picture900: "./img/jpg/product/eliteIllusText900.jpg"
       },
       {
+        id: "2harmonie",
         subTitle:
           "Retrouvez une peau saine avec notre accélérateur de cicatrisation",
         text: "Notre solution naturelle accélère la cicatrisation des verrues, des boutons de fièvre et des aphtes, vous permettant de retrouver une peau saine et apaisée. Enfin, il aide à réduire l'eczéma grâce à sa teneur en oméga-6, offrant un soulagement bienvenu aux problèmes de peau."
       },
       {
+        id: "3harmonie",
         subTitle: "Rajeunissez avec notre stimulateur de DHEA",
         text: "Et le plus de ce produit, c’est son action sur la production de DHEA, l'hormone anti-vieillissement. Vous retrouverez une peau éclatante, plus lisse et plus hydratée, grâce à une diminution notable de la sécheresse cutanée et à une stimulation de la production de collagène. De plus, notre formule aide à réduire la chute des cheveux, vous offrant ainsi une chevelure volumineuse et luxuriante."
       },
       {
+        id: "4harmonie",
         subTitle: "Pour vous, Mesdames",
         text: "Mesdames, notre produit est spécialement conçu pour vous aider à atténuer les douleurs menstruelles grâce à sa teneur en oméga-6, vous offrant ainsi un soulagement bien mérité. De plus, il diminue les désagréments de la ménopause en stimulant la production d'œstrogènes, vous permettant de traverser cette période de transition avec sérénité et confort."
       },
       {
+        id: "5harmonie",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
+        id: "6harmonie",
         subTitle: "",
         text: ""
       }
@@ -84,27 +91,27 @@ export const harmonie = {
   },
   inSummary: [
     {
-      id: "amis0",
+      id: "HiS0",
       title: "Gestion du poids",
       text: "Détoxifiant"
     },
     {
-      id: "AMiS1",
+      id: "HiS1",
       title: "Problèmes cutanés",
       text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
     },
     {
-      id: "AMiS2",
+      id: "HiS2",
       title: "Santé",
       text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
     },
     {
-      id: "AMiS3",
+      id: "HiS3",
       title: "Beauté ",
       text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
     },
     {
-      id: "AMiS4",
+      id: "HiS4",
       title: "Bien-être",
       text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
     }

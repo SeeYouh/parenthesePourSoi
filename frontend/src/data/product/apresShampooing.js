@@ -41,19 +41,19 @@ export const apresShampooing = {
     ],
     youLikeIt: [
       {
-        id: "asshampooing0",
+        id: "ASshampooing0",
         pictureLove: "./img/jpg/product/shampooing.jpg",
         textLove:
           "Pour une expérience de bien-être complète, découvrez notre shampooing d’exception qui se marie parfaitement avec notre après-shampooing. Ensemble, ils vous offrent une approche globale pour des cheveux soyeux et sains."
       },
       {
-        id: "asbb1",
+        id: "ASbb1",
         pictureLove: "./img/jpg/product/bb.jpg",
         textLove:
           "Le BB est également excellent pour une pousse des ongles et cheveux."
       },
       {
-        id: "asregenerateurCellulaire2",
+        id: "ASregenerateurCellulaire2",
         pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Pour encore plus d’amélioration au niveau de la peau, notre chouchou est conseillé par tous "
@@ -68,27 +68,27 @@ export const apresShampooing = {
   },
   inSummary: [
     {
-      id: "amis0",
+      id: "ASiS0",
       title: "Gestion du poids",
       text: "Détoxifiant"
     },
     {
-      id: "AMiS1",
+      id: "ASiS1",
       title: "Problèmes cutanés",
       text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
     },
     {
-      id: "AMiS2",
+      id: "ASiS2",
       title: "Santé",
       text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
     },
     {
-      id: "AMiS3",
+      id: "ASiS3",
       title: "Beauté ",
       text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
     },
     {
-      id: "AMiS4",
+      id: "ASiS4",
       title: "Bien-être",
       text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
     }

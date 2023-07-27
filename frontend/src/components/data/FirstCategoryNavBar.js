@@ -13,13 +13,9 @@ const FirstCategoryNavBar = () => {
     setIsActive
   } = useContext(RadioContext);
 
-  useEffect(() => {
-    console.log("Selected radio updated:", selectedRadio);
-  }, [selectedRadio]);
+  useEffect(() => {}, [selectedRadio]);
 
   const handleCategoryChange = (e) => {
-    console.log("event targer ID: ", e.target.id);
-    console.log("selectedRadio: ", selectedRadio);
     if (e.target.checked) {
       setSelectedRadio(e.target.id);
       setSelectedSubRadio("");

@@ -20,10 +20,6 @@ export const equilibreCorpsEsprit = {
         picture450: "./img/jpg/product/equilibreCorpsEspritIllusText450.jpg",
         picture900: "./img/jpg/product/equilibreCorpsEspritIllusText900.jpg"
       },
-      // {
-      //   subTitle: "Sommeil récupérateur",
-      //   text: "De plus, il favorise un sommeil récupérateur, vous permettant de vous réveiller chaque matin frais et revitalisé, ce qui encourage un bien-être quotidien, en vous aidant à vous sentir bien dans votre corps et dans votre esprit."
-      // },
       {
         subTitle: "Optimisez l'absorption des nutriments",
         text: "Notre solution de bien-être offre une multitude de bienfaits pour votre santé. Elle optimise l'absorption de la vitamine A, des acides gras et des protéines. Cela signifie que votre corps est en mesure d'assimiler et d'utiliser efficacement ces nutriments essentiels, vous permettant de bénéficier pleinement de leurs avantages pour la santé."
@@ -91,5 +87,32 @@ export const equilibreCorpsEsprit = {
   picture: "./img/jpg/product/equilibreCorpsEsprit.jpg",
   colors: {
     textColor: "#e2b100"
-  }
+  },
+  inSummary: [
+    {
+      id: "amis0",
+      title: "Gestion du poids",
+      text: "Détoxifiant"
+    },
+    {
+      id: "AMiS1",
+      title: "Problèmes cutanés",
+      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+    },
+    {
+      id: "AMiS2",
+      title: "Santé",
+      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+    },
+    {
+      id: "AMiS3",
+      title: "Beauté ",
+      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+    },
+    {
+      id: "AMiS4",
+      title: "Bien-être",
+      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+    }
+  ]
 };

@@ -28,17 +28,17 @@ export const apportMineraux = {
         text: "En plus de soulager les douleurs, notre formule avancée stimule la régénération des tissus endommagés. Elle contribue ainsi à accélérer le processus de guérison, vous permettant de récupérer plus rapidement après des blessures ou des tensions musculaires. Cela vous aide à maintenir une mobilité optimale et à retrouver votre vitalité."
       },
       {
-        id: "2apportMineraux",
+        id: "3apportMineraux",
         subTitle: "Maintenez des ongles et des cheveux en bonne santé",
         text: "En prenant régulièrement notre formule avancée, vous bénéficiez d'un apport en nutriments essentiels qui soutiennent la santé de vos ongles et de vos cheveux. Des cheveux forts et des ongles sains sont des indicateurs d'une bonne santé globale, et notre produit vous aide à maintenir ces aspects essentiels de votre bien-être."
       },
       {
-        id: "3apportMineraux",
+        id: "4apportMineraux",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
-        id: "4apportMineraux",
+        id: "5apportMineraux",
         subTitle: "",
         text: ""
       }

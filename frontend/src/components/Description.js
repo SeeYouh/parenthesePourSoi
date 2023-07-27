@@ -8,9 +8,9 @@ const Description = ({ productDescription }) => {
   return (
     <>
       <div className="bgParagraph">
-        {productParagraph.map((productDescription, index, id) => (
+        {productParagraph.map((productDescription, index) => (
           <div
-            key={id}
+            key={productDescription.id}
             className={
               index === 1
                 ? "selectText productDescriptPresentFirst"

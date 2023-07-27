@@ -1,6 +1,6 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
-export const PN = {
+export const pn = {
   nameProduct: "PN",
   summary: {
     title: "Un substitut de repas complet.",

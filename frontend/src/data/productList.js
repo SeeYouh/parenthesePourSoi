@@ -1,4 +1,3 @@
-import { PN } from "./product/PN";
 import { apportMineraux } from "./product/apportMineraux";
 import { apportQ10 } from "./product/apportQ10";
 import { apportVitamines } from "./product/apportVitamines";
@@ -22,6 +21,7 @@ import { heRafraichissant } from "./product/HErafraichissant";
 import { heRelaxante } from "./product/HERelaxante";
 import { mereDeTous } from "./product/mèreDeTous";
 import { osMuscle } from "./product/osMuscle";
+import { pn } from "./product/pn";
 import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
 import { serumComplet } from "./product/serumComplet";
 import { shampooing } from "./product/shampooing";
@@ -50,7 +50,7 @@ export const productList = [
   heRelaxante,
   mereDeTous,
   osMuscle,
-  PN,
+  pn,
   regenerateurCellulaire,
   serumComplet,
   shampooing

@@ -1,4 +1,4 @@
-import { beaumeLevre } from "./product/BeaumeLevres";
+import { baumesLevres } from "./product/BeaumeLevres";
 import { heRelaxante } from "./product/HERelaxante";
 import { heRafraichissant } from "./product/HErafraichissant";
 import { PN } from "./product/PN";
@@ -45,7 +45,7 @@ export const productList = [
   PN,
   dentifrice,
   heRafraichissant,
-  beaumeLevre,
+  baumesLevres,
   gelNettoyant,
   decontaminant,
   apportMineraux,

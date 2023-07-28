@@ -93,8 +93,10 @@ export const pb = {
       }
     ]
   },
-  firstCategory: [getCategoryById("1Sante").name],
-  secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
+  firstCategory: [getCategoryById("0GestionDuPoids").name],
+  secondCategory: [
+    getSecondCategoryById("0GestionDuPoids1AidePertePoids").text
+  ],
   picture: "./img/jpg/product/apportMineraux.jpg",
   colors: {
     textColor: "#0246a4",

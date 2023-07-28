@@ -8,6 +8,7 @@ import { bienEtreInterieur } from "./product/bienEtreInterieur";
 import { boosterEnergie } from "./product/boosterDenergie";
 import { cocoOil } from "./product/cocoOil";
 import { collagenoni } from "./product/collagenoni";
+import { cremeDay } from "./product/cremeDay";
 import { decontaminant } from "./product/decontaminant";
 import { dentifrice } from "./product/dentifrice";
 import { detox } from "./product/detox";
@@ -29,18 +30,19 @@ import { serumComplet } from "./product/serumComplet";
 import { shampooing } from "./product/shampooing";
 
 export const productList = [
-  apresShampooing,
   apportMineraux,
   apportQ10,
   apportVitamines,
+  apresShampooing,
   baumesLevres,
   bb,
-  bienEtreInterieur,
   boosterEnergie,
-  collagenoni,
-  cocoOil,
-  dentifrice,
+  bienEtreInterieur,
   decontaminant,
+  cocoOil,
+  collagenoni,
+  cremeDay,
+  dentifrice,
   detox,
   equilibreCorpsEsprit,
   gelDouche,
@@ -53,9 +55,9 @@ export const productList = [
   heRelaxante,
   mereDeTous,
   osMuscle,
+  pb,
   pn,
   regenerateurCellulaire,
   serumComplet,
-  pb,
   shampooing
 ];

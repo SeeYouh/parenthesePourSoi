@@ -1,9 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import ProductDetails from "../ProductDetails";
-import { productList } from "../../data/productList";
+
 import ProductCard from "./ProductCard";
+import ProductDetails from "../ProductDetails";
 import { RadioContext } from "../utils/radioContext";
+import { motion } from "framer-motion";
+import { productList } from "../../data/productList";
 import { scroller } from "react-scroll";
 
 const ProductCardList = () => {

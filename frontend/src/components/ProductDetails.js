@@ -1,10 +1,10 @@
+import { Element, scroller } from "react-scroll";
 import React, { useState } from "react";
-import { scroller, Element } from "react-scroll";
 
+import AdditionnalInformation from "./AdditionnalInformation";
+import AsaComplement from "./AsaComplement";
 import Description from "./Description";
 import InSummary from "./InSummary";
-import AsaComplement from "./AsaComplement";
-import AdditionnalInformation from "./AdditionnalInformation";
 
 const ProductDetails = (productDescription) => {
   const descriptionName = productDescription.product.nameProduct;

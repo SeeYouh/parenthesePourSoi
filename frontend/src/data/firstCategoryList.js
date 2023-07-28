@@ -102,23 +102,5 @@ export const firstCategoryList = [
         text: "Eau"
       }
     ]
-  },
-  {
-    id: "6Sportifs",
-    name: "Sportifs",
-    secondCategory: [
-      {
-        id: "6Sportifs0RécupérationPerformance",
-        text: "Récupération / Performance"
-      },
-      {
-        id: "6Sportifs1SubstitutRepas",
-        text: "Substitut de repas"
-      },
-      {
-        id: "6Sportifs2SoulagementDouleurs",
-        text: "Soulagement douleurs"
-      }
-    ]
   }
 ];

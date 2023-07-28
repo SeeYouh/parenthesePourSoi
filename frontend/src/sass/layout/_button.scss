@@ -11,7 +11,19 @@
 .btn-navbar {
   margin: 0 10px 0 10px;
   // border: 1px solid black;
+}
 
+.btn-extLink {
+  transition: all 0.2s;
+
+  &:hover {
+    transition: all 0.2s;
+    color: $bgColor5;
+  }
+}
+
+.btn-navbar,
+.btn-extLink {
   &:before {
     content: "";
     bottom: -5px;
@@ -27,6 +39,7 @@
     width: 100%;
   }
 }
+
 .selected {
   &:before {
     width: 100%;

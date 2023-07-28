@@ -1,8 +1,7 @@
+import { Element } from "react-scroll";
+import ProductCardList from "./ProductCardList";
 import React from "react";
 import SecondCategoryNavBar from "./SecondCategoryNavBar";
-import ProductCardList from "./ProductCardList";
-import { Element } from "react-scroll";
-
 
 const Card = () => {
   return (

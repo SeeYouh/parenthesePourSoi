@@ -1,0 +1,23 @@
+import React from "react";
+
+export const ProductStyle = ({ productDescription }) => {
+  const themeColors = productDescription.product.colors;
+
+  return (
+    <style>
+      {`
+        ::selection {
+          background: ${themeColors.textColor};
+          color: white;
+        }
+        ::-moz-selection {
+          background: ${themeColors.textColor};
+          color: white;
+        }
+        .btn-extLink {
+          color: ${themeColors.linkTextColor};
+        }
+      `}
+    </style>
+  );
+};

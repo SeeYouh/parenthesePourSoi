@@ -7,10 +7,12 @@ export const osMuscle = {
       "Soutenez votre santé musculaire et osseuse avec notre produit essentiel.",
     paragraph: [
       {
+        id: "0osMuscle",
         subTitle: "Gestion du stress : Retrouvez votre sérénité",
         text: "Le stress est une réalité de la vie moderne que la plupart d'entre nous connaissent. Cependant, avec notre produit, vous avez un allié de taille. Enrichi en magnésium, il vous aide à faire face aux effets néfastes du stress, favorisant une récupération optimale et une relaxation profonde. Chaque dose est comme une bouffée d'air frais qui vous éloigne de l'agitation et vous rapproche de la tranquillité."
       },
       {
+        id: "1osMuscle",
         subTitle: "Soutenez votre santé",
         text: [
           "Qui n'a pas eu à affronter des douleurs articulaires qui gênent les mouvements quotidiens et ralentissent le rythme de vie ? Notre formule spéciale, enrichie en ingrédients naturels aux puissantes propriétés anti-inflammatoires, est prête à vous apporter le soulagement tant recherché. Imaginez retrouver la légèreté des mouvements et un confort physique accru, tout cela grâce à un produit créé dans le respect de votre corps. Notre solution promet une action profonde, atténuant non seulement les symptômes douloureux mais agissant également sur les causes sous-jacentes de l'inflammation.",
@@ -21,29 +23,36 @@ export const osMuscle = {
         picture900: "./img/jpg/product/osMuscleIllusText900.jpg"
       },
       {
+        id: "2osMuscle",
         subTitle: "Dites adieu à la cellulite",
         text: "Notre produit va au-delà des bienfaits internes et offre des avantages esthétiques significatifs. Grâce à sa formule innovante, il contribue à réduire la cellulite, laissant votre peau lisse et tonique. Il vous aidera à embrasser votre beauté naturelle et à vous sentir à l'aise dans votre peau, augmentant ainsi votre confiance en vous."
       },
       {
+        id: "3osMuscle",
         subTitle: "Réduisez vos fringales salées",
         text: "Nous savons tous à quel point les fringales salées peuvent être un obstacle à la gestion du poids. Notre produit est là pour vous aider. Il a été spécialement conçu pour contrer ces envies irrésistibles qui peuvent saboter vos efforts pour maintenir un poids sain."
       },
       {
+        id: "4osMuscle",
         subTitle: "Pour vous, Mesdames",
         text: "Mesdames, nous comprenons que les fluctuations hormonales peuvent causer des désagréments dans votre vie quotidienne. Notre produit a été spécialement conçu pour favoriser un équilibre hormonal sain, ce qui peut grandement améliorer votre confort et votre bien-être. Il peut aider à atténuer les symptômes courants liés aux déséquilibres hormonaux, tels que l'irritabilité, la fatigue et les troubles du sommeil, ce qui peut avoir un impact significatif sur votre qualité de vie."
       },
       {
+        id: "5osMuscle",
         subTitle: "Découvrez un partenaire de confiance",
         text: "Que ce soit pour réguler votre taux de sucre et de cholestérol, soutenir votre système immunitaire ou promouvoir une bonne santé intestinale, notre produit offre une solution complète pour votre bien-être. Il est votre partenaire de confiance, vous aidant à maintenir une bonne santé à long terme et à mener une vie plus épanouie."
       },
       {
+        id: "6osMuscle",
         text: " Alors, qu'attendez-vous ? Il est temps de donner à votre corps le soutien dont il a besoin avec notre produit essentiel. Faites le choix du bien-être."
       },
       {
+        id: "7osMuscle",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
+        id: "8osMuscle",
         subTitle: "",
         text: ""
       }

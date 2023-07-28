@@ -6,19 +6,6 @@ const InSummary = ({ productDescription }) => {
 
   return (
     <ul>
-      <style>
-        {`
-        ::selection {
-          background: ${themeColors.textColor};
-          color: white;
-        }
-        ::-moz-selection {
-          background: ${themeColors.textColor};
-          color: white;
-        }
-        `}
-      </style>
-
       {productInSummary.map(({ title, text, id }) => (
         <li key={id}>
           <h4

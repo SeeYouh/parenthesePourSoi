@@ -1,9 +1,11 @@
+import "./sass/main.scss";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import App from "./App";
+import PagesError from "./pages/PagesError";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import PagesError from "./pages/PagesError";
-import App from "./App";
-import "./sass/main.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

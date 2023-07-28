@@ -82,8 +82,7 @@ export const heSoulageante = {
   },
   firstCategory: [getCategoryById("4HuilesEssentielles").name],
   secondCategory: [
-    getSecondCategoryById("4HuilesEssentielles1ProblemesDermathologiquesPoux")
-      .text
+    getSecondCategoryById("4HuilesEssentielles1ProblemesCutanes").text
   ],
   picture: "./img/jpg/product/heRelaxante.jpg",
   colors: {

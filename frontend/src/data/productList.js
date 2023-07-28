@@ -22,6 +22,7 @@ import { glossRepulpant } from "./product/glossRepulpant";
 import { goutteMinceur } from "./product/goutteMinceur";
 import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";
+import { heDesinfectante } from "./product/heDesinfectante";
 import { heRafraichissant } from "./product/heRafraichissant";
 import { heRelaxante } from "./product/heRelaxante";
 import { heSoulageante } from "./product/heSoulageante";
@@ -61,6 +62,7 @@ export const productList = [
   guerisseurMaux,
   gg,
   harmonie,
+  heDesinfectante,
   heRafraichissant,
   heRelaxante,
   heSoulageante,

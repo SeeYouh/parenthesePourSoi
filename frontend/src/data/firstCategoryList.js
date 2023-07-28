@@ -80,8 +80,8 @@ export const firstCategoryList = [
         text: "Mieux-être"
       },
       {
-        id: "4HuilesEssentielles1ProblemesDermathologiquesPoux",
-        text: "Problèmes dermathologiques et poux"
+        id: "4HuilesEssentielles1ProblemesCutanes",
+        text: "Problèmes cutanés"
       },
       {
         id: "4HuilesEssentielles2MauxDivers",

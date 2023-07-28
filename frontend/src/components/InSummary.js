@@ -16,6 +16,15 @@ const InSummary = ({ productDescription }) => {
           background: ${themeColors.textColor};
           color: white;
         }
+        a {
+          color: ${themeColors.textColor};
+        }
+                a {
+          color: ${themeColors.textColor};
+        }
+        a:hover {
+          color: ${themeColors.textColor};
+        }
         `}
       </style>
 

@@ -14,6 +14,7 @@ import { detox } from "./product/detox";
 import { equilibreCorpsEsprit } from "./product/equilibreCorpsEsprit";
 import { gelDouche } from "./product/gelDouche";
 import { gelNettoyant } from "./product/gelNettoyant";
+import { gg } from "./product/gg";
 import { goutteMinceur } from "./product/goutteMinceur";
 import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";
@@ -21,6 +22,7 @@ import { heRafraichissant } from "./product/HErafraichissant";
 import { heRelaxante } from "./product/HERelaxante";
 import { mereDeTous } from "./product/mèreDeTous";
 import { osMuscle } from "./product/osMuscle";
+import { pb } from "./product/pb";
 import { pn } from "./product/pn";
 import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
 import { serumComplet } from "./product/serumComplet";
@@ -45,6 +47,7 @@ export const productList = [
   gelNettoyant,
   goutteMinceur,
   guerisseurMaux,
+  gg,
   harmonie,
   heRafraichissant,
   heRelaxante,
@@ -53,5 +56,6 @@ export const productList = [
   pn,
   regenerateurCellulaire,
   serumComplet,
+  pb,
   shampooing
 ];

@@ -22,8 +22,9 @@ import { glossRepulpant } from "./product/glossRepulpant";
 import { goutteMinceur } from "./product/goutteMinceur";
 import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";
-import { heRafraichissant } from "./product/HErafraichissant";
-import { heRelaxante } from "./product/HERelaxante";
+import { heRafraichissant } from "./product/heRafraichissant";
+import { heRelaxante } from "./product/heRelaxante";
+import { heSoulageante } from "./product/heSoulageante";
 import { masqueNuit } from "./product/masqueNuit";
 import { mereDeTous } from "./product/mèreDeTous";
 import { osMuscle } from "./product/osMuscle";
@@ -62,6 +63,7 @@ export const productList = [
   harmonie,
   heRafraichissant,
   heRelaxante,
+  heSoulageante,
   masqueNuit,
   mereDeTous,
   osMuscle,

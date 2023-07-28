@@ -1,3 +1,4 @@
+import { ProductStyle } from "./utils/ProductStyle";
 import React from "react";
 
 const Description = ({ productDescription }) => {
@@ -8,6 +9,7 @@ const Description = ({ productDescription }) => {
   return (
     <>
       <div className="bgParagraph">
+        {ProductStyle({ productDescription })}
         {productParagraph.map((productDescription, index) => (
           <div
             key={productDescription.id}
@@ -17,18 +19,6 @@ const Description = ({ productDescription }) => {
                 : "selectText productDescriptPresentNext"
             }
           >
-            <style>
-              {`
-              ::selection {
-                background: ${themeColors.textColor};
-                color: white;
-              }
-              ::-moz-selection {
-                background: ${themeColors.textColor};
-                color: white;
-              }
-              `}
-            </style>
             {index === 1 && (
               <div>
                 <h3

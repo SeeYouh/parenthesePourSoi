@@ -97,7 +97,10 @@ export const pb = {
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "./img/jpg/product/apportMineraux.jpg",
   colors: {
-    textColor: "#0246a4"
+    textColor: "#0246a4",
+    linkTextColor: "#0246a4",
+    hoverTextColor: "#3d68a4",
+    linkVisitedTextColor: "#233c5f"
   },
   inSummary: [
     {

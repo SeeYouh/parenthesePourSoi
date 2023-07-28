@@ -13,6 +13,15 @@
   // border: 1px solid black;
 }
 
+.btn-extLink {
+  transition: all 0.2s;
+
+  &:hover {
+    transition: all 0.2s;
+    color: $bgColor5;
+  }
+}
+
 .btn-navbar,
 .btn-extLink {
   &:before {

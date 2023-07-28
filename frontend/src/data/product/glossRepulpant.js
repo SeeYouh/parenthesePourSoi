@@ -72,7 +72,7 @@ export const glossRepulpant = {
         id: "glossRepulpant1",
         pictureLove: "./img/jpg/product/dentifrice.jpg",
         textLove:
-          " Pour un sourire éclatant, optez pour notre dentifrice formulé avec des ingrédients naturels de première qualité, exempts de produits chimiques agressifs. Il offre un blanchiment naturel en éliminant délicatement les tâches pour des dents éclatantes. Enrichi d'extraits apaisants et antibactériens de plantes, il préserve la santé et la vitalité de vos gencives. Grâce à l'huile essentielle de menthe poivrée, profitez d'une agréable sensation de fraîcheur et d'une haleine rafraîchie, tout en éliminant la mauvaise haleine."
+          "Pour un sourire éclatant, optez pour notre dentifrice formulé avec des ingrédients naturels de première qualité, exempts de produits chimiques agressifs. Il offre un blanchiment naturel en éliminant délicatement les tâches pour des dents éclatantes. Enrichi d'extraits apaisants et antibactériens de plantes, il préserve la santé et la vitalité de vos gencives. Grâce à l'huile essentielle de menthe poivrée, profitez d'une agréable sensation de fraîcheur et d'une haleine rafraîchie, tout en éliminant la mauvaise haleine."
       },
       {
         id: "glossRepulpant2",

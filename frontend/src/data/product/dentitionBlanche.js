@@ -44,19 +44,19 @@ export const dentitionBlanche = {
     ],
     youLikeIt: [
       {
-        id: "DBDentifrice0",
+        id: "dentitionBlanche0",
         pictureLove: "./img/jpg/product/dentifrice.jpg",
         textLove:
           "Un dentifrice naturel de haute qualité, sans produits chimiques agressifs, pour un blanchiment doux et des dents éclatantes. Enrichi en extraits de plantes apaisantes et anti bactériennes, il favorise des gencives saines. L'huile essentielle de menthe poivrée laisse une agréable sensation de fraîcheur, éliminant la mauvaise haleine. Une expérience de soin bucco-dentaire exceptionnelle, naturellement."
       },
       {
-        id: "DBBeaumeLevre1",
+        id: "dentitionBlanche1",
         pictureLove: "./img/jpg/product/beaumeLevre.jpg",
         textLove:
           "Si vous souhaitez prendre soin de votre sourire, notre baume à lèvres naturel, nourrissant et hydratant fera votre bonheur. Sa formule avancée offre une protection contre les agressions extérieures et prévient les lèvres sèches et gercées. Grâce à sa composition naturelle, vos lèvres sont réparées et plus résistantes. Une véritable oasis de douceur et de protection pour un sourire éclatant de santé."
       },
       {
-        id: "DBGlossRepulpant2",
+        id: "dentitionBlanche2",
         pictureLove: "./img/jpg/product/glossRepulpant.jpg",
         textLove:
           "Si vous souhaitez prendre soin de vos lèvres en particulier, notre gloss repulpant saura vous satisfaire pour des lèvres hydratées et volumineuses. Il efface les rides et ridules pour une apparence plus jeune et lisse. Il offre une sensation de fraîcheur délicieuse et est rigoureusement testé pour une tolérance optimale. Une cure de jouvence pour vos lèvres."

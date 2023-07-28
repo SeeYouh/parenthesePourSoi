@@ -9,6 +9,7 @@ import { boosterEnergie } from "./product/boosterDenergie";
 import { cocoOil } from "./product/cocoOil";
 import { collagenoni } from "./product/collagenoni";
 import { cremeDay } from "./product/cremeDay";
+import { cremeNight } from "./product/cremeNight";
 import { decontaminant } from "./product/decontaminant";
 import { dentifrice } from "./product/dentifrice";
 import { detox } from "./product/detox";
@@ -42,6 +43,7 @@ export const productList = [
   cocoOil,
   collagenoni,
   cremeDay,
+  cremeNight,
   dentifrice,
   detox,
   equilibreCorpsEsprit,

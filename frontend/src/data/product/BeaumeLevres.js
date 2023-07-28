@@ -3,7 +3,7 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 export const baumesLevres = {
   nameProduct: "baumes à lèvres",
   summary: {
-    title: "Une véritable oasis de douceur et de protection !",
+    title: "Une véritable oasis de douceur et de protection",
     paragraph: [
       {
         id: "0baumesLevres",

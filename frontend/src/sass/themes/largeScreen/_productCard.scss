@@ -20,20 +20,20 @@
   border-bottom-right-radius: 40px;
   position: relative;
   margin-right: 5rem;
-  
+
   h1 {
     font-size: calc(3rem + 0.03vw);
     font-weight: 700;
   }
-  
+
   h2 {
     margin: 0;
     padding-bottom: 10px;
   }
   h1,
   h2 {
-  padding-left: 30px;
-}
+    padding-left: 30px;
+  }
 }
 
 .productTab {
@@ -41,27 +41,25 @@
 }
 
 .bgParagraph {
-
   h3 {
     padding: 20px 0 0 100px;
     letter-spacing: 2px;
     text-transform: uppercase;
   }
 
-  
   .productDescriptPresentFirst {
     padding-bottom: 15px;
   }
-  
+
   .productDescriptPresentNext {
     padding-bottom: 15px;
   }
-  
+
   .productDescriptPresentNext:first-child {
     padding-bottom: -50px;
     margin-top: 15px;
   }
-  
+
   // .productDescriptPresentNext:last-child {
   //   margin-bottom: 50px;
   // }
@@ -74,7 +72,7 @@
 
 .youWillLikeIt {
   margin-top: 25px;
-  
+
   .youWillLikeIt-content {
     margin-left: 50px;
     margin-top: 15px;
@@ -82,10 +80,38 @@
     height: 300px;
     // border: 1px solid black;
   }
-
 }
 
 .imgYouWillLikeIt {
   height: 300px;
   object-fit: cover;
+}
+
+.blockBubleInSummary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 50px;
+}
+
+.bubleInSummary {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px 10px 10px;
+  padding: 20px;
+
+  .textInSummary {
+    margin-top: 20px;
+  }
+
+  .bubleInSummary,
+  .titleInSummary {
+    text-align: center;
+  }
 }

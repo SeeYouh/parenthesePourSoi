@@ -1,8 +1,9 @@
-import { AnimatePresence, motion } from "framer-motion";
 import React, { useContext } from "react";
 
-import { RadioContext } from "../utils/radioContext";
+import { AnimatePresence, motion } from "framer-motion";
+
 import { firstCategoryList } from "../../data/firstCategoryList";
+import { RadioContext } from "../utils/radioContext";
 
 const SecondCategoryNavBar = () => {
   const {
@@ -43,7 +44,7 @@ const SecondCategoryNavBar = () => {
           {firstCategoryList
             .filter((category) => category.name.includes(selectedRadio))
             .map((subCategory) => (
-              <div key={subCategory.id}>
+              <aside key={subCategory.id}>
                 <ul>
                   <h1>{subCategory.name}</h1>
                   <div className="lineBottom"></div>
@@ -75,7 +76,7 @@ const SecondCategoryNavBar = () => {
                     ))}
                   </ul>
                 </ul>
-              </div>
+              </aside>
             ))}
         </motion.div>
       )}

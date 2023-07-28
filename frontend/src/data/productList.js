@@ -17,17 +17,20 @@ import { equilibreCorpsEsprit } from "./product/equilibreCorpsEsprit";
 import { gelDouche } from "./product/gelDouche";
 import { gelNettoyant } from "./product/gelNettoyant";
 import { gg } from "./product/gg";
+import { glossRepulpant } from "./product/glossRepulpant";
 import { goutteMinceur } from "./product/goutteMinceur";
 import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";
 import { heRafraichissant } from "./product/HErafraichissant";
 import { heRelaxante } from "./product/HERelaxante";
+import { masqueNuit } from "./product/masqueNuit";
 import { mereDeTous } from "./product/mèreDeTous";
 import { osMuscle } from "./product/osMuscle";
 import { pb } from "./product/pb";
 import { pn } from "./product/pn";
 import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
 import { serumComplet } from "./product/serumComplet";
+import { serumFlash } from "./product/serumFlash";
 import { shampooing } from "./product/shampooing";
 
 export const productList = [
@@ -49,17 +52,20 @@ export const productList = [
   equilibreCorpsEsprit,
   gelDouche,
   gelNettoyant,
+  glossRepulpant,
   goutteMinceur,
   guerisseurMaux,
   gg,
   harmonie,
   heRafraichissant,
   heRelaxante,
+  masqueNuit,
   mereDeTous,
   osMuscle,
   pb,
   pn,
   regenerateurCellulaire,
   serumComplet,
+  serumFlash,
   shampooing
 ];

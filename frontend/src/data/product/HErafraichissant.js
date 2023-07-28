@@ -46,60 +46,74 @@ export const heRafraichissant = {
     ],
     youLikeIt: [
       {
-        id: "HErafraichissant0",
+        id: "heRafraichissant0",
+        pictureLove: "./img/jpg/product/cocoOil.jpg",
+        textLove:
+          "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau"
+      },
+      {
+        id: "heRafraichissant1",
         pictureLove: "./img/jpg/product/PB.jpg",
         textLove:
           "Je conseille vivement aux sportifs d'explorer notre produit destiné à la récupération musculaire et à l'amélioration des performances, qui offre une énergie stimulante à base de cacao."
       },
       {
-        id: "HErafraichissant1",
+        id: "heRafraichissant2",
         pictureLove: "./img/jpg/product/mereDeTous.jpg",
-        textLove:
-          "En ce qui concerne les tendinites et les douleurs associées à l'exercice physique, cette huile se révèle être un allié précieux."
-      },
-      {
-        id: "HErafraichissant2",
-        pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
           "Elle s'associe parfaitement à notre anti-inflammatoire naturel, offrant ainsi une solution complète pour gérer les douleurs liées à l'activité physique."
       },
       {
-        id: "HErafraichissant3",
-        pictureLove: "./img/jpg/product/GG.jpg",
+        id: "heRafraichissant3",
+        pictureLove: "./img/jpg/product/heRelaxante.jpg",
         textLove:
-          "En complément, nos produits spécifiques en minéraux et en vitamines, soigneusement sélectionnés pour leurs vertus, peuvent renforcer l'efficacité de cette combinaison."
+          "L'huile essentielle Relaxante présente de nombreux bienfaits pour la santé mentale en apaisant la dépression, réduisant l'anxiété et le stress, et favorisant une sensation de bien-être. Son parfum relaxant aide à calmer l'esprit et procure une sensation de tranquillité intérieure. Elle s'avère également efficace pour favoriser l'endormissement, améliorer la qualité du sommeil, et apaiser les irritations cutanées, offrant un soulagement rapide et apaisant. Une utilisation régulière permet de détendre les muscles de la mâchoire et de réduire le grincement de dents."
+      },
+      {
+        id: "heRafraichissant4",
+        pictureLove: "./img/jpg/product/heDesinfectante.jpg",
+        textLove:
+          "L'huile essentielle Désinfectante est un remède naturel puissant pour combattre les infections et maintenir un environnement sain. Elle agit efficacement contre les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies. Elle soulage également les douleurs dentaires, apaise les problèmes cutanés et diminue les inconforts causés par les piqûres d'insectes. En plus de ses bienfaits pour la santé, elle peut contribuer à la gestion du poids en détoxifiant le corps et en favorisant un système digestif sain. Enfin, son parfum agréable et ses propriétés apaisantes en font un allié précieux pour améliorer l'humeur et favoriser la relaxation."
+      },
+      {
+        id: "heRafraichissant5",
+        pictureLove: "./img/jpg/product/heSoulageante.jpg",
+        textLove:
+          "Cette huile essentielle possède de nombreuses propriétés curatives, soulageant les maux de tête et les symptômes des maladies saisonnières. Elle a des effets positifs sur le bien-être en diminuant l'anxiété, en augmentant la vivacité mentale et en améliorant l'humeur. Elle aide à soulager les tensions corporelles et les irritations cutanées, ainsi que les douleurs associées au grincement de dents. De plus, elle repousse les poux et les moustiques, offrant une protection naturelle contre ces nuisibles."
       }
     ]
   },
   firstCategory: [getCategoryById("4HuilesEssentielles").name],
-  secondCategory: [getSecondCategoryById("4HuilesEssentielles0MieuxEtre").text],
+  secondCategory: [
+    getSecondCategoryById("4HuilesEssentielles2MauxDivers").text
+  ],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
     textColor: "#30d1d9"
   },
   inSummary: [
     {
-      id: "HERaGP0",
+      id: "HERaiS0",
       title: "Gestion du poids",
       text: "Détoxifiant"
     },
     {
-      id: "HERaPC1",
+      id: "HERaiS1",
       title: "Problèmes cutanés",
       text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
     },
     {
-      id: "HERaS2",
+      id: "HERaiS2",
       title: "Santé",
       text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
     },
     {
-      id: "HERaB3",
+      id: "HERaiS3",
       title: "Beauté ",
       text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
     },
     {
-      id: "HERaBE4",
+      id: "HERaiS4",
       title: "Bien-être",
       text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
     }

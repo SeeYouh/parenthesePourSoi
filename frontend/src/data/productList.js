@@ -13,6 +13,7 @@ import { cremeNight } from "./product/cremeNight";
 import { decontaminant } from "./product/decontaminant";
 import { dentifrice } from "./product/dentifrice";
 import { detox } from "./product/detox";
+import { eauTonique } from "./product/eauTonique";
 import { equilibreCorpsEsprit } from "./product/equilibreCorpsEsprit";
 import { gelDouche } from "./product/gelDouche";
 import { gelNettoyant } from "./product/gelNettoyant";
@@ -32,6 +33,7 @@ import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
 import { serumComplet } from "./product/serumComplet";
 import { serumFlash } from "./product/serumFlash";
 import { shampooing } from "./product/shampooing";
+import { volumateurCils } from "./product/volumateurCils";
 
 export const productList = [
   apportMineraux,
@@ -49,6 +51,7 @@ export const productList = [
   cremeNight,
   dentifrice,
   detox,
+  eauTonique,
   equilibreCorpsEsprit,
   gelDouche,
   gelNettoyant,
@@ -67,5 +70,6 @@ export const productList = [
   regenerateurCellulaire,
   serumComplet,
   serumFlash,
-  shampooing
+  shampooing,
+  volumateurCils
 ];

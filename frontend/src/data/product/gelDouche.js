@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const gelDouche = {
   nameProduct: "Gel douche",
+  id: "gelDouche",
+
   summary: {
     title: "Une expérience de soin incomparable pour votre peau.",
     paragraph: [

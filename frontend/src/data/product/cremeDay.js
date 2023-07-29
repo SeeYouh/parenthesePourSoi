@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const cremeDay = {
   nameProduct: "Crème day",
+  id: "cremeDay",
+
   summary: {
     title: "Une crème hydratante avec une panoplie d'avantages",
     paragraph: [

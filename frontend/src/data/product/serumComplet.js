@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const serumComplet = {
   nameProduct: "Sérum complet",
+  id: "serumComplet",
+
   summary: {
     title: "Un sérum complet au 9 brevets pour une efficacité incomparable.",
     paragraph: [
@@ -107,7 +109,9 @@ export const serumComplet = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
-    textColor: "#30d1d9"
+    textColor: "#30d1d9",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

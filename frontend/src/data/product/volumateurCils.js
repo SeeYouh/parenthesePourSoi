@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const volumateurCils = {
-  nameProduct: "Volumateur de Cils",
+  nameProduct: "Volumateur de Cils",  id: "volumateurCils",
+
   summary: {
     title: "Des yeux de biche naturels !",
     paragraph: [
@@ -74,7 +75,9 @@ export const volumateurCils = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
-    textColor: "#30d1d9",
+    textColor: "#30d1d9",titleColorInSummary: "",
+  bgColorInSummary: "",
+  
     linkTextColor: "#30d1d9"
   },
   inSummary: [

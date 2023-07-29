@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const regenerateurCellulaire = {
   nameProduct: "Régénérateur cellulaire",
+  id: "regenerateurCellulaire",
+
   summary: {
     title: "Un support quotidien.",
     paragraph: [
@@ -90,7 +92,9 @@ export const regenerateurCellulaire = {
   secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
   picture: "./img/jpg/product/regenerateurCellulaire.jpg",
   colors: {
-    textColor: "#83218f"
+    textColor: "#83218f",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

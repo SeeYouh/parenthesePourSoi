@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const serumFlash = {
   nameProduct: "Sérum Flash",
+  id: "serumFlash",
+
   summary: {
     title: "Fini le visage fatigué et endormi",
     paragraph: [
@@ -80,7 +82,9 @@ export const serumFlash = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
-    textColor: "#30d1d9"
+    textColor: "#30d1d9",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

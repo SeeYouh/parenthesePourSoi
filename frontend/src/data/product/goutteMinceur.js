@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const goutteMinceur = {
   nameProduct: "Gouttes minceur",
+  id: "goutteMinceur",
+
   summary: {
     title: "Laissez les éléments naturels agir en votre faveur.",
     paragraph: [

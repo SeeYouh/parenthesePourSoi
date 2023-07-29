@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heDesinfectante = {
   nameProduct: "HE Desinfectante",
+  id: "heDesinfectante",
+
   summary: {
     title: "Un allié puissant pour votre santé",
     paragraph: [
@@ -75,7 +77,9 @@ export const heDesinfectante = {
   ],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
-    textColor: "#30d1d9"
+    textColor: "#30d1d9",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

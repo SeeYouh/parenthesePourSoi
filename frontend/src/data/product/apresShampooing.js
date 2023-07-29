@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const apresShampooing = {
   nameProduct: "Après shampooing",
+  id: "apresShampooing",
+
   summary: {
     title: "Protégez vos cheveux et prenez en soin.",
     paragraph: [

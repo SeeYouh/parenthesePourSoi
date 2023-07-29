@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const equilibreCorpsEsprit = {
   nameProduct: "Equilibre corps et esprit",
+  id: "equilibreCorpsEsprit",
+
   summary: {
     title: "Harmonisez votre corps pour un équilibre complet.",
     paragraph: [

@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const eauTonique = {
   nameProduct: "Eau Tonique",
+  id: "eauTonique",
+
   summary: {
     title: "Un soin cutané parfaitement équilibré",
     paragraph: [

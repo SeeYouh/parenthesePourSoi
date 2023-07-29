@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const pb = {
-  nameProduct: "PB",
+  nameProduct: "PB",  id: "pb",
+
   summary: {
     title: "Révélez votre meilleur Vous",
     paragraph: [
@@ -99,7 +100,9 @@ export const pb = {
   ],
   picture: "./img/jpg/product/apportMineraux.jpg",
   colors: {
-    textColor: "#0246a4",
+    textColor: "#0246a4",titleColorInSummary: "",
+  bgColorInSummary: "",
+  
     linkTextColor: "#0246a4"
   },
   inSummary: [

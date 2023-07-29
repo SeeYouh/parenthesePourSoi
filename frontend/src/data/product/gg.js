@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const gg = {
   nameProduct: "GG",
+  id: "gg",
+
   summary: {
     title: "Une abondance de bien-être avec notre concentré de légumes",
     paragraph: [
@@ -36,12 +38,12 @@ export const gg = {
         text: "Offrez à votre corps et à votre esprit le privilège de s'épanouir grâce aux trésors 100% naturels que la terre nous offre. Ressentez le vibrato de la santé et du bien-être à chaque instant ! Et si vous avez des questions, n'hésitez pas à contacter notre experte en bien-être. Elle est là pour vous guider dans votre quête d'un style de vie plus naturel et sain."
       },
       {
-        id: "4GG",
+        id: "5GG",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
-        id: "5GG",
+        id: "6GG",
         subTitle: "",
         text: ""
       }

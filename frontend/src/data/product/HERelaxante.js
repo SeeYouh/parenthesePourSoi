@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heRelaxante = {
   nameProduct: "HE Relaxante",
+  id: "heRelaxante",
+
   summary: {
     title: "Découvrez le pouvoir de l'huile essentielle sur le bien-être",
     paragraph: [
@@ -82,7 +84,9 @@ export const heRelaxante = {
   secondCategory: [getSecondCategoryById("4HuilesEssentielles0MieuxEtre").text],
   picture: "./img/jpg/product/heRelaxante.jpg",
   colors: {
-    textColor: "#9f348b"
+    textColor: "#9f348b",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

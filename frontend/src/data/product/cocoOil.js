@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const cocoOil = {
   nameProduct: "Coco’oil",
+  id: "cocoOil",
+
   summary: {
     title:
       "Un précieux élixir polyvalent, un véritable trésor pour votre santé et votre beauté.",

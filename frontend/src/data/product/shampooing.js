@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const shampooing = {
   nameProduct: "Shampooing",
+  id: "shampooing",
+
   summary: {
     title: "Sublimez vos cheveux avec ce shampooing d’exception.",
     paragraph: [
@@ -85,7 +87,9 @@ export const shampooing = {
   secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
   picture: "./img/jpg/product/shampooing.jpg",
   colors: {
-    textColor: "#808080"
+    textColor: "#808080",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

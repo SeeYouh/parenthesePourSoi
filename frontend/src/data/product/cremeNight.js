@@ -2,6 +2,8 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const cremeNight = {
   nameProduct: "Crème night",
+  id: "cremeNight",
+
   summary: {
     title: "Une régénération cellulaire complète qui vous émerveillera",
     paragraph: [

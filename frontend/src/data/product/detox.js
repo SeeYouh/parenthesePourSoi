@@ -90,33 +90,42 @@ export const detox = {
   ],
   picture: "./img/jpg/product/detox.jpg",
   colors: {
-    textColor: "#7e1450"
+    textColor: "#7e1450",
+    titleColorInSummary: "#4f0d32",
+    bgColorInSummary: "#c37ea5"
   },
   inSummary: [
     {
       id: "DeiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Aide à la perte de poids",
+      text: "Nettoie et détoxifie le corps"
     },
     {
       id: "DeiS1",
       title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      text: "Améliore l’acné, les vergetures, la cellulite, les varices, l’eczéma et le psoriasis."
     },
     {
       id: "DeiS2",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      text: "Booste le système immunitaire de par son action de rééquilibrage de l’organisme."
     },
     {
       id: "DeiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+      title: "Troubles  ",
+      text: "Réduit les soucis de digestion, de constipation, de diarrhée, de ballonnements, de gaz"
     },
     {
       id: "DeiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Redonne une énergie physique</li>
+          <li>Améliore l’humeur</li>
+          <li>Lutte contre la fatigue</li>
+          <li>Favorise un sommeil de qualité</li>
+        </ul>
+      )
     }
   ]
 };

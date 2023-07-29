@@ -88,7 +88,9 @@ export const goutteMinceur = {
   ],
   picture: "./img/jpg/product/goutteMinceur.jpg",
   colors: {
-    textColor: "#e58000"
+    textColor: "#e58000",
+    titleColorInSummary: "#4f2000",
+    bgColorInSummary: "#fde1b5"
   },
   inSummary: [
     {

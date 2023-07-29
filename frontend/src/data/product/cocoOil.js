@@ -75,7 +75,9 @@ export const cocoOil = {
   secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
   picture: "./img/jpg/product/cocoOil.jpg",
   colors: {
-    textColor: "#2c368b"
+    textColor: "#2c368b",
+    titleColorInSummary: "#161b46",
+    bgColorInSummary: "#b6bae2"
   },
   inSummary: [
     {

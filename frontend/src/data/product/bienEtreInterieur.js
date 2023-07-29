@@ -92,7 +92,9 @@ export const bienEtreInterieur = {
   ],
   picture: "./img/jpg/product/bienEtreInterieur.jpg",
   colors: {
-    textColor: "#8a7540"
+    textColor: "#8a7540",
+    titleColorInSummary: "#4e4224",
+    bgColorInSummary: "#e5d1a0"
   },
   inSummary: [
     {

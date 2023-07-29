@@ -83,7 +83,9 @@ export const gg = {
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "./img/jpg/product/GG.jpg",
   colors: {
-    textColor: "#028824"
+    textColor: "#028824",
+    titleColorInSummary: "#014312",
+    bgColorInSummary: "#cffddb"
   },
   inSummary: [
     {

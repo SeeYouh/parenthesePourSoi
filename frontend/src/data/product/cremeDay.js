@@ -80,7 +80,9 @@ export const cremeDay = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "./img/jpg/product/apportMineraux.jpg",
   colors: {
-    textColor: "#0246a4"
+    textColor: "#0246a4",
+    titleColorInSummary: "#003459",
+    bgColorInSummary: "#68a6d0"
   },
   inSummary: [
     {

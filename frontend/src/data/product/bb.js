@@ -25,51 +25,46 @@ export const bb = {
       },
       {
         id: "3BB",
-        subTitle: "Soin cutané",
-        text: "Grâce à son pouvoir régénérateur cellulaire exceptionnel, notre produit réduit efficacement les problèmes cutanés : rougeurs, démangeaisons et psoriasis qui perturbent votre vie quotidienne, vous permettant ainsi de retrouver une peau saine et apaisée. De plus, il diminue l'acné et régule l'excès de sébum, offrant une solution naturelle pour les peaux grasses. Notre formule restreint également les pellicules, vous offrant un cuir chevelu sain et sans démangeaisons. Enfin, notre produit contribue à améliorer le bon fonctionnement du système nerveux, favorisant ainsi votre bien-être global."
-      },
-      {
-        id: "4BB",
         subTitle: "Bien-être global",
         text: "Que vous souhaitiez améliorer votre santé globale ou simplement dynamiser votre routine beauté, ce puissant complément vous procurera une sensation de renouveau et de vitalité."
       },
       {
-        id: "5BB",
+        id: "4BB",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
-        id: "6BB",
+        id: "5BB",
         subTitle: "",
         text: ""
       }
     ],
     youLikeIt: [
       {
-        id: "BBPB0",
+        id: "BB0",
         pictureLove: "./img/jpg/product/PB.jpg",
         textLove: "Le BB peut s’associer avec notre produit d’énergie cacaotée."
       },
       {
-        id: "BBPN1",
+        id: "BB1",
         pictureLove: "./img/jpg/product/PN.jpg",
         textLove:
           "Notre PN pour le saut de repas pour faire de délicieux smoothies."
       },
       {
-        id: "BBShampooing2",
+        id: "BB2",
         pictureLove: "./img/jpg/product/shampooing.jpg",
         textLove:
           "Pour des cheveux brillants, le BB se combine parfaitement bien avec notre shampooing d’exception."
       },
       {
-        id: "BBAprèsShampooing3",
+        id: "BB3",
         pictureLove: "./img/jpg/product/aprèsShampooing.jpg",
         textLove:
           "Pour des cheveux éclatants, notre BB s'associe merveilleusement bien avec notre après-shampooing nourissant."
       },
       {
-        id: "BBCollagene4",
+        id: "BB4",
         pictureLove: "./img/jpg/product/collagene.jpg",
         textLove:
           "Pour un renfort optimal des cheveux et des ongles, le collagène marin est ultra efficace. Il permet de réparer en profondeur."
@@ -80,31 +75,33 @@ export const bb = {
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "./img/jpg/product/bb.jpg",
   colors: {
-    textColor: "#e58000"
+    textColor: "#e58000",
+    titleColorInSummary: "#5c3300",
+    bgColorInSummary: "#eec38d"
   },
   inSummary: [
     {
-      id: "BBiSGP0",
+      id: "BBiS0",
       title: "Gestion du poids",
       text: "Détoxifiant"
     },
     {
-      id: "BBiSPC1",
+      id: "BBiS1",
       title: "Problèmes cutanés",
       text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
     },
     {
-      id: "BBiSS2",
+      id: "BBiS2",
       title: "Santé",
       text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
     },
     {
-      id: "BBiSB3",
+      id: "BBiS3",
       title: "Beauté ",
       text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
     },
     {
-      id: "BBiSBE4",
+      id: "BBiS4",
       title: "Bien-être",
       text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
     }

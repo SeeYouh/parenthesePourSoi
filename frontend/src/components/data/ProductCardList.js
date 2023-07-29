@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from "react";
 
+import { motion } from "framer-motion";
+import { scroller } from "react-scroll";
+
 import ProductCard from "./ProductCard";
 import ProductDetails from "../ProductDetails";
-import { RadioContext } from "../utils/radioContext";
-import { motion } from "framer-motion";
 import { productList } from "../../data/productList";
-import { scroller } from "react-scroll";
+import { RadioContext } from "../utils/radioContext";
 
 const ProductCardList = () => {
   const {

@@ -76,7 +76,9 @@ export const apportVitamines = {
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "./img/jpg/product/apportVitamines.jpg",
   colors: {
-    textColor: "#13af56"
+    textColor: "#13af56",
+    titleColorInSummary: "#013a10",
+    bgColorInSummary: "#9ee1af"
   },
   inSummary: [
     {

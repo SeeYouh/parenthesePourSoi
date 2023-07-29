@@ -100,9 +100,7 @@ export const pb = {
   picture: "./img/jpg/product/apportMineraux.jpg",
   colors: {
     textColor: "#0246a4",
-    linkTextColor: "#0246a4",
-    hoverTextColor: "#3d68a4",
-    linkVisitedTextColor: "#233c5f"
+    linkTextColor: "#0246a4"
   },
   inSummary: [
     {

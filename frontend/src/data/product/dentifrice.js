@@ -46,19 +46,19 @@ export const dentifrice = {
     ],
     youLikeIt: [
       {
-        id: "DDetox0",
+        id: "Dentifrice0",
         pictureLove: "./img/jpg/product/detox.jpg",
         textLove:
           "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
       },
       {
-        id: "DBienEtreInterieux1",
+        id: "Dentifrice1",
         pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
       },
       {
-        id: "DGG2",
+        id: "Dentifrice2",
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
           "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
@@ -69,7 +69,9 @@ export const dentifrice = {
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "./img/jpg/product/dentifrice.jpg",
   colors: {
-    textColor: "#929f95"
+    textColor: "#929f95",
+    titleColorInSummary: "#515852",
+    bgColorInSummary: "#d8e3db"
   },
   inSummary: [
     {

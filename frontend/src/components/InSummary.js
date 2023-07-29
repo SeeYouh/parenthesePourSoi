@@ -5,18 +5,24 @@ const InSummary = ({ productDescription }) => {
   const themeColors = productDescription.product.colors;
 
   return (
-    <ul>
+    <ul className="blockBubleInSummary">
       {productInSummary.map(({ title, text, id }) => (
-        <li key={id}>
+        <li
+          key={id}
+          className="bubleInSummary"
+          style={{
+            backgroundColor: themeColors.bgColorInSummary
+          }}
+        >
           <h4
             style={{
-              color: themeColors.textColor
+              color: themeColors.titleColorInSummary
             }}
-            className="textParagraph"
+            className="titleInSummary"
           >
             {title}
           </h4>
-          <p className="textParagraph">{text}</p>
+          <p className="textInSummary">{text}</p>
         </li>
       ))}
     </ul>

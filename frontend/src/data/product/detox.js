@@ -1,8 +1,9 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const detox = {
-  id: "detox",
   nameProduct: "Détox’",
+  id: "detox",
+
   summary: {
     title: "Nettoyer son corps en profondeur",
     paragraph: [

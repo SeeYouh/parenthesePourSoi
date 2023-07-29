@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const glossRepulpant = {
-  nameProduct: "Gloss repulpant",
+  nameProduct: "Gloss repulpant",  id: "glossRepulpant",
+
   summary: {
     title: "Sublimez vos lèvres et offrez un sourire éblouissant",
     paragraph: [

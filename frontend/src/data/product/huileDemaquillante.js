@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const huileDemaquillante = {
-  nameProduct: "Huile Démaquillante",
+  nameProduct: "Huile Démaquillante",  id: "huileDemaquillante",
+
   summary: {
     title: "Un seul produit pour nettoyer, démaquiller et décontaminer",
     paragraph: [

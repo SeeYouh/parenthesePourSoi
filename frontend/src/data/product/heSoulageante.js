@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heSoulageante = {
-  nameProduct: "HE Soulageante",
+  nameProduct: "HE Soulageante",  id: "heSoulageante",
+
   summary: {
     title: "Des bienfaits multiples pour votre bien-être",
     paragraph: [

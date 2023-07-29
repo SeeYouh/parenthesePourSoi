@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const osMuscle = {
-  nameProduct: "Os et Muscles",
+  nameProduct: "Os et Muscles",  id: "osMuscle",
+
   summary: {
     title:
       "Soutenez votre santé musculaire et osseuse avec notre produit essentiel.",

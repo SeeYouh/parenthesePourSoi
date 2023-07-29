@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const harmonie = {
-  nameProduct: "Harmonie",
+  nameProduct: "Harmonie",  id: "harmonie",
+
   summary: {
     title: "Soutenez votre corps et votre beauté.",
     paragraph: [

@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const volumateurCils = {
-  nameProduct: "Volumateur de Cils",
+  nameProduct: "Volumateur de Cils",  id: "volumateurCils",
+
   summary: {
     title: "Des yeux de biche naturels !",
     paragraph: [

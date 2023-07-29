@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const pb = {
-  nameProduct: "PB",
+  nameProduct: "PB",  id: "pb",
+
   summary: {
     title: "Révélez votre meilleur Vous",
     paragraph: [

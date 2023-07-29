@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heRafraichissant = {
-  nameProduct: "HE Rafraîchissante",
+  nameProduct: "HE Rafraîchissante",  id: "heRafraichissant",
+
   summary: {
     title: "Une huile essentielle polyvalente pour un bien-être intégral.",
     paragraph: [

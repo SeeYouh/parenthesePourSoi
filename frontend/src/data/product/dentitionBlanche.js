@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const dentitionBlanche = {
-  nameProduct: "Dentition blanche",
+  nameProduct: "Dentition blanche",  id: "dentitionBlanche",
+
   summary: {
     title: "Une poudre révolutionnaire en matière de soins dentaires naturels.",
     paragraph: [

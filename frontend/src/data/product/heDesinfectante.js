@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heDesinfectante = {
-  nameProduct: "HE Desinfectante",
+  nameProduct: "HE Desinfectante",  id: "heDesinfectante",
+
   summary: {
     title: "Un allié puissant pour votre santé",
     paragraph: [

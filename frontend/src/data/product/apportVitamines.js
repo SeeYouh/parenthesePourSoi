@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const apportVitamines = {
-  nameProduct: "Apport Vitamines",
+  nameProduct: "Apport Vitamines",  id: "apportVitamines",
+
   summary: {
     title: "Un soutien essentiel pour rester en bonne santé",
     paragraph: [

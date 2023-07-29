@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const serumComplet = {
-  nameProduct: "Sérum complet",
+  nameProduct: "Sérum complet",  id: "serumComplet",
+
   summary: {
     title: "Un sérum complet au 9 brevets pour une efficacité incomparable.",
     paragraph: [

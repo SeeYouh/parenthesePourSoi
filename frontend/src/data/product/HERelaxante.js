@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heRelaxante = {
-  nameProduct: "HE Relaxante",
+  nameProduct: "HE Relaxante",  id: "heRelaxante",
+
   summary: {
     title: "Découvrez le pouvoir de l'huile essentielle sur le bien-être",
     paragraph: [

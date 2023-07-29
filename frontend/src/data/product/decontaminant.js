@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const decontaminant = {
-  nameProduct: "Le décontaminant",
+  nameProduct: "Le décontaminant",  id: "decontaminant",
+
   summary: {
     title: "Une peau resplendissante de beauté",
     paragraph: [

@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const pn = {
-  nameProduct: "PN",
+  nameProduct: "PN",  id: "pn",
+
   summary: {
     title: "Un substitut de repas complet.",
     paragraph: [

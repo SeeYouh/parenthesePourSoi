@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const apportQ10 = {
-  nameProduct: "Apport Q10",
+  nameProduct: "Apport Q10",  id: "apportQ10",
+
   summary: {
     title: "La formule la plus puissante de CoQ10",
     paragraph: [

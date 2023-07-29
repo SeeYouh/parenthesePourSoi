@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const gg = {
-  nameProduct: "GG",
+  nameProduct: "GG",  id: "gg",
+
   summary: {
     title: "Une abondance de bien-être avec notre concentré de légumes",
     paragraph: [

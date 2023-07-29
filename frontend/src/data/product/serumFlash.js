@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const serumFlash = {
-  nameProduct: "Sérum Flash",
+  nameProduct: "Sérum Flash",  id: "serumFlash",
+
   summary: {
     title: "Fini le visage fatigué et endormi",
     paragraph: [

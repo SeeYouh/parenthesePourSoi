@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const masqueNuit = {
-  nameProduct: "Masque de nuit",
+  nameProduct: "Masque de nuit",  id: "masqueNuit",
+
   summary: {
     title:
       "Découvrez ce masque de nuit utilisant la technologie Breathable Barrier®",

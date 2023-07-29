@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const guerisseurMaux = {
-  nameProduct: "Guérisseur de maux",
+  nameProduct: "Guérisseur de maux",  id: "guerisseurMaux",
+
   summary: {
     title: "Un produit aux multiples bienfaits",
     paragraph: [

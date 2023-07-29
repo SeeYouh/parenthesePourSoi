@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const gelNettoyant = {
-  nameProduct: "Gel nettoyant",
+  nameProduct: "Gel nettoyant",  id: "gelNettoyant",
+
   summary: {
     title: "Un produit de soin polyvalent !",
     paragraph: [

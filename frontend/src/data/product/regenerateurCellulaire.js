@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const regenerateurCellulaire = {
-  nameProduct: "Régénérateur cellulaire",
+  nameProduct: "Régénérateur cellulaire",  id: "regenerateurCellulaire",
+
   summary: {
     title: "Un support quotidien.",
     paragraph: [

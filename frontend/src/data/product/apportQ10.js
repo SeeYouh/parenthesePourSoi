@@ -68,7 +68,9 @@ export const apportQ10 = {
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "./img/jpg/product/apportQ10.jpg",
   colors: {
-    textColor: "#da7a2a"
+    textColor: "#da7a2a",
+    titleColorInSummary: "#5a3211",
+    bgColorInSummary: "#edceb4"
   },
   inSummary: [
     {

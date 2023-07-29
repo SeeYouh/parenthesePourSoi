@@ -51,6 +51,7 @@ export const productList = [
   collagenoni,
   cremeDay,
   cremeNight,
+  decontaminant,
   dentifrice,
   detox,
   eauTonique,

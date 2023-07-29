@@ -64,7 +64,9 @@ export const apresShampooing = {
   secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
   picture: "./img/jpg/product/aprèsShampooing.jpg",
   colors: {
-    textColor: "#a5a5a5"
+    textColor: "#a5a5a5",
+    titleColorInSummary: "#4b4b4b",
+    bgColorInSummary: "#cacaca"
   },
   inSummary: [
     {

@@ -80,7 +80,9 @@ export const bb = {
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "./img/jpg/product/bb.jpg",
   colors: {
-    textColor: "#e58000"
+    textColor: "#e58000",
+    titleColorInSummary: "#5c3300",
+    bgColorInSummary: "#eec38d"
   },
   inSummary: [
     {

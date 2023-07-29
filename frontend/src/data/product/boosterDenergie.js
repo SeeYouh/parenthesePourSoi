@@ -90,7 +90,9 @@ export const boosterEnergie = {
   secondCategory: [getSecondCategoryById("3BienEtre3Humeur").text],
   picture: "./img/jpg/product/boosterEnergie.jpg",
   colors: {
-    textColor: "#a81616"
+    textColor: "#a81616",
+    titleColorInSummary: "#5f0c0c",
+    bgColorInSummary: "#e49c9c"
   },
   inSummary: [
     {

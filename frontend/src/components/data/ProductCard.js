@@ -1,5 +1,6 @@
-import { useHover } from "../utils/useHover";
 import { motion } from "framer-motion";
+
+import { useHover } from "../utils/useHover";
 
 const ProductCard = ({ product, onProductClick }) => {
   const [isHovered, hoverProps] = useHover();
@@ -23,6 +24,7 @@ const ProductCard = ({ product, onProductClick }) => {
           <div className="textProductCard">
             <h1
               style={{
+                color: colors.titleColorInSummary,
                 borderBottom: `2px solid ${colors.textColor}`
               }}
             >

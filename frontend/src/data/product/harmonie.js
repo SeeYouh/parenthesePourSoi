@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const harmonie = {
-  nameProduct: "Harmonie",  id: "harmonie",
+  nameProduct: "Harmonie",
+  id: "harmonie",
 
   summary: {
     title: "Soutenez votre corps et votre beauté.",
@@ -88,6 +89,8 @@ export const harmonie = {
   picture: "./img/jpg/product/harmonie.jpg",
   colors: {
     textColor: "#30d1d9",
+    titleColorInSummary: "",
+    bgColorInSummary: "",
     textColor2: "#c433bc"
   },
   inSummary: [

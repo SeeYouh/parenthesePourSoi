@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const pn = {
-  nameProduct: "PN",  id: "pn",
+  nameProduct: "PN",
+  id: "pn",
 
   summary: {
     title: "Un substitut de repas complet.",
@@ -75,7 +76,9 @@ export const pn = {
   ],
   picture: "./img/jpg/product/PN.jpg",
   colors: {
-    textColor: "#e58000"
+    textColor: "#e58000",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

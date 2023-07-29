@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const dentifrice = {
-  nameProduct: "Dentifrice",  id: "dentifrice",
+  nameProduct: "Dentifrice",
+  id: "dentifrice",
 
   summary: {
     title: "Une expérience de soin bucco-dentaire exceptionnelle.",

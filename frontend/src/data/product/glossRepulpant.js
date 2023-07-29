@@ -87,7 +87,9 @@ export const glossRepulpant = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
-    textColor: "#30d1d9",
+    textColor: "#30d1d9",titleColorInSummary: "",
+  bgColorInSummary: "",
+  
     linkTextColor: "#30d1d9",
     titleColorInSummary: "#003459",
     bgColorInSummary: "#68a6d0"

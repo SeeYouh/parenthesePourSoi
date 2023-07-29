@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const bienEtreInterieur = {
-  nameProduct: "Bien-être intérieur",  id: "bienEtreInterieur",
+  nameProduct: "Bien-être intérieur",
+  id: "bienEtreInterieur",
 
   summary: {
     title: "Neutralisez vos toxines",

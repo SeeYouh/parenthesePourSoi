@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const bb = {
-  nameProduct: "BB",  id: "bb",
+  nameProduct: "BB",
+  id: "bb",
 
   summary: {
     title: "Le secret d’un éclat intérieur et extérieur.",

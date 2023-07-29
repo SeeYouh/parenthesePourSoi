@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heSoulageante = {
-  nameProduct: "HE Soulageante",  id: "heSoulageante",
+  nameProduct: "HE Soulageante",
+  id: "heSoulageante",
 
   summary: {
     title: "Des bienfaits multiples pour votre bien-être",
@@ -87,7 +88,9 @@ export const heSoulageante = {
   ],
   picture: "./img/jpg/product/heRelaxante.jpg",
   colors: {
-    textColor: "#9f348b"
+    textColor: "#9f348b",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

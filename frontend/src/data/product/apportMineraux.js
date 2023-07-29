@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const apportMineraux = {
-  nameProduct: "Apport Minéraux",  id: "apportMineraux",
+  nameProduct: "Apport Minéraux",
+  id: "apportMineraux",
 
   summary: {
     title: "Un apport de minéraux sans pareille",

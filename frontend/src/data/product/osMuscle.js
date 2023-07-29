@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const osMuscle = {
-  nameProduct: "Os et Muscles",  id: "osMuscle",
+  nameProduct: "Os et Muscles",
+  id: "osMuscle",
 
   summary: {
     title:
@@ -63,7 +64,7 @@ export const osMuscle = {
         id: "osMuscle0",
         pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
-          "Pour un rééquilibrage total de votre organisme, découvrez notre produit qui agit sur l'ensemble du corps pour favoriser un bien-être général. Combiné à notre huile essentielle, il offre une synergie parfaite pour maximiser les bienfaits sur votre santé. Pour en savoir plus sur ce produit révolutionnaire pour le bien-être et le rééquilibrage total de votre organisme, n'hésitez pas à me contacter."
+          "Notre produit est conçu pour soutenir votre bien-être tout au long de votre vie. Il favorise des fonctions psychologiques normales, augmente votre métabolisme énergétique et améliore votre sommeil pour vous réveiller frais et revitalisé chaque matin. En augmentant l'absorption de vitamines et nutriments essentiels, il contribue à votre santé globale, maintient une glycémie normale et soutient une peau saine. Pour les femmes, il apporte un soulagement pendant les périodes de préménopause et de ménopause, tout en soutenant la fertilité et la reproduction normale."
       },
       {
         id: "osMuscle1",
@@ -95,7 +96,9 @@ export const osMuscle = {
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "./img/jpg/product/osMuscle.jpg",
   colors: {
-    textColor: "#799198"
+    textColor: "#799198",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const masqueNuit = {
-  nameProduct: "Masque de nuit",  id: "masqueNuit",
+  nameProduct: "Masque de nuit",
+  id: "masqueNuit",
 
   summary: {
     title:
@@ -81,7 +82,9 @@ export const masqueNuit = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
-    textColor: "#30d1d9"
+    textColor: "#30d1d9",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

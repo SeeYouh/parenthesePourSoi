@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heRafraichissant = {
-  nameProduct: "HE Rafraîchissante",  id: "heRafraichissant",
+  nameProduct: "HE Rafraîchissante",
+  id: "heRafraichissant",
 
   summary: {
     title: "Une huile essentielle polyvalente pour un bien-être intégral.",
@@ -90,7 +91,9 @@ export const heRafraichissant = {
   ],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
-    textColor: "#30d1d9"
+    textColor: "#30d1d9",
+    titleColorInSummary: "",
+    bgColorInSummary: ""
   },
   inSummary: [
     {

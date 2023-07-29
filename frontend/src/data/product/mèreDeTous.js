@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const mereDeTous = {
-  nameProduct: "Mère de Tous",  id: "mèreDeTous",
+  nameProduct: "Mère de Tous",
+  id: "mèreDeTous",
 
   summary: {
     title: "Un produit breveté et unique.",
@@ -101,6 +102,8 @@ export const mereDeTous = {
   picture: "./img/jpg/product/mereDeTous.jpg",
   colors: {
     textColor: "#e21e1e",
+    titleColorInSummary: "",
+    bgColorInSummary: "",
     borderColor: "1px solid #e21e1e"
   },
   inSummary: [

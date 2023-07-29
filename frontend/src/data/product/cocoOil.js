@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const cocoOil = {
-  nameProduct: "Coco’oil",  id: "cocoOil",
+  nameProduct: "Coco’oil",
+  id: "cocoOil",
 
   summary: {
     title:

@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const boosterEnergie = {
-  nameProduct: "Booster d’énergie",  id: "boosterDenergie",
+  nameProduct: "Booster d’énergie",
+  id: "boosterDenergie",
 
   summary: {
     title: "Un mélange vivifiant pour booster votre journée.",

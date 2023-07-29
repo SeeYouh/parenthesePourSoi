@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const collagenoni = {
-  nameProduct: "Collagènoni",  id: "collagenoni",
+  nameProduct: "Collagènoni",
+  id: "collagenoni",
 
   summary: {
     title: "Un produit de santé globale qui fait rajeunir.",

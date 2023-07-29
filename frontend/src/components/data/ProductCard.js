@@ -16,7 +16,7 @@ const ProductCard = ({ product, onProductClick }) => {
       whileHover={{
         scale: 1.08
       }}
-      key={product.nameProduct}
+      key={product.nameProduct + "0"}
     >
       <div className={productCardClass} {...hoverProps}>
         <div className="productCard">

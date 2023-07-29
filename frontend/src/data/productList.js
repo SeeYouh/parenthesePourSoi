@@ -46,7 +46,6 @@ export const productList = [
   bb,
   boosterEnergie,
   bienEtreInterieur,
-  decontaminant,
   cocoOil,
   collagenoni,
   cremeDay,

@@ -22,7 +22,7 @@ const InSummary = ({ productDescription }) => {
           >
             {title}
           </h4>
-          <p className="textInSummary">{text}</p>
+          <div className="textInSummary">{text}</div>
         </li>
       ))}
     </ul>

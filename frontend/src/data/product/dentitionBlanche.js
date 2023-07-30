@@ -65,8 +65,8 @@ export const dentitionBlanche = {
       }
     ]
   },
-  firstCategory: [getCategoryById("1Sante").name],
-  secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
+  firstCategory: [getCategoryById("2Beaute").name],
+  secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "./img/jpg/product/apportMineraux.jpg",
   colors: {
     textColor: "#0246a4",

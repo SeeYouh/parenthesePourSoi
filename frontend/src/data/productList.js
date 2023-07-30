@@ -12,6 +12,7 @@ import { cremeDay } from "./product/cremeDay";
 import { cremeNight } from "./product/cremeNight";
 import { decontaminant } from "./product/decontaminant";
 import { dentifrice } from "./product/dentifrice";
+import { dentitionBlanche } from "./product/dentitionBlanche";
 import { detox } from "./product/detox";
 import { eauTonique } from "./product/eauTonique";
 import { equilibreCorpsEsprit } from "./product/equilibreCorpsEsprit";
@@ -52,6 +53,7 @@ export const productList = [
   cremeNight,
   decontaminant,
   dentifrice,
+  dentitionBlanche,
   detox,
   eauTonique,
   equilibreCorpsEsprit,

@@ -69,19 +69,37 @@ export const detox = {
         id: "DeGoutteMinceur0",
         pictureLove: "./img/jpg/product/goutteMinceur.jpg",
         textLove:
-          "La détox’ permet de préparer le corps à une perte de poids saine et durable. Vous ne souhaitez pas vous priver de nourriture ? Vous ne pouvez pas faire de sport ? Vous en avez marre des effets yoyo ? Nos gouttes super puissantes vont vous intéresser pour perdre du poids sans frustration et sans effort !"
+          "Grâce à nos gouttes super puissantes, vous allez enfin dire adieu aux effets yoyo et accueillir une silhouette épanouie. Préparez-vous à atteindre vos objectifs de poids et à vous sentir incroyable dans votre corps ! Faites partie de notre communauté de succès et embarquez pour un voyage vers une nouvelle version de vous-même ! Fini les privations alimentaires et les exercices intenses, notre solution vous garantit une expérience sans frustration ni effort."
       },
       {
         id: "DeBienEtreInterieur1",
         pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
         textLove:
-          "Le microbiote est considéré comme le deuxième cerveau humain. Une bonne digestion est importante pour se sentir bien. Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
+          "Le microbiote, souvent appelé le deuxième cerveau humain, joue un rôle crucial dans notre bien-être. Une bonne digestion est essentielle pour se sentir bien. Si vous rencontrez des déséquilibres dans votre système digestif et intestinal, nos pré-probiotiques sont conçus pour réguler efficacement ces problèmes afin de retrouver confort et bien-être au quotidien."
       },
       {
         id: "DeGG2",
         pictureLove: "./img/jpg/product/GG.jpg",
         textLove:
-          "Une autre approche consiste à rétablir l'équilibre de votre organisme en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale. Ce produit est un concentré de nutriments essentiels pour notre corps."
+          "Notre produit est un concentré de légumes et de vitamines essentiels, spécialement conçu pour fournir à votre corps les nutriments dont il a besoin. En optant pour notre détox végétale, vous donnez à votre corps une véritable bouffée d'énergie et de vitalité. Nourrissez votre corps en profondeur avec les bienfaits naturels des légumes et des vitamines, pour une expérience de détoxification incomparable."
+      },
+      {
+        id: "DeGG2",
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "Notre produit est conçu pour faciliter la gestion du poids en substituant vos repas tout en maintenant un équilibre nutritionnel optimal. Il contient des protéines végétales de haute qualité pour une digestion améliorée et une meilleure absorption des nutriments essentiels, favorisant ainsi une perte de poids saine et durable. En ajoutant notre produit à votre routine quotidienne, vous bénéficierez d'un véritable boost d'énergie qui vous accompagnera tout au long de la journée, vous permettant d'aborder vos activités avec vitalité et enthousiasme pour vous sentir pleinement épanoui(e)."
+      },
+      {
+        id: "DeGG2",
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "Le Noni est un puissant allié pour la gestion du poids grâce à son effet sur la combustion des graisses. Il agit également comme un régulateur pour le système digestif, favorisant une digestion harmonieuse. Ses propriétés antioxydantes renforcent le système immunitaire et protègent les cellules contre le stress oxydatif, améliorant ainsi la santé globale. En augmentant l'énergie métabolique, le Noni offre une vitalité renouvelée au quotidien, en faisant un super aliment aux bienfaits étendus même sur les maladies chroniques."
+      },
+      {
+        id: "DeGG2",
+        pictureLove: "./img/jpg/product/GG.jpg",
+        textLove:
+          "Notre produit est un concentré de légumes et de vitamines essentiels, spécialement conçu pour fournir à votre corps les nutriments dont il a besoin. En optant pour notre détox végétale, vous donnez à votre corps une véritable bouffée d'énergie et de vitalité. Nourrissez votre corps en profondeur avec les bienfaits naturels des légumes et des vitamines, pour une expérience de détoxification incomparable."
       }
     ]
   },

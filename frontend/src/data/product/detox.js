@@ -25,6 +25,12 @@ export const detox = {
               alimentation…), s'accumulent dans tout votre corps et sont
               transportées vers les cinq organes
               <span>
+                <style>
+                  {`a:visited { 
+                    color: "#7e1450"; 
+                  }`}
+                </style>
+
                 <a
                   className="btn btn-extLink"
                   href="https://fr.wikipedia.org/wiki/%C3%89monctoire"
@@ -36,12 +42,12 @@ export const detox = {
               </span>
               :
             </p>
-            <ul>
-              <li>la peau</li>
-              <li>le foie</li>
-              <li>les reins</li>
-              <li>les poumons</li>
-              <li>les intestins</li>
+            <ul className="listStyle">
+              <li>- la peau</li>
+              <li>- le foie</li>
+              <li>- les reins</li>
+              <li>- les poumons</li>
+              <li>- les intestins</li>
             </ul>
             <p>
               Lorsque votre organisme est surchargé de toxines, des problèmes de
@@ -139,7 +145,8 @@ export const detox = {
   colors: {
     textColor: "#7e1450",
     titleColorInSummary: "#4f0d32",
-    bgColorInSummary: "#c37ea5"
+    bgColorInSummary: "#c37ea5",
+    linkTextColor: "#7e1450"
   },
   inSummary: [
     {

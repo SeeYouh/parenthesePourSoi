@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const pb = {
-  nameProduct: "PB",  id: "pb",
+  nameProduct: "PB",
+  id: "pb",
 
   summary: {
     title: "Révélez votre meilleur Vous",
@@ -71,7 +72,12 @@ export const pb = {
         pictureLove: "./img/jpg/product/gourdEau.jpg",
         textLove: (
           <span>
-            {"Le Système de Filtration d'Eau est une bouteille en plastique "}
+            {"Le Système de Filtration d'Eau est une bouteille en plastique"}
+            <style>
+              {`a:visited { 
+                    color: "#0246a4"; 
+                  }`}
+            </style>
             <a
               className="btn btn-extLink"
               href="https://fr.wikipedia.org/wiki/Tritan"
@@ -81,7 +87,7 @@ export const pb = {
               Tritan
             </a>
             {
-              " de 740 ml qui vous permet de profiter d'eau potable propre partout où vous allez. Il élimine jusqu'à 99,99 % des microbes, contaminants et produits chimiques, offrant une eau fraîche et propre sans le coût ni les déchets des bouteilles en plastique. Les filtres Puritii sont écologiques, ayant déjà empêché des millions de bouteilles en plastique de finir dans les décharges et les océans. Cette technologie révolutionnaire cible les contaminants biologiques, chimiques et émergents en une seule gorgée grâce à un processus de filtration en deux parties."
+              "de 740 ml qui vous permet de profiter d'eau potable propre partout où vous allez. Il élimine jusqu'à 99,99 % des microbes, contaminants et produits chimiques, offrant une eau fraîche et propre sans le coût ni les déchets des bouteilles en plastique. Les filtres Puritii sont écologiques, ayant déjà empêché des millions de bouteilles en plastique de finir dans les décharges et les océans. Cette technologie révolutionnaire cible les contaminants biologiques, chimiques et émergents en une seule gorgée grâce à un processus de filtration en deux parties."
             }
           </span>
         )
@@ -100,9 +106,9 @@ export const pb = {
   ],
   picture: "./img/jpg/product/apportMineraux.jpg",
   colors: {
-    textColor: "#0246a4",titleColorInSummary: "",
-  bgColorInSummary: "",
-  
+    textColor: "#0246a4",
+    titleColorInSummary: "",
+    bgColorInSummary: "",
     linkTextColor: "#0246a4"
   },
   inSummary: [

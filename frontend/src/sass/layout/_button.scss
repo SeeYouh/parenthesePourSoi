@@ -18,12 +18,14 @@
 
   &:hover {
     transition: all 0.2s;
-    color: $bgColor5;
+    color: black;
   }
 }
 
 .btn-navbar,
 .btn-extLink {
+  padding-left: 5px;
+  padding-right: 5px;
   &:before {
     content: "";
     bottom: -5px;

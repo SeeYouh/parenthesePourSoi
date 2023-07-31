@@ -1,17 +1,13 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
 
-import {
-  AnimatePresence,
-  motion,
-} from 'framer-motion';
-import { useParams } from 'react-router-dom';
+import { AnimatePresence, motion } from "framer-motion";
 
-import { firstCategoryList } from '../../data/firstCategoryList';
-import { RadioContext } from '../utils/radioContext';
+import { firstCategoryList } from "../../data/firstCategoryList";
+import { RadioContext } from "../utils/radioContext";
 
 const SecondCategoryNavBar = () => {
-  const { id } = useParams();
   const {
+    selectedRadio,
     selectedSubRadio,
     isActive,
     setIsActive,
@@ -32,7 +28,7 @@ const SecondCategoryNavBar = () => {
 
   return (
     <AnimatePresence>
-      {id && (
+      {selectedRadio && (
         <motion.div
           className="no-select subCategory"
           initial={{ x: -450 }}
@@ -46,7 +42,7 @@ const SecondCategoryNavBar = () => {
           }}
         >
           {firstCategoryList
-            .filter((category) => category.name.includes(id))
+            .filter((category) => category.name.includes(selectedRadio))
             .map((subCategory) => (
               <aside key={subCategory.id}>
                 <ul>

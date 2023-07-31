@@ -15,7 +15,6 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/category/:id" element={<App />} />
         <Route path="*" element={<PagesError />} />
       </Routes>
     </BrowserRouter>

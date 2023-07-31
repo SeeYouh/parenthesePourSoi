@@ -1,9 +1,11 @@
 import React, { useContext, useEffect } from "react";
 
-import { RadioContext } from "../utils/radioContext";
+import { scroller } from "react-scroll";
+import { useNavigate } from "react-router-dom";
+
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { generalDataImg } from "../../data/generalData";
-import { scroller } from "react-scroll";
+import { RadioContext } from "../utils/radioContext";
 
 const FirstCategoryNavBar = () => {
   const {
@@ -13,6 +15,8 @@ const FirstCategoryNavBar = () => {
     setSelectedProduct,
     setIsActive
   } = useContext(RadioContext);
+
+  const navigate = useNavigate();
 
   useEffect(() => {}, [selectedRadio]);
 
@@ -33,6 +37,10 @@ const FirstCategoryNavBar = () => {
       duration: 1000,
       offset: -125
     });
+  };
+
+  const handleCategoryClick = (id) => {
+    navigate(`/category/${id}`);
   };
 
   return (
@@ -64,6 +72,7 @@ const FirstCategoryNavBar = () => {
               id={menu.name}
               checked={menu.name === selectedRadio}
               onChange={handleCategoryChange}
+              onClick={() => handleCategoryClick(menu.id)}
             />
             <label
               className={`btn btn-navbar ${

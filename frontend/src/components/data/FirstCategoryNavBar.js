@@ -1,15 +1,15 @@
 import React, { useContext, useEffect } from "react";
 
 import { scroller } from "react-scroll";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { generalDataImg } from "../../data/generalData";
 import { RadioContext } from "../utils/radioContext";
 
 const FirstCategoryNavBar = () => {
+  const { id } = useParams();
   const {
-    selectedRadio,
     setSelectedRadio,
     setSelectedSubRadio,
     setSelectedProduct,
@@ -18,7 +18,7 @@ const FirstCategoryNavBar = () => {
 
   const navigate = useNavigate();
 
-  useEffect(() => {}, [selectedRadio]);
+  useEffect(() => {}, [id]);
 
   const handleCategoryChange = (e) => {
     if (e.target.checked) {
@@ -70,14 +70,12 @@ const FirstCategoryNavBar = () => {
               type="checkbox"
               name="categorie"
               id={menu.name}
-              checked={menu.name === selectedRadio}
+              checked={menu.name === id}
               onChange={handleCategoryChange}
               onClick={() => handleCategoryClick(menu.id)}
             />
             <label
-              className={`btn btn-navbar ${
-                menu.name === selectedRadio ? "selected" : ""
-              }`}
+              className={`btn btn-navbar ${menu.name === id ? "selected" : ""}`}
               htmlFor={menu.name}
             >
               {menu.name}

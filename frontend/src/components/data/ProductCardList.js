@@ -130,8 +130,8 @@ const ProductCardList = () => {
     setSelectedProduct,
     isActive,
     setIsActive,
-    selectedSubRadio
-    // setSelectedSubRadio
+    selectedSubRadio,
+    setSelectedSubRadio
   } = useContext(RadioContext);
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

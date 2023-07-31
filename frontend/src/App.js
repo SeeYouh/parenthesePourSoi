@@ -1,14 +1,12 @@
-import Home from "./pages/Home";
-import { RadioProvider } from "./components/utils/radioContext";
 import React from "react";
+
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <RadioProvider>
-      <div className="home">
-        <Home />
-      </div>
-    </RadioProvider>
+    <div className="home">
+      <Home />
+    </div>
   );
 };
 

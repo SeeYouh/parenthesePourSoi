@@ -1,5 +1,6 @@
-import { ProductStyle } from "./utils/ProductStyle";
 import React from "react";
+
+import { ProductStyle } from "./utils/ProductStyle";
 
 const Description = ({ productDescription }) => {
   const themeColors = productDescription.product.colors;
@@ -37,7 +38,7 @@ const Description = ({ productDescription }) => {
                     ))}
                   </ul>
                 ) : (
-                  <p className="textParagraph">{productDescription.text}</p>
+                  <div className="textParagraph">{productDescription.text}</div>
                 )}
               </div>
             )}
@@ -74,9 +75,9 @@ const Description = ({ productDescription }) => {
                         src={productDescription.pictureLove}
                         alt={productDescription.alt}
                       />
-                      <p className="textParagraph">
+                      <div className="textParagraph">
                         {productDescription.textLove}
-                      </p>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -91,7 +92,7 @@ const Description = ({ productDescription }) => {
                   >
                     {productDescription.subTitle}
                   </h3>
-                  <p className="textParagraph">{productDescription.text}</p>
+                  <div className="textParagraph">{productDescription.text}</div>
                 </>
               )
             )}

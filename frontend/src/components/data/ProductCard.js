@@ -12,7 +12,6 @@ const ProductCard = ({ product }) => {
 
   const goToPageAndScroll = async (selector) => {
     const offset = -305;
-    console.log("offset in ProductCard", offset);
     await navigate(`/product/${product.id}`);
     await scroller.scrollTo(selector, {
       duration: 1000,

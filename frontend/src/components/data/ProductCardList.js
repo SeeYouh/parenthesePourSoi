@@ -14,19 +14,11 @@ const ProductCardList = () => {
     setSelectedSubRadio
   } = useContext(RadioContext);
 
-  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
   const handleProductClick = (product) => {
     setSelectedRadio(product.firstCategory[0]);
     setSelectedSubRadio(product.secondCategory[0]);
     setIsActive(true);
   };
-
-  // useEffect(() => {
-  //   const handleResizeWidth = () => setWindowWidth(window.innerWidth);
-  //   window.addEventListener("resize", handleResizeWidth);
-  //   return () => window.removeEventListener("resize", handleResizeWidth);
-  // }, []);
 
   return (
     <div className="arrayProductCardContainer">

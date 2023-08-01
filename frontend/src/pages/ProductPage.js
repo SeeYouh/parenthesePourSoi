@@ -61,7 +61,6 @@ const ProductPage = () => {
 
   const handleSubCategoryProductClick = () => {
     const offset = -125;
-    console.log("offset in ProductPage", offset);
     scroller.scrollTo("bgProductDetails", {
       smooth: "easeInOutQuint",
       duration: 1000,

@@ -47,7 +47,6 @@ const FirstCategoryNavBar = () => {
     }
     goToPageAndScroll("productList");
     const offset = -125;
-    console.log("offset in FirstCategoryNavBar", offset);
     scroller.scrollTo("productList", {
       smooth: "easeInOutQuint",
       duration: 1000,

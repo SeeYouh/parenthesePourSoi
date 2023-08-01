@@ -26,7 +26,6 @@ const ProductDetails = (productDescription) => {
 
   const goToPageAndScroll = async (selector, path) => {
     const offset = -125;
-    console.log("offset in ProductDetails", offset);
     await navigate(path);
     await scroller.scrollTo(selector, {
       duration: 500,

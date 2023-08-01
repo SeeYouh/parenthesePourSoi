@@ -16,9 +16,9 @@ export const gelDouche = {
         id: "1gelDouche",
         subTitle: "Purification et Éclat pour une Beauté Naturelle",
         text: "En plus de son action nettoyante, cette formule agit comme un véritable purificateur. Elle élimine les toxines superficielles qui peuvent ternir l'éclat de votre teint et obstruer vos pores. Avec chaque utilisation, votre peau respire mieux, vous ressentez une sensation de propreté et de légèreté. Votre peau est naturellement belle, éclatante et pleine de vitalité.",
-        picture450: "./img/jpg/product/gelDoucheIllusText450.jpg",
-        picture675: "./img/jpg/product/gelDoucheIllusText675.jpg",
-        picture900: "./img/jpg/product/gelDoucheIllusText900.jpg"
+        picture450: "/img/jpg/product/gelDoucheIllusText450.jpg",
+        picture675: "/img/jpg/product/gelDoucheIllusText675.jpg",
+        picture900: "/img/jpg/product/gelDoucheIllusText900.jpg"
       },
       {
         id: "2gelDouche",
@@ -44,13 +44,13 @@ export const gelDouche = {
     youLikeIt: [
       {
         id: "GDcocoOil0",
-        pictureLove: "./img/jpg/product/cocoOil.jpg",
+        pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
           "Le gel douche combiné à notre huile hydratante permet à votre peau de retrouver confort et hydratation."
       },
       {
         id: "GDregenerateurCellulaire1",
-        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Concernant les problèmes de peau, le gel douche s’associe très souvent à notre chouchou qui régénère les cellules. Ce combo est idéal pour les soucis cutanés."
       }
@@ -58,7 +58,7 @@ export const gelDouche = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-  picture: "./img/jpg/product/gelDouche.jpg",
+  picture: "/img/jpg/product/gelDouche.jpg",
   colors: {
     textColor: "#808080",
     titleColorInSummary: "#474747",

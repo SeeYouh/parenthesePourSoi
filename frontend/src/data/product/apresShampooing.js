@@ -16,9 +16,9 @@ export const apresShampooing = {
         id: "1apresShampooing",
         subTitle: "Soulagement cutané",
         text: "Tout comme le shampooing, notre après-shampooing cible les problèmes cutanés tels que les pellicules, l’eczéma, les rougeurs et les démangeaisons. Il apporte un soulagement instantané en réduisant l'inflammation et favorisant la guérison de la peau. C'est une solution naturelle pour ceux qui cherchent à apaiser leur cuir chevelu et à améliorer la santé de leur peau.",
-        picture450: "./img/jpg/product/ApresShampooingIllusText450.jpg",
-        picture675: "./img/jpg/product/ApresShampooingIllusText675.jpg",
-        picture900: "./img/jpg/product/ApresShampooingIllusText900.jpg"
+        picture450: "/img/jpg/product/ApresShampooingIllusText450.jpg",
+        picture675: "/img/jpg/product/ApresShampooingIllusText675.jpg",
+        picture900: "/img/jpg/product/ApresShampooingIllusText900.jpg"
       },
       {
         id: "2apresShampooing",
@@ -44,19 +44,19 @@ export const apresShampooing = {
     youLikeIt: [
       {
         id: "ASshampooing0",
-        pictureLove: "./img/jpg/product/shampooing.jpg",
+        pictureLove: "/img/jpg/product/shampooing.jpg",
         textLove:
           "Pour une expérience de bien-être complète, découvrez notre shampooing d’exception qui se marie parfaitement avec notre après-shampooing. Ensemble, ils vous offrent une approche globale pour des cheveux soyeux et sains."
       },
       {
         id: "ASbb1",
-        pictureLove: "./img/jpg/product/bb.jpg",
+        pictureLove: "/img/jpg/product/bb.jpg",
         textLove:
           "Le BB est également excellent pour une pousse des ongles et cheveux."
       },
       {
         id: "ASregenerateurCellulaire2",
-        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Pour encore plus d’amélioration au niveau de la peau, notre chouchou est conseillé par tous "
       }
@@ -64,7 +64,7 @@ export const apresShampooing = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
-  picture: "./img/jpg/product/aprèsShampooing.jpg",
+  picture: "/img/jpg/product/aprèsShampooing.jpg",
   colors: {
     textColor: "#a5a5a5",
     titleColorInSummary: "#4b4b4b",

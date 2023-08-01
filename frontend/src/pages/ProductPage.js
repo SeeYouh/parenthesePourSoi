@@ -1,15 +1,30 @@
 import React, { useState } from "react";
 
 import { Element, scroller } from "react-scroll";
+import { motion, useScroll, useSpring } from "framer-motion";
+import { useParams } from "react-router-dom";
 
-import AdditionnalInformation from "./AdditionnalInformation";
-import AsaComplement from "./AsaComplement";
-import Description from "./Description";
-import InSummary from "./InSummary";
+import AdditionnalInformation from "../components/AdditionnalInformation";
+import AsaComplement from "../components/AsaComplement";
+import Description from "../components/Description";
+import FirstCategoryNavBar from "../components/data/FirstCategoryNavBar";
+import InSummary from "../components/InSummary";
+import { productList } from "../data/productList";
+import SecondCategoryNavBar from "../components/data/SecondCategoryNavBar";
 
-const ProductDetails = (productDescription) => {
-  const descriptionName = productDescription.product.nameProduct;
-  const themeColors = productDescription.product.colors;
+const ProductPage = () => {
+  const { id } = useParams();
+  const product = productList.find((product) => product.id === id);
+  const descriptionName = product.nameProduct;
+  const themeColors = product.colors;
+  console.log(descriptionName);
+  console.log(themeColors);
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30
+  });
 
   const subCategoryProduct = [
     "Description",
@@ -31,13 +46,15 @@ const ProductDetails = (productDescription) => {
   };
 
   return (
-    <>
+    <div className="home">
+      <div key={product.nameProduct + "0"}>
+        <FirstCategoryNavBar />
+        <SecondCategoryNavBar />
+        <motion.div className="progressBar" style={{ scaleX }}></motion.div>
+      </div>
       <div className="bgProductDetails" key={descriptionName}>
         <div className="imgProduit">
-          <img
-            src={productDescription.product.picture}
-            alt={productDescription.product.alt}
-          />
+          <img src={product.picture} alt={product.alt} />
         </div>
         <div className="titleTextProduct">
           <h1
@@ -45,7 +62,7 @@ const ProductDetails = (productDescription) => {
               color: themeColors.textColor
             }}
           >
-            {productDescription.product.nameProduct}
+            {product.nameProduct}
           </h1>
           <h2
             style={{
@@ -54,7 +71,7 @@ const ProductDetails = (productDescription) => {
               borderBottomLeftRadius: "20px"
             }}
           >
-            {productDescription.product.summary.title}
+            {product.summary.title}
           </h2>
         </div>
       </div>
@@ -83,18 +100,17 @@ const ProductDetails = (productDescription) => {
         </div>
       </Element>
       {selectedCategoryProduct === "Description" && (
-        <Description productDescription={productDescription} />
+        <Description product={product} />
       )}
-      {selectedCategoryProduct === "Résumé" && (
-        <InSummary productDescription={productDescription} />
-      )}
+      {selectedCategoryProduct === "Résumé" && <InSummary product={product} />}
       {selectedCategoryProduct === "En complément" && (
-        <AsaComplement productDescription={productDescription} />
+        <AsaComplement product={product} />
       )}
       {selectedCategoryProduct === "Informations supplémentaires" && (
-        <AdditionnalInformation productDescription={productDescription} />
+        <AdditionnalInformation product={product} />
       )}
-    </>
+    </div>
   );
 };
-export default ProductDetails;
+
+export default ProductPage;

@@ -1,7 +1,8 @@
 import React from "react";
 
-export const ProductStyle = ({ productDescription }) => {
-  const themeColors = productDescription.product.colors;
+export const ProductStyle = ({ product }) => {
+  const themeColors = product.colors;
+  console.log("ProductStyle", themeColors);
 
   return (
     <style>

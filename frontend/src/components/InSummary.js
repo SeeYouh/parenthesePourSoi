@@ -1,8 +1,8 @@
 import React from "react";
 
-const InSummary = ({ productDescription }) => {
-  const productInSummary = productDescription.product.inSummary;
-  const themeColors = productDescription.product.colors;
+const InSummary = ({ product }) => {
+  const productInSummary = product.inSummary;
+  const themeColors = product.colors;
 
   return (
     <ul className="blockBubleInSummary">

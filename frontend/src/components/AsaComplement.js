@@ -1,19 +1,19 @@
 import React from "react";
 
-const AsaComplement = ({ productDescription }) => {
-  const productYouLikeIt = productDescription.product.summary.youLikeIt;
+const AsaComplement = ({ product }) => {
+  const productYouLikeIt = product.summary.youLikeIt;
 
   return (
     <ul>
       <div className="youWillLikeIt">
-        {productYouLikeIt.map((productDescription) => (
-          <div className="youWillLikeIt-content" key={productDescription.id}>
+        {productYouLikeIt.map((product) => (
+          <div className="youWillLikeIt-content" key={product.id}>
             <img
               className="imgYouWillLikeIt"
-              src={productDescription.pictureLove}
-              alt={productDescription.alt}
+              src={product.pictureLove}
+              alt={product.alt}
             />
-            <p className="textParagraph">{productDescription.textLove}</p>
+            <p className="textParagraph">{product.textLove}</p>
           </div>
         ))}
       </div>

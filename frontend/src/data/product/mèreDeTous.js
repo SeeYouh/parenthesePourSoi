@@ -20,9 +20,9 @@ export const mereDeTous = {
           "Imaginez un monde sans douleur. C'est ce que cette formule unique offre. Composée de superaliments aux propriétés anti-inflammatoires, elle soulage efficacement les douleurs musculaires, osseuses, articulaires et les affections chroniques. Elle offre une alternative naturelle aux médicaments traditionnels, sans les effets secondaires indésirables.",
           "De plus, dans un monde où les maladies sont omniprésentes, une défense immunitaire solide est essentielle. Ce produit renforce votre système immunitaire et protège vos cellules, favorisant une santé optimale. Il est particulièrement utile pour une récupération rapide lors de rhumes ou de périodes de pandémie."
         ],
-        picture450: "./img/jpg/product/MereDeTousIllusText450.jpg",
-        picture675: "./img/jpg/product/MereDeTousIllusText675.jpg",
-        picture900: "./img/jpg/product/MereDeTousIllusText900.jpg"
+        picture450: "/img/jpg/product/MereDeTousIllusText450.jpg",
+        picture675: "/img/jpg/product/MereDeTousIllusText675.jpg",
+        picture900: "/img/jpg/product/MereDeTousIllusText900.jpg"
       },
       {
         id: "2mereDeTous",
@@ -67,31 +67,31 @@ export const mereDeTous = {
     youLikeIt: [
       {
         id: "mereDeTous0",
-        pictureLove: "./img/jpg/product/HERafraichissant.jpg",
+        pictureLove: "/img/jpg/product/HERafraichissant.jpg",
         textLove:
           "Réputée pour son action rapide sur les douleurs musculaires, notre essentielle bleue fait une parfaite alliance naturelle. Elle offre un réconfort immédiat pour vos muscles endoloris, favorisant une récupération rapide et vous permettant de reprendre vos activités avec une nouvelle énergie."
       },
       {
         id: "mereDeTous1",
-        pictureLove: "./img/jpg/product/ApportMineraux.jpg",
+        pictureLove: "/img/jpg/product/ApportMineraux.jpg",
         textLove:
           "Pour un soutien accru à votre système musculosquelettique et nerveux, n'hésitez pas à associer notre produit avec notre complément spécialement formulé à base de minéraux spécifiques. Cette combinaison renforce l'action sur les muscles, les os et les nerfs, fournissant ainsi une approche complète pour un bien-être optimal."
       },
       {
         id: "mereDeTous2",
-        pictureLove: "./img/jpg/product/ApportVitamines.jpg",
+        pictureLove: "/img/jpg/product/ApportVitamines.jpg",
         textLove:
           "Pour une prise en charge globale des douleurs musculaires et nerveuses, associer notre produit avec notre complément spécialement enrichi en vitamines soigneusement sélectionnées. Cette synergie vous offre une approche naturelle pour soulager et prévenir les inconforts tout en soutenant le bien-être de votre système neuromusculaire."
       },
       {
         id: "mereDeTous3",
-        pictureLove: "./img/jpg/product/osMuscle.jpg",
+        pictureLove: "/img/jpg/product/osMuscle.jpg",
         textLove:
           "Un autre de nos produits contient des ingrédients aux propriétés anti-inflammatoires qui agissent en synergie pour soulager vos articulations douloureuses, vous permettant de retrouver votre mobilité et votre confort. Grâce à sa capacité à stimuler la production de collagène, il favorise des gencives saines et des os solides."
       },
       {
         id: "mereDeTous4",
-        pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
+        pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Les douleurs peuvent avoir des répercussions sur le sommeil. Une nuit saccadée peut avoir des effets néfastes sur votre humeur. Consultez notre produit naturel conçu pour favoriser un sommeil récupérateur afin de vous offrir des nuits paisibles et revitalisantes, propices à une journée pleine d'énergie et de bien-être."
       }
@@ -99,7 +99,7 @@ export const mereDeTous = {
   },
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
-  picture: "./img/jpg/product/mereDeTous.jpg",
+  picture: "/img/jpg/product/mereDeTous.jpg",
   colors: {
     textColor: "#e21e1e",
     titleColorInSummary: "",

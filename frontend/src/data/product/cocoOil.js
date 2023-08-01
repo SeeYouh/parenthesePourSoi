@@ -17,9 +17,9 @@ export const cocoOil = {
         id: "1cocoOil",
         subTitle: "Cicatrisation naturelle",
         text: "De plus, elle possède des vertus cicatrisantes, idéales pour favoriser la guérison des blessures cutanées. Les coups de soleil, les brûlures, les rougeurs ou les irritations liées au rasage sont apaisés efficacement. Vous serez également surpris de constater que notre élixir peut enlever les croûtes de lait chez les tout-petits, offrant ainsi un soulagement aux parents soucieux du bien-être de leur enfant. Les démangeaisons dues au psoriasis ou à l'eczéma sont également atténuées, offrant un soulagement bienvenu à ceux qui souffrent de ces affections cutanées.",
-        picture450: "./img/jpg/product/CocoIllusText450.jpg",
-        picture675: "./img/jpg/product/CocoIllusText675.jpg",
-        picture900: "./img/jpg/product/CocoIllusText900.jpg"
+        picture450: "/img/jpg/product/CocoIllusText450.jpg",
+        picture675: "/img/jpg/product/CocoIllusText675.jpg",
+        picture900: "/img/jpg/product/CocoIllusText900.jpg"
       },
       {
         id: "2cocoOil",
@@ -55,19 +55,19 @@ export const cocoOil = {
     youLikeIt: [
       {
         id: "COGelNettoyant0",
-        pictureLove: "./img/jpg/product/gelNettoyant.jpg",
+        pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Pour les problèmes cutanés, je vous suggère d'essayer notre gel nettoyant hydratant, reconnu pour ses résultats impressionnants."
       },
       {
         id: "CORegenerateurCellulaire1",
-        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Je vous recommande également notre produit favori, qui est exceptionnel pour régénérer les cellules de votre peau."
       },
       {
         id: "COALLHE2",
-        pictureLove: "./img/jpg/product/AllHE.jpg",
+        pictureLove: "/img/jpg/product/AllHE.jpg",
         textLove:
           "Pour l’utilisation des huiles essentielles, il est conseillé de les diluer dans notre huile hydratante."
       }
@@ -75,7 +75,7 @@ export const cocoOil = {
   },
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
-  picture: "./img/jpg/product/cocoOil.jpg",
+  picture: "/img/jpg/product/cocoOil.jpg",
   colors: {
     textColor: "#2c368b",
     titleColorInSummary: "#161b46",

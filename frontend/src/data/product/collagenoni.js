@@ -16,9 +16,9 @@ export const collagenoni = {
         id: "1Collagènoni",
         subTitle: "Vieillissement cutané",
         text: "A partir de l’âge de 25 ans, nous perdons environ 1% de collagène chaque année. Cette protéine n’est pas renouvelée naturellement. C’est ce que l’on appelle le vieillissement cutané. C'est à ce stade que l'on peut commencer à remarquer l'apparition de ridules, de rides et une perte de fermeté de la peau. Nous pouvons également ressentir des douleurs musculaires, articulaires et osseuses.",
-        picture675: "./img/jpg/product/CollagenoniIllusText675.jpg",
-        picture450: "./img/jpg/product/CollagenoniIllusText450.jpg",
-        picture900: "./img/jpg/product/CollagenoniIllusText900.jpg"
+        picture675: "/img/jpg/product/CollagenoniIllusText675.jpg",
+        picture450: "/img/jpg/product/CollagenoniIllusText450.jpg",
+        picture900: "/img/jpg/product/CollagenoniIllusText900.jpg"
       },
       {
         id: "2Collagènoni",
@@ -64,19 +64,19 @@ export const collagenoni = {
     youLikeIt: [
       {
         id: "CnApportQ100",
-        pictureLove: "./img/jpg/product/apportQ10.jpg",
+        pictureLove: "/img/jpg/product/apportQ10.jpg",
         textLove:
           "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
       },
       {
         id: "CnGelNettoyant1",
-        pictureLove: "./img/jpg/product/gelNettoyant.jpg",
+        pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
       },
       {
         id: "CnSerumFlash2",
-        pictureLove: "./img/jpg/product/serumFlash.jpg",
+        pictureLove: "/img/jpg/product/serumFlash.jpg",
         textLove:
           "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
       }
@@ -84,7 +84,7 @@ export const collagenoni = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "./img/jpg/product/collagene.jpg",
+  picture: "/img/jpg/product/collagene.jpg",
   colors: {
     textColor: "#9f348b",
     titleColorInSummary: "#45173c",

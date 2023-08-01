@@ -16,9 +16,9 @@ export const goutteMinceur = {
         id: "1goutteMinceur",
         subTitle: "Gestion du Poids Efficace avec les Gouttes Jour",
         text: "Avec ses deux fioles uniques sous forme de gouttes, ce produit offre un avantage de pointe dans votre cure minceur. Les gouttes jour vous offrent une solution complète pour une gestion efficace du poids. Elles régulent votre appétit et vous procurent un effet de satiété durable, vous aidant à contrôler vos portions alimentaires et à éviter les fringales incontrôlées. De plus, notre formule puissante cible les graisses sous-cutanées et viscérales, celles qui sont difficiles à éliminer même avec un exercice physique intense. Vous serez surpris(e) par la capacité de notre produit à brûler ces graisses tenaces, vous permettant ainsi d'atteindre vos objectifs de perte de poids de manière efficace.",
-        picture450: "./img/jpg/product/gouttesIllusText450.jpg",
-        picture675: "./img/jpg/product/gouttesIllusText675.jpg",
-        picture900: "./img/jpg/product/gouttesIllusText900.jpg"
+        picture450: "/img/jpg/product/gouttesIllusText450.jpg",
+        picture675: "/img/jpg/product/gouttesIllusText675.jpg",
+        picture900: "/img/jpg/product/gouttesIllusText900.jpg"
       },
       {
         id: "2goutteMinceur",
@@ -54,31 +54,31 @@ export const goutteMinceur = {
     youLikeIt: [
       {
         id: "GMIdetox0",
-        pictureLove: "./img/jpg/product/detox.jpg",
+        pictureLove: "/img/jpg/product/detox.jpg",
         textLove:
           "Pour une cure minceur efficace, nous recommandons de faire une détoxification du corps afin de le préparer à une perte de poids saine et durable."
       },
       {
         id: "GMiboosterEnergie1",
-        pictureLove: "./img/jpg/product/boosterEnergie.jpg",
+        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Pour brûler encore plus de graisses et avoir une énergie boostée, notre booster d’énergie sera idéal car il permet la combustion des graisses de +17% tout en apportant bonne humeur et énergie. "
       },
       {
         id: "GMibienEtreInterieur2",
-        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
       },
       {
         id: "GMiGG3",
-        pictureLove: "./img/jpg/product/GG.jpg",
+        pictureLove: "/img/jpg/product/GG.jpg",
         textLove:
           "Si vous cherchez un apport supplémentaire de légumes et de vitamines, optez pour notre détox végétale. C'est une solution naturelle pour enrichir votre alimentation et soutenir votre bien-être général."
       },
       {
         id: "GMiregenerateurCellulaire4",
-        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Une perte de poids peut entraîner des changements au niveau de la peau. Afin de remédier à ça, le chouchou sera idéal."
       }
@@ -88,7 +88,7 @@ export const goutteMinceur = {
   secondCategory: [
     getSecondCategoryById("0GestionDuPoids1AidePertePoids").text
   ],
-  picture: "./img/jpg/product/goutteMinceur.jpg",
+  picture: "/img/jpg/product/goutteMinceur.jpg",
   colors: {
     textColor: "#e58000",
     titleColorInSummary: "#4f2000",

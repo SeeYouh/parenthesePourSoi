@@ -16,9 +16,9 @@ export const heRafraichissant = {
         id: "1heRafraichissant",
         subTitle: "Un confort respiratoire et cutané",
         text: "La respiration est essentielle à la vie, mais elle peut être entravée par des problèmes tels que la congestion ou les allergies. Notre huile essentielle rafraîchissante est là pour vous aider. Elle apaise les toux, dégage les voies respiratoires et procure une sensation de fraîcheur, vous permettant de respirer librement et facilement. Quelques gouttes dans un diffuseur peuvent aider à purifier l'air et à faciliter la respiration. De plus, notre huile essentielle peut aider à apaiser les démangeaisons, réduire les rougeurs et calmer les piqûres d'insectes. Elle peut être appliquée directement sur la peau ou diluée dans une huile de support pour un soulagement rapide et efficace. De plus, ses propriétés régulatrices aident à contrôler la transpiration excessive, vous permettant de vous sentir plus frais et plus confiant.",
-        picture450: "./img/jpg/product/HErafraichssantIllusText450.jpg",
-        picture675: "./img/jpg/product/HErafraichssantIllusText675.jpg",
-        picture900: "./img/jpg/product/HErafraichssantIllusText900.jpg"
+        picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
+        picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
+        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
       },
       {
         id: "2heRafraichissant",
@@ -49,37 +49,37 @@ export const heRafraichissant = {
     youLikeIt: [
       {
         id: "heRafraichissant0",
-        pictureLove: "./img/jpg/product/cocoOil.jpg",
+        pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
           "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau"
       },
       {
         id: "heRafraichissant1",
-        pictureLove: "./img/jpg/product/PB.jpg",
+        pictureLove: "/img/jpg/product/PB.jpg",
         textLove:
           "Je conseille vivement aux sportifs d'explorer notre produit destiné à la récupération musculaire et à l'amélioration des performances, qui offre une énergie stimulante à base de cacao."
       },
       {
         id: "heRafraichissant2",
-        pictureLove: "./img/jpg/product/mereDeTous.jpg",
+        pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
           "Elle s'associe parfaitement à notre anti-inflammatoire naturel, offrant ainsi une solution complète pour gérer les douleurs liées à l'activité physique."
       },
       {
         id: "heRafraichissant3",
-        pictureLove: "./img/jpg/product/heRelaxante.jpg",
+        pictureLove: "/img/jpg/product/heRelaxante.jpg",
         textLove:
           "L'huile essentielle Relaxante présente de nombreux bienfaits pour la santé mentale en apaisant la dépression, réduisant l'anxiété et le stress, et favorisant une sensation de bien-être. Son parfum relaxant aide à calmer l'esprit et procure une sensation de tranquillité intérieure. Elle s'avère également efficace pour favoriser l'endormissement, améliorer la qualité du sommeil, et apaiser les irritations cutanées, offrant un soulagement rapide et apaisant. Une utilisation régulière permet de détendre les muscles de la mâchoire et de réduire le grincement de dents."
       },
       {
         id: "heRafraichissant4",
-        pictureLove: "./img/jpg/product/heDesinfectante.jpg",
+        pictureLove: "/img/jpg/product/heDesinfectante.jpg",
         textLove:
           "L'huile essentielle Désinfectante est un remède naturel puissant pour combattre les infections et maintenir un environnement sain. Elle agit efficacement contre les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies. Elle soulage également les douleurs dentaires, apaise les problèmes cutanés et diminue les inconforts causés par les piqûres d'insectes. En plus de ses bienfaits pour la santé, elle peut contribuer à la gestion du poids en détoxifiant le corps et en favorisant un système digestif sain. Enfin, son parfum agréable et ses propriétés apaisantes en font un allié précieux pour améliorer l'humeur et favoriser la relaxation."
       },
       {
         id: "heRafraichissant5",
-        pictureLove: "./img/jpg/product/heSoulageante.jpg",
+        pictureLove: "/img/jpg/product/heSoulageante.jpg",
         textLove:
           "Cette huile essentielle possède de nombreuses propriétés curatives, soulageant les maux de tête et les symptômes des maladies saisonnières. Elle a des effets positifs sur le bien-être en diminuant l'anxiété, en augmentant la vivacité mentale et en améliorant l'humeur. Elle aide à soulager les tensions corporelles et les irritations cutanées, ainsi que les douleurs associées au grincement de dents. De plus, elle repousse les poux et les moustiques, offrant une protection naturelle contre ces nuisibles."
       }
@@ -89,7 +89,7 @@ export const heRafraichissant = {
   secondCategory: [
     getSecondCategoryById("4HuilesEssentielles2MauxDivers").text
   ],
-  picture: "./img/jpg/product/heRafraichissant.jpg",
+  picture: "/img/jpg/product/heRafraichissant.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "",

@@ -16,9 +16,9 @@ export const dentifrice = {
         id: "1Dentifrice",
         subTitle: "Gencives saines",
         text: "Il est enrichi en extraits de plantes sélectionnés pour leurs propriétés apaisantes et antibactériennes. Ces ingrédients naturels travaillent en synergie pour aider à maintenir vos gencives en bonne santé et revitalisées. Ils combattent les bactéries qui peuvent causer des problèmes de gencives et apaisent les inflammations, favorisant ainsi une bouche saine et un sourire éclatant. Que vous cherchiez à prévenir les problèmes de gencives ou à soutenir une santé buccale déjà optimale, notre produit offre une solution naturelle et efficace.",
-        picture675: "./img/jpg/product/dentifriceIllusText675.jpg",
-        picture450: "./img/jpg/product/dentifriceIllusText450.jpg",
-        picture900: "./img/jpg/product/dentifriceIllusText900.jpg"
+        picture675: "/img/jpg/product/dentifriceIllusText675.jpg",
+        picture450: "/img/jpg/product/dentifriceIllusText450.jpg",
+        picture900: "/img/jpg/product/dentifriceIllusText900.jpg"
       },
       {
         id: "2Dentifrice",
@@ -49,19 +49,19 @@ export const dentifrice = {
     youLikeIt: [
       {
         id: "Dentifrice0",
-        pictureLove: "./img/jpg/product/detox.jpg",
+        pictureLove: "/img/jpg/product/detox.jpg",
         textLove:
           "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
       },
       {
         id: "Dentifrice1",
-        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
       },
       {
         id: "Dentifrice2",
-        pictureLove: "./img/jpg/product/GG.jpg",
+        pictureLove: "/img/jpg/product/GG.jpg",
         textLove:
           "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
       }
@@ -69,7 +69,7 @@ export const dentifrice = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-  picture: "./img/jpg/product/dentifrice.jpg",
+  picture: "/img/jpg/product/dentifrice.jpg",
   colors: {
     textColor: "#929f95",
     titleColorInSummary: "#515852",

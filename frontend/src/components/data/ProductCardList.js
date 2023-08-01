@@ -2,16 +2,14 @@ import React, { useContext, useEffect, useState } from "react";
 
 import { motion } from "framer-motion";
 import { scroller } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 import ProductCard from "./ProductCard";
-import ProductDetails from "../ProductDetails";
 import { productList } from "../../data/productList";
 import { RadioContext } from "../utils/radioContext";
 
 const ProductCardList = () => {
   const {
-    selectedProduct,
-    setSelectedProduct,
     isActive,
     setIsActive,
     selectedRadio,
@@ -22,8 +20,9 @@ const ProductCardList = () => {
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
+  const navigate = useNavigate();
+
   const handleProductClick = (product) => {
-    setSelectedProduct(product);
     setSelectedRadio(product.firstCategory[0]);
     setSelectedSubRadio(product.secondCategory[0]);
     setIsActive(true);
@@ -32,6 +31,7 @@ const ProductCardList = () => {
       duration: 1000,
       offset: -125
     });
+    navigate(`/product/${product.id}`);
   };
 
   useEffect(() => {
@@ -58,8 +58,7 @@ const ProductCardList = () => {
               ? 150
               : isActive && windowWidth >= 1240
               ? 200
-              : 0,
-          display: selectedProduct ? "none" : "flex"
+              : 0
         }}
         className="arrayProductCard"
       >
@@ -80,16 +79,6 @@ const ProductCardList = () => {
               onProductClick={handleProductClick}
             />
           ))}{" "}
-      </motion.div>
-      <motion.div
-        initial={{ width: "0%" }}
-        animate={{
-          width: selectedProduct ? "90vw" : "0%", // Utilise toute la largeur lorsqu'un produit est sélectionné
-          display: selectedProduct ? "block" : "none" // Affiche les détails lorsque un produit est sélectionné
-        }}
-        className="productDetailsContainer"
-      >
-        {selectedProduct ? <ProductDetails product={selectedProduct} /> : null}
       </motion.div>
     </div>
   );

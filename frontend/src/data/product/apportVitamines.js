@@ -21,9 +21,9 @@ export const apportVitamines = {
           "Les nutriments contenus dans notre formule aident à maintenir la santé de vos vaisseaux sanguins. Ils réduisent l'inflammation et favorisent une circulation sanguine optimale, garantissant ainsi un approvisionnement adéquat en nutriments essentiels dans tout votre corps.",
           "En plus de prendre soin de votre peau, notre produit contribue également à renforcer votre cœur et vos poumons. Il favorise une meilleure fonction cardiaque et pulmonaire, vous permettant ainsi de bénéficier d'une santé cardiovasculaire optimale."
         ],
-        picture450: "./img/jpg/product/apportVitaminesIllusText450.jpg",
-        picture675: "./img/jpg/product/apportVitaminesIllusText675.jpg",
-        picture900: "./img/jpg/product/apportVitaminesIllusText900.jpg"
+        picture450: "/img/jpg/product/apportVitaminesIllusText450.jpg",
+        picture675: "/img/jpg/product/apportVitaminesIllusText675.jpg",
+        picture900: "/img/jpg/product/apportVitaminesIllusText900.jpg"
       },
       {
         id: "2apportVitamines",
@@ -44,31 +44,31 @@ export const apportVitamines = {
     youLikeIt: [
       {
         id: "avapportMineraux0",
-        pictureLove: "./img/jpg/product/apportMineraux.jpg",
+        pictureLove: "/img/jpg/product/apportMineraux.jpg",
         textLove:
           "Dans le cas de nombreuses pathologies, ce concentré de vitamines est associé à notre produit contenant des minéraux et des oligo-éléments qui est un véritable allié pour vos yeux, votre cœur, vos poumons et votre peau grâce à ses propriétés anti-inflammatoires naturelles."
       },
       {
         id: "avmereDeTous1",
-        pictureLove: "./img/jpg/product/mereDeTous.jpg",
+        pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
           "Un autre produit idéal pour soulager les douleurs. Il est composé d'ingrédients aux propriétés anti-inflammatoires naturelles pour une expérience apaisante. Il vous permet de trouver le confort et l'équilibre dont vous avez besoin au quotidien."
       },
       {
         id: "avboosterEnergie2",
-        pictureLove: "./img/jpg/product/boosterEnergie.jpg",
+        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Une formule tout-en-un pour un bien-être amélioré. Ce booster d’énergie combat efficacement la fatigue et améliore la qualité de votre sommeil pour vous réveiller en pleine forme. C’est un allié pour soulager le stress, l'anxiété et le surmenage grâce à ses ingrédients naturels apaisants."
       },
       {
         id: "avregenerateurCellulaire3",
-        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre régénérateur cellulaire, une solution exceptionnelle pour améliorer la qualité de la peau, soulage également les allergies et l'asthme. Retrouvez une peau éclatante et une respiration apaisée grâce à notre produit bienfaisant."
       },
       {
         id: "avcollagene4",
-        pictureLove: "./img/jpg/product/collagene.jpg",
+        pictureLove: "/img/jpg/product/collagene.jpg",
         textLove:
           "Bien plus qu'un atout pour la peau, le collagène soutient votre corps de manière globale. Il fortifie vos os pour une mobilité harmonieuse, renforce vos dents pour une santé bucco-dentaire optimale et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Offrez à votre corps la vitalité qu'il mérite grâce à notre précieux collagène."
       }
@@ -76,7 +76,7 @@ export const apportVitamines = {
   },
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
-  picture: "./img/jpg/product/apportVitamines.jpg",
+  picture: "/img/jpg/product/apportVitamines.jpg",
   colors: {
     textColor: "#13af56",
     titleColorInSummary: "#013a10",

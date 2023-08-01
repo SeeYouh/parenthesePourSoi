@@ -20,9 +20,9 @@ export const boosterEnergie = {
           "En favorisant la bonne humeur et la gaieté, notre booster d'énergie contribue à une vision positive de la vie, vous aidant à aborder les défis quotidiens avec un état d'esprit positif. De plus, il est votre allié de confiance pour diminuer le stress, l'anxiété et le surmenage, vous permettant de vous sentir léger(e) et détendu(e) au quotidien.",
           "En parallèle, ce produit exceptionnel combat les manifestations allergiques, vous offrant un soulagement bienvenu face aux irritations et inconforts. Il favorise également une digestion saine en optimisant le fonctionnement de vos organes et améliorant le transit intestinal, vous permettant de vous sentir bien dans votre corps et dans votre esprit."
         ],
-        picture450: "./img/jpg/product/BEIllusText450.jpg",
-        picture675: "./img/jpg/product/BEIllusText675.jpg",
-        picture900: "./img/jpg/product/BEIllusText900.jpg"
+        picture450: "/img/jpg/product/BEIllusText450.jpg",
+        picture675: "/img/jpg/product/BEIllusText675.jpg",
+        picture900: "/img/jpg/product/BEIllusText900.jpg"
       },
       {
         id: "2boosterEnergie",
@@ -58,31 +58,31 @@ export const boosterEnergie = {
     youLikeIt: [
       {
         id: "BdEGoutteMinceur0",
-        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Pour une cure minceur, ce booster d’énergie fonctionne en synergie parfaite avec nos gouttes minceur naturelles, conçues pour brûler efficacement les graisses sous-cutanées et viscérales, tout en bloquant le stockage des graisses indésirables."
       },
       {
         id: "BdEHarmonie1",
-        pictureLove: "./img/jpg/product/harmonie.jpg",
+        pictureLove: "/img/jpg/product/harmonie.jpg",
         textLove:
           "Pour un bien-être psychologique et la prévention du burn-out, ce produit s'associe idéalement à un autre de nos produits. Une combinaison parfaite pour retrouver l'équilibre intérieur et une sérénité épanouissante."
       },
       {
         id: "BdERegenerateurCellulaire2",
-        pictureLove: "./img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Pour les problèmes d’ordre cutané, notre produit chouchou régénérateur cellulaire est un véritable miracle pour votre peau. Une expérience naturelle et revitalisante pour une peau éclatante et rayonnante."
       },
       {
         id: "BdEOsMuscle3",
-        pictureLove: "./img/jpg/product/osMuscle.jpg",
+        pictureLove: "/img/jpg/product/osMuscle.jpg",
         textLove:
           "Vous vous sentez stressée ? Anxieuse ? Un apport en magnésium est essentiel pour contrer les effets néfastes du stress sur votre corps. Découvrez une expérience apaisante pour retrouver équilibre et bien-être."
       },
       {
         id: "BdEEquilibreCorpsEsprit4",
-        pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
+        pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Parfois, la fatigue est associée à un manque de sommeil ou un repos non récupérateur. Notre produit naturel est spécialement conçu pour vous offrir un sommeil profond et réparateur. Plongez dans des nuits paisibles et revitalisantes qui vous donneront l'énergie et le bien-être nécessaires pour une journée épanouissante."
       }
@@ -90,7 +90,7 @@ export const boosterEnergie = {
   },
   firstCategory: [getCategoryById("3BienEtre").name],
   secondCategory: [getSecondCategoryById("3BienEtre3Humeur").text],
-  picture: "./img/jpg/product/boosterEnergie.jpg",
+  picture: "/img/jpg/product/boosterEnergie.jpg",
   colors: {
     textColor: "#a81616",
     titleColorInSummary: "#5f0c0c",

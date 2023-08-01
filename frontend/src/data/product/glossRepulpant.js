@@ -21,9 +21,9 @@ export const glossRepulpant = {
           "En plus de ses propriétés repulpantes et anti-âge, notre gloss est enrichi d'ingrédients rafraîchissants qui procurent une sensation délicieusement fraîche dès l'application. Vous apprécierez la sensation revigorante sur vos lèvres, créant une empreinte de bien-être à chaque sourire que vous partagez avec le monde.",
           "Avec notre gloss, vos lèvres seront non seulement sublimées mais également chouchoutées, vous permettant de vous sentir confiante et radieuse à chaque instant. Offrez à vos lèvres le soin qu'elles méritent et découvrez le pouvoir d'un sourire éclatant et épanoui."
         ],
-        picture450: "./img/jpg/product/HErafraichssantIllusText450.jpg",
-        picture675: "./img/jpg/product/HErafraichssantIllusText675.jpg",
-        picture900: "./img/jpg/product/HErafraichssantIllusText900.jpg"
+        picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
+        picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
+        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
       },
       {
         id: "2glossRepulpant",
@@ -66,19 +66,19 @@ export const glossRepulpant = {
     youLikeIt: [
       {
         id: "glossRepulpant0",
-        pictureLove: "./img/jpg/product/baumesLevres.jpg",
+        pictureLove: "/img/jpg/product/baumesLevres.jpg",
         textLove:
           "Plongez dans une véritable oasis de douceur et de protection avec notre baume à lèvres enrichi d'ingrédients naturels. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, offrant une hydratation durable pour un sourire éclatant de santé. Sa formule avancée forme une barrière protectrice contre les éléments extérieurs, préservant vos lèvres impeccablement. Prévenant l'apparition des lèvres sèches et des gerçures, notre baume répare et renforce vos lèvres, pour un confort retrouvé jour après jour."
       },
       {
         id: "glossRepulpant1",
-        pictureLove: "./img/jpg/product/dentifrice.jpg",
+        pictureLove: "/img/jpg/product/dentifrice.jpg",
         textLove:
           "Pour un sourire éclatant, optez pour notre dentifrice formulé avec des ingrédients naturels de première qualité, exempts de produits chimiques agressifs. Il offre un blanchiment naturel en éliminant délicatement les tâches pour des dents éclatantes. Enrichi d'extraits apaisants et antibactériens de plantes, il préserve la santé et la vitalité de vos gencives. Grâce à l'huile essentielle de menthe poivrée, profitez d'une agréable sensation de fraîcheur et d'une haleine rafraîchie, tout en éliminant la mauvaise haleine."
       },
       {
         id: "glossRepulpant2",
-        pictureLove: "./img/jpg/product/dentitionBlanche.jpg",
+        pictureLove: "/img/jpg/product/dentitionBlanche.jpg",
         textLove:
           "Pour une dentition blanche et brillante, découvrez notre poudre blanchissante révolutionnaire pour un sourire éclatant ! Notre blanchisseur élimine en douceur les impuretés et les taches, vous offrant des dents éblouissantes. Il préserve la santé de vos gencives et assure une haleine fraîche durable. Sans ingrédients controversés, notre formule respecte votre santé pour une confiance totale tout au long de la journée. Profitez d'un sourire éclatant et de soins bucco-dentaires complets grâce à notre produit innovant."
       }
@@ -86,7 +86,7 @@ export const glossRepulpant = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "./img/jpg/product/heRafraichissant.jpg",
+  picture: "/img/jpg/product/heRafraichissant.jpg",
   colors: {
     textColor: "#30d1d9",
     linkTextColor: "#30d1d9",

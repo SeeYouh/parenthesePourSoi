@@ -60,10 +60,13 @@ const ProductPage = () => {
   );
 
   const handleSubCategoryProductClick = () => {
+    const offset = -125;
+    console.log("offset in ProductPage", offset);
     scroller.scrollTo("bgProductDetails", {
       smooth: "easeInOutQuint",
       duration: 1000,
-      offset: -125
+      offset: offset,
+      spy: true
     });
   };
 
@@ -74,7 +77,15 @@ const ProductPage = () => {
         <SecondCategoryNavBar />
         <motion.div className="progressBar" style={{ scaleX }}></motion.div>
       </div>
-      <Element name="articleDetails">
+      <Element
+        style={{
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center"
+        }}
+        name="articleDetails"
+      >
         <div className="bgProductDetails" key={descriptionName}>
           <div className="imgProduit">
             <img src={product.picture} alt={product.alt} />
@@ -99,7 +110,13 @@ const ProductPage = () => {
           </div>
         </div>
         <Element name="bgProductDetails">
-          <div className="no-select productTab">
+          <div
+            style={{
+              width: "100vw",
+              maxWidth: "1800px"
+            }}
+            className="no-select productTab"
+          >
             {subCategoryProduct.map((subCategory) => (
               <li key={subCategory}>
                 <label

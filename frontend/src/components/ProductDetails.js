@@ -1,5 +1,6 @@
-import { Element, scroller } from "react-scroll";
 import React, { useState } from "react";
+
+import { Element, scroller } from "react-scroll";
 
 import AdditionnalInformation from "./AdditionnalInformation";
 import AsaComplement from "./AsaComplement";
@@ -21,6 +22,20 @@ const ProductDetails = (productDescription) => {
     subCategoryProduct[0]
   );
 
+  const navigate = useNavigate();
+
+  const goToPageAndScroll = async (selector, path) => {
+    await navigate(path);
+    console.log("path", path);
+    await scroller.scrollTo(selector, {
+      duration: 500,
+      smooth: true,
+      offset: -75,
+      spy: true
+    });
+    console.log("selector", selector);
+  };
+
   const handleSubCategoryProductClick = () => {
     scroller.scrollTo("bgProductDetails", {
       smooth: "easeInOutQuint",
@@ -30,7 +45,7 @@ const ProductDetails = (productDescription) => {
   };
 
   return (
-    <>
+    <Element name="articleDetails">
       <div className="bgProductDetails" key={descriptionName}>
         <div className="imgProduit">
           <img
@@ -93,7 +108,7 @@ const ProductDetails = (productDescription) => {
       {selectedCategoryProduct === "Informations supplémentaires" && (
         <AdditionnalInformation productDescription={productDescription} />
       )}
-    </>
+    </Element>
   );
 };
 export default ProductDetails;

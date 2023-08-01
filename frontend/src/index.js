@@ -7,6 +7,7 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 import PagesError from "./pages/PagesError";
+import ProductPage from "./pages/ProductPage";
 import { RadioProvider } from "./components/utils/radioContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -15,6 +16,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/product/:id" element={<ProductPage />} />{" "}
         <Route path="*" element={<PagesError />} />
       </Routes>
     </BrowserRouter>

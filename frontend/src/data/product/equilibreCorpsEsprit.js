@@ -20,9 +20,9 @@ export const equilibreCorpsEsprit = {
           "Notre produit est un allié précieux pour votre bien-être mental. Il joue un rôle crucial dans le maintien de fonctions psychologiques normales, vous aidant à traverser les défis de chaque journée avec un sentiment de calme et d'équilibre. Que vous soyez confronté à un stress professionnel, à des défis personnels ou simplement à la pression du quotidien, notre produit est conçu pour vous aider à maintenir votre équilibre mental.",
           "De plus, il favorise un sommeil récupérateur, vous permettant de vous réveiller chaque matin frais et revitalisé, ce qui encourage un bien-être quotidien, en vous aidant à vous sentir bien dans votre corps et dans votre esprit."
         ],
-        picture675: "./img/jpg/product/equilibreCorpsEspritIllusText675.jpg",
-        picture450: "./img/jpg/product/equilibreCorpsEspritIllusText450.jpg",
-        picture900: "./img/jpg/product/equilibreCorpsEspritIllusText900.jpg"
+        picture675: "/img/jpg/product/equilibreCorpsEspritIllusText675.jpg",
+        picture450: "/img/jpg/product/equilibreCorpsEspritIllusText450.jpg",
+        picture900: "/img/jpg/product/equilibreCorpsEspritIllusText900.jpg"
       },
       {
         id: "2EquilibreCorpsEsprit",
@@ -63,31 +63,31 @@ export const equilibreCorpsEsprit = {
     youLikeIt: [
       {
         id: "ECEdetox0",
-        pictureLove: "./img/jpg/product/detox.jpg",
+        pictureLove: "/img/jpg/product/detox.jpg",
         textLove:
           "Vous aimerez sûrement notre produit détoxifiant pour un dégonflement naturel en éliminant les toxines de votre corps. Cette détoxification vous apportera bien-être et légèreté."
       },
       {
         id: "ECEGoutteMinceur1",
-        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Si vous souhaitez perdre du poids sans contrainte, alors nos gouttes minceur puissantes devraient vous plaire. Elles ont été spécialement conçues pour brûler les graisses de manière naturelle et empêcher le stockage de nouvelles graisses durant le sommeil."
       },
       {
         id: "ECEBienEtreInterieur2",
-        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Soucis digestifs ou intestinaux ? Nos pré-probiotiques sont parfaits pour un bien-être intérieur optimal. Des cellules souches qui offrent à votre corps une harmonie digestive naturelle en rééquilibrant votre microbiote."
       },
       {
         id: "ECECremeNight3",
-        pictureLove: "./img/jpg/product/cremeNight.jpg",
+        pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
           "Pour compléter les bienfaits de ce produit, améliorer la qualité de la peau de votre visage en découvrant notre crème de nuit conçue pour lutter efficacement contre les signes visibles de l'âge et restaurer le processus cellulaire de votre visage pendant que vous dormez."
       },
       {
         id: "ECESerumComplet4",
-        pictureLove: "./img/jpg/product/serumComplet.jpg",
+        pictureLove: "/img/jpg/product/serumComplet.jpg",
         textLove:
           "Notre sérum complet utilisant la technologie liposomale est spécialement conçu pour hydrater votre peau de l’intérieur. Elle permet de lisser les rides et ridules tout en apportant un teint plus éclatant à votre peau."
       }
@@ -95,7 +95,7 @@ export const equilibreCorpsEsprit = {
   },
   firstCategory: [getCategoryById("3BienEtre").name],
   secondCategory: [getSecondCategoryById("3BienEtre1Energie").text],
-  picture: "./img/jpg/product/equilibreCorpsEsprit.jpg",
+  picture: "/img/jpg/product/equilibreCorpsEsprit.jpg",
   colors: {
     textColor: "#e2b100",
     titleColorInSummary: "#0d314c",

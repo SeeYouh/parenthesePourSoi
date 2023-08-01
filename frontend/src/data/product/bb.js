@@ -16,9 +16,9 @@ export const bb = {
         id: "1BB",
         subTitle: "Boost d'énergie",
         text: "Notre BB booste votre énergie naturelle. Il agit comme un véritable stimulant, vous offrant une énergie durable tout au long de la journée. De plus, il augmente les fonctions mentales, vous aidant à rester concentré(e) et alerte, même dans les moments les plus intenses. Vous vous sentirez prêt(e) à relever tous les défis qui se présentent à vous.",
-        picture675: "./img/jpg/product/BBIllusText675.jpg",
-        picture450: "./img/jpg/product/BBIllusText450.jpg",
-        picture900: "./img/jpg/product/BBIllusText900.jpg"
+        picture675: "/img/jpg/product/BBIllusText675.jpg",
+        picture450: "/img/jpg/product/BBIllusText450.jpg",
+        picture900: "/img/jpg/product/BBIllusText900.jpg"
       },
       {
         id: "2BB",
@@ -44,30 +44,30 @@ export const bb = {
     youLikeIt: [
       {
         id: "BB0",
-        pictureLove: "./img/jpg/product/PB.jpg",
+        pictureLove: "/img/jpg/product/PB.jpg",
         textLove: "Le BB peut s’associer avec notre produit d’énergie cacaotée."
       },
       {
         id: "BB1",
-        pictureLove: "./img/jpg/product/PN.jpg",
+        pictureLove: "/img/jpg/product/PN.jpg",
         textLove:
           "Notre PN pour le saut de repas pour faire de délicieux smoothies."
       },
       {
         id: "BB2",
-        pictureLove: "./img/jpg/product/shampooing.jpg",
+        pictureLove: "/img/jpg/product/shampooing.jpg",
         textLove:
           "Pour des cheveux brillants, le BB se combine parfaitement bien avec notre shampooing d’exception."
       },
       {
         id: "BB3",
-        pictureLove: "./img/jpg/product/aprèsShampooing.jpg",
+        pictureLove: "/img/jpg/product/aprèsShampooing.jpg",
         textLove:
           "Pour des cheveux éclatants, notre BB s'associe merveilleusement bien avec notre après-shampooing nourissant."
       },
       {
         id: "BB4",
-        pictureLove: "./img/jpg/product/collagene.jpg",
+        pictureLove: "/img/jpg/product/collagene.jpg",
         textLove:
           "Pour un renfort optimal des cheveux et des ongles, le collagène marin est ultra efficace. Il permet de réparer en profondeur."
       }
@@ -75,7 +75,7 @@ export const bb = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-  picture: "./img/jpg/product/bb.jpg",
+  picture: "/img/jpg/product/bb.jpg",
   colors: {
     textColor: "#e58000",
     titleColorInSummary: "#5c3300",

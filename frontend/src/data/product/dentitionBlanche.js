@@ -19,9 +19,9 @@ export const dentitionBlanche = {
           "Notre poudre révolutionnaire pour des soins dentaires naturels est spécialement conçue pour vous offrir un sourire éblouissant. Son action en douceur agit efficacement pour éliminer les impuretés et les taches indésirables présentes sur vos dents, révélant ainsi leur brillance éclatante. Contrairement aux dentifrices abrasifs qui pourraient altérer l'émail délicat de vos dents, notre blanchisseur naturel respecte l'intégrité de vos dents tout en leur offrant un éclat resplendissant. Vous pouvez désormais dire adieu aux préoccupations concernant la coloration inesthétique de vos dents, et accueillir un sourire radieux avec confiance.",
           "La santé de vos gencives est primordiale dans un soin bucco-dentaire complet, c'est pourquoi notre poudre prend soin d'elles avec une délicatesse inégalée. Grâce à une formule douce mais efficace, notre poudre nettoie vos gencives tout en les protégeant des irritations et des inflammations. Vous pouvez vous attendre à une santé bucco-dentaire optimale, car notre formule est spécialement conçue pour respecter la sensibilité de vos gencives. En prenant soin de vos gencives, notre produit vous permet de profiter d'une sensation de confort et de bien-être dans votre bouche, pour des sourires éclatants sans compromis sur la santé de vos gencives."
         ],
-        picture450: "./img/jpg/product/ApportMinerauxIllusText450.jpg",
-        picture675: "./img/jpg/product/ApportMinerauxIllusText675.jpg",
-        picture900: "./img/jpg/product/ApportMinerauxIllusText900.jpg"
+        picture450: "/img/jpg/product/ApportMinerauxIllusText450.jpg",
+        picture675: "/img/jpg/product/ApportMinerauxIllusText675.jpg",
+        picture900: "/img/jpg/product/ApportMinerauxIllusText900.jpg"
       },
       {
         id: "2dentitionBlanche",
@@ -47,19 +47,19 @@ export const dentitionBlanche = {
     youLikeIt: [
       {
         id: "dentitionBlanche0",
-        pictureLove: "./img/jpg/product/dentifrice.jpg",
+        pictureLove: "/img/jpg/product/dentifrice.jpg",
         textLove:
           "Un dentifrice naturel de haute qualité, sans produits chimiques agressifs, pour un blanchiment doux et des dents éclatantes. Enrichi en extraits de plantes apaisantes et anti bactériennes, il favorise des gencives saines. L'huile essentielle de menthe poivrée laisse une agréable sensation de fraîcheur, éliminant la mauvaise haleine. Une expérience de soin bucco-dentaire exceptionnelle, naturellement."
       },
       {
         id: "dentitionBlanche1",
-        pictureLove: "./img/jpg/product/beaumeLevre.jpg",
+        pictureLove: "/img/jpg/product/beaumeLevre.jpg",
         textLove:
           "Si vous souhaitez prendre soin de votre sourire, notre baume à lèvres naturel, nourrissant et hydratant fera votre bonheur. Sa formule avancée offre une protection contre les agressions extérieures et prévient les lèvres sèches et gercées. Grâce à sa composition naturelle, vos lèvres sont réparées et plus résistantes. Une véritable oasis de douceur et de protection pour un sourire éclatant de santé."
       },
       {
         id: "dentitionBlanche2",
-        pictureLove: "./img/jpg/product/glossRepulpant.jpg",
+        pictureLove: "/img/jpg/product/glossRepulpant.jpg",
         textLove:
           "Si vous souhaitez prendre soin de vos lèvres en particulier, notre gloss repulpant saura vous satisfaire pour des lèvres hydratées et volumineuses. Il efface les rides et ridules pour une apparence plus jeune et lisse. Il offre une sensation de fraîcheur délicieuse et est rigoureusement testé pour une tolérance optimale. Une cure de jouvence pour vos lèvres."
       }
@@ -67,7 +67,7 @@ export const dentitionBlanche = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-  picture: "./img/jpg/product/apportMineraux.jpg",
+  picture: "/img/jpg/product/apportMineraux.jpg",
   colors: {
     textColor: "#0246a4",
     titleColorInSummary: "#003459",

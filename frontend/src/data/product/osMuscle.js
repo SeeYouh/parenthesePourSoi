@@ -20,9 +20,9 @@ export const osMuscle = {
           "Qui n'a pas eu à affronter des douleurs articulaires qui gênent les mouvements quotidiens et ralentissent le rythme de vie ? Notre formule spéciale, enrichie en ingrédients naturels aux puissantes propriétés anti-inflammatoires, est prête à vous apporter le soulagement tant recherché. Imaginez retrouver la légèreté des mouvements et un confort physique accru, tout cela grâce à un produit créé dans le respect de votre corps. Notre solution promet une action profonde, atténuant non seulement les symptômes douloureux mais agissant également sur les causes sous-jacentes de l'inflammation.",
           "La santé bucco-dentaire est un indicateur important du bien-être global, et c'est là que notre produit entre en jeu. En stimulant la production de collagène, élément essentiel pour maintenir la santé de vos gencives et la robustesse de vos os, notre formule offre une solution holistique pour la santé buccale. Au-delà de ses effets bénéfiques internes, elle contribue à améliorer votre apparence extérieure. Un sourire rayonnant est un signe de confiance en soi et de santé intérieure, et avec notre produit, vous aurez toutes les raisons de sourire."
         ],
-        picture450: "./img/jpg/product/osMuscleIllusText450.jpg",
-        picture675: "./img/jpg/product/osMuscleIllusText675.jpg",
-        picture900: "./img/jpg/product/osMuscleIllusText900.jpg"
+        picture450: "/img/jpg/product/osMuscleIllusText450.jpg",
+        picture675: "/img/jpg/product/osMuscleIllusText675.jpg",
+        picture900: "/img/jpg/product/osMuscleIllusText900.jpg"
       },
       {
         id: "2osMuscle",
@@ -62,31 +62,31 @@ export const osMuscle = {
     youLikeIt: [
       {
         id: "osMuscle0",
-        pictureLove: "./img/jpg/product/equilibreCorpsEsprit.jpg",
+        pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Notre produit est conçu pour soutenir votre bien-être tout au long de votre vie. Il favorise des fonctions psychologiques normales, augmente votre métabolisme énergétique et améliore votre sommeil pour vous réveiller frais et revitalisé chaque matin. En augmentant l'absorption de vitamines et nutriments essentiels, il contribue à votre santé globale, maintient une glycémie normale et soutient une peau saine. Pour les femmes, il apporte un soulagement pendant les périodes de préménopause et de ménopause, tout en soutenant la fertilité et la reproduction normale."
       },
       {
         id: "osMuscle1",
-        pictureLove: "./img/jpg/product/apportMineraux.jpg",
+        pictureLove: "/img/jpg/product/apportMineraux.jpg",
         textLove:
           "Les minéraux ne sont pas assez présents dans notre alimentation. C’est pourquoi, nous proposons un produit exceptionnel composé de 32 minéraux, oligo-éléments, enzymes et super aliments bénéfiques pour votre système nerveux, vos os et vos muscles. Offrez à votre corps les nutriments essentiels dont il a besoin pour une santé globale épanouissante."
       },
       {
         id: "osMuscle2",
-        pictureLove: "./img/jpg/product/apportVitamines.jpg",
+        pictureLove: "/img/jpg/product/apportVitamines.jpg",
         textLove:
           "Nous manquons tous de vitamines. Notre produit riche de 17 vitamines et nutriments essentiels pour prendre soin de vos yeux, votre cœur, votre peau et vos poumons pourrait donc vous satisfaire. Grâce à ses propriétés anti-inflammatoires, il permet de plonger dans une nouvelle dimension de vitalité et de santé en choisissant notre formule complète."
       },
       {
         id: "osMuscle3",
-        pictureLove: "./img/jpg/product/boosterEnergie.jpg",
+        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Le magnésium est efficace contre le stress. Si vous êtes de nature anxieuse ou si vous vous sentez surmenée, je vous conseille de consulter les bienfaits de notre booster naturel. Une combinaison parfaite pour retrouver l'équilibre intérieur, une sérénité épanouissante et un bien-être psychologique."
       },
       {
         id: "osMuscle4",
-        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Vos fringales sont plutôt sucrées ou grasses ? Cliquez sur ce produit pour découvrir nos pré-probiotiques qui, en plus de réguler les grignotages, offrent un bien-être intérieur sans égal."
       }
@@ -94,7 +94,7 @@ export const osMuscle = {
   },
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
-  picture: "./img/jpg/product/osMuscle.jpg",
+  picture: "/img/jpg/product/osMuscle.jpg",
   colors: {
     textColor: "#799198",
     titleColorInSummary: "",

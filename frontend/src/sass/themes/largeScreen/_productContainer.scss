@@ -7,16 +7,16 @@
     min-height: calc(100vh - 125px);
   }
 
-  .subCategory {
-    left: 0;
-    margin-right: calc(10px + 1vmin);
-    margin-left: calc(10px + 1vmin);
-    padding-top: 20px;
-    padding-bottom: 15px;
-    overflow: hidden;
-    border-radius: 5%;
-    border-bottom-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border: 3px solid $bgColor5;
-  }
+  // .subCategory {
+  //   left: 10px;
+  //   margin-right: calc(10px + 1vmin);
+  //   margin-left: calc(10px + 1vmin);
+  //   padding-top: 20px;
+  //   padding-bottom: 15px;
+  //   overflow: hidden;
+  //   border-radius: 5%;
+  //   border-bottom-left-radius: 40px;
+  //   border-top-right-radius: 40px;
+  //   border: 3px solid $bgColor5;
+  // }
 }

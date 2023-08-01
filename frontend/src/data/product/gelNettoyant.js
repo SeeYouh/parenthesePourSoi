@@ -17,9 +17,9 @@ export const gelNettoyant = {
         id: "gelNettoyant1",
         subTitle: "Hydratation optimale : Un confort cutané au rendez-vous",
         text: "Notre gel est plus qu'un simple nettoyant. Il est aussi conçu pour fournir à votre peau une hydratation optimale. Imaginez une vague de douceur qui enveloppe votre peau, la laissant douce, lisse et veloutée. Oubliez les sensations de tiraillement ou de sécheresse souvent provoquées par les nettoyants classiques. Notre formule douce et respectueuse de l'équilibre cutané maintient l'hydratation de votre peau, préserve la barrière cutanée naturelle, et assure une protection efficace contre les agressions extérieures.",
-        picture450: "./img/jpg/product/HErafraichssantIllusText450.jpg",
-        picture675: "./img/jpg/product/HErafraichssantIllusText675.jpg",
-        picture900: "./img/jpg/product/HErafraichssantIllusText900.jpg"
+        picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
+        picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
+        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
       },
       {
         id: "gelNettoyant2",
@@ -53,13 +53,13 @@ export const gelNettoyant = {
     youLikeIt: [
       {
         id: "GNPB0",
-        pictureLove: "./img/jpg/product/PB.jpg",
+        pictureLove: "/img/jpg/product/PB.jpg",
         textLove:
           "JPour renforcer davantage votre bien-être centré sur le soin du visage, je vous suggère d'explorer notre gamme beauté exhaustive, notamment notre décontaminant. Cet élément de notre collection peut compléter parfaitement l'expérience d'hydratation que procure notre baume à lèvres."
       },
       {
         id: "GNmereDeTous1",
-        pictureLove: "./img/jpg/product/mereDeTous.jpg",
+        pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       }
@@ -67,7 +67,7 @@ export const gelNettoyant = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "./img/jpg/product/heRafraichissant.jpg",
+  picture: "/img/jpg/product/heRafraichissant.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#003459",

@@ -18,9 +18,9 @@ export const baumesLevres = {
         subTitle:
           "Une protection avancée pour affronter toutes les conditions météorologiques",
         text: "Une des forces majeures de notre baume à lèvres réside dans sa capacité exceptionnelle à protéger vos lèvres. Conçu pour faire face à tous les types de conditions météorologiques, il offre une défense efficace contre les éléments nuisibles. Sa formule avancée crée une barrière protectrice robuste qui isole vos lèvres des effets néfastes du soleil, du vent et du froid. Affronter les conditions météorologiques les plus rudes devient ainsi une expérience sans souci. Vos lèvres restent non seulement belles et douces, mais aussi saines et bien protégées, quel que soit le temps à l'extérieur. Avec notre baume à lèvres, chaque jour est un bon jour pour vos lèvres.",
-        picture450: "./img/jpg/product/HErafraichssantIllusText450.jpg",
-        picture675: "./img/jpg/product/HErafraichssantIllusText675.jpg",
-        picture900: "./img/jpg/product/HErafraichssantIllusText900.jpg"
+        picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
+        picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
+        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
       },
       {
         id: "2baumesLevres",
@@ -47,13 +47,13 @@ export const baumesLevres = {
     youLikeIt: [
       {
         id: "BLPB0",
-        pictureLove: "./img/jpg/product/PB.jpg",
+        pictureLove: "/img/jpg/product/PB.jpg",
         textLove:
           "Pour renforcer davantage votre bien-être centré sur le soin du visage, je vous suggère d'explorer notre gamme beauté exhaustive, notamment notre décontaminant. Cet élément de notre collection peut compléter parfaitement l'expérience d'hydratation que procure notre baume à lèvres."
       },
       {
         id: "BLmereDeTous1",
-        pictureLove: "./img/jpg/product/mereDeTous.jpg",
+        pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       }
@@ -61,7 +61,7 @@ export const baumesLevres = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "./img/jpg/product/heRafraichissant.jpg",
+  picture: "/img/jpg/product/heRafraichissant.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#003459",

@@ -24,7 +24,6 @@ $bgColor9: #b1d45a91;
 
 //position
 
-.subCategory,
 .positionFixed {
   position: fixed;
 }
@@ -35,6 +34,7 @@ $bgColor9: #b1d45a91;
 #leafBottomLeft,
 #leafTopRight,
 main,
+.productList,
 .bgProductCard {
   position: relative;
 }

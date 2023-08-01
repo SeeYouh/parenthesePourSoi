@@ -19,9 +19,9 @@ export const gg = {
           "Intégrez notre joyau végétal dans votre quotidien pour préserver la santé de votre cœur. Les légumes regorgent de bienfaits qui favorisent un taux de cholestérol équilibré, vous permettant de vous sentir léger comme une plume. Notre élixir végétal est une protection complète pour votre cœur, vos os et votre cerveau, vous accompagnant vers une santé globale éclatante et rayonnante.",
           "Notre produit constitue un combo de légumes aux bienfaits multiples pour votre santé. Il est un allié puissant en apportant les vitamines et minéraux essentiels au corps de manière efficace. Finies les carences en fer et en vitamines grâce à notre trésor naturel de nutriments. En plus, nos légumes sélectionnés ont un effet détoxifiant qui nettoie les déchets de l’organisme, favorisant ainsi un système digestif sain, un transit intestinal facilité et stoppant les remontées acides. Profitez d'une santé optimale avec notre élixir qui prend soin de vous et de votre organisme."
         ],
-        picture450: "./img/jpg/product/ApportMinerauxIllusText450.jpg",
-        picture675: "./img/jpg/product/ApportMinerauxIllusText675.jpg",
-        picture900: "./img/jpg/product/ApportMinerauxIllusText900.jpg"
+        picture450: "/img/jpg/product/ApportMinerauxIllusText450.jpg",
+        picture675: "/img/jpg/product/ApportMinerauxIllusText675.jpg",
+        picture900: "/img/jpg/product/ApportMinerauxIllusText900.jpg"
       },
       {
         id: "2GG",
@@ -51,31 +51,31 @@ export const gg = {
     youLikeIt: [
       {
         id: "GG0",
-        pictureLove: "./img/jpg/product/detox.jpg",
+        pictureLove: "/img/jpg/product/detox.jpg",
         textLove:
           "Si vous souhaitez entamer une cure minceur, notre produit agit comme un agent de détoxification puissant, éliminant les toxines pour une meilleure gestion du poids et une santé globale améliorée. C’est la base pour une perte de poids saine et durable."
       },
       {
         id: "GG1",
-        pictureLove: "./img/jpg/product/goutteMinceur.jpg",
+        pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Des gouttes jour et nuit pour une cure minceur efficace et complète. Régule l'appétit, brûle les graisses tenaces et régule le sucre. Stimule le métabolisme, améliore l'humeur et réduit l'apparence de la cellulite. Les gouttes nuit empêchent l'accumulation de nouvelles graisses et favorisent une récupération optimale pendant le sommeil. Que demander de plus ?"
       },
       {
         id: "GG2",
-        pictureLove: "./img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Notre produit régule votre microbiote pour un bien-être global. Il améliore la digestion, renforce le système immunitaire et prévient les maladies chroniques. Grâce à ses propriétés antioxydantes, il neutralise les toxines et améliore la flore intestinale. Il joue un rôle essentiel dans la gestion du poids, contrôlant la satiété et boostant l'énergie. Il réduit le stress, améliore le sommeil et favorise une humeur positive."
       },
       {
         id: "GG3",
-        pictureLove: "./img/jpg/product/boosterEnergie.jpg",
+        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Notre booster d'énergie dynamise votre corps en stimulant votre énergie naturelle et combat efficacement la fatigue pour un sommeil réparateur. Il favorise la bonne humeur et réduit le stress, vous offrant une sensation de légèreté au quotidien. Mais pas seulement …"
       },
       {
         id: "GG4",
-        pictureLove: "./img/jpg/product/PN.jpg",
+        pictureLove: "/img/jpg/product/PN.jpg",
         textLove:
           "Pour un délicieux smoothie, ce produit est parfait ! Il facilite la gestion du poids en offrant un équilibre nutritionnel optimal. Il contient des protéines végétales de qualité pour une digestion améliorée et une absorption de nutriments essentiels."
       }
@@ -83,7 +83,7 @@ export const gg = {
   },
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
-  picture: "./img/jpg/product/GG.jpg",
+  picture: "/img/jpg/product/GG.jpg",
   colors: {
     textColor: "#028824",
     titleColorInSummary: "#014312",

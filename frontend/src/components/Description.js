@@ -2,18 +2,17 @@ import React from "react";
 
 import { ProductStyle } from "./utils/ProductStyle";
 
-const Description = ({ productDescription }) => {
-  const themeColors = productDescription.product.colors;
-  const productParagraph = productDescription.product.summary.paragraph;
-  const productLiketIt = productDescription.product.summary.youLikeIt;
-
+const Description = ({ product }) => {
+  const themeColors = product.colors;
+  const productParagraph = product.summary.paragraph;
+  const productLiketIt = product.summary.youLikeIt;
   return (
     <>
       <div className="bgParagraph">
-        {ProductStyle({ productDescription })}
-        {productParagraph.map((productDescription, index) => (
+        {ProductStyle({ product })}
+        {productParagraph.map((product, index) => (
           <div
-            key={productDescription.id}
+            key={product.id}
             className={
               index === 1
                 ? "selectText productDescriptPresentFirst"
@@ -27,18 +26,18 @@ const Description = ({ productDescription }) => {
                     color: themeColors.textColor
                   }}
                 >
-                  {productDescription.subTitle}
+                  {product.subTitle}
                 </h3>
-                {Array.isArray(productDescription.text) ? (
+                {Array.isArray(product.text) ? (
                   <ul>
-                    {productDescription.text.map((text) => (
+                    {product.text.map((text) => (
                       <li className="textParagraph" key={text}>
                         {text}
                       </li>
                     ))}
                   </ul>
                 ) : (
-                  <div className="textParagraph">{productDescription.text}</div>
+                  <div className="textParagraph">{product.text}</div>
                 )}
               </div>
             )}
@@ -46,38 +45,30 @@ const Description = ({ productDescription }) => {
               <picture>
                 <source
                   media="(max-width: 1439px)"
-                  srcSet={productDescription.picture450}
+                  srcSet={product.picture450}
                 />
                 <source
                   media="(min-width: 1440px) && (max-width: 1600px)"
-                  srcSet={productDescription.picture675}
+                  srcSet={product.picture675}
                 />
                 <source
                   media="(min-width: 1601px)"
-                  srcSet={productDescription.picture900}
+                  srcSet={product.picture900}
                 />
-                <img
-                  src={productDescription.picture900}
-                  alt={productDescription.alt}
-                />
+                <img src={product.picture900} alt={product.alt} />
               </picture>
             )}
             {index === productParagraph.length - 1 ? (
               <>
                 <div className="youWillLikeIt">
-                  {productLiketIt.map((productDescription) => (
-                    <div
-                      className="youWillLikeIt-content"
-                      key={productDescription.id}
-                    >
+                  {productLiketIt.map((product) => (
+                    <div className="youWillLikeIt-content" key={product.id}>
                       <img
                         className="imgYouWillLikeIt"
-                        src={productDescription.pictureLove}
-                        alt={productDescription.alt}
+                        src={product.pictureLove}
+                        alt={product.alt}
                       />
-                      <div className="textParagraph">
-                        {productDescription.textLove}
-                      </div>
+                      <div className="textParagraph">{product.textLove}</div>
                     </div>
                   ))}
                 </div>
@@ -90,9 +81,9 @@ const Description = ({ productDescription }) => {
                       color: themeColors.textColor
                     }}
                   >
-                    {productDescription.subTitle}
+                    {product.subTitle}
                   </h3>
-                  <div className="textParagraph">{productDescription.text}</div>
+                  <div className="textParagraph">{product.text}</div>
                 </>
               )
             )}

@@ -1,7 +1,8 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const volumateurCils = {
-  nameProduct: "Volumateur de Cils",  id: "volumateurCils",
+  nameProduct: "Volumateur de Cils",
+  id: "volumateurCils",
 
   summary: {
     title: "Des yeux de biche naturels !",
@@ -19,8 +20,8 @@ export const volumateurCils = {
           "Notre sérum est le coup de pouce dont vos cils ont besoin pour briller de mille feux. En stimulant la croissance des cils, il vous offre des cils plus fournis, plus résistants et plus longs. Avec notre sérum, vos cils paraîtront plus épais et plus denses, pour un regard irrésistible qui attirera tous les regards.",
           "Doté d'ingrédients bénéfiques, notre sérum prend soin de vos cils en profondeur. Il leur apporte les nutriments essentiels pour les nourrir et les renforcer, leur redonnant force et vitalité. De plus, il forme une barrière protectrice contre les agressions environnementales qui pourraient les affaiblir. Vous pouvez compter sur notre sérum pour chouchouter vos cils et les rendre plus éclatants que jamais."
         ],
-        picture450: "./img/jpg/product/HErafraichssantIllusText450.jpg",
-        picture675: "./img/jpg/product/HErafraichssantIllusText675.jpg",
+        picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
+        picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
         picture900: "./img/jpg/product/HErafraichssantIllusText900.jpg"
       },
       {
@@ -46,25 +47,25 @@ export const volumateurCils = {
     ],
     youLikeIt: [
       {
-        id: "volumateurCils0",
+        id: "volumateur0",
         pictureLove: "./img/jpg/product/huileDemaquillante.jpg",
         textLove:
           "Découvrez notre huile tout-en-un pour un nettoyage profond et complet de votre peau. Elle élimine en douceur saletés, impuretés et polluants, laissant votre peau fraîche et revitalisée. Enrichie en huiles de plantes et de fruits, elle hydrate délicatement, redonnant souplesse et éclat naturel à votre peau. Notre formule agit efficacement comme démaquillant, même sur le maquillage tenace, tout en évitant les huiles minérales obstruant les pores. Testée dermatologiquement, notre huile offre une expérience de soin optimale et sûre."
       },
       {
-        id: "volumateurCils1",
+        id: "volumateur1",
         pictureLove: "./img/jpg/product/masqueNuit.jpg",
         textLove:
           "Découvrez notre masque de nuit révolutionnaire, intégrant la technologie Breathable Barrier® qui a été cliniquement prouvée pour améliorer visiblement la santé de votre peau. Testé sous contrôle dermatologique, il surpasse ses concurrents en vente libre en termes d'efficacité. Grâce à ses propriétés antioxydantes et régénératrices, il combat les signes du vieillissement en réduisant les rides et ridules, vous offrant une peau plus jeune et plus ferme. Sa formule avancée corrige les imperfections, resserre les pores et améliore la texture, vous offrant une peau plus saine et éclatante, particulièrement pour les problèmes d'acné. Avec une hydratation intense, votre peau deviendra douce, saine et éclatante."
       },
       {
-        id: "volumateurCils2",
+        id: "volumateur2",
         pictureLove: "./img/jpg/product/cremeNuit.jpg",
         textLove:
           "Découvrez notre crème de nuit qui offre une régénération cellulaire complète en stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. Ciblant les tâches et les décolorations, elle estompe progressivement les imperfections pour un teint uniforme et éclatant. Enrichie d'actifs antioxydants, elle lutte efficacement contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
       },
       {
-        id: "volumateurCils3",
+        id: "volumateur3",
         pictureLove: "./img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Choisissez notre produit de soin polyvalent pour chouchouter votre peau après une journée bien remplie. Il élimine en douceur les saletés, le maquillage et les impuretés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Grâce à sa formule hydratante, votre peau sera douce et veloutée, sans tiraillement. Sa douceur respecte l'équilibre cutané, préservant la barrière naturelle pour une peau saine et protégée. Doté d'actifs ciblés, il combat les imperfections et prévient les éruptions cutanées, vous offrant une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau."
@@ -75,9 +76,10 @@ export const volumateurCils = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "./img/jpg/product/heRafraichissant.jpg",
   colors: {
-    textColor: "#30d1d9",titleColorInSummary: "",
-  bgColorInSummary: "",
-  
+    textColor: "#30d1d9",
+    titleColorInSummary: "",
+    bgColorInSummary: "",
+
     linkTextColor: "#30d1d9"
   },
   inSummary: [

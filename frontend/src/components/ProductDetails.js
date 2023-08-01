@@ -25,24 +25,25 @@ const ProductDetails = (productDescription) => {
   const navigate = useNavigate();
 
   const goToPageAndScroll = async (selector, path) => {
+    const offset = -125;
+    console.log("offset in ProductDetails", offset);
     await navigate(path);
-    console.log("path", path);
     await scroller.scrollTo(selector, {
       duration: 500,
       smooth: true,
-      offset: -75,
+      offset: offset,
       spy: true
     });
     console.log("selector", selector);
   };
 
-  const handleSubCategoryProductClick = () => {
-    scroller.scrollTo("bgProductDetails", {
-      smooth: "easeInOutQuint",
-      duration: 1000,
-      offset: -125
-    });
-  };
+  // const handleSubCategoryProductClick = () => {
+  //   scroller.scrollTo("bgProductDetails", {
+  //     smooth: "easeInOutQuint",
+  //     duration: 1000,
+  //     offset: -125
+  //   });
+  // };
 
   return (
     <Element name="articleDetails">
@@ -90,7 +91,7 @@ const ProductDetails = (productDescription) => {
                 name="productTab"
                 onChange={(e) => setSelectedCategoryProduct(e.target.id)}
                 checked={subCategory === selectedCategoryProduct}
-                onClick={handleSubCategoryProductClick}
+                onClick={() => goToPageAndScroll("bgProductDetails")}
               />
             </li>
           ))}

@@ -23,6 +23,7 @@ const FirstCategoryNavBar = () => {
   useEffect(() => {}, [selectedRadio]);
 
   const goToPageAndScroll = async (selector) => {
+    console.log("goToPageAndScroll in FirstCategoryNavBar");
     await navigate("/");
     await scroller.scrollTo(selector, {
       duration: 500,
@@ -45,11 +46,14 @@ const FirstCategoryNavBar = () => {
       setSelectedProduct("");
     }
     goToPageAndScroll("productList");
-    // scroller.scrollTo("productList", {
-    //   smooth: "easeInOutQuint",
-    //   duration: 1000,
-    //   offset: -125
-    // });
+    const offset = -125;
+    console.log("offset in FirstCategoryNavBar", offset);
+    scroller.scrollTo("productList", {
+      smooth: "easeInOutQuint",
+      duration: 1000,
+      offset: offset,
+      spy: true
+    });
   };
 
   return (

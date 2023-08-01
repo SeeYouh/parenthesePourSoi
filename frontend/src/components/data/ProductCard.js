@@ -1,21 +1,26 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+
+import { scroller } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 import { useHover } from "../utils/useHover";
 
 const ProductCard = ({ product }) => {
   const [isHovered, hoverProps] = useHover();
   const colors = product.colors;
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
-  // const goToPageAndScroll = async (selector) => {
-  //   await navigate(`/product/${product.id}`);
-  //   await scroller.scrollTo(selector, {
-  //     duration: 500,
-  //     smooth: true,
-  //     offset: -75,
-  //     spy: true
-  //   });
-  // };
+  const goToPageAndScroll = async (selector) => {
+    const offset = -305;
+    console.log("offset in ProductCard", offset);
+    await navigate(`/product/${product.id}`);
+    await scroller.scrollTo(selector, {
+      duration: 1000,
+      smooth: true,
+      offset: offset,
+      spy: true
+    });
+  };
 
   let productCardClass = isHovered
     ? "bgProductCard bgColorHover"
@@ -23,7 +28,10 @@ const ProductCard = ({ product }) => {
 
   return (
     <div>
-      <Link to={`/product/${product.id}`} key={product.nameProduct}>
+      <div
+        onClick={() => goToPageAndScroll("productPage")}
+        key={product.nameProduct}
+      >
         <div className={productCardClass} {...hoverProps}>
           <div className="productCard">
             <img src={product.picture} alt={product.nameProduct} />
@@ -40,7 +48,7 @@ const ProductCard = ({ product }) => {
             </div>
           </div>
         </div>
-      </Link>
+      </div>
     </div>
   );
 };

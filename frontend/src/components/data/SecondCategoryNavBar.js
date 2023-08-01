@@ -32,18 +32,21 @@ const SecondCategoryNavBar = () => {
   };
 
   useEffect(() => {
+    const offset = -125;
     if (location.pathname === "/") {
       setTimeout(() => {
         scroller.scrollTo("productList", {
           smooth: "easeInOutQuint",
           duration: 1000,
-          offset: -125
+          offset: offset,
+          spy: true
         });
       }, 100);
     }
   }, [location]);
 
   const handleSubCategoryClick = () => {
+    console.log("handleSubCategoryClick in SecondCategoryNavBar");
     navigate("/");
   };
 

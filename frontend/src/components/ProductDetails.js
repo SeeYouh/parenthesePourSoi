@@ -33,16 +33,7 @@ const ProductDetails = (productDescription) => {
       offset: offset,
       spy: true
     });
-    console.log("selector", selector);
   };
-
-  // const handleSubCategoryProductClick = () => {
-  //   scroller.scrollTo("bgProductDetails", {
-  //     smooth: "easeInOutQuint",
-  //     duration: 1000,
-  //     offset: -125
-  //   });
-  // };
 
   return (
     <Element name="articleDetails">

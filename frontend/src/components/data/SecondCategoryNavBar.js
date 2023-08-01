@@ -46,7 +46,6 @@ const SecondCategoryNavBar = () => {
   }, [location]);
 
   const handleSubCategoryClick = () => {
-    console.log("handleSubCategoryClick in SecondCategoryNavBar");
     navigate("/");
   };
 
@@ -57,8 +56,6 @@ const SecondCategoryNavBar = () => {
           .filter((category) => category.name.includes(selectedRadio))
           .map((subCategory) => (
             <ul key={subCategory.id} className="category">
-              {/* <h1>{subCategory.name}</h1> */}
-              {/* <div className="lineBottom"></div> */}
               {subCategory.secondCategory.map((subCategory) => (
                 <li key={subCategory.text} className="cursor menu-navbar">
                   <input

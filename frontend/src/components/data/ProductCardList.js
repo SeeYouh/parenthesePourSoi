@@ -6,7 +6,6 @@ import { RadioContext } from "../utils/radioContext";
 
 const ProductCardList = () => {
   const {
-    // isActive,
     setIsActive,
     selectedRadio,
     setSelectedRadio,

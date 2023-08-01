@@ -6,6 +6,17 @@ import { useHover } from "../utils/useHover";
 const ProductCard = ({ product }) => {
   const [isHovered, hoverProps] = useHover();
   const colors = product.colors;
+  // const navigate = useNavigate();
+
+  // const goToPageAndScroll = async (selector) => {
+  //   await navigate(`/product/${product.id}`);
+  //   await scroller.scrollTo(selector, {
+  //     duration: 500,
+  //     smooth: true,
+  //     offset: -75,
+  //     spy: true
+  //   });
+  // };
 
   let productCardClass = isHovered
     ? "bgProductCard bgColorHover"

@@ -1,8 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 
 import { motion } from "framer-motion";
-import { scroller } from "react-scroll";
-import { useNavigate } from "react-router-dom";
 
 import ProductCard from "./ProductCard";
 import { productList } from "../../data/productList";
@@ -20,18 +18,10 @@ const ProductCardList = () => {
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  const navigate = useNavigate();
-
   const handleProductClick = (product) => {
     setSelectedRadio(product.firstCategory[0]);
     setSelectedSubRadio(product.secondCategory[0]);
     setIsActive(true);
-    scroller.scrollTo("productList", {
-      smooth: "easeInOutQuint",
-      duration: 1000,
-      offset: -125
-    });
-    navigate(`/product/${product.id}`);
   };
 
   useEffect(() => {
@@ -76,7 +66,9 @@ const ProductCardList = () => {
             <ProductCard
               key={productDetails.nameProduct}
               product={productDetails}
-              onProductClick={handleProductClick}
+              onProductClick={() => {
+                handleProductClick(productDetails);
+              }}
             />
           ))}{" "}
       </motion.div>

@@ -1,6 +1,8 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
+import { scroller } from "react-scroll";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { RadioContext } from "../utils/radioContext";
@@ -15,6 +17,9 @@ const SecondCategoryNavBar = () => {
     setSelectedSubRadio
   } = useContext(RadioContext);
 
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const handleSubCategoryChange = (e) => {
     if (e.target.checked) {
       setSelectedSubRadio(e.target.id);
@@ -24,6 +29,22 @@ const SecondCategoryNavBar = () => {
       setSelectedSubRadio("");
       setSelectedProduct("");
     }
+  };
+
+  useEffect(() => {
+    if (location.pathname === "/") {
+      setTimeout(() => {
+        scroller.scrollTo("productList", {
+          smooth: "easeInOutQuint",
+          duration: 1000,
+          offset: -125
+        });
+      }, 100);
+    }
+  }, [location]);
+
+  const handleSubCategoryClick = () => {
+    navigate("/");
   };
 
   return (
@@ -61,6 +82,7 @@ const SecondCategoryNavBar = () => {
                           id={subCategory.text}
                           checked={subCategory.text === selectedSubRadio}
                           onChange={handleSubCategoryChange}
+                          onClick={handleSubCategoryClick}
                         />
                         <label
                           className={`btn btn-navbar ${

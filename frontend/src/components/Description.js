@@ -6,10 +6,6 @@ const Description = ({ product }) => {
   const themeColors = product.colors;
   const productParagraph = product.summary.paragraph;
   const productLiketIt = product.summary.youLikeIt;
-  console.log("DescriptionThemeColor", themeColors);
-  console.log("DescriptionParagraph", productParagraph);
-  console.log("DescriptionProductLiketIt", productLiketIt);
-
   return (
     <>
       <div className="bgParagraph">

@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 
-import { scroller } from "react-scroll";
+import Scroll from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { generalDataImg } from "../../data/generalData";
@@ -15,7 +16,20 @@ const FirstCategoryNavBar = () => {
     setIsActive
   } = useContext(RadioContext);
 
+  const navigate = useNavigate();
+  const scroller = Scroll.scroller;
+
   useEffect(() => {}, [selectedRadio]);
+
+  const goToPageAndScroll = async (selector) => {
+    await navigate("/");
+    await scroller.scrollTo(selector, {
+      duration: 500,
+      smooth: true,
+      offset: -75,
+      spy: true
+    });
+  };
 
   const handleCategoryChange = (e) => {
     if (e.target.checked) {
@@ -29,11 +43,12 @@ const FirstCategoryNavBar = () => {
       setSelectedSubRadio("");
       setSelectedProduct("");
     }
-    scroller.scrollTo("productList", {
-      smooth: "easeInOutQuint",
-      duration: 1000,
-      offset: -125
-    });
+    goToPageAndScroll("productList");
+    // scroller.scrollTo("productList", {
+    //   smooth: "easeInOutQuint",
+    //   duration: 1000,
+    //   offset: -125
+    // });
   };
 
   return (
@@ -44,10 +59,7 @@ const FirstCategoryNavBar = () => {
         src={generalDataImg[3].src}
         alt={generalDataImg[3].alt}
         onClick={() => {
-          scroller.scrollTo("scrollTop", {
-            smooth: "easeInOutQuint",
-            duration: 1000
-          });
+          goToPageAndScroll("scrollTop");
           setSelectedRadio("");
           setSelectedSubRadio("");
           setSelectedProduct("");
@@ -65,6 +77,9 @@ const FirstCategoryNavBar = () => {
               id={menu.name}
               checked={menu.name === selectedRadio}
               onChange={handleCategoryChange}
+              onClick={() => {
+                goToPageAndScroll("productList");
+              }}
             />
             <label
               className={`btn btn-navbar ${

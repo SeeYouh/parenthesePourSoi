@@ -44,18 +44,21 @@ export const apresShampooing = {
     youLikeIt: [
       {
         id: "ASshampooing0",
+        link: "shampooing",
         pictureLove: "/img/jpg/product/shampooing.jpg",
         textLove:
           "Pour une expérience de bien-être complète, découvrez notre shampooing d’exception qui se marie parfaitement avec notre après-shampooing. Ensemble, ils vous offrent une approche globale pour des cheveux soyeux et sains."
       },
       {
         id: "ASbb1",
+        link: "bb",
         pictureLove: "/img/jpg/product/bb.jpg",
         textLove:
           "Le BB est également excellent pour une pousse des ongles et cheveux."
       },
       {
         id: "ASregenerateurCellulaire2",
+        link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Pour encore plus d’amélioration au niveau de la peau, notre chouchou est conseillé par tous "

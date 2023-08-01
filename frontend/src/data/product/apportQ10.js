@@ -48,18 +48,21 @@ export const apportQ10 = {
     youLikeIt: [
       {
         id: "aqregenerateurCellulaire0",
+        link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Une solution exceptionnelle qui vous offre une peau éclatante tout en améliorant la circulation sanguine et en réduisant la rétention d'eau. Ce produit soutient la fonction du collagène pour une peau plus ferme et élastique, tout en procurant un soulagement efficace pour vos articulations et votre fonction respiratoire."
       },
       {
         id: "aqcollagene1",
-        pictureLove: "/img/jpg/product/collagene.jpg",
+        link: "collagenoni",
+        pictureLove: "/img/jpg/product/collagenoni.jpg",
         textLove:
           "Notre collagène est bien plus qu'un bienfait pour la peau ; il apporte un soutien essentiel à votre corps dans son ensemble. Il fortifie vos os pour une mobilité harmonieuse, renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Offrez à votre corps la vitalité qu'il mérite en adoptant notre précieux collagène."
       },
       {
         id: "aqboosterEnergie2",
+        link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Une solution complète pour améliorer votre bien-être global. En luttant efficacement contre la fatigue, notre produit agit en profondeur pour vous offrir un sommeil de qualité et permet une concentration mentale comme vous avez rarement connu. De plus, notre formule est votre alliée précieuse pour faire face au stress, à l'anxiété et au surmenage, grâce à ses ingrédients naturels qui procurent un soulagement apaisant."

@@ -18,6 +18,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/product/:id" element={<ProductPage />} />{" "}
         <Route path="*" element={<PagesError />} />
+        <Route path="/product/undefined" element={<PagesError />} />
       </Routes>
     </BrowserRouter>
   </RadioProvider>

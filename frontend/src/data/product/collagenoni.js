@@ -84,7 +84,7 @@ export const collagenoni = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "/img/jpg/product/collagene.jpg",
+  picture: "/img/jpg/product/collagenoni.jpg",
   colors: {
     textColor: "#9f348b",
     titleColorInSummary: "#45173c",

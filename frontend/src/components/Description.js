@@ -1,11 +1,28 @@
 import React from "react";
 
+import { scroller } from "react-scroll";
+import { useNavigate } from "react-router-dom";
+
 import { ProductStyle } from "./utils/ProductStyle";
 
 const Description = ({ product }) => {
   const themeColors = product.colors;
   const productParagraph = product.summary.paragraph;
   const productLiketIt = product.summary.youLikeIt;
+
+  const navigate = useNavigate();
+
+  const goToPageAndScroll = async (productId, selector) => {
+    const offset = -125;
+    await navigate(`/product/${productId}`);
+    await scroller.scrollTo(selector, {
+      duration: 1000,
+      smooth: true,
+      offset: offset,
+      spy: true
+    });
+  };
+
   return (
     <>
       <div className="bgParagraph">
@@ -64,6 +81,9 @@ const Description = ({ product }) => {
                   {productLiketIt.map((product) => (
                     <div className="youWillLikeIt-content" key={product.id}>
                       <img
+                        onClick={() =>
+                          goToPageAndScroll(product.link, "productPage")
+                        }
                         className="imgYouWillLikeIt"
                         src={product.pictureLove}
                         alt={product.alt}

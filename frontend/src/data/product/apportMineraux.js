@@ -48,31 +48,36 @@ export const apportMineraux = {
     youLikeIt: [
       {
         id: "amapportVitamines0",
+        link: "apportVitamines",
         pictureLove: "/img/jpg/product/apportVitamines.jpg",
         textLove:
           "Dans le cas de nombreuses pathologies, ce concentré de minéraux est associé à notre produit vitaminé qui est un véritable allié pour vos os, vos muscles et vos nerfs grâce à ses propriétés anti-inflammatoires naturelles."
       },
       {
         id: "ammereDeTous1",
+        link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
           "Dans le cas de nombreuses pathologies, ce concentré de minéraux est associé à notre produit vitaminé qui est un véritable allié pour vos os, vos muscles et vos nerfs grâce à ses propriétés anti-inflammatoires naturelles."
       },
       {
         id: "amequilibreCorpsEsprit2",
+        link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Une formule tout-en-un pour améliorer votre bien-être global. Grâce à ses propriétés, notre produit lutte efficacement contre la fatigue et agit en profondeur pour améliorer la qualité de votre sommeil, vous permettant de vous réveiller chaque matin frais et revitalisé. Notre formule est également votre alliée pour faire face au stress, à l'anxiété et au surmenage. Ses ingrédients naturels procurent un soulagement apaisant."
       },
       {
         id: "amregenerateurCellulaire3",
+        link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre régénérateur cellulaire, une solution exceptionnelle pour améliorer la qualité de la peau, soulage également les allergies et l'asthme. Retrouvez une peau éclatante et une respiration apaisée grâce à notre produit bienfaisant."
       },
       {
         id: "amcollagene4",
-        pictureLove: "/img/jpg/product/collagene.jpg",
+        link: "collagenoni",
+        pictureLove: "/img/jpg/product/collagenoni.jpg",
         textLove:
           "Le collagène n’agit pas seulement sur la peau, il est avant tout un allié essentiel pour soutenir votre corps de manière globale. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante."
       }

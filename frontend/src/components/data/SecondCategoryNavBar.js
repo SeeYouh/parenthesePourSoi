@@ -11,7 +11,6 @@ const SecondCategoryNavBar = () => {
   const {
     selectedRadio,
     selectedSubRadio,
-    // isActive,
     setIsActive,
     setSelectedProduct,
     setSelectedSubRadio

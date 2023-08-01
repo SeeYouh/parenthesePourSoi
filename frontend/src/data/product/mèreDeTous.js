@@ -2,7 +2,7 @@ import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const mereDeTous = {
   nameProduct: "Mère de Tous",
-  id: "mèreDeTous",
+  id: "mereDeTous",
 
   summary: {
     title: "Un produit breveté et unique.",

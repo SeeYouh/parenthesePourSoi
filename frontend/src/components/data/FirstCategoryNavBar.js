@@ -23,7 +23,6 @@ const FirstCategoryNavBar = () => {
   useEffect(() => {}, [selectedRadio]);
 
   const goToPageAndScroll = async (selector) => {
-    console.log("goToPageAndScroll in FirstCategoryNavBar");
     await navigate("/");
     await scroller.scrollTo(selector, {
       duration: 500,

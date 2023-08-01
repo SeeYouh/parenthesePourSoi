@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 
 import { useHover } from "../utils/useHover";
 
@@ -23,11 +22,7 @@ const ProductCard = ({ product }) => {
     : "bgProductCard";
 
   return (
-    <motion.div
-      whileHover={{
-        scale: 1.08
-      }}
-    >
+    <div>
       <Link to={`/product/${product.id}`} key={product.nameProduct}>
         <div className={productCardClass} {...hoverProps}>
           <div className="productCard">
@@ -46,7 +41,7 @@ const ProductCard = ({ product }) => {
           </div>
         </div>
       </Link>
-    </motion.div>
+    </div>
   );
 };
 

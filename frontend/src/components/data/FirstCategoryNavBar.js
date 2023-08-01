@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { firstCategoryList } from "../../data/firstCategoryList";
 import { generalDataImg } from "../../data/generalData";
 import { RadioContext } from "../utils/radioContext";
+import SecondCategoryNavBar from "./SecondCategoryNavBar";
 
 const FirstCategoryNavBar = () => {
   const {
@@ -26,7 +27,7 @@ const FirstCategoryNavBar = () => {
     await scroller.scrollTo(selector, {
       duration: 500,
       smooth: true,
-      offset: -75,
+      offset: -125,
       spy: true
     });
   };
@@ -66,32 +67,34 @@ const FirstCategoryNavBar = () => {
           setIsActive(false);
         }}
       />
-
-      <div className="no-select all-menu-navbar">
-        {firstCategoryList.map((menu) => (
-          <li className={`cursor menu-navbar`} key={menu.id}>
-            <input
-              className="active"
-              type="checkbox"
-              name="categorie"
-              id={menu.name}
-              checked={menu.name === selectedRadio}
-              onChange={handleCategoryChange}
-              onClick={() => {
-                goToPageAndScroll("productList");
-              }}
-            />
-            <label
-              className={`btn btn-navbar ${
-                menu.name === selectedRadio ? "selected" : ""
-              }`}
-              htmlFor={menu.name}
-            >
-              {menu.name}
-            </label>
-            <div className="line"></div>
-          </li>
-        ))}
+      <div className="allNavBar">
+        <div className="no-select category">
+          {firstCategoryList.map((menu) => (
+            <li className={`cursor menu-navbar`} key={menu.id}>
+              <input
+                className="active"
+                type="checkbox"
+                name="categorie"
+                id={menu.name}
+                checked={menu.name === selectedRadio}
+                onChange={handleCategoryChange}
+                onClick={() => {
+                  goToPageAndScroll("productList");
+                }}
+              />
+              <label
+                className={`btn btn-navbar ${
+                  menu.name === selectedRadio ? "selected" : ""
+                }`}
+                htmlFor={menu.name}
+              >
+                {menu.name}
+              </label>
+              <div className="line"></div>
+            </li>
+          ))}
+        </div>
+        {selectedRadio && <SecondCategoryNavBar />}
       </div>
     </div>
   );

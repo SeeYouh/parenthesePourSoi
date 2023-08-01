@@ -1,6 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
-
-import { motion } from "framer-motion";
+import React, { useContext } from "react";
 
 import ProductCard from "./ProductCard";
 import { productList } from "../../data/productList";
@@ -8,7 +6,7 @@ import { RadioContext } from "../utils/radioContext";
 
 const ProductCardList = () => {
   const {
-    isActive,
+    // isActive,
     setIsActive,
     selectedRadio,
     setSelectedRadio,
@@ -16,7 +14,7 @@ const ProductCardList = () => {
     setSelectedSubRadio
   } = useContext(RadioContext);
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const handleProductClick = (product) => {
     setSelectedRadio(product.firstCategory[0]);
@@ -24,34 +22,15 @@ const ProductCardList = () => {
     setIsActive(true);
   };
 
-  useEffect(() => {
-    const handleResizeWidth = () => setWindowWidth(window.innerWidth);
-    window.addEventListener("resize", handleResizeWidth);
-    return () => window.removeEventListener("resize", handleResizeWidth);
-  }, []);
+  // useEffect(() => {
+  //   const handleResizeWidth = () => setWindowWidth(window.innerWidth);
+  //   window.addEventListener("resize", handleResizeWidth);
+  //   return () => window.removeEventListener("resize", handleResizeWidth);
+  // }, []);
 
   return (
     <div className="arrayProductCardContainer">
-      <motion.div
-        initial={{ width: "100vw", x: 0 }}
-        animate={{
-          width:
-            isActive && windowWidth <= 1072
-              ? "100vw"
-              : isActive && windowWidth >= 1073 && windowWidth <= 1439
-              ? "70vw"
-              : isActive && windowWidth >= 1440 && windowWidth < 1600
-              ? "85vw"
-              : "100vw",
-          x:
-            isActive && windowWidth >= 1073 && windowWidth < 1239
-              ? 150
-              : isActive && windowWidth >= 1240
-              ? 200
-              : 0
-        }}
-        className="arrayProductCard"
-      >
+      <div className="arrayProductCard">
         {productList
           .filter((product) =>
             selectedRadio ? product.firstCategory.includes(selectedRadio) : true
@@ -71,7 +50,7 @@ const ProductCardList = () => {
               }}
             />
           ))}{" "}
-      </motion.div>
+      </div>
     </div>
   );
 };

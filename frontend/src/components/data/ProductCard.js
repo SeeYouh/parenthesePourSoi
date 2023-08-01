@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 
+import { motion } from "framer-motion";
 import { scroller } from "react-scroll";
 import { useNavigate } from "react-router-dom";
 
@@ -26,9 +27,12 @@ const ProductCard = ({ product }) => {
     : "bgProductCard";
 
   return (
-    <div>
-      <div
+    <>
+      <motion.div
         onClick={() => goToPageAndScroll("productPage")}
+        whileHover={{
+          scale: 1.08
+        }}
         key={product.nameProduct}
       >
         <div className={productCardClass} {...hoverProps}>
@@ -47,8 +51,8 @@ const ProductCard = ({ product }) => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </>
   );
 };
 

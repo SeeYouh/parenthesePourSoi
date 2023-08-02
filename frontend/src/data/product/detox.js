@@ -101,37 +101,43 @@ export const detox = {
     youLikeIt: [
       {
         id: "detox0",
+        link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Grâce à nos gouttes super puissantes, vous allez enfin dire adieu aux effets yoyo et accueillir une silhouette épanouie. Préparez-vous à atteindre vos objectifs de poids et à vous sentir incroyable dans votre corps ! Faites partie de notre communauté de succès et embarquez pour un voyage vers une nouvelle version de vous-même ! Fini les privations alimentaires et les exercices intenses, notre solution vous garantit une expérience sans frustration ni effort."
       },
       {
         id: "detox1",
+        link: "bienEtreInterieur",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Le microbiote, souvent appelé le deuxième cerveau humain, joue un rôle crucial dans notre bien-être. Une bonne digestion est essentielle pour se sentir bien. Si vous rencontrez des déséquilibres dans votre système digestif et intestinal, nos pré-probiotiques sont conçus pour réguler efficacement ces problèmes afin de retrouver confort et bien-être au quotidien."
       },
       {
         id: "detox2",
+        link: "gg",
         pictureLove: "/img/jpg/product/GG.jpg",
         textLove:
           "Notre produit est un concentré de légumes et de vitamines essentiels, spécialement conçu pour fournir à votre corps les nutriments dont il a besoin. En optant pour notre détox végétale, vous donnez à votre corps une véritable bouffée d'énergie et de vitalité. Nourrissez votre corps en profondeur avec les bienfaits naturels des légumes et des vitamines, pour une expérience de détoxification incomparable."
       },
       {
         id: "detox3",
+        link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Notre booster d'énergie est bien plus qu'un simple complément, il dynamise votre corps en stimulant votre énergie naturelle pour une vitalité renouvelée tout au long de la journée. Sa formule unique combat efficacement la fatigue et favorise un sommeil réparateur, vous permettant de vous réveiller frais et revitalisé chaque matin. En favorisant la bonne humeur et en réduisant le stress, il vous aide à aborder les défis quotidiens avec un état d'esprit positif et détendu. De plus, il est efficace pour vous aider à atteindre vos objectifs de gestion du poids en augmentant la combustion des graisses de 17%."
       },
       {
         id: "detox4",
+        link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
         textLove:
           "Notre produit est conçu pour faciliter la gestion du poids en substituant vos repas tout en maintenant un équilibre nutritionnel optimal. Il contient des protéines végétales de haute qualité pour une digestion améliorée et une meilleure absorption des nutriments essentiels, favorisant ainsi une perte de poids saine et durable. En ajoutant notre produit à votre routine quotidienne, vous bénéficierez d'un véritable boost d'énergie qui vous accompagnera tout au long de la journée, vous permettant d'aborder vos activités avec vitalité et enthousiasme pour vous sentir pleinement épanoui(e)."
       },
       {
         id: "detox5",
-        pictureLove: "/img/jpg/product/collagene.jpg",
+        link: "collagenoni",
+        pictureLove: "/img/jpg/product/collagenoni.jpg",
         textLove:
           "Le Noni est un puissant allié pour la gestion du poids grâce à son effet sur la combustion des graisses. Il agit également comme un régulateur pour le système digestif, favorisant une digestion harmonieuse. Ses propriétés antioxydantes renforcent le système immunitaire et protègent les cellules contre le stress oxydatif, améliorant ainsi la santé globale. En augmentant l'énergie métabolique, le Noni offre une vitalité renouvelée au quotidien, en faisant un super aliment aux bienfaits étendus même sur les maladies chroniques."
       }
@@ -151,33 +157,37 @@ export const detox = {
   inSummary: [
     {
       id: "DeiS0",
-      title: "Aide à la perte de poids",
+      title: "Gestion du poids",
       text: "Nettoie et détoxifie le corps"
     },
     {
       id: "DeiS1",
-      title: "Problèmes cutanés",
-      text: "Améliore l’acné, les vergetures, la cellulite, les varices, l’eczéma et le psoriasis."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Protège les cellules contre le stress oxydatif</li>
+          <li>Permet un fonctionnement normal de la thyroïde</li>
+          <li>Maintient les muqueuses normales</li>
+          <li>Renforce le système immunitaire</li>
+          <li>
+            Réduit les soucis de digestion, de constipation, de diarrhée, de
+            ballonnements, de gaz
+          </li>
+        </ul>
+      )
     },
     {
       id: "DeiS2",
-      title: "Santé",
-      text: "Booste le système immunitaire de par son action de rééquilibrage de l’organisme."
-    },
-    {
-      id: "DeiS3",
-      title: "Troubles  ",
-      text: "Réduit les soucis de digestion, de constipation, de diarrhée, de ballonnements, de gaz"
-    },
-    {
-      id: "DeiS4",
       title: "Bien-être",
       text: (
         <ul>
-          <li>Redonne une énergie physique</li>
-          <li>Améliore l’humeur</li>
-          <li>Lutte contre la fatigue</li>
-          <li>Favorise un sommeil de qualité</li>
+          <li>Atténue la cellulite, qu'elle soit adipeuse ou aqueuse</li>
+          <li>
+            Aide à lutter contre l'acné, les vergetures, la cellulite, les
+            varices, l'eczéma et le psoriasis
+          </li>
+          <li>Stimule l'énergie physique</li>
+          <li>Favorise un sommeil réparateur de qualité</li>
         </ul>
       )
     }

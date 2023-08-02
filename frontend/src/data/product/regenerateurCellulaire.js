@@ -17,7 +17,7 @@ export const regenerateurCellulaire = {
         subTitle: "Effacez vos imperfections et soulagez vos maux",
         text: [
           "Nous croyons en la beauté naturelle de chaque individu, et ce produit est là pour la révéler. Notre régénérateur cellulaire lutte efficacement contre la cellulite, diminue les vergetures, traite les problèmes d'acné ou apaise les symptômes d'eczéma et de psoriasis. Finies les démangeaisons et les irritations. Votre peau vous remerciera !",
-          "Il permet également d'accélérer la cicatrisation des plaies et d'améliorer l'aspect des cicatrices, que ce soit pour des marques post-chirurgicales ou des cicatrices d'acné. Il régènère vos cellules et les estompe considérablement. Retrouvez une peau lisse et uniforme, et surtout, retrouvez votre confiance en vous.",
+          "Il permet également d'accélérer la cicatrisation des plaies et d'améliorer l'aspect des cicatrices, que ce soit pour des marques post-chirurgicales ou des cicatrices d'acné. Il régénère vos cellules et les estompe considérablement. Retrouvez une peau lisse et uniforme, et surtout, retrouvez votre confiance en vous.",
           "Notre produit améliore la rétention d'eau, soulageant ainsi les sensations de gonflement aux mains et aux pieds et les douleurs qui y sont parfois associées. Il améliore également la circulation sanguine, apportant un soulagement quasi immédiat dans votre corps."
         ],
         picture675: "/img/jpg/product/REIllusText675.jpg",
@@ -58,33 +58,45 @@ export const regenerateurCellulaire = {
     youLikeIt: [
       {
         id: "regenerateurCellulaire0",
+        link: "apportQ10",
         pictureLove: "/img/jpg/product/apportQ10.jpg",
         textLove:
-          "Pour une action renforcée et des résultats encore plus impressionnants, notre produit phare peut être associé à notre formule riche en ubiquinol, qui constitue une version très puissante de la CoQ10. Ce mélange stimule la régénération cellulaire pour un effet particulièrement marqué sur les vergetures profondes et les varices importantes."
+          "Associez notre produit phare à notre formule riche en ubiquinol, une version ultra-puissante de la CoQ10, pour une action renforcée et des effets encore plus impressionnants. Grâce à ce puissant mélange, la régénération cellulaire est stimulée de manière exceptionnelle, offrant des résultats particulièrement marqués sur les vergetures profondes et les varices importantes. Préparez-vous à dire adieu aux imperfections qui vous gênent et à retrouver une peau visiblement plus lisse, plus ferme et plus éclatante. Ce duo de choc est la clé d'une peau transformée et épanouie."
       },
       {
         id: "regenerateurCellulaire1",
-        pictureLove: "/img/jpg/product/guerisseurDeMaux.jpg",
+        link: "guerisseurDeMaux",
+        pictureLove: "/img/jpg/product/guerisseurMaux.jpg",
         textLove:
-          "Face à une cellulite récalcitrante, augmentez l'efficacité de votre traitement en l'associant à notre produit aux multiples bienfaits, le Guérisseur des maux. Cette association renforcée fournit des enzymes CoQ10 supplémentaires, boostant ainsi l'action anti-cellulite de notre best-seller."
+          "Associez notre produit phare, spécialement conçu pour cibler la cellulite, à notre formule aux multiples bienfaits pour une action renforcée et des résultats encore plus impressionnants. Grâce à cette association unique, nous ajoutons des enzymes CoQ10 supplémentaires pour booster l'action anti-cellulite de notre best-seller. Résultat ? Une réduction visible de la cellulite, une peau plus lisse et ferme, et une confiance en soi retrouvée. Faites de cette puissante synergie votre alliée pour afficher une peau resplendissante et une silhouette épanouie."
       },
       {
         id: "regenerateurCellulaire2",
+        link: "boosterDenergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
-          "Si vous cherchez à revitaliser votre quotidien, je vous recommande vivement notre booster d'énergie. Ce puissant catalyseur de bien-être saura insuffler à votre quotidien la vitalité et la vigueur que vous méritez tout à long de la journée. Finis les coups de fatigue, vivez pleinement votre journée !"
+          "Ce puissant catalyseur de bien-être est la clé pour insuffler vitalité et vigueur à votre journée, du matin au soir. Finis les coups de fatigue et la sensation de baisse d'énergie ! Notre formule unique vous permettra de vivre pleinement chaque instant. Offrez-vous le boost dont vous avez besoin pour atteindre vos objectifs et profiter pleinement de chaque moment."
       },
       {
         id: "regenerateurCellulaire3",
+        link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
-          "Pour des problèmes cutanés, notre chouchou se combine parfaitement avec nos produits de la gamme beauté. Pour retrouver une peau adoucie et éliminer les impuretés de la journée, le gel nettoyant sera satisfaire ces objectifs."
+          "Pour une peau adoucie et débarrassée des impuretés accumulées tout au long de la journée, notre gel nettoyant sera votre allié idéal. Pour offrir à votre peau une expérience de soin complète et efficace, faites confiance à notre gel nettoyant en lui offrant une hydratation optimale et une sensation de fraîcheur incomparable."
       },
       {
         id: "regenerateurCellulaire4",
+        link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
-          "Ne laissez pas votre peau s’assécher et dirigez-vous vers notre huile de coco qui regorge de bienfaits. Elle vient de Tahiti et est sous forme liquide car elle n’a subi aucune transformation."
+          "Prenez soin de votre peau et évitez qu'elle ne s'assèche grâce à notre huile de coco d'origine tahitienne, pleine de bienfaits. Contrairement à d'autres produits, notre huile reste sous forme liquide, car elle n'a subi aucune transformation. Cela garantit que vous bénéficiez de toutes ses propriétés naturelles intactes pour hydrater, nourrir et protéger votre peau en profondeur. Offrez-vous une expérience de soin authentique et découvrez les vertus revitalisantes de notre huile de coco de Tahiti pour une peau douce, radieuse et resplendissante."
+      },
+      {
+        id: "regenerateurCellulaire5",
+        link: "bb",
+        pictureLove: "/img/jpg/product/bb.jpg",
+        textLove:
+          "Pour régénérer vos cheveux et ongles, les rendant plus forts et brillants, je vous conseille de consulter cette pépite.. Sa formule puissante accélère la pousse des ongles et des cheveux, vous permettant ainsi de profiter d'une chevelure plus abondante et d'ongles forts et sains. En augmentant la production de kératine, il revitalise en profondeur vos cheveux, les rendant plus résistants à la casse et leur redonnant brillance et vitalité. Il permet également de stimuler votre énergie naturelle tout au long de la journée."
       }
     ]
   },

@@ -11,17 +11,33 @@ const InSummary = ({ product }) => {
           key={id}
           className="bubleInSummary"
           style={{
-            backgroundColor: themeColors.bgColorInSummary
+            borderColor: themeColors.bgColorInSummary0,
+            backgroundColor: themeColors.bgColorInSummary1
           }}
         >
-          <h4
-            style={{
-              color: themeColors.titleColorInSummary
-            }}
-            className="titleInSummary"
-          >
-            {title}
-          </h4>
+          <div className="contentTitleInSummary">
+            <h4
+              style={{
+                color: themeColors.titleColorInSummary,
+                textShadow: `1px 0 5px ${themeColors.shadowColor}`
+              }}
+              className="titleInSummary"
+            >
+              {title}
+            </h4>
+            <div
+              className="bgRadiantInSummary"
+              style={{
+                background: themeColors.linearGradient1
+              }}
+            ></div>
+            <div
+              className="bgInSummary"
+              style={{
+                background: themeColors.linearGradient0
+              }}
+            ></div>
+          </div>
           <div className="textInSummary">{text}</div>
         </li>
       ))}

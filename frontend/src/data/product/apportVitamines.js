@@ -43,39 +43,46 @@ export const apportVitamines = {
     ],
     youLikeIt: [
       {
-        id: "avapportMineraux0",
+        id: "apportVitamines0",
         link: "apportMineraux",
         pictureLove: "/img/jpg/product/apportMineraux.jpg",
         textLove:
-          "Dans le cas de nombreuses pathologies, ce concentré de vitamines est associé à notre produit contenant des minéraux et des oligo-éléments qui est un véritable allié pour vos yeux, votre cœur, vos poumons et votre peau grâce à ses propriétés anti-inflammatoires naturelles."
+          "Ce produit révolutionnaire contient 32 minéraux, oligo-éléments, enzymes et super-aliments pour un soulagement efficace et une amélioration globale du bien-être. Sa formule avancée apaise le système nerveux et soulage les douleurs osseuses, musculaires et articulaires. Grâce à ses propriétés anti-inflammatoires naturelles, il réduit les inflammations pour plus de confort au quotidien. Cette formule a démontré son efficacité pour améliorer la qualité de vie des personnes souffrant de pathologies telles que l'endométriose, la fibromyalgie et l'arthrose. Elle stimule également la régénération des tissus et soutient la santé des ongles et des cheveux"
       },
       {
-        id: "avmereDeTous1",
+        id: "apportVitamines1",
         link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
-          "Un autre produit idéal pour soulager les douleurs. Il est composé d'ingrédients aux propriétés anti-inflammatoires naturelles pour une expérience apaisante. Il vous permet de trouver le confort et l'équilibre dont vous avez besoin au quotidien."
+          "Notre produit exclusif, formulé avec 36 ingrédients naturels puissants, agit comme un anti-inflammatoire, soulageant les douleurs musculaires, articulaires et les maladies chroniques. En plus de stimuler l'énergie et d'améliorer l'humeur, il protège les cellules et renforce le système immunitaire. Il soulage les allergies, régule le cholestérol et stabilise le diabète, tout en offrant un soulagement pour les règles douloureuses. De plus, il accélère le bronzage, offrant une peau rayonnante en peu de temps. Notre produit breveté est une solution globale pour améliorer votre bien-être."
       },
       {
-        id: "avboosterEnergie2",
+        id: "apportVitamines2",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
-          "Une formule tout-en-un pour un bien-être amélioré. Ce booster d’énergie combat efficacement la fatigue et améliore la qualité de votre sommeil pour vous réveiller en pleine forme. C’est un allié pour soulager le stress, l'anxiété et le surmenage grâce à ses ingrédients naturels apaisants."
+          "Notre booster est conçu pour améliorer votre bien-être global de manière efficace. Il combat efficacement la fatigue et favorise un sommeil de qualité, vous permettant de vous réveiller frais et revitalisé chaque matin. En outre, notre produit agit comme un puissant allié pour faire face au stress, à l'anxiété et au surmenage, en offrant un soulagement apaisant grâce à ses ingrédients naturels soigneusement sélectionnés."
       },
       {
-        id: "avregenerateurCellulaire3",
+        id: "apportVitamines3",
 
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
-          "Notre régénérateur cellulaire, une solution exceptionnelle pour améliorer la qualité de la peau, soulage également les allergies et l'asthme. Retrouvez une peau éclatante et une respiration apaisée grâce à notre produit bienfaisant."
+          "Notre régénérateur cellulaire est une solution exceptionnelle offrant de multiples bienfaits pour la peau et apaisant les allergies et l'asthme. Obtenez une peau éclatante et revitalisée tout en respirant plus facilement grâce à notre produit bienfaisant. Offrez-vous le confort et la beauté que vous méritez avec notre régénérateur cellulaire."
       },
       {
-        id: "avcollagene4",
+        id: "apportVitamines4",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
         textLove:
-          "Bien plus qu'un atout pour la peau, le collagène soutient votre corps de manière globale. Il fortifie vos os pour une mobilité harmonieuse, renforce vos dents pour une santé bucco-dentaire optimale et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Offrez à votre corps la vitalité qu'il mérite grâce à notre précieux collagène."
+          "Le collagène est bien plus qu'un allié pour la peau, il joue un rôle essentiel dans le soutien global de votre corps. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante, vous permettant de vivre pleinement et en pleine santé."
+      },
+      {
+        id: "apportVitamines5",
+        link: "purifAir",
+        pictureLove: "/img/jpg/product/purifAir.jpg",
+        textLove:
+          "Le Purificateur d’Air Multi-Effets est la solution ultime pour purifier vos espaces, en éliminant jusqu'à 99,99 % des microbes et des particules ultra fines en suspension dans l'air. Doté d'une technologie avancée à 360 degrés, il combat efficacement les polluants atmosphériques, les allergènes, les COV et autres contaminants. Grâce à sa technologie intelligente, il ajuste automatiquement le niveau de filtration en temps réel pour assurer un environnement de respiration optimal. Avec son filtre à plusieurs étapes, il offre un flux d'air frais et purifié à 360 degrés. Protégez votre santé et respirez sereinement en investissant dans ce purificateur d’air haut de gamme."
       }
     ]
   },
@@ -84,34 +91,41 @@ export const apportVitamines = {
   picture: "/img/jpg/product/apportVitamines.jpg",
   colors: {
     textColor: "#13af56",
-    titleColorInSummary: "#013a10",
-    bgColorInSummary: "#9ee1af"
+    titleColorInSummary: "#13af56",
+    bgColorInSummary0: "#89d7ab",
+    bgColorInSummary1: "#e3f5eb",
+    linearGradient0: "linear-gradient(105deg ,#89d7ab, #b3ffc5)",
+    linearGradient1: "linear-gradient(to right, #b8e7cc, 	#e3f5eb)",
+    shadowColor: "#e3f5eb"
   },
   inSummary: [
     {
       id: "AViSGP0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "AViSPC1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "AViSS2",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "AViSB3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "AViSBE4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Contient des ingrédients aux propriétés anti inflammatoires</li>
+          <li>
+            Composé de vitamines bonnes pour les yeux, le coeur, la peau et les
+            poumons
+          </li>
+          <li>Efficace sur les maladies saisonnières</li>
+          <li>
+            <h4>Conseillé pour :</h4>
+            <ul>
+              <li>l’arthrose</li>
+              <li>les douleurs nerveuses</li>
+              <li>les douleurs musculaires</li>
+            </ul>
+            <h5>et dans le cadre de pathologies telles que :</h5>
+
+            <ul>
+              <li>la fibromyalgie</li>
+              <li>et l’endométriose</li>
+            </ul>
+          </li>
+        </ul>
+      )
     }
   ]
 };

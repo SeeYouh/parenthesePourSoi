@@ -105,34 +105,55 @@ export const regenerateurCellulaire = {
   picture: "/img/jpg/product/regenerateurCellulaire.jpg",
   colors: {
     textColor: "#83218f",
-    titleColorInSummary: "",
-    bgColorInSummary: ""
+    titleColorInSummary: "#83218f",
+    bgColorInSummary0: "#A85CB8",
+    bgColorInSummary1: "#f5ebf6",
+    linearGradient0: "linear-gradient(105deg ,#A85CB8, #d4aedc)",
+    linearGradient1: "linear-gradient(to right, #d4aedc, 	#f5ebf6)",
+    shadowColor: "#f5ebf6"
   },
   inSummary: [
     {
       id: "RCiSGP0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "RCiSPC1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "RCiSS2",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      text: (
+        <ul>
+          <li>Stimule le système immunitaire</li>
+          <li>Améliore les fonctions respiratoires (asthme, allergies)</li>
+          <li>
+            Soutient la santé cardiovasculaire, le système nerveux et le système
+            immunitaire
+          </li>
+          <li>Bénéfique pour la circulation sanguine et la rétention d’eau</li>
+          <li>
+            Stimule la production de collagène, crucial pour le corps et les
+            articulations.
+          </li>
+        </ul>
+      )
     },
     {
       id: "RCiSB3",
       title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+      text: (
+        <ul>
+          <li>
+            Améliore la qualité de la peau (acné, vergetures, cellulite, eczéma,
+            cicatrices)
+          </li>
+          <li>Diminue les signes visibles de l’âge</li>
+          <li>Permet une cicatrisation plus rapide des plaies</li>
+        </ul>
+      )
     },
     {
       id: "RCiSBE4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Apporte une énergie physique quotidienne</li>
+        </ul>
+      )
     }
   ]
 };

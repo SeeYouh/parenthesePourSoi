@@ -60,10 +60,6 @@
     padding-bottom: -50px;
     margin-top: 15px;
   }
-
-  // .productDescriptPresentNext:last-child {
-  //   margin-bottom: 50px;
-  // }
 }
 
 .textParagraph {
@@ -79,7 +75,6 @@
     margin-top: 15px;
     margin-bottom: 35px;
     height: 300px;
-    // border: 1px solid black;
   }
 }
 
@@ -99,23 +94,68 @@
   margin-bottom: 25px;
 
   .bubleInSummary {
-    width: 300px;
+    z-index: -3;
+    width: 400px;
     min-height: 200px;
-    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 10px 10px 10px;
-    padding: 20px;
+    margin: 0 10px 50px 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.144);
 
     .textInSummary {
       margin-top: 20px;
+      padding: 20px 25px 20px 15px;
+
+      li {
+        padding-left: 15px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+      }
     }
 
     .bubleInSummary,
     .titleInSummary {
       text-align: center;
     }
+
+    .titleInSummary {
+      font-size: 1.5rem;
+      font-weight: 700;
+      padding: 30px 20px 20px 20px;
+      text-transform: uppercase;
+    }
+  }
+
+  .contentTitleInSummary {
+    width: 100%;
+    height: 150px;
+  }
+
+  .bgRadiantInSummary,
+  .bgInSummary {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .bgRadiantInSummary {
+    width: 100%;
+    height: 100%;
+    bottom: 25px;
+  }
+
+  .bgInSummary {
+    width: 440px;
+    height: 150%;
+    transform: rotate(-14deg) translate(20px, -30%);
+    top: -50px;
+    left: -50px;
   }
 }

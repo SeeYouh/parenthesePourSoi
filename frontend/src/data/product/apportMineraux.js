@@ -47,39 +47,39 @@ export const apportMineraux = {
     ],
     youLikeIt: [
       {
-        id: "amapportVitamines0",
+        id: "apportMineraux0",
         link: "apportVitamines",
         pictureLove: "/img/jpg/product/apportVitamines.jpg",
         textLove:
-          "Dans le cas de nombreuses pathologies, ce concentré de minéraux est associé à notre produit vitaminé qui est un véritable allié pour vos os, vos muscles et vos nerfs grâce à ses propriétés anti-inflammatoires naturelles."
+          "Notre formule spéciale composée de 17 vitamines et nutriments renforce votre système immunitaire, vous protégeant ainsi des infections saisonnières telles que le rhume et la grippe. Elle prend également soin de vos yeux en préservant leur santé et en améliorant votre acuité visuelle. De plus, elle soutient la santé de vos vaisseaux sanguins en réduisant l'inflammation et en favorisant une circulation sanguine optimale. Notre produit renforce également votre cœur et vos poumons, assurant une santé cardiovasculaire optimale. Enfin, il préserve la santé de votre peau, lui redonnant élasticité et éclat pour une apparence radieuse."
       },
       {
-        id: "ammereDeTous1",
+        id: "apportMineraux1",
         link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
-          "Dans le cas de nombreuses pathologies, ce concentré de minéraux est associé à notre produit vitaminé qui est un véritable allié pour vos os, vos muscles et vos nerfs grâce à ses propriétés anti-inflammatoires naturelles."
+          "Notre produit breveté, exclusif à notre boutique, est formulé avec 36 ingrédients naturels puissants. Il agit comme un anti-inflammatoire, soulageant les douleurs musculaires, articulaires et les maladies chroniques. En plus de stimuler l'énergie et d'améliorer l'humeur, il protège les cellules et renforce le système immunitaire. Il soulage les allergies, régule le cholestérol et stabilise le diabète, tout en offrant un soulagement pour les règles douloureuses. Un avantage supplémentaire est qu'il accélère le bronzage, offrant une peau rayonnante en peu de temps."
       },
       {
-        id: "amequilibreCorpsEsprit2",
-        link: "equilibreCorpsEsprit",
-        pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
+        id: "apportMineraux2",
+        link: "boosterEnergie",
+        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
-          "Une formule tout-en-un pour améliorer votre bien-être global. Grâce à ses propriétés, notre produit lutte efficacement contre la fatigue et agit en profondeur pour améliorer la qualité de votre sommeil, vous permettant de vous réveiller chaque matin frais et revitalisé. Notre formule est également votre alliée pour faire face au stress, à l'anxiété et au surmenage. Ses ingrédients naturels procurent un soulagement apaisant."
+          "Notre formule tout-en-un est conçue pour améliorer votre bien-être global de manière efficace. Elle combat efficacement la fatigue et favorise un sommeil de qualité, vous permettant de vous réveiller frais et revitalisé chaque matin. En outre, notre produit agit comme un puissant allié pour faire face au stress, à l'anxiété et au surmenage, en offrant un soulagement apaisant grâce à ses ingrédients naturels soigneusement sélectionnés."
       },
       {
-        id: "amregenerateurCellulaire3",
+        id: "apportMineraux3",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
-          "Notre régénérateur cellulaire, une solution exceptionnelle pour améliorer la qualité de la peau, soulage également les allergies et l'asthme. Retrouvez une peau éclatante et une respiration apaisée grâce à notre produit bienfaisant."
+          "Notre régénérateur cellulaire est une solution exceptionnelle qui offre de multiples bienfaits pour la peau, tout en apaisant les allergies et l'asthme. Profitez d'une peau éclatante et revitalisée, ainsi que d'une respiration plus apaisée grâce à notre produit bienfaisant."
       },
       {
-        id: "amcollagene4",
+        id: "apportMineraux4",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
         textLove:
-          "Le collagène n’agit pas seulement sur la peau, il est avant tout un allié essentiel pour soutenir votre corps de manière globale. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante."
+          "Le collagène est bien plus qu'un allié pour la peau, il joue un rôle essentiel dans le soutien global de votre corps. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante, vous permettant de vivre pleinement et en pleine santé."
       }
     ]
   },
@@ -88,34 +88,27 @@ export const apportMineraux = {
   picture: "/img/jpg/product/apportMineraux.jpg",
   colors: {
     textColor: "#00528a",
-    titleColorInSummary: "#003459",
-    bgColorInSummary: "#68a6d0"
+    titleColorInSummary: "#00528a",
+    bgColorInSummary0: "#4d86ad",
+    bgColorInSummary1: "#e0eaf1",
+    linearGradient0: "linear-gradient(105deg ,#4d86ad, #8bb4ff)",
+    linearGradient1: "linear-gradient(to right, #80a9c5, 	#e0eaf1)",
+    shadowColor: "#e0eaf1"
   },
   inSummary: [
     {
-      id: "amis0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "AMiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
       id: "AMiS2",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "AMiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "AMiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Contient des ingrédients aux propriétés anti inflammatoires</li>
+          <li>
+            Composé de minéraux bons pour les os, les muscles et les nerfs
+          </li>
+          <li>Conseillé pour les crampes, les engourdissements</li>
+          <li>Et dans le cadre de pathologies telles que la fibromyalgie</li>
+        </ul>
+      )
     }
   ]
 };

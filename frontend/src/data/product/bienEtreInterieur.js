@@ -56,31 +56,36 @@ export const bienEtreInterieur = {
     ],
     youLikeIt: [
       {
-        id: "BEIGoutteMinceur0",
+        id: "bienEtreInterieur0",
+        link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Dans le cadre d’une cure minceur, nos gouttes super puissantes seront la solution idéale pour perdre du poids sainement et durablement, sans vous soumettre à un régime contraignant. Laissez-vous séduire par cette méthode naturelle pour atteindre vos objectifs de bien-être en toute efficacité."
       },
       {
-        id: "BEIDetox1",
+        id: "bienEtreInterieur1",
+        link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
         textLove:
           "Notre détox naturelle est conçue pour éliminer les toxines de votre organisme, vous offrant ainsi une sensation de pureté et de bien-être. Plongez dans une expérience revitalisante et laissez votre corps retrouver son équilibre naturel grâce à cette solution bienfaisante."
       },
       {
-        id: "BEIEquilibreCorpsEsprit2",
+        id: "bienEtreInterieur2",
+        link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Les pré-probiotiques ont une action sur la qualité du sommeil. Si c’est ce que vous recherchez, je vous conseille de découvrir notre produit naturel pour un sommeil récupérateur optimal, offrant une nuit paisible et régénérante. Plongez dans un sommeil profond et réparateur, pour des journées remplies d'énergie et de vitalité."
       },
       {
-        id: "BEIGG3",
+        id: "bienEtreInterieur3",
+        link: "gg",
         pictureLove: "/img/jpg/product/GG.jpg",
         textLove:
           "Pour aller encore plus loin dans votre bien-être intestinal et le stimuler naturellement, découvrez notre produit innovant qui vous apporte 900 grammes de légumes en une seule dose journalière. Profitez d'une dose concentrée de nutriments essentiels pour une santé digestive optimale."
       },
       {
-        id: "BEIMereDeTous4",
+        id: "bienEtreInterieur4",
+        link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
           "Pour les maladies chroniques ou les douleurs corporelles (articulaires, osseuses, musculaires), notre produit naturel aux propriétés anti-inflammatoires est là pour vous"
@@ -96,7 +101,11 @@ export const bienEtreInterieur = {
   colors: {
     textColor: "#8a7540",
     titleColorInSummary: "#4e4224",
-    bgColorInSummary: "#e5d1a0"
+    bgColorInSummary0: "#ad9e79",
+    bgColorInSummary1: "#f1eee8",
+    linearGradient0: "linear-gradient(105deg ,#ad9e79, #ffda99)",
+    linearGradient1: "linear-gradient(to right, #c5baa0, 	#f1eee8)",
+    shadowColor: "#f1eee8"
   },
   inSummary: [
     {

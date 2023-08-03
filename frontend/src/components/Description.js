@@ -1,35 +1,19 @@
 import React from "react";
 
-import { scroller } from "react-scroll";
-import { useNavigate } from "react-router-dom";
-
+import AsaComplement from "./AsaComplement";
 import { ProductStyle } from "./utils/ProductStyle";
 
 const Description = ({ product }) => {
   const themeColors = product.colors;
   const productParagraph = product.summary.paragraph;
-  const productLiketIt = product.summary.youLikeIt;
-
-  const navigate = useNavigate();
-
-  const goToPageAndScroll = async (productId, selector) => {
-    const offset = -125;
-    await navigate(`/product/${productId}`);
-    await scroller.scrollTo(selector, {
-      duration: 1000,
-      smooth: true,
-      offset: offset,
-      spy: true
-    });
-  };
 
   return (
     <>
       <div className="bgParagraph">
         {ProductStyle({ product })}
-        {productParagraph.map((product, index) => (
+        {productParagraph.map((paragraph, index) => (
           <div
-            key={product.id}
+            key={paragraph.id}
             className={
               index === 1
                 ? "selectText productDescriptPresentFirst"
@@ -43,18 +27,18 @@ const Description = ({ product }) => {
                     color: themeColors.textColor
                   }}
                 >
-                  {product.subTitle}
+                  {paragraph.subTitle}
                 </h3>
-                {Array.isArray(product.text) ? (
+                {Array.isArray(paragraph.text) ? (
                   <ul>
-                    {product.text.map((text) => (
+                    {paragraph.text.map((text) => (
                       <li className="textParagraph" key={text}>
                         {text}
                       </li>
                     ))}
                   </ul>
                 ) : (
-                  <div className="textParagraph">{product.text}</div>
+                  <div className="textParagraph">{paragraph.text}</div>
                 )}
               </div>
             )}
@@ -62,37 +46,21 @@ const Description = ({ product }) => {
               <picture>
                 <source
                   media="(max-width: 1439px)"
-                  srcSet={product.picture450}
+                  srcSet={paragraph.picture450}
                 />
                 <source
                   media="(min-width: 1440px) && (max-width: 1600px)"
-                  srcSet={product.picture675}
+                  srcSet={paragraph.picture675}
                 />
                 <source
                   media="(min-width: 1601px)"
-                  srcSet={product.picture900}
+                  srcSet={paragraph.picture900}
                 />
-                <img src={product.picture900} alt={product.alt} />
+                <img src={paragraph.picture900} alt={paragraph.alt} />
               </picture>
             )}
             {index === productParagraph.length - 1 ? (
-              <>
-                <div className="youWillLikeIt">
-                  {productLiketIt.map((product) => (
-                    <div className="youWillLikeIt-content" key={product.id}>
-                      <img
-                        onClick={() =>
-                          goToPageAndScroll(product.link, "productPage")
-                        }
-                        className="imgYouWillLikeIt"
-                        src={product.pictureLove}
-                        alt={product.alt}
-                      />
-                      <div className="textParagraph">{product.textLove}</div>
-                    </div>
-                  ))}
-                </div>
-              </>
+              <AsaComplement product={product} />
             ) : (
               index !== 1 && (
                 <>
@@ -101,9 +69,9 @@ const Description = ({ product }) => {
                       color: themeColors.textColor
                     }}
                   >
-                    {product.subTitle}
+                    {paragraph.subTitle}
                   </h3>
-                  <div className="textParagraph">{product.text}</div>
+                  <div className="textParagraph">{paragraph.text}</div>
                 </>
               )
             )}

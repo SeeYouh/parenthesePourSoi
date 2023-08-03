@@ -1,6 +1,6 @@
 .bgProductDetails {
   // height: 100%;
-  // margin-top: 125px;
+  margin-top: 125px;
   img {
     height: 100%;
     object-fit: cover;
@@ -80,6 +80,10 @@
 .imgYouWillLikeIt {
   height: 300px;
   object-fit: cover;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .blockBubleInSummary {

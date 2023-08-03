@@ -62,34 +62,35 @@ export const equilibreCorpsEsprit = {
     ],
     youLikeIt: [
       {
-        id: "ECEdetox0",
+        id: "equilibreCorpsEsprit0",
+        link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
         textLove:
-          "Vous aimerez sûrement notre produit détoxifiant pour un dégonflement naturel en éliminant les toxines de votre corps. Cette détoxification vous apportera bien-être et légèreté."
+          "Notre produit détoxifiant est une véritable invitation à la revitalisation de votre corps. Conçu pour éliminer naturellement les toxines accumulées, il agit en profondeur pour vous débarrasser des impuretés et désencombrer votre organisme. En libérant votre corps de ces substances indésirables, vous vous sentirez plus léger et plus en harmonie avec vous-même."
       },
       {
-        id: "ECEGoutteMinceur1",
+        id: "equilibreCorpsEsprit1",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
-          "Si vous souhaitez perdre du poids sans contrainte, alors nos gouttes minceur puissantes devraient vous plaire. Elles ont été spécialement conçues pour brûler les graisses de manière naturelle et empêcher le stockage de nouvelles graisses durant le sommeil."
+          "Si vous souhaitez perdre du poids sans contrainte, alors nos gouttes minceur puissantes devraient vous plaire. Elles sont pécialement conçues pour brûler les graisses naturellement et empêcher le stockage de nouvelles graisses pendant le sommeil. Vous obtiendrez des résultats remarquables sans effort grâce à nos gouttes minceur efficaces."
       },
       {
-        id: "ECEBienEtreInterieur2",
+        id: "equilibreCorpsEsprit2",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
-          "Soucis digestifs ou intestinaux ? Nos pré-probiotiques sont parfaits pour un bien-être intérieur optimal. Des cellules souches qui offrent à votre corps une harmonie digestive naturelle en rééquilibrant votre microbiote."
+          "Nos pré-probiotiques sont idéals pour un bien-être intérieur optimal. Grâce à des cellules souches, ils rééquilibrent votre microbiote, considéré comme le deuxième cerveau humain. Il améliore ainsi vos soucis digestifs et intestinaux pour une harmonie digestive naturelle et un bien-être intérieur sans égal."
       },
       {
-        id: "ECECremeNight3",
+        id: "equilibreCorpsEsprit3",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
-          "Pour compléter les bienfaits de ce produit, améliorer la qualité de la peau de votre visage en découvrant notre crème de nuit conçue pour lutter efficacement contre les signes visibles de l'âge et restaurer le processus cellulaire de votre visage pendant que vous dormez."
+          "Pour compléter les bienfaits de ce produit et améliorer la qualité de la peau de votre visage,  notre crème de nuit est parfaite ! Elle est conçue pour lutter contre les signes de l'âge, elle restaure le processus cellulaire de votre visage pendant votre sommeil, améliorant ainsi la qualité de votre peau et vous offrant une apparence plus jeune et éclatante."
       },
       {
-        id: "ECESerumComplet4",
+        id: "equilibreCorpsEsprit4",
         pictureLove: "/img/jpg/product/serumComplet.jpg",
         textLove:
-          "Notre sérum complet utilisant la technologie liposomale est spécialement conçu pour hydrater votre peau de l’intérieur. Elle permet de lisser les rides et ridules tout en apportant un teint plus éclatant à votre peau."
+          "Notre sérum complet, doté de la technologie liposomale avancée, est un véritable concentré de bienfaits pour votre peau. Il agit en profondeur et offre une hydratation intense, nourrissant votre peau de l'intérieur et lui redonnant tout son éclat. Grâce à cette action hydratante en profondeur, les signes visibles de l’âge s'estompent, laissant votre peau souple, douce et éclatante. Avec ses propriétés hydratantes, anti-rides et éclaircissantes, il répond à plusieurs besoins en une seule formule."
       }
     ]
   },
@@ -99,33 +100,51 @@ export const equilibreCorpsEsprit = {
   colors: {
     textColor: "#e2b100",
     titleColorInSummary: "#0d314c",
-    bgColorInSummary: "#fcfad5"
+    bgColorInSummary0: "#f1d880",
+    bgColorInSummary1: "#e2e6ea",
+    linearGradient0: "linear-gradient(105deg ,#566f82, #5fa1ff)",
+    linearGradient1: "linear-gradient(to right, #8698a6, 	#e2e6ea)",
+    shadowColor: "#f1d880"
   },
   inSummary: [
     {
       id: "ECEiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Aide aux fonctions psychologiques normales</li>
+          <li>Permet le maintien d’une glycémie normale</li>
+          <li>
+            Permet de réduire les désagréments liés à la préménopause et
+            ménopause
+          </li>
+          <li>
+            Augmente la fertilité, permet une reproduction normale et soutient
+            la spermatogenèse
+          </li>
+        </ul>
+      )
     },
     {
       id: "ECEiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Beauté ",
+      text: (
+        <ul>
+          <li>Soutient le processus de division cellulaire</li>
+          <li>Améliore la qualité de la peau</li>
+        </ul>
+      )
     },
     {
       id: "ECEiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "ECEiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "ECEiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Augmente le métabolisme générateur d’énergie</li>
+          <li>Soutient un sommeil récupérateur et de qualité</li>
+          <li>Apporte un bien-être quotidien</li>
+        </ul>
+      )
     }
   ]
 };

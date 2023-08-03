@@ -111,7 +111,7 @@ export const mereDeTous = {
     titleColorInSummary: "#cf0a0a",
     bgColorInSummary0: "#eb6262",
     bgColorInSummary1: "#f0e3ea",
-    linearGradient0: "linear-gradient(105deg ,#eb6262, #f6bcbc)",
+    linearGradient0: "linear-gradient(105deg ,#eb6262, #fff9f9)",
     linearGradient1: "linear-gradient(to right, #bf8aa8, 	#f0e3ea)",
     shadowColor: "#f0e3ea"
   },

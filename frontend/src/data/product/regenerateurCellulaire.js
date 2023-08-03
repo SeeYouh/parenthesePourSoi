@@ -72,27 +72,20 @@ export const regenerateurCellulaire = {
       },
       {
         id: "regenerateurCellulaire2",
-        link: "boosterDenergie",
-        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
-        textLove:
-          "Ce puissant catalyseur de bien-être est la clé pour insuffler vitalité et vigueur à votre journée, du matin au soir. Finis les coups de fatigue et la sensation de baisse d'énergie ! Notre formule unique vous permettra de vivre pleinement chaque instant. Offrez-vous le boost dont vous avez besoin pour atteindre vos objectifs et profiter pleinement de chaque moment."
-      },
-      {
-        id: "regenerateurCellulaire3",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Pour une peau adoucie et débarrassée des impuretés accumulées tout au long de la journée, notre gel nettoyant sera votre allié idéal. Pour offrir à votre peau une expérience de soin complète et efficace, faites confiance à notre gel nettoyant en lui offrant une hydratation optimale et une sensation de fraîcheur incomparable."
       },
       {
-        id: "regenerateurCellulaire4",
+        id: "regenerateurCellulaire3",
         link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
           "Prenez soin de votre peau et évitez qu'elle ne s'assèche grâce à notre huile de coco d'origine tahitienne, pleine de bienfaits. Contrairement à d'autres produits, notre huile reste sous forme liquide, car elle n'a subi aucune transformation. Cela garantit que vous bénéficiez de toutes ses propriétés naturelles intactes pour hydrater, nourrir et protéger votre peau en profondeur. Offrez-vous une expérience de soin authentique et découvrez les vertus revitalisantes de notre huile de coco de Tahiti pour une peau douce, radieuse et resplendissante."
       },
       {
-        id: "regenerateurCellulaire5",
+        id: "regenerateurCellulaire4",
         link: "bb",
         pictureLove: "/img/jpg/product/bb.jpg",
         textLove:
@@ -106,11 +99,11 @@ export const regenerateurCellulaire = {
   colors: {
     textColor: "#83218f",
     titleColorInSummary: "#83218f",
-    bgColorInSummary0: "#A85CB8",
-    bgColorInSummary1: "#f5ebf6",
-    linearGradient0: "linear-gradient(105deg ,#A85CB8, #d4aedc)",
-    linearGradient1: "linear-gradient(to right, #d4aedc, 	#f5ebf6)",
-    shadowColor: "#f5ebf6"
+    bgColorInSummary0: "#a864b1",
+    bgColorInSummary1: "#f0e4f2",
+    linearGradient0: "linear-gradient(105deg ,#a864b1, #ed94ff)",
+    linearGradient1: "linear-gradient(to right, #c190c7, 	#f0e4f2)",
+    shadowColor: "#f0e4f2"
   },
   inSummary: [
     {
@@ -119,15 +112,34 @@ export const regenerateurCellulaire = {
       text: (
         <ul>
           <li>Stimule le système immunitaire</li>
-          <li>Améliore les fonctions respiratoires (asthme, allergies)</li>
+          <li>Améliore les fonctions respiratoires</li>
+          <ul>
+            <li>asthme</li>
+            <li>allergies</li>
+          </ul>
           <li>
             Soutient la santé cardiovasculaire, le système nerveux et le système
             immunitaire
           </li>
-          <li>Bénéfique pour la circulation sanguine et la rétention d’eau</li>
-          <li>
-            Stimule la production de collagène, crucial pour le corps et les
-            articulations
+          <li>Bénéfique pour la circulation sanguine et la rétention d’eau </li>
+          <li
+            style={{
+              paddingTop: "15px",
+              backgroundColor: "#ecdeee",
+              border: "2px solid #d4aedc",
+              borderRadius: "10px"
+            }}
+          >
+            <h5>Aide à la production du collagène, essentiel pour :</h5>
+            <ul>
+              <li>les tissus</li>
+              <li>les os</li>
+              <li>les dents</li>
+              <li>les ligaments</li>
+              <li>les vertèbres</li>
+              <li>le cartilage</li>
+              <li> les articulations</li>
+            </ul>
           </li>
         </ul>
       )

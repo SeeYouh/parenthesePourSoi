@@ -57,34 +57,39 @@ export const boosterEnergie = {
     ],
     youLikeIt: [
       {
-        id: "BdEGoutteMinceur0",
+        id: "boostEnergie0",
+        link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
-          "Pour une cure minceur, ce booster d’énergie fonctionne en synergie parfaite avec nos gouttes minceur naturelles, conçues pour brûler efficacement les graisses sous-cutanées et viscérales, tout en bloquant le stockage des graisses indésirables."
+          "En associant notre booster d'énergie à nos gouttes minceur naturelles, brûlez efficacement les graisses sous-cutanées et viscérales, tout en bloquant le stockage des graisses indésirables. Obtenez des résultats impressionnants tout en bénéficiant d'un regain d'énergie pour une transformation harmonieuse de votre silhouette."
       },
       {
-        id: "BdEHarmonie1",
+        id: "boostEnergie1",
+        link: "harmonie",
         pictureLove: "/img/jpg/product/harmonie.jpg",
         textLove:
-          "Pour un bien-être psychologique et la prévention du burn-out, ce produit s'associe idéalement à un autre de nos produits. Une combinaison parfaite pour retrouver l'équilibre intérieur et une sérénité épanouissante."
+          "Voici une combinaison parfaite pour le bien-être psychologique et la prévention du burn-out. En associant notre produit phare à ce produit, vous retrouverez un équilibre émotionnel, un moral positif et une sérénité épanouissante tout en obtenant une énergie physique et mentale sans pareil."
       },
       {
-        id: "BdERegenerateurCellulaire2",
-        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
-        textLove:
-          "Pour les problèmes d’ordre cutané, notre produit chouchou régénérateur cellulaire est un véritable miracle pour votre peau. Une expérience naturelle et revitalisante pour une peau éclatante et rayonnante."
-      },
-      {
-        id: "BdEOsMuscle3",
+        id: "boostEnergie2",
+        link: "osMuscle",
         pictureLove: "/img/jpg/product/osMuscle.jpg",
         textLove:
-          "Vous vous sentez stressée ? Anxieuse ? Un apport en magnésium est essentiel pour contrer les effets néfastes du stress sur votre corps. Découvrez une expérience apaisante pour retrouver équilibre et bien-être."
+          "Le magnésium permet de nourrir votre corps et d'apaiser votre esprit. Avec notre produit riche en magnésium, combattez le stress et l'anxiété en prenant soin de vous de l'intérieur pour retrouver équilibre et bien-être.  C’est une approche naturelle pour vous sentir revitalisé et serein au quotidien."
       },
       {
-        id: "BdEEquilibreCorpsEsprit4",
+        id: "boostEnergie3",
+        link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
-          "Parfois, la fatigue est associée à un manque de sommeil ou un repos non récupérateur. Notre produit naturel est spécialement conçu pour vous offrir un sommeil profond et réparateur. Plongez dans des nuits paisibles et revitalisantes qui vous donneront l'énergie et le bien-être nécessaires pour une journée épanouissante."
+          "Un sommeil profond et réparateur est essentiel pour favoriser la gaieté et la bonne humeur. Des nuits paisibles et revitalisantes contribuent à une journée épanouissante. Dites adieu à la fatigue et profitez d'un repos récupérateur pour une vitalité renouvelée chaque matin. Donnez à votre corps le repos dont il a besoin et ressentez le bien-être que vous méritez."
+      },
+      {
+        id: "boostEnergie4",
+        link: "bb",
+        pictureLove: "/img/jpg/product/bb.jpg",
+        textLove:
+          "Avec notre produit, bénéficiez d’une régénération cellulaire exceptionnelle qui accélère la pousse des ongles et des cheveux. Les résultats sont impressionnants : une chevelure abondante, résistante à la casse, et des ongles forts et sains. Grâce à une augmentation de la production de kératine, vos cheveux retrouvent brillance et vitalité. Notre formule diminue également la chute des cheveux et permet d’obtenir une chevelure dense et volumineuse comme vous en rêvez."
       }
     ]
   },
@@ -93,34 +98,60 @@ export const boosterEnergie = {
   picture: "/img/jpg/product/boosterEnergie.jpg",
   colors: {
     textColor: "#a81616",
-    titleColorInSummary: "#5f0c0c",
-    bgColorInSummary: "#e49c9c"
+    titleColorInSummary: "#a81616",
+    bgColorInSummary0: "#c25c5c",
+    bgColorInSummary1: "#f5e3e3",
+    linearGradient0: "linear-gradient(105deg ,#c25c5c, #ffabab)",
+    linearGradient1: "linear-gradient(to right, #d48b8b, 	#f5e3e3)",
+    shadowColor: "#f5e3e3"
   },
   inSummary: [
     {
       id: "BdEiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>Augmente de +17% la combustion des graisses</li>
+          <li>Contient des ingrédients aux propriétés antioxydantes</li>
+          <li>Aide à éliminer les toxines par le foie </li>
+        </ul>
+      )
     },
     {
       id: "BdEiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>
+            Soutient le système immunitaire et le système cardiovasculaire
+          </li>
+          <li>Stimule le transit intestinal</li>
+          <li>Combat les manifestations allergiques </li>
+          <li>Diminue les douleurs de menstruations</li>
+        </ul>
+      )
     },
     {
       id: "BdEiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      title: "Bien-être",
+      text: (
+        <ul>
+          <li>Donne de l’énergie mentale et physique</li>
+          <li>Augmente la concentration et la vigilance mentale</li>
+          <li>Diminue le stress, le surmenage et l’anxiété</li>
+          <li>Favorise la gaieté, la relaxation et la bonne humeur</li>
+          <li>Améliore le sommeil</li>
+        </ul>
+      )
     },
     {
       id: "BdEiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "BdEiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Diminue le vieillissement cutané</li>
+        </ul>
+      )
     }
   ]
 };

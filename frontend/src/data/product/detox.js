@@ -150,7 +150,7 @@ export const detox = {
   picture: "/img/jpg/product/detox.jpg",
   colors: {
     textColor: "#7e1450",
-    titleColorInSummary: "#4f0d32",
+    titleColorInSummary: "#7e1450",
     linkTextColor: "#7e1450",
     bgColorInSummary0: "#a55b85",
     bgColorInSummary1: "#f0e3ea",

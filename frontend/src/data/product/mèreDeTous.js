@@ -18,7 +18,8 @@ export const mereDeTous = {
         subTitle: "Combattez douleurs et inflammations",
         text: [
           "Imaginez un monde sans douleur. C'est ce que cette formule unique offre. Composée de superaliments aux propriétés anti-inflammatoires, elle soulage efficacement les douleurs musculaires, osseuses, articulaires et les affections chroniques. Elle offre une alternative naturelle aux médicaments traditionnels, sans les effets secondaires indésirables.",
-          "De plus, dans un monde où les maladies sont omniprésentes, une défense immunitaire solide est essentielle. Ce produit renforce votre système immunitaire et protège vos cellules, favorisant une santé optimale. Il est particulièrement utile pour une récupération rapide lors de rhumes ou de périodes de pandémie."
+          "Mais ce n'est pas tout ! Dans un monde où les maladies sont omniprésentes, avoir une défense immunitaire solide est essentiel. Notre produit renforce votre système immunitaire en protégeant vos cellules, favorisant ainsi une santé globale optimale. Il se révèle particulièrement utile pour une récupération rapide lors de rhumes ou de périodes de pandémie, vous offrant la tranquillité d'esprit face aux défis de la santé.",
+          "Imaginez-vous libéré(e) de la douleur et doté(e) d'un système immunitaire robuste pour affronter tous les jours avec énergie et bien-être. Notre formule unique vous offre cette possibilité, car nous croyons en un monde où la santé et le bien-être sont accessibles à tous. Rejoignez-nous dans cette quête d'une vie sans douleur, d'une santé florissante et d'une énergie débordante. Avec notre produit, découvrez la force de la nature pour votre bien-être et votre épanouissement."
         ],
         picture450: "/img/jpg/product/MereDeTousIllusText450.jpg",
         picture675: "/img/jpg/product/MereDeTousIllusText675.jpg",
@@ -70,35 +71,35 @@ export const mereDeTous = {
         link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
         textLove:
-          "Réputée pour son action rapide sur les douleurs musculaires, notre essentielle bleue fait une parfaite alliance naturelle. Elle offre un réconfort immédiat pour vos muscles endoloris, favorisant une récupération rapide et vous permettant de reprendre vos activités avec une nouvelle énergie."
+          "Pour soulager rapidement les douleurs musculaires, notre huile essentielle sera idéale. Elle apporte un réconfort immédiat aux muscles endoloris, favorisant une récupération rapide et vous permettant de reprendre vos activités avec une nouvelle énergie. Essayez-la dès maintenant pour un soulagement rapide et efficace."
       },
       {
         id: "mereDeTous1",
         link: "apportMineraux",
         pictureLove: "/img/jpg/product/ApportMineraux.jpg",
         textLove:
-          "Pour un soutien accru à votre système musculosquelettique et nerveux, n'hésitez pas à associer notre produit avec notre complément spécialement formulé à base de minéraux spécifiques. Cette combinaison renforce l'action sur les muscles, les os et les nerfs, fournissant ainsi une approche complète pour un bien-être optimal."
+          "Notre produit avec notre complément spécialement formulé à base de minéraux essentiels vous permettra de d’améliorer votre vision et votre peau et soutiendra votre coeur. Cette formule composée d’ingrédients aux propriétés anti-inflammatoires vous offre une approche complète pour un bien-être optimal."
       },
       {
         id: "mereDeTous2",
         link: "apportVitamines",
         pictureLove: "/img/jpg/product/ApportVitamines.jpg",
         textLove:
-          "Pour une prise en charge globale des douleurs musculaires et nerveuses, associer notre produit avec notre complément spécialement enrichi en vitamines soigneusement sélectionnées. Cette synergie vous offre une approche naturelle pour soulager et prévenir les inconforts tout en soutenant le bien-être de votre système neuromusculaire."
+          "Pour une prise en charge globale des douleurs musculaires, osseuses et nerveuses, notre complément enrichi en vitamines saura vous combler. Cette formule offre une approche naturelle pour soulager et prévenir les inconforts, tout en soutenant le bien-être de votre système neuromusculaire."
       },
       {
         id: "mereDeTous3",
         link: "osMuscle",
         pictureLove: "/img/jpg/product/osMuscle.jpg",
         textLove:
-          "Un autre de nos produits contient des ingrédients aux propriétés anti-inflammatoires qui agissent en synergie pour soulager vos articulations douloureuses, vous permettant de retrouver votre mobilité et votre confort. Grâce à sa capacité à stimuler la production de collagène, il favorise des gencives saines et des os solides."
+          "Ce produit est spécialement conçu pour soulager vos douleurs grâce à ses ingrédients aux propriétés anti-inflammatoires agissant en synergie. Retrouvez votre mobilité et votre confort au quotidien. De plus, notre formule stimule la production de collagène pour favoriser des gencives saines et des os solides. Une solution naturelle pour prendre soin de votre bien-être musculaire et osseux, tout en améliorant votre santé bucco-dentaire."
       },
       {
         id: "mereDeTous4",
         link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
-          "Les douleurs peuvent avoir des répercussions sur le sommeil. Une nuit saccadée peut avoir des effets néfastes sur votre humeur. Consultez notre produit naturel conçu pour favoriser un sommeil récupérateur afin de vous offrir des nuits paisibles et revitalisantes, propices à une journée pleine d'énergie et de bien-être."
+          "Un sommeil réparateur et revitalisant est essentiel pour votre corps et votre moral. Les douleurs peuvent perturber votre sommeil et impacter votre humeur au réveil. Notre solution vous offre une expérience relaxante, vous permettant de vous réveiller plein d'énergie et de bien-être pour affronter la journée avec vitalité"
       }
     ]
   },
@@ -107,35 +108,54 @@ export const mereDeTous = {
   picture: "/img/jpg/product/mereDeTous.jpg",
   colors: {
     textColor: "#e21e1e",
-    titleColorInSummary: "",
-    bgColorInSummary: "",
-    borderColor: "1px solid #e21e1e"
+    titleColorInSummary: "#cf0a0a",
+    bgColorInSummary0: "#eb6262",
+    bgColorInSummary1: "#f0e3ea",
+    linearGradient0: "linear-gradient(105deg ,#eb6262, #f6bcbc)",
+    linearGradient1: "linear-gradient(to right, #bf8aa8, 	#f0e3ea)",
+    shadowColor: "#f0e3ea"
   },
   inSummary: [
     {
-      id: "MdTGP0",
+      id: "MdTiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>Diminue les envies salées</li>
+        </ul>
+      )
     },
     {
-      id: "MdTPC1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "MdTS2",
+      id: "MdTiS1",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      text: (
+        <ul>
+          <li>A des propriétés antioxydantes</li>
+          <li>Améliore la constipation</li>
+          <li>Augmente la formation de collagène</li>
+          <li>
+            Efficace sur l’ostéoporose, les crampes, l’arthrose, la
+            tendinopathie calcifiante
+          </li>
+          <li>Favorise l’équilibre des hormones</li>
+          <li>
+            Aide à la régulation du taux de sucre et taux de cholestérol dans le
+            sang
+          </li>
+          <li>Favorise l’absorption du calcium</li>
+        </ul>
+      )
     },
     {
-      id: "MdTB3",
+      id: "MdTiS2",
       title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "MdTBE4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>A des propriétés antidépressives</li>
+          <li>Agit sur la cellulite aqueuse</li>
+          <li>Lutte contre le stress</li>
+        </ul>
+      )
     }
   ]
 };

@@ -102,27 +102,45 @@ export const bienEtreInterieur = {
     {
       id: "BEIiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>Neutralise les toxines</li>
+          <li>Contrôle la satiété</li>
+          <li>Réduit les grignotages sucrés et gras</li>
+        </ul>
+      )
     },
     {
       id: "BEIiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Combat le mauvais cholestérol </li>
+          <li>
+            Efficace sur les maladies chroniques telles que la maladie de Crohn
+          </li>
+          <li>Améliore la santé globale</li>
+          <li>Booste le système immunitaire</li>
+          <li>
+            Agit sur la digestion, la constipation, la diarrhée et les brûlures
+            d’estomac
+          </li>
+          <li>Diminue les troubles intestinaux et vaginaux</li>
+        </ul>
+      )
     },
     {
       id: "BEIiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "BEIiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "BEIiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Booste l’énergie</li>
+          <li>Diminue le stress et l’anxiété</li>
+          <li>Stimule l’humeur</li>
+          <li>Lutte contre la fatigue</li>
+          <li>Améliore le sommeil</li>
+        </ul>
+      )
     }
   ]
 };

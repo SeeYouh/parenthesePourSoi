@@ -127,7 +127,7 @@ export const regenerateurCellulaire = {
           <li>Bénéfique pour la circulation sanguine et la rétention d’eau</li>
           <li>
             Stimule la production de collagène, crucial pour le corps et les
-            articulations.
+            articulations
           </li>
         </ul>
       )

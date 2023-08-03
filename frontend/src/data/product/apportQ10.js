@@ -47,25 +47,46 @@ export const apportQ10 = {
     ],
     youLikeIt: [
       {
-        id: "aqregenerateurCellulaire0",
+        id: "apporQ100",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
-          "Une solution exceptionnelle qui vous offre une peau éclatante tout en améliorant la circulation sanguine et en réduisant la rétention d'eau. Ce produit soutient la fonction du collagène pour une peau plus ferme et élastique, tout en procurant un soulagement efficace pour vos articulations et votre fonction respiratoire."
+          "Notre régénérateur cellulaire est bien plus qu'un soin pour la peau, c'est une solution exceptionnelle qui offre des bienfaits multiples. Non seulement il améliore la qualité de la peau, la laissant éclatante et revitalisée, mais il procure également un soulagement efficace aux allergies et à l'asthme. En choisissant notre produit bienfaisant, vous pourrez profiter d'une peau resplendissante tout en bénéficiant d'une respiration apaisée et libérée des inconforts allergiques."
       },
       {
-        id: "aqcollagene1",
+        id: "apporQ101",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
         textLove:
-          "Notre collagène est bien plus qu'un bienfait pour la peau ; il apporte un soutien essentiel à votre corps dans son ensemble. Il fortifie vos os pour une mobilité harmonieuse, renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Offrez à votre corps la vitalité qu'il mérite en adoptant notre précieux collagène."
+          "Grâce à sa formule, en plus d’agir sur la peau, il fortifie en profondeur vos os, vous offrant ainsi une mobilité harmonieuse et une solidité dentaire optimale. De plus, il préserve l'intégrité de vos ligaments et articulations, assurant une flexibilité durable. En adoptant notre précieux collagène, vous offrez à votre corps la vitalité qu'il mérite pour une santé globale épanouissante. Profitez d'une expérience bienfaisante pour votre corps et ressentez les bienfaits dans votre vie quotidienne."
       },
       {
-        id: "aqboosterEnergie2",
+        id: "apporQ102",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
-          "Une solution complète pour améliorer votre bien-être global. En luttant efficacement contre la fatigue, notre produit agit en profondeur pour vous offrir un sommeil de qualité et permet une concentration mentale comme vous avez rarement connu. De plus, notre formule est votre alliée précieuse pour faire face au stress, à l'anxiété et au surmenage, grâce à ses ingrédients naturels qui procurent un soulagement apaisant."
+          "Notre produit combat efficacement la fatigue, favorise un sommeil de qualité et améliore la concentration mentale. De plus, notre formule est un allié précieux pour affronter le stress, l'anxiété et le surmenage, grâce à ses ingrédients naturels qui procurent un soulagement apaisant."
+      },
+      {
+        id: "apporQ103",
+        link: "heDesinfectante",
+        pictureLove: "/img/jpg/product/heDesinfectante.jpg",
+        textLove:
+          "L'huile essentielle Désinfectante offre de multiples bienfaits pour le bien-être mental en réduisant le stress, favorisant la relaxation et améliorant l'humeur. Elle est un remède naturel efficace pour lutter contre les infections saisonnières et renforcer le système immunitaire. En plus de désinfecter les surfaces, elle peut soulager les problèmes cutanés, apaiser les piqûres d'insectes et favoriser un système digestif sain pour une gestion du poids optimale. Optez pour cette huile essentielle naturelle pour protéger votre santé."
+      },
+      {
+        id: "apporQ104",
+        link: "masqueNuit",
+        pictureLove: "/img/jpg/product/masqueNuit.jpg",
+        textLove:
+          "Notre masque de nuit utilise la technologie Breathable Barrier®, cliniquement prouvée pour améliorer la santé de votre peau. Avec des propriétés antioxydantes et régénératrices, il réduit les signes du vieillissement, offrant une peau plus jeune et ferme. Il améliore également les imperfections de la peau, resserre les pores et combat les problèmes cutanés tels que l'acné. Ce masque nourrit votre peau en profondeur, offrant une hydratation intense et une sensation de douceur."
+      },
+      {
+        id: "apporQ105",
+        link: "cremeNight",
+        pictureLove: "/img/jpg/product/cremeNight.jpg",
+        textLove:
+          "Notre crème de nuit offre une régénération cellulaire complète en stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle apporte une hydratation exceptionnelle en pénétrant au cœur de l'épiderme. Cette crème cible les tâches et les décolorations pour un teint uniforme et éclatant. Elle lisse les ridules et prévient le vieillissement prématuré, vous offrant une peau repulpée, souple et jeune chaque matin."
       }
     ]
   },
@@ -74,34 +95,52 @@ export const apportQ10 = {
   picture: "/img/jpg/product/apportQ10.jpg",
   colors: {
     textColor: "#da7a2a",
-    titleColorInSummary: "#5a3211",
-    bgColorInSummary: "#edceb4"
+    titleColorInSummary: "#da7a2a",
+    bgColorInSummary0: "#e5a26a",
+    bgColorInSummary1: "#fbefe5",
+    linearGradient0: "linear-gradient(105deg ,#e5a26a, #ffd0bd)",
+    linearGradient1: "linear-gradient(to right, #edbd95, 	#fbefe5)",
+    shadowColor: "#fbefe5"
   },
   inSummary: [
     {
-      id: "amis0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      id: "AMiS0",
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Soutient le système cardiovasculaire et immunitaire</li>
+          <li>Préserve la mémoire et améliore les fonctions cognitives</li>
+          <li>Augmente la concentration</li>
+          <li>Diminue les douleurs des menstruations</li>
+          <li>Réduit les migraines</li>
+          <li>A un pouvoir cicatrisant (gélule ouverte)</li>
+          <li>Conseillé après un cancer</li>
+        </ul>
+      )
     },
     {
       id: "AMiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Beauté ",
+      text: (
+        <ul>
+          <li>Produit de l’énergie cellulaire (Q10)</li>
+          <li>Diminue la cellulite adipeuse</li>
+          <li>
+            Lutte contre les varices en l’associant au régénérateur cellulaire
+          </li>
+          <li>Diminue les effets visibles de l’âge</li>
+        </ul>
+      )
     },
     {
       id: "AMiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "AMiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "AMiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Booste l’énergie de l’organisme</li>
+          <li>Lutte contre la fatigue</li>
+        </ul>
+      )
     }
   ]
 };

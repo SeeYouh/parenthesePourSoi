@@ -114,7 +114,7 @@ export const apportVitamines = {
             style={{
               paddingTop: "15px",
               backgroundColor: "#b8e7cc75",
-              // border: "2px solid white",
+              border: "2px solid #b3ffc5",
               borderRadius: "10px"
             }}
           >
@@ -127,7 +127,13 @@ export const apportVitamines = {
             <h6>et dans le cadre de pathologies telles que :</h6>
 
             <ul>
-              <li>la fibromyalgie</li>
+              <li
+                style={{
+                  paddingTop: "15px"
+                }}
+              >
+                la fibromyalgie
+              </li>
               <li>et l’endométriose</li>
             </ul>
           </li>

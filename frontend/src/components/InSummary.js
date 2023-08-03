@@ -1,15 +1,18 @@
 import React from "react";
 
+import { ProductStyle } from "./utils/ProductStyle";
+
 const InSummary = ({ product }) => {
   const productInSummary = product.inSummary;
   const themeColors = product.colors;
 
   return (
     <ul className="blockBubleInSummary">
+      {ProductStyle({ product })}
       {productInSummary.map(({ title, text, id }) => (
         <li
           key={id}
-          className="bubleInSummary"
+          className="bubleInSummary selectText"
           style={{
             borderColor: themeColors.bgColorInSummary0,
             backgroundColor: themeColors.bgColorInSummary1

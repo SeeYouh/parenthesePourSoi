@@ -133,7 +133,7 @@ export const regenerateurCellulaire = {
       )
     },
     {
-      id: "RCiSB3",
+      id: "RCiSB1",
       title: "Beauté ",
       text: (
         <ul>
@@ -147,7 +147,7 @@ export const regenerateurCellulaire = {
       )
     },
     {
-      id: "RCiSBE4",
+      id: "RCiSBE2",
       title: "Bien-être",
       text: (
         <ul>

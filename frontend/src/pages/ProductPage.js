@@ -86,26 +86,28 @@ const ProductPage = () => {
         name="articleDetails"
       >
         <div className="bgProductDetails" key={descriptionName}>
-          <div className="imgProduit">
-            <img src={product.picture} alt={product.alt} />
-          </div>
-          <div className="titleTextProduct">
-            <h1
-              style={{
-                color: themeColors.textColor
-              }}
-            >
-              {product.nameProduct}
-            </h1>
-            <h2
-              style={{
-                borderBottom: `5px solid ${themeColors.textColor}`,
-                borderLeft: `3px solid ${themeColors.textColor}`,
-                borderBottomLeftRadius: "20px"
-              }}
-            >
-              {product.summary.title}
-            </h2>
+          <div className="blocTitleImg">
+            <div className="imgProduit">
+              <img src={product.picture} alt={product.alt} />
+            </div>
+            <div className="titleTextProduct">
+              <h1
+                style={{
+                  color: themeColors.textColor
+                }}
+              >
+                {product.nameProduct}
+              </h1>
+              <h2
+                style={{
+                  borderBottom: `5px solid ${themeColors.textColor}`,
+                  borderLeft: `3px solid ${themeColors.textColor}`,
+                  borderBottomLeftRadius: "20px"
+                }}
+              >
+                {product.summary.title}
+              </h2>
+            </div>
           </div>
         </div>
         <Element name="bgProductDetails">

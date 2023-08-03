@@ -97,7 +97,7 @@ export const apportMineraux = {
   },
   inSummary: [
     {
-      id: "AMiS2",
+      id: "AMiS0",
       title: "Santé",
       text: (
         <ul>

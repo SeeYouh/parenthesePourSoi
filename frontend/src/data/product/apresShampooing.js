@@ -10,7 +10,7 @@ export const apresShampooing = {
       {
         id: "0apresShampooing",
         subTitle: "Purification douce",
-        text: "Notre après-shampooing offre une purification douce mais efficace pour vos cheveux. Il élimine en douceur les impuretés sans en introduire de nouvelles, laissant vos cheveux frais et légers. Grâce à sa formule unique, il facilite le brossage, réduisant ainsi la casse et les nœuds. Vous serez émerveillé(e) par l'élasticité, la brillance et la douceur retrouvées de vos cheveux, révélant toute leur beauté naturelle. C'est le soin idéal pour ceux qui cherchent à maintenir la santé et la vitalité de leurs cheveux."
+        text: "Notre après-shampooing offre une purification douce mais efficace pour vos cheveux. Il élimine en douceur les impuretés sans en introduire de nouvelles, laissant vos cheveux frais et légers. Grâce à sa formule unique, il facilite le brossage, rédeuisant ainsi la casse et les nœuds. Vous serez émerveillé(e) par l'élasticité, la brillance et la douceur retrouvées de vos cheveux, révélant toute leur beauté naturelle. C'est le soin idéal pour ceux qui cherchent à maintenir la santé et la vitalité de leurs cheveux."
       },
       {
         id: "1apresShampooing",

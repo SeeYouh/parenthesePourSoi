@@ -151,14 +151,22 @@ export const detox = {
   colors: {
     textColor: "#7e1450",
     titleColorInSummary: "#4f0d32",
-    bgColorInSummary: "#c37ea5",
-    linkTextColor: "#7e1450"
+    linkTextColor: "#7e1450",
+    bgColorInSummary0: "#a55b85",
+    bgColorInSummary1: "#f0e3ea",
+    linearGradient0: "linear-gradient(105deg ,#a55b85, #ff82b3)",
+    linearGradient1: "linear-gradient(to right, #bf8aa8, 	#f0e3ea)",
+    shadowColor: "#f0e3ea"
   },
   inSummary: [
     {
       id: "DeiS0",
       title: "Gestion du poids",
-      text: "Nettoie et détoxifie le corps"
+      text: (
+        <ul>
+          <li>Nettoie et détoxifie le corps</li>
+        </ul>
+      )
     },
     {
       id: "DeiS1",
@@ -183,10 +191,23 @@ export const detox = {
         <ul>
           <li>Atténue la cellulite, qu'elle soit adipeuse ou aqueuse</li>
           <li>
-            Aide à lutter contre l'acné, les vergetures, la cellulite, les
-            varices, l'eczéma et le psoriasis
+            <h5>Aide à lutter contre :</h5>
+            <ul>
+              <li>l'acné</li>
+              <li>les vergetures</li>
+              <li>la cellulite</li>
+              <li>les varices</li>
+              <li>l'eczéma</li>
+              <li>le psoriasis</li>
+            </ul>
           </li>
-          <li>Stimule l'énergie physique</li>
+          <li
+            style={{
+              marginTop: "-15px"
+            }}
+          >
+            Stimule l'énergie physique
+          </li>
           <li>Favorise un sommeil réparateur de qualité</li>
         </ul>
       )

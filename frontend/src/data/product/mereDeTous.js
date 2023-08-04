@@ -131,7 +131,7 @@ export const mereDeTous = {
       text: (
         <ul>
           <li>A des propriétés antioxydantes</li>
-          <li>Améliore la constipation</li>
+          <li>Aide à soulager la constipation</li>
           <li>Augmente la formation de collagène</li>
           <li>
             Efficace sur l’ostéoporose, les crampes, l’arthrose, la

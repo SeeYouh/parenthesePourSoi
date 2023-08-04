@@ -141,6 +141,11 @@ export const harmonie = {
                     color: "#c433bc"; 
                   }`}
               </style>
+              <style>
+                {`a:visited { 
+                    color: "#c433bc"; 
+                  }`}
+              </style>
               <a
                 className="btn btn-extLink"
                 href="https://fr.wikipedia.org/wiki/D%C3%A9hydro%C3%A9piandrost%C3%A9rone"

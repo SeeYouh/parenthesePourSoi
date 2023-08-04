@@ -28,7 +28,7 @@ import { heRafraichissant } from "./product/heRafraichissant";
 import { heRelaxante } from "./product/heRelaxante";
 import { heSoulageante } from "./product/heSoulageante";
 import { masqueNuit } from "./product/masqueNuit";
-import { mereDeTous } from "./product/mèreDeTous";
+import { mereDeTous } from "./product/mereDeTous";
 import { osMuscle } from "./product/osMuscle";
 import { pb } from "./product/pb";
 import { pn } from "./product/pn";

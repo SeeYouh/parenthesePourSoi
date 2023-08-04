@@ -116,7 +116,7 @@ export const harmonie = {
           <li>Soutient le système immunitaire</li>
           <li>Améliore la santé oculaire </li>
           <div className="marginLeft15px">
-            <h5>Diminue les douleurs articulaires (, , )</h5>
+            <h5>Diminue les douleurs articulaires :</h5>
             <li>arthrite</li>
             <li>ostéoporose</li>
             <li>rhumatismes…</li>
@@ -139,6 +139,11 @@ export const harmonie = {
           <li>
             Augmente la
             <span>
+              <style>
+                {`a:visited { 
+                    color: "#c433bc"; 
+                  }`}
+              </style>
               <a
                 className="btn btn-extLink"
                 href="https://fr.wikipedia.org/wiki/D%C3%A9hydro%C3%A9piandrost%C3%A9rone"
@@ -151,11 +156,13 @@ export const harmonie = {
             et la production de collagène pour lutter contre le vieillissement
             de la peau
           </li>
-          <li>
-            Composé de minéraux bons pour les os, les muscles et les nerfs
-          </li>
-          <li>Conseillé pour les crampes, les engourdissements</li>
-          <li>Et dans le cadre de pathologies telles que la fibromyalgie</li>
+          <li>Apaise l’eczéma</li>
+          <div className="marginLeft15px">
+            <h5>Combat</h5>
+            <li>les aphtes</li>
+            <li>les verrues</li>
+            <li>les boutons de fièvre</li>
+          </div>
         </ul>
       )
     },

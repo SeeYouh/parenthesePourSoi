@@ -1,9 +1,9 @@
 .navbar {
+  z-index: 100;
   display: grid;
   grid-template:
     "b a a" 1fr
     "b c c" 1fr / 1fr 2fr;
-  z-index: 1;
   height: 100px;
   padding-top: 10px;
   width: 100%;

@@ -110,14 +110,7 @@ export const apportVitamines = {
             poumons
           </li>
           <li>Efficace sur les maladies saisonnières</li>
-          <li
-            style={{
-              paddingTop: "15px",
-              backgroundColor: "#b8e7cc75",
-              border: "2px solid #b3ffc5",
-              borderRadius: "10px"
-            }}
-          >
+          <div className="marginLeft15px">
             <h5>Conseillé pour :</h5>
             <ul>
               <li>l’arthrose</li>
@@ -136,7 +129,7 @@ export const apportVitamines = {
               </li>
               <li>et l’endométriose</li>
             </ul>
-          </li>
+          </div>
         </ul>
       )
     }

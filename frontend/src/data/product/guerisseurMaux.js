@@ -52,31 +52,31 @@ export const guerisseurMaux = {
     ],
     youLikeIt: [
       {
-        id: "GMabienEtreInterieur0",
+        id: "guerisseurMaux0",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Pour encore plus de bien-être, découvrez notre produit qui régule le microbiote. Les prébiotiques et probiotiques améliorent la santé globale en prévenant les troubles digestifs et maladies chroniques. Cette solution de bien-être intérieur aide à gérer le poids, renforce le système immunitaire et offre une énergie naturelle grâce à la synthèse des vitamines B et K."
       },
       {
-        id: "GMaGoutteMinceur1",
+        id: "guerisseurMaux1",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Avec ces deux fioles uniques en gouttes, ce produit révolutionne votre cure minceur en ciblant les graisses tenaces sous-cutanées et viscérales. Il régule l'appétit, brûle les graisses efficacement et améliore votre bien-être général en stimulant le métabolisme, apportant une énergie positive et aidant à réduire la cellulite. Les gouttes nuit empêchent l'accumulation de nouvelles graisses, soulagent le stress et favorisent une digestion harmonieuse pour une récupération optimale pendant le sommeil."
       },
       {
-        id: "GMaBoosterEnergie2",
+        id: "guerisseurMaux2",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Notre booster d'énergie dynamise votre corps en stimulant votre énergie naturelle, favorisant un sommeil réparateur et diminuant le stress et l'anxiété. Grâce à ses propriétés détoxifiantes, il augmente la combustion des graisses de 17%, aidant dans la gestion du poids. En renforçant le système immunitaire et cardiovasculaire, il protège votre santé et améliore la concentration mentale."
       },
       {
-        id: "GMaRegenerateurCellulaire3",
+        id: "guerisseurMaux3",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre best seller est l'allié ultime pour une peau de qualité, favorisant élasticité et fermeté pour un teint éclatant et jeune. En plus de ses bienfaits pour la peau, il soutient la santé globale en renforçant le système cardiovasculaire et immunitaire, favorisant la formation et le maintien du collagène. Il accélère la cicatrisation des plaies, améliore les cicatrices et stimule votre énergie naturelle, vous offrant vitalité et dynamisme au quotidien. Grâce à son pouvoir antioxydant, il apaise les allergies et les symptômes de l'asthme."
       },
       {
-        id: "GMaHeRelaxante4",
+        id: "guerisseurMaux4",
         pictureLove: "/img/jpg/product/heRelaxante.jpg",
         textLove:
           "Une huile essentielle qui apaise la dépression et l'anxiété, favorisant la paix intérieure. Son parfum relaxant améliore l'humeur et aide à calmer l'esprit, réduisant le stress. Utilisée avant le coucher, elle favorise le sommeil et soulage les irritations cutanées, offrant un soulagement apaisant. Bénéficiez de ses bienfaits pour améliorer votre qualité de vie et équilibre intérieur."
@@ -88,34 +88,61 @@ export const guerisseurMaux = {
   picture: "/img/jpg/product/guerisseurMaux.jpg",
   colors: {
     textColor: "#da7a2a",
-    titleColorInSummary: "#502d0f",
-    bgColorInSummary: "#fde2cb"
+    titleColorInSummary: "#da7a2a",
+    bgColorInSummary0: "#e5a26a",
+    bgColorInSummary1: "#fbefe5",
+    linearGradient0: "linear-gradient(105deg ,#e5a26a, #ffd0bd)",
+    linearGradient1: "linear-gradient(to right, #edbd95, 	#fbefe5)",
+    shadowColor: "#fbefe5"
   },
   inSummary: [
     {
       id: "GMaiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>Cible la perte de graisses au niveau du ventre</li>
+          <li>
+            Diminue les compulsions alimentaires et les fringales sucrées{" "}
+          </li>
+        </ul>
+      )
     },
     {
       id: "GMaiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Diminue les symptômes de la dépression</li>
+          <li>Atténue les migraines </li>
+          <li>Est bénéfique pour la tension, le coeur et le cerveau</li>
+          <li>
+            Amoindrit les douleurs de menstruations et les symptômes liés à la
+            ménopause (humeur, bouffées de chaleur…)
+          </li>
+        </ul>
+      )
     },
     {
       id: "GMaiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      title: "Beauté ",
+      text: (
+        <ul>
+          <li>Réduit les problèmes de peau</li>
+          <li>Lutte contre la cellulite adipeuse </li>
+        </ul>
+      )
     },
     {
       id: "GMaiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "GMaiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Lutte contre la fatigue</li>
+          <li>Diminue l’irritabilité et le stress </li>
+          <li>Combat les insomnies</li>
+        </ul>
+      )
     }
   ]
 };

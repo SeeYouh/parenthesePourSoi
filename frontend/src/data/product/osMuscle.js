@@ -62,36 +62,42 @@ export const osMuscle = {
     youLikeIt: [
       {
         id: "osMuscle0",
+        link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
         textLove:
           "Notre produit est conçu pour soutenir votre bien-être tout au long de votre vie. Il favorise des fonctions psychologiques normales, augmente votre métabolisme énergétique et améliore votre sommeil pour vous réveiller frais et revitalisé chaque matin. En augmentant l'absorption de vitamines et nutriments essentiels, il contribue à votre santé globale, maintient une glycémie normale et soutient une peau saine. Pour les femmes, il apporte un soulagement pendant les périodes de préménopause et de ménopause, tout en soutenant la fertilité et la reproduction normale."
       },
       {
         id: "osMuscle1",
+        link: "apportMineraux",
         pictureLove: "/img/jpg/product/apportMineraux.jpg",
         textLove:
           "Les minéraux ne sont pas assez présents dans notre alimentation. C’est pourquoi, nous proposons un produit exceptionnel composé de 32 minéraux, oligo-éléments, enzymes et super aliments bénéfiques pour votre système nerveux, vos os et vos muscles. Offrez à votre corps les nutriments essentiels dont il a besoin pour une santé globale épanouissante."
       },
       {
         id: "osMuscle2",
+        link: "apportVitamines",
         pictureLove: "/img/jpg/product/apportVitamines.jpg",
         textLove:
           "Notre produit riche en 17 vitamines et nutriments essentiels est idéal pour prendre soin de vos yeux, votre cœur, votre peau et vos poumons. Sa formule aux propriétés anti-inflammatoires vous ouvre les portes d'une nouvelle dimension de vitalité et de santé. Comblez vos carences en vitamines et offrez à votre corps les éléments nécessaires pour une santé optimale."
       },
       {
         id: "osMuscle3",
+        link: "boosterDenergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Le magnésium est efficace contre le stress. Si vous êtes de nature anxieuse ou si vous vous sentez surmenée, je vous conseille de consulter les bienfaits de notre booster naturel. Une combinaison parfaite pour retrouver l'équilibre intérieur, une sérénité épanouissante et un bien-être psychologique."
       },
       {
         id: "osMuscle4",
+        link: "bienEtreInterieur",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Dites adieu à vos fringales avec nos pré-probiotiques ! Régulez vos grignotages tout en profitant d'un bien-être intérieur incomparable. Optez pour notre produit pour retrouver une harmonie digestive et apaiser vos envies compulsives. Réguler votre microbiote, c’est apaiser des douleurs digestives et intestinales de manière efficace et durable. Notre solution naturelle vous fera découvrir une sensation de bien-être intérieur comme vous ne l'avez jamais connu."
       },
       {
-        id: "osMuscle4",
+        id: "osMuscle5",
+        link: "purifAir",
         pictureLove: "/img/jpg/product/purifAir.jpg",
         textLove:
           "Le Purificateur d’Air Multi-Effets est la solution ultime pour purifier vos espaces, en éliminant jusqu'à 99,99 % des microbes et des particules ultrafines en suspension dans l'air. Doté d'une technologie avancée à 360 degrés, il combat efficacement les polluants atmosphériques, les allergènes, les COV et autres contaminants. Grâce à sa technologie intelligente, il ajuste automatiquement le niveau de filtration en temps réel pour assurer un environnement de respiration optimal."
@@ -122,7 +128,7 @@ export const osMuscle = {
       )
     },
     {
-      id: "OSiS2",
+      id: "OSiS1",
       title: "Santé",
       text: (
         <ul>
@@ -133,14 +139,16 @@ export const osMuscle = {
             Soutient la formation de collagène et la croissance osseuse
             (gencives et dents saines)
           </li>
-          <h5>Soulage les douleurs liées à :</h5>
-          <ul>
-            <li>l’arthrose</li>
-            <li>l’ostéoporose</li>
-            <li>
-              la tendinopathie calcifiante (propriétés anti inflammatoires)
-            </li>
-          </ul>
+          <div className="marginLeft15px">
+            <h5>Soulage les douleurs liées à :</h5>
+            <ul>
+              <li>l’arthrose</li>
+              <li>l’ostéoporose</li>
+              <li>
+                la tendinopathie calcifiante (propriétés anti inflammatoires)
+              </li>
+            </ul>
+          </div>
           <li>Atténue les symptômes de la dépression </li>
           <li>
             Aide à la régulation du taux de sucre et du taux de cholestérol dans
@@ -151,7 +159,7 @@ export const osMuscle = {
       )
     },
     {
-      id: "OSiS3",
+      id: "OSiS2",
       title: "Beauté ",
       text: (
         <ul>
@@ -160,7 +168,7 @@ export const osMuscle = {
       )
     },
     {
-      id: "OSiS4",
+      id: "OSiS3",
       title: "Bien-être",
       text: (
         <ul>

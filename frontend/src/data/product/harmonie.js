@@ -53,34 +53,34 @@ export const harmonie = {
     ],
     youLikeIt: [
       {
-        id: "HBoosterEnergie0",
+        id: "harmonie0",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
-          "Pour une santé mentale optimale et la prévention du burn-out, ce produit se marie idéalement avec un autre qui offre un regain d'énergie, vous permettant de traverser la journée avec un sourire éclatant."
+          "Pour une santé mentale optimale et la prévention du burn-out, il est conseillé d’associer ce produit avec notre booster d'énergie pour une synergie parfaite. Grâce à cette combinaison, vous bénéficierez d'un soutien mental et émotionnel tout en profitant d'un regain d'énergie pour traverser la journée avec un sourire éclatant. Notre booster d’énergie et d’humeur vous dynamisera pour relever tous les défis avec vitalité."
       },
       {
-        id: "HGelNettoyant1",
+        id: "harmonie1",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
-          "Pour une peau hydratée et adoucie tout en éliminant les impuretés de la journée, découvrez notre gel nettoyant naturel. Plongez dans une expérience de pureté et explorez notre gamme de produits pour une routine de soins naturels complète."
+          "Notre gel nettoyant offre un nettoyage doux et efficace, élimine les impuretés sans déshydrater la peau et prépare sa régénération pendant le sommeil. Il hydrate en laissant une peau douce et veloutée, lutte contre l'acné et les inflammations, tout en étant sûr pour tous les types de peau. Révélez une peau éclatante de beauté et en pleine santé avec notre formule dédiée à votre beauté."
       },
       {
-        id: "HserumFlash2",
+        id: "harmonie2",
         pictureLove: "/img/jpg/product/serumFlash.jpg",
         textLove:
-          "Vos yeux sont gonflés au réveil ? Alors, regardez notre sérum instantané, une véritable révolution pour faire disparaitre les rides, ridules et poches sous les yeux en seulement 90 secondes. Plongez dans une expérience de rajeunissement et offrez à votre peau une cure de jeunesse en un temps record."
+          "Une véritable révolution pour vos yeux ! En seulement 90 secondes, ce sérum fait disparaître les rides, ridules et poches sous les yeux, vous offrant une véritable cure de jeunesse. Réveillez-vous avec des yeux non gonflés et une peau rajeunie en un temps record. Une expérience de rajeunissement en un temps record."
       },
       {
-        id: "HcremeNuit3",
+        id: "harmonie3",
         pictureLove: "/img/jpg/product/cremeNuit.jpg",
         textLove:
-          "Pour une peau rayonnante et lisse, découvrez notre crème de nuit spécialement formulée pour lutter contre les signes visibles de l'âge et restaurer le processus cellulaire du visage. Réveillez-vous chaque matin avec une peau revitalisée et rajeunie grâce à ses multiples bienfaits."
+          "Notre crème de nuit est spécialement formulée pour lutter contre les signes visibles de l'âge. Cette formule innovante restaure le processus cellulaire de votre visage pendant que vous dormez, offrant une régénération complète. Réveillez-vous chaque matin avec une peau rayonnante, lisse et revitalisée, prête à affronter la journée en toute confiance. Profitez des multiples bienfaits de notre crème de nuit pour une peau d'apparence plus jeune et éclatante."
       },
       {
-        id: "HRegenerateurCellulaire4",
+        id: "harmonie4",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
-          "Si vous souhaitez gommer les imperfections de votre peau, ne passez pas à côté de notre produit best seller : un régénérateur cellulaire qui opère des miracles sur la peau. Offrez à votre peau une transformation positive et retrouvez une apparence éblouissante."
+          "Notre produit best-seller, le régénérateur cellulaire, opère des miracles sur votre peau. Sa formule puissante aide à gommer les imperfections et offre une transformation positive à votre peau. Vous retrouverez une apparence éblouissante grâce à ses bienfaits inégalés. Ne laissez pas les imperfections vous freiner, offrez à votre peau le soin qu'elle mérite avec notre régénérateur cellulaire et redécouvrez une peau éclatante et resplendissante. Faites confiance à notre best-seller pour obtenir des résultats remarquables et une peau transformée qui fera des envieux."
       }
     ]
   },
@@ -89,35 +89,89 @@ export const harmonie = {
   picture: "/img/jpg/product/harmonie.jpg",
   colors: {
     textColor: "#30d1d9",
-    titleColorInSummary: "",
-    bgColorInSummary: "",
-    textColor2: "#c433bc"
+    titleColorInSummary: "#30d1d9",
+    linkTextColor: "#c433bc",
+    bgColorInSummary0: "#c433bc",
+    bgColorInSummary1: "#e6f9fa",
+    linearGradient0: "linear-gradient(105deg ,#6edfe4, #befaff)",
+    linearGradient1: "linear-gradient(to right, #98e8ec, 	#e6f9fa)",
+    shadowColor: "#e6f9fa"
   },
   inSummary: [
     {
       id: "HiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>Détoxifie l’organisme</li>
+          <li>Améliore la digestion </li>
+        </ul>
+      )
     },
     {
       id: "HiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Soutient le système immunitaire</li>
+          <li>Améliore la santé oculaire </li>
+          <div className="marginLeft15px">
+            <h5>Diminue les douleurs articulaires (, , )</h5>
+            <li>arthrite</li>
+            <li>ostéoporose</li>
+            <li>rhumatismes…</li>
+            <li>et bien d'autre</li>
+          </div>
+          <li>Régule la glycémie et le cholestérol</li>
+          <li>
+            Atténue les douleurs de menstruations et les symptômes de la
+            ménopause
+          </li>
+          <li>A des propriétés antidépressives</li>
+        </ul>
+      )
     },
     {
       id: "HiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      title: "Beauté ",
+      text: (
+        <ul>
+          <li>
+            Augmente la
+            <span>
+              <a
+                className="btn btn-extLink"
+                href="https://fr.wikipedia.org/wiki/D%C3%A9hydro%C3%A9piandrost%C3%A9rone"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DHEA
+              </a>
+            </span>
+            et la production de collagène pour lutter contre le vieillissement
+            de la peau
+          </li>
+          <li>
+            Composé de minéraux bons pour les os, les muscles et les nerfs
+          </li>
+          <li>Conseillé pour les crampes, les engourdissements</li>
+          <li>Et dans le cadre de pathologies telles que la fibromyalgie</li>
+        </ul>
+      )
     },
     {
       id: "HiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "HiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Contient des ingrédients aux propriétés anti inflammatoires</li>
+          <li>
+            Composé de minéraux bons pour les os, les muscles et les nerfs
+          </li>
+          <li>Conseillé pour les crampes, les engourdissements</li>
+          <li>Et dans le cadre de pathologies telles que la fibromyalgie</li>
+        </ul>
+      )
     }
   ]
 };

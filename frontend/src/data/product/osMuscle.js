@@ -132,7 +132,7 @@ export const osMuscle = {
       title: "Santé",
       text: (
         <ul>
-          <li>C'est un antioxydan</li>
+          <li>C'est un antioxydant</li>
           <li>Soutient le système immunitaire et cardiovasculaire</li>
           <li>Lutte contre la constipation</li>
           <li>

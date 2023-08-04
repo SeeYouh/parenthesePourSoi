@@ -76,7 +76,7 @@ export const osMuscle = {
         id: "osMuscle2",
         pictureLove: "/img/jpg/product/apportVitamines.jpg",
         textLove:
-          "Nous manquons tous de vitamines. Notre produit riche de 17 vitamines et nutriments essentiels pour prendre soin de vos yeux, votre cœur, votre peau et vos poumons pourrait donc vous satisfaire. Grâce à ses propriétés anti-inflammatoires, il permet de plonger dans une nouvelle dimension de vitalité et de santé en choisissant notre formule complète."
+          "Notre produit riche en 17 vitamines et nutriments essentiels est idéal pour prendre soin de vos yeux, votre cœur, votre peau et vos poumons. Sa formule aux propriétés anti-inflammatoires vous ouvre les portes d'une nouvelle dimension de vitalité et de santé. Comblez vos carences en vitamines et offrez à votre corps les éléments nécessaires pour une santé optimale."
       },
       {
         id: "osMuscle3",
@@ -88,7 +88,13 @@ export const osMuscle = {
         id: "osMuscle4",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
-          "Vos fringales sont plutôt sucrées ou grasses ? Cliquez sur ce produit pour découvrir nos pré-probiotiques qui, en plus de réguler les grignotages, offrent un bien-être intérieur sans égal."
+          "Dites adieu à vos fringales avec nos pré-probiotiques ! Régulez vos grignotages tout en profitant d'un bien-être intérieur incomparable. Optez pour notre produit pour retrouver une harmonie digestive et apaiser vos envies compulsives. Réguler votre microbiote, c’est apaiser des douleurs digestives et intestinales de manière efficace et durable. Notre solution naturelle vous fera découvrir une sensation de bien-être intérieur comme vous ne l'avez jamais connu."
+      },
+      {
+        id: "osMuscle4",
+        pictureLove: "/img/jpg/product/purifAir.jpg",
+        textLove:
+          "Le Purificateur d’Air Multi-Effets est la solution ultime pour purifier vos espaces, en éliminant jusqu'à 99,99 % des microbes et des particules ultrafines en suspension dans l'air. Doté d'une technologie avancée à 360 degrés, il combat efficacement les polluants atmosphériques, les allergènes, les COV et autres contaminants. Grâce à sa technologie intelligente, il ajuste automatiquement le niveau de filtration en temps réel pour assurer un environnement de respiration optimal."
       }
     ]
   },
@@ -97,34 +103,75 @@ export const osMuscle = {
   picture: "/img/jpg/product/osMuscle.jpg",
   colors: {
     textColor: "#799198",
-    titleColorInSummary: "",
-    bgColorInSummary: ""
+    titleColorInSummary: "#799198",
+    bgColorInSummary: "",
+    bgColorInSummary0: "#89d7ab",
+    bgColorInSummary1: "#d7dee0",
+    linearGradient0: "linear-gradient(105deg ,#a1b2b7, #c9f2ff)",
+    linearGradient1: "linear-gradient(to right, #a1b2b7, 	#d7dee0)",
+    shadowColor: "#d7dee0"
   },
   inSummary: [
     {
       id: "OSiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "OSiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      text: (
+        <ul>
+          <li>Lutte contre les grignotages salés</li>
+        </ul>
+      )
     },
     {
       id: "OSiS2",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      text: (
+        <ul>
+          <li>C'est un antioxydan</li>
+          <li>Soutient le système immunitaire et cardiovasculaire</li>
+          <li>Lutte contre la constipation</li>
+          <li>
+            Soutient la formation de collagène et la croissance osseuse
+            (gencives et dents saines)
+          </li>
+          <h5>Soulage les douleurs liées à :</h5>
+          <ul>
+            <li>l’arthrose</li>
+            <li>l’ostéoporose</li>
+            <li>
+              la tendinopathie calcifiante (propriétés anti inflammatoires)
+            </li>
+          </ul>
+          <li>Atténue les symptômes de la dépression </li>
+          <li>
+            Aide à la régulation du taux de sucre et du taux de cholestérol dans
+            le sang{" "}
+          </li>
+          <li>Favorise l’absorption du calcium </li>
+        </ul>
+      )
     },
     {
       id: "OSiS3",
       title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
+      text: (
+        <ul>
+          <li>Diminue la cellulite aqueuse</li>
+        </ul>
+      )
     },
     {
       id: "OSiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Contient des ingrédients aux propriétés anti inflammatoires</li>
+          <li>
+            Composé de minéraux bons pour les os, les muscles et les nerfs
+          </li>
+          <li>Conseillé pour les crampes, les engourdissements</li>
+          <li>Et dans le cadre de pathologies telles que la fibromyalgie</li>
+        </ul>
+      )
     }
   ]
 };

@@ -1,7 +1,4 @@
-import {
-  getCategoryById,
-  getSecondCategoryById,
-} from '../firstCategoryHelper';
+import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const dentitionBlanche = {
   nameProduct: "Dentition blanche",
@@ -116,17 +113,6 @@ export const dentitionBlanche = {
           <li>Donne une haleine fraîche </li>
         </ul>
       )
-    },
-    {
-      id: "DBiS2",
-      title: "Beauté",
-      text: (
-        <ul>
-          <li>Rend les dents plus brillantes et plus blanches</li>
-          <li>Améliore la sensibilité des gencives et les rend plus saines</li>
-          <li>Donne une haleine fraîche </li>
-        </ul>
-      )
-    },
+    }
   ]
 };

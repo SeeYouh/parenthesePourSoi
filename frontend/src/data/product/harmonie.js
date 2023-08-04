@@ -89,7 +89,7 @@ export const harmonie = {
   picture: "/img/jpg/product/harmonie.jpg",
   colors: {
     textColor: "#30d1d9",
-    titleColorInSummary: "#30d1d9",
+    titleColorInSummary: "#c433bc",
     linkTextColor: "#c433bc",
     bgColorInSummary0: "#c433bc",
     bgColorInSummary1: "#e6f9fa",
@@ -114,14 +114,11 @@ export const harmonie = {
       text: (
         <ul>
           <li>Soutient le système immunitaire</li>
-          <li>Améliore la santé oculaire </li>
-          <div className="marginLeft15px">
-            <h5>Diminue les douleurs articulaires :</h5>
-            <li>arthrite</li>
-            <li>ostéoporose</li>
-            <li>rhumatismes…</li>
-            <li>et bien d'autre</li>
-          </div>
+          <li>Améliore la santé oculaire</li>
+          <li>
+            Diminue les douleurs articulaires (arthrite, ostéoporose,
+            rhumatismes…)
+          </li>
           <li>Régule la glycémie et le cholestérol</li>
           <li>
             Atténue les douleurs de menstruations et les symptômes de la
@@ -157,12 +154,7 @@ export const harmonie = {
             de la peau
           </li>
           <li>Apaise l’eczéma</li>
-          <div className="marginLeft15px">
-            <h5>Combat</h5>
-            <li>les aphtes</li>
-            <li>les verrues</li>
-            <li>les boutons de fièvre</li>
-          </div>
+          <li>Combat les aphtes, les verrues et les boutons de fièvre</li>
         </ul>
       )
     },
@@ -171,12 +163,25 @@ export const harmonie = {
       title: "Bien-être",
       text: (
         <ul>
-          <li>Contient des ingrédients aux propriétés anti inflammatoires</li>
           <li>
-            Composé de minéraux bons pour les os, les muscles et les nerfs
+            Diminue le{" "}
+            <span>
+              <a
+                className="btn btn-extLink"
+                href="https://fr.wikipedia.org/wiki/Cortisol"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                cortisol (hormone du stress)
+              </a>
+            </span>{" "}
+            et l’anxiété
           </li>
-          <li>Conseillé pour les crampes, les engourdissements</li>
-          <li>Et dans le cadre de pathologies telles que la fibromyalgie</li>
+          <li>Apaise, relaxe et détend </li>
+          <li>Améliore l’humeur et le sommeil</li>
+          <li>
+            Lutte contre la fatigue mentale et améliore les capacités cognitives
+          </li>
         </ul>
       )
     }

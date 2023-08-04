@@ -191,23 +191,10 @@ export const detox = {
         <ul>
           <li>Atténue la cellulite, qu'elle soit adipeuse ou aqueuse</li>
           <li>
-            <h5>Aide à lutter contre :</h5>
-            <ul>
-              <li>l'acné</li>
-              <li>les vergetures</li>
-              <li>la cellulite</li>
-              <li>les varices</li>
-              <li>l'eczéma</li>
-              <li>le psoriasis</li>
-            </ul>
+            Aide à lutter contre l'acné,les vergetures, la cellulite, les
+            varices, l'eczéma, le psoriasis
           </li>
-          <li
-            style={{
-              marginTop: "-15px"
-            }}
-          >
-            Stimule l'énergie physique
-          </li>
+          <li>Stimule l'énergie physique</li>
           <li>Favorise un sommeil réparateur de qualité</li>
         </ul>
       )

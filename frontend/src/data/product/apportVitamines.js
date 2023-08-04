@@ -110,26 +110,14 @@ export const apportVitamines = {
             poumons
           </li>
           <li>Efficace sur les maladies saisonnières</li>
-          <div className="marginLeft15px">
-            <h5>Conseillé pour :</h5>
-            <ul>
-              <li>l’arthrose</li>
-              <li>les douleurs nerveuses</li>
-              <li>les douleurs musculaires</li>
-            </ul>
-            <h6>et dans le cadre de pathologies telles que :</h6>
-
-            <ul>
-              <li
-                style={{
-                  paddingTop: "15px"
-                }}
-              >
-                la fibromyalgie
-              </li>
-              <li>et l’endométriose</li>
-            </ul>
-          </div>
+          <li>
+            Conseillé pour l’arthrose, les douleurs nerveuses, les douleurs
+            musculaires
+          </li>
+          <li>
+            et dans le cadre de pathologies telles que la fibromyalgie et
+            l’endométriose
+          </li>
         </ul>
       )
     }

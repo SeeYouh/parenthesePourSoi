@@ -10,7 +10,7 @@ export const dentitionBlanche = {
       {
         id: "0dentitionBlanche",
         subTitle: "Respectez votre santé",
-        text: "Votre bien-être est au cœur de nos préoccupations, c'est pourquoi nous avons formulé notre dentifrice sans compromis pour votre santé. Notre poudre révolutionnaire est exempte de fluorure, de triclosan, de parabènes, d'édulcorants et de colorants controversés. Vous pouvez ainsi vous engager en toute confiance dans une routine de soins bucco-dentaires sûre et bienveillante. Notre engagement envers votre santé garantit que notre formule respecte l'équilibre naturel de votre bouche, vous offrant des soins bucco-dentaires de qualité supérieure sans aucun ingrédient potentiellement nocif. Privilégiez une approche naturelle et bienveillante pour votre bien-être général avec notre dentifrice, et souriez en toute confiance, sachant que vous prenez soin de vous et de votre santé avec chaque utilisation."
+        text: "Votre bien-être est au cœur de nos préoccupations, c'est pourquoi nous avons formulé notre blanchisseur sans compromis pour votre santé. Notre poudre révolutionnaire est exempte de fluorure, de triclosan, de parabènes, d'édulcorants et de colorants controversés. Vous pouvez ainsi vous engager en toute confiance dans une routine de soins bucco-dentaires sûre et bienveillante. Notre engagement envers votre santé garantit que notre formule respecte l'équilibre naturel de votre bouche, vous offrant des soins bucco-dentaires de qualité supérieure sans aucun ingrédient potentiellement nocif. Privilégiez une approche naturelle et bienveillante pour votre bien-être général avec notre dentifrice, et souriez en toute confiance, sachant que vous prenez soin de vous et de votre santé avec chaque utilisation."
       },
       {
         id: "1dentitionBlanche",
@@ -30,16 +30,11 @@ export const dentitionBlanche = {
       },
       {
         id: "3dentitionBlanche",
-        subTitle: "Maintenez des ongles et des cheveux en bonne santé",
-        text: "En prenant régulièrement notre formule avancée, vous bénéficiez d'un apport en nutriments essentiels qui soutiennent la santé de vos ongles et de vos cheveux. Des cheveux forts et des ongles sains sont des indicateurs d'une bonne santé globale, et notre produit vous aide à maintenir ces aspects essentiels de votre bien-être."
-      },
-      {
-        id: "4dentitionBlanche",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
-        id: "5dentitionBlanche",
+        id: "4dentitionBlanche",
         subTitle: "",
         text: ""
       }
@@ -61,7 +56,25 @@ export const dentitionBlanche = {
         id: "dentitionBlanche2",
         pictureLove: "/img/jpg/product/glossRepulpant.jpg",
         textLove:
-          "Si vous souhaitez prendre soin de vos lèvres en particulier, notre gloss repulpant saura vous satisfaire pour des lèvres hydratées et volumineuses. Il efface les rides et ridules pour une apparence plus jeune et lisse. Il offre une sensation de fraîcheur délicieuse et est rigoureusement testé pour une tolérance optimale. Une cure de jouvence pour vos lèvres."
+          "Notre gloss repulpant vous apportera des lèvres hydratées et volumineuses. Il efface les rides et ridules pour une apparence plus jeune et lisse. Il offre une sensation de fraîcheur délicieuse et est rigoureusement testé pour une tolérance optimale. Une cure de jouvence pour vos lèvres."
+      },
+      {
+        id: "dentitionBlanche3",
+        pictureLove: "/img/jpg/product/volumateurCils.jpg",
+        textLove:
+          "Vos cils ont besoin d’être protégés et renforcés ? Notre sérum est enrichi d'agents hydratants essentiels, formant un bouclier protecteur pour prévenir les dommages et la casse. Stimulant la croissance des cils, il les rend plus fournis, plus résistants et plus longs pour un regard irrésistible. Sa formule nourrissante prend soin de vos cils en profondeur, leur apportant force et vitalité. Testé sous contrôle dermatologique et ophtalmologique, vous pouvez l'utiliser en toute confiance."
+      },
+      {
+        id: "dentitionBlanche4",
+        pictureLove: "/img/jpg/product/eauTonique.jpg",
+        textLove:
+          "Notre eau tonique nourrit et restaure en profondeur, offrant une peau intensément hydratée, adoucie et apaisée. Grâce à sa formule douce, elle resserre les pores, régule la production de sébum, et calme les irritations, idéal pour les peaux sensibles. Utilisez-la pour une peau équilibrée, éclatante et préparée pour le maquillage. Notre produit est sans paraben, alcool et parfums artificiels, garantissant une expérience de soin pure et sûre pour votre bien-être et celui de l'environnement."
+      },
+      {
+        id: "dentitionBlanche5",
+        pictureLove: "/img/jpg/product/apportQ10.jpg",
+        textLove:
+          "Notre formule riche en CoQ10 aux propriétés antioxydantes puissantes prévient les dommages des radicaux libres et favorise une peau éclatante de jeunesse. Traitez efficacement les varices, la cellulite et favorisez la cicatrisation des plaies grâce à ses propriétés spécifiques. Renforcez votre système immunitaire pour mieux lutter contre les infections et maintenez une santé cardiaque optimisée. Préservez votre mémoire et améliorez votre fonction cognitive, tout en luttant contre le vieillissement cutané, pour une apparence plus jeune et éclatante."
       }
     ]
   },
@@ -71,33 +84,24 @@ export const dentitionBlanche = {
   colors: {
     textColor: "#0246a4",
     titleColorInSummary: "#003459",
-    bgColorInSummary: "#68a6d0"
+    bgColorInSummary: "#68a6d0",
+    bgColorInSummary0: "#f1d880",
+    bgColorInSummary1: "#e2e6ea",
+    linearGradient0: "linear-gradient(105deg ,#566f82, #5fa1ff)",
+    linearGradient1: "linear-gradient(to right, #8698a6, 	#e2e6ea)",
+    shadowColor: "#f1d880"
   },
   inSummary: [
     {
       id: "DBiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "DBiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "DBiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "DBiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "DBiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Rend les dents plus brillantes et plus blanches</li>
+          <li>Améliore la sensibilité des gencives et les rend plus saines</li>
+          <li>Donne une haleine fraîche </li>
+        </ul>
+      )
     }
   ]
 };

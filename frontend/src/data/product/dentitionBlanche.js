@@ -50,7 +50,7 @@ export const dentitionBlanche = {
         id: "dentitionBlanche1",
         pictureLove: "/img/jpg/product/beaumeLevre.jpg",
         textLove:
-          "Si vous souhaitez prendre soin de votre sourire, notre baume à lèvres naturel, nourrissant et hydratant fera votre bonheur. Sa formule avancée offre une protection contre les agressions extérieures et prévient les lèvres sèches et gercées. Grâce à sa composition naturelle, vos lèvres sont réparées et plus résistantes. Une véritable oasis de douceur et de protection pour un sourire éclatant de santé."
+          "Notre baume à lèvres naturel, nourrissant et hydratant offre une protection contre les agressions extérieures et prévient les lèvres sèches et gercées. Grâce à sa composition naturelle, vos lèvres sont réparées et plus résistantes. Une véritable oasis de douceur et de protection pour un sourire éclatant de santé."
       },
       {
         id: "dentitionBlanche2",
@@ -74,7 +74,7 @@ export const dentitionBlanche = {
         id: "dentitionBlanche5",
         pictureLove: "/img/jpg/product/apportQ10.jpg",
         textLove:
-          "Notre formule riche en CoQ10 aux propriétés antioxydantes puissantes prévient les dommages des radicaux libres et favorise une peau éclatante de jeunesse. Traitez efficacement les varices, la cellulite et favorisez la cicatrisation des plaies grâce à ses propriétés spécifiques. Renforcez votre système immunitaire pour mieux lutter contre les infections et maintenez une santé cardiaque optimisée. Préservez votre mémoire et améliorez votre fonction cognitive, tout en luttant contre le vieillissement cutané, pour une apparence plus jeune et éclatante."
+          "Notre formule riche en CoQ10 aux propriétés antioxydantes puissantes prévient les dommages des radicaux libres et favorise une peau éclatante de jeunesse. Traitez efficacement les varices, la cellulite et favoriser la cicatrisation des plaies grâce à ses propriétés spécifiques. Renforcez votre système immunitaire pour mieux lutter contre les infections et maintenez une santé cardiaque optimisée. Préservez votre mémoire et améliorez votre fonction cognitive, tout en luttant contre le vieillissement cutané, pour une apparence plus jeune et éclatante."
       }
     ]
   },
@@ -94,17 +94,6 @@ export const dentitionBlanche = {
   inSummary: [
     {
       id: "DBiS0",
-      title: "Beauté",
-      text: (
-        <ul>
-          <li>Rend les dents plus brillantes et plus blanches</li>
-          <li>Améliore la sensibilité des gencives et les rend plus saines</li>
-          <li>Donne une haleine fraîche </li>
-        </ul>
-      )
-    },
-    {
-      id: "DBiS1",
       title: "Beauté",
       text: (
         <ul>

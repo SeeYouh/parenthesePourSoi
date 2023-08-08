@@ -65,7 +65,7 @@ export const regenerateurCellulaire = {
       },
       {
         id: "regenerateurCellulaire1",
-        link: "guerisseurDeMaux",
+        link: "guerisseurMaux",
         pictureLove: "/img/jpg/product/guerisseurMaux.jpg",
         textLove:
           "Associez notre produit phare, spécialement conçu pour cibler la cellulite, à notre formule aux multiples bienfaits pour une action renforcée et des résultats encore plus impressionnants. Grâce à cette association unique, nous ajoutons des enzymes CoQ10 supplémentaires pour booster l'action anti-cellulite de notre best-seller. Résultat ? Une réduction visible de la cellulite, une peau plus lisse et ferme, et une confiance en soi retrouvée. Faites de cette puissante synergie votre alliée pour afficher une peau resplendissante et une silhouette épanouie."

@@ -53,13 +53,15 @@ export const gelNettoyant = {
     youLikeIt: [
       {
         id: "GNPB0",
-        pictureLove: "/img/jpg/product/PB.jpg",
+        link: "PB",
+  pictureLove: "/img/jpg/product/PB.jpg",
         textLove:
           "JPour renforcer davantage votre bien-être centré sur le soin du visage, je vous suggère d'explorer notre gamme beauté exhaustive, notamment notre décontaminant. Cet élément de notre collection peut compléter parfaitement l'expérience d'hydratation que procure notre baume à lèvres."
       },
       {
         id: "GNmereDeTous1",
-        pictureLove: "/img/jpg/product/mereDeTous.jpg",
+        link: "mereDeTous",
+  pictureLove: "/img/jpg/product/mereDeTous.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       }

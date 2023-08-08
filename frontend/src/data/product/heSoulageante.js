@@ -52,31 +52,36 @@ export const heSoulageante = {
     youLikeIt: [
       {
         id: "heSoulageante0",
-        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
+        link: "boosterEnergie",
+  pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Notre booster d'énergie est un véritable catalyseur pour votre bien-être. Il stimule votre énergie naturelle, combat la fatigue, favorise un sommeil réparateur, et améliore votre humeur pour une vision positive de la vie. Il renforce votre système immunitaire et cardiovasculaire, améliore l'attention et la vigilance mentale, combat les allergies, et favorise une digestion saine. Grâce à ses propriétés antioxydantes, il réduit les signes de l'âge pour une peau éclatante."
       },
       {
         id: "heSoulageante1",
-        pictureLove: "/img/jpg/product/cocoOil.jpg",
+        link: "cocoOil",
+  pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
           "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau."
       },
       {
         id: "heSoulageante2",
-        pictureLove: "/img/jpg/product/HERafraichisante.jpg",
+        link: "HERafraichisante",
+  pictureLove: "/img/jpg/product/HERafraichisante.jpg",
         textLove:
           "Notre huile essentielle stimule la concentration et la vivacité mentale. Elle combat les nausées, le mal des transports et les maux de tête pour un soulagement rapide et naturel. Elle améliore le confort respiratoire en apaisant la toux et en dégageant les voies respiratoires. De plus, elle apaise les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, offrant une peau apaisée. Grâce à ses propriétés apaisantes, elle détend les tensions musculaires et favorise une sensation de calme. Elle est aussi bénéfique pour soulager les douleurs articulaires et aide à réduire les bouffées de chaleur pendant la ménopause. Pour les sportifs, elle soulage les foulures, les entorses et les douleurs musculaires, favorisant une récupération plus rapide."
       },
       {
         id: "heSoulageante3",
-        pictureLove: "/img/jpg/product/heDesinfectante.jpg",
+        link: "heDesinfectante",
+  pictureLove: "/img/jpg/product/heDesinfectante.jpg",
         textLove:
           "L'huile essentielle Désinfectante est un remède naturel puissant pour combattre les infections et maintenir un environnement sain. Elle agit efficacement contre les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies. Elle soulage également les douleurs dentaires, apaise les problèmes cutanés et diminue les inconforts causés par les piqûres d'insectes. En plus de ses bienfaits pour la santé, elle peut contribuer à la gestion du poids en détoxifiant le corps et en favorisant un système digestif sain. Enfin, son parfum agréable et ses propriétés apaisantes en font un allié précieux pour améliorer l'humeur et favoriser la relaxation.."
       },
       {
         id: "heSoulageante4",
-        pictureLove: "/img/jpg/product/heRelaxante.jpg",
+        link: "heRelaxante",
+  pictureLove: "/img/jpg/product/heRelaxante.jpg",
         textLove:
           "L'huile essentielle Relaxante présente de nombreux bienfaits pour la santé mentale en apaisant la dépression, réduisant l'anxiété et le stress, et favorisant une sensation de bien-être. Son parfum relaxant aide à calmer l'esprit et procure une sensation de tranquillité intérieure. Elle s'avère également efficace pour favoriser l'endormissement, améliorer la qualité du sommeil, et apaiser les irritations cutanées, offrant un soulagement rapide et apaisant. Une utilisation régulière permet de détendre les muscles de la mâchoire et de réduire le grincement de dents."
       }

@@ -48,25 +48,29 @@ export const eauTonique = {
     youLikeIt: [
       {
         id: "eauTonique0",
-        pictureLove: "/img/jpg/product/decontaminant.jpg",
+        link: "decontaminant",
+  pictureLove: "/img/jpg/product/decontaminant.jpg",
         textLove:
           "Découvrez notre secret pour une peau resplendissante de beauté grâce à notre produit doux et efficace. Il élimine en douceur les peaux mortes et les impuretés, révélant un teint frais et radieux. Spécialement conçu pour resserrer les pores et affiner la texture de la peau, il offre un teint plus lisse et uniforme. Notre décontaminant cible les points noirs en désobstruant les pores, réduisant les imperfections et les tâches pigmentaires pour un teint éclatant et uniforme. De plus, notre formule apaise les yeux fatigués, offrant un regard reposé et éclatant. Testé sous contrôle dermatologique, notre produit est adapté à tous les types de peau. N'attendez plus pour sublimer votre peau avec notre formule de soin."
       },
       {
         id: "eauTonique1",
-        pictureLove: "/img/jpg/product/cremeDay.jpg",
+        link: "cremeDay",
+  pictureLove: "/img/jpg/product/cremeDay.jpg",
         textLove:
           "Découvrez notre crème hydratante aux multiples avantages. Elle procure un apaisement instantané à la peau, la laissant souple et éclatante. Grâce à sa formule riche, elle combat efficacement la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour protéger contre les agressions extérieures. En ciblant les tâches sombres, elle éclaircit et uniformise le teint, vous offrant une peau nette et débarrassée de l'acné. Choisissez notre crème d'exception pour un éclat radieux et une peau uniforme."
       },
       {
         id: "eauTonique2",
-        pictureLove: "/img/jpg/product/baumesLevres.jpg",
+        link: "baumesLevres",
+  pictureLove: "/img/jpg/product/baumesLevres.jpg",
         textLove:
           "Optez pour notre sérum révolutionnaire et dites adieu au visage fatigué et endormi. Il agit rapidement pour réduire visiblement les poches sous les yeux, corriger les cernes et atténuer les poches. En lissant les rides et ridules, il vous offre une peau plus jeune et ferme. Notre formule puissante lifte et raffermit la peau délicate autour des yeux, vous offrant un regard éclatant et rajeuni. Les résultats sont visibles jusqu'à 8 heures après l'application, et avec une utilisation régulière sur 28 jours, les effets seront encore plus remarquables pour une transformation durable de la zone des yeux. Découvrez cette formule avancée pour sublimer votre regard et retrouver une apparence resplendissante"
       },
       {
         id: "eauTonique3",
-        pictureLove: "/img/jpg/product/serumComplet.jpg",
+        link: "serumComplet",
+  pictureLove: "/img/jpg/product/serumComplet.jpg",
         textLove:
           "Découvrez notre sérum complet révolutionnaire, doté de 9 brevets exclusifs, pour une peau éclatante et revitalisée. Grâce à la technologie liposomale, il hydrate en profondeur, préservant l'élasticité et la fermeté tout en stimulant la production de collagène pour un teint plus jeune et tonique. Les décolorations et les rides sont atténuées, redonnant éclat et uniformité à votre peau. Renforçant la barrière cutanée, il offre une meilleure protection contre les agressions extérieures. Offrez à votre peau une expérience de soin incomparable avec notre sérum exclusif pour des résultats qui parlent d'eux-mêmes. Découvrez la révolution des soins de la peau dès maintenant !"
       }

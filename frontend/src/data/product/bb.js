@@ -44,30 +44,35 @@ export const bb = {
     youLikeIt: [
       {
         id: "BB0",
-        pictureLove: "/img/jpg/product/PB.jpg",
+        link: "PB",
+  pictureLove: "/img/jpg/product/PB.jpg",
         textLove: "Le BB peut s’associer avec notre produit d’énergie cacaotée."
       },
       {
         id: "BB1",
-        pictureLove: "/img/jpg/product/PN.jpg",
+        link: "PN",
+  pictureLove: "/img/jpg/product/PN.jpg",
         textLove:
           "Notre PN pour le saut de repas pour faire de délicieux smoothies."
       },
       {
         id: "BB2",
-        pictureLove: "/img/jpg/product/shampooing.jpg",
+        link: "shampooing",
+  pictureLove: "/img/jpg/product/shampooing.jpg",
         textLove:
           "Pour des cheveux brillants, le BB se combine parfaitement bien avec notre shampooing d’exception."
       },
       {
         id: "BB3",
-        pictureLove: "/img/jpg/product/aprèsShampooing.jpg",
+        link: "aprèsShampooing",
+  pictureLove: "/img/jpg/product/aprèsShampooing.jpg",
         textLove:
           "Pour des cheveux éclatants, notre BB s'associe merveilleusement bien avec notre après-shampooing nourissant."
       },
       {
         id: "BB4",
-        pictureLove: "/img/jpg/product/collagene.jpg",
+        link: "collagene",
+  pictureLove: "/img/jpg/product/collagene.jpg",
         textLove:
           "Pour un renfort optimal des cheveux et des ongles, le collagène marin est ultra efficace. Il permet de réparer en profondeur."
       }

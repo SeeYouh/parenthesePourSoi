@@ -66,7 +66,8 @@ export const apportVitamines = {
       {
         id: "apportVitamines3",
 
-        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        link: "regenerateurCellulaire",
+  pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre régénérateur cellulaire est une solution exceptionnelle offrant de multiples bienfaits pour la peau et apaisant les allergies et l'asthme. Obtenez une peau éclatante et revitalisée tout en respirant plus facilement grâce à notre produit bienfaisant. Offrez-vous le confort et la beauté que vous méritez avec notre régénérateur cellulaire."
       },

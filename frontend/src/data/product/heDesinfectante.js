@@ -47,25 +47,29 @@ export const heDesinfectante = {
     youLikeIt: [
       {
         id: "heDesinfectante0",
-        pictureLove: "/img/jpg/product/cocoOil.jpg",
+        link: "cocoOil",
+  pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
           "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau."
       },
       {
         id: "heDesinfectante1",
-        pictureLove: "/img/jpg/product/HERafraichissant.jpg",
+        link: "HERafraichissant",
+  pictureLove: "/img/jpg/product/HERafraichissant.jpg",
         textLove:
           "Notre huile essentielle stimule la concentration et la vivacité mentale. Elle combat les nausées, le mal des transports et les maux de tête pour un soulagement rapide et naturel. Elle améliore le confort respiratoire en apaisant la toux et en dégageant les voies respiratoires. De plus, elle apaise les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, offrant une peau apaisée. Grâce à ses propriétés apaisantes, elle détend les tensions musculaires et favorise une sensation de calme. Elle est aussi bénéfique pour soulager les douleurs articulaires et aide à réduire les bouffées de chaleur pendant la ménopause. Pour les sportifs, elle soulage les foulures, les entorses et les douleurs musculaires, favorisant une récupération plus rapide."
       },
       {
         id: "heDesinfectante2",
-        pictureLove: "/img/jpg/product/heSoulageante.jpg",
+        link: "heSoulageante",
+  pictureLove: "/img/jpg/product/heSoulageante.jpg",
         textLove:
           "Cette huile essentielle possède de nombreuses propriétés curatives, soulageant les maux de tête et les symptômes des maladies saisonnières. Elle a des effets positifs sur le bien-être en diminuant l'anxiété, en augmentant la vivacité mentale et en améliorant l'humeur. Elle aide à soulager les tensions corporelles et les irritations cutanées, ainsi que les douleurs associées au grincement de dents. De plus, elle repousse les poux et les moustiques, offrant une protection naturelle contre ces nuisibles."
       },
       {
         id: "heDesinfectante3",
-        pictureLove: "/img/jpg/product/heRelaxante.jpg",
+        link: "heRelaxante",
+  pictureLove: "/img/jpg/product/heRelaxante.jpg",
         textLove:
           "L'huile essentielle Relaxante présente de nombreux bienfaits pour la santé mentale en apaisant la dépression, réduisant l'anxiété et le stress, et favorisant une sensation de bien-être. Son parfum relaxant aide à calmer l'esprit et procure une sensation de tranquillité intérieure. Elle s'avère également efficace pour favoriser l'endormissement, améliorer la qualité du sommeil, et apaiser les irritations cutanées, offrant un soulagement rapide et apaisant. Une utilisation régulière permet de détendre les muscles de la mâchoire et de réduire le grincement de dents."
       }

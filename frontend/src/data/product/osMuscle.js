@@ -83,7 +83,7 @@ export const osMuscle = {
       },
       {
         id: "osMuscle3",
-        link: "boosterDenergie",
+        link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Le magnésium est efficace contre le stress. Si vous êtes de nature anxieuse ou si vous vous sentez surmenée, je vous conseille de consulter les bienfaits de notre booster naturel. Une combinaison parfaite pour retrouver l'équilibre intérieur, une sérénité épanouissante et un bien-être psychologique."

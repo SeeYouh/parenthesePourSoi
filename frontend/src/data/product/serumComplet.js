@@ -63,43 +63,50 @@ export const serumComplet = {
     youLikeIt: [
       {
         id: "SerumComplet0",
-        pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+        link: "gelNettoyant",
+  pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Pour une routine de soin du visage complète et efficace, je vous suggère d'explorer notre collection beauté, notamment notre gel nettoyant, qui élimine en douceur les impuretés et les résidus de la journée."
       },
       {
         id: "SerumComplet1",
-        pictureLove: "/img/jpg/product/cremeDay.jpg",
+        link: "cremeDay",
+  pictureLove: "/img/jpg/product/cremeDay.jpg",
         textLove:
           "Notre crème Day est plus qu'un simple produit de soin, c'est une véritable sentinelle qui veille sur la santé et la beauté de votre peau jour après jour. Avec sa formule unique, elle offre une protection quotidienne inégalée tout en assurant une hydratation intense pour garder votre peau souple et rayonnante. Faire de cette crème un élément clé de votre routine de soins de la peau signifie investir dans la protection, l'hydratation et l'éclat de votre peau au quotidien."
       },
       {
         id: "SerumComplet2",
-        pictureLove: "/img/jpg/product/serumFlash.jpg",
+        link: "serumFlash",
+  pictureLove: "/img/jpg/product/serumFlash.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       },
       {
         id: "SerumComplet3",
-        pictureLove: "/img/jpg/product/baumesLevres.jpg",
+        link: "baumesLevres",
+  pictureLove: "/img/jpg/product/baumesLevres.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       },
       {
         id: "SerumComplet4",
-        pictureLove: "/img/jpg/product/eauTonique.jpg",
+        link: "eauTonique",
+  pictureLove: "/img/jpg/product/eauTonique.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       },
       {
         id: "SerumComplet5",
-        pictureLove: "/img/jpg/product/cremeNight.jpg",
+        link: "cremeNight",
+  pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       },
       {
         id: "SerumComplet6",
-        pictureLove: "/img/jpg/product/huileDemaquillante.jpg",
+        link: "huileDemaquillante",
+  pictureLove: "/img/jpg/product/huileDemaquillante.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       }

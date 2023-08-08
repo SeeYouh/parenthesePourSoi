@@ -55,19 +55,22 @@ export const cocoOil = {
     youLikeIt: [
       {
         id: "COGelNettoyant0",
-        pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+        link: "gelNettoyant",
+  pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Pour les problèmes cutanés, je vous suggère d'essayer notre gel nettoyant hydratant, reconnu pour ses résultats impressionnants."
       },
       {
         id: "CORegenerateurCellulaire1",
-        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        link: "regenerateurCellulaire",
+  pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Je vous recommande également notre produit favori, qui est exceptionnel pour régénérer les cellules de votre peau."
       },
       {
         id: "COALLHE2",
-        pictureLove: "/img/jpg/product/AllHE.jpg",
+        link: "AllHE",
+  pictureLove: "/img/jpg/product/AllHE.jpg",
         textLove:
           "Pour l’utilisation des huiles essentielles, il est conseillé de les diluer dans notre huile hydratante."
       }

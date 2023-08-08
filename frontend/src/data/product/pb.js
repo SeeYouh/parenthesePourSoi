@@ -72,7 +72,7 @@ export const pb = {
       },
       {
         id: "PB3",
-        link: "santeMax",
+        link: "gourdEau",
         pictureLove: "/img/jpg/product/gourdEau.jpg",
         textLove: (
           <span>

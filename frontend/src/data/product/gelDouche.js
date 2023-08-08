@@ -44,13 +44,15 @@ export const gelDouche = {
     youLikeIt: [
       {
         id: "GDcocoOil0",
-        pictureLove: "/img/jpg/product/cocoOil.jpg",
+        link: "cocoOil",
+  pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
           "Le gel douche combiné à notre huile hydratante permet à votre peau de retrouver confort et hydratation."
       },
       {
         id: "GDregenerateurCellulaire1",
-        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        link: "regenerateurCellulaire",
+  pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Concernant les problèmes de peau, le gel douche s’associe très souvent à notre chouchou qui régénère les cellules. Ce combo est idéal pour les soucis cutanés."
       }
@@ -62,7 +64,12 @@ export const gelDouche = {
   colors: {
     textColor: "#808080",
     titleColorInSummary: "#474747",
-    bgColorInSummary: "#dcdcdc"
+    bgColorInSummary: "#dcdcdc",
+    bgColorInSummary0: "#e59e4d",
+    bgColorInSummary1: "#f2d0a0",
+    linearGradient0: "linear-gradient(105deg ,#e59e4d  , #ffc085)",
+    linearGradient1: "linear-gradient(to right, #f2c06f  ,#f2d0a0)",
+    shadowColor: "#f2d0a0"
   },
   inSummary: [
     {

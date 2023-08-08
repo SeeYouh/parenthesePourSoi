@@ -70,25 +70,29 @@ export const equilibreCorpsEsprit = {
       },
       {
         id: "equilibreCorpsEsprit1",
-        pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+        link: "goutteMinceur",
+  pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Si vous souhaitez perdre du poids sans contrainte, alors nos gouttes minceur puissantes devraient vous plaire. Elles sont pécialement conçues pour brûler les graisses naturellement et empêcher le stockage de nouvelles graisses pendant le sommeil. Vous obtiendrez des résultats remarquables sans effort grâce à nos gouttes minceur efficaces."
       },
       {
         id: "equilibreCorpsEsprit2",
-        pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
+        link: "bienEtreInterieur",
+  pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Nos pré-probiotiques sont idéals pour un bien-être intérieur optimal. Grâce à des cellules souches, ils rééquilibrent votre microbiote, considéré comme le deuxième cerveau humain. Il améliore ainsi vos soucis digestifs et intestinaux pour une harmonie digestive naturelle et un bien-être intérieur sans égal."
       },
       {
         id: "equilibreCorpsEsprit3",
-        pictureLove: "/img/jpg/product/cremeNight.jpg",
+        link: "cremeNight",
+  pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
           "Pour compléter les bienfaits de ce produit et améliorer la qualité de la peau de votre visage,  notre crème de nuit est parfaite ! Elle est conçue pour lutter contre les signes de l'âge, elle restaure le processus cellulaire de votre visage pendant votre sommeil, améliorant ainsi la qualité de votre peau et vous offrant une apparence plus jeune et éclatante."
       },
       {
         id: "equilibreCorpsEsprit4",
-        pictureLove: "/img/jpg/product/serumComplet.jpg",
+        link: "serumComplet",
+  pictureLove: "/img/jpg/product/serumComplet.jpg",
         textLove:
           "Notre sérum complet, doté de la technologie liposomale avancée, est un véritable concentré de bienfaits pour votre peau. Il agit en profondeur et offre une hydratation intense, nourrissant votre peau de l'intérieur et lui redonnant tout son éclat. Grâce à cette action hydratante en profondeur, les signes visibles de l’âge s'estompent, laissant votre peau souple, douce et éclatante. Avec ses propriétés hydratantes, anti-rides et éclaircissantes, il répond à plusieurs besoins en une seule formule."
       }

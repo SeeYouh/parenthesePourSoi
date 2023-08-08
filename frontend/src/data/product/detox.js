@@ -122,7 +122,7 @@ export const detox = {
       },
       {
         id: "detox3",
-        link: "boosterDenergie",
+        link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Notre booster d'énergie est bien plus qu'un simple complément, il dynamise votre corps en stimulant votre énergie naturelle pour une vitalité renouvelée tout au long de la journée. Sa formule unique combat efficacement la fatigue et favorise un sommeil réparateur, vous permettant de vous réveiller frais et revitalisé chaque matin. En favorisant la bonne humeur et en réduisant le stress, il vous aide à aborder les défis quotidiens avec un état d'esprit positif et détendu. De plus, il est efficace pour vous aider à atteindre vos objectifs de gestion du poids en augmentant la combustion des graisses de 17%."

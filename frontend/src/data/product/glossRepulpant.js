@@ -66,7 +66,7 @@ export const glossRepulpant = {
     youLikeIt: [
       {
         id: "glossRepulpant0",
-        pictureLove: "/img/jpg/product/baumesLevres.jpg",
+        pictureLove: "/img/jpg/product/baumeLevres.jpg",
         textLove:
           "Plongez dans une véritable oasis de douceur et de protection avec notre baume à lèvres enrichi d'ingrédients naturels. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, offrant une hydratation durable pour un sourire éclatant de santé. Sa formule avancée forme une barrière protectrice contre les éléments extérieurs, préservant vos lèvres impeccablement. Prévenant l'apparition des lèvres sèches et des gerçures, notre baume répare et renforce vos lèvres, pour un confort retrouvé jour après jour."
       },

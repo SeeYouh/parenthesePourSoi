@@ -19,9 +19,9 @@ export const gg = {
           "Intégrez notre joyau végétal dans votre quotidien pour préserver la santé de votre cœur. Les légumes regorgent de bienfaits qui favorisent un taux de cholestérol équilibré, vous permettant de vous sentir léger comme une plume. Notre élixir végétal est une protection complète pour votre cœur, vos os et votre cerveau, vous accompagnant vers une santé globale éclatante et rayonnante.",
           "Notre produit constitue un combo de légumes aux bienfaits multiples pour votre santé. Il est un allié puissant en apportant les vitamines et minéraux essentiels au corps de manière efficace. Finies les carences en fer et en vitamines grâce à notre trésor naturel de nutriments. En plus, nos légumes sélectionnés ont un effet détoxifiant qui nettoie les déchets de l’organisme, favorisant ainsi un système digestif sain, un transit intestinal facilité et stoppant les remontées acides. Profitez d'une santé optimale avec notre élixir qui prend soin de vous et de votre organisme."
         ],
-        picture450: "/img/jpg/product/ApportMinerauxIllusText450.jpg",
-        picture675: "/img/jpg/product/ApportMinerauxIllusText675.jpg",
-        picture900: "/img/jpg/product/ApportMinerauxIllusText900.jpg"
+        picture450: "/img/jpg/product/ggIllusText450.jpg",
+        picture675: "/img/jpg/product/ggIllusText675.jpg",
+        picture900: "/img/jpg/product/ggIllusText900.jpg"
       },
       {
         id: "2GG",
@@ -81,13 +81,19 @@ export const gg = {
       }
     ]
   },
-  firstCategory: [getCategoryById("1Sante").name],
-  secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
+  firstCategory: [getCategoryById("0GestionDuPoids").name],
+  secondCategory: [
+    getSecondCategoryById("0GestionDuPoids1AidePertePoids").text
+  ],
   picture: "/img/jpg/product/GG.jpg",
   colors: {
     textColor: "#028824",
-    titleColorInSummary: "#014312",
-    bgColorInSummary: "#cffddb"
+    titleColorInSummary: "#028824",
+    bgColorInSummary0: "#4eac66",
+    bgColorInSummary1: "#e1f1e5",
+    linearGradient0: "linear-gradient(105deg ,#4eac66, #8aff92)",
+    linearGradient1: "linear-gradient(to right, #81c492, 	#e1f1e5)",
+    shadowColor: "#e1f1e5"
   },
   inSummary: [
     {

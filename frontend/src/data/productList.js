@@ -2,7 +2,7 @@ import { apportMineraux } from "./product/apportMineraux";
 import { apportQ10 } from "./product/apportQ10";
 import { apportVitamines } from "./product/apportVitamines";
 import { apresShampooing } from "./product/apresShampooing";
-import { baumesLevres } from "./product/baumeLevres";
+import { baumeLevres } from "./product/baumeLevres";
 import { bb } from "./product/bb";
 import { bienEtreInterieur } from "./product/bienEtreInterieur";
 import { boosterEnergie } from "./product/boosterDenergie";
@@ -43,7 +43,7 @@ export const productList = [
   apportQ10,
   apportVitamines,
   apresShampooing,
-  baumesLevres,
+  baumeLevres,
   bb,
   boosterEnergie,
   bienEtreInterieur,

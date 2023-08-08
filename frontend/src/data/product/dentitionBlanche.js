@@ -19,9 +19,9 @@ export const dentitionBlanche = {
           "Notre poudre révolutionnaire pour des soins dentaires naturels est spécialement conçue pour vous offrir un sourire éblouissant. Son action en douceur agit efficacement pour éliminer les impuretés et les taches indésirables présentes sur vos dents, révélant ainsi leur brillance éclatante. Contrairement aux dentifrices abrasifs qui pourraient altérer l'émail délicat de vos dents, notre blanchisseur naturel respecte l'intégrité de vos dents tout en leur offrant un éclat resplendissant. Vous pouvez désormais dire adieu aux préoccupations concernant la coloration inesthétique de vos dents, et accueillir un sourire radieux avec confiance.",
           "La santé de vos gencives est primordiale dans un soin bucco-dentaire complet, c'est pourquoi notre poudre prend soin d'elles avec une délicatesse inégalée. Grâce à une formule douce mais efficace, notre poudre nettoie vos gencives tout en les protégeant des irritations et des inflammations. Vous pouvez vous attendre à une santé bucco-dentaire optimale, car notre formule est spécialement conçue pour respecter la sensibilité de vos gencives. En prenant soin de vos gencives, notre produit vous permet de profiter d'une sensation de confort et de bien-être dans votre bouche, pour des sourires éclatants sans compromis sur la santé de vos gencives."
         ],
-        picture450: "/img/jpg/product/ApportMinerauxIllusText450.jpg",
-        picture675: "/img/jpg/product/ApportMinerauxIllusText675.jpg",
-        picture900: "/img/jpg/product/ApportMinerauxIllusText900.jpg"
+        picture450: "/img/jpg/product/dentitionBlancheIllusText450.jpg",
+        picture675: "/img/jpg/product/dentitionBlancheIllusText675.jpg",
+        picture900: "/img/jpg/product/dentitionBlancheIllusText900.jpg"
       },
       {
         id: "2dentitionBlanche",
@@ -80,16 +80,15 @@ export const dentitionBlanche = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
-  picture: "/img/jpg/product/apportMineraux.jpg",
+  picture: "/img/jpg/product/dentitionBlanche.jpg",
   colors: {
-    textColor: "#0246a4",
+    textColor: "#8a0c55",
     titleColorInSummary: "#003459",
-    bgColorInSummary: "#68a6d0",
-    bgColorInSummary0: "#f1d880",
-    bgColorInSummary1: "#e2e6ea",
-    linearGradient0: "linear-gradient(105deg ,#566f82, #5fa1ff)",
-    linearGradient1: "linear-gradient(to right, #8698a6, 	#e2e6ea)",
-    shadowColor: "#f1d880"
+    bgColorInSummary0: "#ad5588",
+    bgColorInSummary1: "#f1e2eb",
+    linearGradient0: "linear-gradient(105deg ,#ad5588, #ff8bb7)",
+    linearGradient1: "linear-gradient(to right, #c586aa, 	#f1e2eb)",
+    shadowColor: "#f1e2eb"
   },
   inSummary: [
     {

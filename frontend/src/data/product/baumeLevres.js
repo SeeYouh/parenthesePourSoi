@@ -1,6 +1,6 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
-export const baumesLevres = {
+export const baumeLevres = {
   nameProduct: "Baumes à lèvres",
   id: "baumeLevres",
 
@@ -61,7 +61,7 @@ export const baumesLevres = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "/img/jpg/product/heRafraichissant.jpg",
+  picture: "/img/jpg/product/baumeLevres.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#003459",

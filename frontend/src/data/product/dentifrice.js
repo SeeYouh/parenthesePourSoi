@@ -50,21 +50,21 @@ export const dentifrice = {
       {
         id: "Dentifrice0",
         link: "detox",
-  pictureLove: "/img/jpg/product/detox.jpg",
+        pictureLove: "/img/jpg/product/detox.jpg",
         textLove:
           "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
       },
       {
         id: "Dentifrice1",
         link: "bienEtreInterieur",
-  pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
       },
       {
         id: "Dentifrice2",
-        link: "GG",
-  pictureLove: "/img/jpg/product/GG.jpg",
+        link: "gg",
+        pictureLove: "/img/jpg/product/GG.jpg",
         textLove:
           "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
       }

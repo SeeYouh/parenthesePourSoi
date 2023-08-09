@@ -1,5 +1,4 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
-
 export const cremeDay = {
   nameProduct: "Crème day",
   id: "cremeDay",
@@ -89,6 +88,12 @@ export const cremeDay = {
   colors: {
     textColor: "#0246a4",
     titleColorInSummary: "#003459",
+    linkTextColor: "",
+    bgColorInSummary0: "",
+    bgColorInSummary1: "",
+    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
+    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
+    shadowColor: "",
     bgColorInSummary: "#68a6d0"
   },
   inSummary: [

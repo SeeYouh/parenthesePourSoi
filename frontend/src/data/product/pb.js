@@ -113,7 +113,11 @@ export const pb = {
   colors: {
     textColor: "#0246a4",
     titleColorInSummary: "",
-    bgColorInSummary: "",
+    bgColorInSummary0: "",
+    bgColorInSummary1: "",
+    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
+    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
+    shadowColor: "",
     linkTextColor: "#0246a4"
   },
   inSummary: [

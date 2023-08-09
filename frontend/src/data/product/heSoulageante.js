@@ -1,5 +1,4 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
-
 export const heSoulageante = {
   nameProduct: "HE Soulageante",
   id: "heSoulageante",
@@ -95,7 +94,13 @@ export const heSoulageante = {
   colors: {
     textColor: "#9f348b",
     titleColorInSummary: "",
-    bgColorInSummary: ""
+    linkTextColor: "",
+    bgColorInSummary0: "",
+    bgColorInSummary1: "",
+    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
+    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
+    shadowColor: "",
+    
   },
   inSummary: [
     {

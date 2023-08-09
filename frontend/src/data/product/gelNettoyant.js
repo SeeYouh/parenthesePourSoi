@@ -1,5 +1,4 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
-
 export const gelNettoyant = {
   nameProduct: "Gel nettoyant",
   id: "gelNettoyant",
@@ -73,6 +72,12 @@ export const gelNettoyant = {
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#003459",
+    linkTextColor: "",
+    bgColorInSummary0: "",
+    bgColorInSummary1: "",
+    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
+    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
+    shadowColor: "",
     bgColorInSummary: "#68a6d0"
   },
   inSummary: [

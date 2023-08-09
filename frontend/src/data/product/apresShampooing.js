@@ -1,5 +1,4 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
-
 export const apresShampooing = {
   nameProduct: "Après shampooing",
   id: "apresShampooing",
@@ -71,6 +70,12 @@ export const apresShampooing = {
   colors: {
     textColor: "#a5a5a5",
     titleColorInSummary: "#4b4b4b",
+    linkTextColor: "",
+    bgColorInSummary0: "",
+    bgColorInSummary1: "",
+    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
+    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
+    shadowColor: "",
     bgColorInSummary: "#cacaca"
   },
   inSummary: [

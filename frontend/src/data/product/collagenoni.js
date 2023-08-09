@@ -1,5 +1,4 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
-
 export const collagenoni = {
   nameProduct: "Collagènoni",
   id: "collagenoni",
@@ -91,6 +90,12 @@ export const collagenoni = {
   colors: {
     textColor: "#9f348b",
     titleColorInSummary: "#45173c",
+    linkTextColor: "",
+    bgColorInSummary0: "",
+    bgColorInSummary1: "",
+    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
+    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
+    shadowColor: "",
     bgColorInSummary: "#dfa6d4"
   },
   inSummary: [

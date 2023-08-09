@@ -1,5 +1,4 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
-
 export const cocoOil = {
   nameProduct: "Coco’oil",
   id: "cocoOil",
@@ -82,6 +81,12 @@ export const cocoOil = {
   colors: {
     textColor: "#2c368b",
     titleColorInSummary: "#161b46",
+    linkTextColor: "",
+    bgColorInSummary0: "",
+    bgColorInSummary1: "",
+    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
+    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
+    shadowColor: "",
     bgColorInSummary: "#b6bae2"
   },
   inSummary: [

@@ -1,4 +1,7 @@
-import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+import {
+  getCategoryById,
+  getSecondCategoryById,
+} from '../firstCategoryHelper';
 
 export const guerisseurMaux = {
   nameProduct: "Guérisseur de maux",
@@ -54,35 +57,35 @@ export const guerisseurMaux = {
       {
         id: "guerisseurMaux0",
         link: "bienEtreInterieur",
-  pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
         textLove:
           "Pour encore plus de bien-être, découvrez notre produit qui régule le microbiote. Les prébiotiques et probiotiques améliorent la santé globale en prévenant les troubles digestifs et maladies chroniques. Cette solution de bien-être intérieur aide à gérer le poids, renforce le système immunitaire et offre une énergie naturelle grâce à la synthèse des vitamines B et K."
       },
       {
         id: "guerisseurMaux1",
         link: "goutteMinceur",
-  pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+        pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Avec ces deux fioles uniques en gouttes, ce produit révolutionne votre cure minceur en ciblant les graisses tenaces sous-cutanées et viscérales. Il régule l'appétit, brûle les graisses efficacement et améliore votre bien-être général en stimulant le métabolisme, apportant une énergie positive et aidant à réduire la cellulite. Les gouttes nuit empêchent l'accumulation de nouvelles graisses, soulagent le stress et favorisent une digestion harmonieuse pour une récupération optimale pendant le sommeil."
       },
       {
         id: "guerisseurMaux2",
         link: "boosterEnergie",
-  pictureLove: "/img/jpg/product/boosterEnergie.jpg",
+        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Notre booster d'énergie dynamise votre corps en stimulant votre énergie naturelle, favorisant un sommeil réparateur et diminuant le stress et l'anxiété. Grâce à ses propriétés détoxifiantes, il augmente la combustion des graisses de 17%, aidant dans la gestion du poids. En renforçant le système immunitaire et cardiovasculaire, il protège votre santé et améliore la concentration mentale."
       },
       {
         id: "guerisseurMaux3",
         link: "regenerateurCellulaire",
-  pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre best seller est l'allié ultime pour une peau de qualité, favorisant élasticité et fermeté pour un teint éclatant et jeune. En plus de ses bienfaits pour la peau, il soutient la santé globale en renforçant le système cardiovasculaire et immunitaire, favorisant la formation et le maintien du collagène. Il accélère la cicatrisation des plaies, améliore les cicatrices et stimule votre énergie naturelle, vous offrant vitalité et dynamisme au quotidien. Grâce à son pouvoir antioxydant, il apaise les allergies et les symptômes de l'asthme."
       },
       {
         id: "guerisseurMaux4",
         link: "heRelaxante",
-  pictureLove: "/img/jpg/product/heRelaxante.jpg",
+        pictureLove: "/img/jpg/product/heRelaxante.jpg",
         textLove:
           "Une huile essentielle qui apaise la dépression et l'anxiété, favorisant la paix intérieure. Son parfum relaxant améliore l'humeur et aide à calmer l'esprit, réduisant le stress. Utilisée avant le coucher, elle favorise le sommeil et soulage les irritations cutanées, offrant un soulagement apaisant. Bénéficiez de ses bienfaits pour améliorer votre qualité de vie et équilibre intérieur."
       }
@@ -93,7 +96,7 @@ export const guerisseurMaux = {
   picture: "/img/jpg/product/guerisseurMaux.jpg",
   colors: {
     textColor: "#da7a2a",
-    titleColorInSummary: "#da7a2a",
+    titleColorInSummary: "#c24a0f",
     bgColorInSummary0: "#e5a26a",
     bgColorInSummary1: "#fbefe5",
     linearGradient0: "linear-gradient(105deg ,#e5a26a, #ffd0bd)",

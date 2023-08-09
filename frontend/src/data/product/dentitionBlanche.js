@@ -43,42 +43,42 @@ export const dentitionBlanche = {
       {
         id: "dentitionBlanche0",
         link: "dentifrice",
-  pictureLove: "/img/jpg/product/dentifrice.jpg",
+        pictureLove: "/img/jpg/product/dentifrice.jpg",
         textLove:
           "Un dentifrice naturel de haute qualité, sans produits chimiques agressifs, pour un blanchiment doux et des dents éclatantes. Enrichi en extraits de plantes apaisantes et anti bactériennes, il favorise des gencives saines. L'huile essentielle de menthe poivrée laisse une agréable sensation de fraîcheur, éliminant la mauvaise haleine. Une expérience de soin bucco-dentaire exceptionnelle, naturellement."
       },
       {
         id: "dentitionBlanche1",
         link: "baumeLevres",
-  pictureLove: "/img/jpg/product/baumeLevres.jpg",
+        pictureLove: "/img/jpg/product/baumeLevres.jpg",
         textLove:
           "Notre baume à lèvres naturel, nourrissant et hydratant offre une protection contre les agressions extérieures et prévient les lèvres sèches et gercées. Grâce à sa composition naturelle, vos lèvres sont réparées et plus résistantes. Une véritable oasis de douceur et de protection pour un sourire éclatant de santé."
       },
       {
         id: "dentitionBlanche2",
         link: "glossRepulpant",
-  pictureLove: "/img/jpg/product/glossRepulpant.jpg",
+        pictureLove: "/img/jpg/product/glossRepulpant.jpg",
         textLove:
           "Notre gloss repulpant vous apportera des lèvres hydratées et volumineuses. Il efface les rides et ridules pour une apparence plus jeune et lisse. Il offre une sensation de fraîcheur délicieuse et est rigoureusement testé pour une tolérance optimale. Une cure de jouvence pour vos lèvres."
       },
       {
         id: "dentitionBlanche3",
         link: "volumateurCils",
-  pictureLove: "/img/jpg/product/volumateurCils.jpg",
+        pictureLove: "/img/jpg/product/volumateurCils.jpg",
         textLove:
           "Vos cils ont besoin d’être protégés et renforcés ? Notre sérum est enrichi d'agents hydratants essentiels, formant un bouclier protecteur pour prévenir les dommages et la casse. Stimulant la croissance des cils, il les rend plus fournis, plus résistants et plus longs pour un regard irrésistible. Sa formule nourrissante prend soin de vos cils en profondeur, leur apportant force et vitalité. Testé sous contrôle dermatologique et ophtalmologique, vous pouvez l'utiliser en toute confiance."
       },
       {
         id: "dentitionBlanche4",
         link: "eauTonique",
-  pictureLove: "/img/jpg/product/eauTonique.jpg",
+        pictureLove: "/img/jpg/product/eauTonique.jpg",
         textLove:
           "Notre eau tonique nourrit et restaure en profondeur, offrant une peau intensément hydratée, adoucie et apaisée. Grâce à sa formule douce, elle resserre les pores, régule la production de sébum, et calme les irritations, idéal pour les peaux sensibles. Utilisez-la pour une peau équilibrée, éclatante et préparée pour le maquillage. Notre produit est sans paraben, alcool et parfums artificiels, garantissant une expérience de soin pure et sûre pour votre bien-être et celui de l'environnement."
       },
       {
         id: "dentitionBlanche5",
         link: "apportQ10",
-  pictureLove: "/img/jpg/product/apportQ10.jpg",
+        pictureLove: "/img/jpg/product/apportQ10.jpg",
         textLove:
           "Notre formule riche en CoQ10 aux propriétés antioxydantes puissantes prévient les dommages des radicaux libres et favorise une peau éclatante de jeunesse. Traitez efficacement les varices, la cellulite et favoriser la cicatrisation des plaies grâce à ses propriétés spécifiques. Renforcez votre système immunitaire pour mieux lutter contre les infections et maintenez une santé cardiaque optimisée. Préservez votre mémoire et améliorez votre fonction cognitive, tout en luttant contre le vieillissement cutané, pour une apparence plus jeune et éclatante."
       }
@@ -89,7 +89,7 @@ export const dentitionBlanche = {
   picture: "/img/jpg/product/dentitionBlanche.jpg",
   colors: {
     textColor: "#8a0c55",
-    titleColorInSummary: "#003459",
+    titleColorInSummary: "#8a0c55",
     bgColorInSummary0: "#ad5588",
     bgColorInSummary1: "#f1e2eb",
     linearGradient0: "linear-gradient(105deg ,#ad5588, #ff8bb7)",

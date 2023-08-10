@@ -84,8 +84,8 @@ export const serumComplet = {
       },
       {
         id: "SerumComplet3",
-        link: "baumesLevres",
-        pictureLove: "/img/jpg/product/baumesLevres.jpg",
+        link: "baumeLevres",
+        pictureLove: "/img/jpg/product/baumeLevres.jpg",
         textLove:
           "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
       },
@@ -116,14 +116,14 @@ export const serumComplet = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/serumComplet.jpg",
   colors: {
-    textColor: "#30d1d9",
-    titleColorInSummary: "",
-    linkTextColor: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: ""
+    textColor: "#015c77",
+    titleColorInSummary: "#015c77",
+    linkTextColor: "#015c77",
+    bgColorInSummary0: "#4d8da0",
+    bgColorInSummary1: "#e1ebef",
+    linearGradient0: "linear-gradient(105deg ,#4d8da0 , #7bcaff)",
+    linearGradient1: "linear-gradient(to right, #80aebb ,#e1ebef)",
+    shadowColor: "#e1ebef"
   },
   inSummary: [
     {

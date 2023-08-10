@@ -76,8 +76,8 @@ export const masqueNuit = {
       },
       {
         id: "masqueNuit4",
-        link: "baumesLevres",
-        pictureLove: "/img/jpg/product/baumesLevres.jpg",
+        link: "baumeLevres",
+        pictureLove: "/img/jpg/product/baumeLevres.jpg",
         textLove:
           "Plongez dans une véritable oasis de douceur et de protection avec notre baume à lèvres enrichi d'ingrédients naturels. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, offrant une hydratation durable pour un sourire éclatant de santé. Sa formule avancée forme une barrière protectrice contre les éléments extérieurs, préservant vos lèvres impeccablement. Prévenant l'apparition des lèvres sèches et des gerçures, notre baume répare et renforce vos lèvres, pour un confort retrouvé jour après jour. Nourrissez vos lèvres avec le pouvoir de la nature."
       }
@@ -87,14 +87,14 @@ export const masqueNuit = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/masqueNuit.jpg",
   colors: {
-    textColor: "#30d1d9",
-    titleColorInSummary: "",
-    linkTextColor: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: ""
+    textColor: "#42848e",
+    titleColorInSummary: "#42848e",
+    linkTextColor: "#42848e",
+    bgColorInSummary0: "#87b6bd",
+    bgColorInSummary1: "#eaf3f4",
+    linearGradient0: "linear-gradient(105deg, #87b6bd, #b8f4ff)",
+    linearGradient1: "linear-gradient(to right, #a9cbd0, #eaf3f4)",
+    shadowColor: "#eaf3f4"
   },
   inSummary: [
     {

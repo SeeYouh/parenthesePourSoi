@@ -98,7 +98,7 @@ export const heRafraichissant = {
   picture: "/img/jpg/product/heRafraichissant.jpg",
   colors: {
     textColor: "#30d1d9",
-    titleColorInSummary: "#30d1d9",
+    titleColorInSummary: "#0017a5",
     linkTextColor: "#30d1d9",
     bgColorInSummary0: "#6edfe4",
     bgColorInSummary1: "#e6f9fa",

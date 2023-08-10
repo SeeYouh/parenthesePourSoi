@@ -90,7 +90,7 @@ export const heRelaxante = {
   picture: "/img/jpg/product/heRelaxante.jpg",
   colors: {
     textColor: "#9f348b",
-    titleColorInSummary: "#9f348b",
+    titleColorInSummary: "#0017a5",
     linkTextColor: "#9f348b",
     bgColorInSummary0: "#bc71ae",
     bgColorInSummary1: "#f3e7f1",

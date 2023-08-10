@@ -93,7 +93,7 @@ const ProductPage = () => {
             <div className="titleTextProduct">
               <h1
                 style={{
-                  color: themeColors.textColor
+                  color: themeColors.titleColorInSummary
                 }}
               >
                 {product.nameProduct}

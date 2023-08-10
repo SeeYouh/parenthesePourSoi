@@ -1,7 +1,7 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const santeMax = {
-  nameProduct: "SanteMax",
+  nameProduct: "Sante Max",
   id: "santeMax",
   summary: {
     title: "Le compagnon idéal pour booster votre quotidien",
@@ -67,8 +67,8 @@ export const santeMax = {
 
       {
         id: "2santeMax",
-        subTitle: "",
-        text: ""
+        subTitle: "Boostez votre santé",
+        text: "Au-delà de ses bienfaits spécifiques, le Noni est un véritable boosteur global pour votre santé. En agissant sur les maladies chroniques, il vous offre une amélioration globale de votre bien-être. Profitez de cette pépite naturelle pour atteindre un équilibre optimal dans tous les aspects de votre santé."
       },
       {
         id: "3santeMax",
@@ -83,37 +83,42 @@ export const santeMax = {
     youLikeIt: [
       {
         id: "santeMax0",
-        link: "",
-        pictureLove: "/img/jpg/product/.jpg",
-        textLove: ""
+        link: "equilibreCorpsEsprit",
+        pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
+        textLove:
+          "Problème de sommeil ? Ce produit joue un rôle essentiel en soutenant les fonctions psychologiques normales, augmentant le métabolisme énergétique et favorisant un sommeil récupérateur. Il offre de nombreux bienfaits pour la santé, améliorant l'absorption de nutriments essentiels tels que la vitamine A, les acides gras et les protéines."
       },
 
       {
         id: "santeMax1",
-        link: "",
-        pictureLove: "/img/jpg/product/.jpg",
-        textLove: ""
+        link: "harmonie",
+        pictureLove: "/img/jpg/product/harmonie.jpg",
+        textLove:
+          "Notre produit est formulé avec des ingrédients aux propriétés antidépressives, améliorant l'humeur et l'énergie vitale. Il favorise un sommeil réparateur et stimule les capacités cognitives. De plus, il offre une efficacité anti-inflammatoire exceptionnelle pour soulager les douleurs liées à diverses affections, tout en renforçant le système immunitaire pour prévenir les infections. La formule aide également à une digestion saine, à l'élimination des toxines pour une perte de poids naturelle et à la cicatrisation de la peau. Il agit sur la production de DHEA, l'hormone anti-vieillissement, offrant une peau éclatante, une chevelure luxuriante, et un soulagement des douleurs menstruelles et des désagréments de la ménopause pour les femmes."
       },
 
       {
         id: "santeMax2",
-        link: "",
-        pictureLove: "/img/jpg/product/.jpg",
-        textLove: ""
+        link: "heRelaxante",
+        pictureLove: "/img/jpg/product/heRelaxante.jpg",
+        textLove:
+          "L'huile essentielle Relaxante a des effets bénéfiques sur la santé mentale en apaisant la dépression, réduisant l'anxiété et le stress, et favorisant un sentiment de bien-être. Son parfum relaxant aide à calmer l'esprit et favorise la tranquillité intérieure. Elle est également efficace pour favoriser l'endormissement, réduire les troubles du sommeil, et soulager les irritations cutanées, offrant un soulagement rapide et apaisant. Son utilisation régulière peut détendre les muscles de la mâchoire et atténuer le grincement de dents."
       },
 
       {
         id: "santeMax3",
-        link: "",
-        pictureLove: "/img/jpg/product/.jpg",
-        textLove: ""
+        link: "detox",
+        pictureLove: "/img/jpg/product/detox.jpg",
+        textLove:
+          "Une détoxification du corps peut entraîner un mieux-être immédiat. Agissant comme un agent de détox, notre produit élimine les toxines accumulées dans les organes, favorisant ainsi une meilleure santé globale. Les ingrédients présents protègent les cellules contre le stress oxydatif, renforcent le système immunitaire et rééquilibrent le système digestif, réduisant les ballonnements et la cellulite. Vous retrouverez une vitalité et un bien-être général grâce à cette cure."
       },
 
       {
         id: "santeMax4",
-        link: "",
-        pictureLove: "/img/jpg/product/.jpg",
-        textLove: ""
+        link: "pb",
+        pictureLove: "/img/jpg/product/PB.jpg",
+        textLove:
+          "Notre produit est idéal pour les sportifs et les personnes actives, car il optimise la performance sportive en améliorant l'endurance et la récupération musculaire. Il agit également comme un coupe-faim puissant pour aider à contrôler l'appétit et favoriser la perte de poids naturelle. En plus de ses bienfaits physiques, il soutient la régénération des tissus, favorise une digestion harmonieuse, et améliore la santé cardiovasculaire pour un bien-être général. Enfin, il apporte une énergie revitalisante et contribue à améliorer le bien-être émotionnel."
       }
     ]
   },

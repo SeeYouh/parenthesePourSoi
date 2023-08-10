@@ -1,4 +1,5 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+
 export const decontaminant = {
   nameProduct: "Le décontaminant",
   id: "decontaminant",
@@ -17,9 +18,9 @@ export const decontaminant = {
         subTitle:
           "Combattez les imperfections : Un allié puissant pour une peau nette",
         text: "Notre décontaminant est votre arme secrète contre les points noirs. Grâce à une formule ciblée et précise, il désobstrue les pores, laissant votre peau nette et débarrassée des impuretés. Ses actifs puissants vont encore plus loin, aidant à réduire les imperfections cutanées, les tâches pigmentaires et le masque de grossesse. Vous n'êtes qu'à un pas d'un teint plus uniforme et éclatant. Mettez en valeur votre peau, radieuse et sublimée, et vivez l'expérience d'un teint sans défaut.",
-        picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
-        picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
-        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
+        picture450: "/img/jpg/product/decontaminantIllusText450.jpg",
+        picture675: "/img/jpg/product/decontaminantIllusText675.jpg",
+        picture900: "/img/jpg/product/decontaminantIllusText900.jpg"
       },
       {
         id: "2Decontaminant",
@@ -67,7 +68,7 @@ export const decontaminant = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "/img/jpg/product/heRafraichissant.jpg",
+  picture: "/img/jpg/product/decontaminant.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#003459",

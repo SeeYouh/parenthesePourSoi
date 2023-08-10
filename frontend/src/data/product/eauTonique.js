@@ -20,9 +20,9 @@ export const eauTonique = {
           "Cependant, ses bienfaits ne s'arrêtent pas là. La formule douce et apaisante de l'eau tonique a été spécialement élaborée pour calmer les irritations cutanées, réduire les rougeurs et apaiser les éruptions cutanées. Cela en fait un produit idéal pour les personnes ayant une peau sensible ou sujette aux rougeurs et aux inflammations. En apaisant la peau, l'eau tonique favorise la régénération cellulaire et contribue à restaurer l'équilibre naturel de la peau.",
           "En utilisant régulièrement l'eau tonique dans votre routine de soins de la peau, vous pourrez constater une nette amélioration de l'apparence de votre peau. Elle retrouve son éclat, sa douceur et son harmonie, vous offrant ainsi un teint plus apaisé et équilibré. En outre, l'eau tonique peut être utilisée avant l'application du maquillage pour préparer la peau et créer une base lisse, ce qui permet à votre maquillage de tenir plus longtemps et de mieux se fondre avec votre peau."
         ],
-        picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
-        picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
-        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
+        picture450: "/img/jpg/product/eauToniqueIllusText450.jpg",
+        picture675: "/img/jpg/product/eauToniqueIllusText675.jpg",
+        picture900: "/img/jpg/product/eauToniqueIllusText900.jpg"
       },
       {
         id: "2eauTonique",
@@ -78,17 +78,16 @@ export const eauTonique = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "/img/jpg/product/heRafraichissant.jpg",
+  picture: "/img/jpg/product/eauTonique.jpg",
   colors: {
-    textColor: "#30d1d9",
-    linkTextColor: "#30d1d9",
-    titleColorInSummary: "#003459",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
-    bgColorInSummary: "#68a6d0"
+    textColor: "#42848e",
+    titleColorInSummary: "#42848e",
+    linkTextColor: "#42848e",
+    bgColorInSummary0: "#87b6bd",
+    bgColorInSummary1: "#eaf3f4",
+    linearGradient0: "linear-gradient(105deg, #87b6bd, #b8f4ff)",
+    linearGradient1: "linear-gradient(to right, #a9cbd0, #eaf3f4)",
+    shadowColor: "#eaf3f4"
   },
   inSummary: [
     {

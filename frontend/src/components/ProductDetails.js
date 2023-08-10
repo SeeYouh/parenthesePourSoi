@@ -47,7 +47,7 @@ const ProductDetails = (productDescription) => {
         <div className="titleTextProduct">
           <h1
             style={{
-              color: themeColors.textColor
+              color: themeColors.titleColorInSummary
             }}
           >
             {productDescription.product.nameProduct}

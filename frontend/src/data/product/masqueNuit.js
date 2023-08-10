@@ -1,4 +1,5 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+
 export const masqueNuit = {
   nameProduct: "Masque de nuit",
   id: "masqueNuit",
@@ -19,9 +20,9 @@ export const masqueNuit = {
           "Notre masque de nuit est bien plus qu'un simple soin. Grâce à ses propriétés antioxydantes et régénératrices, il devient votre allié précieux dans la lutte contre les signes du vieillissement. Au fil des utilisations, vous constaterez une réduction visible de l'apparence des rides et des ridules, laissant place à une peau plus jeune, plus lisse et plus ferme. Votre teint retrouve son éclat naturel, vous offrant une confiance renouvelée.",
           "Notre formule avancée travaille en profondeur pour améliorer les imperfections de la peau, vous offrant ainsi une peau plus saine et éclatante. Ce masque agit sur les zones du visage, des mains, du cou et de la poitrine pour resserrer les pores et améliorer la texture cutanée. Il est particulièrement efficace pour lutter contre les problèmes cutanés tels que l'acné, vous laissant avec une peau lisse, uniforme et rayonnante."
         ],
-        picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
-        picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
-        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
+        picture450: "/img/jpg/product/masqueNuitIllusText450.jpg",
+        picture675: "/img/jpg/product/masqueNuitIllusText675.jpg",
+        picture900: "/img/jpg/product/masqueNuitIllusText900.jpg"
       },
       {
         id: "2masqueNuit",
@@ -48,35 +49,35 @@ export const masqueNuit = {
       {
         id: "masqueNuit0",
         link: "decontaminant",
-  pictureLove: "/img/jpg/product/decontaminant.jpg",
+        pictureLove: "/img/jpg/product/decontaminant.jpg",
         textLove:
           "Notre produit doux et efficace révèle une peau resplendissante de beauté en éliminant les peaux mortes et les impuretés pour un teint frais et radieux. Spécialement conçu pour resserrer les pores et affiner la texture de la peau, il offre une apparence plus lisse et uniforme. Notre décontaminant cible les points noirs, réduit les imperfections et les tâches pigmentaires pour un teint éclatant. De plus, notre formule apaise les yeux fatigués, offrant un regard reposé et éclatant. Testé sous contrôle dermatologique, il convient à tous les types de peau."
       },
       {
         id: "masqueNuit1",
         link: "cremeDay",
-  pictureLove: "/img/jpg/product/cremeDay.jpg",
+        pictureLove: "/img/jpg/product/cremeDay.jpg",
         textLove:
           "Découvrez notre crème hydratante aux nombreux avantages : apaisante, elle laisse la peau souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour une meilleure protection contre les agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint."
       },
       {
         id: "masqueNuit2",
         link: "cremeNight",
-  pictureLove: "/img/jpg/product/cremeNight.jpg",
+        pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
           "Découvrez notre crème de nuit qui stimule et régénère complètement votre peau pendant le sommeil. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et le relâchement cutané. En ciblant les tâches et les décolorations, elle réduit progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte efficacement contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
       },
       {
         id: "masqueNuit3",
         link: "volumateurCils",
-  pictureLove: "/img/jpg/product/volumateurCils.jpg",
+        pictureLove: "/img/jpg/product/volumateurCils.jpg",
         textLove:
           "Obtenez des cils de biche naturels grâce à notre sérum enrichi d'agents hydratants essentiels. En renforçant leur structure, il protège vos cils des dommages et de la casse. Stimulant leur croissance, il vous offre des cils plus épais, forts et longs pour un regard irrésistible. Notre formule sécurisée, testée sous contrôle dermatologique et ophtalmologique, prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales. Découvrez des cils magnifiés et un regard captivant qui ne passera pas inaperçu !"
       },
       {
         id: "masqueNuit4",
         link: "baumesLevres",
-  pictureLove: "/img/jpg/product/baumesLevres.jpg",
+        pictureLove: "/img/jpg/product/baumesLevres.jpg",
         textLove:
           "Plongez dans une véritable oasis de douceur et de protection avec notre baume à lèvres enrichi d'ingrédients naturels. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, offrant une hydratation durable pour un sourire éclatant de santé. Sa formule avancée forme une barrière protectrice contre les éléments extérieurs, préservant vos lèvres impeccablement. Prévenant l'apparition des lèvres sèches et des gerçures, notre baume répare et renforce vos lèvres, pour un confort retrouvé jour après jour. Nourrissez vos lèvres avec le pouvoir de la nature."
       }
@@ -84,7 +85,7 @@ export const masqueNuit = {
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
-  picture: "/img/jpg/product/heRafraichissant.jpg",
+  picture: "/img/jpg/product/masqueNuit.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "",
@@ -93,8 +94,7 @@ export const masqueNuit = {
     bgColorInSummary1: "",
     linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
     linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
-    
+    shadowColor: ""
   },
   inSummary: [
     {

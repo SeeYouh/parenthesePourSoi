@@ -1,4 +1,5 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+
 export const goutteMinceur = {
   nameProduct: "Gouttes minceur",
   id: "goutteMinceur",
@@ -93,14 +94,13 @@ export const goutteMinceur = {
   picture: "/img/jpg/product/goutteMinceur.jpg",
   colors: {
     textColor: "#e58000",
-    titleColorInSummary: "#4f2000",
-    linkTextColor: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
-    bgColorInSummary: "#fde1b5"
+    titleColorInSummary: "#e58000",
+    linkTextColor: "#e58000",
+    bgColorInSummary0: "#eda64d",
+    bgColorInSummary1: "#fcf0e0",
+    linearGradient0: "linear-gradient(105deg, #eda64d, #fffcfb)",
+    linearGradient1: "linear-gradient(to right, #f2c080, #fcf0e0)",
+    shadowColor: "#fcf0e0"
   },
   inSummary: [
     {

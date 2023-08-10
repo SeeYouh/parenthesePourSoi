@@ -1,4 +1,5 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+
 export const pn = {
   nameProduct: "PN",
   id: "pn",
@@ -78,14 +79,13 @@ export const pn = {
   picture: "/img/jpg/product/PN.jpg",
   colors: {
     textColor: "#e58000",
-    titleColorInSummary: "",
-    linkTextColor: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
-    
+    titleColorInSummary: "#e58000",
+    linkTextColor: "#e58000",
+    bgColorInSummary0: "#eda64d",
+    bgColorInSummary1: "#fcf0e0",
+    linearGradient0: "linear-gradient(105deg, #eda64d, #fffcfb)",
+    linearGradient1: "linear-gradient(to right, #f2c080, #fcf0e0)",
+    shadowColor: "#fcf0e0"
   },
   inSummary: [
     {

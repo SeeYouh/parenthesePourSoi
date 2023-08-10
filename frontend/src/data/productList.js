@@ -20,6 +20,7 @@ import { gelDouche } from "./product/gelDouche";
 import { gelNettoyant } from "./product/gelNettoyant";
 import { gg } from "./product/gg";
 import { glossRepulpant } from "./product/glossRepulpant";
+import { gourdEau } from "./product/gourdEau";
 import { goutteMinceur } from "./product/goutteMinceur";
 import { guerisseurMaux } from "./product/guerisseurMaux";
 import { harmonie } from "./product/harmonie";
@@ -33,6 +34,7 @@ import { osMuscle } from "./product/osMuscle";
 import { pb } from "./product/pb";
 import { pn } from "./product/pn";
 import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
+import { santePlus } from "./product/santePlus";
 import { serumComplet } from "./product/serumComplet";
 import { serumFlash } from "./product/serumFlash";
 import { shampooing } from "./product/shampooing";
@@ -60,6 +62,7 @@ export const productList = [
   gelDouche,
   gelNettoyant,
   glossRepulpant,
+  gourdEau,
   goutteMinceur,
   guerisseurMaux,
   gg,
@@ -74,6 +77,7 @@ export const productList = [
   pb,
   pn,
   regenerateurCellulaire,
+  santePlus,
   serumComplet,
   serumFlash,
   shampooing,

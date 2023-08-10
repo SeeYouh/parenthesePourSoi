@@ -19,9 +19,9 @@ export const pb = {
           "Notre produit est spécialement conçu pour être l'allié idéal des sportifs. En améliorant l'endurance, il vous permet de prolonger vos efforts et de repousser vos limites lors de vos entraînements et compétitions. Grâce à ses propriétés favorisant la réparation musculaire, il accélère la récupération après l'effort, réduisant ainsi les courbatures et les tensions musculaires. Vous serez ainsi prêt à vous entraîner à nouveau à plein régime, sans compromettre vos performances. Optez pour notre produit et découvrez comment il peut vous aider à atteindre de nouvelles performances exceptionnelles tout en prenant soin de votre corps de sportif.",
           "Notre produit offre une régénération et une réparation des tissus exceptionnelles. Il favorise un système digestif sain en diminuant l’irritation des intestins, vous procurant ainsi une sensation de bien-être intérieur. De plus, il améliore la santé cardiovasculaire, renforçant votre cœur pour une vitalité éclatante."
         ],
-        picture450: "/img/jpg/product/ApportMinerauxIllusText450.jpg",
-        picture675: "/img/jpg/product/ApportMinerauxIllusText675.jpg",
-        picture900: "/img/jpg/product/ApportMinerauxIllusText900.jpg"
+        picture450: "/img/jpg/product/pbIllusText450.jpg",
+        picture675: "/img/jpg/product/pbIllusText675.jpg",
+        picture900: "/img/jpg/product/pbIllusText900.jpg"
       },
       {
         id: "2PB",
@@ -98,8 +98,8 @@ export const pb = {
       },
       {
         id: "PB4",
-        link: "collagene",
-        pictureLove: "/img/jpg/product/collagene.jpg",
+        link: "collagenoni",
+        pictureLove: "/img/jpg/product/collagenoni.jpg",
         textLove:
           "Le collagène n’agit pas seulement sur la peau, il est avant tout un allié essentiel pour soutenir votre corps de manière globale. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante."
       }
@@ -109,15 +109,15 @@ export const pb = {
   secondCategory: [
     getSecondCategoryById("0GestionDuPoids1AidePertePoids").text
   ],
-  picture: "/img/jpg/product/apportMineraux.jpg",
+  picture: "/img/jpg/product/PB.jpg",
   colors: {
-    textColor: "#0246a4",
-    titleColorInSummary: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
+    textColor: "#cd9f00",
+    titleColorInSummary: "#cd9f00",
+    bgColorInSummary0: "#dcbc4d",
+    bgColorInSummary1: "#f9f3e0",
+    linearGradient0: "linear-gradient(105deg, #dcbc4d, #ffefd8)",
+    linearGradient1: "linear-gradient(to right, #e6cf80, #f9f3e0)",
+    shadowColor: "#f9f3e0",
     linkTextColor: "#0246a4"
   },
   inSummary: [

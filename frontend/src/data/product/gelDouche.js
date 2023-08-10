@@ -45,14 +45,14 @@ export const gelDouche = {
       {
         id: "GDcocoOil0",
         link: "cocoOil",
-  pictureLove: "/img/jpg/product/cocoOil.jpg",
+        pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
           "Le gel douche combiné à notre huile hydratante permet à votre peau de retrouver confort et hydratation."
       },
       {
         id: "GDregenerateurCellulaire1",
         link: "regenerateurCellulaire",
-  pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Concernant les problèmes de peau, le gel douche s’associe très souvent à notre chouchou qui régénère les cellules. Ce combo est idéal pour les soucis cutanés."
       }
@@ -62,14 +62,14 @@ export const gelDouche = {
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "/img/jpg/product/gelDouche.jpg",
   colors: {
-    textColor: "#808080",
-    titleColorInSummary: "#474747",
-    bgColorInSummary: "#dcdcdc",
-    bgColorInSummary0: "#e59e4d",
-    bgColorInSummary1: "#f2d0a0",
-    linearGradient0: "linear-gradient(105deg ,#e59e4d  , #ffc085)",
-    linearGradient1: "linear-gradient(to right, #f2c06f  ,#f2d0a0)",
-    shadowColor: "#f2d0a0"
+    textColor: "#a5a5a5",
+    titleColorInSummary: "#4b4b4b",
+    linkTextColor: "#4b4b4b",
+    bgColorInSummary0: "#c0c0c0",
+    bgColorInSummary1: "#ffffff",
+    linearGradient0: "linear-gradient(105deg, #c0c0c0, #f4f4f4)",
+    linearGradient1: "linear-gradient(to right, #d2d2d2, #ffffff)",
+    shadowColor: "#ffffff"
   },
   inSummary: [
     {

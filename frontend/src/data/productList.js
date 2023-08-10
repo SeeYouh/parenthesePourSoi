@@ -33,7 +33,9 @@ import { mereDeTous } from "./product/mereDeTous";
 import { osMuscle } from "./product/osMuscle";
 import { pb } from "./product/pb";
 import { pn } from "./product/pn";
+import { purificatAir } from "./product/purificatAir";
 import { regenerateurCellulaire } from "./product/regenerateurCellulaire";
+import { santeMax } from "./product/santeMax";
 import { santePlus } from "./product/santePlus";
 import { serumComplet } from "./product/serumComplet";
 import { serumFlash } from "./product/serumFlash";
@@ -76,7 +78,9 @@ export const productList = [
   osMuscle,
   pb,
   pn,
+  purificatAir,
   regenerateurCellulaire,
+  santeMax,
   santePlus,
   serumComplet,
   serumFlash,

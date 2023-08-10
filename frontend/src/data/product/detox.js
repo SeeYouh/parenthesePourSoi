@@ -54,7 +54,7 @@ export const detox = {
               santé peuvent survenir. En optant pour notre produit, vous
               permettez à votre corps de se débarrasser de ces toxines,
               favorisant ainsi une gestion du poids plus efficace et une
-              meilleure santé globale."
+              meilleure santé globale.
             </p>
           </div>
         ),

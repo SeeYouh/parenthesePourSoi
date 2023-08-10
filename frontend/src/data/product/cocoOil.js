@@ -1,4 +1,5 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+
 export const cocoOil = {
   nameProduct: "Coco’oil",
   id: "cocoOil",
@@ -55,21 +56,21 @@ export const cocoOil = {
       {
         id: "COGelNettoyant0",
         link: "gelNettoyant",
-  pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+        pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Pour les problèmes cutanés, je vous suggère d'essayer notre gel nettoyant hydratant, reconnu pour ses résultats impressionnants."
       },
       {
         id: "CORegenerateurCellulaire1",
         link: "regenerateurCellulaire",
-  pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Je vous recommande également notre produit favori, qui est exceptionnel pour régénérer les cellules de votre peau."
       },
       {
         id: "COALLHE2",
         link: "AllHE",
-  pictureLove: "/img/jpg/product/AllHE.jpg",
+        pictureLove: "/img/jpg/product/AllHE.jpg",
         textLove:
           "Pour l’utilisation des huiles essentielles, il est conseillé de les diluer dans notre huile hydratante."
       }
@@ -80,14 +81,13 @@ export const cocoOil = {
   picture: "/img/jpg/product/cocoOil.jpg",
   colors: {
     textColor: "#2c368b",
-    titleColorInSummary: "#161b46",
-    linkTextColor: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
-    bgColorInSummary: "#b6bae2"
+    titleColorInSummary: "#2c368b",
+    linkTextColor: "#2c368b",
+    bgColorInSummary0: "#6b72ae",
+    bgColorInSummary1: "#e6e7f1",
+    linearGradient0: "linear-gradient(105deg, #6b72ae, #9299ff)",
+    linearGradient1: "linear-gradient(to right, #969bc5, #e6e7f1)",
+    shadowColor: "#e6e7f1"
   },
   inSummary: [
     {

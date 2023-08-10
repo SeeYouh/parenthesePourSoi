@@ -1,4 +1,5 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+
 export const heRafraichissant = {
   nameProduct: "HE Rafraîchissante",
   id: "heRafraichissant",
@@ -97,14 +98,13 @@ export const heRafraichissant = {
   picture: "/img/jpg/product/heRafraichissant.jpg",
   colors: {
     textColor: "#30d1d9",
-    titleColorInSummary: "",
-    linkTextColor: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
-    
+    titleColorInSummary: "#30d1d9",
+    linkTextColor: "#30d1d9",
+    bgColorInSummary0: "#6edfe4",
+    bgColorInSummary1: "#e6f9fa",
+    linearGradient0: "linear-gradient(105deg, #6edfe4, #f1feff)",
+    linearGradient1: "linear-gradient(to right, #98e8ec, #e6f9fa)",
+    shadowColor: "#e6f9fa"
   },
   inSummary: [
     {

@@ -1,4 +1,5 @@
 import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+
 export const collagenoni = {
   nameProduct: "Collagènoni",
   id: "collagenoni",
@@ -64,21 +65,21 @@ export const collagenoni = {
       {
         id: "CnApportQ100",
         link: "apportQ10",
-  pictureLove: "/img/jpg/product/apportQ10.jpg",
+        pictureLove: "/img/jpg/product/apportQ10.jpg",
         textLove:
           "La détox’ étant la base de toute cure minceur, nos gouttes super puissantes devraient également vous intéresser pour perdre du poids sans effet yoyo."
       },
       {
         id: "CnGelNettoyant1",
         link: "gelNettoyant",
-  pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+        pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Si votre système digestif et intestinal sont déséquilibrés, les pré-probiotiques devraient réguler tout ceci."
       },
       {
         id: "CnSerumFlash2",
         link: "serumFlash",
-  pictureLove: "/img/jpg/product/serumFlash.jpg",
+        pictureLove: "/img/jpg/product/serumFlash.jpg",
         textLove:
           "Une autre approche consiste à rétablir l'équilibre de votre système digestif et intestinal en fournissant des légumes et des vitamines essentiels par le biais d'une détoxification végétale."
       }
@@ -89,14 +90,13 @@ export const collagenoni = {
   picture: "/img/jpg/product/collagenoni.jpg",
   colors: {
     textColor: "#9f348b",
-    titleColorInSummary: "#45173c",
-    linkTextColor: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
-    bgColorInSummary: "#dfa6d4"
+    titleColorInSummary: "#9f348b",
+    linkTextColor: "#9f348b",
+    bgColorInSummary0: "#bc71ae",
+    bgColorInSummary1: "#f3e7f1",
+    linearGradient0: "linear-gradient(105deg, #bc71ae, #ffa9e8)",
+    linearGradient1: "linear-gradient(to right, #cf9ac5, #f3e7f1)",
+    shadowColor: "#f3e7f1"
   },
   inSummary: [
     {

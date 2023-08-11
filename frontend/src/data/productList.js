@@ -28,6 +28,7 @@ import { heDesinfectante } from "./product/heDesinfectante";
 import { heRafraichissant } from "./product/heRafraichissant";
 import { heRelaxante } from "./product/heRelaxante";
 import { heSoulageante } from "./product/heSoulageante";
+import { huileDemaquillante } from "./product/huileDemaquillante";
 import { masqueNuit } from "./product/masqueNuit";
 import { mereDeTous } from "./product/mereDeTous";
 import { osMuscle } from "./product/osMuscle";
@@ -73,6 +74,7 @@ export const productList = [
   heRafraichissant,
   heRelaxante,
   heSoulageante,
+  huileDemaquillante,
   masqueNuit,
   mereDeTous,
   osMuscle,

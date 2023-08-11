@@ -128,14 +128,14 @@ export const santeMax = {
   ],
   picture: "/img/jpg/product/santeMax.jpg",
   colors: {
-    textColor: "#7e1450",
-    titleColorInSummary: "#7e1450",
-    linkTextColor: "#7e1450",
-    bgColorInSummary0: "#a55b85",
-    bgColorInSummary1: "#f0e3ea",
-    linearGradient0: "linear-gradient(105deg ,#a55b85, #ff82b3)",
-    linearGradient1: "linear-gradient(to right, #bf8aa8, 	#f0e3ea)",
-    shadowColor: "#f0e3ea"
+    textColor: "#990000",
+    titleColorInSummary: "#990000",
+    linkTextColor: "#990000",
+    bgColorInSummary0: "#b84d4d",
+    bgColorInSummary1: "#f3e0e0",
+    linearGradient0: "linear-gradient(105deg ,#b84d4d, #ff9a9a)",
+    linearGradient1: "linear-gradient(to right, #cc8080, 	#f3e0e0)",
+    shadowColor: "#f3e0e0"
   },
   inSummary: [
     {

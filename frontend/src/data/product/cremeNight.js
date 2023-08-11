@@ -47,8 +47,8 @@ export const cremeNight = {
     youLikeIt: [
       {
         id: "cremeNight0",
-        link: "huildeDemaquillante",
-        pictureLove: "/img/jpg/product/huildeDemaquillante.jpg",
+        link: "huileDemaquillante",
+        pictureLove: "/img/jpg/product/huileDemaquillante.jpg",
         textLove:
           "Explorez notre huile polyvalente qui prend soin de votre peau en profondeur. Elle agit comme un nettoyant, un démaquillant et un décontaminant tout-en-un, éliminant efficacement saletés, impuretés et polluants pour laisser votre peau fraîche et revitalisée. En plus d'être un démaquillant efficace, elle se distingue par l'absence d'huiles minérales qui pourraient obstruer vos pores. Cette formule a été testée dermatologiquement pour vous offrir une expérience de soin optimale et sécuritaire."
       },

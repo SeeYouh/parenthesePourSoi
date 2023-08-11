@@ -67,7 +67,7 @@ export const apportVitamines = {
         id: "apportVitamines3",
 
         link: "regenerateurCellulaire",
-  pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre régénérateur cellulaire est une solution exceptionnelle offrant de multiples bienfaits pour la peau et apaisant les allergies et l'asthme. Obtenez une peau éclatante et revitalisée tout en respirant plus facilement grâce à notre produit bienfaisant. Offrez-vous le confort et la beauté que vous méritez avec notre régénérateur cellulaire."
       },
@@ -81,7 +81,7 @@ export const apportVitamines = {
       {
         id: "apportVitamines5",
         link: "purifAir",
-        pictureLove: "/img/jpg/product/purifAir.jpg",
+        pictureLove: "/img/jpg/product/purificatAir.jpg",
         textLove:
           "Le Purificateur d’Air Multi-Effets est la solution ultime pour purifier vos espaces, en éliminant jusqu'à 99,99 % des microbes et des particules ultra fines en suspension dans l'air. Doté d'une technologie avancée à 360 degrés, il combat efficacement les polluants atmosphériques, les allergènes, les COV et autres contaminants. Grâce à sa technologie intelligente, il ajuste automatiquement le niveau de filtration en temps réel pour assurer un environnement de respiration optimal. Avec son filtre à plusieurs étapes, il offre un flux d'air frais et purifié à 360 degrés. Protégez votre santé et respirez sereinement en investissant dans ce purificateur d’air haut de gamme."
       }

@@ -10,44 +10,43 @@ export const cocoOil = {
     paragraph: [
       {
         id: "0cocoOil",
-        subTitle: "Antioxydant puissant",
+        subTitle: "Choisissez un antioxydant naturel",
         text: "Notre huile de coco est riche en propriétés antioxydantes, ce qui en fait une alliée précieuse pour votre santé. Vous pouvez même l'ingérer pour bénéficier de ses bienfaits internes."
       },
       {
         id: "1cocoOil",
-        subTitle: "Cicatrisation naturelle",
-        text: "De plus, elle possède des vertus cicatrisantes, idéales pour favoriser la guérison des blessures cutanées. Les coups de soleil, les brûlures, les rougeurs ou les irritations liées au rasage sont apaisés efficacement. Vous serez également surpris de constater que notre élixir peut enlever les croûtes de lait chez les tout-petits, offrant ainsi un soulagement aux parents soucieux du bien-être de leur enfant. Les démangeaisons dues au psoriasis ou à l'eczéma sont également atténuées, offrant un soulagement bienvenu à ceux qui souffrent de ces affections cutanées.",
+        subTitle: "Bénéficiez des bienfaits de l’huile",
+        text: [
+          "Découvrez l'huile de coco aux propriétés exceptionnelles qui transformera votre routine beauté et soins personnels. Grâce à sa richesse en nutriments, cette huile nourrit votre peau en profondeur, lui offrant une hydratation incomparable. Appliquée régulièrement, elle laissera votre peau douce, souple et éclatante, lui redonnant toute sa vitalité et sa jeunesse.",
+          "Outre ses qualités nourrissantes, notre huile de coco possède des vertus cicatrisantes qui en font un allié précieux pour la santé de votre peau. Si vous avez des blessures cutanées telles que des coups de soleil, des brûlures, des rougeurs ou des irritations liées au rasage, l'huile de coco apaise efficacement et favorise la guérison rapide. En outre, si vous êtes confronté(e) à des problèmes de peau tels que le psoriasis ou l'eczéma, l'huile de coco peut offrir un soulagement bienvenu. En atténuant les démangeaisons et en apaisant les inflammations, elle vous aide à mieux vivre avec ces affections cutanées parfois contraignantes.",
+          "Mais les bienfaits de notre huile de coco ne s'arrêtent pas là. Elle se révèle être un masque capillaire revitalisant d'exception. En l'appliquant sur vos cheveux, vous offrez à votre crinière une nutrition intense. Les cheveux secs et abîmés retrouvent leur éclat naturel, deviennent plus faciles à coiffer et retrouvent une texture soyeuse. Et pour les tout-petits qui souffrent de croûtes de lait, l'huile de coco se révèle être une solution douce et apaisante."
+        ],
         picture450: "/img/jpg/product/CocoIllusText450.jpg",
         picture675: "/img/jpg/product/CocoIllusText675.jpg",
         picture900: "/img/jpg/product/CocoIllusText900.jpg"
       },
       {
         id: "2cocoOil",
-        subTitle: "Hydratation intense",
-        text: "Grâce à sa propriété hydratante exceptionnelle, ce produit nourrit votre peau en profondeur, la laissant douce, souple et éclatante. De plus, il peut être utilisé comme un masque capillaire revitalisant, offrant une nutrition intense à vos cheveux et les laissant brillants et soyeux."
-      },
-      {
-        id: "3cocoOil",
-        subTitle: "Démaquillant doux",
+        subTitle: "Démaquillez-vous en douceur",
         text: "Pour celles et ceux qui cherchent une solution démaquillante douce mais efficace, notre élixir est là pour répondre à vos besoins. Il élimine en douceur le maquillage sans agresser votre peau délicate."
       },
       {
-        id: "4cocoOil",
-        subTitle: "Cuisine saine",
+        id: "3cocoOil",
+        subTitle: "Cuisinez sainement",
         text: "Et ce n'est pas tout ! Notre élixir peut même être utilisé en cuisine, sans être cuit. Il ajoute une touche subtile à vos plats et vous permet de bénéficier de ses bienfaits internes. Son état liquide et son odeur légère et subtile en font un plaisir à utiliser au quotidien."
       },
       {
-        id: "5cocoOil",
-        subTitle: "Invitation à la Découverte",
+        id: "4cocoOil",
+        subTitle: "Découvrez",
         text: "N'hésitez plus, laissez-vous séduire par notre huile de coco aux multiples vertus."
       },
       {
-        id: "6cocoOil",
+        id: "5cocoOil",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
-        id: "7cocoOil",
+        id: "6cocoOil",
         subTitle: "",
         text: ""
       }

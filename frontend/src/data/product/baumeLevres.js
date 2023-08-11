@@ -43,18 +43,25 @@ export const baumeLevres = {
     ],
     youLikeIt: [
       {
-        id: "BLPB0",
-        link: "pb",
-        pictureLove: "/img/jpg/product/PB.jpg",
+        id: "baumeLevres0",
+        link: "glossRepulpant",
+        pictureLove: "/img/jpg/product/glossRepulpant.jpg",
         textLove:
-          "Pour renforcer davantage votre bien-être centré sur le soin du visage, je vous suggère d'explorer notre gamme beauté exhaustive, notamment notre décontaminant. Cet élément de notre collection peut compléter parfaitement l'expérience d'hydratation que procure notre baume à lèvres."
+          "Sublimez vos lèvres avec notre gloss concentré de soin. Grâce à ses actifs nourrissants, il repulpe instantanément vos lèvres, les rendant pulpeuses et volumineuses. Il lisse les ridules, vous offrant des lèvres plus jeunes et douces. Avec sa sensation rafraîchissante et son label d'approbation « Good Face Project », notre produit assure une qualité irréprochable pour sublimer votre sourire éblouissant."
       },
       {
-        id: "BLmereDeTous1",
-        link: "mereDeTous",
-        pictureLove: "/img/jpg/product/mereDeTous.jpg",
+        id: "baumeLevres1",
+        link: "dentifrice",
+        pictureLove: "/img/jpg/product/dentifrice.jpg",
         textLove:
-          "Pour assurer une protection quotidienne optimale et nourrir votre peau avec délicatesse, notre Crème Day est un choix idéal. Sa formule enrichissante offre une hydratation constante, préservant votre peau des effets desséchants de l'environnement tout en agissant comme une barrière contre les agressions extérieures. Chaque application vous offre une peau éclatante de santé, revitalisée et intensément hydratée tout au long de la journée."
+          "Pour un sourire éclatant, optez pour notre dentifrice formulé avec des ingrédients naturels de première qualité, exempts de produits chimiques agressifs. Il offre un blanchiment naturel en éliminant délicatement les tâches pour des dents éclatantes. Enrichi d'extraits apaisants et antibactériens de plantes, il préserve la santé et la vitalité de vos gencives. Grâce à l'huile essentielle de menthe poivrée, profitez d'une  gréable sensation de fraîcheur et d'une haleine rafraîchie, tout en éliminant la mauvaise haleine."
+      },
+      {
+        id: "baumeLevres2",
+        link: "dentitionBlanche",
+        pictureLove: "/img/jpg/product/dentitionBlanche.jpg",
+        textLove:
+          "Pour une dentition blanche et brillante, découvrez notre poudre blanchissante révolutionnaire pour un sourire éclatant ! Notre blanchisseur élimine en douceur les impuretés et les taches, vous offrant des dents éblouissantes. Il préserve la santé de vos gencives et assure une haleine fraîche durable. Sans ingrédients controversés, notre formule respecte votre santé pour une confiance totale tout au long de la journée. Profitez d'un sourire éclatant et de soins bucco-dentaires complets grâce à notre produit innovant."
       }
     ]
   },

@@ -9,47 +9,34 @@ export const pn = {
     paragraph: [
       {
         id: "0PN",
-        subTitle:
-          "Un booster de performances sportives : Votre complice dans la vie active",
+        subTitle: "Augmentez vos performances sportives",
         text: "Que vous soyez un athlète chevronné, un adepte du fitness ou une personne dynamique, cette formule est l'ajout idéal à votre routine quotidienne. Elle a été spécifiquement conçue pour augmenter votre endurance, tout en accélérant le rétablissement de vos muscles après un effort physique. L'effet ? Vous pouvez vous adonner à des entraînements plus intensifs et plus fréquents, franchissant ainsi de nouvelles barrières de performances. Expérimentez la satisfaction de dépasser vos limites et d'atteindre de nouveaux sommets, avec le soutien de cette formule révolutionnaire."
       },
       {
         id: "1PN",
-        subTitle:
-          "Un allié dans la gestion du poids : Transformez votre silhouette naturellement",
-        text: "Si la maîtrise de votre poids fait partie de vos préoccupations, cette composition est là pour vous aider. Dotée d'une capacité unique à agir comme un puissant coupe-faim, elle aide à contrôler vos envies tout en réduisant l'apport calorique. En prime, elle stimule la combustion des graisses, vous permettant de remodeler votre silhouette de manière naturelle et efficace. Son autre atout ? Elle contient un sucre naturel à faible indice glycémique, fournissant une énergie constante sans les indésirables pics de glycémie. Imaginez atteindre et maintenir votre poids idéal avec moins d'efforts et une plus grande satisfaction."
+        subTitle: "Transformez votre silhouette naturellement",
+        text: [
+          "Si la maîtrise de votre poids fait partie de vos préoccupations, cette composition est là pour vous aider. Dotée d'une capacité unique à agir comme un puissant coupe-faim, elle aide à contrôler vos envies tout en réduisant l'apport calorique. En prime, elle stimule la combustion des graisses, vous permettant de remodeler votre silhouette de manière naturelle et efficace. Son autre atout ? Elle contient un sucre naturel à faible indice glycémique, fournissant une énergie constante sans les indésirables pics de glycémie. Imaginez atteindre et maintenir votre poids idéal avec moins d'efforts et une plus grande satisfaction.",
+          "Dites adieu aux fringales salées qui sont omniprésentes ! Notre produit innovant est spécialement formulé pour réduire ces envies irrésistibles. En le choisissant, vous vous donnez toutes les chances de réussir votre gestion du poids de manière saine et durable.",
+          "Cette formule ne se limite pas à améliorer votre bien-être physique. Elle a été conçue pour stimuler également votre bien-être émotionnel, vous offrant une énergie revitalisante qui rayonne de l'intérieur. Imaginez démarrer chaque journée avec un regain d'énergie, un esprit plus alerte et un sentiment de sérénité intérieure.",
+          "Explorez tous les avantages extraordinaires de cette composition innovante et réveillez votre plein potentiel. Offrez à votre corps et à votre esprit le soutien dont ils ont besoin pour prospérer. Faites le choix de l'optimisation, optez pour cette formule spéciale."
+        ],
+        picture450: "/img/jpg/product/pnIllusText450.jpg",
+        picture675: "/img/jpg/product/pnIllusText675.jpg",
+        picture900: "/img/jpg/product/pnIllusText900.jpg"
       },
       {
         id: "2PN",
-        subTitle: "Régénération des tissus : Un corps sain et résilient",
+        subTitle: "Régénérez vos tissus",
         text: "L'élaboration de cette composition a été faite avec soin, dans le but précis de favoriser la régénération et la réparation des tissus. Que vous soyez en phase de convalescence ou simplement désireux de renforcer votre corps, elle peut vous accompagner dans cet objectif. De plus, elle soutient une digestion optimale en atténuant les irritations intestinales et en favorisant une digestion saine. Et ce n'est pas tout : elle contribue également à la santé cardiovasculaire, se traduisant par un bien-être général renforcé."
       },
       {
         id: "3PN",
-        subTitle: "",
-        text: "Explorez tous les bienfaits de ce produits et ne laissez pas les obstacles entraver vos objectifs de bien-être."
-      },
-      {
-        id: "4PN",
-        subTitle: "Énergie et bien-être émotionnel : Un soutien global",
-        text: "Dites adieu aux fringales salées qui sont omniprésentes ! Notre produit innovant est spécialement formulé pour réduire ces envies irrésistibles. En le choisissant, vous vous donnez toutes les chances de réussir votre gestion du poids de manière saine et durable."
-      },
-      {
-        id: "5PN",
-        subTitle: "",
-        text: "Cette formule ne se limite pas à améliorer votre bien-être physique. Elle a été conçue pour stimuler également votre bien-être émotionnel, vous offrant une énergie revitalisante qui rayonne de l'intérieur. Imaginez démarrer chaque journée avec un regain d'énergie, un esprit plus alerte et un sentiment de sérénité intérieure."
-      },
-      {
-        id: "6PN",
-        text: "Explorez tous les avantages extraordinaires de cette composition innovante et réveillez votre plein potentiel. Offrez à votre corps et à votre esprit le soutien dont ils ont besoin pour prospérer. Faites le choix de l'optimisation, optez pour cette formule spéciale."
-      },
-      {
-        id: "7PN",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
-        id: "8PN",
+        id: "4PN",
         subTitle: "",
         text: ""
       }
@@ -60,14 +47,35 @@ export const pn = {
         link: "pb",
         pictureLove: "/img/jpg/product/PB.jpg",
         textLove:
-          "Pour les journées chargées où chaque minute compte, la combinaison du PB et du PN est votre allié ultime. Le PB vous offre un regain d'énergie instantané, tandis que le PN assure une libération énergétique stable et durable. Ensemble, ils garantissent une vigilance et une productivité maximales, même lorsqu'un repas complet n'est pas à l'ordre du jour. Intrigué ? Découvrez-en plus sur le PN et son alliance parfaite avec le PB."
+          "Dans les journées chargées, le PB et le PN forment votre allié ultime. Le PB vous donne un boost d'énergie instantané, tandis que le PN offre une libération stable et durable. Ensemble, ils assurent vigilance et productivité, même sans repas complet. Découvrez-en plus sur cette alliance parfaite pour une journée pleine d'énergie et de vitalité."
       },
       {
         id: "PN1",
-        link: "gg",
-        pictureLove: "/img/jpg/product/GG.jpg",
+        link: "regenerateurCellulaire",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
-          "Pour ceux dont l'alimentation est pauvre en légumes, la solution est à portée de main. La détox végétale est l'alliée idéale du PB, vous apportant les nutriments précieux que seuls les légumes peuvent offrir. C'est une combinaison harmonieuse qui veille à ce que votre corps reçoive toute la nutrition dont il a besoin. Envie d'en savoir plus ? Découvrez les merveilles de la détox végétale et comment elle complète parfaitement le PB."
+          "Notre produit stimule la régénération cellulaire, améliorant l'élasticité et la fermeté de la peau pour un teint éclatant et rajeuni. En plus de ces bienfaits pour la peau, il renforce votre santé globale en améliorant le système cardiovasculaire et immunitaire, favorisant la formation du collagène et la réparation osseuse. De plus, en boostant votre énergie naturelle, il soulage les problèmes de rétention d'eau, les jambes lourdes et les allergies, offrant un bien-être quotidien revitalisé."
+      },
+      {
+        id: "PN1",
+        link: "detox",
+        pictureLove: "/img/jpg/product/detox.jpg",
+        textLove:
+          "Notre produit indispensable pour une cure minceur réussie. Il agit comme un puissant détoxifiant, éliminant les toxines pour favoriser la gestion du poids et améliorer la santé globale. En rééquilibrant le système digestif, il réduit les ballonnements et la cellulite, vous offrant ainsi une silhouette harmonieuse."
+      },
+      {
+        id: "PN1",
+        link: "goutteMinceur",
+        pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+        textLove:
+          "Nos gouttes super puissantes sont spécialement conçues pour vous aider à perdre du poids de manière efficace et durable. Grâce à notre formule unique, vous pourrez atteindre vos objectifs sans vous soucier des effets yoyo souvent associés aux régimes restrictifs."
+      },
+      {
+        id: "PN1",
+        link: "santeMax",
+        pictureLove: "/img/jpg/product/santeMax.jpg",
+        textLove:
+          "Notre produit est conçu pour améliorer votre bien-être et renforcer votre santé globale. Il vous offre une énergie durable tout au long de la journée, vous permettant de rester dynamique et productif. En harmonie avec votre corps, il apaise les tensions, réduit le stress et favorise un état d'esprit positif. Transformez votre vie avec ce nectar fruité pour embrasser une santé éclatante et une vitalité incomparable."
       }
     ]
   },

@@ -9,34 +9,35 @@ export const bb = {
     paragraph: [
       {
         id: "0BB",
-        subTitle: "Régénération cellulaire",
-        text: "Notre produit a une capacité exceptionnelle à régénérer les cellules. Sa formule accélère la pousse des ongles et des cheveux, vous permettant ainsi de profiter d'une chevelure plus abondante et d'ongles forts et sains. En augmentant la production de kératine, notre produit revitalise en profondeur vos cheveux, les rendant plus résistants à la casse et leur redonnant brillance et vitalité. De plus, il réduit considérablement la chute des cheveux, vous offrant ainsi une chevelure dense et volumineuse qui fera des envieux."
+        subTitle: "Gagnez en énergie",
+        text: "Notre BB est conçu pour dynamiser votre corps en stimulant votre énergie naturelle de manière soutenue tout au long de la journée. Grâce à sa formule puissante, il agit comme un véritable stimulant, vous permettant de rester énergique et alerte, même lors des moments les plus exigeants. En améliorant les fonctions mentales, il vous aide à rester concentré(e) et focalisé(e), vous préparant ainsi à relever tous les défis qui se présentent à vous. Avec notre BB, vous ressentirez une vitalité renouvelée, prêt(e) à faire face à toutes les opportunités et aventures qui se présentent à vous."
       },
       {
         id: "1BB",
-        subTitle: "Boost d'énergie",
-        text: "Notre BB booste votre énergie naturelle. Il agit comme un véritable stimulant, vous offrant une énergie durable tout au long de la journée. De plus, il augmente les fonctions mentales, vous aidant à rester concentré(e) et alerte, même dans les moments les plus intenses. Vous vous sentirez prêt(e) à relever tous les défis qui se présentent à vous.",
+        subTitle: "Régénérez vos cellules et soignez votre peau",
+        text: [
+          "Notre produit a une capacité exceptionnelle à régénérer les cellules. Sa formule accélère la pousse des ongles et des cheveux, vous permettant ainsi de profiter d'une chevelure plus abondante et d'ongles forts et sains. En augmentant la production de kératine, notre produit revitalise en profondeur vos cheveux, les rendant plus résistants à la casse et leur redonnant brillance et vitalité. De plus, il réduit considérablement la chute des cheveux, vous offrant ainsi une chevelure dense et volumineuse qui fera des envieux.",
+          "Grâce à son pouvoir régénérateur cellulaire exceptionnel, notre produit réduit efficacement les problèmes cutanés : rougeurs, démangeaisons et psoriasis qui perturbent votre vie quotidienne. Il vous permet de retrouver une peau saine et apaisée. De plus, il diminue l'acné et régule l'excès de sébum, offrant une solution naturelle pour les peaux grasses. Notre formule restreint également les pellicules, vous offrant un cuir chevelu sain et sans démangeaisons."
+        ],
         picture675: "/img/jpg/product/BBIllusText675.jpg",
         picture450: "/img/jpg/product/BBIllusText450.jpg",
         picture900: "/img/jpg/product/BBIllusText900.jpg"
       },
       {
         id: "2BB",
-        subTitle: "Soin cutané",
-        text: "Grâce à son pouvoir régénérateur cellulaire exceptionnel, notre produit réduit efficacement les problèmes cutanés : rougeurs, démangeaisons et psoriasis qui perturbent votre vie quotidienne. Il vous permet de retrouver une peau saine et apaisée. De plus, il diminue l'acné et régule l'excès de sébum, offrant une solution naturelle pour les peaux grasses. Notre formule restreint également les pellicules, vous offrant un cuir chevelu sain et sans démangeaisons."
+        subTitle: "Essayez-le, adoptez-le",
+        text: [
+          "Notre produit contribue à améliorer le bon fonctionnement du système nerveux, favorisant ainsi votre bien-être global.",
+          "Que vous ayez pour objectif d'améliorer votre santé globale ou de revitaliser votre routine beauté, ce puissant complément sera votre allié pour ressentir un véritable renouveau et une sensation de vitalité. Grâce à ses ingrédients soigneusement sélectionnés, il agit en synergie pour soutenir votre bien-être général et améliorer votre beauté naturelle de l'intérieur. Vous ressentirez une énergie renouvelée, une peau éclatante et une sensation de dynamisme tout au long de la journée. Que ce soit pour affronter les défis quotidiens ou pour vous sentir confiant(e) dans votre apparence, ce complément vous offre une expérience de revitalisation complète pour vous aider à vous sentir au mieux de votre forme."
+        ]
       },
       {
         id: "3BB",
-        subTitle: "Bien-être global",
-        text: "Que vous souhaitiez améliorer votre santé globale ou simplement dynamiser votre routine beauté, ce puissant complément vous procurera une sensation de renouveau et de vitalité."
-      },
-      {
-        id: "4BB",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
-        id: "5BB",
+        id: "4BB",
         subTitle: "",
         text: ""
       }
@@ -44,37 +45,38 @@ export const bb = {
     youLikeIt: [
       {
         id: "BB0",
-        link: "pb",
-        pictureLove: "/img/jpg/product/PB.jpg",
-        textLove: "Le BB peut s’associer avec notre produit d’énergie cacaotée."
+        link: "collagenoni",
+        pictureLove: "/img/jpg/product/collagenoni.jpg",
+        textLove:
+          "Pour un renfort optimal des cheveux et des ongles, notre collagène marin saura vous séduire. Il favorise le renouvellement cellulaire et stimule l'élasticité de la peau. Il réduit les rides, ridules et cernes, offrant un teint frais et éclatant. De plus, il apporte un soulagement naturel aux douleurs corporelles grâce à la synergie du collagène marin et du Noni. Optez pour ce produit pour une apparence rajeunie et un bien-être total."
       },
       {
         id: "BB1",
         link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
         textLove:
-          "Notre PN pour le saut de repas pour faire de délicieux smoothies."
+          "Notre produit facilite un équilibre nutritionnel optimal. Les protéines végétales de haute qualité favorisent une meilleure digestion et absorption des nutriments. En plus de la perte de poids, il soutient une pression artérielle saine, améliore la santé des reins et du foie, et favorise une bonne digestion. Vous ressentirez un boost d'énergie qui vous accompagnera toute la journée, vous permettant de vous sentir épanoui(e)."
       },
       {
         id: "BB2",
-        link: "shampooing",
-        pictureLove: "/img/jpg/product/shampooing.jpg",
+        link: "pb",
+        pictureLove: "/img/jpg/product/pb.jpg",
         textLove:
-          "Pour des cheveux brillants, le BB se combine parfaitement bien avec notre shampooing d’exception."
+          "Pour les journées chargées où le temps est précieux, l'alliance du BB et du PB est votre meilleur allié. Cette combinaison vous procure une énergie instantanée et le BB assure une libération d'énergie stable et durable. Ensemble, ils vous garantissent une vigilance et une productivité maximales, même lorsque vous n'avez pas le temps pour un repas complet. Intrigué(e) ?"
       },
       {
         id: "BB3",
-        link: "aprèsShampooing",
-        pictureLove: "/img/jpg/product/aprèsShampooing.jpg",
+        link: "shampooing",
+        pictureLove: "/img/jpg/product/shampooing.jpg",
         textLove:
-          "Pour des cheveux éclatants, notre BB s'associe merveilleusement bien avec notre après-shampooing nourissant."
+          "Pour des cheveux brillants, notre shampooing révolutionnaire nettoie en profondeur pour des cheveux propres et doux. Il revitalise et hydrate intensément chaque mèche. De plus, il apaise les problèmes du cuir chevelu, réduisant les pellicules et les démangeaisons."
       },
       {
         id: "BB4",
-        link: "collagenoni",
-        pictureLove: "/img/jpg/product/collagenoni.jpg",
+        link: "santeMax",
+        pictureLove: "/img/jpg/product/santeMax.jpg",
         textLove:
-          "Pour un renfort optimal des cheveux et des ongles, le collagène marin est ultra efficace. Il permet de réparer en profondeur."
+          "Le Noni est un précieux allié pour votre bien-être, agissant sur le système digestif et stimulant le métabolisme. Il protège contre le stress oxydatif, renforce le système immunitaire et prévient les maux saisonniers. Ce fruit est une véritable fontaine de jouvence, nourrissant votre organisme en profondeur pour une vitalité éclatante. Faites confiance au Noni pour améliorer votre santé globale et votre bien-être au quotidien."
       }
     ]
   },

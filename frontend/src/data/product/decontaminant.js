@@ -70,15 +70,14 @@ export const decontaminant = {
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/decontaminant.jpg",
   colors: {
-    textColor: "#30d1d9",
-    titleColorInSummary: "#003459",
-    linkTextColor: "",
-    bgColorInSummary0: "",
-    bgColorInSummary1: "",
-    linearGradient0: "linear-gradient(105deg, #7e1450, #7e1450)",
-    linearGradient1: "linear-gradient(to right, #7e1450, #7e1450)",
-    shadowColor: "",
-    bgColorInSummary: "#68a6d0"
+    textColor: "#42848e",
+    titleColorInSummary: "#42848e",
+    linkTextColor: "#42848e",
+    bgColorInSummary0: "#87b6bd",
+    bgColorInSummary1: "#eaf3f4",
+    linearGradient0: "linear-gradient(105deg, #87b6bd, #b8f4ff)",
+    linearGradient1: "linear-gradient(to right, #a9cbd0, #eaf3f4)",
+    shadowColor: "#eaf3f4"
   },
   inSummary: [
     {

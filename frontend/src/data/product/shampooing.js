@@ -74,8 +74,8 @@ export const shampooing = {
       },
       {
         id: "shampooing3",
-        link: "collagene",
-        pictureLove: "/img/jpg/product/collagene.jpg",
+        link: "collagenoni",
+        pictureLove: "/img/jpg/product/collagenoni.jpg",
         textLove:
           "Notre collagène a des effets très positifs sur la peau, les cheveux, les ongles et les articulations. En stimulant le renouvellement cellulaire, il offre un teint frais, lumineux et éclatant tout en réduisant les rides et ridules. Grâce à la synergie du collagène marin avec le Noni, il soulage les douleurs corporelles et renforce les ongles et les cheveux."
       },

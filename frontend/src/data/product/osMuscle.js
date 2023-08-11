@@ -97,8 +97,8 @@ export const osMuscle = {
       },
       {
         id: "osMuscle5",
-        link: "purifAir",
-        pictureLove: "/img/jpg/product/purifAir.jpg",
+        link: "purificatAir",
+        pictureLove: "/img/jpg/product/purificatAir.jpg",
         textLove:
           "Le Purificateur d’Air Multi-Effets est la solution ultime pour purifier vos espaces, en éliminant jusqu'à 99,99 % des microbes et des particules ultrafines en suspension dans l'air. Doté d'une technologie avancée à 360 degrés, il combat efficacement les polluants atmosphériques, les allergènes, les COV et autres contaminants. Grâce à sa technologie intelligente, il ajuste automatiquement le niveau de filtration en temps réel pour assurer un environnement de respiration optimal."
       }

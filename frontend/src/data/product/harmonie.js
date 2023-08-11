@@ -55,35 +55,35 @@ export const harmonie = {
       {
         id: "harmonie0",
         link: "boosterEnergie",
-  pictureLove: "/img/jpg/product/boosterEnergie.jpg",
+        pictureLove: "/img/jpg/product/boosterEnergie.jpg",
         textLove:
           "Pour une santé mentale optimale et la prévention du burn-out, il est conseillé d’associer ce produit avec notre booster d'énergie pour une synergie parfaite. Grâce à cette combinaison, vous bénéficierez d'un soutien mental et émotionnel tout en profitant d'un regain d'énergie pour traverser la journée avec un sourire éclatant. Notre booster d’énergie et d’humeur vous dynamisera pour relever tous les défis avec vitalité."
       },
       {
         id: "harmonie1",
         link: "gelNettoyant",
-  pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+        pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
           "Notre gel nettoyant offre un nettoyage doux et efficace, élimine les impuretés sans déshydrater la peau et prépare sa régénération pendant le sommeil. Il hydrate en laissant une peau douce et veloutée, lutte contre l'acné et les inflammations, tout en étant sûr pour tous les types de peau. Révélez une peau éclatante de beauté et en pleine santé avec notre formule dédiée à votre beauté."
       },
       {
         id: "harmonie2",
         link: "serumFlash",
-  pictureLove: "/img/jpg/product/serumFlash.jpg",
+        pictureLove: "/img/jpg/product/serumFlash.jpg",
         textLove:
           "Une véritable révolution pour vos yeux ! En seulement 90 secondes, ce sérum fait disparaître les rides, ridules et poches sous les yeux, vous offrant une véritable cure de jeunesse. Réveillez-vous avec des yeux non gonflés et une peau rajeunie en un temps record. Une expérience de rajeunissement en un temps record."
       },
       {
         id: "harmonie3",
-        link: "cremeNuit",
-  pictureLove: "/img/jpg/product/cremeNuit.jpg",
+        link: "cremeNight",
+        pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
           "Notre crème de nuit est spécialement formulée pour lutter contre les signes visibles de l'âge. Cette formule innovante restaure le processus cellulaire de votre visage pendant que vous dormez, offrant une régénération complète. Réveillez-vous chaque matin avec une peau rayonnante, lisse et revitalisée, prête à affronter la journée en toute confiance. Profitez des multiples bienfaits de notre crème de nuit pour une peau d'apparence plus jeune et éclatante."
       },
       {
         id: "harmonie4",
         link: "regenerateurCellulaire",
-  pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
           "Notre produit best-seller, le régénérateur cellulaire, opère des miracles sur votre peau. Sa formule puissante aide à gommer les imperfections et offre une transformation positive à votre peau. Vous retrouverez une apparence éblouissante grâce à ses bienfaits inégalés. Ne laissez pas les imperfections vous freiner, offrez à votre peau le soin qu'elle mérite avec notre régénérateur cellulaire et redécouvrez une peau éclatante et resplendissante. Faites confiance à notre best-seller pour obtenir des résultats remarquables et une peau transformée qui fera des envieux."
       }

@@ -64,8 +64,8 @@ export const santePlus = {
 
       {
         id: "santePlus3",
-        link: "heDesinfectant",
-        pictureLove: "/img/jpg/product/heDesinfectant.jpg",
+        link: "heDesinfectante",
+        pictureLove: "/img/jpg/product/heDesinfectante.jpg",
         textLove:
           "L'huile essentielle désinfectante est un puissant remède naturel pour lutter contre les infections et maintenir un environnement sain. Elle aide à soigner les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies saisonnières. Son parfum agréable et ses propriétés apaisantes en font un allié pour améliorer l'humeur et favoriser la relaxation."
       },

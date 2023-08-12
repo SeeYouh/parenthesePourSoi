@@ -19,7 +19,10 @@ export const santePlus = {
           "Le Noni, cette pépite naturelle, se révèle être un véritable bienfaiteur pour votre système digestif. Grâce à sa fonction régulatrice, il agit comme un précieux allié pour lutter contre les troubles digestifs tels que la constipation et la diarrhée. Vous pouvez désormais dire adieu aux soucis intestinaux et savourer une digestion apaisée et harmonieuse.",
           "Cette pépite naturelle est également un soutien essentiel pour la solidité de vos os. En contribuant au maintien d'une ossature normale, le Noni vous offre une base solide pour votre santé osseuse. De plus, il stimule la formation des tissus conjonctifs, ce qui a un impact positif sur la santé de vos yeux. Vous pourrez ainsi profiter d'une vision éclatante et claire, vous permettant de voir le monde avec un nouveau regard.",
           "Mais les bienfaits du Noni ne s'arrêtent pas là. Il agit également comme un bouclier protecteur contre les maladies saisonnières en renforçant votre système immunitaire. Grâce à ses propriétés antioxydantes, il protège vos cellules du stress oxydatif, vous permettant ainsi de faire face aux agressions extérieures en toute sérénité. En adoptant le Noni dans votre routine, vous pouvez accueillir une santé renforcée, vous aidant à briller de l'intérieur."
-        ]
+        ],
+        picture675: "/img/jpg/product/santePlusIllusText675.jpg",
+        picture450: "/img/jpg/product/santePlusIllusText450.jpg",
+        picture900: "/img/jpg/product/santePlusIllusText900.jpg"
       },
       {
         id: "2santePlus",

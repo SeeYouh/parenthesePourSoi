@@ -8,6 +8,7 @@ import AdditionnalInformation from "../components/AdditionnalInformation";
 import AsaComplement from "../components/AsaComplement";
 import Description from "../components/Description";
 import FirstCategoryNavBar from "../components/data/FirstCategoryNavBar";
+import Footer from "../components/data/Footer";
 import InSummary from "../components/InSummary";
 import { productList } from "../data/productList";
 import { RadioContext } from "../components/utils/radioContext";
@@ -153,6 +154,7 @@ const ProductPage = () => {
           <AdditionnalInformation product={product} />
         )}
       </Element>
+      <Footer />
     </div>
   );
 };

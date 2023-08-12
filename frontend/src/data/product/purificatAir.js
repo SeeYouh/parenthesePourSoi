@@ -78,7 +78,10 @@ export const purificatAir = {
 
           "Protégez votre santé et celle de vos proches en investissant dans ce purificateur d’air.  Respirer un air pur et sain est essentiel pour votre bien-être et votre qualité de vie. Faites le choix d'un environnement respiratoire sain et profitez de l'efficacité et de l'élégance de notre purificateur.",
           "Contrairement à certains filtres qui ne ciblent que certaines impuretés, notre purificateur fait tout ! Il capture les squames d'animaux, les poils, la poussière, les produits chimiques, et les odeurs. Vous pouvez ainsi profiter d'un air purifié et sain dans tous vos espaces intérieurs. De plus, notre purificateur est totalement sécurisé pour une utilisation en présence des plus petits, y compris nos amis à quatre pattes ! Grâce à sa fonction de verrouillage pour enfants, vous pouvez garder vos réglages de filtration sécurisés, même en présence des tout-petits les plus curieux."
-        ]
+        ],
+        picture675: "/img/jpg/product/purificatAirIllusText675.jpg",
+        picture450: "/img/jpg/product/purificatAirIllusText450.jpg",
+        picture900: "/img/jpg/product/purificatAirIllusText900.jpg"
       },
 
       {

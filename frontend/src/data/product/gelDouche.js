@@ -9,52 +9,71 @@ export const gelDouche = {
     paragraph: [
       {
         id: "0gelDouche",
-        subTitle: "Un Nettoyage Profond et Respectueux",
+        subTitle: "Nettoyez votre peau délicatement",
         text: "Doté d'une formule délicate, ce produit offre un nettoyage en profondeur sans compromettre l'intégrité de votre peau. Il élimine efficacement les impuretés, la saleté et les résidus chimiques indésirables qui peuvent s'accumuler au fil de la journée. Après chaque utilisation, votre peau retrouve toute sa fraîcheur et sa pureté, libérée de toute substance nocive. C'est un véritable soin de propreté qui respecte l'équilibre naturel de votre épiderme."
       },
       {
         id: "1gelDouche",
-        subTitle: "Purification et Éclat pour une Beauté Naturelle",
-        text: "En plus de son action nettoyante, cette formule agit comme un véritable purificateur. Elle élimine les toxines superficielles qui peuvent ternir l'éclat de votre teint et obstruer vos pores. Avec chaque utilisation, votre peau respire mieux, vous ressentez une sensation de propreté et de légèreté. Votre peau est naturellement belle, éclatante et pleine de vitalité.",
+        subTitle: "Retrouvez un confort",
+        text: [
+          "Cette formule va bien au-delà de son action nettoyante, car elle agit également comme un puissant purificateur pour votre peau. En éliminant les toxines et les impuretés qui ternissent votre teint et obstruent vos pores, elle permet à votre peau de respirer et de retrouver son éclat naturel. Chaque utilisation de ce produit laisse votre peau propre, fraîche et légère, vous offrant une sensation de bien-être incomparable.",
+          "Ce soin est particulièrement adapté aux peaux sensibles et réactives grâce à sa composition douce et naturelle. Il apaise les rougeurs, les démangeaisons et les irritations, procurant un soulagement bienvenu et un confort optimal à votre peau. Vous pouvez ainsi profiter d'un nettoyage efficace tout en respectant la sensibilité de votre peau, ce qui en fait un choix idéal pour une routine de soin en douceur."
+        ],
         picture450: "/img/jpg/product/gelDoucheIllusText450.jpg",
         picture675: "/img/jpg/product/gelDoucheIllusText675.jpg",
         picture900: "/img/jpg/product/gelDoucheIllusText900.jpg"
       },
       {
         id: "2gelDouche",
-        subTitle: "Soulagement et Confort pour les Peaux Sensibles",
-        text: "Grâce à sa composition douce et naturelle, ce soin est idéal pour les peaux sensibles et réactives. Il réduit les rougeurs, les démangeaisons et les irritations, apportant un soulagement bienvenu et un confort optimal à votre peau. Il respecte la sensibilité de votre peau tout en offrant un nettoyage efficace."
-      },
-      {
-        id: "3gelDouche",
-        subTitle: "Apaisement des Affections Cutanées",
+        subTitle: "Apaisez vos affections cutanées",
         text: "Ce produit est également bénéfique pour ceux qui souffrent d'affections cutanées comme l'eczéma et le psoriasis. Grâce à ses propriétés apaisantes, il contribue à calmer ces conditions, offrant une solution de soin de la peau douce et efficace. Les personnes aux peaux sensibles et sujettes à ces affections cutanées seront ravies de constater les bienfaits de ce soin, qui apporte un apaisement notable à chaque utilisation."
       },
       {
-        id: "4gelDouche",
+        id: "3gelDouche",
         subTitle: "Vous aimerez aussi…",
         text: ""
       },
       {
-        id: "5gelDouche",
+        id: "4gelDouche",
         subTitle: "",
         text: ""
       }
     ],
     youLikeIt: [
       {
-        id: "GDcocoOil0",
+        id: "gelDouche0",
         link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
-          "Le gel douche combiné à notre huile hydratante permet à votre peau de retrouver confort et hydratation."
+          "Pour une hydratation exceptionnelle, notre huile coco est parfaite. Elle nourrit la peau en profondeur, la laissant douce, souple et éclatante. Elle possède des vertus cicatrisantes, apaisant efficacement les blessures cutanées telles que les coups de soleil, les brûlures et les irritations. Notre huile de coco riche en propriétés antioxydantes est bénéfique pour votre santé et peut être ingérée pour des bienfaits internes."
       },
       {
-        id: "GDregenerateurCellulaire1",
+        id: "gelDouche1",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
         textLove:
-          "Concernant les problèmes de peau, le gel douche s’associe très souvent à notre chouchou qui régénère les cellules. Ce combo est idéal pour les soucis cutanés."
+          "Notre best-seller améliore la qualité de la peau grâce à sa régénération cellulaire, réduisant la cellulite, les vergetures, l'acné, l'eczéma et le psoriasis. Il soutient également la santé globale en renforçant le système immunitaire et nerveux, favorisant le collagène pour des tissus sains et une meilleure résistance aux maladies. En stimulant l'énergie naturelle, il offre une vitalité renouvelée, soulage les problèmes de rétention d'eau et améliore la circulation sanguine, apaisant les allergies et l'asthme."
+      },
+      {
+        id: "gelDouche2",
+        link: "collagenoni",
+        pictureLove: "/img/jpg/product/collagenoni.jpg",
+        textLove:
+          "Notre collagène a des effets très positifs sur la peau, les cheveux, les ongles et les articulations. En stimulant le renouvellement cellulaire, il offre un teint frais, lumineux et éclatant tout en réduisant les rides et ridules. Grâce à la synergie du collagène marin avec le Noni, il soulage les douleurs corporelles et renforce les ongles et les cheveux."
+      },
+      {
+        id: "gelDouche3",
+        link: "shampooing",
+        pictureLove: "/img/jpg/product/shampooing.jpg",
+        textLove:
+          "Dans notre gamme beauté du corps, notre shampooing est révolutionnaire ! Il nettoie en profondeur, éliminant les impuretés et les résidus, pour des cheveux propres et sains. Sa formule spéciale revitalise et hydrate intensément chaque mèche, rendant vos cheveux doux, brillants et pleins de vitalité. Il apaise les problèmes cutanés du cuir chevelu tels que les irritations, les rougeurs et combat efficacement les pellicules et les démangeaisons."
+      },
+      {
+        id: "gelDouche4",
+        link: "dentifrice",
+        pictureLove: "/img/jpg/product/dentifrice.jpg",
+        textLove:
+          "Notre dentifrice est formulé avec des ingrédients naturels de haute qualité, sans produits chimiques agressifs. Il offre un blanchiment naturel en éliminant les tâches en douceur pour des dents éclatantes. Enrichi en extraits de plantes apaisantes et antibactériennes, il maintient des gencives saines et revitalisées. Avec l'huile essentielle de menthe poivrée, il procure une agréable sensation de fraîcheur et combat la mauvaise haleine."
       }
     ]
   },

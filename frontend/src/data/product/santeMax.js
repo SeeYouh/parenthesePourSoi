@@ -62,7 +62,10 @@ export const santeMax = {
               système cardiovasculaire.
             </p>
           </div>
-        ]
+        ],
+        picture675: "/img/jpg/product/santeMaxIllusText675.jpg",
+        picture450: "/img/jpg/product/santeMaxIllusText450.jpg",
+        picture900: "/img/jpg/product/santeMaxIllusText900.jpg"
       },
 
       {

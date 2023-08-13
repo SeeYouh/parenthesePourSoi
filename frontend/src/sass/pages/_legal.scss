@@ -1,0 +1,19 @@
+.legalTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 80px 0;
+  background-color: $bgColor4;
+}
+
+.subLegalTitle {
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 20px 0;
+}

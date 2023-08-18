@@ -7,11 +7,14 @@
         "./base/flex",
         "./base/fonts",
         "./base/grid",
+        "./base/margin",
+        "./base/padding",
         "./base/reset",
         "./base/width";
 
 // prettier-ignore
-@import "./components/nav",
+@import "./components/footer",
+        "./components/nav",
         "./components/productCard",
         "./components/productDetails",
         "./components/subCategory";

@@ -1,9 +1,13 @@
 // ------ WIDTH ------ //
 
+.allNavBar,
 .bgProductDetails img,
+.globalLegalContainer,
+.globalLegalContainer ul,
 footer,
 #leafBottomLeft,
 #leafTopRight,
+.legalContainer,
 .lineBottom,
 .navbar,
 .productCard,
@@ -73,6 +77,11 @@ footer,
   max-width: 80%;
 }
 
-.bgProductDetails img {
+.bgProductDetails img,
+.legalContainer {
   max-width: 800px;
+}
+
+.globalLegalContainer ul {
+  max-width: 600px;
 }

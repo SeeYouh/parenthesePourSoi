@@ -1,10 +1,17 @@
 .all-menu-navbar,
+.allNavBar,
 .arrayProductCard,
 .bgParagraph,
 .bgProductDetails,
 .blocTitleImg,
 .category,
+footer,
+.globalLegalContainer,
 .imgProduit,
+.legal,
+.legalContainer,
+.legalTitle,
+.logo,
 main,
 .menu-navbar,
 .menu-navbar .a,
@@ -13,17 +20,20 @@ main,
 .productDescriptPresentFirst,
 .productTab,
 .search-bar,
+.socialNetwork,
 .textProductCard,
 .titleTextProduct h1,
 .youWillLikeIt,
-.youWillLikeIt-content,
-.logo {
+.youWillLikeIt-content {
   display: flex;
 }
 
 //------ FLEX-DIRECTION --------//
 
+.allNavBar,
 .bgParagraph,
+.globalLegalContainer,
+.legalContainer,
 main,
 .navBar,
 .youWillLikeIt,
@@ -34,7 +44,10 @@ main,
 .arrayProductCard,
 .bgProductDetails,
 .blocTitleImg,
+footer,
+.legal,
 .productTab,
+.socialNetwork,
 .youWillLikeIt-content,
 .menu-navbar {
   flex-direction: row;
@@ -42,7 +55,10 @@ main,
 
 //------ JUSTIFY-CONTENT --------//
 
-.arrayProductCard {
+.arrayProductCard,
+footer,
+.legal,
+.socialNetwork {
   justify-content: space-around;
 }
 
@@ -51,12 +67,19 @@ main,
   justify-content: flex-end;
 }
 
+.allNavBar,
+.logo {
+  justify-content: flex-start;
+}
+
 .bgProductDetails,
 .menu-navbar {
   justify-content: space-between;
 }
 
-// .bgParagraph,
+.globalLegalContainer,
+.legalContainer,
+.legalTitle,
 .youWillLikeIt {
   justify-content: center;
 }
@@ -71,6 +94,10 @@ main,
 
 .bgProductDetails,
 .blocTitleImg,
+footer,
+.globalLegalContainer,
+.legalContainer,
+.legalTitle,
 main,
 .navbar,
 .productDescriptPresentFirst,
@@ -80,15 +107,19 @@ main,
   align-items: center;
 }
 
+.logo {
+  align-items: flex-start;
+}
+
+.allNavBar {
+  align-items: flex-end;
+}
+
 //------ FLEX --------//
 
 .arrayProductCard {
   flex-wrap: wrap;
 }
-
-// .youWillLikeIt {
-//   flex-flow: row wrap;
-// }
 
 .productDescriptPresentFirst {
   flex-grow: 1;

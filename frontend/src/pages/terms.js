@@ -17,7 +17,7 @@ const Terms = () => {
       <FirstCategoryNavBar />
       <main className="globalLegalContainer">
         <motion.div className="progressBar" style={{ scaleX }}></motion.div>
-        <h1 className="legalTitle">Condition d'utilisation</h1>
+        <h1 className="legalTitle">Conditions d'utilisation</h1>
         <div className="legalContainer">
           <h2 className="subLegalTitle">Mise à jour le : 15 Août 2023</h2>
           <h2 className="subLegalTitle">Acceptation des conditions</h2>
@@ -78,13 +78,13 @@ const Terms = () => {
             l'utilisateur. L'inclusion de tout lien n'implique pas une
             recommandation ou une approbation par une-parenthese-pour-soi.fr.
             Nous ne sommes pas responsables du contenu ou des pratiques de ces
-            sites tiers.{" "}
+            sites tiers.
           </p>
           <h2 className="subLegalTitle">Loi applicable</h2>
           <p>
             Les présentes conditions sont régies par la loi française. Tout
             litige relatif à une-parenthese-pour-soi.fr sera soumis à la
-            juridiction exclusive des tribunaux d'Angoulême.{" "}
+            juridiction exclusive des tribunaux d'Angoulême.
           </p>
           <h2 className="subLegalTitle">Copie et impression</h2>
           <p>

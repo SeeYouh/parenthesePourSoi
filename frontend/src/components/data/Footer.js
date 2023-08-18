@@ -44,7 +44,7 @@ const Footer = () => {
   };
 
   return (
-    <footer>
+    <footer className="footer">
       <div className="legal">
         <div
           onClick={(e) =>

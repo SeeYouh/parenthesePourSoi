@@ -63,37 +63,38 @@ const Footer = () => {
       </div>
       <div className="socialNetwork">
         <div>
-          <symbol>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="20px"
-              viewBox="0 0 448 512"
-            >
-              <path d={generalDataImg[4].logoInstagram} />
-            </svg>
-          </symbol>
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <symbol id="instagram-icon" viewBox="0 0 448 512">
+                <path d={generalDataImg[4].logoInstagram} />
+              </symbol>
+            </defs>
+            <use xlinkHref="#instagram-icon" height="20px" />
+          </svg>
         </div>
+      </div>
+      <div className="socialNetwork">
         <div>
-          <symbol>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="20px"
-              viewBox="0 0 512 512"
-            >
-              <path d={generalDataImg[5].logoFacebook} />
-            </svg>
-          </symbol>
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <symbol id="tiktok-icon" viewBox="0 0 512 512">
+                <path d={generalDataImg[6].logoTikTok} />
+              </symbol>
+            </defs>
+            <use xlinkHref="#tiktok-icon" height="20px" />
+          </svg>
         </div>
+      </div>
+      <div className="socialNetwork">
         <div>
-          <symbol>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="20px"
-              viewBox="0 0 448 512"
-            >
-              <path d={generalDataImg[6].logoTikTok} />
-            </svg>
-          </symbol>
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <symbol id="facebook-icon" viewBox="0 0 448 512">
+                <path d={generalDataImg[5].logoFacebook} />
+              </symbol>
+            </defs>
+            <use xlinkHref="#facebook-icon" height="20px" />
+          </svg>
         </div>
       </div>
       <div>Nous contacter</div>

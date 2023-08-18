@@ -105,7 +105,8 @@ const Privacy = () => {
           <p>
             Pour toute question relative à la présente politique ou pour toute
             demande concernant leurs données personnelles, les utilisateurs
-            peuvent contacter l'administrateur du site à [votre adresse e-mail].
+            peuvent contacter l'administrateur du site à <span></span>{" "}
+            webmaster@une-parenthese-pour-soi.fr.
           </p>
         </div>
       </main>

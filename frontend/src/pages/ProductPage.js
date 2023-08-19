@@ -4,7 +4,6 @@ import { Element, scroller } from "react-scroll";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useParams } from "react-router-dom";
 
-import AdditionnalInformation from "../components/AdditionnalInformation";
 import AsaComplement from "../components/AsaComplement";
 import Description from "../components/Description";
 import FirstCategoryNavBar from "../components/data/FirstCategoryNavBar";
@@ -52,8 +51,8 @@ const ProductPage = () => {
   const subCategoryProduct = [
     "Description",
     "Résumé",
-    "En complément",
-    "Informations supplémentaires"
+    "En complément"
+    // "Informations supplémentaires"
   ];
 
   const [selectedCategoryProduct, setSelectedCategoryProduct] = useState(
@@ -150,9 +149,9 @@ const ProductPage = () => {
         {selectedCategoryProduct === "En complément" && (
           <AsaComplement product={product} />
         )}
-        {selectedCategoryProduct === "Informations supplémentaires" && (
+        {/* {selectedCategoryProduct === "Informations supplémentaires" && (
           <AdditionnalInformation product={product} />
-        )}
+        )} */}
       </Element>
       <Footer />
     </div>

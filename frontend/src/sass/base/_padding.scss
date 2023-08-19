@@ -1,6 +1,7 @@
 //        PADDING-BOTTOM            //
 
 .globalLegalContainer p,
+.legal p,
 .subCategory h1,
 .subLegalTitle {
   padding-bottom: 20px;
@@ -16,7 +17,11 @@
 
 //        PADDING            //
 
-.category {
+.menuSubCategory {
+  padding: 0 20px 0 20px;
+}
+
+.firstCategory {
   padding: 15px 20px 0 20px;
 }
 

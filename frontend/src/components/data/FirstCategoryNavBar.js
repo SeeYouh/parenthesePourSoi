@@ -70,7 +70,7 @@ const FirstCategoryNavBar = () => {
         }}
       />
       <div className="allNavBar">
-        <div className="no-select category">
+        <div className="no-select category firstCategory">
           {firstCategoryList.map((menu) => (
             <li className={`cursor menu-navbar`} key={menu.id}>
               <input

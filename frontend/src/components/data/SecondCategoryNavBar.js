@@ -54,7 +54,7 @@ const SecondCategoryNavBar = () => {
         {firstCategoryList
           .filter((category) => category.name.includes(selectedRadio))
           .map((subCategory) => (
-            <ul key={subCategory.id} className="category">
+            <ul key={subCategory.id} className="category menuSubCategory">
               {subCategory.secondCategory.map((subCategory) => (
                 <li key={subCategory.text} className="cursor menu-navbar">
                   <input

@@ -46,20 +46,20 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="legal">
-        <div
+        <p
           onClick={(e) =>
             handleCategoryChange(e, () => navigate("/privacy"), -105)
           }
         >
-          politique de confidentialité
-        </div>
-        <div
+          Politique de confidentialité
+        </p>
+        <p
           onClick={(e) =>
             handleCategoryChange(e, () => navigate("/terms"), -105)
           }
         >
-          condition d'utilisation
-        </div>
+          Condition d'utilisation
+        </p>
       </div>
       <div className="socialNetwork">
         <div>

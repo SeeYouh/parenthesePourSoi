@@ -1,5 +1,18 @@
 footer {
-  position: relative;
   background-color: $bgColor5;
-  height: 200px;
+  height: 400px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -130px;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 0 0 50% 50%;
+  }
+  .logoPictureFooter {
+    top: -95px;
+    z-index: 5;
+  }
 }

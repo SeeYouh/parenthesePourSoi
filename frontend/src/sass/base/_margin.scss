@@ -1,9 +1,15 @@
+//            MARGIN              //
+
+.logoPictureFooter {
+  margin: auto;
+}
+
 //          MARGIN-LEFT           //
 
 .logo {
   margin-left: 20px;
 }
-//          MARGIN-RIGHT           //
+//          MARGIN-RIGHT          //
 
 .all-menu-navbar,
 .allNavBar {
@@ -12,13 +18,16 @@
 
 //          MARGIN-TOP           //
 
-.footer,
 .legal,
 .socialNetwork {
   margin-top: 20px;
 }
 
-//         MARGIN-BOTTOM           //
+footer {
+  margin-top: 180px !important;
+}
+
+//         MARGIN-BOTTOM          //
 
 .legalContainer ul,
 .legalTitle {

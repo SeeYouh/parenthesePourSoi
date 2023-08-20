@@ -1,18 +1,106 @@
 footer {
-  background-color: $bgColor5;
-  height: 400px;
+  background-color: $bgColor10;
+  height: 350px;
 
   &::before {
     content: "";
     position: absolute;
-    top: -130px;
+    top: -140px;
     background-color: white;
-    height: 300px;
-    width: 300px;
+    height: 330px;
+    width: 330px;
     border-radius: 0 0 50% 50%;
   }
   .logoPictureFooter {
-    top: -95px;
+    top: -115px;
     z-index: 5;
+  }
+
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+  }
+
+  .socialNetWorkContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+  }
+
+  .socialNetwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: white;
+
+    svg {
+      margin: auto;
+      width: 25px;
+      height: 25px;
+      fill: $bgColor10;
+    }
+  }
+
+  .legal {
+    width: 400px;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+
+    .containerLegal {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100%;
+      margin: 20px;
+    }
+
+    .legalArticle {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        font-size: 12px;
+        margin: 15px 0;
+        padding: 5px 10px 5px 10px;
+
+        &:before {
+          content: "";
+          bottom: -5px;
+          left: 50%;
+          width: 0;
+          height: 2px;
+          background-color: white;
+          transition: all 0.2s;
+          transform: translateX(-50%);
+        }
+
+        &:hover:before {
+          width: 80%;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+        // padding-left: 8px;
+        // padding-right: 8px;
+      }
+    }
+  }
+
+  .contact {
+    font-size: 20px;
+    color: white;
   }
 }

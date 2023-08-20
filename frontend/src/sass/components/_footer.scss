@@ -1,16 +1,5 @@
 footer {
   position: relative;
   background-color: $bgColor5;
-  height: 400px;
-
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 150px;
-    background-color: white;
-    border-radius: 0 0 80px 20px;
-  }
+  height: 200px;
 }

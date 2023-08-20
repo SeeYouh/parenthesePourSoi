@@ -53,7 +53,7 @@ export const shampooing = {
     youLikeIt: [
       {
         id: "shampooing0",
-        link: "aprèsShampooing",
+        link: "apresShampooing",
         pictureLove: "/img/jpg/product/aprèsShampooing.jpg",
         textLove:
           "Pour enrichir davantage votre routine de soins capillaires et renforcer les bénéfices obtenus avec notre shampooing, je vous encourage vivement à explorer notre après-shampooing. Conçu pour nourrir vos cheveux de la racine à la pointe, il promet non seulement de faciliter le brossage, mais également de protéger votre chevelure des rayons UV. Ainsi, vous bénéficierez d'une expérience complète de bien-être pour vos cheveux."

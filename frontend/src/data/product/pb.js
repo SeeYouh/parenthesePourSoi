@@ -1,4 +1,7 @@
-import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+import {
+  getCategoryById,
+  getSecondCategoryById,
+} from '../firstCategoryHelper';
 
 export const pb = {
   nameProduct: "PB",
@@ -35,7 +38,7 @@ export const pb = {
       },
       {
         id: "4PB",
-        text: "Optez pour l'éveil d'une meilleure version de vous-même avec notre produit de bien-être 100% naturel. Que ce soit pour gérer votre poids, ressourcer votre corps après l'effort, régénérer vos tissus ou simplement pour booster votre énergie au quotidien, ce cadeau précieux de la nature est là pour vous soutenir. Et rappelez-vous, notre conseillère bien-être est toujours disponible pour vous accompagner sur ce chemin. N'hésitez pas à la contacter pour découvrir encore plus comment notre produit peut transformer votre vie."
+        text: "Optez pour l'éveil d'une meilleure version de vous-même avec notre produit de bien-être 100% naturel. Que ce soit pour gérer votre poids, ressourcer votre corps après l'effort, régénérer vos tissus ou simplement pour booster votre énergie au quotidien, ce cadeau précieux de la nature est là pour vous soutenir."
       },
       {
         id: "5PB",

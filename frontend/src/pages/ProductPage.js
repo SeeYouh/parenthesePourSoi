@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 
 import { Element, scroller } from "react-scroll";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 
 import AsaComplement from "../components/AsaComplement";
 import Description from "../components/Description";
@@ -14,6 +14,8 @@ import { RadioContext } from "../components/utils/radioContext";
 import SecondCategoryNavBar from "../components/data/SecondCategoryNavBar";
 
 const ProductPage = () => {
+  const location = useLocation();
+
   const {
     setSelectedRadio,
     setSelectedSubRadio,
@@ -36,8 +38,13 @@ const ProductPage = () => {
     setSelectedRadio,
     setSelectedSubRadio,
     setSelectedProduct,
-    setIsActive
+    setIsActive,
+    location.state
   ]);
+
+  useEffect(() => {
+    setSelectedCategoryProduct("Description");
+  }, [product]);
 
   const descriptionName = product.nameProduct;
   const themeColors = product.colors;
@@ -147,7 +154,7 @@ const ProductPage = () => {
           <InSummary product={product} />
         )}
         {selectedCategoryProduct === "En complément" && (
-          <AsaComplement product={product} />
+          <AsaComplement product={product} defaultTab={subCategoryProduct[0]} />
         )}
         {/* {selectedCategoryProduct === "Informations supplémentaires" && (
           <AdditionnalInformation product={product} />

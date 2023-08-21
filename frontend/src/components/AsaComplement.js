@@ -5,14 +5,16 @@ import { useNavigate } from "react-router-dom";
 
 import { ProductStyle } from "./utils/ProductStyle";
 
-const AsaComplement = ({ product }) => {
+const AsaComplement = ({ product, defaultTab }) => {
   const productYouLikeIt = product.summary.youLikeIt;
 
   const navigate = useNavigate();
 
   const goToPageAndScroll = async (productId, selector) => {
     const offset = -125;
-    await navigate(`/product/${productId}`);
+    await navigate(`/product/${productId}`, {
+      state: { defaultTab: defaultTab }
+    });
     await scroller.scrollTo(selector, {
       duration: 1000,
       smooth: true,

@@ -1,4 +1,7 @@
-import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+import {
+  getCategoryById,
+  getSecondCategoryById,
+} from '../firstCategoryHelper';
 
 export const eauTonique = {
   nameProduct: "Eau Tonique",
@@ -62,8 +65,8 @@ export const eauTonique = {
       },
       {
         id: "eauTonique2",
-        link: "baumeLevres",
-        pictureLove: "/img/jpg/product/baumeLevres.jpg",
+        link: "serumFlash",
+        pictureLove: "/img/jpg/product/serumFlash.jpg",
         textLove:
           "Optez pour notre sérum révolutionnaire et dites adieu au visage fatigué et endormi. Il agit rapidement pour réduire visiblement les poches sous les yeux, corriger les cernes et atténuer les poches. En lissant les rides et ridules, il vous offre une peau plus jeune et ferme. Notre formule puissante lifte et raffermit la peau délicate autour des yeux, vous offrant un regard éclatant et rajeuni. Les résultats sont visibles jusqu'à 8 heures après l'application, et avec une utilisation régulière sur 28 jours, les effets seront encore plus remarquables pour une transformation durable de la zone des yeux. Découvrez cette formule avancée pour sublimer votre regard et retrouver une apparence resplendissante"
       },

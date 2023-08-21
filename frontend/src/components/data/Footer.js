@@ -124,7 +124,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="contact">Contactez moi</p>
+        <a
+          href="mailto:contact@une-parenthese-pour-soi.fr?subject=Prise de contact depuis le site&body=Bonjour,"
+          className="contact"
+        >
+          Contactez moi
+        </a>
       </div>
     </footer>
   );

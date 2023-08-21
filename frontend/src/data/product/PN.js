@@ -57,21 +57,21 @@ export const pn = {
           "Notre produit stimule la régénération cellulaire, améliorant l'élasticité et la fermeté de la peau pour un teint éclatant et rajeuni. En plus de ces bienfaits pour la peau, il renforce votre santé globale en améliorant le système cardiovasculaire et immunitaire, favorisant la formation du collagène et la réparation osseuse. De plus, en boostant votre énergie naturelle, il soulage les problèmes de rétention d'eau, les jambes lourdes et les allergies, offrant un bien-être quotidien revitalisé."
       },
       {
-        id: "PN1",
+        id: "PN2",
         link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
         textLove:
           "Notre produit indispensable pour une cure minceur réussie. Il agit comme un puissant détoxifiant, éliminant les toxines pour favoriser la gestion du poids et améliorer la santé globale. En rééquilibrant le système digestif, il réduit les ballonnements et la cellulite, vous offrant ainsi une silhouette harmonieuse."
       },
       {
-        id: "PN1",
+        id: "PN3",
         link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
         textLove:
           "Nos gouttes super puissantes sont spécialement conçues pour vous aider à perdre du poids de manière efficace et durable. Grâce à notre formule unique, vous pourrez atteindre vos objectifs sans vous soucier des effets yoyo souvent associés aux régimes restrictifs."
       },
       {
-        id: "PN1",
+        id: "PN4",
         link: "santeMax",
         pictureLove: "/img/jpg/product/santeMax.jpg",
         textLove:

@@ -61,14 +61,14 @@ export const regenerateurCellulaire = {
         link: "apportQ10",
         pictureLove: "/img/jpg/product/apportQ10.jpg",
         textLove:
-          "Associez notre produit phare à notre formule riche en ubiquinol, une version ultra-puissante de la CoQ10, pour une action renforcée et des effets encore plus impressionnants. Grâce à ce puissant mélange, la régénération cellulaire est stimulée de manière exceptionnelle, offrant des résultats particulièrement marqués sur les vergetures profondes et les varices importantes. Préparez-vous à dire adieu aux imperfections qui vous gênent et à retrouver une peau visiblement plus lisse, plus ferme et plus éclatante. Ce duo de choc est la clé d'une peau transformée et épanouie."
+          "Notre produit phare s’associe parfaitement à notre formule riche en ubiquinol, une version ultra-puissante de la CoQ10, pour une action renforcée et des effets encore plus impressionnants. Grâce à ce puissant mélange, la régénération cellulaire est stimulée de manière exceptionnelle, offrant des résultats particulièrement marqués sur les vergetures profondes et les varices importantes. Préparez-vous à dire adieu aux imperfections qui vous gênent et à retrouver une peau visiblement plus lisse, plus ferme et plus éclatante. Ce duo de choc est la clé d'une peau transformée et épanouie."
       },
       {
         id: "regenerateurCellulaire1",
         link: "guerisseurMaux",
         pictureLove: "/img/jpg/product/guerisseurMaux.jpg",
         textLove:
-          "Associez notre produit phare, spécialement conçu pour cibler la cellulite, à notre formule aux multiples bienfaits pour une action renforcée et des résultats encore plus impressionnants. Grâce à cette association unique, nous ajoutons des enzymes CoQ10 supplémentaires pour booster l'action anti-cellulite de notre best-seller. Résultat ? Une réduction visible de la cellulite, une peau plus lisse et ferme, et une confiance en soi retrouvée. Faites de cette puissante synergie votre alliée pour afficher une peau resplendissante et une silhouette épanouie."
+          "Notre concentré d’omégaQ a des bienfaits étendus sur notre produit pour une amélioration globale de votre bien-être. En agissant en profondeur, il améliore la peau en réduisant la cellulite pour une texture plus lisse. De plus, il soutient la santé cardiovasculaire en améliorant la circulation sanguine et en réduisant les risques de maladies cardiaques. Ses acides gras essentiels favorisent aussi la santé cognitive en améliorant la mémoire et la concentration. Il régule la pression artérielle et protège le système cardiovasculaire. Il contrôle l'appétit en stoppant les fringales et réduit le stress en favorisant un sommeil réparateur. Enfin, spécialement conçu pour les femmes, il soulage les douleurs menstruelles et atténue les symptômes de la ménopause. Notre produit offre ainsi une solution holistique pour une meilleure qualité de vie."
       },
       {
         id: "regenerateurCellulaire2",
@@ -82,7 +82,7 @@ export const regenerateurCellulaire = {
         link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
         textLove:
-          "Prenez soin de votre peau et évitez qu'elle ne s'assèche grâce à notre huile de coco d'origine tahitienne, pleine de bienfaits. Contrairement à d'autres produits, notre huile reste sous forme liquide, car elle n'a subi aucune transformation. Cela garantit que vous bénéficiez de toutes ses propriétés naturelles intactes pour hydrater, nourrir et protéger votre peau en profondeur. Offrez-vous une expérience de soin authentique et découvrez les vertus revitalisantes de notre huile de coco de Tahiti pour une peau douce, radieuse et resplendissante."
+          "Pour prendre soin votre peau et éviter qu'elle ne s'assèche grâce à notre huile de coco d'origine tahitienne, pleine de bienfaits. Contrairement à d'autres produits, notre huile reste sous forme liquide, car elle n'a subi aucune transformation. Cela garantit que vous bénéficiez de toutes ses propriétés naturelles intactes pour hydrater, nourrir et protéger votre peau en profondeur. Offrez-vous une expérience de soin authentique et découvrez les vertus revitalisantes de notre huile de coco de Tahiti pour une peau douce, radieuse et resplendissante."
       },
       {
         id: "regenerateurCellulaire4",
@@ -112,34 +112,16 @@ export const regenerateurCellulaire = {
       text: (
         <ul>
           <li>Stimule le système immunitaire</li>
-          <li>Améliore les fonctions respiratoires</li>
-          <ul>
-            <li>asthme</li>
-            <li>allergies</li>
-          </ul>
+          <li>Améliore les fonctions respiratoires (asthme, allergies)</li>
           <li>
             Soutient la santé cardiovasculaire, le système nerveux et le système
             immunitaire
           </li>
           <li>Bénéfique pour la circulation sanguine et la rétention d’eau </li>
-          <li
-            style={{
-              paddingTop: "15px",
-              backgroundColor: "#ecdeee",
-              border: "2px solid #d4aedc",
-              borderRadius: "10px"
-            }}
-          >
-            <h5>Aide à la production du collagène, essentiel pour :</h5>
-            <ul>
-              <li>les tissus</li>
-              <li>les os</li>
-              <li>les dents</li>
-              <li>les ligaments</li>
-              <li>les vertèbres</li>
-              <li>le cartilage</li>
-              <li> les articulations</li>
-            </ul>
+          <li>
+            Aide à la production du collagène, essentiel pour les tissus, les
+            os, les dents, les ligaments, les vertèbres, le cartilage et les
+            articulations
           </li>
         </ul>
       )

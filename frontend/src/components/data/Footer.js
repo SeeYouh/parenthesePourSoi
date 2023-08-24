@@ -5,9 +5,15 @@ import { useNavigate } from "react-router-dom";
 
 import { generalDataImg } from "../../data/generalData";
 import { RadioContext } from "../utils/radioContext";
+import { useHover } from "../utils/useHover";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [isHovered, hoverProps] = useHover();
+
+  let productCardClass = isHovered
+    ? "socialNetwork socialNetworkHover"
+    : "socialNetwork";
 
   const {
     setSelectedRadio,
@@ -56,7 +62,12 @@ const Footer = () => {
       </div>
       <div className="footerContainer">
         <div className="socialNetWorkContainer">
-          <div className="socialNetwork">
+          <a
+            className="socialNetwork"
+            href="https://l.instagram.com/?u=https%3A%2F%2Finstagram.com%2Fbalancetonbourrelet%3Figshid%3DZDc4ODBmNjlmNQ%253D%253D&e=AT1RtsTB8BCd2kll-zyavugmHbUNdy_eN0AzfMgBZGQex1_hG3HhPdtbxykyyKTEwjDEaSA-If3JvFEZ7oGfrXhkqB6uGM_W4RzKXSlHBL8Auj-Bl-zVMx4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="instagram-icon" viewBox="0 0 448 512">
@@ -65,7 +76,7 @@ const Footer = () => {
               </defs>
               <use xlinkHref="#instagram-icon" />
             </svg>
-          </div>
+          </a>
           <div className="socialNetwork">
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
@@ -76,7 +87,12 @@ const Footer = () => {
               <use xlinkHref="#tiktok-icon" />
             </svg>
           </div>
-          <div className="socialNetwork">
+          <a
+            className="socialNetwork"
+            href="https://www.facebook.com/groups/423046286411685/?ref=share_group_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="facebook-icon" viewBox="0 0 320 512">
@@ -85,7 +101,7 @@ const Footer = () => {
               </defs>
               <use xlinkHref="#facebook-icon" />
             </svg>
-          </div>
+          </a>
         </div>
 
         <div className="legal">

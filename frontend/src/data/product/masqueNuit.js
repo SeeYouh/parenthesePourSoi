@@ -99,7 +99,7 @@ export const masqueNuit = {
   inSummary: [
     {
       id: "MNiS0",
-      title: "Gestion du poids",
+      title: "Santé",
       text: (
         <ul>
           <li>Elimine les problèmes cutanés tels que l’acné</li>
@@ -108,7 +108,7 @@ export const masqueNuit = {
     },
     {
       id: "MNiS1",
-      title: "Problèmes cutanés",
+      title: "Beauté",
       text: (
         <ul>
           <li>Hydrate et adoucit la peau</li>

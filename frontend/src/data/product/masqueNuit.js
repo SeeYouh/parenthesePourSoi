@@ -58,28 +58,28 @@ export const masqueNuit = {
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
         textLove:
-          "Découvrez notre crème hydratante aux nombreux avantages : apaisante, elle laisse la peau souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour une meilleure protection contre les agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint."
+          "Notre crème hydratante est apaisante. Elle laisse la peau souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour une meilleure protection contre les agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint."
       },
       {
         id: "masqueNuit2",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
-          "Découvrez notre crème de nuit qui stimule et régénère complètement votre peau pendant le sommeil. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et le relâchement cutané. En ciblant les tâches et les décolorations, elle réduit progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte efficacement contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
+          "Notre crème de nuit stimule et régénère complètement votre peau pendant le sommeil. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et le relâchement cutané. En ciblant les tâches et les décolorations, elle réduit progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte efficacement contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
       },
       {
         id: "masqueNuit3",
         link: "volumateurCils",
         pictureLove: "/img/jpg/product/volumateurCils.jpg",
         textLove:
-          "Obtenez des cils de biche naturels grâce à notre sérum enrichi d'agents hydratants essentiels. En renforçant leur structure, il protège vos cils des dommages et de la casse. Stimulant leur croissance, il vous offre des cils plus épais, forts et longs pour un regard irrésistible. Notre formule sécurisée, testée sous contrôle dermatologique et ophtalmologique, prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales. Découvrez des cils magnifiés et un regard captivant qui ne passera pas inaperçu !"
+          "Notre sérum enrichi d'agents hydratants essentiels permet de volumiser vos cils. En renforçant leur structure, il protège vos cils des dommages et de la casse. Stimulant leur croissance, il vous offre des cils plus épais, forts et longs pour un regard irrésistible. Notre formule sécurisée, testée sous contrôle dermatologique et ophtalmologique, prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales. Découvrez des cils magnifiés et un regard captivant qui ne passera pas inaperçu !"
       },
       {
         id: "masqueNuit4",
         link: "baumeLevres",
         pictureLove: "/img/jpg/product/baumeLevres.jpg",
         textLove:
-          "Plongez dans une véritable oasis de douceur et de protection avec notre baume à lèvres enrichi d'ingrédients naturels. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, offrant une hydratation durable pour un sourire éclatant de santé. Sa formule avancée forme une barrière protectrice contre les éléments extérieurs, préservant vos lèvres impeccablement. Prévenant l'apparition des lèvres sèches et des gerçures, notre baume répare et renforce vos lèvres, pour un confort retrouvé jour après jour. Nourrissez vos lèvres avec le pouvoir de la nature."
+          "Notre baume à lèvres enrichi d'ingrédients naturels permet une véritable oasis de douceur et de protection. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, offrant une hydratation durable pour un sourire éclatant de santé. Sa formule avancée forme une barrière protectrice contre les éléments extérieurs, préservant vos lèvres impeccablement. Prévenant l'apparition des lèvres sèches et des gerçures, notre baume répare et renforce vos lèvres, pour un confort retrouvé jour après jour. Nourrissez vos lèvres avec le pouvoir de la nature."
       }
     ]
   },
@@ -100,27 +100,24 @@ export const masqueNuit = {
     {
       id: "MNiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>Elimine les problèmes cutanés tels que l’acné</li>
+        </ul>
+      )
     },
     {
       id: "MNiS1",
       title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "MNiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "MNiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "MNiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Hydrate et adoucit la peau</li>
+          <li>
+            Lutte contre les signes visibles de l’âge : rides, ridules,
+            cicatrices, teint terne, tâches, masque de grossesse, pores dilatés…
+          </li>
+        </ul>
+      )
     }
   ]
 };

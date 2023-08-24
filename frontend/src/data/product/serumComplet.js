@@ -58,35 +58,35 @@ export const serumComplet = {
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
         textLove:
-          "Découvrez notre crème hydratante aux innombrables bienfaits. Instantanément apaisante, elle laisse votre peau souple et éclatante. Sa formule nourrissante combat efficacement la sécheresse en préservant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et homogénéise le teint. Optez pour notre crème d'exception et retrouvez une peau nette, débarrassée de l'acné, pour un éclat radieux et uniforme. Votre peau vous remerciera pour ce soin d'exception."
+          "Notre crème hydratante apaise instantanément et laisse votre peau souple et éclatante. Sa formule nourrissante combat efficacement la sécheresse en préservant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et homogénéise le teint. Optez pour notre crème d'exception et retrouvez une peau nette, débarrassée de l'acné, pour un éclat radieux et uniforme. Votre peau vous remerciera pour ce soin d'exception."
       },
       {
         id: "SerumComplet1",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
-          "Découvrez notre crème de nuit qui offre une régénération cellulaire complète, stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. En ciblant les tâches et les décolorations, elle estompe progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante. Optez pour notre crème et retrouvez une peau épanouie et éblouissante de beauté !"
+          "Notre crème de nuit offre une régénération cellulaire complète, stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. En ciblant les tâches et les décolorations, elle estompe progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante. Optez pour notre crème et retrouvez une peau épanouie et éblouissante de beauté !"
       },
       {
         id: "SerumComplet2",
         link: "serumFlash",
         pictureLove: "/img/jpg/product/serumFlash.jpg",
         textLove:
-          "Dites adieu au visage fatigué et endormi grâce à notre sérum révolutionnaire. Il agit rapidement pour réduire visiblement les poches sous les yeux, corriger les cernes et atténuer les poches. En lissant les rides et ridules, il vous offre une peau plus jeune et ferme. Notre formule puissante lifte et raffermit la peau délicate autour des yeux, vous offrant un regard éclatant et rajeuni. Les résultats sont visibles jusqu'à 8 heures après l'application, et avec une utilisation régulière sur 28 jours, les résultats seront encore plus remarquables pour une transformation durable de la zone des yeux. Découvrez une formule avancée pour sublimer votre regard !"
+          "Vous pouvez dire adieu au visage fatigué et endormi grâce à notre sérum révolutionnaire. Il agit rapidement pour réduire visiblement les poches sous les yeux, corriger les cernes et atténuer les poches. En lissant les rides et ridules, il vous offre une peau plus jeune et ferme. Notre formule puissante lifte et raffermit la peau délicate autour des yeux, vous offrant un regard éclatant et rajeuni. Les résultats sont visibles jusqu'à 8 heures après l'application, et avec une utilisation régulière sur 28 jours, les résultats seront encore plus remarquables pour une transformation durable de la zone des yeux. Découvrez une formule avancée pour sublimer votre regard !"
       },
       {
         id: "SerumComplet3",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
-          "Choisissez notre produit de soin polyvalent pour prendre soin de votre peau après une journée bien remplie. Il élimine en douceur les impuretés, le maquillage et les saletés accumulés, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Sa formule hydratante assure une peau douce et veloutée, sans sensation de tiraillement. Respectant l'équilibre cutané, il préserve la barrière naturelle pour une peau saine et protégée. Ses actifs ciblés combattent les imperfections et préviennent les éruptions cutanées, vous offrant ainsi une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau. Profitez d'une peau éclatante de beauté et en pleine santé grâce à notre formule de confiance."
+          "Notre gel nettoyant prend soin de votre peau après une journée bien remplie. Il élimine en douceur les impuretés, le maquillage et les saletés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Sa formule hydratante assure une peau douce et veloutée, sans sensation de tiraillement. Respectant l'équilibre cutané, il préserve la barrière naturelle pour une peau saine et protégée. Ses actifs ciblés combattent les imperfections et préviennent les éruptions cutanées, vous offrant ainsi une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau. Profitez d'une peau éclatante de beauté et en pleine santé grâce à notre formule de confiance."
       },
       {
         id: "SerumComplet4",
         link: "huileDemaquillante",
         pictureLove: "/img/jpg/product/huileDemaquillante.jpg",
         textLove:
-          "Explorez les bienfaits de notre huile tout-en-un, conçue pour nettoyer, démaquiller et décontaminer en profondeur votre peau. Elle élimine efficacement saletés, impuretés et polluants, vous laissant une peau fraîche et revitalisée. Enrichie en huiles de plantes et de fruits, elle hydrate en douceur, révélant la souplesse et l'éclat naturel de votre peau. Parfaite pour démaquiller, elle élimine même le maquillage tenace, sans obstruer les pores avec des huiles minérales. Rigoureusement testée dermatologiquement, notre formule assure une expérience de soin optimale et sûre. Offrez à votre peau le meilleur en choisissant notre huile polyvalente !"
+          "Une huile tout-en-un conçue pour nettoyer, démaquiller et décontaminer en profondeur votre peau. Elle élimine efficacement saletés, impuretés et polluants, vous laissant une peau fraîche et revitalisée. Enrichie en huiles de plantes et de fruits, elle hydrate en douceur, révélant la souplesse et l'éclat naturel de votre peau. Parfaite pour démaquiller, elle élimine même le maquillage tenace, sans obstruer les pores avec des huiles minérales. Rigoureusement testée dermatologiquement, notre formule assure une expérience de soin optimale et sûre. Offrez à votre peau le meilleur en choisissant notre huile polyvalente !"
       }
     ]
   },
@@ -106,28 +106,20 @@ export const serumComplet = {
   inSummary: [
     {
       id: "BLiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "BLiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "BLiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "BLiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "BLiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Protège les cellules contre le stress oxydatif</li>
+          <li>
+            Aide à préserver l’élasticité et la fermeté de la peau en la
+            repulpant
+          </li>
+          <li>Améliore les décolorations et le teint irrégulier de la peau</li>
+          <li>Lisse et réduit l’apparence des rides et ridules</li>
+          <li>Diminue les tâches et le masque de grossesse</li>
+          <li>Renforce et consolide la barrière cutanée</li>
+        </ul>
+      )
     }
   ]
 };

@@ -5,6 +5,7 @@
 .bgProductDetails,
 .blocTitleImg,
 .category,
+.contactContainer,
 footer,
 .globalLegalContainer,
 .imgProduit,
@@ -20,6 +21,7 @@ main,
 .productDescriptPresentFirst,
 .productTab,
 .search-bar,
+.socialNetWorkContainer,
 .textProductCard,
 .titleTextProduct h1,
 .youWillLikeIt,
@@ -31,6 +33,7 @@ main,
 
 .allNavBar,
 .bgParagraph,
+.contactContainer,
 .globalLegalContainer,
 .legal,
 .legalContainer,
@@ -47,6 +50,7 @@ main,
 footer,
 .productTab,
 .socialNetwork,
+.socialNetWorkContainer,
 .youWillLikeIt-content,
 .menu-navbar {
   flex-direction: row;
@@ -61,7 +65,8 @@ footer,
 }
 
 .menuUser,
-.search-bar {
+.search-bar,
+.socialNetWorkContainer {
   justify-content: flex-end;
 }
 
@@ -105,6 +110,7 @@ main,
   align-items: center;
 }
 
+.contactContainer,
 .logo {
   align-items: flex-start;
 }

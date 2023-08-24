@@ -5,6 +5,7 @@
 .globalLegalContainer,
 .globalLegalContainer ul,
 footer,
+.footerContainer,
 #leafBottomLeft,
 #leafTopRight,
 .legalContainer,
@@ -35,6 +36,11 @@ footer,
 
 .search-label {
   width: 15px;
+}
+
+.contactContainer,
+.socialNetWorkContainer {
+  width: 240px;
 }
 
 .logoPictureFooter {
@@ -72,6 +78,19 @@ footer,
 
 // ------ MAX-WIDTH ------ //
 
+.globalLegalContainer ul {
+  max-width: 600px;
+}
+
+.bgProductDetails img,
+.legalContainer {
+  max-width: 800px;
+}
+
+.footerContainer {
+  max-width: 900px;
+}
+
 .arrayProductCard {
   max-width: 1100px;
 }
@@ -82,13 +101,4 @@ footer,
 
 .youWillLikeIt-content {
   max-width: 80%;
-}
-
-.bgProductDetails img,
-.legalContainer {
-  max-width: 800px;
-}
-
-.globalLegalContainer ul {
-  max-width: 600px;
 }

@@ -5,7 +5,7 @@ export const serumComplet = {
   id: "serumComplet",
 
   summary: {
-    title: "Un sérum complet au 9 brevets pour une efficacité incomparable.",
+    title: "Un sérum complet au 9 brevets pour une efficacité incomparable",
     paragraph: [
       {
         id: "0serumComplet",

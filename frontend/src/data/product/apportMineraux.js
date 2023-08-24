@@ -5,7 +5,7 @@ export const apportMineraux = {
   id: "apportMineraux",
 
   summary: {
-    title: "Un apport de minéraux sans pareille",
+    title: "Un apport de minéraux sans pareil",
     paragraph: [
       {
         id: "0apportMineraux",

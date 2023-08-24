@@ -5,7 +5,7 @@ export const heRafraichissant = {
   id: "heRafraichissant",
 
   summary: {
-    title: "Une huile essentielle polyvalente pour un bien-être intégral.",
+    title: "Une huile essentielle polyvalente pour un bien-être intégral",
     paragraph: [
       {
         id: "0heRafraichissant",

@@ -5,7 +5,7 @@ export const regenerateurCellulaire = {
   id: "regenerateurCellulaire",
 
   summary: {
-    title: "Un support quotidien.",
+    title: "Un support quotidien",
     paragraph: [
       {
         id: "0regenerateurCellulaire",

@@ -5,7 +5,7 @@ export const gelDouche = {
   id: "gelDouche",
 
   summary: {
-    title: "Une expérience de soin incomparable pour votre peau.",
+    title: "Une expérience de soin incomparable pour votre peau",
     paragraph: [
       {
         id: "0gelDouche",

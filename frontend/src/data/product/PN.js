@@ -5,7 +5,7 @@ export const pn = {
   id: "pn",
 
   summary: {
-    title: "Un substitut de repas complet.",
+    title: "Un substitut de repas complet",
     paragraph: [
       {
         id: "0PN",

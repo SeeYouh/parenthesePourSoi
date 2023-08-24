@@ -5,7 +5,7 @@ export const collagenoni = {
   id: "collagenoni",
 
   summary: {
-    title: "Un produit de santé globale qui fait rajeunir.",
+    title: "Un produit de santé globale qui fait rajeunir",
     paragraph: [
       {
         id: "0Collagènoni",

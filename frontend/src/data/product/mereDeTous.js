@@ -5,7 +5,7 @@ export const mereDeTous = {
   id: "mereDeTous",
 
   summary: {
-    title: "Un produit breveté et unique.",
+    title: "Un produit breveté et unique",
     paragraph: [
       {
         id: "0mereDeTous",

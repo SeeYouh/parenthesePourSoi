@@ -47,7 +47,7 @@ export const baumeLevres = {
         link: "glossRepulpant",
         pictureLove: "/img/jpg/product/glossRepulpant.jpg",
         textLove:
-          "Sublimez vos lèvres avec notre gloss concentré de soin. Grâce à ses actifs nourrissants, il repulpe instantanément vos lèvres, les rendant pulpeuses et volumineuses. Il lisse les ridules, vous offrant des lèvres plus jeunes et douces. Avec sa sensation rafraîchissante et son label d'approbation « Good Face Project », notre produit assure une qualité irréprochable pour sublimer votre sourire éblouissant."
+          "Vos lèvres peuvent être sublimées avec notre gloss. Grâce à ses actifs nourrissants, il repulpe instantanément vos lèvres, les rendant pulpeuses et volumineuses. Il lisse les ridules, vous offrant des lèvres plus jeunes et douces. Avec sa sensation rafraîchissante et son label d'approbation « Good Face Project », notre produit assure une qualité irréprochable pour sublimer votre sourire éblouissant."
       },
       {
         id: "baumeLevres1",
@@ -83,70 +83,10 @@ export const baumeLevres = {
       title: "Gestion du poids",
       text: (
         <ul>
-          <li>Aide aux fonctions psychologiques normales</li>
-          <li>Permet le maintien d’une glycémie normale</li>
           <li>
-            Permet de réduire les désagréments liés à la préménopause et
-            ménopause
+            Hydrate les lèvres et les protègent des agressions extérieures
           </li>
-          <li>
-            Augmente la fertilité, permet une reproduction normale et soutient
-            la spermatogenèse
-          </li>
-        </ul>
-      )
-    },
-    {
-      id: "BLiS1",
-      title: "Santé",
-      text: (
-        <ul>
-          <li>Aide aux fonctions psychologiques normales</li>
-          <li>Permet le maintien d’une glycémie normale</li>
-          <li>
-            Permet de réduire les désagréments liés à la préménopause et
-            ménopause
-          </li>
-          <li>
-            Augmente la fertilité, permet une reproduction normale et soutient
-            la spermatogenèse
-          </li>
-        </ul>
-      )
-    },
-    {
-      id: "BLiS2",
-      title: "Beauté ",
-      text: (
-        <ul>
-          <li>Aide aux fonctions psychologiques normales</li>
-          <li>Permet le maintien d’une glycémie normale</li>
-          <li>
-            Permet de réduire les désagréments liés à la préménopause et
-            ménopause
-          </li>
-          <li>
-            Augmente la fertilité, permet une reproduction normale et soutient
-            la spermatogenèse
-          </li>
-        </ul>
-      )
-    },
-    {
-      id: "BLiS3",
-      title: "Bien-être",
-      text: (
-        <ul>
-          <li>Aide aux fonctions psychologiques normales</li>
-          <li>Permet le maintien d’une glycémie normale</li>
-          <li>
-            Permet de réduire les désagréments liés à la préménopause et
-            ménopause
-          </li>
-          <li>
-            Augmente la fertilité, permet une reproduction normale et soutient
-            la spermatogenèse
-          </li>
+          <li>Disponibles en deux parfums : Grenade et Vanille</li>
         </ul>
       )
     }

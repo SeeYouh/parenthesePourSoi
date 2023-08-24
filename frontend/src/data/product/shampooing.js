@@ -5,7 +5,7 @@ export const shampooing = {
   id: "shampooing",
 
   summary: {
-    title: "Sublimez vos cheveux avec ce shampooing d’exception.",
+    title: "Sublimez vos cheveux avec ce shampooing d’exception",
     paragraph: [
       {
         id: "0shampooing",

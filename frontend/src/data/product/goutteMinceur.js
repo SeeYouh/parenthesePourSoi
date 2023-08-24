@@ -5,7 +5,7 @@ export const goutteMinceur = {
   id: "goutteMinceur",
 
   summary: {
-    title: "Laissez les éléments naturels agir en votre faveur.",
+    title: "Laissez les éléments naturels agir en votre faveur",
     paragraph: [
       {
         id: "0goutteMinceur",

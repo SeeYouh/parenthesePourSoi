@@ -5,7 +5,7 @@ export const dentitionBlanche = {
   id: "dentitionBlanche",
 
   summary: {
-    title: "Une poudre révolutionnaire en matière de soins dentaires naturels.",
+    title: "Une poudre révolutionnaire en matière de soins dentaires naturels",
     paragraph: [
       {
         id: "0dentitionBlanche",

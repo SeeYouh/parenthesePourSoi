@@ -5,7 +5,7 @@ export const harmonie = {
   id: "harmonie",
 
   summary: {
-    title: "Soutenez votre corps et votre beauté.",
+    title: "Soutenez votre corps et votre beauté",
     paragraph: [
       {
         id: "0harmonie",

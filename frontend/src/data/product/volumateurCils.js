@@ -92,28 +92,31 @@ export const volumateurCils = {
   inSummary: [
     {
       id: "VCiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Diminue les douleurs articulaires, musculaires et osseuses</li>
+          <li>Permet le renouvellement de la peau</li>
+        </ul>
+      )
     },
     {
       id: "VCiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "VCiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "VCiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "VCiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Hydrate la peau et la lifte</li>
+          <li>Améliore les vergetures, la cellulite et les varices</li>
+          <li>Combat les peaux à tendance grasse ou sèche au contraire</li>
+          <li>
+            Lutte contre les rides, les ridules et cernes violacées et marrons
+          </li>
+          <li>Estompe les cicatrices</li>
+          <li>Diminue les tâches</li>
+          <li>Rend le teint lumineux et éclatant</li>
+          <li>Renforce les ongles et les cheveux</li>
+        </ul>
+      )
     }
   ]
 };

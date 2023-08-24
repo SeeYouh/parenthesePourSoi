@@ -5,7 +5,7 @@ export const bb = {
   id: "bb",
 
   summary: {
-    title: "Le secret d’un éclat intérieur et extérieur.",
+    title: "Le secret d’un éclat intérieur et extérieur",
     paragraph: [
       {
         id: "0BB",

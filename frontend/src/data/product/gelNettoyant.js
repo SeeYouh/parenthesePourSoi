@@ -50,35 +50,35 @@ export const gelNettoyant = {
         link: "huileDemaquillante",
         pictureLove: "/img/jpg/product/huileDemaquillante.jpg",
         textLove:
-          "Découvrez notre huile tout-en-un pour nettoyer, démaquiller et décontaminer votre peau en profondeur. En éliminant saletés, impuretés et polluants, elle laisse votre peau fraîche et revitalisée. Grâce à des huiles de plantes et de fruits, elle hydrate en douceur, redonnant à votre peau souplesse et éclat naturel. Testée dermatologiquement, notre formule vous offre une expérience de soin optimale et sûre. Prenez soin de votre peau avec le meilleur en optant pour notre huile polyvalente !"
+          "Notre huile tout-en-un est faite pour nettoyer, démaquiller et décontaminer votre peau en profondeur. En éliminant saletés, impuretés et polluants, elle laisse votre peau fraîche et revitalisée. Grâce à des huiles de plantes et de fruits, elle hydrate en douceur, redonnant à votre peau souplesse et éclat naturel. Testée dermatologiquement, notre formule vous offre une expérience de soin optimale et sûre. Prenez soin de votre peau avec le meilleur en optant pour notre huile polyvalente !"
       },
       {
         id: "1gelNettoyant",
         link: "decontaminant",
         pictureLove: "/img/jpg/product/decontaminant.jpg",
         textLove:
-          "Découvrez le secret d'une peau resplendissante de beauté avec notre produit doux et efficace. En éliminant les peaux mortes et les impuretés, il révèle un teint frais et radieux. Spécialement conçu pour resserrer les pores et affiner la texture de votre peau, il offre une peau plus lisse et uniforme. Notre décontaminant cible les points noirs en désobstruant les pores, réduisant les imperfections et les tâches pigmentaires pour un teint éclatant et uniforme. De plus, notre formule apaise les yeux fatigués, offrant un regard reposé et éclatant. Testé sous contrôle dermatologique, notre produit garantit une tolérance optimale pour tous les types de peau."
+          "Le secret d'une peau resplendissante de beauté réside dans ce produit doux et efficace. En éliminant les peaux mortes et les impuretés, il révèle un teint frais et radieux. Spécialement conçu pour resserrer les pores et affiner la texture de votre peau, il offre une peau plus lisse et uniforme. Notre décontaminant cible les points noirs en désobstruant les pores, réduisant les imperfections et les tâches pigmentaires pour un teint éclatant et uniforme. De plus, notre formule apaise les yeux fatigués, offrant un regard reposé et éclatant. Testé sous contrôle dermatologique, notre produit garantit une tolérance optimale pour tous les types de peau."
       },
       {
         id: "2gelNettoyant",
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
         textLove:
-          "Découvrez notre crème hydratante aux nombreux avantages. Elle apaise instantanément la peau, la laissant souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint. Pour une peau nette, débarrassée de l'acné, choisissez notre crème d'exception pour un éclat radieux et uniforme."
+          "Notre crème hydratante apaise instantanément la peau, la laissant souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint. Pour une peau nette, débarrassée de l'acné, choisissez notre crème d'exception pour un éclat radieux et uniforme."
       },
       {
         id: "3gelNettoyant",
         link: "masqueNuit",
         pictureLove: "/img/jpg/product/masqueNuit.jpg",
         textLove:
-          "Découvrez notre masque de nuit révolutionnaire, utilisant la technologie Breathable Barrier®, qui a été cliniquement prouvée pour améliorer visiblement la santé de votre peau. Testé sous contrôle dermatologique, il est qualifié de plus efficace que ses concurrents en vente libre. Grâce à ses propriétés antioxydantes et régénératrices, il lutte contre les signes du vieillissement en réduisant l'apparence des rides et des ridules, vous offrant une peau plus jeune et plus ferme. Sa formule avancée améliore les imperfections de la peau, resserre les pores et améliore la texture, vous offrant une peau plus saine et éclatante, notamment pour les problèmes d'acné. Avec une hydratation intense, votre peau deviendra plus douce, plus saine et plus éclatante."
+          "Notre masque de nuit est révolutionnaire car il utilise la technologie Breathable Barrier®, qui a été cliniquement prouvée pour améliorer visiblement la santé de votre peau. Testé sous contrôle dermatologique, il est qualifié de plus efficace que ses concurrents en vente libre. Grâce à ses propriétés antioxydantes et régénératrices, il lutte contre les signes du vieillissement en réduisant l'apparence des rides et des ridules, vous offrant une peau plus jeune et plus ferme. Sa formule avancée améliore les imperfections de la peau, resserre les pores et améliore la texture, vous offrant une peau plus saine et éclatante, notamment pour les problèmes d'acné. Avec une hydratation intense, votre peau deviendra plus douce, plus saine et plus éclatante."
       },
       {
         id: "4gelNettoyant",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
         textLove:
-          "Découvrez notre crème de nuit qui offre une régénération cellulaire complète, stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. En ciblant les tâches et les décolorations, elle estompe progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
+          "Notre crème de nuit offre une régénération cellulaire complète, stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. En ciblant les tâches et les décolorations, elle estompe progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
       }
     ]
   },
@@ -98,28 +98,22 @@ export const gelNettoyant = {
   inSummary: [
     {
       id: "GNiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Lutte contre l'acné</li>
+        </ul>
+      )
     },
     {
       id: "GNiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "GNiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "GNiS3",
       title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "GNiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Elimine les saletés et les impuretés de la journée</li>
+          <li>Hydrate et adoucit la peau</li>
+        </ul>
+      )
     }
   ]
 };

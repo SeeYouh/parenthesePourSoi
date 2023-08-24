@@ -41,18 +41,17 @@ footer {
     margin: 0 5px;
     background-color: white;
     z-index: 2;
-    overflow: hidden;
-    // display: block;
+    // overflow: hidden;
     border: 3px solid $bgColor6;
-    // margin: 0 15px 30px 20px;
-    // padding: 10px;
     box-shadow: 0 0 2px white;
-    transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
 
     &:hover {
       cursor: pointer;
       border: 3px solid $bgColor5;
       box-shadow: 3px 7px 7px rgba(0, 0, 0, 0.212);
+      transform: scale(1.2);
     }
 
     svg {

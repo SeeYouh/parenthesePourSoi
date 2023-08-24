@@ -38,19 +38,23 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
+    // border-radius: 5px;
+    // border-bottom-right-radius: 15px;
+    // border-top-left-radius: 15px;
+
     margin: 0 5px;
     background-color: white;
     z-index: 2;
-    // overflow: hidden;
     border: 3px solid $bgColor6;
-    box-shadow: 0 0 2px white;
+    // box-shadow: 0 0 2px white;
     transition: all 0.2s ease-in-out;
     transform: scale(1);
 
     &:hover {
       cursor: pointer;
       border: 3px solid $bgColor5;
-      box-shadow: 3px 7px 7px rgba(0, 0, 0, 0.212);
+      // box-shadow: 3px 7px 7px rgba(0, 0, 0, 0.212);
+      box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.212);
       transform: scale(1.2);
     }
 

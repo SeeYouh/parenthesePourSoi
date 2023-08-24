@@ -57,28 +57,28 @@ export const cremeNight = {
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
         textLove:
-          "Découvrez notre crème hydratante aux nombreux avantages. Elle apaise instantanément la peau, la laissant souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint. Pour une peau nette, débarrassée de l'acné, choisissez notre crème d'exception pour un éclat radieux et uniforme."
+          "Notre crème hydratante apaise instantanément la peau, la laissant souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint. Pour une peau nette, débarrassée de l'acné, choisissez notre crème d'exception pour un éclat radieux et uniforme."
       },
       {
         id: "cremeNight2",
         link: "masqueNuit",
         pictureLove: "/img/jpg/product/masqueNuit.jpg",
         textLove:
-          "Découvrez notre masque de nuit révolutionnaire utilisant la technologie Breathable Barrier® qui a été scientifiquement éprouvée pour améliorer visiblement la santé de votre peau. Testé sous contrôle dermatologique, il est considéré comme étant plus efficace que ses concurrents en vente libre. Grâce à ses propriétés antioxydantes et régénératrices, il combat les signes du vieillissement en réduisant l'apparence des rides et des ridules, améliore les imperfections de la peau, resserre les pores et rehausse la texture, pour vous offrir une peau plus saine et éclatante."
+          "Notre masque de nuit révolutionnaire utilisant la technologie Breathable Barrier® a été scientifiquement éprouvé pour améliorer visiblement la santé de votre peau. Testé sous contrôle dermatologique, il est considéré comme étant plus efficace que ses concurrents en vente libre. Grâce à ses propriétés antioxydantes et régénératrices, il combat les signes du vieillissement en réduisant l'apparence des rides et des ridules, améliore les imperfections de la peau, resserre les pores et rehausse la texture, pour vous offrir une peau plus saine et éclatante."
       },
       {
         id: "cremeNight3",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
-          "Choisissez notre gel nettoyant pour sa formule douce et efficace qui élimine en douceur les saletés, le maquillage et les impuretés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Grâce à ses actifs ciblés, il combat efficacement les imperfections et prévient l'apparition de nouvelles éruptions cutanées, vous offrant ainsi une peau nette et purifiée. Nous avons soumis notre produit à des tests rigoureux sous contrôle dermatologique pour garantir sa sécurité et son efficacité, le rendant adapté à tous les types de peau."
+          "Notre gel nettoyant, avec sa formule douce et efficace, élimine en douceur les saletés, le maquillage et les impuretés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Grâce à ses actifs ciblés, il combat efficacement les imperfections et prévient l'apparition de nouvelles éruptions cutanées, vous offrant ainsi une peau nette et purifiée. Nous avons soumis notre produit à des tests rigoureux sous contrôle dermatologique pour garantir sa sécurité et son efficacité, le rendant adapté à tous les types de peau."
       },
       {
         id: "cremeNight4",
         link: "serumComplet",
         pictureLove: "/img/jpg/product/serumComplet.jpg",
         textLove:
-          "Découvrez notre sérum complet qui marque une véritable révolution dans le domaine des soins de la peau, avec ses 9 brevets exclusifs. Grâce à la technologie liposomale avancée, notre sérum offre une hydratation en profondeur, procurant une sensation de confort et de revitalisation à votre peau. Les actifs spécifiques de notre sérum agissent en harmonie pour préserver l'élasticité et la fermeté de votre peau. Ils stimulent également la production de collagène, contribuant ainsi à un teint plus jeune et tonique. Voyez les décolorations et les rides s'atténuer progressivement. En renforçant la barrière cutanée, notre sérum protège votre peau des agressions extérieures, offrant une meilleure défense face aux facteurs environnementaux."
+          "Notre sérum complet marque une véritable révolution dans le domaine des soins de la peau, avec ses 9 brevets exclusifs. Grâce à la technologie liposomale avancée, notre sérum offre une hydratation en profondeur, procurant une sensation de confort et de revitalisation à votre peau. Les actifs spécifiques de notre sérum agissent en harmonie pour préserver l'élasticité et la fermeté de votre peau. Ils stimulent également la production de collagène, contribuant ainsi à un teint plus jeune et tonique. Voyez les décolorations et les rides s'atténuer progressivement. En renforçant la barrière cutanée, notre sérum protège votre peau des agressions extérieures, offrant une meilleure défense face aux facteurs environnementaux."
       }
     ]
   },
@@ -98,28 +98,36 @@ export const cremeNight = {
   inSummary: [
     {
       id: "CNiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>
+            Diminue les irritations, les tiraillements, les rougeurs et
+            démangeaisons de la peau du visage
+          </li>
+        </ul>
+      )
     },
     {
       id: "CNiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "CNiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "CNiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "CNiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Restaure le processus cellulaire du visage</li>
+          <li>
+            Hydrate et apporte de l’humidité de l’intérieur (technologie
+            liposomale)
+          </li>
+          <li>Augmente l’élasticité et la fermeté de la peau</li>
+          <li>Lisse et raffermit</li>
+          <li>
+            Diminue les tâches, les décolorations visibles de la peau et est
+            très efficace sur le masque de grossesse
+          </li>
+          <li>Améliore le teint </li>
+          <li>Lutte contre les signes visibles de l’âge</li>
+        </ul>
+      )
     }
   ]
 };

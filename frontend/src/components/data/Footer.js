@@ -5,15 +5,9 @@ import { useNavigate } from "react-router-dom";
 
 import { generalDataImg } from "../../data/generalData";
 import { RadioContext } from "../utils/radioContext";
-import { useHover } from "../utils/useHover";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const [isHovered, hoverProps] = useHover();
-
-  let productCardClass = isHovered
-    ? "socialNetwork socialNetworkHover"
-    : "socialNetwork";
 
   const {
     setSelectedRadio,

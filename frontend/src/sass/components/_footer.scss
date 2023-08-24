@@ -2,6 +2,12 @@ footer {
   background-color: $bgColor10;
   height: 350px;
 
+  // .footerContainer,
+  // .legalArticle,
+  // .contact {
+  //   border: 1px solid white;
+  // }
+
   &::before {
     content: "";
     position: absolute;
@@ -23,12 +29,6 @@ footer {
     align-items: center;
     height: 100%;
     margin: 0 20px;
-  }
-
-  .socialNetWorkContainer {
-    display: flex;
-    flex-direction: row;
-    max-width: 200px;
   }
 
   .socialNetwork {

@@ -54,13 +54,7 @@ const Footer = () => {
           alt={generalDataImg[0].alt}
         />
       </div>
-      <div
-        className="footerContainer"
-        style={{
-          width: "100%",
-          maxWidth: "800px"
-        }}
-      >
+      <div className="footerContainer">
         <div className="socialNetWorkContainer">
           <div className="socialNetwork">
             <svg xmlns="http://www.w3.org/2000/svg">
@@ -124,12 +118,23 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <a
-          href="mailto:contact@une-parenthese-pour-soi.fr?subject=Prise de contact depuis le site&body=Bonjour,"
-          className="contact"
-        >
-          Contactez moi
-        </a>
+        <div className="contactContainer">
+          <a
+            className="contact"
+            href="https://agenda.une-parenthese-pour-soi.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Prendre rendez-vous
+          </a>
+
+          <a
+            href="mailto:contact@une-parenthese-pour-soi.fr?subject=Prise de contact depuis le site&body=Bonjour,"
+            className="contact"
+          >
+            Contactez moi
+          </a>
+        </div>
       </div>
     </footer>
   );

@@ -109,7 +109,7 @@ export const serumComplet = {
       title: "Beauté",
       text: (
         <ul>
-          <li>Protège les cellules contre le stress oxydatif</li>
+          <li>A modifier / supprimer</li>
           <li>
             Aide à préserver l’élasticité et la fermeté de la peau en la
             repulpant

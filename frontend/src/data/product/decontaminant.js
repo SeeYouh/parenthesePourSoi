@@ -50,14 +50,14 @@ export const decontaminant = {
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
         textLove:
-          "Optez pour notre produit de soin polyvalent pour chouchouter votre peau après une journée bien remplie. Il élimine en douceur les saletés, le maquillage et les impuretés accumulés, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Grâce à sa formule hydratante, votre peau sera douce et veloutée, sans tiraillement. Sa douceur respecte l'équilibre cutané, préservant la barrière naturelle pour une peau saine et protégée. Avec ses actifs ciblés, il combat les imperfections et prévient les éruptions cutanées, vous offrant une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau."
+          "Notre produit de soin polyvalent est là pour chouchouter votre peau après une journée bien remplie. Il élimine en douceur les saletés, le maquillage et les impuretés accumulés, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Grâce à sa formule hydratante, votre peau sera douce et veloutée, sans tiraillement. Sa douceur respecte l'équilibre cutané, préservant la barrière naturelle pour une peau saine et protégée. Avec ses actifs ciblés, il combat les imperfections et prévient les éruptions cutanées, vous offrant une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau."
       },
       {
         id: "Decontaminant1",
         link: "eauTonique",
         pictureLove: "/img/jpg/product/eauTonique.jpg",
         textLove:
-          "Découvrez notre soin cutané parfaitement équilibré, enrichi d'agents hydratants et apaisants d'origine naturelle pour nourrir et restaurer votre peau en profondeur. Résultat ? Une peau intensément hydratée, adoucie et apaisée, vous offrant confort et bien-être toute la journée. Notre eau tonique resserre les pores, minimise les imperfections et apaise les irritations, laissant votre peau visiblement plus uniforme et raffinée. Sans paraben, alcool ni parfum artificiel, notre formule respecte votre peau et l'environnement pour une expérience de soin pure et sûre."
+          "Notre soin cutané parfaitement équilibré, enrichi d'agents hydratants et apaisants d'origine naturelle nourrit et restaure votre peau en profondeur.  Résultat ? Une peau intensément hydratée, adoucie et apaisée, vous offrant confort et bien-être toute la journée. Notre eau tonique resserre les pores, minimise les imperfections et apaise les irritations, laissant votre peau visiblement plus uniforme et raffinée. Sans paraben, alcool ni parfum artificiel, notre formule respecte votre peau et l'environnement pour une expérience de soin pure et sûre."
       },
       {
         id: "Decontaminant2",
@@ -71,7 +71,7 @@ export const decontaminant = {
         link: "masqueNuit",
         pictureLove: "/img/jpg/product/masqueNuit.jpg",
         textLove:
-          "Découvrez notre masque de nuit révolutionnaire, qui utilise la technologie Breathable Barrier®, cliniquement prouvée pour améliorer visiblement la santé de votre peau. Grâce à ses propriétés antioxydantes et régénératrices, il combat efficacement les signes du vieillissement en réduisant les rides et les ridules pour une peau plus ferme et jeune. Sa formule avancée améliore la texture de la peau, resserre les pores et combat les problèmes d'acné, vous offrant une peau saine et éclatante. Hydratée en profondeur, votre peau devient douce et rayonnante. Testé sous contrôle dermatologique, il surpasse les concurrents en vente libre."
+          "Notre masque de nuit révolutionnaire utilise la technologie Breathable Barrier®, cliniquement prouvée pour améliorer visiblement la santé de votre peau. Grâce à ses propriétés antioxydantes et régénératrices, il combat efficacement les signes du vieillissement en réduisant les rides et les ridules pour une peau plus ferme et jeune. Sa formule avancée améliore la texture de la peau, resserre les pores et combat les problèmes d'acné, vous offrant une peau saine et éclatante. Hydratée en profondeur, votre peau devient douce et rayonnante. Testé sous contrôle dermatologique, il surpasse les concurrents en vente libre."
       },
       {
         id: "Decontaminant4",
@@ -98,28 +98,16 @@ export const decontaminant = {
   inSummary: [
     {
       id: "DeciS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "DeciS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "DeciS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "DeciS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "DeciS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Elimine les peaux et cellules mortes</li>
+          <li>Améliore l’aspect des pores</li>
+          <li>Réduit les points noirs et les imperfections</li>
+          <li>Diminue les tâches du visage et le masque de grossesse</li>
+          <li>Apaise les yeux</li>
+        </ul>
+      )
     }
   ]
 };

@@ -103,29 +103,24 @@ export const shampooing = {
   },
   inSummary: [
     {
-      id: "SiSGP0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "SiSPC1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "SiSS2",
+      id: "SiSS0",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      text: (
+        <ul>
+          <li>Combat les pellicules</li>
+          <li>Diminue les rougeurs, les irritations et démangeaisons</li>
+          <li>Atténue l’eczéma du cuir chevelu</li>
+        </ul>
+      )
     },
     {
-      id: "SiSB3",
+      id: "SiSB1",
       title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "SiSBE4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Nettoie, hydrate et revitalise les cheveux</li>
+        </ul>
+      )
     }
   ]
 };

@@ -1,7 +1,4 @@
-import {
-  getCategoryById,
-  getSecondCategoryById,
-} from '../firstCategoryHelper';
+import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const pb = {
   nameProduct: "PB",
@@ -127,27 +124,35 @@ export const pb = {
     {
       id: "PBiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>Diminue l’appétit </li>
+          <li>Brûle les graisses</li>
+        </ul>
+      )
     },
     {
       id: "PBiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Améliore la santé cardiovasculaire </li>
+          <li>Régénère les tissus et améliore la réparation musculaire</li>
+          <li>Permet un système digestif sain</li>
+          <li>Diminue les irritations de l’intestin</li>
+        </ul>
+      )
     },
     {
       id: "PBiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "PBiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "PBiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Apporte une énergie physique</li>
+          <li>Soulager des douleurs de type courbatures</li>
+          <li>Améliore l’endurance et la récupération</li>
+        </ul>
+      )
     }
   ]
 };

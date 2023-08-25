@@ -99,27 +99,26 @@ export const pn = {
     {
       id: "PNiSGP0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "PNiSPC1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      text: (
+        <ul>
+          <li>Aide à la perte de poids</li>
+          <li>Est utilisé en substitut de repas complet</li>
+        </ul>
+      )
     },
     {
       id: "PNiSS2",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "PNiSB3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "PNiSBE4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Soutient la pression artérielle</li>
+          <li>
+            A des effets positifs sur les reins, le foie et le système
+            cardiovasculaire
+          </li>
+          <li>Offre une bonne santé intestinale en améliorant la digestion</li>
+        </ul>
+      )
     }
   ]
 };

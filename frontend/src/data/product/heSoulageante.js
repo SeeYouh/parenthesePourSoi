@@ -1,7 +1,4 @@
-import {
-  getCategoryById,
-  getSecondCategoryById,
-} from '../firstCategoryHelper';
+import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const heSoulageante = {
   nameProduct: "HE Soulageante",
@@ -109,27 +106,45 @@ export const heSoulageante = {
     {
       id: "HESoiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>Aide à la perte de poids en diminuant le stress</li>
+        </ul>
+      )
     },
     {
       id: "HESoiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>
+            A une fonction sédative du système nerveux, il est donc très
+            efficace sur les maux de tête et les migraines
+          </li>
+          <li>Diminue les allergies et les maladies saisonnières</li>
+          <li>Décontractant musculaire</li>
+          <li>Antiseptique (otites, zona…)</li>
+          <li>
+            Soulage les brûlures, les rougeurs, les démangeaisons et les
+            irritations
+          </li>
+          <li>
+            Combat les poux, repousse les insectes et soulage les piqûres{" "}
+          </li>
+        </ul>
+      )
     },
     {
       id: "HESoiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "HESoiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "HESoiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Diminue le stress et l’anxiété</li>
+          <li>Réduit les tensions</li>
+          <li>Améliore l’humeur et le moral</li>
+          <li>Rafraîchit et apaise l’esprit</li>
+        </ul>
+      )
     }
   ]
 };

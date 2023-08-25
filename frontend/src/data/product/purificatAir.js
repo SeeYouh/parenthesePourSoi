@@ -142,7 +142,7 @@ export const purificatAir = {
         link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
         textLove:
-          "Découvrez notre huile essentielle aux multiples bienfaits pour votre bien-être. Son action apaisante améliore le confort respiratoire en soulageant la toux et en dégageant les voies respiratoires. Elle apaise également les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, pour une peau apaisée. Grâce à ses propriétés relaxantes, elle détend les tensions musculaires et procure une sensation de calme. De plus, elle est bénéfique pour soulager les douleurs articulaires et atténuer les bouffées de chaleur liées à la ménopause. Pour les sportifs, elle s'avère efficace pour soulager les foulures, les entorses et les douleurs musculaires, favorisant ainsi une récupération plus rapide. Profitez de ses nombreux bienfaits pour améliorer votre quotidien et votre bien-être."
+          "Notre huile essentielle a une action apaisante et améliore le confort respiratoire en soulageant la toux et en dégageant les voies respiratoires. Elle apaise également les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, pour une peau apaisée. Grâce à ses propriétés relaxantes, elle détend les tensions musculaires et procure une sensation de calme. De plus, elle est bénéfique pour soulager les douleurs articulaires et atténuer les bouffées de chaleur liées à la ménopause. Pour les sportifs, elle s'avère efficace pour soulager les foulures, les entorses et les douleurs musculaires, favorisant ainsi une récupération plus rapide. Profitez de ses nombreux bienfaits pour améliorer votre quotidien et votre bien-être."
       },
 
       {
@@ -158,7 +158,7 @@ export const purificatAir = {
         link: "guerisseurMaux",
         pictureLove: "/img/jpg/product/guerisseurMaux.jpg",
         textLove:
-          "Optimisez le traitement de votre cellulite récalcitrante en associant notre produit Guérisseur des maux aux multiples bienfaits. Cette combinaison renforcée fournit des enzymes CoQ10 supplémentaires, augmentant ainsi l'efficacité anti-cellulite de notre best-seller. Profitez d'une solution puissante pour cibler la cellulite tenace et obtenir des résultats visibles. "
+          "Ce produit est idéal pour transformer l'apparence de votre peau. Conçu pour cibler les problèmes de cellulite adipeuse et aqueuse, il pénètre en profondeur pour réduire visiblement l'apparence de la cellulite, vous offrant une peau plus ferme et plus lisse. En soutenant votre santé cardiovasculaire, ce super nutriment agit comme un bouclier protecteur contre les maladies cardiaques, tout en favorisant une circulation sanguine optimale. De plus, il booste la santé cognitive grâce à ses acides gras essentiels, et régule la pression artérielle pour une protection accrue du système cardiovasculaire. Contrôlez vos fringales et atteignez vos objectifs de perte de poids grâce à son action ciblée, et réduisez le stress grâce à son effet apaisant et réparateur. Mesdames, notre produit est également là pour vous, en soulageant les douleurs menstruelles et en atténuant les effets de la ménopause, pour un équilibre hormonal optimal. Profitez d'une peau radieuse et d'une santé améliorée avec notre produit polyvalent."
       },
 
       {
@@ -202,10 +202,25 @@ export const purificatAir = {
   inSummary: [
     {
       id: "PAiS0",
-      title: "santé",
+      title: "Santé",
       text: (
         <ul>
-          <li>...</li>
+          <li>
+            Elimine les polluants de l’air avec une efficacité allant jusqu’à
+            99.99%
+          </li>
+          <li>
+            Cible les particules ultra fines telles que la fumée de cigarette,
+            le pollen, la poussière…
+          </li>
+          <li>
+            Capte les composés organiques volatils dans la fumée, produits
+            chimiques…
+          </li>
+          <li>
+            Elimine les bactéries, moisissures, champignons et virus en
+            suspension dans l’air
+          </li>
         </ul>
       )
     }

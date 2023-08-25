@@ -46,7 +46,7 @@ export const santePlus = {
         link: "santeMax",
         pictureLove: "/img/jpg/product/santeMax.jpg",
         textLove:
-          "Découvrez la formule encore plus puissante du Noni Original dans ce produit minutieusement conçu pour promouvoir votre santé globale en renforçant votre système immunitaire et en protégeant votre corps des agressions extérieures. Vous bénéficierez d'une énergie durable et naturelle pour vous accompagner tout au long de la journée, vous permettant d'accomplir vos tâches avec dynamisme. En harmonie avec votre corps, notre nectar apaise les tensions, réduit le stress et favorise un état d'esprit positif, améliorant ainsi votre bien-être général et votre bonheur personnel."
+          "Une formule encore plus puissante du Noni Original se trouve dans ce produit minutieusement conçu pour promouvoir votre santé globale en renforçant votre système immunitaire et en protégeant votre corps des agressions extérieures. Vous bénéficierez d'une énergie durable et naturelle pour vous accompagner tout au long de la journée, vous permettant d'accomplir vos tâches avec dynamisme. En harmonie avec votre corps, notre nectar apaise les tensions, réduit le stress et favorise un état d'esprit positif, améliorant ainsi votre bien-être général et votre bonheur personnel."
       },
 
       {
@@ -98,20 +98,28 @@ export const santePlus = {
   inSummary: [
     {
       id: "SPiS0",
-      title: "Santé",
+      title: "Gestion du poids",
       text: (
         <ul>
-          <li>...</li>
+          <li>Aide à la perte de poids</li>
         </ul>
       )
     },
 
     {
       id: "SPiS1",
-      title: "Gestion du poids",
+      title: "Santé",
       text: (
         <ul>
-          <li>...</li>
+          <li>Protège les cellules contre le stress oxydatif</li>
+          <li>Booste l’énergie naturelle du métabolisme</li>
+          <li>Régule le système digestif</li>
+          <li>Booste le système immunitaire</li>
+          <li>Lutte contre les maladies saisonnières</li>
+          <li>Maintient une ossature normale</li>
+          <li>
+            Améliore la formation des tissus conjonctifs (améliore la vue)
+          </li>
         </ul>
       )
     }

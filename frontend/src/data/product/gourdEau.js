@@ -1,4 +1,7 @@
-import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+import {
+  getCategoryById,
+  getSecondCategoryById,
+} from '../firstCategoryHelper';
 
 export const gourdEau = {
   nameProduct: "Gourd'Eau",
@@ -128,7 +131,10 @@ export const gourdEau = {
               </li>
             </ul>
           </div>
-        )
+        ),
+        picture450: "/img/jpg/product/gourdEauIllusText450.jpg",
+        picture675: "/img/jpg/product/gourdEauIllusText675.jpg",
+        picture900: "/img/jpg/product/gourdEauIllusText900.jpg"
       },
       {
         id: "2gourdEau",

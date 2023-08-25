@@ -1,4 +1,7 @@
-import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+import {
+  getCategoryById,
+  getSecondCategoryById,
+} from '../firstCategoryHelper';
 
 export const heSoulageante = {
   nameProduct: "HE Soulageante",
@@ -66,7 +69,7 @@ export const heSoulageante = {
       },
       {
         id: "heSoulageante2",
-        link: "HERafraichisante",
+        link: "heRafraichisante",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
         textLove:
           "Notre huile essentielle stimule la concentration et la vivacité mentale. Elle combat les nausées, le mal des transports et les maux de tête pour un soulagement rapide et naturel. Elle améliore le confort respiratoire en apaisant la toux et en dégageant les voies respiratoires. De plus, elle apaise les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, offrant une peau apaisée. Grâce à ses propriétés apaisantes, elle détend les tensions musculaires et favorise une sensation de calme. Elle est aussi bénéfique pour soulager les douleurs articulaires et aide à réduire les bouffées de chaleur pendant la ménopause. Pour les sportifs, elle soulage les foulures, les entorses et les douleurs musculaires, favorisant une récupération plus rapide."

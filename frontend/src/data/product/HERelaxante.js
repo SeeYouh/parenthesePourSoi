@@ -70,24 +70,24 @@ export const heRelaxante = {
       },
       {
         id: "HERelaxante3",
-        link: "herafraichissant",
+        link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
         textLove:
-          "Cette huile essentielle est un outil puissant pour aider à surmonter la dépendance au tabac. En la combinant avec notre booster d'énergie et notre produit spécialement conçu pour remplacer les repas, vous pouvez éviter les grignotages et la prise de poids souvent associés à l'arrêt du tabac. Optimisez votre parcours de sevrage tabagique avec notre huile essentielle, notre booster d'énergie et notre substitut de repas."
+          "Notre huile essentielle stimule la concentration et la vivacité mentale. Elle combat les nausées, le mal des transports et les maux de tête pour un soulagement rapide et naturel. Elle améliore le confort respiratoire en apaisant la toux et en dégageant les voies respiratoires. De plus, elle apaise les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, offrant une peau apaisée. Grâce à ses propriétés apaisantes, elle détend les tensions musculaires et favorise une sensation de calme. Elle est aussi bénéfique pour soulager les douleurs articulaires et aide à réduire les bouffées de chaleur pendant la ménopause. Pour les sportifs, elle soulage les foulures, les entorses et les douleurs musculaires, favorisant une récupération plus rapide."
       },
       {
         id: "HERelaxante3",
-        link: "hesoulageante",
+        link: "heSoulageante",
         pictureLove: "/img/jpg/product/heSoulageante.jpg",
         textLove:
-          "Cette huile essentielle est un outil puissant pour aider à surmonter la dépendance au tabac. En la combinant avec notre booster d'énergie et notre produit spécialement conçu pour remplacer les repas, vous pouvez éviter les grignotages et la prise de poids souvent associés à l'arrêt du tabac. Optimisez votre parcours de sevrage tabagique avec notre huile essentielle, notre booster d'énergie et notre substitut de repas."
+          "Cette huile essentielle possède de nombreuses propriétés curatives, soulageant les maux de tête et les symptômes des maladies saisonnières. Elle a des effets positifs sur le bien-être en diminuant l'anxiété, en augmentant la vivacité mentale et en améliorant l'humeur. Elle aide à soulager les tensions corporelles et les irritations cutanées, ainsi que les douleurs associées au grincement de dents. De plus, elle repousse les poux et les moustiques, offrant une protection naturelle contre ces nuisibles."
       },
       {
         id: "HERelaxante3",
-        link: "hedesinfectante",
+        link: "heDesinfectante",
         pictureLove: "/img/jpg/product/heDesinfectante.jpg",
         textLove:
-          "Cette huile essentielle est un outil puissant pour aider à surmonter la dépendance au tabac. En la combinant avec notre booster d'énergie et notre produit spécialement conçu pour remplacer les repas, vous pouvez éviter les grignotages et la prise de poids souvent associés à l'arrêt du tabac. Optimisez votre parcours de sevrage tabagique avec notre huile essentielle, notre booster d'énergie et notre substitut de repas."
+          "L'huile essentielle Désinfectante est un remède naturel puissant pour combattre les infections et maintenir un environnement sain. Elle agit efficacement contre les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies. Elle soulage également les douleurs dentaires, apaise les problèmes cutanés et diminue les inconforts causés par les piqûres d'insectes. En plus de ses bienfaits pour la santé, elle peut contribuer à la gestion du poids en détoxifiant le corps et en favorisant un système digestif sain. Enfin, son parfum agréable et ses propriétés apaisantes en font un allié précieux pour améliorer l'humeur et favoriser la relaxation."
       }
     ]
   },
@@ -107,28 +107,26 @@ export const heRelaxante = {
   inSummary: [
     {
       id: "HEReiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Calme les irritations</li>
+          <li>Atténue les migraines et les douleurs</li>
+          <li>Diminue les grincements de dents</li>
+        </ul>
+      )
     },
     {
       id: "HEReiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "HEReiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "HEReiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "HEReiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Apaise les tensions</li>
+          <li>Diminue le stress</li>
+          <li>Favorise la relaxation</li>
+          <li>Facilite d’endormissement et un sommeil réparateur</li>
+        </ul>
+      )
     }
   ]
 };

@@ -1,7 +1,4 @@
-import {
-  getCategoryById,
-  getSecondCategoryById,
-} from '../firstCategoryHelper';
+import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const gourdEau = {
   nameProduct: "Gourd'Eau",
@@ -182,7 +179,7 @@ export const gourdEau = {
         link: "osMuscle",
         pictureLove: "/img/jpg/product/osMuscle.jpg",
         textLove:
-          "Découvrez notre produit spécialement formulé avec des ingrédients aux propriétés anti-inflammatoires qui agissent de manière synergique pour soulager vos articulations douloureuses. Vous pourrez ainsi retrouver votre mobilité et votre confort au quotidien. De plus, grâce à sa capacité à stimuler la production de collagène, notre produit favorise des gencives saines et des os solides. Optez pour notre solution complète et bénéficiez des bienfaits pour vos articulations et votre santé bucco-dentaire. Profitez d'une vie plus active et en meilleure santé grâce à notre produit bien-être."
+          "Notre produit est spécialement formulé avec des ingrédients aux propriétés anti-inflammatoires qui agissent de manière synergique pour soulager vos articulations douloureuses. Vous pourrez ainsi retrouver votre mobilité et votre confort au quotidien. De plus, grâce à sa capacité à stimuler la production de collagène, notre produit favorise des gencives saines et des os solides. Optez pour notre solution complète et bénéficiez des bienfaits pour vos articulations et votre santé bucco-dentaire. Profitez d'une vie plus active et en meilleure santé grâce à notre produit bien-être."
       },
 
       {
@@ -213,7 +210,16 @@ export const gourdEau = {
       title: "Santé",
       text: (
         <ul>
-          <li>...</li>
+          <li>
+            Garantit une eau pure, débarrassée de jusqu'à 99,99 % des agents
+            indésirables tels que microbes, métaux lourds, pesticides et
+            produits chimiques
+          </li>
+          <li>
+            Prend soin de votre santé en buvant en toute confiance une eau
+            propre et sûre
+          </li>
+          <li>Filtre efficacement grâce à notre technologie de pointe</li>
         </ul>
       )
     }

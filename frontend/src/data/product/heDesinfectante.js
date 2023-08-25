@@ -94,27 +94,47 @@ export const heDesinfectante = {
     {
       id: "HEDeiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>
+            Aide à la perte de poids car il permet de nettoyer les toxines du
+            corps
+          </li>
+          <li>Améliore la digestion</li>
+        </ul>
+      )
     },
     {
       id: "HEDeiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Nettoie les brûlures</li>
+          <li>Atténue les irritations et les piqûres d’insectes</li>
+          <li>Soulage le psoriasis, le zona et l’eczéma</li>
+          <li>
+            Efficace sur les acrochordons, les aphtes, les abcès, les verrues,
+            l’herpès, les molluscums, les excroissances de chair…
+          </li>
+          <li>
+            Diminue les brûlures d’estomac et les infections intestinales, ORL,
+            dentaires et urinaires
+          </li>
+          <li>Combat les maladies saisonnières</li>
+          <li>Est antivirale, antibactérienne, antifongique et antiseptique</li>
+        </ul>
+      )
     },
     {
       id: "HEDeiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "HEDeiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "HEDeiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Améliore l’humeur et le moral</li>
+          <li>Diminue le stress</li>
+          <li>Relaxe</li>
+        </ul>
+      )
     }
   ]
 };

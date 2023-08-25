@@ -96,28 +96,45 @@ export const bb = {
   inSummary: [
     {
       id: "BBiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>
+            Améliore le bon fonctionnement du système nerveux et les fonctions
+            mentales
+          </li>
+          <li>
+            Apaise les rougeurs, les irritations et les démangeaisons du cuir
+            chevelu
+          </li>
+          <li>Apaise l’acné, le psoriasis et l’eczéma</li>
+          <li>Détruit les pellicules</li>
+        </ul>
+      )
     },
     {
       id: "BBiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Bien-être",
+      text: (
+        <ul>
+          <li>Augmente l’énergie physique grâce à son apport en vitamine C</li>
+        </ul>
+      )
     },
     {
       id: "BBiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "BBiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "BBiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Renouvelle les cellules de la peau, des ongles et des cheveux</li>
+          <li>
+            Accélère la pousse des ongles et des cheveux et les renforcent
+          </li>
+          <li>Diminue la perte des cheveux</li>
+          <li>Assèche la peau grasse et hydrate la peau sèche</li>
+          <li>Détruit les pellicules</li>
+        </ul>
+      )
     }
   ]
 };

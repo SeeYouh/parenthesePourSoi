@@ -143,20 +143,28 @@ export const santeMax = {
   inSummary: [
     {
       id: "SMiS0",
-      title: "Santé",
+      title: "Gestion du poids",
       text: (
         <ul>
-          <li>...</li>
+          <li>Aide à la perte de poids</li>
+          <li>A des propriétés détoxifiantes et drainantes</li>
         </ul>
       )
     },
 
     {
       id: "SMiS1",
-      title: "Gestion du poids",
+      title: "Santé",
       text: (
         <ul>
-          <li>...</li>
+          <li>Protège les cellules contre le stress oxydatif</li>
+          <li>Booste le système immunitaire</li>
+          <li>Lutte contre les maladies saisonnières</li>
+          <li>
+            Régule le système digestif et rend au foie sa fonction optimale
+          </li>
+          <li>Régule du cholestérol</li>
+          <li>Booste la santé dans sa globalité</li>
         </ul>
       )
     }

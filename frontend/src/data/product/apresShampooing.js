@@ -94,28 +94,26 @@ export const apresShampooing = {
   inSummary: [
     {
       id: "ASiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Combat les pellicules</li>
+          <li>Diminue les rougeurs, les irritation et démangeaisons</li>
+          <li>Atténue l’eczéma du cuir chevelu</li>
+        </ul>
+      )
     },
     {
       id: "ASiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "ASiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "ASiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "ASiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Nettoie les impuretés sans en introduire de nouvelles</li>
+          <li>Facilite le brossage</li>
+          <li>Apporte élasticité, brillance et douceur aux cheveux</li>
+          <li>Protège des effets néfastes des UV</li>
+        </ul>
+      )
     }
   ]
 };

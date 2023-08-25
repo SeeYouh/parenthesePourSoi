@@ -93,28 +93,25 @@ export const gelDouche = {
   inSummary: [
     {
       id: "GDiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Diminue les rougeurs, les irritations et les démangeaisons</li>
+          <li>Atténue l’eczéma et le psoriasis</li>
+          <li>Régule les types de peau (grasse/sèche)</li>
+        </ul>
+      )
     },
     {
       id: "GDiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "GDiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "GDiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "GDiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Elimine les impuretés sans en introduire de nouvelles</li>
+          <li>Détruit les toxines superficielles</li>
+          <li>Ne laisse aucun résidu chimique</li>
+        </ul>
+      )
     }
   ]
 };

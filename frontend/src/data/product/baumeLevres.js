@@ -80,7 +80,7 @@ export const baumeLevres = {
   inSummary: [
     {
       id: "BLiS0",
-      title: "Gestion du poids",
+      title: "Beauté",
       text: (
         <ul>
           <li>

@@ -104,27 +104,40 @@ export const gg = {
     {
       id: "GGiS0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
+      text: (
+        <ul>
+          <li>
+            Aide à la perte de poids en apportant 25% des nutriments journaliers
+            nécessaires au corps
+          </li>
+          <li>
+            Nettoie les déchets de l’organisme grâce à son pouvoir détoxifiant
+          </li>
+        </ul>
+      )
     },
     {
       id: "GGiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Lutte contre le cholestérol</li>
+          <li>Apporte les vitamines et minéraux nécessaires au corps</li>
+          <li>Diminue les carences en fer et en vitamines</li>
+          <li>Améliore le système digestif et stoppe les remontées acides</li>
+          <li>Bénéfique pour le cerveau, les os et le cœur</li>
+        </ul>
+      )
     },
     {
       id: "GGiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "GGiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "GGiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Agit sur la cellulite</li>
+          <li>Accélère la cicatrisation des tissus</li>
+        </ul>
+      )
     }
   ]
 };

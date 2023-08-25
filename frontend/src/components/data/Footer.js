@@ -71,7 +71,12 @@ const Footer = () => {
               <use xlinkHref="#instagram-icon" />
             </svg>
           </a>
-          <div className="socialNetwork">
+          <a
+            className="socialNetwork"
+            href="https://www.tiktok.com/@laurachevreau16"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="tiktok-icon" viewBox="0 0 512 512">
@@ -80,7 +85,7 @@ const Footer = () => {
               </defs>
               <use xlinkHref="#tiktok-icon" />
             </svg>
-          </div>
+          </a>
           <a
             className="socialNetwork"
             href="https://www.facebook.com/groups/423046286411685/?ref=share_group_link"

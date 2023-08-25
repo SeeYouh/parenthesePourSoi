@@ -1,7 +1,4 @@
-import {
-  getCategoryById,
-  getSecondCategoryById,
-} from '../firstCategoryHelper';
+import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const serumComplet = {
   nameProduct: "Sérum complet",
@@ -18,10 +15,60 @@ export const serumComplet = {
       {
         id: "1serumComplet",
         subTitle: "Hydratez, humidifiez et protégez",
-        text: [
-          "Notre sérum se distingue par l'utilisation de la technologie liposomale. Cette innovation permet à notre sérum de traverser les couches de l'épiderme pour hydrater et humidifier votre peau de l'intérieur, offrant une hydratation profonde et durable. La technologie liposomale encapsule les actifs hydratants dans des micro-vésicules, leur permettant d'atteindre les couches profondes de la peau. Cette hydratation en profondeur vous permet de dire adieu à la peau sèche et à la déshydratation, tout en profitant d'une sensation de confort qui dure toute la journée.",
-          "La formule puissante de notre sérum est conçue pour renforcer et consolider la barrière cutanée de votre peau. Ce renforcement agit comme un bouclier, protégeant votre peau des agressions extérieures et des facteurs environnementaux nocifs. En fortifiant votre barrière cutanée, votre peau est mieux armée pour résister aux défis quotidiens, tout en conservant son éclat et sa vitalité naturels."
-        ],
+        text: (
+          <div>
+            <p>
+              Notre sérum se distingue par l'utilisation de la{" "}
+              <span>
+                <style>
+                  {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+                </style>
+                <a
+                  className="btn btn-extLink"
+                  href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  technologie liposomale
+                </a>
+              </span>
+              . Cette innovation permet à notre sérum de traverser les couches
+              de l'épiderme pour hydrater et humidifier votre peau de
+              l'intérieur, offrant une hydratation profonde et durable. La{" "}
+              <span>
+                <style>
+                  {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+                </style>
+                <a
+                  className="btn btn-extLink"
+                  href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  technologie liposomale
+                </a>
+              </span>
+              encapsule les actifs hydratants dans des micro-vésicules, leur
+              permettant d'atteindre les couches profondes de la peau. Cette
+              hydratation en profondeur vous permet de dire adieu à la peau
+              sèche et à la déshydratation, tout en profitant d'une sensation de
+              confort qui dure toute la journée.
+            </p>
+            <p>
+              La formule puissante de notre sérum est conçue pour renforcer et
+              consolider la barrière cutanée de votre peau. Ce renforcement agit
+              comme un bouclier, protégeant votre peau des agressions
+              extérieures et des facteurs environnementaux nocifs. En fortifiant
+              votre barrière cutanée, votre peau est mieux armée pour résister
+              aux défis quotidiens, tout en conservant son éclat et sa vitalité
+              naturels.
+            </p>
+          </div>
+        ),
         picture450: "/img/jpg/product/serumCompletIllusText450.jpg",
         picture675: "/img/jpg/product/serumCompletIllusText675.jpg",
         picture900: "/img/jpg/product/serumCompletIllusText900.jpg"
@@ -67,8 +114,37 @@ export const serumComplet = {
         id: "SerumComplet1",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
-        textLove:
-          "Notre crème de nuit offre une régénération cellulaire complète, stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. En ciblant les tâches et les décolorations, elle estompe progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante. Optez pour notre crème et retrouvez une peau épanouie et éblouissante de beauté !"
+        textLove: (
+          <div>
+            <p>
+              Notre crème de nuit offre une régénération cellulaire complète,
+              stimulant et restaurant le processus cellulaire de votre peau
+              pendant la nuit. Grâce à sa
+              <span>
+                <style>
+                  {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+                </style>
+                <a
+                  className="btn btn-extLink"
+                  href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  technologie liposomale
+                </a>
+              </span>
+              avancée, elle hydrate en profondeur, lissant les ridules et les
+              signes de relâchement cutané. En ciblant les tâches et les
+              décolorations, elle estompe progressivement les imperfections pour
+              un teint uniforme et éclatant. Avec ses actifs antioxydants, elle
+              lutte contre les signes visibles de l'âge, vous offrant une peau
+              jeune et éclatante. Optez pour notre crème et retrouvez une peau
+              épanouie et éblouissante de beauté !
+            </p>
+          </div>
+        )
       },
       {
         id: "SerumComplet2",
@@ -112,7 +188,24 @@ export const serumComplet = {
       title: "Beauté",
       text: (
         <ul>
-          <li>A modifier / supprimer</li>
+          <li>
+            Hydrate et humidifie la peau de l’intérieur grâce à la
+            <span>
+              <style>
+                {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+              </style>
+              <a
+                className="btn btn-extLink"
+                href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                technologie liposomale
+              </a>
+            </span>
+          </li>
           <li>
             Aide à préserver l’élasticité et la fermeté de la peau en la
             repulpant

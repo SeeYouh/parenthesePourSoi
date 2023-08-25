@@ -115,8 +115,23 @@ export const cremeNight = {
         <ul>
           <li>Restaure le processus cellulaire du visage</li>
           <li>
-            Hydrate et apporte de l’humidité de l’intérieur (technologie
-            liposomale)
+            Hydrate et apporte de l’humidité de l’intérieur (
+            <span>
+              <style>
+                {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+              </style>
+              <a
+                className="btn btn-extLink"
+                href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                technologie liposomale
+              </a>
+            </span>
+            )
           </li>
           <li>Augmente l’élasticité et la fermeté de la peau</li>
           <li>Lisse et raffermit</li>

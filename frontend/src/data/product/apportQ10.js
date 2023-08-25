@@ -85,8 +85,35 @@ export const apportQ10 = {
         id: "apporQ105",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
-        textLove:
-          "Notre crème de nuit offre une régénération cellulaire complète en stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle apporte une hydratation exceptionnelle en pénétrant au cœur de l'épiderme. Cette crème cible les tâches et les décolorations pour un teint uniforme et éclatant. Elle lisse les ridules et prévient le vieillissement prématuré, vous offrant une peau repulpée, souple et jeune chaque matin."
+        textLove: (
+          <div>
+            <p>
+              Notre crème de nuit offre une régénération cellulaire complète en
+              stimulant et restaurant le processus cellulaire de votre peau
+              pendant la nuit. Grâce à sa
+              <span>
+                <a
+                  className="btn btn-extLink"
+                  href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <style>
+                    {`a:visited { 
+                      color: "#da7a2a"; 
+                    }`}
+                  </style>
+                  technologie liposomale
+                </a>
+              </span>
+              avancée, elle apporte une hydratation exceptionnelle en pénétrant
+              au cœur de l'épiderme. Cette crème cible les tâches et les
+              décolorations pour un teint uniforme et éclatant. Elle lisse les
+              ridules et prévient le vieillissement prématuré, vous offrant une
+              peau repulpée, souple et jeune chaque matin.
+            </p>
+          </div>
+        )
       }
     ]
   },

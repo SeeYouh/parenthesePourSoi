@@ -56,6 +56,7 @@ const FirstCategoryNavBar = () => {
 
   return (
     <div className="navbar positionFixed">
+      <p className="closeMenu viewButton">X</p>
       <img
         className="logo"
         key={generalDataImg[3].id}
@@ -69,7 +70,7 @@ const FirstCategoryNavBar = () => {
           setIsActive(false);
         }}
       />
-      <div className="allNavBar">
+      <div className="all-menu-navbar allNavBar">
         <div className="no-select category firstCategory">
           {firstCategoryList.map((menu) => (
             <li className={`cursor menu-navbar`} key={menu.id}>

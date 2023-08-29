@@ -102,3 +102,9 @@ footer,
 .youWillLikeIt-content {
   max-width: 80%;
 }
+
+@media screen and (max-width: 500px) {
+  .menu-navbar {
+    width: 180px;
+  }
+}

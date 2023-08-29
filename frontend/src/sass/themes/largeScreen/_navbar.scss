@@ -1,16 +1,37 @@
-@media screen and (min-width: 1110px) {
-  // .all-menu-navbar {
-  //   right: 0;
-  //   top: 0;
-  //   bottom: 0;
-  // }
-
+@media screen and (min-width: 1200px) {
   .line {
     height: 40px;
     background: linear-gradient(to top, transparent, $bgColor6, transparent);
   }
 
+  .category {
+    flex-direction: row;
+  }
+
   .burgerMenu {
     display: none;
+  }
+
+  .arrayProductCard {
+    min-height: calc(100vh - 125px);
+  }
+
+  .navbar {
+    display: grid;
+    grid-template:
+      "b a a" 1fr
+      "b c c" 1fr / 1fr 2fr;
+    height: 100px;
+    width: 100%;
+
+    img {
+      height: 80px;
+    }
+
+    .menu-navbar {
+      li {
+        margin: 0 2px 0 10px;
+      }
+    }
   }
 }

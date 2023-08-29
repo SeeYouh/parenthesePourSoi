@@ -1,31 +1,9 @@
-.navbar {
-  z-index: 100;
-  display: grid;
-  grid-template:
-    "b a a" 1fr
-    "b c c" 1fr / 1fr 2fr;
-  height: 100px;
-  width: 100%;
-  background-color: $bgColor7;
-
-  img {
-    height: 80px;
-  }
-
-  .menu-navbar {
-    li {
-      margin: 0 2px 0 10px;
-    }
-  }
-}
-
 .all-menu-navbar {
   margin-right: 20px;
 }
 
 .allNavBar {
   height: 100%;
-  // border: 1px solid black;
 }
 
 .subCategory {
@@ -37,5 +15,20 @@
     position: relative;
     height: 50px;
     // margin: 0 auto;
+  }
+}
+
+.navbar {
+  z-index: 100;
+  background-color: $bgColor7;
+
+  img {
+    height: 80px;
+  }
+
+  .menu-navbar {
+    li {
+      margin: 0 2px 0 10px;
+    }
   }
 }

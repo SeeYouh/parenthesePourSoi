@@ -31,7 +31,6 @@ main,
 
 //------ FLEX-DIRECTION --------//
 
-.allNavBar,
 .bgParagraph,
 .contactContainer,
 .globalLegalContainer,
@@ -115,10 +114,6 @@ main,
   align-items: flex-start;
 }
 
-.allNavBar {
-  align-items: flex-end;
-}
-
 //------ FLEX --------//
 
 .arrayProductCard {
@@ -127,4 +122,11 @@ main,
 
 .productDescriptPresentFirst {
   flex-grow: 1;
+}
+
+@media screen and (min-width: 1200px) {
+  .all-menu-navbar {
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }

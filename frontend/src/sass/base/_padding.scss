@@ -16,14 +16,26 @@
 
 //        PADDING            //
 
-.menuSubCategory {
-  padding: 0 20px 0 20px;
-}
-
 .firstCategory {
   padding: 15px 20px 0 20px;
 }
 
 .legalTitle {
   padding: 90px 0 90px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .menuSubCategory {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .menuSubCategory {
+    padding-top: 15px;
+  }
+
+  .menu-navbar {
+    padding-bottom: 20px;
+  }
 }

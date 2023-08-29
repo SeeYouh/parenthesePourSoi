@@ -3,14 +3,8 @@
   background-color: transparent;
 }
 
-.line {
-  height: 40px;
-  background: linear-gradient(to top, transparent, $bgColor6, transparent);
-}
-
 .btn-navbar {
   margin: 0 10px 0 10px;
-  // border: 1px solid black;
 }
 
 .btn-extLink {
@@ -46,5 +40,22 @@
 .selected {
   &:before {
     width: 100%;
+  }
+}
+
+.closeMenu {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  font-size: 45px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+@media screen and (min-width: 1200px) {
+  .viewButton {
+    display: none;
   }
 }

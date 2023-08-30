@@ -13,7 +13,8 @@ const SecondCategoryNavBar = () => {
     selectedSubRadio,
     setIsActive,
     setSelectedProduct,
-    setSelectedSubRadio
+    setSelectedSubRadio,
+    closeMenu
   } = useContext(RadioContext);
 
   const navigate = useNavigate();
@@ -24,6 +25,7 @@ const SecondCategoryNavBar = () => {
       setSelectedSubRadio(e.target.id);
       setSelectedProduct("");
       setIsActive(true);
+      closeMenu();
     } else {
       setSelectedSubRadio("");
       setSelectedProduct("");

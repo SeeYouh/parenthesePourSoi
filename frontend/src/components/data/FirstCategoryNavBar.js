@@ -14,8 +14,18 @@ const FirstCategoryNavBar = () => {
     setSelectedRadio,
     setSelectedSubRadio,
     setSelectedProduct,
-    setIsActive
+    setIsActive,
+    menuNavActive,
+    setMenuNavActive
   } = useContext(RadioContext);
+
+  const handleToggleMenu = () => {
+    setMenuNavActive(!menuNavActive);
+  };
+
+  const classNameMenu = menuNavActive
+    ? "activeMenu navbar positionFixed"
+    : "navbar positionFixed";
 
   const navigate = useNavigate();
   const scroller = Scroll.scroller;
@@ -55,51 +65,53 @@ const FirstCategoryNavBar = () => {
   };
 
   return (
-    <div className="navbar positionFixed">
-      <p className="closeMenu viewButton">X</p>
-      <img
-        className="logo"
-        key={generalDataImg[3].id}
-        src={generalDataImg[3].src}
-        alt={generalDataImg[3].alt}
-        onClick={() => {
-          goToPageAndScroll("scrollTop");
-          setSelectedRadio("");
-          setSelectedSubRadio("");
-          setSelectedProduct("");
-          setIsActive(false);
-        }}
-      />
-      <div className="all-menu-navbar allNavBar">
-        <div className="no-select category firstCategory">
-          {firstCategoryList.map((menu) => (
-            <li className={`cursor menu-navbar`} key={menu.id}>
-              <input
-                className="active"
-                type="checkbox"
-                name="categorie"
-                id={menu.name}
-                checked={menu.name === selectedRadio}
-                onChange={handleCategoryChange}
-                onClick={() => {
-                  goToPageAndScroll("productList");
-                }}
-              />
-              <label
-                className={`btn btn-navbar ${
-                  menu.name === selectedRadio ? "selected" : ""
-                }`}
-                htmlFor={menu.name}
-              >
-                {menu.name}
-              </label>
-              <div className="line"></div>
-            </li>
-          ))}
+    <>
+      <p onClick={handleToggleMenu} id="iconMenu"></p>
+      <div className={classNameMenu}>
+        <img
+          className="logo"
+          key={generalDataImg[3].id}
+          src={generalDataImg[3].src}
+          alt={generalDataImg[3].alt}
+          onClick={() => {
+            goToPageAndScroll("scrollTop");
+            setSelectedRadio("");
+            setSelectedSubRadio("");
+            setSelectedProduct("");
+            setIsActive(false);
+          }}
+        />
+        <div className="all-menu-navbar allNavBar">
+          <div className="no-select category firstCategory">
+            {firstCategoryList.map((menu) => (
+              <li className={`cursor menu-navbar`} key={menu.id}>
+                <input
+                  className="active"
+                  type="checkbox"
+                  name="categorie"
+                  id={menu.name}
+                  checked={menu.name === selectedRadio}
+                  onChange={handleCategoryChange}
+                  onClick={() => {
+                    goToPageAndScroll("productList");
+                  }}
+                />
+                <label
+                  className={`btn btn-navbar ${
+                    menu.name === selectedRadio ? "selected" : ""
+                  }`}
+                  htmlFor={menu.name}
+                >
+                  {menu.name}
+                </label>
+                <div className="line"></div>
+              </li>
+            ))}
+          </div>
+          {selectedRadio && <SecondCategoryNavBar />}
         </div>
-        {selectedRadio && <SecondCategoryNavBar />}
       </div>
-    </div>
+    </>
   );
 };
 

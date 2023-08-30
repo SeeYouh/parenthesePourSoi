@@ -6,11 +6,17 @@ export const RadioProvider = ({ children }) => {
   const [selectedSubRadio, setSelectedSubRadio] = useState("");
   const [selectedRadio, setSelectedRadio] = useState("");
   const [selectedProduct, setSelectedProduct] = useState("");
+  const [menuNavActive, setMenuNavActive] = useState(false);
   const [isActive, setIsActive] = useState(false);
+  const closeMenu = () => {
+    setMenuNavActive(false);
+  };
 
   return (
     <RadioContext.Provider
       value={{
+        menuNavActive,
+        setMenuNavActive,
         selectedSubRadio,
         setSelectedSubRadio,
         selectedRadio,
@@ -18,7 +24,8 @@ export const RadioProvider = ({ children }) => {
         selectedProduct,
         setSelectedProduct,
         isActive,
-        setIsActive
+        setIsActive,
+        closeMenu
       }}
     >
       {children}

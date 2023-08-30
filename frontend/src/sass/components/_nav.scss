@@ -2,13 +2,20 @@
   height: 100%;
 }
 
+#iconMenu {
+  display: none;
+  top: 25px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
 .navbar {
   z-index: 100;
   background-color: $bgColor7;
-
-  img {
-    height: 80px;
-  }
 
   .menu-navbar {
     li {
@@ -20,6 +27,11 @@
 //--------- MEDIA QUERIES --------//
 
 @media screen and (max-width: 1199px) {
+  .navbar {
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+  }
+
   .category {
     flex-direction: column;
   }
@@ -29,14 +41,34 @@
     padding-bottom: 30px;
     min-height: 100vh;
     min-width: 100vw;
-    background-color: $bgColor7;
+    // background-color: $bgColor7;
   }
 
   .navbar {
-    border: 1px solid black;
     height: 100vh;
     width: 100%;
     max-width: 800px;
+  }
+
+  .logo {
+    height: 150px;
+    width: 150px;
+  }
+
+  #iconMenu {
+    display: block;
+  }
+
+  #iconMenu:before {
+    content: "\2630";
+  }
+
+  .activeMenu #iconMenu:before {
+    content: "\2715";
+  }
+
+  .activeMenu {
+    left: 0;
   }
 }
 

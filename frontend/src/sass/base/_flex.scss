@@ -17,7 +17,6 @@ main,
 .menu-navbar,
 .menu-navbar .a,
 .menuUser,
-.navBar,
 .productDescriptPresentFirst,
 .productTab,
 .search-bar,
@@ -37,7 +36,6 @@ main,
 .legal,
 .legalContainer,
 main,
-.navBar,
 .youWillLikeIt,
 .textProductCard {
   flex-direction: column;
@@ -69,7 +67,6 @@ footer,
   justify-content: flex-end;
 }
 
-.allNavBar,
 .logo {
   justify-content: flex-start;
 }
@@ -101,7 +98,6 @@ footer,
 .legalContainer,
 .legalTitle,
 main,
-.navbar,
 .productDescriptPresentFirst,
 .search-bar,
 .youWillLikeIt-content,
@@ -114,7 +110,7 @@ main,
   align-items: flex-start;
 }
 
-//------ FLEX --------//
+//------ OTHER FLEX --------//
 
 .arrayProductCard {
   flex-wrap: wrap;
@@ -124,9 +120,23 @@ main,
   flex-grow: 1;
 }
 
+//------ MEDIA QUERIES --------//
+
+@media screen and (max-width: 1199px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .all-menu-navbar {
     flex-direction: column;
     align-items: flex-end;
+  }
+
+  .category {
+    flex-direction: row;
   }
 }

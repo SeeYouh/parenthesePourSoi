@@ -24,6 +24,14 @@
   padding: 90px 0 90px 0;
 }
 
+.subCategory {
+  li {
+    padding: calc(10px + 1vmin) calc(15px + 1vmin);
+  }
+}
+
+//--------- MEDIA QUERIES --------//
+
 @media screen and (min-width: 1200px) {
   .menuSubCategory {
     padding: 0 20px 0 20px;
@@ -31,8 +39,13 @@
 }
 
 @media screen and (max-width: 1199px) {
+  .logo {
+    padding-top: 10px;
+  }
+
+  .category,
   .menuSubCategory {
-    padding-top: 15px;
+    padding-top: 120px;
   }
 
   .menu-navbar {

@@ -32,15 +32,4 @@
         "./pages/legal";
 
 // prettier-ignore
-@import "./themes/largeScreen/footer",
-        "./themes/largeScreen/logo",
-        "./themes/largeScreen/navbar",
-        "./themes/largeScreen/productCard",
-        "./themes/largeScreen/productContainer",
-        "./themes/largeScreen/subCategoryLarge";
-
-// prettier-ignore
-@import "./themes/smallScreen/logo",
-        "./themes/smallScreen/navbar",
-        "./themes/smallScreen/productContainer",
-        "./themes/smallScreen/subCategorySmall";
+@import "./themes/largeScreen/productCard";

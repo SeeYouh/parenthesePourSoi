@@ -136,10 +136,8 @@ export const santeMax = {
       }
     ]
   },
-  firstCategory: [getCategoryById("0GestionDuPoids").name],
-  secondCategory: [
-    getSecondCategoryById("0GestionDuPoids0Detoxification").text
-  ],
+  firstCategory: [getCategoryById("1Sante").name],
+  secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "/img/jpg/product/santeMax.jpg",
   picture264: "/img/jpg/product/santeMax264.jpg",
   picture400: "/img/jpg/product/santeMax400.jpg",

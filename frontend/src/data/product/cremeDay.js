@@ -21,6 +21,7 @@ export const cremeDay = {
           "Votre visage mérite le meilleur, et notre Crème Hydratante d'Exception est là pour vous offrir un teint éclatant et une peau en pleine santé. Sa formule soigneusement élaborée agit en harmonie avec votre peau pour révéler sa beauté naturelle. Avec notre Crème Hydratante d'Exception, c'est l'assurance d'une peau sublimée et choyée, pour un éclat qui fera tourner toutes les têtes."
         ],
         picture450: "/img/jpg/product/cremeDayIllusText450.jpg",
+  picture225: "/img/jpg/product/cremeDayIllusText225.jpg",
         picture675: "/img/jpg/product/cremeDayIllusText675.jpg",
         picture900: "/img/jpg/product/cremeDayIllusText900.jpg"
       },

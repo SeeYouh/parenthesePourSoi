@@ -21,6 +21,7 @@ export const eauTonique = {
           "En utilisant régulièrement l'eau tonique dans votre routine de soins de la peau, vous pourrez constater une nette amélioration de l'apparence de votre peau. Elle retrouve son éclat, sa douceur et son harmonie, vous offrant ainsi un teint plus apaisé et équilibré. En outre, l'eau tonique peut être utilisée avant l'application du maquillage pour préparer la peau et créer une base lisse, ce qui permet à votre maquillage de tenir plus longtemps et de mieux se fondre avec votre peau."
         ],
         picture450: "/img/jpg/product/eauToniqueIllusText450.jpg",
+  picture225: "/img/jpg/product/eauToniqueIllusText225.jpg",
         picture675: "/img/jpg/product/eauToniqueIllusText675.jpg",
         picture900: "/img/jpg/product/eauToniqueIllusText900.jpg"
       },

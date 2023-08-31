@@ -21,6 +21,7 @@ export const serumFlash = {
           "L'action puissante de notre sérum aide à lifter et raffermir la peau vous offrant une peau plus jeune. Il agit sur les rides et les ridules pour les lisser et les estomper. Les signes du vieillissement sont estompés, vous laissant avec une peau ferme et éclatante."
         ],
         picture450: "/img/jpg/product/serumFlashIllusText450.jpg",
+  picture225: "/img/jpg/product/serumFlashIllusText225.jpg",
         picture675: "/img/jpg/product/serumFlashIllusText675.jpg",
         picture900: "/img/jpg/product/serumFlashIllusText900.jpg"
       },

@@ -17,6 +17,7 @@ export const baumeLevres = {
         subTitle: "Protégez-les",
         text: "Une des forces majeures de notre baume à lèvres réside dans sa capacité exceptionnelle à protéger vos lèvres. Conçu pour faire face à tous les types de conditions météorologiques, il offre une défense efficace contre les éléments nuisibles. Sa formule avancée crée une barrière protectrice robuste qui isole vos lèvres des effets néfastes du soleil, du vent et du froid. Affronter les conditions météorologiques les plus rudes devient ainsi une expérience sans souci. Vos lèvres restent non seulement belles et douces, mais aussi saines et bien protégées, quel que soit le temps à l'extérieur. Avec notre baume à lèvres, chaque jour est un bon jour pour vos lèvres.",
         picture450: "/img/jpg/product/baumeLevresIllusText450.jpg",
+  picture225: "/img/jpg/product/baumeLevresIllusText225.jpg",
         picture675: "/img/jpg/product/baumeLevresIllusText675.jpg",
         picture900: "/img/jpg/product/baumeLevresIllusText900.jpg"
       },

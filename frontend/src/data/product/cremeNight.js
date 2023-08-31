@@ -20,6 +20,7 @@ export const cremeNight = {
           "Notre crème de nuit cible efficacement les tâches et les décolorations visibles de la peau. En estompant progressivement ces imperfections disgracieuses, elle révèle un teint plus uniforme et éclatant. Spécialement formulée pour être efficace sur le masque de grossesse, elle agit en douceur pour réduire les taches pigmentaires liées à la grossesse. Vous retrouverez une peau éclatante, même après la période de grossesse."
         ],
         picture450: "/img/jpg/product/cremeNightIllusText450.jpg",
+  picture225: "/img/jpg/product/cremeNightIllusText225.jpg",
         picture675: "/img/jpg/product/cremeNightIllusText675.jpg",
         picture900: "/img/jpg/product/cremeNightIllusText900.jpg"
       },

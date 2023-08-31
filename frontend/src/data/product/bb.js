@@ -21,6 +21,7 @@ export const bb = {
         ],
         picture675: "/img/jpg/product/BBIllusText675.jpg",
         picture450: "/img/jpg/product/BBIllusText450.jpg",
+  picture225: "/img/jpg/product/BBIllusText225.jpg",
         picture900: "/img/jpg/product/BBIllusText900.jpg"
       },
       {

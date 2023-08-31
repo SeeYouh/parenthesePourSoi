@@ -45,7 +45,11 @@ const Description = ({ product }) => {
             {index === 1 && (
               <picture>
                 <source
-                  media="(max-width: 1439px)"
+                  media="(max-width: 600px)"
+                  srcSet={paragraph.picture225}
+                />
+                <source
+                  media="(min-width: 601px) and (max-width: 1439px)"
                   srcSet={paragraph.picture450}
                 />
                 <source

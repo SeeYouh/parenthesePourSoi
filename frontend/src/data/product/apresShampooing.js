@@ -24,6 +24,7 @@ export const apresShampooing = {
           "Grâce à son action apaisante et protectrice, notre après-shampooing complète parfaitement les bienfaits de notre shampooing, créant ainsi un duo de soin complet pour vos cheveux et votre peau. Ensemble, ils offrent une approche globale pour des cheveux sains, brillants et une peau apaisée et équilibrée."
         ],
         picture450: "/img/jpg/product/ApresShampooingIllusText450.jpg",
+  picture225: "/img/jpg/product/ApresShampooingIllusText225.jpg",
         picture675: "/img/jpg/product/ApresShampooingIllusText675.jpg",
         picture900: "/img/jpg/product/ApresShampooingIllusText900.jpg"
       },

@@ -20,6 +20,7 @@ export const dentitionBlanche = {
           "La santé de vos gencives est primordiale dans un soin bucco-dentaire complet, c'est pourquoi notre poudre prend soin d'elles avec une délicatesse inégalée. Grâce à une formule douce mais efficace, notre poudre nettoie vos gencives tout en les protégeant des irritations et des inflammations. Vous pouvez vous attendre à une santé bucco-dentaire optimale, car notre formule est spécialement conçue pour respecter la sensibilité de vos gencives. En prenant soin de vos gencives, notre produit vous permet de profiter d'une sensation de confort et de bien-être dans votre bouche, pour des sourires éclatants sans compromis sur la santé de vos gencives."
         ],
         picture450: "/img/jpg/product/dentitionBlancheIllusText450.jpg",
+  picture225: "/img/jpg/product/dentitionBlancheIllusText225.jpg",
         picture675: "/img/jpg/product/dentitionBlancheIllusText675.jpg",
         picture900: "/img/jpg/product/dentitionBlancheIllusText900.jpg"
       },

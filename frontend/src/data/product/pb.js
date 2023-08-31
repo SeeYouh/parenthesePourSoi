@@ -20,6 +20,7 @@ export const pb = {
           "Notre produit offre une régénération et une réparation des tissus exceptionnelles. Il favorise un système digestif sain en diminuant l’irritation des intestins, vous procurant ainsi une sensation de bien-être intérieur. De plus, il améliore la santé cardiovasculaire, renforçant votre cœur pour une vitalité éclatante."
         ],
         picture450: "/img/jpg/product/pbIllusText450.jpg",
+  picture225: "/img/jpg/product/pbIllusText225.jpg",
         picture675: "/img/jpg/product/pbIllusText675.jpg",
         picture900: "/img/jpg/product/pbIllusText900.jpg"
       },

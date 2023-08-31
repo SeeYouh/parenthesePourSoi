@@ -22,6 +22,7 @@ export const pn = {
           "Explorez tous les avantages extraordinaires de cette composition innovante et réveillez votre plein potentiel. Offrez à votre corps et à votre esprit le soutien dont ils ont besoin pour prospérer. Faites le choix de l'optimisation, optez pour cette formule spéciale."
         ],
         picture450: "/img/jpg/product/pnIllusText450.jpg",
+  picture225: "/img/jpg/product/pnIllusText225.jpg",
         picture675: "/img/jpg/product/pnIllusText675.jpg",
         picture900: "/img/jpg/product/pnIllusText900.jpg"
       },

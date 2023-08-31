@@ -20,6 +20,7 @@ export const decontaminant = {
           "N'oublions pas le soin délicat que vos yeux méritent. Notre produit contient une formule douce spécialement conçue pour calmer et apaiser vos yeux fatigués. Ressentez le confort et l'apaisement à chaque utilisation et offrez-vous un regard reposé, éclatant de vitalité."
         ],
         picture450: "/img/jpg/product/decontaminantIllusText450.jpg",
+  picture225: "/img/jpg/product/decontaminantIllusText225.jpg",
         picture675: "/img/jpg/product/decontaminantIllusText675.jpg",
         picture900: "/img/jpg/product/decontaminantIllusText900.jpg"
       },

@@ -21,6 +21,7 @@ export const harmonie = {
           "Les ingrédients minutieusement sélectionnés de notre produit favorisent une digestion saine et équilibrée, vous évitant ainsi les troubles digestifs courants. Grâce à ses propriétés détoxifiantes, il vous aide à éliminer les toxines accumulées dans votre corps, favorisant ainsi ainsi un mieux-être intérieur."
         ],
         picture450: "/img/jpg/product/eliteIllusText450.jpg",
+  picture225: "/img/jpg/product/eliteIllusText225.jpg",
         picture675: "/img/jpg/product/eliteIllusText675.jpg",
         picture900: "/img/jpg/product/eliteIllusText900.jpg"
       },

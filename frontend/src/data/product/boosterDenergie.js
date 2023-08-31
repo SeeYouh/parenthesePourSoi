@@ -21,6 +21,7 @@ export const boosterEnergie = {
           "En parallèle, ce produit exceptionnel combat les manifestations allergiques, vous offrant un soulagement bienvenu face aux irritations et inconforts. Il favorise également une digestion saine en optimisant le fonctionnement de vos organes et améliorant le transit intestinal, vous permettant de vous sentir bien dans votre corps et dans votre esprit."
         ],
         picture450: "/img/jpg/product/BEIllusText450.jpg",
+  picture225: "/img/jpg/product/BEIllusText225.jpg",
         picture675: "/img/jpg/product/BEIllusText675.jpg",
         picture900: "/img/jpg/product/BEIllusText900.jpg"
       },

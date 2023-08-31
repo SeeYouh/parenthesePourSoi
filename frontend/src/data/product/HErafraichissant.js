@@ -17,6 +17,7 @@ export const heRafraichissant = {
         subTitle: "Combattez vos maux",
         text: "La respiration est essentielle à la vie, mais elle peut être entravée par des problèmes tels que la congestion ou les allergies. Notre huile essentielle rafraîchissante est là pour vous aider. Elle apaise les toux, dégage les voies respiratoires et procure une sensation de fraîcheur, vous permettant de respirer librement et facilement. De plus, notre huile essentielle peut aider à apaiser les démangeaisons, réduire les rougeurs et calmer les piqûres d'insectes. Elle peut être appliquée directement sur la peau ou diluée dans une huile de support pour un soulagement rapide et efficace. De plus, ses propriétés régulatrices aident à contrôler la transpiration excessive, vous permettant de vous sentir plus frais et plus confiant.",
         picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
+  picture225: "/img/jpg/product/HErafraichssantIllusText225.jpg",
         picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
         picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
       },

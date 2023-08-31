@@ -6,7 +6,9 @@
 .blocTitleImg,
 .category,
 .contactContainer,
+.containerLegal,
 footer,
+.footerContainer,
 .globalLegalContainer,
 .imgProduit,
 .legal,
@@ -20,6 +22,7 @@ main,
 .productDescriptPresentFirst,
 .productTab,
 .search-bar,
+.socialNetwork,
 .socialNetWorkContainer,
 .textProductCard,
 .titleTextProduct h1,
@@ -32,6 +35,7 @@ main,
 
 .bgParagraph,
 .contactContainer,
+.containerLegal,
 .globalLegalContainer,
 .legal,
 .legalContainer,
@@ -43,12 +47,9 @@ main,
 
 .arrayProductCard,
 .bgProductDetails,
-.blocTitleImg,
 footer,
-.productTab,
 .socialNetwork,
 .socialNetWorkContainer,
-.youWillLikeIt-content,
 .menu-navbar {
   flex-direction: row;
 }
@@ -120,13 +121,49 @@ main,
   flex-grow: 1;
 }
 
+// .productTab,
+// .youWillLikeIt-content {
+//   flex-flow: row wrap;
+// }
+
 //------ MEDIA QUERIES --------//
 
 @media screen and (max-width: 1199px) {
+  .bgParagraph picture,
   .navbar {
     display: flex;
+  }
+
+  .productTab {
+    justify-content: space-around;
+  }
+
+  .bgParagraph,
+  .bgParagraph picture,
+  .youWillLikeIt-content {
+    justify-content: center;
+  }
+
+  .blocTitleImg,
+  footer,
+  .footerContainer,
+  .navbar {
     flex-direction: column;
+  }
+
+  .productTab,
+  .youWillLikeIt-content,
+  .productDescriptPresentFirst {
+    flex-flow: row wrap;
+  }
+
+  .blocTitleImg,
+  .navbar {
     align-items: center;
+  }
+
+  .blocTitleImg {
+    justify-content: center;
   }
 }
 
@@ -136,7 +173,22 @@ main,
     align-items: flex-end;
   }
 
-  .category {
+  .blocTitleImg,
+  .category,
+  .footerContainer {
     flex-direction: row;
+  }
+
+  .footerContainer {
+    justify-content: space-between;
+  }
+
+  .footerContainer,
+  .socialNetwork {
+    align-items: center;
+  }
+
+  .socialNetwork {
+    justify-content: center;
   }
 }

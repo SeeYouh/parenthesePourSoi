@@ -70,6 +70,7 @@ export const serumComplet = {
           </div>
         ),
         picture450: "/img/jpg/product/serumCompletIllusText450.jpg",
+  picture225: "/img/jpg/product/serumCompletIllusText225.jpg",
         picture675: "/img/jpg/product/serumCompletIllusText675.jpg",
         picture900: "/img/jpg/product/serumCompletIllusText900.jpg"
       },

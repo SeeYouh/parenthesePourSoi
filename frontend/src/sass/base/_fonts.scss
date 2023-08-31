@@ -12,6 +12,10 @@
   font-weight: bold;
 }
 
+.titleTextProduct h1 {
+  font-weight: 700;
+}
+
 #root {
   font-weight: lighter;
   font-size: 0.8rem;
@@ -36,15 +40,44 @@
 }
 
 .titleInSummary,
-.titleTextProduct h2,
 .btn-search {
   font-size: 2rem;
 }
 
 .bgParagraph h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
-.textParagraph {
-  font-size: 1.1rem;
+.titleTextProduct {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .bgParagraph h3 {
+    font-size: calc(0.5rem + 1.5vw);
+  }
+
+  .textParagraph {
+    font-size: calc(0.4rem + 1.5vw);
+  }
+
+  .titleTextProduct {
+    h1 {
+      font-size: calc(0.5rem + 2.5vw);
+    }
+    h2 {
+      font-size: calc(0.5rem + 2vw);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .textParagraph {
+    font-size: 1.2rem;
+  }
 }

@@ -20,6 +20,7 @@ export const gelDouche = {
           "Ce soin est particulièrement adapté aux peaux sensibles et réactives grâce à sa composition douce et naturelle. Il apaise les rougeurs, les démangeaisons et les irritations, procurant un soulagement bienvenu et un confort optimal à votre peau. Vous pouvez ainsi profiter d'un nettoyage efficace tout en respectant la sensibilité de votre peau, ce qui en fait un choix idéal pour une routine de soin en douceur."
         ],
         picture450: "/img/jpg/product/gelDoucheIllusText450.jpg",
+  picture225: "/img/jpg/product/gelDoucheIllusText225.jpg",
         picture675: "/img/jpg/product/gelDoucheIllusText675.jpg",
         picture900: "/img/jpg/product/gelDoucheIllusText900.jpg"
       },

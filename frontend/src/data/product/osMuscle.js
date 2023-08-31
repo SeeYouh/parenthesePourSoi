@@ -21,6 +21,7 @@ export const osMuscle = {
           "La santé bucco-dentaire est un indicateur important du bien-être global, et c'est là que notre produit entre en jeu. En stimulant la production de collagène, élément essentiel pour maintenir la santé de vos gencives et la robustesse de vos os, notre formule offre une solution holistique pour la santé buccale. Au-delà de ses effets bénéfiques internes, elle contribue à améliorer votre apparence extérieure. Un sourire rayonnant est un signe de confiance en soi et de santé intérieure, et avec notre produit, vous aurez toutes les raisons de sourire."
         ],
         picture450: "/img/jpg/product/osMuscleIllusText450.jpg",
+  picture225: "/img/jpg/product/osMuscleIllusText225.jpg",
         picture675: "/img/jpg/product/osMuscleIllusText675.jpg",
         picture900: "/img/jpg/product/osMuscleIllusText900.jpg"
       },

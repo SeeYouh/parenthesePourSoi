@@ -24,6 +24,7 @@ export const apportQ10 = {
           "En renforçant le système immunitaire, notre puissante formule vous aide à mieux lutter contre les infections et les maladies. Vous vous sentirez plus résistant et mieux armé pour affronter les agressions extérieures. Connu également pour son impact bénéfique sur la santé cardiovasculaire, le CoQ10 soutient le bon fonctionnement du cœur et maintient une circulation sanguine optimale, vous offrant ainsi une santé cardiaque optimisée."
         ],
         picture450: "/img/jpg/product/apportQ10IllusText450.jpg",
+  picture225: "/img/jpg/product/apportQ10IllusText225.jpg",
         picture675: "/img/jpg/product/apportQ10IllusText675.jpg",
         picture900: "/img/jpg/product/apportQ10IllusText900.jpg"
       },

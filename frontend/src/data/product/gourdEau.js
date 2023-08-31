@@ -130,6 +130,7 @@ export const gourdEau = {
           </div>
         ),
         picture450: "/img/jpg/product/gourdEauIllusText450.jpg",
+  picture225: "/img/jpg/product/gourdEauIllusText225.jpg",
         picture675: "/img/jpg/product/gourdEauIllusText675.jpg",
         picture900: "/img/jpg/product/gourdEauIllusText900.jpg"
       },

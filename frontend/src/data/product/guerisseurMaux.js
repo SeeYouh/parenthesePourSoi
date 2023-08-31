@@ -24,6 +24,7 @@ export const guerisseurMaux = {
           "Un autre avantage significatif est sa capacité à réguler la pression artérielle. En aidant à maintenir une pression artérielle équilibrée, il contribue à la relaxation des vaisseaux sanguins et à la prévention de l'inflammation, il offre une protection supplémentaire pour le système cardiovasculaire."
         ],
         picture450: "/img/jpg/product/apportQ10IllusText450.jpg",
+  picture225: "/img/jpg/product/apportQ10IllusText225.jpg",
         picture675: "/img/jpg/product/apportQ10IllusText675.jpg",
         picture900: "/img/jpg/product/apportQ10IllusText900.jpg"
       },

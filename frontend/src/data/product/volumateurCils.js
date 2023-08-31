@@ -24,6 +24,7 @@ export const volumateurCils = {
           "Doté d'ingrédients bénéfiques, notre sérum prend soin de vos cils en profondeur. Il leur apporte les nutriments essentiels pour les nourrir et les renforcer, leur redonnant force et vitalité. De plus, il forme une barrière protectrice contre les agressions environnementales qui pourraient les affaiblir. Vous pouvez compter sur notre sérum pour chouchouter vos cils et les rendre plus éclatants que jamais."
         ],
         picture450: "/img/jpg/product/volumateurCilsIllusText450.jpg",
+  picture225: "/img/jpg/product/volumateurCilsIllusText225.jpg",
         picture675: "/img/jpg/product/volumateurCilsIllusText675.jpg",
         picture900: "/img/jpg/product/volumateurCilsIllusText900.jpg"
       },

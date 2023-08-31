@@ -11,7 +11,6 @@ import Footer from "../components/data/Footer";
 import InSummary from "../components/InSummary";
 import { productList } from "../data/productList";
 import { RadioContext } from "../components/utils/radioContext";
-import SecondCategoryNavBar from "../components/data/SecondCategoryNavBar";
 
 const ProductPage = () => {
   const location = useLocation();
@@ -55,12 +54,7 @@ const ProductPage = () => {
     damping: 30
   });
 
-  const subCategoryProduct = [
-    "Description",
-    "Résumé",
-    "En complément"
-    // "Informations supplémentaires"
-  ];
+  const subCategoryProduct = ["Description", "Résumé", "En complément"];
 
   const [selectedCategoryProduct, setSelectedCategoryProduct] = useState(
     subCategoryProduct[0]
@@ -80,7 +74,6 @@ const ProductPage = () => {
     <div className="home productPage" id="productPage" name="productPage">
       <div key={product.nameProduct + "0"}>
         <FirstCategoryNavBar />
-        <SecondCategoryNavBar />
         <motion.div className="progressBar" style={{ scaleX }}></motion.div>
       </div>
       <Element
@@ -97,10 +90,10 @@ const ProductPage = () => {
             <picture className="imgProduit">
               <source media="(max-width: 600px)" srcSet={product.picture264} />
               <source
-                media="(min-width: 601px) and (max-width: 1199px)"
+                media="(min-width: 601px) and (max-width: 1499px)"
                 srcSet={product.picture400}
               />
-              <source media="(min-width: 1200px)" srcSet={product.picture} />
+              <source media="(min-width: 1500px)" srcSet={product.picture} />
               <img src={product.picture} alt={product.alt} />
             </picture>
             <div className="titleTextProduct">

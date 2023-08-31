@@ -20,6 +20,7 @@ export const heSoulageante = {
           "Elle vous offre une véritable source de sérénité et de détente. En réduisant le stress et l'anxiété, elle libère les tensions et améliore votre humeur, vous permettant de vous sentir plus apaisé et équilibré."
         ],
         picture450: "/img/jpg/product/heSoulageanteIllusText450.jpg",
+  picture225: "/img/jpg/product/heSoulageanteIllusText225.jpg",
         picture675: "/img/jpg/product/heSoulageanteIllusText675.jpg",
         picture900: "/img/jpg/product/heSoulageanteIllusText900.jpg"
       },

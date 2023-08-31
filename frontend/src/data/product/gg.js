@@ -20,6 +20,7 @@ export const gg = {
           "Notre produit constitue un combo de légumes aux bienfaits multiples pour votre santé. Il est un allié puissant en apportant les vitamines et minéraux essentiels au corps de manière efficace. Finies les carences en fer et en vitamines grâce à notre trésor naturel de nutriments. En plus, nos légumes sélectionnés ont un effet détoxifiant qui nettoie les déchets de l’organisme, favorisant ainsi un système digestif sain, un transit intestinal facilité et stoppant les remontées acides. Profitez d'une santé optimale avec notre élixir qui prend soin de vous et de votre organisme."
         ],
         picture450: "/img/jpg/product/ggIllusText450.jpg",
+  picture225: "/img/jpg/product/ggIllusText225.jpg",
         picture675: "/img/jpg/product/ggIllusText675.jpg",
         picture900: "/img/jpg/product/ggIllusText900.jpg"
       },

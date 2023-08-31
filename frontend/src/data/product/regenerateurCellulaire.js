@@ -22,6 +22,7 @@ export const regenerateurCellulaire = {
         ],
         picture675: "/img/jpg/product/REIllusText675.jpg",
         picture450: "/img/jpg/product/REIllusText450.jpg",
+  picture225: "/img/jpg/product/REIllusText225.jpg",
         picture900: "/img/jpg/product/REIllusText900.jpg"
       },
       {

@@ -17,6 +17,7 @@ export const heRelaxante = {
         subTitle: "Favorisez un sommeil récupérateur",
         text: "Le sommeil est un élément essentiel de notre santé et de notre bien-être. Malheureusement, de nombreux facteurs peuvent perturber notre sommeil, comme le stress, l'anxiété ou les préoccupations quotidiennes. L'huile essentielle peut être une solution naturelle pour améliorer la qualité de notre sommeil. En créant une atmosphère propice au repos, elle peut aider à réduire les troubles du sommeil et favoriser un sommeil profond et réparateur. Imaginez-vous préparant votre chambre pour la nuit, diffusant quelques gouttes d'huile essentielle, et laissant son parfum vous envelopper alors que vous vous glissez dans vos draps. C'est une routine qui peut transformer votre nuit et vous aider à vous réveiller frais et dispos le matin.",
         picture450: "/img/jpg/product/heRelaxantIllusText450.jpg",
+  picture225: "/img/jpg/product/heRelaxantIllusText225.jpg",
         picture675: "/img/jpg/product/heRelaxantIllusText675.jpg",
         picture900: "/img/jpg/product/heRelaxantIllusText900.jpg"
       },

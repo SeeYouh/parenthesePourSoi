@@ -20,6 +20,7 @@ export const huileDemaquillante = {
           "Votre bien-être et la santé de votre peau sont notre priorité. C'est pourquoi nous avons opté pour une formulation dépourvue d'huile minérale, qui peut obstruer les pores et causer plus de mal que de bien. Au contraire, notre produit est élaboré avec des huiles de plantes et de fruits aux propriétés bénéfiques. Ces ingrédients naturels sont doux pour votre peau tout en étant incroyablement efficaces pour éliminer les impuretés et hydrater en profondeur. Votre peau appréciera ce doux soin d'origine naturelle, lui offrant une expérience démaquillante optimale sans aucun compromis sur l'efficacité."
         ],
         picture450: "/img/jpg/product/huileDemaquillanteIllusText450.jpg",
+  picture225: "/img/jpg/product/huileDemaquillanteIllusText225.jpg",
         picture675: "/img/jpg/product/huileDemaquillanteIllusText675.jpg",
         picture900: "/img/jpg/product/huileDemaquillanteIllusText900.jpg"
       },

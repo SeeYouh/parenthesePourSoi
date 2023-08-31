@@ -1,7 +1,4 @@
-import {
-  getCategoryById,
-  getSecondCategoryById,
-} from '../firstCategoryHelper';
+import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const apportVitamines = {
   nameProduct: "Apport Vitamines",
@@ -25,6 +22,7 @@ export const apportVitamines = {
           "En plus de prendre soin de votre peau, notre produit contribue également à renforcer votre cœur et vos poumons. Il favorise une meilleure fonction cardiaque et pulmonaire, vous permettant ainsi de bénéficier d'une santé cardiovasculaire optimale."
         ],
         picture450: "/img/jpg/product/apportVitaminesIllusText450.jpg",
+        picture225: "/img/jpg/product/apportVitaminesIllusText225.jpg",
         picture675: "/img/jpg/product/apportVitaminesIllusText675.jpg",
         picture900: "/img/jpg/product/apportVitaminesIllusText900.jpg"
       },

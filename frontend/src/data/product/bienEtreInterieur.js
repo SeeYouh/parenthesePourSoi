@@ -20,6 +20,7 @@ export const bienEtreInterieur = {
           "En rétablissant l'équilibre de votre microbiote, les prébiotiques et probiotiques contribuent à améliorer votre santé globale et à prévenir divers troubles digestifs et maladies chroniques associées. Recommandé pour les maladies chroniques telles que le côlon irritable et la maladie de Crohn (avec avis médical), il améliore également votre santé globale."
         ],
         picture450: "/img/jpg/product/bienEtreInterieurIllusText450.jpg",
+  picture225: "/img/jpg/product/bienEtreInterieurIllusText225.jpg",
         picture675: "/img/jpg/product/bienEtreInterieurIllusText675.jpg",
         picture900: "/img/jpg/product/bienEtreInterieurIllusText900.jpg"
       },

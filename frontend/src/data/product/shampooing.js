@@ -21,6 +21,7 @@ export const shampooing = {
           "Notre shampooing est également un allié puissant pour votre cuir chevelu. Sa composition douce et naturelle, débarrassée de tout produit chimique agressif, respecte votre peau, l'apaise et la protège. Les problèmes de cuir chevelu tels que les irritations, les rougeurs, les démangeaisons et même l'eczéma sont atténués, vous offrant un confort quotidien inégalé. De plus, sa capacité à lutter contre les pellicules contribue à rétablir l'équilibre naturel de votre cuir chevelu, pour une sensation de fraîcheur et de propreté tout au long de la journée."
         ],
         picture450: "/img/jpg/product/shampooingIllusText450.jpg",
+  picture225: "/img/jpg/product/shampooingIllusText225.jpg",
         picture675: "/img/jpg/product/shampooingIllusText675.jpg",
         picture900: "/img/jpg/product/shampooingIllusText900.jpg"
       },

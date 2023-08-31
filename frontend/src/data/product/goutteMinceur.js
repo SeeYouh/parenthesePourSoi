@@ -20,6 +20,7 @@ export const goutteMinceur = {
           "Les gouttes nuit agissent spécifiquement pendant votre sommeil pour prévenir l'accumulation de nouvelles graisses. L'un des principaux avantages des gouttes nuit réside dans leur capacité à diminuer le cortisol, l'hormone du stress. Le cortisol élevé peut être un facteur qui contribue à la prise de poids, car il peut favoriser le stockage des graisses, en particulier autour de la zone abdominale. En réduisant le cortisol, notre produit vous offre un soulagement naturel et une relaxation profonde, tant pour votre corps que pour votre esprit."
         ],
         picture450: "/img/jpg/product/gouttesIllusText450.jpg",
+  picture225: "/img/jpg/product/gouttesIllusText225.jpg",
         picture675: "/img/jpg/product/gouttesIllusText675.jpg",
         picture900: "/img/jpg/product/gouttesIllusText900.jpg"
       },

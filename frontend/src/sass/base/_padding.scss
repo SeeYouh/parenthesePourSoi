@@ -1,12 +1,28 @@
 //        PADDING-BOTTOM            //
 
+.titleTextProduct h2 {
+  padding-bottom: 10px;
+}
+
 .globalLegalContainer p,
 .subCategory h1,
 .subLegalTitle {
   padding-bottom: 20px;
 }
 
+.titleTextProduct {
+  padding-bottom: 30px;
+}
+
 //        PADDING-LEFT            //
+
+.titleTextProduct {
+  h1,
+  h2 {
+    padding-left: 30px;
+  }
+}
+
 //        PADDING-RIGHT            //
 //        PADDING-TOP            //
 
@@ -35,6 +51,10 @@
 @media screen and (min-width: 1200px) {
   .menuSubCategory {
     padding: 0 20px 0 20px;
+  }
+
+  .productTab {
+    padding-left: 105px;
   }
 }
 

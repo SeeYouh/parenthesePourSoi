@@ -20,6 +20,7 @@ export const gelNettoyant = {
           "Mais l'efficacité de notre gel ne s'arrête pas là. Il contient des actifs ciblés qui agissent efficacement contre les imperfections cutanées. Que vous ayez des inflammations, des éruptions cutanées ou de l'acné, notre produit est là pour vous aider. Il travaille en profondeur pour réduire les inflammations, combattre l'acné et prévenir l'apparition de nouvelles imperfections. Votre peau retrouve alors sa pureté, sa netteté, et son éclat naturel."
         ],
         picture450: "/img/jpg/product/gelNettoyantIllusText450.jpg",
+  picture225: "/img/jpg/product/gelNettoyantIllusText225.jpg",
         picture675: "/img/jpg/product/gelNettoyantIllusText675.jpg",
         picture900: "/img/jpg/product/gelNettoyantIllusText900.jpg"
       },

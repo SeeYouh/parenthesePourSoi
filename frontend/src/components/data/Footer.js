@@ -102,7 +102,6 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-
         <div className="legal">
           <div className="containerLegal">
             <p> ©{currentYear} Tous droits réservés </p>
@@ -133,6 +132,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="contactContainer">
           <a
             className="contact"

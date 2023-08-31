@@ -20,6 +20,7 @@ export const heDesinfectante = {
           "En tant que désinfectant naturel, cette huile essentielle peut être utilisée pour nettoyer et désinfecter diverses surfaces dans la maison, le bureau, la voiture, etc. Son action antimicrobienne aide ainsi à prévenir la propagation des germes et des bactéries, contribuant à maintenir un environnement sain et protégé."
         ],
         picture450: "/img/jpg/product/heDesinfectanteIllusText450.jpg",
+  picture225: "/img/jpg/product/heDesinfectanteIllusText225.jpg",
         picture675: "/img/jpg/product/heDesinfectanteIllusText675.jpg",
         picture900: "/img/jpg/product/heDesinfectanteIllusText900.jpg"
       },

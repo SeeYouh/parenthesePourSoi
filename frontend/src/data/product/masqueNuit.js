@@ -21,6 +21,7 @@ export const masqueNuit = {
           "Notre formule avancée travaille en profondeur pour améliorer les imperfections de la peau, vous offrant ainsi une peau plus saine et éclatante. Ce masque agit sur les zones du visage, des mains, du cou et de la poitrine pour resserrer les pores et améliorer la texture cutanée. Il est particulièrement efficace pour lutter contre les problèmes cutanés tels que l'acné, vous laissant avec une peau lisse, uniforme et rayonnante."
         ],
         picture450: "/img/jpg/product/masqueNuitIllusText450.jpg",
+  picture225: "/img/jpg/product/masqueNuitIllusText225.jpg",
         picture675: "/img/jpg/product/masqueNuitIllusText675.jpg",
         picture900: "/img/jpg/product/masqueNuitIllusText900.jpg"
       },

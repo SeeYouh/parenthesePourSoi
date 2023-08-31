@@ -22,6 +22,7 @@ export const glossRepulpant = {
           "Avec notre gloss, vos lèvres seront non seulement sublimées mais également chouchoutées, vous permettant de vous sentir confiante et radieuse à chaque instant. Offrez à vos lèvres le soin qu'elles méritent et découvrez le pouvoir d'un sourire éclatant et épanoui."
         ],
         picture450: "/img/jpg/product/glossRepulpantIllusText450.jpg",
+  picture225: "/img/jpg/product/glossRepulpantIllusText225.jpg",
         picture675: "/img/jpg/product/glossRepulpantIllusText675.jpg",
         picture900: "/img/jpg/product/glossRepulpantIllusText900.jpg"
       },

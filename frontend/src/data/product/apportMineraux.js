@@ -24,6 +24,7 @@ export const apportMineraux = {
           "Notre formule avancée a démontré son efficacité pour améliorer la qualité de vie de personnes souffrant de pathologies telles que l'endométriose, la fibromyalgie et l'arthrose. Grâce à ses propriétés apaisantes et régénératrices, elle offre un soutien précieux pour atténuer les symptômes et améliorer la vie quotidienne de ceux qui en souffrent."
         ],
         picture450: "/img/jpg/product/ApportMinerauxIllusText450.jpg",
+  picture225: "/img/jpg/product/ApportMinerauxIllusText225.jpg",
         picture675: "/img/jpg/product/ApportMinerauxIllusText675.jpg",
         picture900: "/img/jpg/product/ApportMinerauxIllusText900.jpg"
       },

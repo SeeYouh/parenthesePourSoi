@@ -1,49 +1,5 @@
-.bgProductDetails {
-  // height: 100%;
-  margin-top: 125px;
-  img {
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-.imgProduit {
-  margin: -60px 50px 30px 0;
-  height: auto;
-  background-position: center;
-  background-size: 350px;
-}
-
-.titleTextProduct {
-  height: 100%;
-  margin-left: -50px;
-  border-bottom-right-radius: 40px;
-  position: relative;
-  margin-right: 5rem;
-
-  h1 {
-    font-size: calc(3rem + 0.03vw);
-    font-weight: 700;
-  }
-
-  h2 {
-    margin: 0;
-    padding-bottom: 10px;
-  }
-  h1,
-  h2 {
-    padding-left: 30px;
-  }
-}
-
-.productTab {
-  padding-left: 105px;
-}
-
 .bgParagraph {
   h3 {
-    padding: 20px 0 0 100px;
-    letter-spacing: 2px;
     text-transform: uppercase;
   }
 
@@ -61,19 +17,16 @@
   }
 }
 
-.textParagraph {
-  padding: 10px 80px 0 80px;
-  line-height: 2.5rem;
+.bgProductDetails {
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
-.youWillLikeIt {
-  margin-top: 25px;
-
-  .youWillLikeIt-content {
-    margin-left: 50px;
-    margin-top: 15px;
-    margin-bottom: 35px;
-    height: 300px;
+.titleTextProduct {
+  h2 {
+    margin: 0;
   }
 }
 
@@ -97,7 +50,6 @@
   margin-bottom: 25px;
 
   .bubleInSummary {
-    width: 400px;
     min-height: 200px;
     display: flex;
     justify-content: center;
@@ -169,5 +121,81 @@
     width: 440px;
     top: -50px;
     left: -50px;
+  }
+}
+
+.productTab {
+  li {
+    margin-bottom: 15px;
+  }
+}
+
+//--------- MEDIA QUERIES --------//
+
+@media screen and (min-width: 1200px) {
+  .bgParagraph {
+    h3 {
+      padding: 20px 0 0 100px;
+      letter-spacing: 2px;
+    }
+  }
+
+  .bgProductDetails {
+    margin-top: 125px;
+  }
+
+  .imgProduit {
+    margin: -60px 50px 30px 0;
+    height: auto;
+    background-position: center;
+    background-size: 350px;
+  }
+
+  .textParagraph {
+    letter-spacing: 1.5px;
+    padding: 10px 80px 0 80px;
+    line-height: 2.5rem;
+  }
+
+  .titleTextProduct {
+    margin-left: -50px;
+    margin-right: 5rem;
+    height: 100%;
+    margin-left: -50px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+    margin-right: calc(1rem + 2vw);
+  }
+
+  .youWillLikeIt {
+    margin-top: 25px;
+
+    .youWillLikeIt-content {
+      margin-left: 50px;
+      margin-top: 15px;
+      margin-bottom: 35px;
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .bgParagraph {
+    h3 {
+      padding: 20px 20px 0 40px;
+    }
+  }
+
+  .imgYouWillLikeIt {
+    margin-top: -20px;
+  }
+
+  .textParagraph {
+    margin: 10px 40px;
+    text-align: justify;
+  }
+
+  .youWillLikeIt-content .textParagraph {
+    margin-bottom: 40px;
   }
 }

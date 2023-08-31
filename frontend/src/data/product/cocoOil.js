@@ -22,6 +22,7 @@ export const cocoOil = {
           "Mais les bienfaits de notre huile de coco ne s'arrêtent pas là. Elle se révèle être un masque capillaire revitalisant d'exception. En l'appliquant sur vos cheveux, vous offrez à votre crinière une nutrition intense. Les cheveux secs et abîmés retrouvent leur éclat naturel, deviennent plus faciles à coiffer et retrouvent une texture soyeuse. Et pour les tout-petits qui souffrent de croûtes de lait, l'huile de coco se révèle être une solution douce et apaisante."
         ],
         picture450: "/img/jpg/product/CocoIllusText450.jpg",
+  picture225: "/img/jpg/product/CocoIllusText225.jpg",
         picture675: "/img/jpg/product/CocoIllusText675.jpg",
         picture900: "/img/jpg/product/CocoIllusText900.jpg"
       },

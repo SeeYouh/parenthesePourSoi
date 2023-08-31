@@ -22,6 +22,7 @@ export const mereDeTous = {
           "Imaginez-vous libéré(e) de la douleur et doté(e) d'un système immunitaire robuste pour affronter tous les jours avec énergie et bien-être. Notre formule unique vous offre cette possibilité, car nous croyons en un monde où la santé et le bien-être sont accessibles à tous. Rejoignez-nous dans cette quête d'une vie sans douleur, d'une santé florissante et d'une énergie débordante. Avec notre produit, découvrez la force de la nature pour votre bien-être et votre épanouissement."
         ],
         picture450: "/img/jpg/product/MereDeTousIllusText450.jpg",
+  picture225: "/img/jpg/product/MereDeTousIllusText225.jpg",
         picture675: "/img/jpg/product/MereDeTousIllusText675.jpg",
         picture900: "/img/jpg/product/MereDeTousIllusText900.jpg"
       },

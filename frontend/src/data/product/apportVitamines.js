@@ -46,9 +46,9 @@ export const apportVitamines = {
       {
         id: "apportVitamines0",
         link: "apportMineraux",
-        pictureLove: "/img/jpg/product/apportMineraux.jpg",
-  pictureLove264: "/img/jpg/product/apportMineraux264.jpg",
-  pictureLove400: "/img/jpg/product/apportMineraux400.jpg",
+        pictureLove: "/img/jpg/product/ApportMineraux.jpg",
+        pictureLove264: "/img/jpg/product/ApportMineraux264.jpg",
+        pictureLove400: "/img/jpg/product/ApportMineraux400.jpg",
         textLove:
           "Ce produit révolutionnaire contient 32 minéraux, oligo-éléments, enzymes et super-aliments pour un soulagement efficace et une amélioration globale du bien-être. Sa formule avancée apaise le système nerveux et soulage les douleurs osseuses, musculaires et articulaires. Grâce à ses propriétés anti-inflammatoires naturelles, il réduit les inflammations pour plus de confort au quotidien. Cette formule a démontré son efficacité pour améliorer la qualité de vie des personnes souffrant de pathologies telles que l'endométriose, la fibromyalgie et l'arthrose. Elle stimule également la régénération des tissus et soutient la santé des ongles et des cheveux"
       },
@@ -56,8 +56,8 @@ export const apportVitamines = {
         id: "apportVitamines1",
         link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
-  pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
-  pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
+        pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
+        pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
         textLove:
           "Notre produit exclusif, formulé avec 36 ingrédients naturels puissants, agit comme un anti-inflammatoire, soulageant les douleurs musculaires, articulaires et les maladies chroniques. En plus de stimuler l'énergie et d'améliorer l'humeur, il protège les cellules et renforce le système immunitaire. Il soulage les allergies, régule le cholestérol et stabilise le diabète, tout en offrant un soulagement pour les règles douloureuses. De plus, il accélère le bronzage, offrant une peau rayonnante en peu de temps. Notre produit breveté est une solution globale pour améliorer votre bien-être."
       },
@@ -65,8 +65,8 @@ export const apportVitamines = {
         id: "apportVitamines2",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
-  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
-  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
+        pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+        pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Notre booster est conçu pour améliorer votre bien-être global de manière efficace. Il combat efficacement la fatigue et favorise un sommeil de qualité, vous permettant de vous réveiller frais et revitalisé chaque matin. En outre, notre produit agit comme un puissant allié pour faire face au stress, à l'anxiété et au surmenage, en offrant un soulagement apaisant grâce à ses ingrédients naturels soigneusement sélectionnés."
       },
@@ -75,8 +75,8 @@ export const apportVitamines = {
 
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
-  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
-  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
+        pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+        pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre régénérateur cellulaire est une solution exceptionnelle offrant de multiples bienfaits pour la peau et apaisant les allergies et l'asthme. Obtenez une peau éclatante et revitalisée tout en respirant plus facilement grâce à notre produit bienfaisant. Offrez-vous le confort et la beauté que vous méritez avec notre régénérateur cellulaire."
       },
@@ -84,8 +84,8 @@ export const apportVitamines = {
         id: "apportVitamines4",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
-  pictureLove264: "/img/jpg/product/collagenoni264.jpg",
-  pictureLove400: "/img/jpg/product/collagenoni400.jpg",
+        pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+        pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Le collagène est bien plus qu'un allié pour la peau, il joue un rôle essentiel dans le soutien global de votre corps. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante, vous permettant de vivre pleinement et en pleine santé."
       },
@@ -93,8 +93,8 @@ export const apportVitamines = {
         id: "apportVitamines5",
         link: "purifAir",
         pictureLove: "/img/jpg/product/purificatAir.jpg",
-  pictureLove264: "/img/jpg/product/purificatAir264.jpg",
-  pictureLove400: "/img/jpg/product/purificatAir400.jpg",
+        pictureLove264: "/img/jpg/product/purificatAir264.jpg",
+        pictureLove400: "/img/jpg/product/purificatAir400.jpg",
         textLove:
           "Le Purificateur d’Air Multi-Effets est la solution ultime pour purifier vos espaces, en éliminant jusqu'à 99,99 % des microbes et des particules ultra fines en suspension dans l'air. Doté d'une technologie avancée à 360 degrés, il combat efficacement les polluants atmosphériques, les allergènes, les COV et autres contaminants. Grâce à sa technologie intelligente, il ajuste automatiquement le niveau de filtration en temps réel pour assurer un environnement de respiration optimal. Avec son filtre à plusieurs étapes, il offre un flux d'air frais et purifié à 360 degrés. Protégez votre santé et respirez sereinement en investissant dans ce purificateur d’air haut de gamme."
       }
@@ -102,9 +102,9 @@ export const apportVitamines = {
   },
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
-  picture: "/img/jpg/product/apportVitamines.jpg",
-  picture264: "/img/jpg/product/apportVitamines264.jpg",
-  picture400: "/img/jpg/product/apportVitamines400.jpg",
+  picture: "/img/jpg/product/ApportVitamines.jpg",
+  picture264: "/img/jpg/product/ApportVitamines264.jpg",
+  picture400: "/img/jpg/product/ApportVitamines400.jpg",
   colors: {
     textColor: "#13af56",
     titleColorInSummary: "#13af56",

@@ -1,7 +1,4 @@
-import {
-  getCategoryById,
-  getSecondCategoryById,
-} from '../firstCategoryHelper';
+import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const apportMineraux = {
   nameProduct: "Apport Minéraux",
@@ -24,7 +21,7 @@ export const apportMineraux = {
           "Notre formule avancée a démontré son efficacité pour améliorer la qualité de vie de personnes souffrant de pathologies telles que l'endométriose, la fibromyalgie et l'arthrose. Grâce à ses propriétés apaisantes et régénératrices, elle offre un soutien précieux pour atténuer les symptômes et améliorer la vie quotidienne de ceux qui en souffrent."
         ],
         picture450: "/img/jpg/product/ApportMinerauxIllusText450.jpg",
-  picture225: "/img/jpg/product/ApportMinerauxIllusText225.jpg",
+        picture225: "/img/jpg/product/ApportMinerauxIllusText225.jpg",
         picture675: "/img/jpg/product/ApportMinerauxIllusText675.jpg",
         picture900: "/img/jpg/product/ApportMinerauxIllusText900.jpg"
       },
@@ -53,9 +50,9 @@ export const apportMineraux = {
       {
         id: "apportMineraux0",
         link: "apportVitamines",
-        pictureLove: "/img/jpg/product/apportVitamines.jpg",
-  pictureLove264: "/img/jpg/product/apportVitamines264.jpg",
-  pictureLove400: "/img/jpg/product/apportVitamines400.jpg",
+        pictureLove: "/img/jpg/product/ApportVitamines.jpg",
+        pictureLove264: "/img/jpg/product/ApportVitamines264.jpg",
+        pictureLove400: "/img/jpg/product/ApportVitamines400.jpg",
         textLove:
           "Notre formule spéciale composée de 17 vitamines et nutriments renforce votre système immunitaire, vous protégeant ainsi des infections saisonnières telles que le rhume et la grippe. Elle prend également soin de vos yeux en préservant leur santé et en améliorant votre acuité visuelle. De plus, elle soutient la santé de vos vaisseaux sanguins en réduisant l'inflammation et en favorisant une circulation sanguine optimale. Notre produit renforce également votre cœur et vos poumons, assurant une santé cardiovasculaire optimale. Enfin, il préserve la santé de votre peau, lui redonnant élasticité et éclat pour une apparence radieuse."
       },
@@ -63,8 +60,8 @@ export const apportMineraux = {
         id: "apportMineraux1",
         link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
-  pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
-  pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
+        pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
+        pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
         textLove:
           "Notre produit breveté, exclusif à notre boutique, est formulé avec 36 ingrédients naturels puissants. Il agit comme un anti-inflammatoire, soulageant les douleurs musculaires, articulaires et les maladies chroniques. En plus de stimuler l'énergie et d'améliorer l'humeur, il protège les cellules et renforce le système immunitaire. Il soulage les allergies, régule le cholestérol et stabilise le diabète, tout en offrant un soulagement pour les règles douloureuses. Un avantage supplémentaire est qu'il accélère le bronzage, offrant une peau rayonnante en peu de temps."
       },
@@ -72,8 +69,8 @@ export const apportMineraux = {
         id: "apportMineraux2",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
-  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
-  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
+        pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+        pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Notre formule tout-en-un est conçue pour améliorer votre bien-être global de manière efficace. Elle combat efficacement la fatigue et favorise un sommeil de qualité, vous permettant de vous réveiller frais et revitalisé chaque matin. En outre, notre produit agit comme un puissant allié pour faire face au stress, à l'anxiété et au surmenage, en offrant un soulagement apaisant grâce à ses ingrédients naturels soigneusement sélectionnés."
       },
@@ -81,8 +78,8 @@ export const apportMineraux = {
         id: "apportMineraux3",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
-  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
-  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
+        pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+        pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre régénérateur cellulaire est une solution exceptionnelle qui offre de multiples bienfaits pour la peau, tout en apaisant les allergies et l'asthme. Profitez d'une peau éclatante et revitalisée, ainsi que d'une respiration plus apaisée grâce à notre produit bienfaisant."
       },
@@ -90,8 +87,8 @@ export const apportMineraux = {
         id: "apportMineraux4",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
-  pictureLove264: "/img/jpg/product/collagenoni264.jpg",
-  pictureLove400: "/img/jpg/product/collagenoni400.jpg",
+        pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+        pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Le collagène est bien plus qu'un allié pour la peau, il joue un rôle essentiel dans le soutien global de votre corps. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante, vous permettant de vivre pleinement et en pleine santé."
       }
@@ -99,9 +96,9 @@ export const apportMineraux = {
   },
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
-  picture: "/img/jpg/product/apportMineraux.jpg",
-  picture264: "/img/jpg/product/apportMineraux264.jpg",
-  picture400: "/img/jpg/product/apportMineraux400.jpg",
+  picture: "/img/jpg/product/ApportMineraux.jpg",
+  picture264: "/img/jpg/product/ApportMineraux264.jpg",
+  picture400: "/img/jpg/product/ApportMineraux400.jpg",
   colors: {
     textColor: "#00528a",
     titleColorInSummary: "#00528a",

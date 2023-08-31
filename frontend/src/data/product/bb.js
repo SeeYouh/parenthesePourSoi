@@ -21,7 +21,7 @@ export const bb = {
         ],
         picture675: "/img/jpg/product/BBIllusText675.jpg",
         picture450: "/img/jpg/product/BBIllusText450.jpg",
-  picture225: "/img/jpg/product/BBIllusText225.jpg",
+        picture225: "/img/jpg/product/BBIllusText225.jpg",
         picture900: "/img/jpg/product/BBIllusText900.jpg"
       },
       {
@@ -48,8 +48,8 @@ export const bb = {
         id: "BB0",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
-  pictureLove264: "/img/jpg/product/collagenoni264.jpg",
-  pictureLove400: "/img/jpg/product/collagenoni400.jpg",
+        pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+        pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Pour un renfort optimal des cheveux et des ongles, notre collagène marin saura vous séduire. Il favorise le renouvellement cellulaire et stimule l'élasticité de la peau. Il réduit les rides, ridules et cernes, offrant un teint frais et éclatant. De plus, il apporte un soulagement naturel aux douleurs corporelles grâce à la synergie du collagène marin et du Noni. Optez pour ce produit pour une apparence rajeunie et un bien-être total."
       },
@@ -57,17 +57,17 @@ export const bb = {
         id: "BB1",
         link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
-  pictureLove264: "/img/jpg/product/PN264.jpg",
-  pictureLove400: "/img/jpg/product/PN400.jpg",
+        pictureLove264: "/img/jpg/product/PN264.jpg",
+        pictureLove400: "/img/jpg/product/PN400.jpg",
         textLove:
           "Notre produit facilite un équilibre nutritionnel optimal. Les protéines végétales de haute qualité favorisent une meilleure digestion et absorption des nutriments. En plus de la perte de poids, il soutient une pression artérielle saine, améliore la santé des reins et du foie, et favorise une bonne digestion. Vous ressentirez un boost d'énergie qui vous accompagnera toute la journée, vous permettant de vous sentir épanoui(e)."
       },
       {
         id: "BB2",
         link: "pb",
-        pictureLove: "/img/jpg/product/pb.jpg",
-  pictureLove264: "/img/jpg/product/pb264.jpg",
-  pictureLove400: "/img/jpg/product/pb400.jpg",
+        pictureLove: "/img/jpg/product/PB.jpg",
+        pictureLove264: "/img/jpg/product/PB264.jpg",
+        pictureLove400: "/img/jpg/product/PB400.jpg",
         textLove:
           "Pour les journées chargées où le temps est précieux, l'alliance du BB et du PB est votre meilleur allié. Cette combinaison vous procure une énergie instantanée et le BB assure une libération d'énergie stable et durable. Ensemble, ils vous garantissent une vigilance et une productivité maximales, même lorsque vous n'avez pas le temps pour un repas complet. Intrigué(e) ?"
       },
@@ -75,8 +75,8 @@ export const bb = {
         id: "BB3",
         link: "shampooing",
         pictureLove: "/img/jpg/product/shampooing.jpg",
-  pictureLove264: "/img/jpg/product/shampooing264.jpg",
-  pictureLove400: "/img/jpg/product/shampooing400.jpg",
+        pictureLove264: "/img/jpg/product/shampooing264.jpg",
+        pictureLove400: "/img/jpg/product/shampooing400.jpg",
         textLove:
           "Pour des cheveux brillants, notre shampooing révolutionnaire nettoie en profondeur pour des cheveux propres et doux. Il revitalise et hydrate intensément chaque mèche. De plus, il apaise les problèmes du cuir chevelu, réduisant les pellicules et les démangeaisons."
       },
@@ -84,8 +84,8 @@ export const bb = {
         id: "BB4",
         link: "santeMax",
         pictureLove: "/img/jpg/product/santeMax.jpg",
-  pictureLove264: "/img/jpg/product/santeMax264.jpg",
-  pictureLove400: "/img/jpg/product/santeMax400.jpg",
+        pictureLove264: "/img/jpg/product/santeMax264.jpg",
+        pictureLove400: "/img/jpg/product/santeMax400.jpg",
         textLove:
           "Le Noni est un précieux allié pour votre bien-être, agissant sur le système digestif et stimulant le métabolisme. Il protège contre le stress oxydatif, renforce le système immunitaire et prévient les maux saisonniers. Ce fruit est une véritable fontaine de jouvence, nourrissant votre organisme en profondeur pour une vitalité éclatante. Faites confiance au Noni pour améliorer votre santé globale et votre bien-être au quotidien."
       }

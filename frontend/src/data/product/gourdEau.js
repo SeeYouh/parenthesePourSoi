@@ -130,7 +130,7 @@ export const gourdEau = {
           </div>
         ),
         picture450: "/img/jpg/product/gourdEauIllusText450.jpg",
-  picture225: "/img/jpg/product/gourdEauIllusText225.jpg",
+        picture225: "/img/jpg/product/gourdEauIllusText225.jpg",
         picture675: "/img/jpg/product/gourdEauIllusText675.jpg",
         picture900: "/img/jpg/product/gourdEauIllusText900.jpg"
       },
@@ -155,8 +155,8 @@ export const gourdEau = {
         id: "gourdEau0",
         link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
-  pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
-  pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
+        pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
+        pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
         textLove:
           "Notre huile essentielle a une action apaisante améliore le confort respiratoire en soulageant la toux et en dégageant les voies respiratoires. De plus, elle est idéale pour apaiser les démangeaisons, réduire les rougeurs et calmer les piqûres d'insectes, offrant ainsi une peau apaisée. Grâce à ses propriétés relaxantes, elle détend les tensions musculaires et procure une sensation de calme. De plus, elle est bénéfique pour soulager les douleurs articulaires et atténuer les bouffées de chaleur liées à la ménopause. Enfin, pour les sportifs, elle soulage efficacement les foulures, les entorses et les douleurs musculaires, favorisant ainsi une récupération plus rapide."
       },
@@ -165,8 +165,8 @@ export const gourdEau = {
         id: "gourdEau1",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
-  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
-  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
+        pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+        pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Si vous êtes de nature anxieuse ou que vous vous sentez surmené, notre booster naturel est le choix idéal. Sa combinaison parfaite vous aidera à retrouver l'équilibre intérieur, une sérénité épanouissante et un bien-être psychologique. N'hésitez pas à découvrir les bienfaits de notre produit pour apaiser votre esprit et vous sentir mieux au quotidien."
       },
@@ -175,8 +175,8 @@ export const gourdEau = {
         id: "gourdEau2",
         link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
-  pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
-  pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
+        pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
+        pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
         textLove:
           "Notre produit est spécialement conçu pour soulager les douleurs grâce à ses ingrédients aux propriétés anti-inflammatoires naturelles. Il offre une expérience apaisante qui vous permettra de retrouver confort et équilibre au quotidien. N'hésitez pas à essayer notre formule pour bénéficier d'un soulagement efficace et naturel contre les douleurs. Profitez d'une vie plus sereine et sans gêne grâce à notre produit bien-être."
       },
@@ -185,8 +185,8 @@ export const gourdEau = {
         id: "gourdEau3",
         link: "osMuscle",
         pictureLove: "/img/jpg/product/osMuscle.jpg",
-  pictureLove264: "/img/jpg/product/osMuscle264.jpg",
-  pictureLove400: "/img/jpg/product/osMuscle400.jpg",
+        pictureLove264: "/img/jpg/product/osMuscle264.jpg",
+        pictureLove400: "/img/jpg/product/osMuscle400.jpg",
         textLove:
           "Notre produit est spécialement formulé avec des ingrédients aux propriétés anti-inflammatoires qui agissent de manière synergique pour soulager vos articulations douloureuses. Vous pourrez ainsi retrouver votre mobilité et votre confort au quotidien. De plus, grâce à sa capacité à stimuler la production de collagène, notre produit favorise des gencives saines et des os solides. Optez pour notre solution complète et bénéficiez des bienfaits pour vos articulations et votre santé bucco-dentaire. Profitez d'une vie plus active et en meilleure santé grâce à notre produit bien-être."
       },
@@ -195,8 +195,8 @@ export const gourdEau = {
         id: "gourdEau4",
         link: "pb",
         pictureLove: "/img/jpg/product/PB.jpg",
-  pictureLove264: "/img/jpg/product/PB264.jpg",
-  pictureLove400: "/img/jpg/product/PB400.jpg",
+        pictureLove264: "/img/jpg/product/PB264.jpg",
+        pictureLove400: "/img/jpg/product/PB400.jpg",
         textLove:
           "Notre produit vous offre un boost d'énergie instantané pour rester alerte et dynamique tout au long de la journée. Grâce à cette alliance parfaite, vous pouvez maintenir votre vigilance et votre productivité, même sans prendre de repas complet. Profitez d'une journée pleine d'énergie et de vitalité en découvrant les avantages de notre produit. "
       }

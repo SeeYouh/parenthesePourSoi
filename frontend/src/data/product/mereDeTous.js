@@ -106,6 +106,8 @@ export const mereDeTous = {
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "/img/jpg/product/mereDeTous.jpg",
+  picture264: "/img/jpg/product/mereDeTous264.jpg",
+  picture400: "/img/jpg/product/mereDeTous400.jpg",
   colors: {
     textColor: "#e21e1e",
     titleColorInSummary: "#cf0a0a",

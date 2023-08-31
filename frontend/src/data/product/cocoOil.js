@@ -92,6 +92,8 @@ export const cocoOil = {
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
   picture: "/img/jpg/product/cocoOil.jpg",
+  picture264: "/img/jpg/product/cocoOil264.jpg",
+  picture400: "/img/jpg/product/cocoOil400.jpg",
   colors: {
     textColor: "#2c368b",
     titleColorInSummary: "#2c368b",

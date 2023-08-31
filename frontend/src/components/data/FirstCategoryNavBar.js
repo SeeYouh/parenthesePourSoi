@@ -66,8 +66,8 @@ const FirstCategoryNavBar = () => {
 
   return (
     <>
-      <p onClick={handleToggleMenu} id="iconMenu"></p>
       <div className={classNameMenu}>
+        <p onClick={handleToggleMenu} id="iconMenu"></p>
         <img
           className="logo"
           key={generalDataImg[3].id}

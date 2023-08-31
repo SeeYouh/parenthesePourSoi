@@ -83,6 +83,8 @@ export const bb = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "/img/jpg/product/bb.jpg",
+  picture264: "/img/jpg/product/bb264.jpg",
+  picture400: "/img/jpg/product/bb400.jpg",
   colors: {
     textColor: "#e58000",
     titleColorInSummary: "#e58000",

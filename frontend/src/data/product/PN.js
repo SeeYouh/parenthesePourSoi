@@ -85,6 +85,8 @@ export const pn = {
       .text
   ],
   picture: "/img/jpg/product/PN.jpg",
+  picture264: "/img/jpg/product/PN264.jpg",
+  picture400: "/img/jpg/product/PN400.jpg",
   colors: {
     textColor: "#e58000",
     titleColorInSummary: "#e58000",

@@ -189,6 +189,8 @@ export const purificatAir = {
   firstCategory: [getCategoryById("5Purification").name],
   secondCategory: [getSecondCategoryById("5Purification0Air").text],
   picture: "/img/jpg/product/purificatAir.jpg",
+  picture264: "/img/jpg/product/purificatAir264.jpg",
+  picture400: "/img/jpg/product/purificatAir400.jpg",
   colors: {
     textColor: "#367898",
     titleColorInSummary: "#367898",

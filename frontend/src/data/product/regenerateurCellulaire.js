@@ -96,6 +96,8 @@ export const regenerateurCellulaire = {
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante0ProblemesCutanes").text],
   picture: "/img/jpg/product/regenerateurCellulaire.jpg",
+  picture264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+  picture400: "/img/jpg/product/regenerateurCellulaire400.jpg",
   colors: {
     textColor: "#83218f",
     titleColorInSummary: "#83218f",

@@ -92,6 +92,8 @@ export const harmonie = {
   firstCategory: [getCategoryById("3BienEtre").name],
   secondCategory: [getSecondCategoryById("3BienEtre2FatigueSommeil").text],
   picture: "/img/jpg/product/harmonie.jpg",
+  picture264: "/img/jpg/product/harmonie264.jpg",
+  picture400: "/img/jpg/product/harmonie400.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#c433bc",

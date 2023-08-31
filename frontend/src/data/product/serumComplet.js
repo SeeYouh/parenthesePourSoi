@@ -172,6 +172,8 @@ export const serumComplet = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/serumComplet.jpg",
+  picture264: "/img/jpg/product/serumComplet264.jpg",
+  picture400: "/img/jpg/product/serumComplet400.jpg",
   colors: {
     textColor: "#015c77",
     titleColorInSummary: "#015c77",

@@ -94,6 +94,8 @@ export const heRelaxante = {
   firstCategory: [getCategoryById("4HuilesEssentielles").name],
   secondCategory: [getSecondCategoryById("4HuilesEssentielles0MieuxEtre").text],
   picture: "/img/jpg/product/heRelaxante.jpg",
+  picture264: "/img/jpg/product/heRelaxante264.jpg",
+  picture400: "/img/jpg/product/heRelaxante400.jpg",
   colors: {
     textColor: "#9f348b",
     titleColorInSummary: "#0017a5",

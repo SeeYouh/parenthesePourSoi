@@ -130,6 +130,8 @@ export const santeMax = {
     getSecondCategoryById("0GestionDuPoids0Detoxification").text
   ],
   picture: "/img/jpg/product/santeMax.jpg",
+  picture264: "/img/jpg/product/santeMax264.jpg",
+  picture400: "/img/jpg/product/santeMax400.jpg",
   colors: {
     textColor: "#990000",
     titleColorInSummary: "#990000",

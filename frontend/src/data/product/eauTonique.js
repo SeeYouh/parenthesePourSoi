@@ -86,6 +86,8 @@ export const eauTonique = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/eauTonique.jpg",
+  picture264: "/img/jpg/product/eauTonique264.jpg",
+  picture400: "/img/jpg/product/eauTonique400.jpg",
   colors: {
     textColor: "#42848e",
     titleColorInSummary: "#42848e",

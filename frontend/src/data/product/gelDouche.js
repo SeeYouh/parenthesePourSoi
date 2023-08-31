@@ -80,6 +80,8 @@ export const gelDouche = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "/img/jpg/product/gelDouche.jpg",
+  picture264: "/img/jpg/product/gelDouche264.jpg",
+  picture400: "/img/jpg/product/gelDouche400.jpg",
   colors: {
     textColor: "#a5a5a5",
     titleColorInSummary: "#4b4b4b",

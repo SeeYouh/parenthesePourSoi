@@ -110,6 +110,8 @@ export const pb = {
     getSecondCategoryById("0GestionDuPoids1AidePertePoids").text
   ],
   picture: "/img/jpg/product/PB.jpg",
+  picture264: "/img/jpg/product/PB264.jpg",
+  picture400: "/img/jpg/product/PB400.jpg",
   colors: {
     textColor: "#cd9f00",
     titleColorInSummary: "#cd9f00",

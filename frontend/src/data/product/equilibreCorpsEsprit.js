@@ -101,6 +101,8 @@ export const equilibreCorpsEsprit = {
   firstCategory: [getCategoryById("3BienEtre").name],
   secondCategory: [getSecondCategoryById("3BienEtre1Energie").text],
   picture: "/img/jpg/product/equilibreCorpsEsprit.jpg",
+  picture264: "/img/jpg/product/equilibreCorpsEsprit264.jpg",
+  picture400: "/img/jpg/product/equilibreCorpsEsprit400.jpg",
   colors: {
     textColor: "#e2b100",
     titleColorInSummary: "#0d314c",

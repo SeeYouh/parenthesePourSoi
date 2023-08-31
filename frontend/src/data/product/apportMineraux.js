@@ -1,4 +1,7 @@
-import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+import {
+  getCategoryById,
+  getSecondCategoryById,
+} from '../firstCategoryHelper';
 
 export const apportMineraux = {
   nameProduct: "Apport Minéraux",
@@ -86,6 +89,8 @@ export const apportMineraux = {
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "/img/jpg/product/apportMineraux.jpg",
+  picture264: "/img/jpg/product/apportMineraux264.jpg",
+  picture400: "/img/jpg/product/apportMineraux400.jpg",
   colors: {
     textColor: "#00528a",
     titleColorInSummary: "#00528a",

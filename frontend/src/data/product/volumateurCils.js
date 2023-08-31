@@ -1,4 +1,7 @@
-import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+import {
+  getCategoryById,
+  getSecondCategoryById,
+} from '../firstCategoryHelper';
 
 export const volumateurCils = {
   nameProduct: "Volumateur de Cils",
@@ -79,6 +82,8 @@ export const volumateurCils = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/volumateurCils.jpg",
+  picture264: "/img/jpg/product/volumateurCils264.jpg",
+  picture400: "/img/jpg/product/volumateurCils400.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#30d1d9",

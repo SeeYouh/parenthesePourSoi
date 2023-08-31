@@ -94,6 +94,8 @@ export const guerisseurMaux = {
   firstCategory: [getCategoryById("3BienEtre").name],
   secondCategory: [getSecondCategoryById("3BienEtre0GestionStress").text],
   picture: "/img/jpg/product/guerisseurMaux.jpg",
+  picture264: "/img/jpg/product/guerisseurMaux264.jpg",
+  picture400: "/img/jpg/product/guerisseurMaux400.jpg",
   colors: {
     textColor: "#da7a2a",
     titleColorInSummary: "#c24a0f",

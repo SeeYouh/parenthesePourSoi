@@ -68,6 +68,8 @@ export const baumeLevres = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/baumeLevres.jpg",
+  picture264: "/img/jpg/product/baumeLevres264.jpg",
+  picture400: "/img/jpg/product/baumeLevres400.jpg",
   colors: {
     textColor: "#779db0",
     titleColorInSummary: "#779db0",

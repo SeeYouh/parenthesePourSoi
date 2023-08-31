@@ -92,6 +92,8 @@ export const heSoulageante = {
     getSecondCategoryById("4HuilesEssentielles1ProblemesCutanes").text
   ],
   picture: "/img/jpg/product/heSoulageante.jpg",
+  picture264: "/img/jpg/product/heSoulageante264.jpg",
+  picture400: "/img/jpg/product/heSoulageante400.jpg",
   colors: {
     textColor: "#d39308",
     titleColorInSummary: "#0017a5",

@@ -103,6 +103,8 @@ export const heRafraichissant = {
     getSecondCategoryById("4HuilesEssentielles2MauxDivers").text
   ],
   picture: "/img/jpg/product/heRafraichissant.jpg",
+  picture264: "/img/jpg/product/heRafraichissant264.jpg",
+  picture400: "/img/jpg/product/heRafraichissant400.jpg",
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#0017a5",

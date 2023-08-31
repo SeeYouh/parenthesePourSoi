@@ -80,6 +80,8 @@ export const heDesinfectante = {
     getSecondCategoryById("4HuilesEssentielles2MauxDivers").text
   ],
   picture: "/img/jpg/product/heDesinfectante.jpg",
+  picture264: "/img/jpg/product/heDesinfectante264.jpg",
+  picture400: "/img/jpg/product/heDesinfectante400.jpg",
   colors: {
     textColor: "#de1c30",
     titleColorInSummary: "#0017a5",

@@ -85,6 +85,8 @@ export const santePlus = {
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "/img/jpg/product/santePlus.jpg",
+  picture264: "/img/jpg/product/santePlus264.jpg",
+  picture400: "/img/jpg/product/santePlus400.jpg",
   colors: {
     textColor: "#3483a7",
     titleColorInSummary: "#3483a7",

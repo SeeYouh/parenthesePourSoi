@@ -86,6 +86,8 @@ export const serumFlash = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/serumFlash.jpg",
+  picture264: "/img/jpg/product/serumFlash264.jpg",
+  picture400: "/img/jpg/product/serumFlash400.jpg",
   colors: {
     textColor: "#42848e",
     titleColorInSummary: "#42848e",

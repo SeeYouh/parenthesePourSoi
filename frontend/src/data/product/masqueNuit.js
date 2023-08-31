@@ -86,6 +86,8 @@ export const masqueNuit = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/masqueNuit.jpg",
+  picture264: "/img/jpg/product/masqueNuit264.jpg",
+  picture400: "/img/jpg/product/masqueNuit400.jpg",
   colors: {
     textColor: "#42848e",
     titleColorInSummary: "#42848e",

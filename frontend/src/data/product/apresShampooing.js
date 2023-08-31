@@ -1,4 +1,7 @@
-import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
+import {
+  getCategoryById,
+  getSecondCategoryById,
+} from '../firstCategoryHelper';
 
 export const apresShampooing = {
   nameProduct: "Après shampooing",
@@ -81,6 +84,8 @@ export const apresShampooing = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
   picture: "/img/jpg/product/aprèsShampooing.jpg",
+  picture264: "/img/jpg/product/aprèsShampooing264.jpg",
+  picture400: "/img/jpg/product/aprèsShampooing400.jpg",
   colors: {
     textColor: "#a5a5a5",
     titleColorInSummary: "#4b4b4b",

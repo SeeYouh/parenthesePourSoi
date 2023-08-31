@@ -107,6 +107,8 @@ export const osMuscle = {
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "/img/jpg/product/osMuscle.jpg",
+  picture264: "/img/jpg/product/osMuscle264.jpg",
+  picture400: "/img/jpg/product/osMuscle400.jpg",
   colors: {
     textColor: "#799198",
     titleColorInSummary: "#799198",

@@ -148,6 +148,8 @@ export const detox = {
     getSecondCategoryById("0GestionDuPoids0Detoxification").text
   ],
   picture: "/img/jpg/product/detox.jpg",
+  picture264: "/img/jpg/product/detox264.jpg",
+  picture400: "/img/jpg/product/detox400.jpg",
   colors: {
     textColor: "#7e1450",
     titleColorInSummary: "#7e1450",

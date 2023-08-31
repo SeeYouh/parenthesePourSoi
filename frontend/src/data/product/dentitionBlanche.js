@@ -87,6 +87,8 @@ export const dentitionBlanche = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "/img/jpg/product/dentitionBlanche.jpg",
+  picture264: "/img/jpg/product/dentitionBlanche264.jpg",
+  picture400: "/img/jpg/product/dentitionBlanche400.jpg",
   colors: {
     textColor: "#8a0c55",
     titleColorInSummary: "#8a0c55",

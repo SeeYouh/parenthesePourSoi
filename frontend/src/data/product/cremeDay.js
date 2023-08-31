@@ -86,6 +86,8 @@ export const cremeDay = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/cremeDay.jpg",
+  picture264: "/img/jpg/product/cremeDay264.jpg",
+  picture400: "/img/jpg/product/cremeDay400.jpg",
   colors: {
     textColor: "#42848e",
     titleColorInSummary: "#42848e",

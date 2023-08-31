@@ -85,6 +85,8 @@ export const cremeNight = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/cremeNight.jpg",
+  picture264: "/img/jpg/product/cremeNight264.jpg",
+  picture400: "/img/jpg/product/cremeNight400.jpg",
   colors: {
     textColor: "#015c77",
     titleColorInSummary: "#015c77",

@@ -98,6 +98,8 @@ export const bienEtreInterieur = {
       .text
   ],
   picture: "/img/jpg/product/bienEtreInterieur.jpg",
+  picture264: "/img/jpg/product/bienEtreInterieur264.jpg",
+  picture400: "/img/jpg/product/bienEtreInterieur400.jpg",
   colors: {
     textColor: "#8a7540",
     titleColorInSummary: "#8a7540",

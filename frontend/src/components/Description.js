@@ -49,7 +49,7 @@ const Description = ({ product }) => {
                   srcSet={paragraph.picture450}
                 />
                 <source
-                  media="(min-width: 1440px) && (max-width: 1600px)"
+                  media="(min-width: 1440px) and (max-width: 1600px)"
                   srcSet={paragraph.picture675}
                 />
                 <source

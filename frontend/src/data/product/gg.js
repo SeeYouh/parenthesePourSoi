@@ -91,6 +91,8 @@ export const gg = {
     getSecondCategoryById("0GestionDuPoids1AidePertePoids").text
   ],
   picture: "/img/jpg/product/GG.jpg",
+  picture264: "/img/jpg/product/GG264.jpg",
+  picture400: "/img/jpg/product/GG400.jpg",
   colors: {
     textColor: "#028824",
     titleColorInSummary: "#028824",

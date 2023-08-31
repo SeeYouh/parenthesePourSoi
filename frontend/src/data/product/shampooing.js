@@ -91,6 +91,8 @@ export const shampooing = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
   picture: "/img/jpg/product/shampooing.jpg",
+  picture264: "/img/jpg/product/shampooing264.jpg",
+  picture400: "/img/jpg/product/shampooing400.jpg",
   colors: {
     textColor: "#a5a5a5",
     titleColorInSummary: "#4b4b4b",

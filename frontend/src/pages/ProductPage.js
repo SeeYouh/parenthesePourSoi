@@ -94,9 +94,15 @@ const ProductPage = () => {
       >
         <div className="bgProductDetails" key={descriptionName}>
           <div className="blocTitleImg">
-            <div className="imgProduit">
+            <picture className="imgProduit">
+              <source media="(max-width: 600px)" srcSet={product.picture264} />
+              <source
+                media="(min-width: 601px) and (max-width: 1199px)"
+                srcSet={product.picture400}
+              />
+              <source media="(min-width: 1200px)" srcSet={product.picture} />
               <img src={product.picture} alt={product.alt} />
-            </div>
+            </picture>
             <div className="titleTextProduct">
               <h1
                 style={{

@@ -90,6 +90,8 @@ export const glossRepulpant = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/glossRepulpant.jpg",
+  picture264: "/img/jpg/product/glossRepulpant264.jpg",
+  picture400: "/img/jpg/product/glossRepulpant400.jpg",
   colors: {
     textColor: "#008eac",
     linkTextColor: "#008eac",

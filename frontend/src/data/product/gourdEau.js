@@ -194,6 +194,8 @@ export const gourdEau = {
   firstCategory: [getCategoryById("5Purification").name],
   secondCategory: [getSecondCategoryById("5Purification1Eau").text],
   picture: "/img/jpg/product/gourdEau.jpg",
+  picture264: "/img/jpg/product/gourdEau264.jpg",
+  picture400: "/img/jpg/product/gourdEau400.jpg",
   colors: {
     textColor: "#367898",
     titleColorInSummary: "#367898",

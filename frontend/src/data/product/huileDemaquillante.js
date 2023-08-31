@@ -75,6 +75,8 @@ export const huileDemaquillante = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/huileDemaquillante.jpg",
+  picture264: "/img/jpg/product/huileDemaquillante264.jpg",
+  picture400: "/img/jpg/product/huileDemaquillante400.jpg",
   colors: {
     textColor: "#42848e",
     titleColorInSummary: "#42848e",

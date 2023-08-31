@@ -81,6 +81,8 @@ export const dentifrice = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "/img/jpg/product/dentifrice.jpg",
+  picture264: "/img/jpg/product/dentifrice264.jpg",
+  picture400: "/img/jpg/product/dentifrice400.jpg",
   colors: {
     textColor: "#a5a5a5",
     titleColorInSummary: "#4b4b4b",

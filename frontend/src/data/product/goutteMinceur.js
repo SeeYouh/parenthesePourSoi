@@ -92,6 +92,8 @@ export const goutteMinceur = {
     getSecondCategoryById("0GestionDuPoids1AidePertePoids").text
   ],
   picture: "/img/jpg/product/goutteMinceur.jpg",
+  picture264: "/img/jpg/product/goutteMinceur264.jpg",
+  picture400: "/img/jpg/product/goutteMinceur400.jpg",
   colors: {
     textColor: "#e58000",
     titleColorInSummary: "#e58000",

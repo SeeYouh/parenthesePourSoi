@@ -54,6 +54,8 @@ export const gg = {
         id: "GG0",
         link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
+  pictureLove264: "/img/jpg/product/detox264.jpg",
+  pictureLove400: "/img/jpg/product/detox400.jpg",
         textLove:
           "Si vous souhaitez entamer une cure minceur, notre produit agit comme un agent de détoxification puissant, éliminant les toxines pour une meilleure gestion du poids et une santé globale améliorée. C’est la base pour une perte de poids saine et durable."
       },
@@ -61,6 +63,8 @@ export const gg = {
         id: "GG1",
         link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+  pictureLove264: "/img/jpg/product/goutteMinceur264.jpg",
+  pictureLove400: "/img/jpg/product/goutteMinceur400.jpg",
         textLove:
           "Des gouttes jour et nuit pour une cure minceur efficace et complète. Régule l'appétit, brûle les graisses tenaces et régule le sucre. Stimule le métabolisme, améliore l'humeur et réduit l'apparence de la cellulite. Les gouttes nuit empêchent l'accumulation de nouvelles graisses et favorisent une récupération optimale pendant le sommeil. Que demander de plus ?"
       },
@@ -68,6 +72,8 @@ export const gg = {
         id: "GG2",
         link: "bienEtreInterieur",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
+  pictureLove264: "/img/jpg/product/bienEtreInterieur264.jpg",
+  pictureLove400: "/img/jpg/product/bienEtreInterieur400.jpg",
         textLove:
           "Notre produit régule votre microbiote pour un bien-être global. Il améliore la digestion, renforce le système immunitaire et prévient les maladies chroniques. Grâce à ses propriétés antioxydantes, il neutralise les toxines et améliore la flore intestinale. Il joue un rôle essentiel dans la gestion du poids, contrôlant la satiété et boostant l'énergie. Il réduit le stress, améliore le sommeil et favorise une humeur positive."
       },
@@ -75,6 +81,8 @@ export const gg = {
         id: "GG3",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
+  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Notre booster d'énergie dynamise votre corps en stimulant votre énergie naturelle et combat efficacement la fatigue pour un sommeil réparateur. Il favorise la bonne humeur et réduit le stress, vous offrant une sensation de légèreté au quotidien. Mais pas seulement …"
       },
@@ -82,6 +90,8 @@ export const gg = {
         id: "GG4",
         link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
+  pictureLove264: "/img/jpg/product/PN264.jpg",
+  pictureLove400: "/img/jpg/product/PN400.jpg",
         textLove:
           "Pour un délicieux smoothie, ce produit est parfait ! Il facilite la gestion du poids en offrant un équilibre nutritionnel optimal. Il contient des protéines végétales de qualité pour une digestion améliorée et une absorption de nutriments essentiels."
       }

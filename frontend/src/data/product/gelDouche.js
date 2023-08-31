@@ -45,6 +45,8 @@ export const gelDouche = {
         id: "gelDouche0",
         link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
+  pictureLove264: "/img/jpg/product/cocoOil264.jpg",
+  pictureLove400: "/img/jpg/product/cocoOil400.jpg",
         textLove:
           "Pour une hydratation exceptionnelle, notre huile coco est parfaite. Elle nourrit la peau en profondeur, la laissant douce, souple et éclatante. Elle possède des vertus cicatrisantes, apaisant efficacement les blessures cutanées telles que les coups de soleil, les brûlures et les irritations. Notre huile de coco riche en propriétés antioxydantes est bénéfique pour votre santé et peut être ingérée pour des bienfaits internes."
       },
@@ -52,6 +54,8 @@ export const gelDouche = {
         id: "gelDouche1",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre best-seller améliore la qualité de la peau grâce à sa régénération cellulaire, réduisant la cellulite, les vergetures, l'acné, l'eczéma et le psoriasis. Il soutient également la santé globale en renforçant le système immunitaire et nerveux, favorisant le collagène pour des tissus sains et une meilleure résistance aux maladies. En stimulant l'énergie naturelle, il offre une vitalité renouvelée, soulage les problèmes de rétention d'eau et améliore la circulation sanguine, apaisant les allergies et l'asthme."
       },
@@ -59,6 +63,8 @@ export const gelDouche = {
         id: "gelDouche2",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
+  pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+  pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Notre collagène a des effets très positifs sur la peau, les cheveux, les ongles et les articulations. En stimulant le renouvellement cellulaire, il offre un teint frais, lumineux et éclatant tout en réduisant les rides et ridules. Grâce à la synergie du collagène marin avec le Noni, il soulage les douleurs corporelles et renforce les ongles et les cheveux."
       },
@@ -66,6 +72,8 @@ export const gelDouche = {
         id: "gelDouche3",
         link: "shampooing",
         pictureLove: "/img/jpg/product/shampooing.jpg",
+  pictureLove264: "/img/jpg/product/shampooing264.jpg",
+  pictureLove400: "/img/jpg/product/shampooing400.jpg",
         textLove:
           "Dans notre gamme beauté du corps, notre shampooing est révolutionnaire ! Il nettoie en profondeur, éliminant les impuretés et les résidus, pour des cheveux propres et sains. Sa formule spéciale revitalise et hydrate intensément chaque mèche, rendant vos cheveux doux, brillants et pleins de vitalité. Il apaise les problèmes cutanés du cuir chevelu tels que les irritations, les rougeurs et combat efficacement les pellicules et les démangeaisons."
       },
@@ -73,6 +81,8 @@ export const gelDouche = {
         id: "gelDouche4",
         link: "dentifrice",
         pictureLove: "/img/jpg/product/dentifrice.jpg",
+  pictureLove264: "/img/jpg/product/dentifrice264.jpg",
+  pictureLove400: "/img/jpg/product/dentifrice400.jpg",
         textLove:
           "Notre dentifrice est formulé avec des ingrédients naturels de haute qualité, sans produits chimiques agressifs. Il offre un blanchiment naturel en éliminant les tâches en douceur pour des dents éclatantes. Enrichi en extraits de plantes apaisantes et antibactériennes, il maintient des gencives saines et revitalisées. Avec l'huile essentielle de menthe poivrée, il procure une agréable sensation de fraîcheur et combat la mauvaise haleine."
       }

@@ -47,6 +47,8 @@ export const baumeLevres = {
         id: "baumeLevres0",
         link: "glossRepulpant",
         pictureLove: "/img/jpg/product/glossRepulpant.jpg",
+  pictureLove264: "/img/jpg/product/glossRepulpant264.jpg",
+  pictureLove400: "/img/jpg/product/glossRepulpant400.jpg",
         textLove:
           "Vos lèvres peuvent être sublimées avec notre gloss. Grâce à ses actifs nourrissants, il repulpe instantanément vos lèvres, les rendant pulpeuses et volumineuses. Il lisse les ridules, vous offrant des lèvres plus jeunes et douces. Avec sa sensation rafraîchissante et son label d'approbation « Good Face Project », notre produit assure une qualité irréprochable pour sublimer votre sourire éblouissant."
       },
@@ -54,6 +56,8 @@ export const baumeLevres = {
         id: "baumeLevres1",
         link: "dentifrice",
         pictureLove: "/img/jpg/product/dentifrice.jpg",
+  pictureLove264: "/img/jpg/product/dentifrice264.jpg",
+  pictureLove400: "/img/jpg/product/dentifrice400.jpg",
         textLove:
           "Pour un sourire éclatant, optez pour notre dentifrice formulé avec des ingrédients naturels de première qualité, exempts de produits chimiques agressifs. Il offre un blanchiment naturel en éliminant délicatement les tâches pour des dents éclatantes. Enrichi d'extraits apaisants et antibactériens de plantes, il préserve la santé et la vitalité de vos gencives. Grâce à l'huile essentielle de menthe poivrée, profitez d'une  gréable sensation de fraîcheur et d'une haleine rafraîchie, tout en éliminant la mauvaise haleine."
       },
@@ -61,6 +65,8 @@ export const baumeLevres = {
         id: "baumeLevres2",
         link: "dentitionBlanche",
         pictureLove: "/img/jpg/product/dentitionBlanche.jpg",
+  pictureLove264: "/img/jpg/product/dentitionBlanche264.jpg",
+  pictureLove400: "/img/jpg/product/dentitionBlanche400.jpg",
         textLove:
           "Pour une dentition blanche et brillante, découvrez notre poudre blanchissante révolutionnaire pour un sourire éclatant ! Notre blanchisseur élimine en douceur les impuretés et les taches, vous offrant des dents éblouissantes. Il préserve la santé de vos gencives et assure une haleine fraîche durable. Sans ingrédients controversés, notre formule respecte votre santé pour une confiance totale tout au long de la journée. Profitez d'un sourire éclatant et de soins bucco-dentaires complets grâce à notre produit innovant."
       }

@@ -61,6 +61,8 @@ export const regenerateurCellulaire = {
         id: "regenerateurCellulaire0",
         link: "apportQ10",
         pictureLove: "/img/jpg/product/apportQ10.jpg",
+  pictureLove264: "/img/jpg/product/apportQ10264.jpg",
+  pictureLove400: "/img/jpg/product/apportQ10400.jpg",
         textLove:
           "Notre produit phare s’associe parfaitement à notre formule riche en ubiquinol, une version ultra-puissante de la CoQ10, pour une action renforcée et des effets encore plus impressionnants. Grâce à ce puissant mélange, la régénération cellulaire est stimulée de manière exceptionnelle, offrant des résultats particulièrement marqués sur les vergetures profondes et les varices importantes. Préparez-vous à dire adieu aux imperfections qui vous gênent et à retrouver une peau visiblement plus lisse, plus ferme et plus éclatante. Ce duo de choc est la clé d'une peau transformée et épanouie."
       },
@@ -68,6 +70,8 @@ export const regenerateurCellulaire = {
         id: "regenerateurCellulaire1",
         link: "guerisseurMaux",
         pictureLove: "/img/jpg/product/guerisseurMaux.jpg",
+  pictureLove264: "/img/jpg/product/guerisseurMaux264.jpg",
+  pictureLove400: "/img/jpg/product/guerisseurMaux400.jpg",
         textLove:
           "Notre concentré d’omégaQ a des bienfaits étendus sur notre produit pour une amélioration globale de votre bien-être. En agissant en profondeur, il améliore la peau en réduisant la cellulite pour une texture plus lisse. De plus, il soutient la santé cardiovasculaire en améliorant la circulation sanguine et en réduisant les risques de maladies cardiaques. Ses acides gras essentiels favorisent aussi la santé cognitive en améliorant la mémoire et la concentration. Il régule la pression artérielle et protège le système cardiovasculaire. Il contrôle l'appétit en stoppant les fringales et réduit le stress en favorisant un sommeil réparateur. Enfin, spécialement conçu pour les femmes, il soulage les douleurs menstruelles et atténue les symptômes de la ménopause. Notre produit offre ainsi une solution holistique pour une meilleure qualité de vie."
       },
@@ -75,6 +79,8 @@ export const regenerateurCellulaire = {
         id: "regenerateurCellulaire2",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+  pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
+  pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
         textLove:
           "Pour une peau adoucie et débarrassée des impuretés accumulées tout au long de la journée, notre gel nettoyant sera votre allié idéal. Pour offrir à votre peau une expérience de soin complète et efficace, faites confiance à notre gel nettoyant en lui offrant une hydratation optimale et une sensation de fraîcheur incomparable."
       },
@@ -82,6 +88,8 @@ export const regenerateurCellulaire = {
         id: "regenerateurCellulaire3",
         link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
+  pictureLove264: "/img/jpg/product/cocoOil264.jpg",
+  pictureLove400: "/img/jpg/product/cocoOil400.jpg",
         textLove:
           "Pour prendre soin votre peau et éviter qu'elle ne s'assèche grâce à notre huile de coco d'origine tahitienne, pleine de bienfaits. Contrairement à d'autres produits, notre huile reste sous forme liquide, car elle n'a subi aucune transformation. Cela garantit que vous bénéficiez de toutes ses propriétés naturelles intactes pour hydrater, nourrir et protéger votre peau en profondeur. Offrez-vous une expérience de soin authentique et découvrez les vertus revitalisantes de notre huile de coco de Tahiti pour une peau douce, radieuse et resplendissante."
       },
@@ -89,6 +97,8 @@ export const regenerateurCellulaire = {
         id: "regenerateurCellulaire4",
         link: "bb",
         pictureLove: "/img/jpg/product/bb.jpg",
+  pictureLove264: "/img/jpg/product/bb264.jpg",
+  pictureLove400: "/img/jpg/product/bb400.jpg",
         textLove:
           "Pour régénérer vos cheveux et ongles, les rendant plus forts et brillants, je vous conseille de consulter cette pépite.. Sa formule puissante accélère la pousse des ongles et des cheveux, vous permettant ainsi de profiter d'une chevelure plus abondante et d'ongles forts et sains. En augmentant la production de kératine, il revitalise en profondeur vos cheveux, les rendant plus résistants à la casse et leur redonnant brillance et vitalité. Il permet également de stimuler votre énergie naturelle tout au long de la journée."
       }

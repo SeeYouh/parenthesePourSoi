@@ -51,6 +51,8 @@ export const serumFlash = {
         id: "serumFlash0",
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
+  pictureLove264: "/img/jpg/product/cremeDay264.jpg",
+  pictureLove400: "/img/jpg/product/cremeDay400.jpg",
         textLove:
           "Notre crème hydratante aux multiples bienfaits apaise instantanément la peau, lui offrant souplesse et éclat. Sa formule riche lutte contre la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour la protéger des agressions extérieures. Ciblant les tâches sombres, elle éclaircit et unifie le teint. Pour une peau nette, débarrassée de l'acné, choisissez notre crème exceptionnelle pour un éclat radieux et une texture uniforme."
       },
@@ -58,6 +60,8 @@ export const serumFlash = {
         id: "serumFlash1",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+  pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
+  pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
         textLove:
           "La formule du gel nettoyant élimine en douceur les saletés, le maquillage et les impuretés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Vous apprécierez une peau douce et veloutée, sans tiraillement, car notre formule hydratante respecte l'équilibre cutané et préserve la barrière naturelle pour une peau saine et protégée. Grâce à ses actifs ciblés, il combat efficacement les imperfections et prévient les éruptions cutanées, vous offrant une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit garantit une efficacité et une sécurité optimales pour tous les types de peau. Profitez d'une peau éclatante de beauté et en pleine santé en choisissant notre formule de confiance."
       },
@@ -65,6 +69,8 @@ export const serumFlash = {
         id: "serumFlash2",
         link: "volumateurCils",
         pictureLove: "/img/jpg/product/volumateurCils.jpg",
+  pictureLove264: "/img/jpg/product/volumateurCils264.jpg",
+  pictureLove400: "/img/jpg/product/volumateurCils400.jpg",
         textLove:
           "Des cils naturellement longs et épais sont possibles grâce à notre sérum enrichi d'agents hydratants essentiels. Sa formule renforce leur structure, protégeant vos cils des dommages et de la casse. En stimulant leur croissance, il vous offre des cils plus forts, plus longs et plus épais pour un regard irrésistible. Testée sous contrôle dermatologique et ophtalmologique, notre formule sécurisée prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales. Découvrez des cils magnifiés et un regard captivant qui ne passera pas inaperçu !"
       },
@@ -72,6 +78,8 @@ export const serumFlash = {
         id: "serumFlash3",
         link: "glossRepulpant",
         pictureLove: "/img/jpg/product/glossRepulpant.jpg",
+  pictureLove264: "/img/jpg/product/glossRepulpant264.jpg",
+  pictureLove400: "/img/jpg/product/glossRepulpant400.jpg",
         textLove:
           "Vos lèvres seront sublimées grâce à notre gloss concentré de soin. Enrichi d'actifs nourrissants, il repulpe instantanément vos lèvres, les rendant pulpeuses et volumineuses. Sa formule lisse les ridules, vous offrant des lèvres plus jeunes et douces. Approuvé par le label « Good Face Project » et offrant une sensation rafraîchissante, notre produit assure une qualité irréprochable pour sublimer votre sourire éblouissant."
       },
@@ -79,6 +87,8 @@ export const serumFlash = {
         id: "serumFlash4",
         link: "eauTonique",
         pictureLove: "/img/jpg/product/eauTonique.jpg",
+  pictureLove264: "/img/jpg/product/eauTonique264.jpg",
+  pictureLove400: "/img/jpg/product/eauTonique400.jpg",
         textLove:
           "Notre soin cutané nourri d'agents hydratants et apaisants d'origine naturelle régène votre peau en profondeur. Résultat ? Une peau intensément hydratée, adoucie et apaisée, vous procurant confort et bien-être tout au long de la journée. Notre eau tonique resserre les pores, minimise les imperfections et apaise les irritations, laissant votre peau visiblement plus uniforme et affinée. Sans paraben, alcool ni parfum artificiel, notre formule respecte votre peau et l'environnement pour une expérience de soin pure et sûre. Optez pour ce produit tout-en-un et profitez d'une peau épanouie, sans compromis sur la qualité et le respect de votre bien-être."
       }

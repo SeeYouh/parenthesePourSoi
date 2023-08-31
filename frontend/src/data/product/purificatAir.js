@@ -142,6 +142,8 @@ export const purificatAir = {
         id: "purificatAir0",
         link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
+  pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
+  pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
         textLove:
           "Notre huile essentielle a une action apaisante et améliore le confort respiratoire en soulageant la toux et en dégageant les voies respiratoires. Elle apaise également les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, pour une peau apaisée. Grâce à ses propriétés relaxantes, elle détend les tensions musculaires et procure une sensation de calme. De plus, elle est bénéfique pour soulager les douleurs articulaires et atténuer les bouffées de chaleur liées à la ménopause. Pour les sportifs, elle s'avère efficace pour soulager les foulures, les entorses et les douleurs musculaires, favorisant ainsi une récupération plus rapide. Profitez de ses nombreux bienfaits pour améliorer votre quotidien et votre bien-être."
       },
@@ -150,6 +152,8 @@ export const purificatAir = {
         id: "purificatAir1",
         link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
+  pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
+  pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
         textLove:
           "Notre produit est spécialement conçu pour soulager les douleurs grâce à ses ingrédients aux propriétés anti-inflammatoires naturelles. Il offre une expérience apaisante qui vous permettra de retrouver confort et équilibre au quotidien. N'hésitez pas à essayer notre formule pour bénéficier d'un soulagement efficace et naturel contre les douleurs. Profitez d'une vie plus sereine et sans gêne grâce à notre produit bien-être."
       },
@@ -158,6 +162,8 @@ export const purificatAir = {
         id: "purificatAir2",
         link: "guerisseurMaux",
         pictureLove: "/img/jpg/product/guerisseurMaux.jpg",
+  pictureLove264: "/img/jpg/product/guerisseurMaux264.jpg",
+  pictureLove400: "/img/jpg/product/guerisseurMaux400.jpg",
         textLove:
           "Ce produit est idéal pour transformer l'apparence de votre peau. Conçu pour cibler les problèmes de cellulite adipeuse et aqueuse, il pénètre en profondeur pour réduire visiblement l'apparence de la cellulite, vous offrant une peau plus ferme et plus lisse. En soutenant votre santé cardiovasculaire, ce super nutriment agit comme un bouclier protecteur contre les maladies cardiaques, tout en favorisant une circulation sanguine optimale. De plus, il booste la santé cognitive grâce à ses acides gras essentiels, et régule la pression artérielle pour une protection accrue du système cardiovasculaire. Contrôlez vos fringales et atteignez vos objectifs de perte de poids grâce à son action ciblée, et réduisez le stress grâce à son effet apaisant et réparateur. Mesdames, notre produit est également là pour vous, en soulageant les douleurs menstruelles et en atténuant les effets de la ménopause, pour un équilibre hormonal optimal. Profitez d'une peau radieuse et d'une santé améliorée avec notre produit polyvalent."
       },
@@ -166,6 +172,8 @@ export const purificatAir = {
         id: "purificatAir3",
         link: "bb",
         pictureLove: "/img/jpg/product/bb.jpg",
+  pictureLove264: "/img/jpg/product/bb264.jpg",
+  pictureLove400: "/img/jpg/product/bb400.jpg",
         textLove:
           "Notre produit offre une régénération cellulaire exceptionnelle, stimulant la pousse des ongles et des cheveux pour une chevelure plus abondante et des ongles forts. La formule augmente la production de kératine, revitalisant profondément les cheveux, les rendant plus résistants à la casse et leur redonnant brillance et vitalité. De plus, il réduit efficacement les problèmes cutanés tels que les rougeurs, démangeaisons et psoriasis, offrant une peau apaisée et saine. Il diminue également l'acné et régule l'excès de sébum pour les peaux grasses, tout en restreignant les pellicules pour un cuir chevelu sain et sans démangeaisons. Essayez notre produit pour améliorer le bon fonctionnement de votre système nerveux et favoriser votre bien-être global."
       },
@@ -174,6 +182,8 @@ export const purificatAir = {
         id: "purificatAir4",
         link: "gourdEau",
         pictureLove: "/img/jpg/product/gourdEau.jpg",
+  pictureLove264: "/img/jpg/product/gourdEau264.jpg",
+  pictureLove400: "/img/jpg/product/gourdEau400.jpg",
         textLove:
           "Notre Système de Filtration d'Eau est conçu sans substances toxiques telles que le BPA, BPS, bisphénols et l'activité œstrogénique, assurant ainsi une eau pure et sans risque pour votre santé. Vous pouvez filtrer l'eau de n'importe quel endroit grâce à notre technologie avancée, éliminant jusqu'à 99,99% des agents indésirables tels que les microbes, les contaminants émergents, les produits chimiques, les pesticides, les métaux lourds et les trihalométhanes. Avec notre système, vous pouvez boire en toute confiance, sachant que votre eau est propre et sûre, préservant ainsi votre bien-être."
       },
@@ -182,6 +192,8 @@ export const purificatAir = {
         id: "purificatAir5",
         link: "santePlus",
         pictureLove: "/img/jpg/product/santePlus.jpg",
+  pictureLove264: "/img/jpg/product/santePlus264.jpg",
+  pictureLove400: "/img/jpg/product/santePlus400.jpg",
         textLove:
           "Le Noni, une pépite naturelle, est un bienfaiteur pour votre système digestif en agissant comme un allié précieux contre les troubles digestifs tels que la constipation et la diarrhée. Il soutient également la solidité de vos os, contribuant au maintien d'une ossature normale et favorisant la santé de vos yeux pour une vision éclatante. En renforçant votre système immunitaire, il agit comme un bouclier protecteur contre les maladies saisonnières grâce à ses propriétés antioxydantes qui protègent vos cellules du stress oxydatif. Adopter le Noni dans votre routine vous permettra de bénéficier d'une santé renforcée et d'une énergie métabolique boostée, vous offrant une vitalité débordante pour accomplir vos activités avec aisance."
       }

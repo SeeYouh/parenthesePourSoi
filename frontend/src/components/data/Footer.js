@@ -135,19 +135,19 @@ const Footer = () => {
 
         <div className="contactContainer">
           <a
+            href="mailto:contact@une-parenthese-pour-soi.fr?subject=Prise de contact depuis le site&body=Bonjour,"
+            className="contact"
+          >
+            Contactez moi
+          </a>
+
+          <a
             className="contact"
             href="https://agenda.une-parenthese-pour-soi.fr/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Prendre rendez-vous
-          </a>
-
-          <a
-            href="mailto:contact@une-parenthese-pour-soi.fr?subject=Prise de contact depuis le site&body=Bonjour,"
-            className="contact"
-          >
-            Contactez moi
           </a>
         </div>
       </div>

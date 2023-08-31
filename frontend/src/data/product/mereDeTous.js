@@ -71,6 +71,8 @@ export const mereDeTous = {
         id: "mereDeTous0",
         link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
+  pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
+  pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
         textLove:
           "Pour soulager rapidement les douleurs musculaires, notre huile essentielle sera idéale. Elle apporte un réconfort immédiat aux muscles endoloris, favorisant une récupération rapide et vous permettant de reprendre vos activités avec une nouvelle énergie. Essayez-la dès maintenant pour un soulagement rapide et efficace."
       },
@@ -78,6 +80,8 @@ export const mereDeTous = {
         id: "mereDeTous1",
         link: "apportMineraux",
         pictureLove: "/img/jpg/product/ApportMineraux.jpg",
+  pictureLove264: "/img/jpg/product/ApportMineraux264.jpg",
+  pictureLove400: "/img/jpg/product/ApportMineraux400.jpg",
         textLove:
           "Notre produit avec notre complément spécialement formulé à base de minéraux essentiels vous permettra de d’améliorer votre vision et votre peau et soutiendra votre coeur. Cette formule composée d’ingrédients aux propriétés anti-inflammatoires vous offre une approche complète pour un bien-être optimal."
       },
@@ -85,6 +89,8 @@ export const mereDeTous = {
         id: "mereDeTous2",
         link: "apportVitamines",
         pictureLove: "/img/jpg/product/ApportVitamines.jpg",
+  pictureLove264: "/img/jpg/product/ApportVitamines264.jpg",
+  pictureLove400: "/img/jpg/product/ApportVitamines400.jpg",
         textLove:
           "Pour une prise en charge globale des douleurs musculaires, osseuses et nerveuses, notre complément enrichi en vitamines saura vous combler. Cette formule offre une approche naturelle pour soulager et prévenir les inconforts, tout en soutenant le bien-être de votre système neuromusculaire."
       },
@@ -92,6 +98,8 @@ export const mereDeTous = {
         id: "mereDeTous3",
         link: "osMuscle",
         pictureLove: "/img/jpg/product/osMuscle.jpg",
+  pictureLove264: "/img/jpg/product/osMuscle264.jpg",
+  pictureLove400: "/img/jpg/product/osMuscle400.jpg",
         textLove:
           "Ce produit est spécialement conçu pour soulager vos douleurs grâce à ses ingrédients aux propriétés anti-inflammatoires agissant en synergie. Retrouvez votre mobilité et votre confort au quotidien. De plus, notre formule stimule la production de collagène pour favoriser des gencives saines et des os solides. Une solution naturelle pour prendre soin de votre bien-être musculaire et osseux, tout en améliorant votre santé bucco-dentaire."
       },
@@ -99,6 +107,8 @@ export const mereDeTous = {
         id: "mereDeTous4",
         link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
+  pictureLove264: "/img/jpg/product/equilibreCorpsEsprit264.jpg",
+  pictureLove400: "/img/jpg/product/equilibreCorpsEsprit400.jpg",
         textLove:
           "Un sommeil réparateur et revitalisant est essentiel pour votre corps et votre moral. Les douleurs peuvent perturber votre sommeil et impacter votre humeur au réveil. Notre solution vous offre une expérience relaxante, vous permettant de vous réveiller plein d'énergie et de bien-être pour affronter la journée avec vitalité"
       }

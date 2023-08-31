@@ -55,6 +55,8 @@ export const goutteMinceur = {
         id: "goutteMinceur0",
         link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
+  pictureLove264: "/img/jpg/product/detox264.jpg",
+  pictureLove400: "/img/jpg/product/detox400.jpg",
         textLove:
           "Notre produit est une base essentielle pour une cure minceur réussie. Il agit comme un puissant agent de détoxification, éliminant les toxines pour une meilleure gestion du poids et une santé globale améliorée. En rééquilibrant votre système digestif, il diminue les ballonnements et la cellulite, vous offrant une silhouette harmonieuse."
       },
@@ -62,6 +64,8 @@ export const goutteMinceur = {
         id: "goutteMinceur1",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
+  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Notre booster d'énergie stimule votre énergie naturelle et combat efficacement la fatigue pour un sommeil réparateur. Il favorise la bonne humeur, réduit le stress, renforce le système immunitaire et cardiovasculaire, améliore la concentration mentale, réduit les signes de l'âge pour une peau éclatante...."
       },
@@ -69,6 +73,8 @@ export const goutteMinceur = {
         id: "goutteMinceur2",
         link: "bienEtreInterieur",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
+  pictureLove264: "/img/jpg/product/bienEtreInterieur264.jpg",
+  pictureLove400: "/img/jpg/product/bienEtreInterieur400.jpg",
         textLove:
           "Notre produit régule votre microbiote pour un bien-être global, améliorant la digestion, renforçant le système immunitaire et prévenant les maladies chroniques. Avec ses propriétés antioxydantes, il neutralise les toxines et améliore la flore intestinale. Il joue un rôle essentiel dans la gestion du poids en contrôlant la satiété et en boostant l'énergie. De plus, il réduit le stress, améliore le sommeil et favorise une humeur positive."
       },
@@ -76,6 +82,8 @@ export const goutteMinceur = {
         id: "goutteMinceur3",
         link: "gg",
         pictureLove: "/img/jpg/product/GG.jpg",
+  pictureLove264: "/img/jpg/product/GG264.jpg",
+  pictureLove400: "/img/jpg/product/GG400.jpg",
         textLove:
           "Notre élixir végétal est un trésor de bienfaits pour votre santé globale. Il favorise un cœur en bonne santé, des os solides et un cerveau vif. En intégrant notre potion magique à base de légumes soigneusement sélectionnés, vous bénéficierez d'une vitalité éclatante et d'une harmonie intérieure incomparable. Libérez-vous des soucis de carences en vitamines et minéraux grâce à notre source naturelle d'énergie et de nutriments essentiels."
       },
@@ -83,6 +91,8 @@ export const goutteMinceur = {
         id: "goutteMinceur4",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre produit favorise la régénération cellulaire, améliorant l'élasticité et la fermeté pour un teint éclatant et plus jeune. En plus de ses bienfaits pour la peau, il soutient votre santé globale en renforçant le système cardiovasculaire et immunitaire, favorisant la formation du collagène et aidant à la réparation osseuse. En stimulant votre énergie naturelle, il vous offre vitalité, soulage les problèmes de rétention d'eau, de jambes lourdes et d'allergies, apportant un bien-être quotidien renouvelé."
       }

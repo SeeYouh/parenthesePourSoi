@@ -12,6 +12,7 @@ footer,
 .globalLegalContainer,
 .imgProduit,
 .legal,
+.legalArticle,
 .legalContainer,
 .legalTitle,
 .logo,
@@ -62,9 +63,9 @@ footer,
   justify-content: space-around;
 }
 
+.containerLegal,
 .menuUser,
-.search-bar,
-.socialNetWorkContainer {
+.search-bar {
   justify-content: flex-end;
 }
 
@@ -94,6 +95,7 @@ footer,
 
 .bgProductDetails,
 .blocTitleImg,
+.containerLegal,
 footer,
 .globalLegalContainer,
 .legalContainer,
@@ -106,7 +108,6 @@ main,
   align-items: center;
 }
 
-.contactContainer,
 .logo {
   align-items: flex-start;
 }
@@ -158,12 +159,23 @@ main,
   }
 
   .blocTitleImg,
+  .contactContainer,
+  .footerContainer,
   .navbar {
     align-items: center;
   }
 
-  .blocTitleImg {
+  .blocTitleImg,
+  .socialNetWorkContainer {
     justify-content: center;
+  }
+
+  .footerContainer {
+    justify-content: end;
+  }
+
+  .legal {
+    order: 3;
   }
 }
 
@@ -175,20 +187,31 @@ main,
 
   .blocTitleImg,
   .category,
-  .footerContainer {
+  .footerContainer,
+  .legalArticle {
     flex-direction: row;
   }
 
-  .footerContainer {
+  .footerContainer,
+  .legalArticle {
     justify-content: space-between;
   }
 
+  .contactContainer {
+    align-items: flex-start;
+  }
+
   .footerContainer,
+  .legalArticle,
   .socialNetwork {
     align-items: center;
   }
 
   .socialNetwork {
     justify-content: center;
+  }
+
+  .socialNetWorkContainer {
+    justify-content: flex-end;
   }
 }

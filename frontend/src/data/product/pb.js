@@ -54,6 +54,8 @@ export const pb = {
         id: "PB0",
         link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
+  pictureLove264: "/img/jpg/product/PN264.jpg",
+  pictureLove400: "/img/jpg/product/PN400.jpg",
         textLove:
           "Dans les journées chargées, le PB et le PN forment votre allié ultime. Le PB vous donne un boost d'énergie instantané, tandis que le PN offre une libération stable et durable. Ensemble, ils assurent vigilance et productivité, même sans repas complet. Découvrez-en plus sur cette alliance parfaite pour une journée pleine d'énergie et de vitalité."
       },
@@ -61,6 +63,8 @@ export const pb = {
         id: "PB1",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
+  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Notre booster d'énergie est un mélange vivifiant qui dynamise votre corps et stimule votre énergie naturelle. Il combat la fatigue, favorise la bonne humeur et diminue le stress pour vous offrir une sensation de légèreté au quotidien. En plus d'aider à la gestion du poids grâce à ses propriétés détoxifiantes, il renforce votre système immunitaire et cardiovasculaire, protège votre peau et apaise les désagréments féminins."
       },
@@ -68,6 +72,8 @@ export const pb = {
         id: "PB2",
         link: "santeMax",
         pictureLove: "/img/jpg/product/santeMax.jpg",
+  pictureLove264: "/img/jpg/product/santeMax264.jpg",
+  pictureLove400: "/img/jpg/product/santeMax400.jpg",
         textLove:
           "Notre produit est conçu pour améliorer votre bien-être et renforcer votre santé globale. Il vous offre une énergie durable tout au long de la journée, vous permettant de rester dynamique et productif. En harmonie avec votre corps, il apaise les tensions, réduit le stress et favorise un état d'esprit positif."
       },
@@ -75,6 +81,8 @@ export const pb = {
         id: "PB3",
         link: "gourdEau",
         pictureLove: "/img/jpg/product/gourdEau.jpg",
+  pictureLove264: "/img/jpg/product/gourdEau264.jpg",
+  pictureLove400: "/img/jpg/product/gourdEau400.jpg",
         textLove: (
           <span>
             {"Le Système de Filtration d'Eau est une bouteille en plastique"}
@@ -101,6 +109,8 @@ export const pb = {
         id: "PB4",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
+  pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+  pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Le collagène n’agit pas seulement sur la peau, il est avant tout un allié essentiel pour soutenir votre corps de manière globale. En fortifiant vos os, il vous offre une base solide pour une mobilité harmonieuse. De plus, il renforce vos dents pour une santé bucco-dentaire optimale, et préserve l'intégrité de vos ligaments et articulations pour une flexibilité durable. Notre collagène est un atout précieux pour une santé optimale et épanouissante."
       }

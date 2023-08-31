@@ -46,6 +46,8 @@ export const dentifrice = {
         id: "Dentifrice0",
         link: "dentitionBlanche",
         pictureLove: "/img/jpg/product/dentitionBlanche.jpg",
+  pictureLove264: "/img/jpg/product/dentitionBlanche264.jpg",
+  pictureLove400: "/img/jpg/product/dentitionBlanche400.jpg",
         textLove:
           "Pour aller encore plus loin dans le blanchiment de vos dents, découvrez notre poudre révolutionnaire. Notre blanchisseur élimine en douceur les impuretés et les tâches, vous offrant un sourire éblouissant. Il protège vos gencives et assure une haleine fraîche durable. Sans ingrédients controversés, notre formule respecte votre santé pour une confiance totale toute la journée. Profitez d'un sourire éclatant et de soins bucco-dentaires complets."
       },
@@ -53,6 +55,8 @@ export const dentifrice = {
         id: "Dentifrice1",
         link: "shampooing",
         pictureLove: "/img/jpg/product/shampooing.jpg",
+  pictureLove264: "/img/jpg/product/shampooing264.jpg",
+  pictureLove400: "/img/jpg/product/shampooing400.jpg",
         textLove:
           "Pour rester dans la gamme des soins naturels, choisissez notre shampooing d'exception en association pour une expérience de cheveux doux et sains. Ce shampooing améliore les soucis du cuir chevelu tout en protégeant le cheveu mèche par mèche."
       },
@@ -60,6 +64,8 @@ export const dentifrice = {
         id: "Dentifrice2",
         link: "gelDouche",
         pictureLove: "/img/jpg/product/gelDouche.jpg",
+  pictureLove264: "/img/jpg/product/gelDouche264.jpg",
+  pictureLove400: "/img/jpg/product/gelDouche400.jpg",
         textLove:
           "Pour une expérience de bien-être enrichissante, choisissez notre gel douche naturel de la même gamme. Ces deux produits complémentaires transformeront votre routine quotidienne en une expérience de soin remarquable pour vos dents et votre peau. "
       },
@@ -67,6 +73,8 @@ export const dentifrice = {
         id: "Dentifrice3",
         link: "apportMineraux",
         pictureLove: "/img/jpg/product/apportMineraux.jpg",
+  pictureLove264: "/img/jpg/product/apportMineraux264.jpg",
+  pictureLove400: "/img/jpg/product/apportMineraux400.jpg",
         textLove:
           "Notre concentré de minéraux et oligo-éléments est un puissant allié pour vos os et vos dents. Il a de nombreux avantages et bénéfices pour votre corps et votre santé."
       },
@@ -74,6 +82,8 @@ export const dentifrice = {
         id: "Dentifrice4",
         link: "baumeLevres",
         pictureLove: "/img/jpg/product/baumeLevres.jpg",
+  pictureLove264: "/img/jpg/product/baumeLevres264.jpg",
+  pictureLove400: "/img/jpg/product/baumeLevres400.jpg",
         textLove:
           "Pour un sourire encore plus éclatant, regardez notre baume à lèvres naturel. Sa formule avancée protège vos lèvres des agressions extérieures et prévient les gerçures et la sécheresse. Enrichi d'ingrédients naturels, il répare et renforce vos lèvres, les laissant douces et résistantes. Offrez à votre sourire une oasis de douceur et de protection pour une apparence saine et éclatante."
       }

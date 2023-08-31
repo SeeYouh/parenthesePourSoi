@@ -29,12 +29,23 @@ const AsaComplement = ({ product, defaultTab }) => {
         {ProductStyle({ product })}
         {productYouLikeIt.map((product) => (
           <div className="youWillLikeIt-content" key={product.id}>
-            <img
-              onClick={() => goToPageAndScroll(product.link, "productPage")}
-              className="imgYouWillLikeIt"
-              src={product.pictureLove}
-              alt={product.alt}
-            />
+            <picture>
+              <source
+                media="(max-width: 600px)"
+                srcSet={product.pictureLove264}
+              />
+              <source
+                media="(min-width: 601px)"
+                srcSet={product.pictureLove400}
+              />
+              <img
+                onClick={() => goToPageAndScroll(product.link, "productPage")}
+                className="imgYouWillLikeIt"
+                src={product.pictureLove400}
+                alt={product.alt}
+              />
+            </picture>
+
             <p className="textParagraph">{product.textLove}</p>
           </div>
         ))}

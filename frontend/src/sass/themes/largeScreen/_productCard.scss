@@ -31,7 +31,6 @@
 }
 
 .imgYouWillLikeIt {
-  height: 300px;
   object-fit: cover;
 
   &:hover {
@@ -124,12 +123,6 @@
   }
 }
 
-.productTab {
-  li {
-    margin-bottom: 15px;
-  }
-}
-
 //--------- MEDIA QUERIES --------//
 
 @media screen and (min-width: 1200px) {
@@ -177,9 +170,27 @@
       height: 300px;
     }
   }
+
+  .imgYouWillLikeIt {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
+  .productTab {
+    li {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .productTab {
+    li {
+      margin-bottom: 30px;
+    }
+  }
+
   .bgParagraph {
     h3 {
       padding: 20px 20px 0 40px;

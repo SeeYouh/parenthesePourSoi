@@ -57,6 +57,8 @@ export const heRafraichissant = {
         id: "heRafraichissant0",
         link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
+  pictureLove264: "/img/jpg/product/cocoOil264.jpg",
+  pictureLove400: "/img/jpg/product/cocoOil400.jpg",
         textLove:
           "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau"
       },
@@ -64,6 +66,8 @@ export const heRafraichissant = {
         id: "heRafraichissant1",
         link: "pb",
         pictureLove: "/img/jpg/product/PB.jpg",
+  pictureLove264: "/img/jpg/product/PB264.jpg",
+  pictureLove400: "/img/jpg/product/PB400.jpg",
         textLove: [
           "Je conseille vivement aux sportifs d'explorer notre produit destiné à la récupération musculaire et à l'amélioration des performances, qui offre une énergie stimulante à base de cacao.",
           "Il est également un très bon booster d’énergie naturelle pour tenir toute la journée."
@@ -73,6 +77,8 @@ export const heRafraichissant = {
         id: "heRafraichissant2",
         link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
+  pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
+  pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
         textLove:
           "Elle s'associe parfaitement à notre anti-inflammatoire naturel, offrant ainsi une solution complète pour gérer les douleurs liées à l'activité physique ou au quotidien lors de pathologies douloureuses."
       },
@@ -80,6 +86,8 @@ export const heRafraichissant = {
         id: "heRafraichissant3",
         link: "heRelaxante",
         pictureLove: "/img/jpg/product/heRelaxante.jpg",
+  pictureLove264: "/img/jpg/product/heRelaxante264.jpg",
+  pictureLove400: "/img/jpg/product/heRelaxante400.jpg",
         textLove:
           "L'huile essentielle Relaxante présente de nombreux bienfaits pour la santé mentale en apaisant la dépression, réduisant l'anxiété et le stress, et favorisant une sensation de bien-être. Son parfum relaxant aide à calmer l'esprit et procure une sensation de tranquillité intérieure. Elle s'avère également efficace pour favoriser l'endormissement, améliorer la qualité du sommeil, et apaiser les irritations cutanées, offrant un soulagement rapide et apaisant. Une utilisation régulière permet de détendre les muscles de la mâchoire et de réduire le grincement de dents."
       },
@@ -87,6 +95,8 @@ export const heRafraichissant = {
         id: "heRafraichissant4",
         link: "heDesinfectante",
         pictureLove: "/img/jpg/product/heDesinfectante.jpg",
+  pictureLove264: "/img/jpg/product/heDesinfectante264.jpg",
+  pictureLove400: "/img/jpg/product/heDesinfectante400.jpg",
         textLove:
           "L'huile essentielle Désinfectante est un remède naturel puissant pour combattre les infections et maintenir un environnement sain. Elle agit efficacement contre les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies. Elle soulage également les douleurs dentaires, apaise les problèmes cutanés et diminue les inconforts causés par les piqûres d'insectes. En plus de ses bienfaits pour la santé, elle peut contribuer à la gestion du poids en détoxifiant le corps et en favorisant un système digestif sain. Enfin, son parfum agréable et ses propriétés apaisantes en font un allié précieux pour améliorer l'humeur et favoriser la relaxation."
       },
@@ -94,6 +104,8 @@ export const heRafraichissant = {
         id: "heRafraichissant5",
         link: "heSoulageante",
         pictureLove: "/img/jpg/product/heSoulageante.jpg",
+  pictureLove264: "/img/jpg/product/heSoulageante264.jpg",
+  pictureLove400: "/img/jpg/product/heSoulageante400.jpg",
         textLove:
           "Cette huile essentielle possède de nombreuses propriétés curatives, soulageant les maux de tête et les symptômes des maladies saisonnières. Elle a des effets positifs sur le bien-être en diminuant l'anxiété, en augmentant la vivacité mentale et en améliorant l'humeur. Elle aide à soulager les tensions corporelles et les irritations cutanées, ainsi que les douleurs associées au grincement de dents. De plus, elle repousse les poux et les moustiques, offrant une protection naturelle contre ces nuisibles."
       }

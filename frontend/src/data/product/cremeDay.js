@@ -51,6 +51,8 @@ export const cremeDay = {
         id: "cremeDay0",
         link: "decontaminant",
         pictureLove: "/img/jpg/product/decontaminant.jpg",
+  pictureLove264: "/img/jpg/product/decontaminant264.jpg",
+  pictureLove400: "/img/jpg/product/decontaminant400.jpg",
         textLove:
           "Le secret d'une peau resplendissante de beauté passe par notre produit doux et efficace. En éliminant délicatement les peaux mortes et les impuretés, il révèle un teint frais et radieux. Spécialement conçu pour resserrer les pores et affiner la texture de votre peau, il offre une peau plus lisse et uniforme. De plus, notre formule apaise les yeux fatigués, offrant un regard reposé et éclatant de vitalité. Testé sous contrôle dermatologique, notre produit garantit une tolérance optimale pour tous les types de peau."
       },
@@ -58,6 +60,8 @@ export const cremeDay = {
         id: "cremeDay1",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
+  pictureLove264: "/img/jpg/product/cremeNight264.jpg",
+  pictureLove400: "/img/jpg/product/cremeNight400.jpg",
         textLove:
           "Notre crème de nuit est révolutionnaire car elle assure une régénération cellulaire complète en stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. Elle cible également les tâches et les décolorations, atténuant progressivement les imperfections pour un teint uniforme et éclatant. Enrichie en actifs antioxydants, elle lutte efficacement contre les signes visibles de l'âge, vous offrant une peau jeune et radieuse."
       },
@@ -65,6 +69,8 @@ export const cremeDay = {
         id: "cremeDay2",
         link: "serumComplet",
         pictureLove: "/img/jpg/product/serumComplet.jpg",
+  pictureLove264: "/img/jpg/product/serumComplet264.jpg",
+  pictureLove400: "/img/jpg/product/serumComplet400.jpg",
         textLove:
           "Notre sérum complet est une révolution dans les soins de la peau avec 9 brevets exclusifs. Grâce à la technologie liposomale, il hydrate en profondeur pour une peau confortable et revitalisée. Ses actifs spécifiques préservent l'élasticité et la fermeté, stimulant la production de collagène pour un teint plus jeune et tonique. Les décolorations et les rides sont atténuées, redonnant éclat et uniformité à votre teint. En renforçant la barrière cutanée, votre peau est mieux protégée des agressions extérieures."
       },
@@ -72,6 +78,8 @@ export const cremeDay = {
         id: "cremeDay3",
         link: "serumFlash",
         pictureLove: "/img/jpg/product/serumFlash.jpg",
+  pictureLove264: "/img/jpg/product/serumFlash264.jpg",
+  pictureLove400: "/img/jpg/product/serumFlash400.jpg",
         textLove:
           "Visage fatigué et endormi ? Voici un sérum révolutionnaire. Sa formule agit rapidement pour réduire visiblement les poches sous les yeux, corriger les cernes et atténuer les poches. En lissant les rides et ridules, il vous offre une peau plus jeune et ferme. Notre sérum puissant lifte et raffermit la peau délicate autour des yeux, vous offrant un regard éclatant et rajeuni. Les résultats sont visibles jusqu'à 8 heures après l'application, et avec une utilisation régulière sur 28 jours, les résultats seront encore plus remarquables pour une transformation durable de la zone des yeux."
       },
@@ -79,6 +87,8 @@ export const cremeDay = {
         id: "cremeDay4",
         link: "eauTonique",
         pictureLove: "/img/jpg/product/eauTonique.jpg",
+  pictureLove264: "/img/jpg/product/eauTonique264.jpg",
+  pictureLove400: "/img/jpg/product/eauTonique400.jpg",
         textLove:
           "Une peau intensément hydratée, adoucie et apaisée, vous offrant confort et bien-être tout au long de la journée. Notre eau tonique agit efficacement pour resserrer les pores, minimiser les imperfections et apaiser les irritations, laissant votre peau visiblement plus uniforme et raffinée. Sans paraben, alcool ni parfums artificiels, notre formule respecte votre peau et l'environnement pour une expérience de soin pure et sûre. Optez pour ce produit tout-en-un et profitez d'une peau épanouie, sans compromis sur la qualité et le respect de votre bien-être. "
       }

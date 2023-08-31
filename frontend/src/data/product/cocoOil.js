@@ -57,6 +57,8 @@ export const cocoOil = {
         id: "cocoOil0",
         link: "heRelaxante",
         pictureLove: "/img/jpg/product/heRelaxante.jpg",
+  pictureLove264: "/img/jpg/product/heRelaxante264.jpg",
+  pictureLove400: "/img/jpg/product/heRelaxante400.jpg",
         textLove:
           "L’huile coco peut être combinée à l'huile essentielle Relaxante qui est bénéfique pour la santé mentale en apaisant la dépression, réduisant l'anxiété et le stress, et favorisant une sensation de bien-être. Son parfum relaxant aide à calmer l'esprit et procure une sensation de tranquillité intérieure. Elle s'avère également efficace pour favoriser l'endormissement, améliorer la qualité du sommeil, et apaiser les irritations cutanées, offrant un soulagement rapide et apaisant."
       },
@@ -64,6 +66,8 @@ export const cocoOil = {
         id: "cocoOil1",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Le produit phare de notre boutique grâce à ses bienfaits pour la peau. Il améliore la régénération cellulaire, favorisant l'élasticité et la fermeté de la peau pour un teint éclatant et une apparence jeune. Il traite la cellulite, les vergetures, l'acné, l'eczéma et le psoriasis. En plus, il soutient la santé globale en renforçant le système nerveux et immunitaire, favorisant la santé cardiovasculaire et la réparation osseuse. En stimulant votre énergie naturelle, il offre une vitalité renouvelée, diminue la rétention d'eau et améliore la circulation sanguine, soulageant les jambes lourdes et douloureuses. Il a également un pouvoir antioxydant bénéfique pour les fonctions respiratoires."
       },
@@ -71,6 +75,8 @@ export const cocoOil = {
         id: "cocoOil2",
         link: "heSoulageante",
         pictureLove: "/img/jpg/product/heSoulageante.jpg",
+  pictureLove264: "/img/jpg/product/heSoulageante264.jpg",
+  pictureLove400: "/img/jpg/product/heSoulageante400.jpg",
         textLove:
           "L’huile coco peut être combinée à l'huile essentielle Rafraîchissante qui stimule la concentration et la vivacité mentale. Elle combat les nausées, le mal des transports et les maux de tête pour un soulagement rapide et naturel. Elle améliore le confort respiratoire en apaisant la toux et en dégageant les voies respiratoires. De plus, elle apaise les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, offrant une peau apaisée. Grâce à ses propriétés apaisantes, elle détend les tensions musculaires et favorise une sensation de calme. Elle est aussi bénéfique pour soulager les douleurs articulaires et aide à réduire les bouffées de chaleur pendant la ménopause. Pour les sportifs, elle soulage les foulures, les entorses et les douleurs musculaires, favorisant une récupération plus rapide."
       },
@@ -78,6 +84,8 @@ export const cocoOil = {
         id: "cocoOil3",
         link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
+  pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
+  pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
         textLove:
           "L’huile coco peut être combinée à l'huile essentielle Soulageante qui possède de nombreuses propriétés curatives, diminuant les maux de tête et les symptômes des maladies saisonnières. Elle a des effets positifs sur le bien-être en diminuant l'anxiété, en augmentant la vivacité mentale et en améliorant l'humeur. Elle aide à soulager les tensions corporelles et les irritations cutanées, ainsi que les douleurs associées au grincement de dents. De plus, elle repousse les poux et les moustiques, offrant une protection naturelle contre ces nuisibles."
       },
@@ -85,6 +93,8 @@ export const cocoOil = {
         id: "cocoOil4",
         link: "heDesinfectante",
         pictureLove: "/img/jpg/product/heDesinfectante.jpg",
+  pictureLove264: "/img/jpg/product/heDesinfectante264.jpg",
+  pictureLove400: "/img/jpg/product/heDesinfectante400.jpg",
         textLove:
           "L’huile coco peut être combinée à l'huile essentielle Désinfectante qui est un remède naturel puissant pour combattre les infections et maintenir un environnement sain. Elle agit efficacement contre les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies. Elle soulage également les douleurs dentaires, apaise les problèmes cutanés et diminue les inconforts causés par les piqûres d'insectes. En plus de ses bienfaits pour la santé, elle peut contribuer à la gestion du poids en détoxifiant le corps et en favorisant un système digestif sain. Enfin, son parfum agréable et ses propriétés apaisantes en font un allié précieux pour améliorer l'humeur et favoriser la relaxation."
       }

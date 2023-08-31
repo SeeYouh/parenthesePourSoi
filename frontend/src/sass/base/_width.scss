@@ -8,7 +8,6 @@ footer,
 .footerContainer,
 #leafBottomLeft,
 #leafTopRight,
-.legalContainer,
 .legalTitle,
 .lineBottom,
 .logoPictureFooter img,
@@ -125,6 +124,10 @@ footer,
       width: 100%;
     }
   }
+
+  .legalContainer {
+    width: 95%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -138,5 +141,9 @@ footer,
 
   .youWillLikeIt-content {
     max-width: 80%;
+  }
+
+  .legalContainer {
+    width: 100%;
   }
 }

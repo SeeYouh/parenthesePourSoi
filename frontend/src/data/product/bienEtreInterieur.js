@@ -60,6 +60,8 @@ export const bienEtreInterieur = {
         id: "bienEtreInterieur0",
         link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+  pictureLove264: "/img/jpg/product/goutteMinceur264.jpg",
+  pictureLove400: "/img/jpg/product/goutteMinceur400.jpg",
         textLove:
           "Dans le cadre d’une cure minceur, nos gouttes super puissantes seront la solution idéale pour perdre du poids sainement et durablement, sans vous soumettre à un régime contraignant. Laissez-vous séduire par cette méthode naturelle pour atteindre vos objectifs de bien-être en toute efficacité."
       },
@@ -67,6 +69,8 @@ export const bienEtreInterieur = {
         id: "bienEtreInterieur1",
         link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
+  pictureLove264: "/img/jpg/product/detox264.jpg",
+  pictureLove400: "/img/jpg/product/detox400.jpg",
         textLove:
           "Notre détox naturelle est conçue pour éliminer les toxines de votre organisme, vous offrant ainsi une sensation de pureté et de bien-être. Plongez dans une expérience revitalisante et laissez votre corps retrouver son équilibre naturel grâce à cette solution bienfaisante."
       },
@@ -74,6 +78,8 @@ export const bienEtreInterieur = {
         id: "bienEtreInterieur2",
         link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
+  pictureLove264: "/img/jpg/product/equilibreCorpsEsprit264.jpg",
+  pictureLove400: "/img/jpg/product/equilibreCorpsEsprit400.jpg",
         textLove:
           "Les pré-probiotiques ont une action sur la qualité du sommeil. Si c’est ce que vous recherchez, je vous conseille de découvrir notre produit naturel pour un sommeil récupérateur optimal, offrant une nuit paisible et régénérante. Plongez dans un sommeil profond et réparateur, pour des journées remplies d'énergie et de vitalité."
       },
@@ -81,6 +87,8 @@ export const bienEtreInterieur = {
         id: "bienEtreInterieur3",
         link: "gg",
         pictureLove: "/img/jpg/product/GG.jpg",
+  pictureLove264: "/img/jpg/product/GG264.jpg",
+  pictureLove400: "/img/jpg/product/GG400.jpg",
         textLove:
           "Pour aller encore plus loin dans votre bien-être intestinal et le stimuler naturellement, découvrez notre produit innovant qui vous apporte 900 grammes de légumes en une seule dose journalière. Profitez d'une dose concentrée de nutriments essentiels pour une santé digestive optimale."
       },
@@ -88,6 +96,8 @@ export const bienEtreInterieur = {
         id: "bienEtreInterieur4",
         link: "mereDeTous",
         pictureLove: "/img/jpg/product/mereDeTous.jpg",
+  pictureLove264: "/img/jpg/product/mereDeTous264.jpg",
+  pictureLove400: "/img/jpg/product/mereDeTous400.jpg",
         textLove:
           "Pour les maladies chroniques ou les douleurs corporelles (articulaires, osseuses, musculaires), notre produit naturel aux propriétés anti-inflammatoires est là pour vous"
       }

@@ -55,6 +55,8 @@ export const collagenoni = {
         id: "collagenoni0",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre produit est un best-seller pour une peau éclatante et jeune. Grâce à sa régénération cellulaire, il améliore l'élasticité et la fermeté. Il traite divers problèmes cutanés comme la cellulite, les vergetures, l'acné et l'eczéma. En plus, il soutient la santé globale en renforçant le système immunitaire et en favorisant la formation du collagène. Il stimule également l'énergie naturelle, réduit la rétention d'eau et soulage les symptômes d'allergies et d'asthme. Un allié complet pour une peau épanouie et une vitalité renouvelée."
       },
@@ -62,6 +64,8 @@ export const collagenoni = {
         id: "collagenoni1",
         link: "apportQ10",
         pictureLove: "/img/jpg/product/apportQ10.jpg",
+  pictureLove264: "/img/jpg/product/apportQ10264.jpg",
+  pictureLove400: "/img/jpg/product/apportQ10400.jpg",
         textLove:
           "Ce produit possède de puissantes propriétés antioxydantes pour protéger les cellules des radicaux libres, traiter les varices et la cellulite, et accélérer la guérison des plaies. Le CoQ10 soutient la santé cardiovasculaire, renforce le système immunitaire, et améliore la mémoire et la fonction cognitive. Il agit également sur la peau en favorisant la régénération et en luttant contre les signes du vieillissement, offrant une apparence plus jeune et éclatante. De plus, il augmente la production d'énergie cellulaire, réduisant ainsi la fatigue et augmentant votre vitalité pour les activités quotidiennes."
       },
@@ -69,6 +73,8 @@ export const collagenoni = {
         id: "collagenoni2",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+  pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
+  pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
         textLove:
           "Après une journée bien remplie, notre produit élimine en douceur les saletés, le maquillage et les impuretés accumulées, laissant votre peau fraîche et propre. Sa formule hydratante assure une peau douce et veloutée, sans sensation de tiraillement. Grâce à ses actifs ciblés, il combat les imperfections, réduit les inflammations et prévient l'apparition de nouvelles éruptions cutanées. Testé dermatologiquement, notre produit convient à tous les types de peau, préservant ainsi votre barrière cutanée naturelle pour une peau saine et protégée."
       },
@@ -76,6 +82,8 @@ export const collagenoni = {
         id: "collagenoni3",
         link: "serumFlash",
         pictureLove: "/img/jpg/product/serumFlash.jpg",
+  pictureLove264: "/img/jpg/product/serumFlash264.jpg",
+  pictureLove400: "/img/jpg/product/serumFlash400.jpg",
         textLove:
           "Notre sérum agit en 90 secondes pour réduire visiblement les poches sous les yeux, éliminant les cernes violacés ou marrons pour un regard frais et revitalisé. Il atténue également les signes du vieillissement en lissant les rides et ridules pour une peau plus jeune et ferme. Grâce à sa formule puissante, il lifte et raffermit la peau délicate autour des yeux, offrant un teint éclatant et une apparence rajeunie. Vous constaterez des résultats immédiats jusqu'à 8 heures après l'application et une transformation durable de la zone des yeux après 28 jours d'utilisation régulière."
       },
@@ -83,6 +91,8 @@ export const collagenoni = {
         id: "collagenoni4",
         link: "serumComplet",
         pictureLove: "/img/jpg/product/serumComplet.jpg",
+  pictureLove264: "/img/jpg/product/serumComplet264.jpg",
+  pictureLove400: "/img/jpg/product/serumComplet400.jpg",
         textLove:
           "Avec 9 brevets exclusifs, notre sérum est une révolution dans les soins de la peau. Il utilise la technologie liposomale pour hydrater et nourrir votre peau en profondeur. Sa formule spécifique préserve l'élasticité et la fermeté de la peau en stimulant la production de collagène, pour un teint plus tonique et rebondi, donnant ainsi une apparence plus jeune et revitalisée. Les décolorations et les imperfections du teint sont corrigées grâce à son action innovante qui redonne éclat et uniformité à la peau, tandis que les rides et ridules sont atténuées pour une apparence plus lisse et jeune."
       }

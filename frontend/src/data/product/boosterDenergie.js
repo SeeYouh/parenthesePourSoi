@@ -61,6 +61,8 @@ export const boosterEnergie = {
         id: "boostEnergie0",
         link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+  pictureLove264: "/img/jpg/product/goutteMinceur264.jpg",
+  pictureLove400: "/img/jpg/product/goutteMinceur400.jpg",
         textLove:
           "En associant notre booster d'énergie à nos gouttes minceur naturelles, brûlez efficacement les graisses sous-cutanées et viscérales, tout en bloquant le stockage des graisses indésirables. Obtenez des résultats impressionnants tout en bénéficiant d'un regain d'énergie pour une transformation harmonieuse de votre silhouette."
       },
@@ -68,6 +70,8 @@ export const boosterEnergie = {
         id: "boostEnergie1",
         link: "harmonie",
         pictureLove: "/img/jpg/product/harmonie.jpg",
+  pictureLove264: "/img/jpg/product/harmonie264.jpg",
+  pictureLove400: "/img/jpg/product/harmonie400.jpg",
         textLove:
           "Voici une combinaison parfaite pour le bien-être psychologique et la prévention du burn-out. En associant notre produit phare à ce produit, vous retrouverez un équilibre émotionnel, un moral positif et une sérénité épanouissante tout en obtenant une énergie physique et mentale sans pareil."
       },
@@ -75,6 +79,8 @@ export const boosterEnergie = {
         id: "boostEnergie2",
         link: "osMuscle",
         pictureLove: "/img/jpg/product/osMuscle.jpg",
+  pictureLove264: "/img/jpg/product/osMuscle264.jpg",
+  pictureLove400: "/img/jpg/product/osMuscle400.jpg",
         textLove:
           "Le magnésium permet de nourrir votre corps et d'apaiser votre esprit. Avec notre produit riche en magnésium, combattez le stress et l'anxiété en prenant soin de vous de l'intérieur pour retrouver équilibre et bien-être.  C’est une approche naturelle pour vous sentir revitalisé et serein au quotidien."
       },
@@ -82,6 +88,8 @@ export const boosterEnergie = {
         id: "boostEnergie3",
         link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
+  pictureLove264: "/img/jpg/product/equilibreCorpsEsprit264.jpg",
+  pictureLove400: "/img/jpg/product/equilibreCorpsEsprit400.jpg",
         textLove:
           "Un sommeil profond et réparateur est essentiel pour favoriser la gaieté et la bonne humeur. Des nuits paisibles et revitalisantes contribuent à une journée épanouissante. Dites adieu à la fatigue et profitez d'un repos récupérateur pour une vitalité renouvelée chaque matin. Donnez à votre corps le repos dont il a besoin et ressentez le bien-être que vous méritez."
       },
@@ -89,6 +97,8 @@ export const boosterEnergie = {
         id: "boostEnergie4",
         link: "bb",
         pictureLove: "/img/jpg/product/bb.jpg",
+  pictureLove264: "/img/jpg/product/bb264.jpg",
+  pictureLove400: "/img/jpg/product/bb400.jpg",
         textLove:
           "Avec notre produit, bénéficiez d’une régénération cellulaire exceptionnelle qui accélère la pousse des ongles et des cheveux. Les résultats sont impressionnants : une chevelure abondante, résistante à la casse, et des ongles forts et sains. Grâce à une augmentation de la production de kératine, vos cheveux retrouvent brillance et vitalité. Notre formule diminue également la chute des cheveux et permet d’obtenir une chevelure dense et volumineuse comme vous en rêvez."
       }

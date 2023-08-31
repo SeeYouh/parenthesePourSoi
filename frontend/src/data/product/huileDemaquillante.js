@@ -44,30 +44,40 @@ export const huileDemaquillante = {
       {
         id: "huileDemaquillante0",
         pictureLove: "/img/jpg/product/decontaminant.jpg",
+  pictureLove264: "/img/jpg/product/decontaminant264.jpg",
+  pictureLove400: "/img/jpg/product/decontaminant400.jpg",
         textLove:
           "Notre produit doux et efficace élimine les peaux mortes et les impuretés pour révéler un teint frais et radieux. Sa formule spécialement conçue resserre les pores, affine la texture et offre une peau plus lisse et uniforme. Notre décontaminant cible les points noirs, réduit les imperfections et les tâches pigmentaires pour un teint éclatant. De plus, il apaise les yeux fatigués, offrant un regard reposé et éclatant. Testé sous contrôle dermatologique, notre produit convient à tous les types de peau."
       },
       {
         id: "huileDemaquillante1",
         pictureLove: "/img/jpg/product/masqueNuit.jpg",
+  pictureLove264: "/img/jpg/product/masqueNuit264.jpg",
+  pictureLove400: "/img/jpg/product/masqueNuit400.jpg",
         textLove:
           "Notre masque de nuit est révolutionnaire car il utilise la technologie Breathable Barrier®, cliniquement prouvée pour améliorer visiblement la santé de votre peau. Testé sous contrôle dermatologique, il est qualifié de plus efficace que ses concurrents en vente libre. Grâce à ses propriétés antioxydantes et régénératrices, il lutte contre les signes du vieillissement, réduisant rides et ridules pour une peau plus jeune et ferme. Sa formule avancée améliore les imperfections, resserre les pores et améliore la texture pour une peau saine et éclatante, notamment pour les problèmes d'acné."
       },
       {
         id: "huileDemaquillante2",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
+  pictureLove264: "/img/jpg/product/cremeNight264.jpg",
+  pictureLove400: "/img/jpg/product/cremeNight400.jpg",
         textLove:
           "Notre crème de nuit offre une régénération cellulaire complète en stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. Ciblant les tâches et les décolorations, elle estompe progressivement les imperfections pour un teint uniforme et éclatant. Enrichie d'actifs antioxydants, elle lutte contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
       },
       {
         id: "huileDemaquillante3",
         pictureLove: "/img/jpg/product/volumateurCils.jpg",
+  pictureLove264: "/img/jpg/product/volumateurCils264.jpg",
+  pictureLove400: "/img/jpg/product/volumateurCils400.jpg",
         textLove:
           "Notre sérum enrichi d'agents hydratants est essentiel pour obtenir des cils de biche naturels. En renforçant leur structure, il protège vos cils des dommages et de la casse, tout en stimulant leur croissance pour des cils plus épais, forts et longs. Notre formule sécurisée, testée sous contrôle dermatologique et ophtalmologique, prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales."
       },
       {
         id: "huileDemaquillante4",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+  pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
+  pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
         textLove:
           "Notre produit de soin polyvalent chouchoute votre peau après une journée bien remplie. Il élimine en douceur les saletés, le maquillage et les impuretés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Sa formule hydratante offre une peau douce et veloutée, sans tiraillement, en respectant l'équilibre cutané et préservant la barrière naturelle pour une peau saine et protégée. Avec ses actifs ciblés, il combat les imperfections et prévient les éruptions cutanées, vous offrant une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau."
       }

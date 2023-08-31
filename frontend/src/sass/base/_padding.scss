@@ -56,6 +56,10 @@
   .productTab {
     padding-left: 105px;
   }
+
+  main {
+    padding-top: 125px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -63,12 +67,16 @@
     padding-top: 15px;
   }
 
+  .menu-navbar {
+    padding-bottom: 20px;
+  }
+
   .category,
   .menuSubCategory {
     padding-top: 180px;
   }
 
-  .menu-navbar {
-    padding-bottom: 20px;
+  .footerContainer {
+    padding-top: 150px;
   }
 }

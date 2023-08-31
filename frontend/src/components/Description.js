@@ -82,7 +82,6 @@ const Description = ({ product }) => {
           </div>
         ))}
       </div>
-      ;
     </>
   );
 };

@@ -47,6 +47,8 @@ export const pn = {
         id: "PN0",
         link: "pb",
         pictureLove: "/img/jpg/product/PB.jpg",
+  pictureLove264: "/img/jpg/product/PB264.jpg",
+  pictureLove400: "/img/jpg/product/PB400.jpg",
         textLove:
           "Dans les journées chargées, le PB et le PN forment votre allié ultime. Le PB vous donne un boost d'énergie instantané, tandis que le PN offre une libération stable et durable. Ensemble, ils assurent vigilance et productivité, même sans repas complet. Découvrez-en plus sur cette alliance parfaite pour une journée pleine d'énergie et de vitalité."
       },
@@ -54,6 +56,8 @@ export const pn = {
         id: "PN1",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre produit stimule la régénération cellulaire, améliorant l'élasticité et la fermeté de la peau pour un teint éclatant et rajeuni. En plus de ces bienfaits pour la peau, il renforce votre santé globale en améliorant le système cardiovasculaire et immunitaire, favorisant la formation du collagène et la réparation osseuse. De plus, en boostant votre énergie naturelle, il soulage les problèmes de rétention d'eau, les jambes lourdes et les allergies, offrant un bien-être quotidien revitalisé."
       },
@@ -61,6 +65,8 @@ export const pn = {
         id: "PN2",
         link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
+  pictureLove264: "/img/jpg/product/detox264.jpg",
+  pictureLove400: "/img/jpg/product/detox400.jpg",
         textLove:
           "Notre produit indispensable pour une cure minceur réussie. Il agit comme un puissant détoxifiant, éliminant les toxines pour favoriser la gestion du poids et améliorer la santé globale. En rééquilibrant le système digestif, il réduit les ballonnements et la cellulite, vous offrant ainsi une silhouette harmonieuse."
       },
@@ -68,6 +74,8 @@ export const pn = {
         id: "PN3",
         link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+  pictureLove264: "/img/jpg/product/goutteMinceur264.jpg",
+  pictureLove400: "/img/jpg/product/goutteMinceur400.jpg",
         textLove:
           "Nos gouttes super puissantes sont spécialement conçues pour vous aider à perdre du poids de manière efficace et durable. Grâce à notre formule unique, vous pourrez atteindre vos objectifs sans vous soucier des effets yoyo souvent associés aux régimes restrictifs."
       },
@@ -75,6 +83,8 @@ export const pn = {
         id: "PN4",
         link: "santeMax",
         pictureLove: "/img/jpg/product/santeMax.jpg",
+  pictureLove264: "/img/jpg/product/santeMax264.jpg",
+  pictureLove400: "/img/jpg/product/santeMax400.jpg",
         textLove:
           "Notre produit est conçu pour améliorer votre bien-être et renforcer votre santé globale. Il vous offre une énergie durable tout au long de la journée, vous permettant de rester dynamique et productif. En harmonie avec votre corps, il apaise les tensions, réduit le stress et favorise un état d'esprit positif. Transformez votre vie avec ce nectar fruité pour embrasser une santé éclatante et une vitalité incomparable."
       }

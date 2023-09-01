@@ -70,7 +70,7 @@ export const serumComplet = {
           </div>
         ),
         picture450: "/img/jpg/product/serumCompletIllusText450.jpg",
-  picture225: "/img/jpg/product/serumCompletIllusText225.jpg",
+        picture225: "/img/jpg/product/serumCompletIllusText225.jpg",
         picture675: "/img/jpg/product/serumCompletIllusText675.jpg",
         picture900: "/img/jpg/product/serumCompletIllusText900.jpg"
       },
@@ -108,8 +108,8 @@ export const serumComplet = {
         id: "SerumComplet0",
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
-  pictureLove264: "/img/jpg/product/cremeDay264.jpg",
-  pictureLove400: "/img/jpg/product/cremeDay400.jpg",
+        pictureLove264: "/img/jpg/product/cremeDay264.jpg",
+        pictureLove400: "/img/jpg/product/cremeDay400.jpg",
         textLove:
           "Notre crème hydratante apaise instantanément et laisse votre peau souple et éclatante. Sa formule nourrissante combat efficacement la sécheresse en préservant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et homogénéise le teint. Optez pour notre crème d'exception et retrouvez une peau nette, débarrassée de l'acné, pour un éclat radieux et uniforme. Votre peau vous remerciera pour ce soin d'exception."
       },
@@ -117,8 +117,8 @@ export const serumComplet = {
         id: "SerumComplet1",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
-  pictureLove264: "/img/jpg/product/cremeNight264.jpg",
-  pictureLove400: "/img/jpg/product/cremeNight400.jpg",
+        pictureLove264: "/img/jpg/product/cremeNight264.jpg",
+        pictureLove400: "/img/jpg/product/cremeNight400.jpg",
         textLove: (
           <div>
             <p>
@@ -155,8 +155,8 @@ export const serumComplet = {
         id: "SerumComplet2",
         link: "serumFlash",
         pictureLove: "/img/jpg/product/serumFlash.jpg",
-  pictureLove264: "/img/jpg/product/serumFlash264.jpg",
-  pictureLove400: "/img/jpg/product/serumFlash400.jpg",
+        pictureLove264: "/img/jpg/product/serumFlash264.jpg",
+        pictureLove400: "/img/jpg/product/serumFlash400.jpg",
         textLove:
           "Vous pouvez dire adieu au visage fatigué et endormi grâce à notre sérum révolutionnaire. Il agit rapidement pour réduire visiblement les poches sous les yeux, corriger les cernes et atténuer les poches. En lissant les rides et ridules, il vous offre une peau plus jeune et ferme. Notre formule puissante lifte et raffermit la peau délicate autour des yeux, vous offrant un regard éclatant et rajeuni. Les résultats sont visibles jusqu'à 8 heures après l'application, et avec une utilisation régulière sur 28 jours, les résultats seront encore plus remarquables pour une transformation durable de la zone des yeux. Découvrez une formule avancée pour sublimer votre regard !"
       },
@@ -164,8 +164,8 @@ export const serumComplet = {
         id: "SerumComplet3",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
-  pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
-  pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
+        pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
+        pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
         textLove:
           "Notre gel nettoyant prend soin de votre peau après une journée bien remplie. Il élimine en douceur les impuretés, le maquillage et les saletés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Sa formule hydratante assure une peau douce et veloutée, sans sensation de tiraillement. Respectant l'équilibre cutané, il préserve la barrière naturelle pour une peau saine et protégée. Ses actifs ciblés combattent les imperfections et préviennent les éruptions cutanées, vous offrant ainsi une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau. Profitez d'une peau éclatante de beauté et en pleine santé grâce à notre formule de confiance."
       },
@@ -173,8 +173,8 @@ export const serumComplet = {
         id: "SerumComplet4",
         link: "huileDemaquillante",
         pictureLove: "/img/jpg/product/huileDemaquillante.jpg",
-  pictureLove264: "/img/jpg/product/huileDemaquillante264.jpg",
-  pictureLove400: "/img/jpg/product/huileDemaquillante400.jpg",
+        pictureLove264: "/img/jpg/product/huileDemaquillante264.jpg",
+        pictureLove400: "/img/jpg/product/huileDemaquillante400.jpg",
         textLove:
           "Une huile tout-en-un conçue pour nettoyer, démaquiller et décontaminer en profondeur votre peau. Elle élimine efficacement saletés, impuretés et polluants, vous laissant une peau fraîche et revitalisée. Enrichie en huiles de plantes et de fruits, elle hydrate en douceur, révélant la souplesse et l'éclat naturel de votre peau. Parfaite pour démaquiller, elle élimine même le maquillage tenace, sans obstruer les pores avec des huiles minérales. Rigoureusement testée dermatologiquement, notre formule assure une expérience de soin optimale et sûre. Offrez à votre peau le meilleur en choisissant notre huile polyvalente !"
       }

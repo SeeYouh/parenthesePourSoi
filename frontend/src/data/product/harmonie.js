@@ -21,7 +21,7 @@ export const harmonie = {
           "Les ingrédients minutieusement sélectionnés de notre produit favorisent une digestion saine et équilibrée, vous évitant ainsi les troubles digestifs courants. Grâce à ses propriétés détoxifiantes, il vous aide à éliminer les toxines accumulées dans votre corps, favorisant ainsi ainsi un mieux-être intérieur."
         ],
         picture450: "/img/jpg/product/eliteIllusText450.jpg",
-  picture225: "/img/jpg/product/eliteIllusText225.jpg",
+        picture225: "/img/jpg/product/eliteIllusText225.jpg",
         picture675: "/img/jpg/product/eliteIllusText675.jpg",
         picture900: "/img/jpg/product/eliteIllusText900.jpg"
       },
@@ -57,8 +57,8 @@ export const harmonie = {
         id: "harmonie0",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
-  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
-  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
+        pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+        pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Pour une santé mentale optimale et la prévention du burn-out, il est conseillé d’associer ce produit avec notre booster d'énergie pour une synergie parfaite. Grâce à cette combinaison, vous bénéficierez d'un soutien mental et émotionnel tout en profitant d'un regain d'énergie pour traverser la journée avec un sourire éclatant. Notre booster d’énergie et d’humeur vous dynamisera pour relever tous les défis avec vitalité."
       },
@@ -66,8 +66,8 @@ export const harmonie = {
         id: "harmonie1",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
-  pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
-  pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
+        pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
+        pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
         textLove:
           "Notre gel nettoyant offre un nettoyage doux et efficace, élimine les impuretés sans déshydrater la peau et prépare sa régénération pendant le sommeil. Il hydrate en laissant une peau douce et veloutée, lutte contre l'acné et les inflammations, tout en étant sûr pour tous les types de peau. Révélez une peau éclatante de beauté et en pleine santé avec notre formule dédiée à votre beauté."
       },
@@ -75,8 +75,8 @@ export const harmonie = {
         id: "harmonie2",
         link: "serumFlash",
         pictureLove: "/img/jpg/product/serumFlash.jpg",
-  pictureLove264: "/img/jpg/product/serumFlash264.jpg",
-  pictureLove400: "/img/jpg/product/serumFlash400.jpg",
+        pictureLove264: "/img/jpg/product/serumFlash264.jpg",
+        pictureLove400: "/img/jpg/product/serumFlash400.jpg",
         textLove:
           "Une véritable révolution pour vos yeux ! En seulement 90 secondes, ce sérum fait disparaître les rides, ridules et poches sous les yeux, vous offrant une véritable cure de jeunesse. Réveillez-vous avec des yeux non gonflés et une peau rajeunie en un temps record. Une expérience de rajeunissement en un temps record."
       },
@@ -84,8 +84,8 @@ export const harmonie = {
         id: "harmonie3",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
-  pictureLove264: "/img/jpg/product/cremeNight264.jpg",
-  pictureLove400: "/img/jpg/product/cremeNight400.jpg",
+        pictureLove264: "/img/jpg/product/cremeNight264.jpg",
+        pictureLove400: "/img/jpg/product/cremeNight400.jpg",
         textLove:
           "Notre crème de nuit est spécialement formulée pour lutter contre les signes visibles de l'âge. Cette formule innovante restaure le processus cellulaire de votre visage pendant que vous dormez, offrant une régénération complète. Réveillez-vous chaque matin avec une peau rayonnante, lisse et revitalisée, prête à affronter la journée en toute confiance. Profitez des multiples bienfaits de notre crème de nuit pour une peau d'apparence plus jeune et éclatante."
       },
@@ -93,8 +93,8 @@ export const harmonie = {
         id: "harmonie4",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
-  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
-  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
+        pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+        pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre produit best-seller, le régénérateur cellulaire, opère des miracles sur votre peau. Sa formule puissante aide à gommer les imperfections et offre une transformation positive à votre peau. Vous retrouverez une apparence éblouissante grâce à ses bienfaits inégalés. Ne laissez pas les imperfections vous freiner, offrez à votre peau le soin qu'elle mérite avec notre régénérateur cellulaire et redécouvrez une peau éclatante et resplendissante. Faites confiance à notre best-seller pour obtenir des résultats remarquables et une peau transformée qui fera des envieux."
       }

@@ -17,7 +17,7 @@ export const heRelaxante = {
         subTitle: "Favorisez un sommeil récupérateur",
         text: "Le sommeil est un élément essentiel de notre santé et de notre bien-être. Malheureusement, de nombreux facteurs peuvent perturber notre sommeil, comme le stress, l'anxiété ou les préoccupations quotidiennes. L'huile essentielle peut être une solution naturelle pour améliorer la qualité de notre sommeil. En créant une atmosphère propice au repos, elle peut aider à réduire les troubles du sommeil et favoriser un sommeil profond et réparateur. Imaginez-vous préparant votre chambre pour la nuit, diffusant quelques gouttes d'huile essentielle, et laissant son parfum vous envelopper alors que vous vous glissez dans vos draps. C'est une routine qui peut transformer votre nuit et vous aider à vous réveiller frais et dispos le matin.",
         picture450: "/img/jpg/product/heRelaxantIllusText450.jpg",
-  picture225: "/img/jpg/product/heRelaxantIllusText225.jpg",
+        picture225: "/img/jpg/product/heRelaxantIllusText225.jpg",
         picture675: "/img/jpg/product/heRelaxantIllusText675.jpg",
         picture900: "/img/jpg/product/heRelaxantIllusText900.jpg"
       },
@@ -52,8 +52,8 @@ export const heRelaxante = {
         id: "HERelaxante4",
         link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
-  pictureLove264: "/img/jpg/product/cocoOil264.jpg",
-  pictureLove400: "/img/jpg/product/cocoOil400.jpg",
+        pictureLove264: "/img/jpg/product/cocoOil264.jpg",
+        pictureLove400: "/img/jpg/product/cocoOil400.jpg",
         textLove:
           "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau."
       },
@@ -61,8 +61,8 @@ export const heRelaxante = {
         id: "HERelaxante2",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
-  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
-  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
+        pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+        pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Si vous traversez une période de baisse de moral ou de mal-être, cette huile essentielle peut apporter une aide précieuse. Elle peut être utilisée conjointement avec notre produit d'augmentation d'énergie pour améliorer votre humeur et votre bien-être général. Optimisez votre santé émotionnelle avec notre huile essentielle et notre booster d'énergie."
       },
@@ -70,8 +70,8 @@ export const heRelaxante = {
         id: "HERelaxante3",
         link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
-  pictureLove264: "/img/jpg/product/PN264.jpg",
-  pictureLove400: "/img/jpg/product/PN400.jpg",
+        pictureLove264: "/img/jpg/product/PN264.jpg",
+        pictureLove400: "/img/jpg/product/PN400.jpg",
         textLove:
           "Cette huile essentielle est un outil puissant pour aider à surmonter la dépendance au tabac. En la combinant avec notre booster d'énergie et notre produit spécialement conçu pour remplacer les repas, vous pouvez éviter les grignotages et la prise de poids souvent associés à l'arrêt du tabac. Optimisez votre parcours de sevrage tabagique avec notre huile essentielle, notre booster d'énergie et notre substitut de repas."
       },
@@ -79,8 +79,8 @@ export const heRelaxante = {
         id: "HERelaxante3",
         link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
-  pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
-  pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
+        pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
+        pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
         textLove:
           "Notre huile essentielle stimule la concentration et la vivacité mentale. Elle combat les nausées, le mal des transports et les maux de tête pour un soulagement rapide et naturel. Elle améliore le confort respiratoire en apaisant la toux et en dégageant les voies respiratoires. De plus, elle apaise les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, offrant une peau apaisée. Grâce à ses propriétés apaisantes, elle détend les tensions musculaires et favorise une sensation de calme. Elle est aussi bénéfique pour soulager les douleurs articulaires et aide à réduire les bouffées de chaleur pendant la ménopause. Pour les sportifs, elle soulage les foulures, les entorses et les douleurs musculaires, favorisant une récupération plus rapide."
       },
@@ -88,8 +88,8 @@ export const heRelaxante = {
         id: "HERelaxante3",
         link: "heSoulageante",
         pictureLove: "/img/jpg/product/heSoulageante.jpg",
-  pictureLove264: "/img/jpg/product/heSoulageante264.jpg",
-  pictureLove400: "/img/jpg/product/heSoulageante400.jpg",
+        pictureLove264: "/img/jpg/product/heSoulageante264.jpg",
+        pictureLove400: "/img/jpg/product/heSoulageante400.jpg",
         textLove:
           "Cette huile essentielle possède de nombreuses propriétés curatives, soulageant les maux de tête et les symptômes des maladies saisonnières. Elle a des effets positifs sur le bien-être en diminuant l'anxiété, en augmentant la vivacité mentale et en améliorant l'humeur. Elle aide à soulager les tensions corporelles et les irritations cutanées, ainsi que les douleurs associées au grincement de dents. De plus, elle repousse les poux et les moustiques, offrant une protection naturelle contre ces nuisibles."
       },
@@ -97,8 +97,8 @@ export const heRelaxante = {
         id: "HERelaxante3",
         link: "heDesinfectante",
         pictureLove: "/img/jpg/product/heDesinfectante.jpg",
-  pictureLove264: "/img/jpg/product/heDesinfectante264.jpg",
-  pictureLove400: "/img/jpg/product/heDesinfectante400.jpg",
+        pictureLove264: "/img/jpg/product/heDesinfectante264.jpg",
+        pictureLove400: "/img/jpg/product/heDesinfectante400.jpg",
         textLove:
           "L'huile essentielle Désinfectante est un remède naturel puissant pour combattre les infections et maintenir un environnement sain. Elle agit efficacement contre les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies. Elle soulage également les douleurs dentaires, apaise les problèmes cutanés et diminue les inconforts causés par les piqûres d'insectes. En plus de ses bienfaits pour la santé, elle peut contribuer à la gestion du poids en détoxifiant le corps et en favorisant un système digestif sain. Enfin, son parfum agréable et ses propriétés apaisantes en font un allié précieux pour améliorer l'humeur et favoriser la relaxation."
       }

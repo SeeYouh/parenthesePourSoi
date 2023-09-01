@@ -17,7 +17,7 @@ export const baumeLevres = {
         subTitle: "Protégez-les",
         text: "Une des forces majeures de notre baume à lèvres réside dans sa capacité exceptionnelle à protéger vos lèvres. Conçu pour faire face à tous les types de conditions météorologiques, il offre une défense efficace contre les éléments nuisibles. Sa formule avancée crée une barrière protectrice robuste qui isole vos lèvres des effets néfastes du soleil, du vent et du froid. Affronter les conditions météorologiques les plus rudes devient ainsi une expérience sans souci. Vos lèvres restent non seulement belles et douces, mais aussi saines et bien protégées, quel que soit le temps à l'extérieur. Avec notre baume à lèvres, chaque jour est un bon jour pour vos lèvres.",
         picture450: "/img/jpg/product/baumeLevresIllusText450.jpg",
-  picture225: "/img/jpg/product/baumeLevresIllusText225.jpg",
+        picture225: "/img/jpg/product/baumeLevresIllusText225.jpg",
         picture675: "/img/jpg/product/baumeLevresIllusText675.jpg",
         picture900: "/img/jpg/product/baumeLevresIllusText900.jpg"
       },
@@ -47,8 +47,8 @@ export const baumeLevres = {
         id: "baumeLevres0",
         link: "glossRepulpant",
         pictureLove: "/img/jpg/product/glossRepulpant.jpg",
-  pictureLove264: "/img/jpg/product/glossRepulpant264.jpg",
-  pictureLove400: "/img/jpg/product/glossRepulpant400.jpg",
+        pictureLove264: "/img/jpg/product/glossRepulpant264.jpg",
+        pictureLove400: "/img/jpg/product/glossRepulpant400.jpg",
         textLove:
           "Vos lèvres peuvent être sublimées avec notre gloss. Grâce à ses actifs nourrissants, il repulpe instantanément vos lèvres, les rendant pulpeuses et volumineuses. Il lisse les ridules, vous offrant des lèvres plus jeunes et douces. Avec sa sensation rafraîchissante et son label d'approbation « Good Face Project », notre produit assure une qualité irréprochable pour sublimer votre sourire éblouissant."
       },
@@ -56,8 +56,8 @@ export const baumeLevres = {
         id: "baumeLevres1",
         link: "dentifrice",
         pictureLove: "/img/jpg/product/dentifrice.jpg",
-  pictureLove264: "/img/jpg/product/dentifrice264.jpg",
-  pictureLove400: "/img/jpg/product/dentifrice400.jpg",
+        pictureLove264: "/img/jpg/product/dentifrice264.jpg",
+        pictureLove400: "/img/jpg/product/dentifrice400.jpg",
         textLove:
           "Pour un sourire éclatant, optez pour notre dentifrice formulé avec des ingrédients naturels de première qualité, exempts de produits chimiques agressifs. Il offre un blanchiment naturel en éliminant délicatement les tâches pour des dents éclatantes. Enrichi d'extraits apaisants et antibactériens de plantes, il préserve la santé et la vitalité de vos gencives. Grâce à l'huile essentielle de menthe poivrée, profitez d'une  gréable sensation de fraîcheur et d'une haleine rafraîchie, tout en éliminant la mauvaise haleine."
       },
@@ -65,8 +65,8 @@ export const baumeLevres = {
         id: "baumeLevres2",
         link: "dentitionBlanche",
         pictureLove: "/img/jpg/product/dentitionBlanche.jpg",
-  pictureLove264: "/img/jpg/product/dentitionBlanche264.jpg",
-  pictureLove400: "/img/jpg/product/dentitionBlanche400.jpg",
+        pictureLove264: "/img/jpg/product/dentitionBlanche264.jpg",
+        pictureLove400: "/img/jpg/product/dentitionBlanche400.jpg",
         textLove:
           "Pour une dentition blanche et brillante, découvrez notre poudre blanchissante révolutionnaire pour un sourire éclatant ! Notre blanchisseur élimine en douceur les impuretés et les taches, vous offrant des dents éblouissantes. Il préserve la santé de vos gencives et assure une haleine fraîche durable. Sans ingrédients controversés, notre formule respecte votre santé pour une confiance totale tout au long de la journée. Profitez d'un sourire éclatant et de soins bucco-dentaires complets grâce à notre produit innovant."
       }

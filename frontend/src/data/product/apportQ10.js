@@ -1,7 +1,4 @@
-import {
-  getCategoryById,
-  getSecondCategoryById,
-} from '../firstCategoryHelper';
+import { getCategoryById, getSecondCategoryById } from "../firstCategoryHelper";
 
 export const apportQ10 = {
   nameProduct: "Apport Q10",
@@ -24,7 +21,7 @@ export const apportQ10 = {
           "En renforçant le système immunitaire, notre puissante formule vous aide à mieux lutter contre les infections et les maladies. Vous vous sentirez plus résistant et mieux armé pour affronter les agressions extérieures. Connu également pour son impact bénéfique sur la santé cardiovasculaire, le CoQ10 soutient le bon fonctionnement du cœur et maintient une circulation sanguine optimale, vous offrant ainsi une santé cardiaque optimisée."
         ],
         picture450: "/img/jpg/product/apportQ10IllusText450.jpg",
-  picture225: "/img/jpg/product/apportQ10IllusText225.jpg",
+        picture225: "/img/jpg/product/apportQ10IllusText225.jpg",
         picture675: "/img/jpg/product/apportQ10IllusText675.jpg",
         picture900: "/img/jpg/product/apportQ10IllusText900.jpg"
       },
@@ -54,8 +51,8 @@ export const apportQ10 = {
         id: "apporQ100",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
-  pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
-  pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
+        pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+        pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre régénérateur cellulaire est bien plus qu'un soin pour la peau, c'est une solution exceptionnelle qui offre des bienfaits multiples. Non seulement il améliore la qualité de la peau, la laissant éclatante et revitalisée, mais il procure également un soulagement efficace aux allergies et à l'asthme. En choisissant notre produit bienfaisant, vous pourrez profiter d'une peau resplendissante tout en bénéficiant d'une respiration apaisée et libérée des inconforts allergiques."
       },
@@ -63,8 +60,8 @@ export const apportQ10 = {
         id: "apporQ101",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
-  pictureLove264: "/img/jpg/product/collagenoni264.jpg",
-  pictureLove400: "/img/jpg/product/collagenoni400.jpg",
+        pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+        pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Grâce à sa formule, en plus d’agir sur la peau, il fortifie en profondeur vos os, vous offrant ainsi une mobilité harmonieuse et une solidité dentaire optimale. De plus, il préserve l'intégrité de vos ligaments et articulations, assurant une flexibilité durable. En adoptant notre précieux collagène, vous offrez à votre corps la vitalité qu'il mérite pour une santé globale épanouissante. Profitez d'une expérience bienfaisante pour votre corps et ressentez les bienfaits dans votre vie quotidienne."
       },
@@ -72,8 +69,8 @@ export const apportQ10 = {
         id: "apporQ102",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
-  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
-  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
+        pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+        pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Notre produit combat efficacement la fatigue, favorise un sommeil de qualité et améliore la concentration mentale. De plus, notre formule est un allié précieux pour affronter le stress, l'anxiété et le surmenage, grâce à ses ingrédients naturels qui procurent un soulagement apaisant."
       },
@@ -81,8 +78,8 @@ export const apportQ10 = {
         id: "apporQ103",
         link: "heDesinfectante",
         pictureLove: "/img/jpg/product/heDesinfectante.jpg",
-  pictureLove264: "/img/jpg/product/heDesinfectante264.jpg",
-  pictureLove400: "/img/jpg/product/heDesinfectante400.jpg",
+        pictureLove264: "/img/jpg/product/heDesinfectante264.jpg",
+        pictureLove400: "/img/jpg/product/heDesinfectante400.jpg",
         textLove:
           "L'huile essentielle Désinfectante offre de multiples bienfaits pour le bien-être mental en réduisant le stress, favorisant la relaxation et améliorant l'humeur. Elle est un remède naturel efficace pour lutter contre les infections saisonnières et renforcer le système immunitaire. En plus de désinfecter les surfaces, elle peut soulager les problèmes cutanés, apaiser les piqûres d'insectes et favoriser un système digestif sain pour une gestion du poids optimale. Optez pour cette huile essentielle naturelle pour protéger votre santé."
       },
@@ -90,8 +87,8 @@ export const apportQ10 = {
         id: "apporQ104",
         link: "masqueNuit",
         pictureLove: "/img/jpg/product/masqueNuit.jpg",
-  pictureLove264: "/img/jpg/product/masqueNuit264.jpg",
-  pictureLove400: "/img/jpg/product/masqueNuit400.jpg",
+        pictureLove264: "/img/jpg/product/masqueNuit264.jpg",
+        pictureLove400: "/img/jpg/product/masqueNuit400.jpg",
         textLove:
           "Notre masque de nuit utilise la technologie Breathable Barrier®, cliniquement prouvée pour améliorer la santé de votre peau. Avec des propriétés antioxydantes et régénératrices, il réduit les signes du vieillissement, offrant une peau plus jeune et ferme. Il améliore également les imperfections de la peau, resserre les pores et combat les problèmes cutanés tels que l'acné. Ce masque nourrit votre peau en profondeur, offrant une hydratation intense et une sensation de douceur."
       },
@@ -99,8 +96,8 @@ export const apportQ10 = {
         id: "apporQ105",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
-  pictureLove264: "/img/jpg/product/cremeNight264.jpg",
-  pictureLove400: "/img/jpg/product/cremeNight400.jpg",
+        pictureLove264: "/img/jpg/product/cremeNight264.jpg",
+        pictureLove400: "/img/jpg/product/cremeNight400.jpg",
         textLove: (
           <div>
             <p>

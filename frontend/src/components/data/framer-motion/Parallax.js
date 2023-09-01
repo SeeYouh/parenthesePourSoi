@@ -1,5 +1,6 @@
 // Importation des modules nécessaires
 import { useRef } from "react";
+
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 // Cette fonction utilise la valeur de défilement pour créer un effet de parallaxe.
@@ -39,7 +40,7 @@ export default function App() {
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
-    restDelta: 0.001,
+    restDelta: 0.001
   });
 
   return (

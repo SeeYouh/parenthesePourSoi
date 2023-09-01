@@ -22,7 +22,7 @@ export const glossRepulpant = {
           "Avec notre gloss, vos lèvres seront non seulement sublimées mais également chouchoutées, vous permettant de vous sentir confiante et radieuse à chaque instant. Offrez à vos lèvres le soin qu'elles méritent et découvrez le pouvoir d'un sourire éclatant et épanoui."
         ],
         picture450: "/img/jpg/product/glossRepulpantIllusText450.jpg",
-  picture225: "/img/jpg/product/glossRepulpantIllusText225.jpg",
+        picture225: "/img/jpg/product/glossRepulpantIllusText225.jpg",
         picture675: "/img/jpg/product/glossRepulpantIllusText675.jpg",
         picture900: "/img/jpg/product/glossRepulpantIllusText900.jpg"
       },
@@ -69,8 +69,8 @@ export const glossRepulpant = {
         id: "glossRepulpant0",
         link: "baumeLevres",
         pictureLove: "/img/jpg/product/baumeLevres.jpg",
-  pictureLove264: "/img/jpg/product/baumeLevres264.jpg",
-  pictureLove400: "/img/jpg/product/baumeLevres400.jpg",
+        pictureLove264: "/img/jpg/product/baumeLevres264.jpg",
+        pictureLove400: "/img/jpg/product/baumeLevres400.jpg",
         textLove:
           "Un baume à lèvres enrichi d'ingrédients naturels. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, procurant une hydratation durable pour un sourire rayonnant de santé. Sa formule avancée crée une barrière protectrice contre les éléments extérieurs, préservant vos lèvres d'une manière impeccable. En évitant l'apparition des lèvres sèches et des gerçures, notre baume agit en réparant et en renforçant vos lèvres, pour un confort restauré jour après jour. Offrez à vos lèvres toute l'attention qu'elles méritent avec notre produit de qualité, et découvrez une nouvelle dimension de douceur et de bien-être pour votre sourire."
       },
@@ -78,8 +78,8 @@ export const glossRepulpant = {
         id: "glossRepulpant1",
         link: "dentifrice",
         pictureLove: "/img/jpg/product/dentifrice.jpg",
-  pictureLove264: "/img/jpg/product/dentifrice264.jpg",
-  pictureLove400: "/img/jpg/product/dentifrice400.jpg",
+        pictureLove264: "/img/jpg/product/dentifrice264.jpg",
+        pictureLove400: "/img/jpg/product/dentifrice400.jpg",
         textLove:
           "Pour arborer un sourire éclatant, choisissez notre dentifrice élaboré avec des ingrédients naturels de première qualité, dépourvu de produits chimiques agressifs. Il vous offre un blanchiment naturel en douceur, éliminant les taches pour vous offrir des dents radieuses. Enrichi d'extraits apaisants et antibactériens de plantes, il préserve la santé et la vitalité de vos gencives. Grâce à l'huile essentielle de menthe poivrée, savourez une sensation de fraîcheur agréable et profitez d'une haleine revitalisée tout en éliminant la mauvaise haleine. Optez pour une expérience de soins bucco-dentaires naturels et découvrez le pouvoir de la nature pour un sourire éblouissant."
       },
@@ -87,8 +87,8 @@ export const glossRepulpant = {
         id: "glossRepulpant2",
         link: "dentitionBlanche",
         pictureLove: "/img/jpg/product/dentitionBlanche.jpg",
-  pictureLove264: "/img/jpg/product/dentitionBlanche264.jpg",
-  pictureLove400: "/img/jpg/product/dentitionBlanche400.jpg",
+        pictureLove264: "/img/jpg/product/dentitionBlanche264.jpg",
+        pictureLove400: "/img/jpg/product/dentitionBlanche400.jpg",
         textLove:
           "Pour une dentition radieuse et lumineuse, plongez-vous dans notre poudre blanchissante révolutionnaire, synonyme d'un sourire éclatant ! Notre solution innovante élimine délicatement les impuretés et les tâches, révélant des dents étincelantes. En prenant soin de vos gencives, elle assure une haleine fraîche et durable. Dépourvue d'éléments controversés, notre formule préserve votre bien-être, vous offrant une confiance inébranlable tout au long de la journée. Offrez-vous un sourire resplendissant et une routine bucco-dentaire complète grâce à notre produit novateur."
       }

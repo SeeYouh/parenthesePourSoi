@@ -20,7 +20,7 @@ export const gg = {
           "Notre produit constitue un combo de légumes aux bienfaits multiples pour votre santé. Il est un allié puissant en apportant les vitamines et minéraux essentiels au corps de manière efficace. Finies les carences en fer et en vitamines grâce à notre trésor naturel de nutriments. En plus, nos légumes sélectionnés ont un effet détoxifiant qui nettoie les déchets de l’organisme, favorisant ainsi un système digestif sain, un transit intestinal facilité et stoppant les remontées acides. Profitez d'une santé optimale avec notre élixir qui prend soin de vous et de votre organisme."
         ],
         picture450: "/img/jpg/product/ggIllusText450.jpg",
-  picture225: "/img/jpg/product/ggIllusText225.jpg",
+        picture225: "/img/jpg/product/ggIllusText225.jpg",
         picture675: "/img/jpg/product/ggIllusText675.jpg",
         picture900: "/img/jpg/product/ggIllusText900.jpg"
       },
@@ -54,8 +54,8 @@ export const gg = {
         id: "GG0",
         link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
-  pictureLove264: "/img/jpg/product/detox264.jpg",
-  pictureLove400: "/img/jpg/product/detox400.jpg",
+        pictureLove264: "/img/jpg/product/detox264.jpg",
+        pictureLove400: "/img/jpg/product/detox400.jpg",
         textLove:
           "Si vous souhaitez entamer une cure minceur, notre produit agit comme un agent de détoxification puissant, éliminant les toxines pour une meilleure gestion du poids et une santé globale améliorée. C’est la base pour une perte de poids saine et durable."
       },
@@ -63,8 +63,8 @@ export const gg = {
         id: "GG1",
         link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
-  pictureLove264: "/img/jpg/product/goutteMinceur264.jpg",
-  pictureLove400: "/img/jpg/product/goutteMinceur400.jpg",
+        pictureLove264: "/img/jpg/product/goutteMinceur264.jpg",
+        pictureLove400: "/img/jpg/product/goutteMinceur400.jpg",
         textLove:
           "Des gouttes jour et nuit pour une cure minceur efficace et complète. Régule l'appétit, brûle les graisses tenaces et régule le sucre. Stimule le métabolisme, améliore l'humeur et réduit l'apparence de la cellulite. Les gouttes nuit empêchent l'accumulation de nouvelles graisses et favorisent une récupération optimale pendant le sommeil. Que demander de plus ?"
       },
@@ -72,8 +72,8 @@ export const gg = {
         id: "GG2",
         link: "bienEtreInterieur",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
-  pictureLove264: "/img/jpg/product/bienEtreInterieur264.jpg",
-  pictureLove400: "/img/jpg/product/bienEtreInterieur400.jpg",
+        pictureLove264: "/img/jpg/product/bienEtreInterieur264.jpg",
+        pictureLove400: "/img/jpg/product/bienEtreInterieur400.jpg",
         textLove:
           "Notre produit régule votre microbiote pour un bien-être global. Il améliore la digestion, renforce le système immunitaire et prévient les maladies chroniques. Grâce à ses propriétés antioxydantes, il neutralise les toxines et améliore la flore intestinale. Il joue un rôle essentiel dans la gestion du poids, contrôlant la satiété et boostant l'énergie. Il réduit le stress, améliore le sommeil et favorise une humeur positive."
       },
@@ -81,8 +81,8 @@ export const gg = {
         id: "GG3",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
-  pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
-  pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
+        pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+        pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Notre booster d'énergie dynamise votre corps en stimulant votre énergie naturelle et combat efficacement la fatigue pour un sommeil réparateur. Il favorise la bonne humeur et réduit le stress, vous offrant une sensation de légèreté au quotidien. Mais pas seulement …"
       },
@@ -90,8 +90,8 @@ export const gg = {
         id: "GG4",
         link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
-  pictureLove264: "/img/jpg/product/PN264.jpg",
-  pictureLove400: "/img/jpg/product/PN400.jpg",
+        pictureLove264: "/img/jpg/product/PN264.jpg",
+        pictureLove400: "/img/jpg/product/PN400.jpg",
         textLove:
           "Pour un délicieux smoothie, ce produit est parfait ! Il facilite la gestion du poids en offrant un équilibre nutritionnel optimal. Il contient des protéines végétales de qualité pour une digestion améliorée et une absorption de nutriments essentiels."
       }

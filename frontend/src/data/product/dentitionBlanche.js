@@ -20,7 +20,7 @@ export const dentitionBlanche = {
           "La santé de vos gencives est primordiale dans un soin bucco-dentaire complet, c'est pourquoi notre poudre prend soin d'elles avec une délicatesse inégalée. Grâce à une formule douce mais efficace, notre poudre nettoie vos gencives tout en les protégeant des irritations et des inflammations. Vous pouvez vous attendre à une santé bucco-dentaire optimale, car notre formule est spécialement conçue pour respecter la sensibilité de vos gencives. En prenant soin de vos gencives, notre produit vous permet de profiter d'une sensation de confort et de bien-être dans votre bouche, pour des sourires éclatants sans compromis sur la santé de vos gencives."
         ],
         picture450: "/img/jpg/product/dentitionBlancheIllusText450.jpg",
-  picture225: "/img/jpg/product/dentitionBlancheIllusText225.jpg",
+        picture225: "/img/jpg/product/dentitionBlancheIllusText225.jpg",
         picture675: "/img/jpg/product/dentitionBlancheIllusText675.jpg",
         picture900: "/img/jpg/product/dentitionBlancheIllusText900.jpg"
       },
@@ -45,8 +45,8 @@ export const dentitionBlanche = {
         id: "dentitionBlanche0",
         link: "dentifrice",
         pictureLove: "/img/jpg/product/dentifrice.jpg",
-  pictureLove264: "/img/jpg/product/dentifrice264.jpg",
-  pictureLove400: "/img/jpg/product/dentifrice400.jpg",
+        pictureLove264: "/img/jpg/product/dentifrice264.jpg",
+        pictureLove400: "/img/jpg/product/dentifrice400.jpg",
         textLove:
           "Un dentifrice naturel de haute qualité, sans produits chimiques agressifs, pour un blanchiment doux et des dents éclatantes. Enrichi en extraits de plantes apaisantes et anti bactériennes, il favorise des gencives saines. L'huile essentielle de menthe poivrée laisse une agréable sensation de fraîcheur, éliminant la mauvaise haleine. Une expérience de soin bucco-dentaire exceptionnelle, naturellement."
       },
@@ -54,8 +54,8 @@ export const dentitionBlanche = {
         id: "dentitionBlanche1",
         link: "baumeLevres",
         pictureLove: "/img/jpg/product/baumeLevres.jpg",
-  pictureLove264: "/img/jpg/product/baumeLevres264.jpg",
-  pictureLove400: "/img/jpg/product/baumeLevres400.jpg",
+        pictureLove264: "/img/jpg/product/baumeLevres264.jpg",
+        pictureLove400: "/img/jpg/product/baumeLevres400.jpg",
         textLove:
           "Notre baume à lèvres naturel, nourrissant et hydratant offre une protection contre les agressions extérieures et prévient les lèvres sèches et gercées. Grâce à sa composition naturelle, vos lèvres sont réparées et plus résistantes. Une véritable oasis de douceur et de protection pour un sourire éclatant de santé."
       },
@@ -63,8 +63,8 @@ export const dentitionBlanche = {
         id: "dentitionBlanche2",
         link: "glossRepulpant",
         pictureLove: "/img/jpg/product/glossRepulpant.jpg",
-  pictureLove264: "/img/jpg/product/glossRepulpant264.jpg",
-  pictureLove400: "/img/jpg/product/glossRepulpant400.jpg",
+        pictureLove264: "/img/jpg/product/glossRepulpant264.jpg",
+        pictureLove400: "/img/jpg/product/glossRepulpant400.jpg",
         textLove:
           "Notre gloss repulpant vous apportera des lèvres hydratées et volumineuses. Il efface les rides et ridules pour une apparence plus jeune et lisse. Il offre une sensation de fraîcheur délicieuse et est rigoureusement testé pour une tolérance optimale. Une cure de jouvence pour vos lèvres."
       },
@@ -72,8 +72,8 @@ export const dentitionBlanche = {
         id: "dentitionBlanche3",
         link: "volumateurCils",
         pictureLove: "/img/jpg/product/volumateurCils.jpg",
-  pictureLove264: "/img/jpg/product/volumateurCils264.jpg",
-  pictureLove400: "/img/jpg/product/volumateurCils400.jpg",
+        pictureLove264: "/img/jpg/product/volumateurCils264.jpg",
+        pictureLove400: "/img/jpg/product/volumateurCils400.jpg",
         textLove:
           "Vos cils ont besoin d’être protégés et renforcés ? Notre sérum est enrichi d'agents hydratants essentiels, formant un bouclier protecteur pour prévenir les dommages et la casse. Stimulant la croissance des cils, il les rend plus fournis, plus résistants et plus longs pour un regard irrésistible. Sa formule nourrissante prend soin de vos cils en profondeur, leur apportant force et vitalité. Testé sous contrôle dermatologique et ophtalmologique, vous pouvez l'utiliser en toute confiance."
       },
@@ -81,8 +81,8 @@ export const dentitionBlanche = {
         id: "dentitionBlanche4",
         link: "eauTonique",
         pictureLove: "/img/jpg/product/eauTonique.jpg",
-  pictureLove264: "/img/jpg/product/eauTonique264.jpg",
-  pictureLove400: "/img/jpg/product/eauTonique400.jpg",
+        pictureLove264: "/img/jpg/product/eauTonique264.jpg",
+        pictureLove400: "/img/jpg/product/eauTonique400.jpg",
         textLove:
           "Notre eau tonique nourrit et restaure en profondeur, offrant une peau intensément hydratée, adoucie et apaisée. Grâce à sa formule douce, elle resserre les pores, régule la production de sébum, et calme les irritations, idéal pour les peaux sensibles. Utilisez-la pour une peau équilibrée, éclatante et préparée pour le maquillage. Notre produit est sans paraben, alcool et parfums artificiels, garantissant une expérience de soin pure et sûre pour votre bien-être et celui de l'environnement."
       },
@@ -90,8 +90,8 @@ export const dentitionBlanche = {
         id: "dentitionBlanche5",
         link: "apportQ10",
         pictureLove: "/img/jpg/product/apportQ10.jpg",
-  pictureLove264: "/img/jpg/product/apportQ10264.jpg",
-  pictureLove400: "/img/jpg/product/apportQ10400.jpg",
+        pictureLove264: "/img/jpg/product/apportQ10264.jpg",
+        pictureLove400: "/img/jpg/product/apportQ10400.jpg",
         textLove:
           "Notre formule riche en CoQ10 aux propriétés antioxydantes puissantes prévient les dommages des radicaux libres et favorise une peau éclatante de jeunesse. Traitez efficacement les varices, la cellulite et favoriser la cicatrisation des plaies grâce à ses propriétés spécifiques. Renforcez votre système immunitaire pour mieux lutter contre les infections et maintenez une santé cardiaque optimisée. Préservez votre mémoire et améliorez votre fonction cognitive, tout en luttant contre le vieillissement cutané, pour une apparence plus jeune et éclatante."
       }

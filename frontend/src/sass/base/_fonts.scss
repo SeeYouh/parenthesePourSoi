@@ -86,6 +86,6 @@
 
 @media screen and (min-width: 1200px) {
   .textParagraph {
-    font-size: 1.2rem;
+    font-size: calc(0.2rem + 0.8vw);
   }
 }

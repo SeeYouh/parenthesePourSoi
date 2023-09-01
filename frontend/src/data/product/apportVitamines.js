@@ -21,10 +21,10 @@ export const apportVitamines = {
           "Les nutriments contenus dans notre formule aident à maintenir la santé de vos vaisseaux sanguins. Ils réduisent l'inflammation et favorisent une circulation sanguine optimale, garantissant ainsi un approvisionnement adéquat en nutriments essentiels dans tout votre corps.",
           "En plus de prendre soin de votre peau, notre produit contribue également à renforcer votre cœur et vos poumons. Il favorise une meilleure fonction cardiaque et pulmonaire, vous permettant ainsi de bénéficier d'une santé cardiovasculaire optimale."
         ],
-        picture450: "/img/jpg/product/apportVitaminesIllusText450.jpg",
-        picture225: "/img/jpg/product/apportVitaminesIllusText225.jpg",
-        picture675: "/img/jpg/product/apportVitaminesIllusText675.jpg",
-        picture900: "/img/jpg/product/apportVitaminesIllusText900.jpg"
+        picture450: "/img/jpg/product/ApportVitaminesIllusText450.jpg",
+        picture225: "/img/jpg/product/ApportVitaminesIllusText225.jpg",
+        picture675: "/img/jpg/product/ApportVitaminesIllusText675.jpg",
+        picture900: "/img/jpg/product/ApportVitaminesIllusText900.jpg"
       },
       {
         id: "2apportVitamines",

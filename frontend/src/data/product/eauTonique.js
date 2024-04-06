@@ -23,7 +23,8 @@ export const eauTonique = {
         picture450: "/img/jpg/product/eauToniqueIllusText450.jpg",
         picture225: "/img/jpg/product/eauToniqueIllusText225.jpg",
         picture675: "/img/jpg/product/eauToniqueIllusText675.jpg",
-        picture900: "/img/jpg/product/eauToniqueIllusText900.jpg"
+        picture900: "/img/jpg/product/eauToniqueIllusText900.jpg",
+        picturefb: "/img/jpg/product/eauToniqueIllusText1524.jpg"
       },
       {
         id: "2eauTonique",

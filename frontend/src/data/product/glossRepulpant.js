@@ -24,7 +24,8 @@ export const glossRepulpant = {
         picture450: "/img/jpg/product/glossRepulpantIllusText450.jpg",
         picture225: "/img/jpg/product/glossRepulpantIllusText225.jpg",
         picture675: "/img/jpg/product/glossRepulpantIllusText675.jpg",
-        picture900: "/img/jpg/product/glossRepulpantIllusText900.jpg"
+        picture900: "/img/jpg/product/glossRepulpantIllusText900.jpg",
+        picturefb: "/img/jpg/product/glossRepulpantIllusText1524.jpg"
       },
       {
         id: "2glossRepulpant",

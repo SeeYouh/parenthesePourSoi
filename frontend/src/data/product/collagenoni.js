@@ -22,7 +22,8 @@ export const collagenoni = {
         picture675: "/img/jpg/product/CollagenoniIllusText675.jpg",
         picture450: "/img/jpg/product/CollagenoniIllusText450.jpg",
         picture225: "/img/jpg/product/CollagenoniIllusText225.jpg",
-        picture900: "/img/jpg/product/CollagenoniIllusText900.jpg"
+        picture900: "/img/jpg/product/CollagenoniIllusText900.jpg",
+        picturefb: "/img/jpg/product/CollagenoniIllusText1524.jpg"
       },
       {
         id: "2Collagènoni",

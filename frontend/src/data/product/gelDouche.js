@@ -22,7 +22,8 @@ export const gelDouche = {
         picture450: "/img/jpg/product/gelDoucheIllusText450.jpg",
         picture225: "/img/jpg/product/gelDoucheIllusText225.jpg",
         picture675: "/img/jpg/product/gelDoucheIllusText675.jpg",
-        picture900: "/img/jpg/product/gelDoucheIllusText900.jpg"
+        picture900: "/img/jpg/product/gelDoucheIllusText900.jpg",
+        picturefb: "/img/jpg/product/gelDoucheIllusText1524.jpg"
       },
       {
         id: "2gelDouche",

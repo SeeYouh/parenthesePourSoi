@@ -23,7 +23,8 @@ export const masqueNuit = {
         picture450: "/img/jpg/product/masqueNuitIllusText450.jpg",
         picture225: "/img/jpg/product/masqueNuitIllusText225.jpg",
         picture675: "/img/jpg/product/masqueNuitIllusText675.jpg",
-        picture900: "/img/jpg/product/masqueNuitIllusText900.jpg"
+        picture900: "/img/jpg/product/masqueNuitIllusText900.jpg",
+        picturefb: "/img/jpg/product/masqueNuitIllusText1524.jpg"
       },
       {
         id: "2masqueNuit",

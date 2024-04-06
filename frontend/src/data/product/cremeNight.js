@@ -22,7 +22,8 @@ export const cremeNight = {
         picture450: "/img/jpg/product/cremeNightIllusText450.jpg",
         picture225: "/img/jpg/product/cremeNightIllusText225.jpg",
         picture675: "/img/jpg/product/cremeNightIllusText675.jpg",
-        picture900: "/img/jpg/product/cremeNightIllusText900.jpg"
+        picture900: "/img/jpg/product/cremeNightIllusText900.jpg",
+        picturefb: "/img/jpg/product/cremeNightIllusText1524.jpg"
       },
       {
         id: "2cremeNight",

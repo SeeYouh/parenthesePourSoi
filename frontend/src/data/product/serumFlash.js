@@ -23,7 +23,8 @@ export const serumFlash = {
         picture450: "/img/jpg/product/serumFlashIllusText450.jpg",
         picture225: "/img/jpg/product/serumFlashIllusText225.jpg",
         picture675: "/img/jpg/product/serumFlashIllusText675.jpg",
-        picture900: "/img/jpg/product/serumFlashIllusText900.jpg"
+        picture900: "/img/jpg/product/serumFlashIllusText900.jpg",
+        picturefb: "/img/jpg/product/serumFlashIllusText1524.jpg"
       },
       {
         id: "2serumFlash",

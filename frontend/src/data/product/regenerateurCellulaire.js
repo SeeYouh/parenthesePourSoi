@@ -23,7 +23,8 @@ export const regenerateurCellulaire = {
         picture675: "/img/jpg/product/REIllusText675.jpg",
         picture450: "/img/jpg/product/REIllusText450.jpg",
         picture225: "/img/jpg/product/REIllusText225.jpg",
-        picture900: "/img/jpg/product/REIllusText900.jpg"
+        picture900: "/img/jpg/product/REIllusText900.jpg",
+        picturefb: "/img/jpg/product/REIllusText1524.jpg"
       },
       {
         id: "2regenerateurCellulaire",
@@ -111,6 +112,7 @@ export const regenerateurCellulaire = {
   picture400: "/img/jpg/product/regenerateurCellulaire400.jpg",
   colors: {
     textColor: "#83218f",
+    linkTextColor: "#83218f",
     titleColorInSummary: "#83218f",
     bgColorInSummary0: "#a864b1",
     bgColorInSummary1: "#f0e4f2",

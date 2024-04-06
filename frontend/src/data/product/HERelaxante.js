@@ -19,7 +19,8 @@ export const heRelaxante = {
         picture450: "/img/jpg/product/heRelaxantIllusText450.jpg",
         picture225: "/img/jpg/product/heRelaxantIllusText225.jpg",
         picture675: "/img/jpg/product/heRelaxantIllusText675.jpg",
-        picture900: "/img/jpg/product/heRelaxantIllusText900.jpg"
+        picture900: "/img/jpg/product/heRelaxantIllusText900.jpg",
+        picturefb: "/img/jpg/product/heRelaxantIllusText1524.jpg"
       },
       {
         id: "3heRelaxante",
@@ -112,7 +113,7 @@ export const heRelaxante = {
   colors: {
     textColor: "#9f348b",
     titleColorInSummary: "#0017a5",
-    linkTextColor: "#9f348b",
+    linkTextColor: "#0017a5",
     bgColorInSummary0: "#bc71ae",
     bgColorInSummary1: "#f3e7f1",
     linearGradient0: "linear-gradient(105deg, #bc71ae, #ffa9e8)",

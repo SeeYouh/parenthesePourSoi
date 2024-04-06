@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 import { generalDataImg } from "../../data/generalData";
 import { RadioContext } from "../utils/radioContext";
+import { svgLogoUpps } from "../../assets/img/svg/Logo-Parenthese";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,6 +20,9 @@ const Footer = () => {
   const navigate = useNavigate();
 
   const handleCategoryChange = async (e, navigateToPage, offset) => {
+    await navigateToPage();
+    await goToPageAndScroll("legalTitle", offset);
+
     if (e.target.checked) {
       setSelectedRadio(e.target.id);
       setSelectedSubRadio("");
@@ -30,15 +34,11 @@ const Footer = () => {
       setSelectedSubRadio("");
       setSelectedProduct("");
     }
-
-    await navigateToPage();
-
-    await goToPageAndScroll("legalTitle", offset);
   };
 
   const goToPageAndScroll = async (selector, offset) => {
     await scroller.scrollTo(selector, {
-      duration: 1000,
+      duration: 500,
       smooth: true,
       offset: offset,
       spy: true
@@ -48,11 +48,19 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="logoPictureFooter">
-        <img
-          key={generalDataImg[0].id}
-          src={generalDataImg[0].src}
-          alt={generalDataImg[0].alt}
-        />
+        <div
+          className="cursor z-index"
+          alt={generalDataImg[4].alt}
+          onClick={() => {
+            goToPageAndScroll("scrollTop");
+            setSelectedRadio("");
+            setSelectedSubRadio("");
+            setSelectedProduct("");
+            setIsActive(false);
+          }}
+        >
+          {svgLogoUpps}
+        </div>
       </div>
       <div className="footerContainer">
         <div className="socialNetWorkContainer">
@@ -65,7 +73,7 @@ const Footer = () => {
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="instagram-icon" viewBox="0 0 448 512">
-                  <path d={generalDataImg[4].logoInstagram} />
+                  <path d={generalDataImg[2].logoInstagram} />
                 </symbol>
               </defs>
               <use xlinkHref="#instagram-icon" />
@@ -80,7 +88,7 @@ const Footer = () => {
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="tiktok-icon" viewBox="0 0 512 512">
-                  <path d={generalDataImg[6].logoTikTok} />
+                  <path d={generalDataImg[4].logoTikTok} />
                 </symbol>
               </defs>
               <use xlinkHref="#tiktok-icon" />
@@ -95,7 +103,7 @@ const Footer = () => {
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="facebook-icon" viewBox="0 0 320 512">
-                  <path d={generalDataImg[5].logoFacebook} />
+                  <path d={generalDataImg[3].logoFacebook} />
                 </symbol>
               </defs>
               <use xlinkHref="#facebook-icon" />

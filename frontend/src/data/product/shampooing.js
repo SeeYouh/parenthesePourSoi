@@ -23,7 +23,8 @@ export const shampooing = {
         picture450: "/img/jpg/product/shampooingIllusText450.jpg",
         picture225: "/img/jpg/product/shampooingIllusText225.jpg",
         picture675: "/img/jpg/product/shampooingIllusText675.jpg",
-        picture900: "/img/jpg/product/shampooingIllusText900.jpg"
+        picture900: "/img/jpg/product/shampooingIllusText900.jpg",
+        picturefb: "/img/jpg/product/shampooingIllusText1524.jpg"
       },
       {
         id: "2shampooing",

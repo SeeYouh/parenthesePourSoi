@@ -1,11 +1,17 @@
-import React, { useContext, useEffect } from "react";
+import React, {
+  useContext,
+  useEffect,
+} from 'react';
 
-import { motion } from "framer-motion";
-import { scroller } from "react-scroll";
-import { useLocation, useNavigate } from "react-router-dom";
+import { motion } from 'framer-motion';
+import { scroller } from 'react-scroll';
+import {
+  useLocation,
+  useNavigate,
+} from 'react-router-dom';
 
-import { firstCategoryList } from "../../data/firstCategoryList";
-import { RadioContext } from "../utils/radioContext";
+import { firstCategoryList } from '../../data/firstCategoryList';
+import { RadioContext } from '../utils/radioContext';
 
 const SecondCategoryNavBar = () => {
   const {
@@ -14,7 +20,7 @@ const SecondCategoryNavBar = () => {
     setIsActive,
     setSelectedProduct,
     setSelectedSubRadio,
-    closeMenu
+    closeMenu,
   } = useContext(RadioContext);
 
   const navigate = useNavigate();
@@ -40,7 +46,7 @@ const SecondCategoryNavBar = () => {
           smooth: "easeInOutQuint",
           duration: 1000,
           offset: offset,
-          spy: true
+          spy: true,
         });
       }, 100);
     }
@@ -70,7 +76,7 @@ const SecondCategoryNavBar = () => {
                     onClick={handleSubCategoryClick}
                   />
                   <label
-                    className={`btn btn-navbar ${
+                    className={` cursor btn btn-navbar ${
                       subCategory.text === selectedSubRadio ? "selected" : ""
                     }`}
                     htmlFor={subCategory.text}

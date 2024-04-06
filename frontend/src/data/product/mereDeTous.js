@@ -24,7 +24,8 @@ export const mereDeTous = {
         picture450: "/img/jpg/product/MereDeTousIllusText450.jpg",
         picture225: "/img/jpg/product/MereDeTousIllusText225.jpg",
         picture675: "/img/jpg/product/MereDeTousIllusText675.jpg",
-        picture900: "/img/jpg/product/MereDeTousIllusText900.jpg"
+        picture900: "/img/jpg/product/MereDeTousIllusText900.jpg",
+        picturefb: "/img/jpg/product/MereDeTousIllusText1524.jpg"
       },
       {
         id: "2mereDeTous",
@@ -121,6 +122,7 @@ export const mereDeTous = {
   picture400: "/img/jpg/product/mereDeTous400.jpg",
   colors: {
     textColor: "#e21e1e",
+    linkTextColor: "#cf0a0a",
     titleColorInSummary: "#cf0a0a",
     bgColorInSummary0: "#eb6262",
     bgColorInSummary1: "#f0e3ea",

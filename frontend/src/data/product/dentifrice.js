@@ -23,7 +23,8 @@ export const dentifrice = {
         picture675: "/img/jpg/product/dentifriceIllusText675.jpg",
         picture450: "/img/jpg/product/dentifriceIllusText450.jpg",
         picture225: "/img/jpg/product/dentifriceIllusText225.jpg",
-        picture900: "/img/jpg/product/dentifriceIllusText900.jpg"
+        picture900: "/img/jpg/product/dentifriceIllusText900.jpg",
+        picturefb: "/img/jpg/product/dentifriceIllusText1524.jpg"
       },
       {
         id: "2Dentifrice",

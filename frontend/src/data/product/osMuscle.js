@@ -23,7 +23,8 @@ export const osMuscle = {
         picture450: "/img/jpg/product/osMuscleIllusText450.jpg",
         picture225: "/img/jpg/product/osMuscleIllusText225.jpg",
         picture675: "/img/jpg/product/osMuscleIllusText675.jpg",
-        picture900: "/img/jpg/product/osMuscleIllusText900.jpg"
+        picture900: "/img/jpg/product/osMuscleIllusText900.jpg",
+        picturefb: "/img/jpg/product/osMuscleIllusText1524.jpg"
       },
       {
         id: "2osMuscle",
@@ -124,6 +125,7 @@ export const osMuscle = {
   picture400: "/img/jpg/product/osMuscle400.jpg",
   colors: {
     textColor: "#799198",
+    linkTextColor: "#799198",
     titleColorInSummary: "#799198",
     bgColorInSummary: "",
     bgColorInSummary0: "#89d7ab",

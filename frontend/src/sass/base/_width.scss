@@ -10,7 +10,7 @@ footer,
 #leafTopRight,
 .legalTitle,
 .lineBottom,
-.logoPictureFooter img,
+// .logoPictureFooter svg,
 .navbar,
 .productCard,
 .productTab,
@@ -47,7 +47,7 @@ footer,
 }
 
 .logoPictureFooter {
-  width: 290px;
+  width: 350px;
 }
 
 .bgProductCard {
@@ -66,9 +66,9 @@ footer,
   width: 100vw;
 }
 
-#logoPicture {
-  width: calc(150px + 30vw);
-}
+// .logo-upps {
+//   width: calc(300px + 30vw);
+// }
 
 #leafBottomLeftImg img,
 #leafTopRightImg img {

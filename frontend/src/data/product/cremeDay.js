@@ -23,7 +23,8 @@ export const cremeDay = {
         picture450: "/img/jpg/product/cremeDayIllusText450.jpg",
         picture225: "/img/jpg/product/cremeDayIllusText225.jpg",
         picture675: "/img/jpg/product/cremeDayIllusText675.jpg",
-        picture900: "/img/jpg/product/cremeDayIllusText900.jpg"
+        picture900: "/img/jpg/product/cremeDayIllusText900.jpg",
+        picturefb: "/img/jpg/product/cremeDayIllusText1524.jpg"
       },
       {
         id: "2cremeDay",

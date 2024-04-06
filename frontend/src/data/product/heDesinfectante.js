@@ -22,7 +22,8 @@ export const heDesinfectante = {
         picture450: "/img/jpg/product/heDesinfectanteIllusText450.jpg",
         picture225: "/img/jpg/product/heDesinfectanteIllusText225.jpg",
         picture675: "/img/jpg/product/heDesinfectanteIllusText675.jpg",
-        picture900: "/img/jpg/product/heDesinfectanteIllusText900.jpg"
+        picture900: "/img/jpg/product/heDesinfectanteIllusText900.jpg",
+        picturefb: "/img/jpg/product/heDesinfectanteIllusText1524.jpg"
       },
       {
         id: "2heDesinfectante",

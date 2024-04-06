@@ -24,7 +24,8 @@ export const pn = {
         picture450: "/img/jpg/product/pnIllusText450.jpg",
         picture225: "/img/jpg/product/pnIllusText225.jpg",
         picture675: "/img/jpg/product/pnIllusText675.jpg",
-        picture900: "/img/jpg/product/pnIllusText900.jpg"
+        picture900: "/img/jpg/product/pnIllusText900.jpg",
+        picturefb: "/img/jpg/product/pnIllusText1524.jpg"
       },
       {
         id: "2PN",

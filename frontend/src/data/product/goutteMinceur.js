@@ -22,7 +22,8 @@ export const goutteMinceur = {
         picture450: "/img/jpg/product/gouttesIllusText450.jpg",
         picture225: "/img/jpg/product/gouttesIllusText225.jpg",
         picture675: "/img/jpg/product/gouttesIllusText675.jpg",
-        picture900: "/img/jpg/product/gouttesIllusText900.jpg"
+        picture900: "/img/jpg/product/gouttesIllusText900.jpg",
+        picturefb: "/img/jpg/product/gouttesIllusText1524.jpg"
       },
       {
         id: "2goutteMinceur",

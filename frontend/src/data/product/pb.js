@@ -22,7 +22,8 @@ export const pb = {
         picture450: "/img/jpg/product/pbIllusText450.jpg",
         picture225: "/img/jpg/product/pbIllusText225.jpg",
         picture675: "/img/jpg/product/pbIllusText675.jpg",
-        picture900: "/img/jpg/product/pbIllusText900.jpg"
+        picture900: "/img/jpg/product/pbIllusText900.jpg",
+        picturefb: "/img/jpg/product/pbIllusText1524.jpg"
       },
       {
         id: "2PB",
@@ -125,13 +126,13 @@ export const pb = {
   picture400: "/img/jpg/product/PB400.jpg",
   colors: {
     textColor: "#cd9f00",
+    linkTextColor: "#cd9f00",
     titleColorInSummary: "#cd9f00",
     bgColorInSummary0: "#dcbc4d",
     bgColorInSummary1: "#f9f3e0",
     linearGradient0: "linear-gradient(105deg, #dcbc4d, #ffefd8)",
     linearGradient1: "linear-gradient(to right, #e6cf80, #f9f3e0)",
-    shadowColor: "#f9f3e0",
-    linkTextColor: "#0246a4"
+    shadowColor: "#f9f3e0"
   },
   inSummary: [
     {

@@ -22,7 +22,8 @@ export const huileDemaquillante = {
         picture450: "/img/jpg/product/huileDemaquillanteIllusText450.jpg",
         picture225: "/img/jpg/product/huileDemaquillanteIllusText225.jpg",
         picture675: "/img/jpg/product/huileDemaquillanteIllusText675.jpg",
-        picture900: "/img/jpg/product/huileDemaquillanteIllusText900.jpg"
+        picture900: "/img/jpg/product/huileDemaquillanteIllusText900.jpg",
+        picturefb: "/img/jpg/product/huileDemaquillanteIllusText1524.jpg"
       },
       {
         id: "2huileDemaquillante",

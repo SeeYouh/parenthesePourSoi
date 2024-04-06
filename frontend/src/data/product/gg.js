@@ -22,7 +22,8 @@ export const gg = {
         picture450: "/img/jpg/product/ggIllusText450.jpg",
         picture225: "/img/jpg/product/ggIllusText225.jpg",
         picture675: "/img/jpg/product/ggIllusText675.jpg",
-        picture900: "/img/jpg/product/ggIllusText900.jpg"
+        picture900: "/img/jpg/product/ggIllusText900.jpg",
+        picturefb: "/img/jpg/product/ggIllusText1524.jpg"
       },
       {
         id: "2GG",
@@ -106,6 +107,7 @@ export const gg = {
   picture400: "/img/jpg/product/GG400.jpg",
   colors: {
     textColor: "#028824",
+    linkTextColor: "#028824",
     titleColorInSummary: "#028824",
     bgColorInSummary0: "#4eac66",
     bgColorInSummary1: "#e1f1e5",

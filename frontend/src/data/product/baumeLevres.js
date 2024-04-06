@@ -19,7 +19,8 @@ export const baumeLevres = {
         picture450: "/img/jpg/product/baumeLevresIllusText450.jpg",
         picture225: "/img/jpg/product/baumeLevresIllusText225.jpg",
         picture675: "/img/jpg/product/baumeLevresIllusText675.jpg",
-        picture900: "/img/jpg/product/baumeLevresIllusText900.jpg"
+        picture900: "/img/jpg/product/baumeLevresIllusText900.jpg",
+        picturefb: "/img/jpg/product/baumeLevresIllusText1524.jpg"
       },
       {
         id: "2baumeLevres",
@@ -79,6 +80,7 @@ export const baumeLevres = {
   picture400: "/img/jpg/product/baumeLevres400.jpg",
   colors: {
     textColor: "#779db0",
+    linkTextColor: "#779db0",
     titleColorInSummary: "#779db0",
     bgColorInSummary0: "#bbced8",
     bgColorInSummary1: "#eff3f6",

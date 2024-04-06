@@ -22,7 +22,8 @@ export const bienEtreInterieur = {
         picture450: "/img/jpg/product/bienEtreInterieurIllusText450.jpg",
         picture225: "/img/jpg/product/bienEtreInterieurIllusText225.jpg",
         picture675: "/img/jpg/product/bienEtreInterieurIllusText675.jpg",
-        picture900: "/img/jpg/product/bienEtreInterieurIllusText900.jpg"
+        picture900: "/img/jpg/product/bienEtreInterieurIllusText900.jpg",
+        picturefb: "/img/jpg/product/bienEtreInterieurIllusText1524.jpg"
       },
       {
         id: "2BienEtreInterieur",
@@ -113,6 +114,7 @@ export const bienEtreInterieur = {
   picture400: "/img/jpg/product/bienEtreInterieur400.jpg",
   colors: {
     textColor: "#8a7540",
+    linkTextColor: "#8a7540",
     titleColorInSummary: "#8a7540",
     bgColorInSummary0: "#ad9e79",
     bgColorInSummary1: "#f1eee8",

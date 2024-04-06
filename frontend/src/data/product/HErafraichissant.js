@@ -19,7 +19,8 @@ export const heRafraichissant = {
         picture450: "/img/jpg/product/HErafraichssantIllusText450.jpg",
         picture225: "/img/jpg/product/HErafraichssantIllusText225.jpg",
         picture675: "/img/jpg/product/HErafraichssantIllusText675.jpg",
-        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg"
+        picture900: "/img/jpg/product/HErafraichssantIllusText900.jpg",
+        picturefb: "/img/jpg/product/HErafraichssantIllusText1524.jpg"
       },
       {
         id: "2heRafraichissant",
@@ -121,7 +122,7 @@ export const heRafraichissant = {
   colors: {
     textColor: "#30d1d9",
     titleColorInSummary: "#0017a5",
-    linkTextColor: "#30d1d9",
+    linkTextColor: "#0017a5",
     bgColorInSummary0: "#6edfe4",
     bgColorInSummary1: "#e6f9fa",
     linearGradient0: "linear-gradient(105deg, #6edfe4, #f1feff)",

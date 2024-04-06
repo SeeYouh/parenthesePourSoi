@@ -23,7 +23,8 @@ export const guerisseurMaux = {
         picture450: "/img/jpg/product/apportQ10IllusText450.jpg",
         picture225: "/img/jpg/product/apportQ10IllusText225.jpg",
         picture675: "/img/jpg/product/apportQ10IllusText675.jpg",
-        picture900: "/img/jpg/product/apportQ10IllusText900.jpg"
+        picture900: "/img/jpg/product/apportQ10IllusText900.jpg",
+        picturefb: "/img/jpg/product/apportQ10IllusText1524.jpg"
       },
       {
         id: "2GuerisseurMaux",
@@ -106,6 +107,7 @@ export const guerisseurMaux = {
   picture400: "/img/jpg/product/guerisseurMaux400.jpg",
   colors: {
     textColor: "#da7a2a",
+    linkTextColor: "#c24a0f",
     titleColorInSummary: "#c24a0f",
     bgColorInSummary0: "#e5a26a",
     bgColorInSummary1: "#fbefe5",

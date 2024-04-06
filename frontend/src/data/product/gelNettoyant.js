@@ -22,7 +22,8 @@ export const gelNettoyant = {
         picture450: "/img/jpg/product/gelNettoyantIllusText450.jpg",
         picture225: "/img/jpg/product/gelNettoyantIllusText225.jpg",
         picture675: "/img/jpg/product/gelNettoyantIllusText675.jpg",
-        picture900: "/img/jpg/product/gelNettoyantIllusText900.jpg"
+        picture900: "/img/jpg/product/gelNettoyantIllusText900.jpg",
+        picturefb: "/img/jpg/product/gelNettoyantIllusText1524.jpg"
       },
       {
         id: "gelNettoyant2",

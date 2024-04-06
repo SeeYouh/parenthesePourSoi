@@ -22,7 +22,8 @@ export const heSoulageante = {
         picture450: "/img/jpg/product/heSoulageanteIllusText450.jpg",
         picture225: "/img/jpg/product/heSoulageanteIllusText225.jpg",
         picture675: "/img/jpg/product/heSoulageanteIllusText675.jpg",
-        picture900: "/img/jpg/product/heSoulageanteIllusText900.jpg"
+        picture900: "/img/jpg/product/heSoulageanteIllusText900.jpg",
+        picturefb: "/img/jpg/product/heSoulageanteIllusText1524.jpg"
       },
       {
         id: "2heSoulageante",

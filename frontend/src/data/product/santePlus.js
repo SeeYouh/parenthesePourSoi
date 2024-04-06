@@ -23,7 +23,8 @@ export const santePlus = {
         picture675: "/img/jpg/product/santePlusIllusText675.jpg",
         picture450: "/img/jpg/product/santePlusIllusText450.jpg",
         picture225: "/img/jpg/product/santePlusIllusText225.jpg",
-        picture900: "/img/jpg/product/santePlusIllusText900.jpg"
+        picture900: "/img/jpg/product/santePlusIllusText900.jpg",
+        picturefb: "/img/jpg/product/santePlusIllusText1524.jpg"
       },
       {
         id: "2santePlus",

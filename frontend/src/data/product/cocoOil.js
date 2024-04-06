@@ -24,7 +24,8 @@ export const cocoOil = {
         picture450: "/img/jpg/product/CocoIllusText450.jpg",
         picture225: "/img/jpg/product/CocoIllusText225.jpg",
         picture675: "/img/jpg/product/CocoIllusText675.jpg",
-        picture900: "/img/jpg/product/CocoIllusText900.jpg"
+        picture900: "/img/jpg/product/CocoIllusText900.jpg",
+        picturefb: "/img/jpg/product/CocoIllusText1524.jpg"
       },
       {
         id: "2cocoOil",

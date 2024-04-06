@@ -4,14 +4,21 @@ footer {
   &::before {
     content: "";
     position: absolute;
-    top: -140px;
+    // top: -140px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     background-color: white;
-    height: 330px;
-    width: 330px;
-    border-radius: 0 0 50% 50%;
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
   }
   .logoPictureFooter {
-    top: -115px;
+    top: 0;
+    left: 50%;
+    height: 350px;
+    transform: translate(-50%, -50%);
     z-index: 5;
   }
 

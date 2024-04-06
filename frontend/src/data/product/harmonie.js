@@ -23,7 +23,8 @@ export const harmonie = {
         picture450: "/img/jpg/product/eliteIllusText450.jpg",
         picture225: "/img/jpg/product/eliteIllusText225.jpg",
         picture675: "/img/jpg/product/eliteIllusText675.jpg",
-        picture900: "/img/jpg/product/eliteIllusText900.jpg"
+        picture900: "/img/jpg/product/eliteIllusText900.jpg",
+        picturefb: "/img/jpg/product/eliteIllusText1524.jpg"
       },
       {
         id: "2harmonie",

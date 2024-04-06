@@ -51,7 +51,7 @@ main,
 .contact:before,
 #leafTopRightImg,
 .legalArticle p:before,
-#logoPicture,
+.logo-upps,
 .logoPictureFooter,
 #leafBottomLeftImg {
   position: absolute;
@@ -87,4 +87,21 @@ main,
 
 .overflowHidden {
   overflow: hidden;
+}
+
+a,
+.cursor,
+label {
+  cursor: pointer !important;
+}
+
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  color: black;
+}
+
+.z-index {
+  z-index: 10;
 }

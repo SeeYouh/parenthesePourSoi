@@ -7,6 +7,7 @@ import { firstCategoryList } from "../../data/firstCategoryList";
 import { generalDataImg } from "../../data/generalData";
 import { RadioContext } from "../utils/radioContext";
 import SecondCategoryNavBar from "./SecondCategoryNavBar";
+import { svgLogoUpps } from "../../assets/img/svg/Logo-Parenthese";
 
 const FirstCategoryNavBar = () => {
   const {
@@ -68,11 +69,9 @@ const FirstCategoryNavBar = () => {
     <>
       <div className={classNameMenu}>
         <p onClick={handleToggleMenu} id="iconMenu"></p>
-        <img
-          className="logo"
-          key={generalDataImg[3].id}
-          src={generalDataImg[3].src}
-          alt={generalDataImg[3].alt}
+        <div
+          className="cursor logo z-index"
+          alt={generalDataImg[4].alt}
           onClick={() => {
             goToPageAndScroll("scrollTop");
             setSelectedRadio("");
@@ -80,7 +79,9 @@ const FirstCategoryNavBar = () => {
             setSelectedProduct("");
             setIsActive(false);
           }}
-        />
+        >
+          {svgLogoUpps}
+        </div>
         <div className="all-menu-navbar allNavBar">
           <div className="no-select category firstCategory">
             <div className="line"></div>
@@ -98,7 +99,7 @@ const FirstCategoryNavBar = () => {
                   }}
                 />
                 <label
-                  className={`btn btn-navbar ${
+                  className={` cursor btn btn-navbar ${
                     menu.name === selectedRadio ? "selected" : ""
                   }`}
                   htmlFor={menu.name}

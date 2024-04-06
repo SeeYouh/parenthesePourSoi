@@ -22,7 +22,8 @@ export const dentitionBlanche = {
         picture450: "/img/jpg/product/dentitionBlancheIllusText450.jpg",
         picture225: "/img/jpg/product/dentitionBlancheIllusText225.jpg",
         picture675: "/img/jpg/product/dentitionBlancheIllusText675.jpg",
-        picture900: "/img/jpg/product/dentitionBlancheIllusText900.jpg"
+        picture900: "/img/jpg/product/dentitionBlancheIllusText900.jpg",
+        picturefb: "/img/jpg/product/dentitionBlancheIllusText1524.jpg"
       },
       {
         id: "2dentitionBlanche",
@@ -104,6 +105,7 @@ export const dentitionBlanche = {
   picture400: "/img/jpg/product/dentitionBlanche400.jpg",
   colors: {
     textColor: "#8a0c55",
+    linkTextColor: "#8a0c55",
     titleColorInSummary: "#8a0c55",
     bgColorInSummary0: "#ad5588",
     bgColorInSummary1: "#f1e2eb",

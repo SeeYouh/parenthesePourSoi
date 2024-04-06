@@ -61,7 +61,8 @@ export const detox = {
         picture450: "/img/jpg/product/DetoxIllusText450.jpg",
         picture225: "/img/jpg/product/DetoxIllusText225.jpg",
         picture675: "/img/jpg/product/DetoxIllusText675.jpg",
-        picture900: "/img/jpg/product/DetoxIllusText900.jpg"
+        picture900: "/img/jpg/product/DetoxIllusText900.jpg",
+        picturefb: "/img/jpg/product/DetoxIllusText1524.jpg"
       },
       {
         id: "2detox",

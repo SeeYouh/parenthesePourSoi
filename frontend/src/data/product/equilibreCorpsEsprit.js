@@ -23,7 +23,8 @@ export const equilibreCorpsEsprit = {
         picture675: "/img/jpg/product/equilibreCorpsEspritIllusText675.jpg",
         picture450: "/img/jpg/product/equilibreCorpsEspritIllusText450.jpg",
         picture225: "/img/jpg/product/equilibreCorpsEspritIllusText225.jpg",
-        picture900: "/img/jpg/product/equilibreCorpsEspritIllusText900.jpg"
+        picture900: "/img/jpg/product/equilibreCorpsEspritIllusText900.jpg",
+        picturefb: "/img/jpg/product/equilibreCorpsEspritIllusText1524.jpg"
       },
       {
         id: "2EquilibreCorpsEsprit",
@@ -116,6 +117,7 @@ export const equilibreCorpsEsprit = {
   picture400: "/img/jpg/product/equilibreCorpsEsprit400.jpg",
   colors: {
     textColor: "#e2b100",
+    linkTextColor: "#0d314c",
     titleColorInSummary: "#0d314c",
     bgColorInSummary0: "#f1d880",
     bgColorInSummary1: "#e2e6ea",

@@ -23,7 +23,8 @@ export const volumateurCils = {
         picture450: "/img/jpg/product/volumateurCilsIllusText450.jpg",
         picture225: "/img/jpg/product/volumateurCilsIllusText225.jpg",
         picture675: "/img/jpg/product/volumateurCilsIllusText675.jpg",
-        picture900: "/img/jpg/product/volumateurCilsIllusText900.jpg"
+        picture900: "/img/jpg/product/volumateurCilsIllusText900.jpg",
+        picturefb: "/img/jpg/product/volumateurCilsIllusText1524.jpg"
       },
       {
         id: "2volumateurCils",

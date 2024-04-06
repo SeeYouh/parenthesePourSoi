@@ -82,7 +82,8 @@ export const purificatAir = {
         picture675: "/img/jpg/product/purificatAirIllusText675.jpg",
         picture450: "/img/jpg/product/purificatAirIllusText450.jpg",
         picture225: "/img/jpg/product/purificatAirIllusText225.jpg",
-        picture900: "/img/jpg/product/purificatAirIllusText900.jpg"
+        picture900: "/img/jpg/product/purificatAirIllusText900.jpg",
+        picturefb: "/img/jpg/product/purificatAirIllusText1524.jpg"
       },
 
       {

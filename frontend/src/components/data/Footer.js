@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 
-import { scroller } from "react-scroll";
-import { useNavigate } from "react-router-dom";
+import { scroller } from 'react-scroll';
+import { useNavigate } from 'react-router-dom';
 
-import { generalDataImg } from "../../data/generalData";
-import { RadioContext } from "../utils/radioContext";
-import { svgLogoUpps } from "../../assets/img/svg/Logo-Parenthese";
+import { generalDataImg } from '../../data/generalData';
+import { RadioContext } from '../utils/radioContext';
+import { svgLogoUpps } from '../../assets/img/svg/Logo-Parenthese';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,7 +14,7 @@ const Footer = () => {
     setSelectedRadio,
     setSelectedSubRadio,
     setSelectedProduct,
-    setIsActive
+    setIsActive,
   } = useContext(RadioContext);
 
   const navigate = useNavigate();
@@ -41,7 +41,7 @@ const Footer = () => {
       duration: 500,
       smooth: true,
       offset: offset,
-      spy: true
+      spy: true,
     });
   };
 
@@ -117,12 +117,12 @@ const Footer = () => {
               className="legalArticle"
               style={{
                 borderTop: "2px solid white",
-                marginTop: "15px"
+                marginTop: "15px",
               }}
             >
               <p
                 style={{
-                  borderRight: "2px solid white"
+                  borderRight: "2px solid white",
                 }}
                 onClick={(e) =>
                   handleCategoryChange(e, () => navigate("/privacy"), -105)
@@ -143,7 +143,7 @@ const Footer = () => {
 
         <div className="contactContainer">
           <a
-            href="mailto:contact@une-parenthese-pour-soi.fr?subject=Prise de contact depuis le site&body=Bonjour,"
+            href="mailto:contact@un-possible.fr?subject=Prise de contact depuis le site&body=Bonjour,"
             className="contact"
           >
             Contactez moi
@@ -151,7 +151,7 @@ const Footer = () => {
 
           <a
             className="contact"
-            href="https://agenda.une-parenthese-pour-soi.fr/"
+            href="https://agenda.un-possible.fr/"
             target="_blank"
             rel="noopener noreferrer"
           >

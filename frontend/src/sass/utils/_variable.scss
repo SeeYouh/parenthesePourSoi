@@ -7,8 +7,8 @@ $bgColor3: #fff;
 // Background
 
 $bgColor4: #f2fdd6;
-$bgColor5: #56a045;
-$bgColor6: #b2d45a;
+$bgColor5: #46c0b9;
+$bgColor6: #f2c04c;
 $bgColor7: white;
 $bgColor11: #edffea;
 $bgColor10: #6ebb5d;
@@ -17,6 +17,10 @@ $bgColor10: #6ebb5d;
   background-color: $bgColor7;
   transform: translateZ(0);
 }
+
+// Gradient
+
+$linear-gradient-1: linear-gradient(90deg, $bgColor6, $bgColor5);
 
 //Shadow
 

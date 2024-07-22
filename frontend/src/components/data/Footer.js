@@ -1,14 +1,21 @@
-import React, { useContext } from 'react';
+import React, {
+  useContext,
+  useEffect,
+  useState,
+} from 'react';
 
 import { scroller } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
 
 import { generalDataImg } from '../../data/generalData';
+import { LogoUP } from '../../assets/img/svg/LogoUP';
 import { RadioContext } from '../utils/radioContext';
-import { svgLogoUpps } from '../../assets/img/svg/Logo-Parenthese';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [angle, setAngle] = useState(0);
+  const bgColor5 = "#46c0b9";
+  const bgColor6 = "#338c87";
 
   const {
     setSelectedRadio,
@@ -45,8 +52,25 @@ const Footer = () => {
     });
   };
 
+  useEffect(() => {
+    let start;
+    const rotate = (timestamp) => {
+      if (!start) start = timestamp;
+      const progress = timestamp - start;
+      const newAngle = (progress / 50) % 360;
+      setAngle(newAngle);
+      requestAnimationFrame(rotate);
+    };
+
+    requestAnimationFrame(rotate);
+  }, []);
+
+  const backgroundStyle = {
+    background: `linear-gradient(${angle}deg, ${bgColor5}, ${bgColor6})`,
+  };
+
   return (
-    <footer className="footer">
+    <footer className="footer" style={backgroundStyle}>
       <div className="logoPictureFooter">
         <div
           className="cursor z-index"
@@ -59,7 +83,8 @@ const Footer = () => {
             setIsActive(false);
           }}
         >
-          {svgLogoUpps}
+          {/* {svgLogoUpps} */}
+          {LogoUP}
         </div>
       </div>
       <div className="footerContainer">

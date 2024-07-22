@@ -1,13 +1,16 @@
-import React, { useContext, useEffect } from "react";
+import React, {
+  useContext,
+  useEffect,
+} from 'react';
 
-import Scroll from "react-scroll";
-import { useNavigate } from "react-router-dom";
+import Scroll from 'react-scroll';
+import { useNavigate } from 'react-router-dom';
 
-import { firstCategoryList } from "../../data/firstCategoryList";
-import { generalDataImg } from "../../data/generalData";
-import { RadioContext } from "../utils/radioContext";
-import SecondCategoryNavBar from "./SecondCategoryNavBar";
-import { svgLogoUpps } from "../../assets/img/svg/Logo-Parenthese";
+import { firstCategoryList } from '../../data/firstCategoryList';
+import { generalDataImg } from '../../data/generalData';
+import { LogoUP } from '../../assets/img/svg/LogoUP';
+import { RadioContext } from '../utils/radioContext';
+import SecondCategoryNavBar from './SecondCategoryNavBar';
 
 const FirstCategoryNavBar = () => {
   const {
@@ -17,7 +20,7 @@ const FirstCategoryNavBar = () => {
     setSelectedProduct,
     setIsActive,
     menuNavActive,
-    setMenuNavActive
+    setMenuNavActive,
   } = useContext(RadioContext);
 
   const handleToggleMenu = () => {
@@ -39,7 +42,7 @@ const FirstCategoryNavBar = () => {
       duration: 500,
       smooth: true,
       offset: -125,
-      spy: true
+      spy: true,
     });
   };
 
@@ -61,7 +64,7 @@ const FirstCategoryNavBar = () => {
       smooth: "easeInOutQuint",
       duration: 1000,
       offset: offset,
-      spy: true
+      spy: true,
     });
   };
 
@@ -80,7 +83,7 @@ const FirstCategoryNavBar = () => {
             setIsActive(false);
           }}
         >
-          {svgLogoUpps}
+          {LogoUP}
         </div>
         <div className="all-menu-navbar allNavBar">
           <div className="no-select category firstCategory">

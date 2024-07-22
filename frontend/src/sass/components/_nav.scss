@@ -19,7 +19,7 @@
   background-color: $bgColor7;
 
   .logo-upps {
-    width: 100px;
+    width: auto;
     height: 100px;
   }
 
@@ -56,10 +56,10 @@
     max-width: 800px;
   }
 
-  .logo {
-    height: 150px;
-    width: 150px;
-  }
+  // .logo {
+  //   height: 150px;
+  //   width: 150px;
+  // }
 
   #iconMenu {
     display: block;

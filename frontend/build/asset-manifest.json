@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.197a83aa.css",
-    "main.js": "/static/js/main.9084c6e0.js",
+    "main.js": "/static/js/main.157595da.js",
     "static/media/Farro-Medium.ttf": "/static/media/Farro-Medium.7dd2919ef1191989bdf5.ttf",
     "static/media/Farro-Bold.ttf": "/static/media/Farro-Bold.0bdc13f7b2956cba2966.ttf",
     "index.html": "/index.html",
     "main.197a83aa.css.map": "/static/css/main.197a83aa.css.map",
-    "main.9084c6e0.js.map": "/static/js/main.9084c6e0.js.map"
+    "main.157595da.js.map": "/static/js/main.157595da.js.map"
   },
   "entrypoints": [
     "static/css/main.197a83aa.css",
-    "static/js/main.9084c6e0.js"
+    "static/js/main.157595da.js"
   ]
 }

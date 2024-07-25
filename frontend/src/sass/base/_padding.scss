@@ -1,12 +1,28 @@
 //        PADDING-BOTTOM            //
 
+.titleTextProduct h2 {
+  padding-bottom: 10px;
+}
+
 .globalLegalContainer p,
 .subCategory h1,
 .subLegalTitle {
   padding-bottom: 20px;
 }
 
+.titleTextProduct {
+  padding-bottom: 30px;
+}
+
 //        PADDING-LEFT            //
+
+.titleTextProduct {
+  h1,
+  h2 {
+    padding-left: 30px;
+  }
+}
+
 //        PADDING-RIGHT            //
 //        PADDING-TOP            //
 
@@ -16,14 +32,46 @@
 
 //        PADDING            //
 
-.menuSubCategory {
-  padding: 0 20px 0 20px;
-}
-
 .firstCategory {
   padding: 15px 20px 0 20px;
 }
 
 .legalTitle {
   padding: 90px 0 90px 0;
+}
+
+.subCategory {
+  li {
+    padding: calc(10px + 1vmin) calc(15px + 1vmin);
+  }
+}
+
+//--------- MEDIA QUERIES --------//
+
+@media screen and (min-width: 1200px) {
+  .menuSubCategory {
+    padding: 0 20px 0 20px;
+  }
+
+  .productTab {
+    padding-left: 105px;
+  }
+
+  main {
+    padding-top: 125px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .logo {
+    padding-top: 15px;
+  }
+
+  .menu-navbar {
+    padding-bottom: 20px;
+  }
+
+  .footerContainer {
+    padding-top: 75px;
+  }
 }

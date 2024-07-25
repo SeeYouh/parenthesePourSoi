@@ -5,7 +5,7 @@ export const pn = {
   id: "pn",
 
   summary: {
-    title: "Un substitut de repas complet.",
+    title: "Un substitut de repas complet",
     paragraph: [
       {
         id: "0PN",
@@ -22,8 +22,10 @@ export const pn = {
           "Explorez tous les avantages extraordinaires de cette composition innovante et réveillez votre plein potentiel. Offrez à votre corps et à votre esprit le soutien dont ils ont besoin pour prospérer. Faites le choix de l'optimisation, optez pour cette formule spéciale."
         ],
         picture450: "/img/jpg/product/pnIllusText450.jpg",
+        picture225: "/img/jpg/product/pnIllusText225.jpg",
         picture675: "/img/jpg/product/pnIllusText675.jpg",
-        picture900: "/img/jpg/product/pnIllusText900.jpg"
+        picture900: "/img/jpg/product/pnIllusText900.jpg",
+        picturefb: "/img/jpg/product/pnIllusText1524.jpg"
       },
       {
         id: "2PN",
@@ -46,6 +48,8 @@ export const pn = {
         id: "PN0",
         link: "pb",
         pictureLove: "/img/jpg/product/PB.jpg",
+        pictureLove264: "/img/jpg/product/PB264.jpg",
+        pictureLove400: "/img/jpg/product/PB400.jpg",
         textLove:
           "Dans les journées chargées, le PB et le PN forment votre allié ultime. Le PB vous donne un boost d'énergie instantané, tandis que le PN offre une libération stable et durable. Ensemble, ils assurent vigilance et productivité, même sans repas complet. Découvrez-en plus sur cette alliance parfaite pour une journée pleine d'énergie et de vitalité."
       },
@@ -53,6 +57,8 @@ export const pn = {
         id: "PN1",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+        pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Notre produit stimule la régénération cellulaire, améliorant l'élasticité et la fermeté de la peau pour un teint éclatant et rajeuni. En plus de ces bienfaits pour la peau, il renforce votre santé globale en améliorant le système cardiovasculaire et immunitaire, favorisant la formation du collagène et la réparation osseuse. De plus, en boostant votre énergie naturelle, il soulage les problèmes de rétention d'eau, les jambes lourdes et les allergies, offrant un bien-être quotidien revitalisé."
       },
@@ -60,6 +66,8 @@ export const pn = {
         id: "PN2",
         link: "detox",
         pictureLove: "/img/jpg/product/detox.jpg",
+        pictureLove264: "/img/jpg/product/detox264.jpg",
+        pictureLove400: "/img/jpg/product/detox400.jpg",
         textLove:
           "Notre produit indispensable pour une cure minceur réussie. Il agit comme un puissant détoxifiant, éliminant les toxines pour favoriser la gestion du poids et améliorer la santé globale. En rééquilibrant le système digestif, il réduit les ballonnements et la cellulite, vous offrant ainsi une silhouette harmonieuse."
       },
@@ -67,6 +75,8 @@ export const pn = {
         id: "PN3",
         link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+        pictureLove264: "/img/jpg/product/goutteMinceur264.jpg",
+        pictureLove400: "/img/jpg/product/goutteMinceur400.jpg",
         textLove:
           "Nos gouttes super puissantes sont spécialement conçues pour vous aider à perdre du poids de manière efficace et durable. Grâce à notre formule unique, vous pourrez atteindre vos objectifs sans vous soucier des effets yoyo souvent associés aux régimes restrictifs."
       },
@@ -74,6 +84,8 @@ export const pn = {
         id: "PN4",
         link: "santeMax",
         pictureLove: "/img/jpg/product/santeMax.jpg",
+        pictureLove264: "/img/jpg/product/santeMax264.jpg",
+        pictureLove400: "/img/jpg/product/santeMax400.jpg",
         textLove:
           "Notre produit est conçu pour améliorer votre bien-être et renforcer votre santé globale. Il vous offre une énergie durable tout au long de la journée, vous permettant de rester dynamique et productif. En harmonie avec votre corps, il apaise les tensions, réduit le stress et favorise un état d'esprit positif. Transformez votre vie avec ce nectar fruité pour embrasser une santé éclatante et une vitalité incomparable."
       }
@@ -85,6 +97,8 @@ export const pn = {
       .text
   ],
   picture: "/img/jpg/product/PN.jpg",
+  picture264: "/img/jpg/product/PN264.jpg",
+  picture400: "/img/jpg/product/PN400.jpg",
   colors: {
     textColor: "#e58000",
     titleColorInSummary: "#e58000",
@@ -99,27 +113,26 @@ export const pn = {
     {
       id: "PNiSGP0",
       title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "PNiSPC1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      text: (
+        <ul>
+          <li>Aide à la perte de poids</li>
+          <li>Est utilisé en substitut de repas complet</li>
+        </ul>
+      )
     },
     {
       id: "PNiSS2",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "PNiSB3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "PNiSBE4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Soutient la pression artérielle</li>
+          <li>
+            A des effets positifs sur les reins, le foie et le système
+            cardiovasculaire
+          </li>
+          <li>Offre une bonne santé intestinale en améliorant la digestion</li>
+        </ul>
+      )
     }
   ]
 };

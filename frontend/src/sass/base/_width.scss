@@ -8,10 +8,9 @@ footer,
 .footerContainer,
 #leafBottomLeft,
 #leafTopRight,
-.legalContainer,
 .legalTitle,
 .lineBottom,
-.logoPictureFooter img,
+// .logoPictureFooter svg,
 .navbar,
 .productCard,
 .productTab,
@@ -38,25 +37,25 @@ footer,
   width: 15px;
 }
 
+.socialNetwork {
+  width: 35px;
+}
+
 .contactContainer,
 .socialNetWorkContainer {
   width: 240px;
 }
 
 .logoPictureFooter {
-  width: 290px;
+  width: 250px;
 }
 
 .bgProductCard {
   width: 300px;
 }
 
-.titleTextProduct {
-  width: 800px;
-}
-
-.imgProduit {
-  width: 1000px;
+.legal {
+  width: 400px;
 }
 
 .blocTitleImg {
@@ -65,10 +64,6 @@ footer,
 
 #leaf {
   width: 100vw;
-}
-
-#logoPicture {
-  width: calc(40% - 10px);
 }
 
 #leafBottomLeftImg img,
@@ -99,6 +94,53 @@ footer,
   max-width: 1800px;
 }
 
-.youWillLikeIt-content {
-  max-width: 80%;
+// ------ MEDIA QUERIES ------ //
+
+@media screen and (max-width: 400px) {
+  .bubleInSummary {
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .bubleInSummary {
+    width: 400px;
+  }
+}
+
+// @media screen and (max-width: 500px) {
+//   .menu-navbar {
+//     width: 180px;
+//   }
+// }
+
+@media screen and (max-width: 1199px) {
+  .bgParagraph {
+    picture {
+      width: 100%;
+    }
+  }
+
+  .legalContainer {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imgProduit {
+    width: 1000px;
+  }
+
+  .titleTextProduct {
+    width: 800px;
+  }
+
+  .youWillLikeIt-content {
+    max-width: 1350px;
+  }
+
+  .youWillLikeIt-content,
+  .legalContainer {
+    width: 100%;
+  }
 }

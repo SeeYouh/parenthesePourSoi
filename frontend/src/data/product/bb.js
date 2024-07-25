@@ -5,7 +5,7 @@ export const bb = {
   id: "bb",
 
   summary: {
-    title: "Le secret d’un éclat intérieur et extérieur.",
+    title: "Le secret d’un éclat intérieur et extérieur",
     paragraph: [
       {
         id: "0BB",
@@ -21,7 +21,9 @@ export const bb = {
         ],
         picture675: "/img/jpg/product/BBIllusText675.jpg",
         picture450: "/img/jpg/product/BBIllusText450.jpg",
-        picture900: "/img/jpg/product/BBIllusText900.jpg"
+        picture225: "/img/jpg/product/BBIllusText225.jpg",
+        picture900: "/img/jpg/product/BBIllusText900.jpg",
+        picturefb: "/img/jpg/product/BBIllusText1524.jpg"
       },
       {
         id: "2BB",
@@ -47,6 +49,8 @@ export const bb = {
         id: "BB0",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
+        pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+        pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Pour un renfort optimal des cheveux et des ongles, notre collagène marin saura vous séduire. Il favorise le renouvellement cellulaire et stimule l'élasticité de la peau. Il réduit les rides, ridules et cernes, offrant un teint frais et éclatant. De plus, il apporte un soulagement naturel aux douleurs corporelles grâce à la synergie du collagène marin et du Noni. Optez pour ce produit pour une apparence rajeunie et un bien-être total."
       },
@@ -54,13 +58,17 @@ export const bb = {
         id: "BB1",
         link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
+        pictureLove264: "/img/jpg/product/PN264.jpg",
+        pictureLove400: "/img/jpg/product/PN400.jpg",
         textLove:
           "Notre produit facilite un équilibre nutritionnel optimal. Les protéines végétales de haute qualité favorisent une meilleure digestion et absorption des nutriments. En plus de la perte de poids, il soutient une pression artérielle saine, améliore la santé des reins et du foie, et favorise une bonne digestion. Vous ressentirez un boost d'énergie qui vous accompagnera toute la journée, vous permettant de vous sentir épanoui(e)."
       },
       {
         id: "BB2",
         link: "pb",
-        pictureLove: "/img/jpg/product/pb.jpg",
+        pictureLove: "/img/jpg/product/PB.jpg",
+        pictureLove264: "/img/jpg/product/PB264.jpg",
+        pictureLove400: "/img/jpg/product/PB400.jpg",
         textLove:
           "Pour les journées chargées où le temps est précieux, l'alliance du BB et du PB est votre meilleur allié. Cette combinaison vous procure une énergie instantanée et le BB assure une libération d'énergie stable et durable. Ensemble, ils vous garantissent une vigilance et une productivité maximales, même lorsque vous n'avez pas le temps pour un repas complet. Intrigué(e) ?"
       },
@@ -68,6 +76,8 @@ export const bb = {
         id: "BB3",
         link: "shampooing",
         pictureLove: "/img/jpg/product/shampooing.jpg",
+        pictureLove264: "/img/jpg/product/shampooing264.jpg",
+        pictureLove400: "/img/jpg/product/shampooing400.jpg",
         textLove:
           "Pour des cheveux brillants, notre shampooing révolutionnaire nettoie en profondeur pour des cheveux propres et doux. Il revitalise et hydrate intensément chaque mèche. De plus, il apaise les problèmes du cuir chevelu, réduisant les pellicules et les démangeaisons."
       },
@@ -75,6 +85,8 @@ export const bb = {
         id: "BB4",
         link: "santeMax",
         pictureLove: "/img/jpg/product/santeMax.jpg",
+        pictureLove264: "/img/jpg/product/santeMax264.jpg",
+        pictureLove400: "/img/jpg/product/santeMax400.jpg",
         textLove:
           "Le Noni est un précieux allié pour votre bien-être, agissant sur le système digestif et stimulant le métabolisme. Il protège contre le stress oxydatif, renforce le système immunitaire et prévient les maux saisonniers. Ce fruit est une véritable fontaine de jouvence, nourrissant votre organisme en profondeur pour une vitalité éclatante. Faites confiance au Noni pour améliorer votre santé globale et votre bien-être au quotidien."
       }
@@ -83,6 +95,8 @@ export const bb = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "/img/jpg/product/bb.jpg",
+  picture264: "/img/jpg/product/bb264.jpg",
+  picture400: "/img/jpg/product/bb400.jpg",
   colors: {
     textColor: "#e58000",
     titleColorInSummary: "#e58000",
@@ -96,28 +110,45 @@ export const bb = {
   inSummary: [
     {
       id: "BBiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>
+            Améliore le bon fonctionnement du système nerveux et les fonctions
+            mentales
+          </li>
+          <li>
+            Apaise les rougeurs, les irritations et les démangeaisons du cuir
+            chevelu
+          </li>
+          <li>Apaise l’acné, le psoriasis et l’eczéma</li>
+          <li>Détruit les pellicules</li>
+        </ul>
+      )
     },
     {
       id: "BBiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
+      title: "Bien-être",
+      text: (
+        <ul>
+          <li>Augmente l’énergie physique grâce à son apport en vitamine C</li>
+        </ul>
+      )
     },
     {
       id: "BBiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "BBiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "BBiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Renouvelle les cellules de la peau, des ongles et des cheveux</li>
+          <li>
+            Accélère la pousse des ongles et des cheveux et les renforcent
+          </li>
+          <li>Diminue la perte des cheveux</li>
+          <li>Assèche la peau grasse et hydrate la peau sèche</li>
+          <li>Détruit les pellicules</li>
+        </ul>
+      )
     }
   ]
 };

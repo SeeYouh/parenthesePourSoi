@@ -5,7 +5,7 @@ export const shampooing = {
   id: "shampooing",
 
   summary: {
-    title: "Sublimez vos cheveux avec ce shampooing d’exception.",
+    title: "Sublimez vos cheveux avec ce shampooing d’exception",
     paragraph: [
       {
         id: "0shampooing",
@@ -21,8 +21,10 @@ export const shampooing = {
           "Notre shampooing est également un allié puissant pour votre cuir chevelu. Sa composition douce et naturelle, débarrassée de tout produit chimique agressif, respecte votre peau, l'apaise et la protège. Les problèmes de cuir chevelu tels que les irritations, les rougeurs, les démangeaisons et même l'eczéma sont atténués, vous offrant un confort quotidien inégalé. De plus, sa capacité à lutter contre les pellicules contribue à rétablir l'équilibre naturel de votre cuir chevelu, pour une sensation de fraîcheur et de propreté tout au long de la journée."
         ],
         picture450: "/img/jpg/product/shampooingIllusText450.jpg",
+        picture225: "/img/jpg/product/shampooingIllusText225.jpg",
         picture675: "/img/jpg/product/shampooingIllusText675.jpg",
-        picture900: "/img/jpg/product/shampooingIllusText900.jpg"
+        picture900: "/img/jpg/product/shampooingIllusText900.jpg",
+        picturefb: "/img/jpg/product/shampooingIllusText1524.jpg"
       },
       {
         id: "2shampooing",
@@ -62,6 +64,8 @@ export const shampooing = {
         id: "shampooing1",
         link: "regenerateurCellulaire",
         pictureLove: "/img/jpg/product/regenerateurCellulaire.jpg",
+        pictureLove264: "/img/jpg/product/regenerateurCellulaire264.jpg",
+        pictureLove400: "/img/jpg/product/regenerateurCellulaire400.jpg",
         textLove:
           "Pour parfaire votre rituel beauté et maximiser les bienfaits de notre shampooing, nous vous proposons notre produit phare qui se marie idéalement avec ce dernier. Ce complément de choix intervient en faveur de la qualité de votre peau, stimule la régénération cellulaire et soutient votre santé globale, y compris votre énergie naturelle. Un binôme parfait pour une expérience de soin optimale !"
       },
@@ -69,6 +73,8 @@ export const shampooing = {
         id: "shampooing2",
         link: "gelDouche",
         pictureLove: "/img/jpg/product/gelDouche.jpg",
+        pictureLove264: "/img/jpg/product/gelDouche264.jpg",
+        pictureLove400: "/img/jpg/product/gelDouche400.jpg",
         textLove:
           "Pour amplifier votre rituel de bien-être, nous vous suggérons d'associer notre shampooing à notre gel douche naturel de la même gamme, reconnu pour ses effets remarquables sur la peau. Ces deux produits complémentaires transformeront votre routine quotidienne en une expérience de soin enrichissante et bienfaisante."
       },
@@ -76,6 +82,8 @@ export const shampooing = {
         id: "shampooing3",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
+        pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+        pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Notre collagène a des effets très positifs sur la peau, les cheveux, les ongles et les articulations. En stimulant le renouvellement cellulaire, il offre un teint frais, lumineux et éclatant tout en réduisant les rides et ridules. Grâce à la synergie du collagène marin avec le Noni, il soulage les douleurs corporelles et renforce les ongles et les cheveux."
       },
@@ -83,6 +91,8 @@ export const shampooing = {
         id: "shampooing4",
         link: "cocoOil",
         pictureLove: "/img/jpg/product/cocoOil.jpg",
+        pictureLove264: "/img/jpg/product/cocoOil264.jpg",
+        pictureLove400: "/img/jpg/product/cocoOil400.jpg",
         textLove:
           "Rien de tel qu’un soin avec notre huile coco pour redonner hydratation et vitalité à vos cheveux.. L'huile pénètre dans les cuticules des cheveux, scellant l'humidité et prévenant la perte d'eau, ce qui contribue à maintenir l'hydratation et à prévenir la casse. De plus, les propriétés nourrissantes de l'huile aident à renforcer les cheveux de la racine aux pointes, favorisant ainsi leur croissance et leur éclat naturel."
       }
@@ -91,6 +101,8 @@ export const shampooing = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute0SoinsCheveux").text],
   picture: "/img/jpg/product/shampooing.jpg",
+  picture264: "/img/jpg/product/shampooing264.jpg",
+  picture400: "/img/jpg/product/shampooing400.jpg",
   colors: {
     textColor: "#a5a5a5",
     titleColorInSummary: "#4b4b4b",
@@ -103,29 +115,24 @@ export const shampooing = {
   },
   inSummary: [
     {
-      id: "SiSGP0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "SiSPC1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "SiSS2",
+      id: "SiSS0",
       title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
+      text: (
+        <ul>
+          <li>Combat les pellicules</li>
+          <li>Diminue les rougeurs, les irritations et démangeaisons</li>
+          <li>Atténue l’eczéma du cuir chevelu</li>
+        </ul>
+      )
     },
     {
-      id: "SiSB3",
+      id: "SiSB1",
       title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "SiSBE4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Nettoie, hydrate et revitalise les cheveux</li>
+        </ul>
+      )
     }
   ]
 };

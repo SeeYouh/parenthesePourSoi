@@ -9,32 +9,33 @@ export const heRelaxante = {
     paragraph: [
       {
         id: "1heRelaxante",
-        subTitle: "L'huile essentielle, un remède naturel contre le stress",
-        text: "Dans notre monde moderne, le stress et l'anxiété sont devenus des compagnons quotidiens pour beaucoup d'entre nous. Heureusement, la nature nous offre des outils pour combattre ces maux. L'un d'eux est l'huile essentielle. Connue pour ses effets bénéfiques sur la santé mentale, l'huile essentielle est un véritable allié pour apaiser la dépression et les symptômes qui y sont liés. Son parfum doux et relaxant a le pouvoir de calmer l'esprit, de réduire les tensions et de favoriser un sentiment de tranquillité intérieure. En plus de cela, elle peut aider à éliminer la pression accumulée tout au long de la journée, vous permettant de vous détendre et de vous ressourcer. Imaginez-vous rentrant chez vous après une longue journée de travail, allumant votre diffuseur d'huiles essentielles, et laissant les arômes naturels vous envelopper et vous apaiser. C'est une expérience qui peut transformer votre quotidien."
+        subTitle: "Evacuez le stress",
+        text: "Dans notre monde moderne, le stress et l'anxiété sont devenus des compagnons quotidiens pour beaucoup d'entre nous. Heureusement, la nature nous offre des outils pour combattre ces maux. L'un d'eux est l'huile essentielle. Connue pour ses effets bénéfiques sur la santé mentale, l'huile essentielle est un véritable allié pour apaiser la dépression et les symptômes qui y sont liés. Son parfum doux et relaxant a le pouvoir de calmer l'esprit, de réduire les tensions et de favoriser un sentiment de tranquillité intérieure. En plus de cela, elle peut aider à éliminer la pression accumulée tout au long de la journée, vous permettant de vous détendre et de vous ressourcer. C'est une expérience qui peut transformer votre quotidien."
       },
       {
         id: "2heRelaxante",
-        subTitle: "Un sommeil de qualité grâce aux huiles essentielles",
+        subTitle: "Favorisez un sommeil récupérateur",
         text: "Le sommeil est un élément essentiel de notre santé et de notre bien-être. Malheureusement, de nombreux facteurs peuvent perturber notre sommeil, comme le stress, l'anxiété ou les préoccupations quotidiennes. L'huile essentielle peut être une solution naturelle pour améliorer la qualité de notre sommeil. En créant une atmosphère propice au repos, elle peut aider à réduire les troubles du sommeil et favoriser un sommeil profond et réparateur. Imaginez-vous préparant votre chambre pour la nuit, diffusant quelques gouttes d'huile essentielle, et laissant son parfum vous envelopper alors que vous vous glissez dans vos draps. C'est une routine qui peut transformer votre nuit et vous aider à vous réveiller frais et dispos le matin.",
         picture450: "/img/jpg/product/heRelaxantIllusText450.jpg",
+        picture225: "/img/jpg/product/heRelaxantIllusText225.jpg",
         picture675: "/img/jpg/product/heRelaxantIllusText675.jpg",
-        picture900: "/img/jpg/product/heRelaxantIllusText900.jpg"
+        picture900: "/img/jpg/product/heRelaxantIllusText900.jpg",
+        picturefb: "/img/jpg/product/heRelaxantIllusText1524.jpg"
       },
       {
         id: "3heRelaxante",
-        subTitle: "Les huiles essentielles pour une peau apaisée",
-        text: "La peau est notre plus grand organe et elle est souvent le reflet de notre santé intérieure. Les irritations cutanées peuvent être le signe de déséquilibres internes, mais elles peuvent aussi être causées par des facteurs externes comme le climat, les produits chimiques ou les allergènes. L'huile essentielle peut apporter un soulagement aux irritations cutanées. Elle peut calmer les démangeaisons, les rougeurs et les inflammations, offrant un soulagement rapide et apaisant. Imaginez-vous appliquant quelques gouttes d'huile essentielle sur une peau irritée, et ressentant immédiatement son effet apaisant. C'est un geste simple qui peut faire une grande différence dans votre confort quotidien."
+        subTitle: "Apaisez votre peau",
+        text: "La peau est notre plus grand organe et elle est souvent le reflet de notre santé intérieure. Les irritations cutanées peuvent être le signe de déséquilibres internes, mais elles peuvent aussi être causées par des facteurs externes comme le climat, les produits chimiques ou les allergènes. L'huile essentielle peut apporter un soulagement aux irritations cutanées. Elle peut calmer les démangeaisons, les rougeurs et les inflammations, offrant un soulagement rapide et apaisant."
       },
       {
         id: "4heRelaxante",
-        subTitle:
-          "Soulager les douleurs et l'inconfort avec les huiles essentielles",
+        subTitle: "Soulagez vos douleurs et inconforts",
         text: "La douleur et l'inconfort peuvent être des obstacles majeurs à notre bien-être. Qu'il s'agisse de douleurs musculaires, de maux de tête ou de grincements de dents, ces sensations désagréables peuvent nous empêcher de profiter pleinement de notre vie. L'huile essentielle peut être une solution naturelle pour soulager ces maux. Par exemple, elle peut aider à détendre les muscles de la mâchoire, réduire le grincement des dents et atténuer les sensations désagréables associées à cette condition. Imaginez-vous massant doucement votre mâchoire avec quelques gouttes d'huile essentielle, et ressentant une détente immédiate. C'est un geste qui peut améliorer votre confort et votre qualité de vie."
       },
       {
         id: "5heRelaxante",
-        subTitle: "En conclusion",
-        text: " L'huile essentielle est un outil polyvalent qui peut améliorer votre bien-être de plusieurs façons. Que vous cherchiez à réduire le stress, améliorer votre sommeil, soulager les irritations cutanées ou atténuer la douleur, elle peut vous aider à atteindre votre objectif. Alors pourquoi ne pas essayer ? Vous pourriez être surpris par les effets positifs de ce cadeau de la nature."
+        subTitle: "Améliorez votre quotidien",
+        text: "L'huile essentielle est un outil polyvalent qui peut améliorer votre bien-être de plusieurs façons. Que vous cherchiez à réduire le stress, améliorer votre sommeil, soulager les irritations cutanées ou atténuer la douleur, elle peut vous aider à atteindre votre objectif. Alors pourquoi ne pas essayer ?"
       },
       {
         id: "6heRelaxante",
@@ -49,23 +50,20 @@ export const heRelaxante = {
     ],
     youLikeIt: [
       {
-        id: "HERelaxante0",
-        link: "detox",
-        pictureLove: "/img/jpg/product/detox.jpg",
+        id: "HERelaxante4",
+        link: "cocoOil",
+        pictureLove: "/img/jpg/product/cocoOil.jpg",
+        pictureLove264: "/img/jpg/product/cocoOil264.jpg",
+        pictureLove400: "/img/jpg/product/cocoOil400.jpg",
         textLove:
-          "Notre produit de détoxification, lorsqu'il est associé à cette huile, peut aider à éliminer les toxines du corps et à stimuler le métabolisme, favorisant ainsi une perte de poids efficace."
-      },
-      {
-        id: "HERelaxante1",
-        link: "goutteMinceur",
-        pictureLove: "/img/jpg/product/goutteMinceur.jpg",
-        textLove:
-          "En complément, nos gouttes super puissantes peuvent renforcer l'efficacité de cette cure minceur. Elles agissent en synergie avec l'huile essentielle et le produit de détoxification pour offrir une solution complète de perte de poids. C'est une combinaison que je recommande vivement."
+          "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau."
       },
       {
         id: "HERelaxante2",
         link: "boosterEnergie",
         pictureLove: "/img/jpg/product/boosterEnergie.jpg",
+        pictureLove264: "/img/jpg/product/boosterEnergie264.jpg",
+        pictureLove400: "/img/jpg/product/boosterEnergie400.jpg",
         textLove:
           "Si vous traversez une période de baisse de moral ou de mal-être, cette huile essentielle peut apporter une aide précieuse. Elle peut être utilisée conjointement avec notre produit d'augmentation d'énergie pour améliorer votre humeur et votre bien-être général. Optimisez votre santé émotionnelle avec notre huile essentielle et notre booster d'énergie."
       },
@@ -73,25 +71,49 @@ export const heRelaxante = {
         id: "HERelaxante3",
         link: "pn",
         pictureLove: "/img/jpg/product/PN.jpg",
+        pictureLove264: "/img/jpg/product/PN264.jpg",
+        pictureLove400: "/img/jpg/product/PN400.jpg",
         textLove:
           "Cette huile essentielle est un outil puissant pour aider à surmonter la dépendance au tabac. En la combinant avec notre booster d'énergie et notre produit spécialement conçu pour remplacer les repas, vous pouvez éviter les grignotages et la prise de poids souvent associés à l'arrêt du tabac. Optimisez votre parcours de sevrage tabagique avec notre huile essentielle, notre booster d'énergie et notre substitut de repas."
       },
       {
-        id: "HERelaxante4",
-        link: "cocoOil",
-        pictureLove: "/img/jpg/product/cocoOil.jpg",
+        id: "HERelaxante3",
+        link: "heRafraichissant",
+        pictureLove: "/img/jpg/product/heRafraichissant.jpg",
+        pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
+        pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
         textLove:
-          "En raison de la concentration élevée de notre produit, nous recommandons de le mélanger avec notre huile hydratante, particulièrement pendant les premiers jours d'utilisation. Cette combinaison permet de bénéficier pleinement des bienfaits de notre produit tout en assurant une application douce et hydratante pour votre peau."
+          "Notre huile essentielle stimule la concentration et la vivacité mentale. Elle combat les nausées, le mal des transports et les maux de tête pour un soulagement rapide et naturel. Elle améliore le confort respiratoire en apaisant la toux et en dégageant les voies respiratoires. De plus, elle apaise les démangeaisons, réduit les rougeurs et calme les piqûres d'insectes, offrant une peau apaisée. Grâce à ses propriétés apaisantes, elle détend les tensions musculaires et favorise une sensation de calme. Elle est aussi bénéfique pour soulager les douleurs articulaires et aide à réduire les bouffées de chaleur pendant la ménopause. Pour les sportifs, elle soulage les foulures, les entorses et les douleurs musculaires, favorisant une récupération plus rapide."
+      },
+      {
+        id: "HERelaxante3",
+        link: "heSoulageante",
+        pictureLove: "/img/jpg/product/heSoulageante.jpg",
+        pictureLove264: "/img/jpg/product/heSoulageante264.jpg",
+        pictureLove400: "/img/jpg/product/heSoulageante400.jpg",
+        textLove:
+          "Cette huile essentielle possède de nombreuses propriétés curatives, soulageant les maux de tête et les symptômes des maladies saisonnières. Elle a des effets positifs sur le bien-être en diminuant l'anxiété, en augmentant la vivacité mentale et en améliorant l'humeur. Elle aide à soulager les tensions corporelles et les irritations cutanées, ainsi que les douleurs associées au grincement de dents. De plus, elle repousse les poux et les moustiques, offrant une protection naturelle contre ces nuisibles."
+      },
+      {
+        id: "HERelaxante3",
+        link: "heDesinfectante",
+        pictureLove: "/img/jpg/product/heDesinfectante.jpg",
+        pictureLove264: "/img/jpg/product/heDesinfectante264.jpg",
+        pictureLove400: "/img/jpg/product/heDesinfectante400.jpg",
+        textLove:
+          "L'huile essentielle Désinfectante est un remède naturel puissant pour combattre les infections et maintenir un environnement sain. Elle agit efficacement contre les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies. Elle soulage également les douleurs dentaires, apaise les problèmes cutanés et diminue les inconforts causés par les piqûres d'insectes. En plus de ses bienfaits pour la santé, elle peut contribuer à la gestion du poids en détoxifiant le corps et en favorisant un système digestif sain. Enfin, son parfum agréable et ses propriétés apaisantes en font un allié précieux pour améliorer l'humeur et favoriser la relaxation."
       }
     ]
   },
   firstCategory: [getCategoryById("4HuilesEssentielles").name],
   secondCategory: [getSecondCategoryById("4HuilesEssentielles0MieuxEtre").text],
   picture: "/img/jpg/product/heRelaxante.jpg",
+  picture264: "/img/jpg/product/heRelaxante264.jpg",
+  picture400: "/img/jpg/product/heRelaxante400.jpg",
   colors: {
     textColor: "#9f348b",
     titleColorInSummary: "#0017a5",
-    linkTextColor: "#9f348b",
+    linkTextColor: "#0017a5",
     bgColorInSummary0: "#bc71ae",
     bgColorInSummary1: "#f3e7f1",
     linearGradient0: "linear-gradient(105deg, #bc71ae, #ffa9e8)",
@@ -101,28 +123,26 @@ export const heRelaxante = {
   inSummary: [
     {
       id: "HEReiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Calme les irritations</li>
+          <li>Atténue les migraines et les douleurs</li>
+          <li>Diminue les grincements de dents</li>
+        </ul>
+      )
     },
     {
       id: "HEReiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "HEReiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "HEReiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "HEReiS4",
       title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      text: (
+        <ul>
+          <li>Apaise les tensions</li>
+          <li>Diminue le stress</li>
+          <li>Favorise la relaxation</li>
+          <li>Facilite d’endormissement et un sommeil réparateur</li>
+        </ul>
+      )
     }
   ]
 };

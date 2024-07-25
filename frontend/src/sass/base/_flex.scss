@@ -6,10 +6,13 @@
 .blocTitleImg,
 .category,
 .contactContainer,
+.containerLegal,
 footer,
+.footerContainer,
 .globalLegalContainer,
 .imgProduit,
 .legal,
+.legalArticle,
 .legalContainer,
 .legalTitle,
 .logo,
@@ -17,10 +20,10 @@ main,
 .menu-navbar,
 .menu-navbar .a,
 .menuUser,
-.navBar,
 .productDescriptPresentFirst,
 .productTab,
 .search-bar,
+.socialNetwork,
 .socialNetWorkContainer,
 .textProductCard,
 .titleTextProduct h1,
@@ -31,14 +34,13 @@ main,
 
 //------ FLEX-DIRECTION --------//
 
-.allNavBar,
 .bgParagraph,
 .contactContainer,
+.containerLegal,
 .globalLegalContainer,
 .legal,
 .legalContainer,
 main,
-.navBar,
 .youWillLikeIt,
 .textProductCard {
   flex-direction: column;
@@ -46,13 +48,9 @@ main,
 
 .arrayProductCard,
 .bgProductDetails,
-.blocTitleImg,
 footer,
-.productTab,
 .socialNetwork,
-.socialNetWorkContainer,
-.youWillLikeIt-content,
-.menu-navbar {
+.socialNetWorkContainer {
   flex-direction: row;
 }
 
@@ -64,13 +62,13 @@ footer,
   justify-content: space-around;
 }
 
+.containerLegal,
 .menuUser,
 .search-bar,
 .socialNetWorkContainer {
   justify-content: flex-end;
 }
 
-.allNavBar,
 .logo {
   justify-content: flex-start;
 }
@@ -97,12 +95,12 @@ footer,
 
 .bgProductDetails,
 .blocTitleImg,
+.containerLegal,
 footer,
 .globalLegalContainer,
 .legalContainer,
 .legalTitle,
 main,
-.navbar,
 .productDescriptPresentFirst,
 .search-bar,
 .youWillLikeIt-content,
@@ -115,11 +113,7 @@ main,
   align-items: flex-start;
 }
 
-.allNavBar {
-  align-items: flex-end;
-}
-
-//------ FLEX --------//
+//------ OTHER FLEX --------//
 
 .arrayProductCard {
   flex-wrap: wrap;
@@ -127,4 +121,100 @@ main,
 
 .productDescriptPresentFirst {
   flex-grow: 1;
+}
+
+// .productTab,
+// .youWillLikeIt-content {
+//   flex-flow: row wrap;
+// }
+
+//------ MEDIA QUERIES --------//
+
+@media screen and (max-width: 1199px) {
+  .bgParagraph picture,
+  .navbar {
+    display: flex;
+  }
+
+  .productTab {
+    justify-content: space-around;
+  }
+
+  .bgParagraph,
+  .bgParagraph picture,
+  .youWillLikeIt-content {
+    justify-content: center;
+  }
+
+  .blocTitleImg,
+  footer,
+  .footerContainer,
+  .menu-navbar,
+  .navbar {
+    flex-direction: column;
+  }
+
+  .productTab,
+  .youWillLikeIt-content,
+  .productDescriptPresentFirst {
+    flex-flow: row wrap;
+  }
+
+  .blocTitleImg,
+  .contactContainer,
+  .footerContainer,
+  .navbar {
+    align-items: center;
+  }
+
+  .blocTitleImg,
+  .socialNetWorkContainer {
+    justify-content: center;
+  }
+
+  .footerContainer {
+    justify-content: end;
+  }
+
+  .legal {
+    order: 3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .all-menu-navbar {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .blocTitleImg,
+  .category,
+  .footerContainer,
+  .legalArticle,
+  .menu-navbar {
+    flex-direction: row;
+  }
+
+  .footerContainer,
+  .legalArticle {
+    justify-content: space-between;
+  }
+
+  .contactContainer {
+    align-items: flex-start;
+  }
+
+  .footerContainer,
+  .legalArticle,
+  .socialNetwork {
+    align-items: center;
+  }
+
+  .socialNetwork {
+    justify-content: center;
+  }
+
+  .socialNetWorkContainer {
+    justify-content: flex-end;
+  }
 }

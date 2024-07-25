@@ -22,7 +22,9 @@ export const dentifrice = {
         ],
         picture675: "/img/jpg/product/dentifriceIllusText675.jpg",
         picture450: "/img/jpg/product/dentifriceIllusText450.jpg",
-        picture900: "/img/jpg/product/dentifriceIllusText900.jpg"
+        picture225: "/img/jpg/product/dentifriceIllusText225.jpg",
+        picture900: "/img/jpg/product/dentifriceIllusText900.jpg",
+        picturefb: "/img/jpg/product/dentifriceIllusText1524.jpg"
       },
       {
         id: "2Dentifrice",
@@ -45,6 +47,8 @@ export const dentifrice = {
         id: "Dentifrice0",
         link: "dentitionBlanche",
         pictureLove: "/img/jpg/product/dentitionBlanche.jpg",
+        pictureLove264: "/img/jpg/product/dentitionBlanche264.jpg",
+        pictureLove400: "/img/jpg/product/dentitionBlanche400.jpg",
         textLove:
           "Pour aller encore plus loin dans le blanchiment de vos dents, découvrez notre poudre révolutionnaire. Notre blanchisseur élimine en douceur les impuretés et les tâches, vous offrant un sourire éblouissant. Il protège vos gencives et assure une haleine fraîche durable. Sans ingrédients controversés, notre formule respecte votre santé pour une confiance totale toute la journée. Profitez d'un sourire éclatant et de soins bucco-dentaires complets."
       },
@@ -52,6 +56,8 @@ export const dentifrice = {
         id: "Dentifrice1",
         link: "shampooing",
         pictureLove: "/img/jpg/product/shampooing.jpg",
+        pictureLove264: "/img/jpg/product/shampooing264.jpg",
+        pictureLove400: "/img/jpg/product/shampooing400.jpg",
         textLove:
           "Pour rester dans la gamme des soins naturels, choisissez notre shampooing d'exception en association pour une expérience de cheveux doux et sains. Ce shampooing améliore les soucis du cuir chevelu tout en protégeant le cheveu mèche par mèche."
       },
@@ -59,13 +65,17 @@ export const dentifrice = {
         id: "Dentifrice2",
         link: "gelDouche",
         pictureLove: "/img/jpg/product/gelDouche.jpg",
+        pictureLove264: "/img/jpg/product/gelDouche264.jpg",
+        pictureLove400: "/img/jpg/product/gelDouche400.jpg",
         textLove:
           "Pour une expérience de bien-être enrichissante, choisissez notre gel douche naturel de la même gamme. Ces deux produits complémentaires transformeront votre routine quotidienne en une expérience de soin remarquable pour vos dents et votre peau. "
       },
       {
         id: "Dentifrice3",
         link: "apportMineraux",
-        pictureLove: "/img/jpg/product/apportMineraux.jpg",
+        pictureLove: "/img/jpg/product/ApportMineraux.jpg",
+        pictureLove264: "/img/jpg/product/ApportMineraux264.jpg",
+        pictureLove400: "/img/jpg/product/ApportMineraux400.jpg",
         textLove:
           "Notre concentré de minéraux et oligo-éléments est un puissant allié pour vos os et vos dents. Il a de nombreux avantages et bénéfices pour votre corps et votre santé."
       },
@@ -73,6 +83,8 @@ export const dentifrice = {
         id: "Dentifrice4",
         link: "baumeLevres",
         pictureLove: "/img/jpg/product/baumeLevres.jpg",
+        pictureLove264: "/img/jpg/product/baumeLevres264.jpg",
+        pictureLove400: "/img/jpg/product/baumeLevres400.jpg",
         textLove:
           "Pour un sourire encore plus éclatant, regardez notre baume à lèvres naturel. Sa formule avancée protège vos lèvres des agressions extérieures et prévient les gerçures et la sécheresse. Enrichi d'ingrédients naturels, il répare et renforce vos lèvres, les laissant douces et résistantes. Offrez à votre sourire une oasis de douceur et de protection pour une apparence saine et éclatante."
       }
@@ -81,6 +93,8 @@ export const dentifrice = {
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute2SoinsCorps").text],
   picture: "/img/jpg/product/dentifrice.jpg",
+  picture264: "/img/jpg/product/dentifrice264.jpg",
+  picture400: "/img/jpg/product/dentifrice400.jpg",
   colors: {
     textColor: "#a5a5a5",
     titleColorInSummary: "#4b4b4b",
@@ -94,28 +108,14 @@ export const dentifrice = {
   inSummary: [
     {
       id: "DiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "DiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "DiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "DiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "DiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Nettoie en douceur pour des gencives saines</li>
+          <li>Rend les dents brillants et plus blanche</li>
+          <li>Apporte une haleine fraîche</li>
+        </ul>
+      )
     }
   ]
 };

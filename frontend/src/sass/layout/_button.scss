@@ -3,14 +3,8 @@
   background-color: transparent;
 }
 
-.line {
-  height: 40px;
-  background: linear-gradient(to top, transparent, $bgColor6, transparent);
-}
-
 .btn-navbar {
   margin: 0 10px 0 10px;
-  // border: 1px solid black;
 }
 
 .btn-extLink {
@@ -19,7 +13,7 @@
   &:hover {
     transition: all 0.2s;
     color: black;
-    cursor: pointer;
+    // cursor: pointer;
   }
 }
 

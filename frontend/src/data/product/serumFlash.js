@@ -21,8 +21,10 @@ export const serumFlash = {
           "L'action puissante de notre sérum aide à lifter et raffermir la peau vous offrant une peau plus jeune. Il agit sur les rides et les ridules pour les lisser et les estomper. Les signes du vieillissement sont estompés, vous laissant avec une peau ferme et éclatante."
         ],
         picture450: "/img/jpg/product/serumFlashIllusText450.jpg",
+        picture225: "/img/jpg/product/serumFlashIllusText225.jpg",
         picture675: "/img/jpg/product/serumFlashIllusText675.jpg",
-        picture900: "/img/jpg/product/serumFlashIllusText900.jpg"
+        picture900: "/img/jpg/product/serumFlashIllusText900.jpg",
+        picturefb: "/img/jpg/product/serumFlashIllusText1524.jpg"
       },
       {
         id: "2serumFlash",
@@ -50,42 +52,54 @@ export const serumFlash = {
         id: "serumFlash0",
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
+        pictureLove264: "/img/jpg/product/cremeDay264.jpg",
+        pictureLove400: "/img/jpg/product/cremeDay400.jpg",
         textLove:
-          "Découvrez notre crème hydratante aux multiples bienfaits. Elle apaise instantanément la peau, lui offrant souplesse et éclat. Sa formule riche lutte contre la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour la protéger des agressions extérieures. Ciblant les tâches sombres, elle éclaircit et unifie le teint. Pour une peau nette, débarrassée de l'acné, choisissez notre crème exceptionnelle pour un éclat radieux et une texture uniforme."
+          "Notre crème hydratante aux multiples bienfaits apaise instantanément la peau, lui offrant souplesse et éclat. Sa formule riche lutte contre la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour la protéger des agressions extérieures. Ciblant les tâches sombres, elle éclaircit et unifie le teint. Pour une peau nette, débarrassée de l'acné, choisissez notre crème exceptionnelle pour un éclat radieux et une texture uniforme."
       },
       {
         id: "serumFlash1",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+        pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
+        pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
         textLove:
-          "Offrez à votre peau une expérience de soin polyvalent avec notre produit exceptionnel après une journée bien remplie. Sa formule douce élimine en douceur les saletés, le maquillage et les impuretés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Vous apprécierez une peau douce et veloutée, sans tiraillement, car notre formule hydratante respecte l'équilibre cutané et préserve la barrière naturelle pour une peau saine et protégée. Grâce à ses actifs ciblés, il combat efficacement les imperfections et prévient les éruptions cutanées, vous offrant une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit garantit une efficacité et une sécurité optimales pour tous les types de peau. Profitez d'une peau éclatante de beauté et en pleine santé en choisissant notre formule de confiance."
+          "La formule du gel nettoyant élimine en douceur les saletés, le maquillage et les impuretés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Vous apprécierez une peau douce et veloutée, sans tiraillement, car notre formule hydratante respecte l'équilibre cutané et préserve la barrière naturelle pour une peau saine et protégée. Grâce à ses actifs ciblés, il combat efficacement les imperfections et prévient les éruptions cutanées, vous offrant une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit garantit une efficacité et une sécurité optimales pour tous les types de peau. Profitez d'une peau éclatante de beauté et en pleine santé en choisissant notre formule de confiance."
       },
       {
         id: "serumFlash2",
         link: "volumateurCils",
         pictureLove: "/img/jpg/product/volumateurCils.jpg",
+        pictureLove264: "/img/jpg/product/volumateurCils264.jpg",
+        pictureLove400: "/img/jpg/product/volumateurCils400.jpg",
         textLove:
-          "Obtenez des cils naturellement longs et épais grâce à notre sérum enrichi d'agents hydratants essentiels. Sa formule renforce leur structure, protégeant vos cils des dommages et de la casse. En stimulant leur croissance, il vous offre des cils plus forts, plus longs et plus épais pour un regard irrésistible. Testée sous contrôle dermatologique et ophtalmologique, notre formule sécurisée prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales. Découvrez des cils magnifiés et un regard captivant qui ne passera pas inaperçu !"
+          "Des cils naturellement longs et épais sont possibles grâce à notre sérum enrichi d'agents hydratants essentiels. Sa formule renforce leur structure, protégeant vos cils des dommages et de la casse. En stimulant leur croissance, il vous offre des cils plus forts, plus longs et plus épais pour un regard irrésistible. Testée sous contrôle dermatologique et ophtalmologique, notre formule sécurisée prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales. Découvrez des cils magnifiés et un regard captivant qui ne passera pas inaperçu !"
       },
       {
         id: "serumFlash3",
         link: "glossRepulpant",
         pictureLove: "/img/jpg/product/glossRepulpant.jpg",
+        pictureLove264: "/img/jpg/product/glossRepulpant264.jpg",
+        pictureLove400: "/img/jpg/product/glossRepulpant400.jpg",
         textLove:
-          "Sublimez vos lèvres avec notre gloss concentré de soin. Enrichi d'actifs nourrissants, il repulpe instantanément vos lèvres, les rendant pulpeuses et volumineuses. Sa formule lisse les ridules, vous offrant des lèvres plus jeunes et douces. Approuvé par le label « Good Face Project » et offrant une sensation rafraîchissante, notre produit assure une qualité irréprochable pour sublimer votre sourire éblouissant."
+          "Vos lèvres seront sublimées grâce à notre gloss concentré de soin. Enrichi d'actifs nourrissants, il repulpe instantanément vos lèvres, les rendant pulpeuses et volumineuses. Sa formule lisse les ridules, vous offrant des lèvres plus jeunes et douces. Approuvé par le label « Good Face Project » et offrant une sensation rafraîchissante, notre produit assure une qualité irréprochable pour sublimer votre sourire éblouissant."
       },
       {
         id: "serumFlash4",
         link: "eauTonique",
         pictureLove: "/img/jpg/product/eauTonique.jpg",
+        pictureLove264: "/img/jpg/product/eauTonique264.jpg",
+        pictureLove400: "/img/jpg/product/eauTonique400.jpg",
         textLove:
-          "Découvrez notre soin cutané équilibré, nourri d'agents hydratants et apaisants d'origine naturelle pour une régénération profonde de votre peau. Résultat ? Une peau intensément hydratée, adoucie et apaisée, vous procurant confort et bien-être tout au long de la journée. Notre eau tonique resserre les pores, minimise les imperfections et apaise les irritations, laissant votre peau visiblement plus uniforme et affinée. Sans paraben, alcool ni parfum artificiel, notre formule respecte votre peau et l'environnement pour une expérience de soin pure et sûre. Optez pour ce produit tout-en-un et profitez d'une peau épanouie, sans compromis sur la qualité et le respect de votre bien-être."
+          "Notre soin cutané nourri d'agents hydratants et apaisants d'origine naturelle régène votre peau en profondeur. Résultat ? Une peau intensément hydratée, adoucie et apaisée, vous procurant confort et bien-être tout au long de la journée. Notre eau tonique resserre les pores, minimise les imperfections et apaise les irritations, laissant votre peau visiblement plus uniforme et affinée. Sans paraben, alcool ni parfum artificiel, notre formule respecte votre peau et l'environnement pour une expérience de soin pure et sûre. Optez pour ce produit tout-en-un et profitez d'une peau épanouie, sans compromis sur la qualité et le respect de votre bien-être."
       }
     ]
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/serumFlash.jpg",
+  picture264: "/img/jpg/product/serumFlash264.jpg",
+  picture400: "/img/jpg/product/serumFlash400.jpg",
   colors: {
     textColor: "#42848e",
     titleColorInSummary: "#42848e",
@@ -99,28 +113,21 @@ export const serumFlash = {
   inSummary: [
     {
       id: "SFiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "SFiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "SFiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "SFiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "SFiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>
+            Régénère immédiatement les poches sous les yeux, les rides, les
+            ridules, les cernes
+          </li>
+          <li>Lifte et raffermit la peau pour un teint plus éclatant</li>
+          <li>Son effet dure jusqu’à 8h après la pose.</li>
+          <li>
+            Des résultats supplémentaires sont visibles après 28 jours
+            d’utilisation régulière.
+          </li>
+        </ul>
+      )
     }
   ]
 };

@@ -13,7 +13,8 @@ const SecondCategoryNavBar = () => {
     selectedSubRadio,
     setIsActive,
     setSelectedProduct,
-    setSelectedSubRadio
+    setSelectedSubRadio,
+    closeMenu,
   } = useContext(RadioContext);
 
   const navigate = useNavigate();
@@ -24,6 +25,7 @@ const SecondCategoryNavBar = () => {
       setSelectedSubRadio(e.target.id);
       setSelectedProduct("");
       setIsActive(true);
+      closeMenu();
     } else {
       setSelectedSubRadio("");
       setSelectedProduct("");
@@ -38,7 +40,7 @@ const SecondCategoryNavBar = () => {
           smooth: "easeInOutQuint",
           duration: 1000,
           offset: offset,
-          spy: true
+          spy: true,
         });
       }, 100);
     }
@@ -55,6 +57,7 @@ const SecondCategoryNavBar = () => {
           .filter((category) => category.name.includes(selectedRadio))
           .map((subCategory) => (
             <ul key={subCategory.id} className="category menuSubCategory">
+              <div className="line"></div>
               {subCategory.secondCategory.map((subCategory) => (
                 <li key={subCategory.text} className="cursor menu-navbar">
                   <input
@@ -67,7 +70,7 @@ const SecondCategoryNavBar = () => {
                     onClick={handleSubCategoryClick}
                   />
                   <label
-                    className={`btn btn-navbar ${
+                    className={` cursor btn btn-navbar ${
                       subCategory.text === selectedSubRadio ? "selected" : ""
                     }`}
                     htmlFor={subCategory.text}

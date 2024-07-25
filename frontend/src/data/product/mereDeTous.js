@@ -5,7 +5,7 @@ export const mereDeTous = {
   id: "mereDeTous",
 
   summary: {
-    title: "Un produit breveté et unique.",
+    title: "Un produit breveté et unique",
     paragraph: [
       {
         id: "0mereDeTous",
@@ -22,8 +22,10 @@ export const mereDeTous = {
           "Imaginez-vous libéré(e) de la douleur et doté(e) d'un système immunitaire robuste pour affronter tous les jours avec énergie et bien-être. Notre formule unique vous offre cette possibilité, car nous croyons en un monde où la santé et le bien-être sont accessibles à tous. Rejoignez-nous dans cette quête d'une vie sans douleur, d'une santé florissante et d'une énergie débordante. Avec notre produit, découvrez la force de la nature pour votre bien-être et votre épanouissement."
         ],
         picture450: "/img/jpg/product/MereDeTousIllusText450.jpg",
+        picture225: "/img/jpg/product/MereDeTousIllusText225.jpg",
         picture675: "/img/jpg/product/MereDeTousIllusText675.jpg",
-        picture900: "/img/jpg/product/MereDeTousIllusText900.jpg"
+        picture900: "/img/jpg/product/MereDeTousIllusText900.jpg",
+        picturefb: "/img/jpg/product/MereDeTousIllusText1524.jpg"
       },
       {
         id: "2mereDeTous",
@@ -70,6 +72,8 @@ export const mereDeTous = {
         id: "mereDeTous0",
         link: "heRafraichissant",
         pictureLove: "/img/jpg/product/heRafraichissant.jpg",
+        pictureLove264: "/img/jpg/product/heRafraichissant264.jpg",
+        pictureLove400: "/img/jpg/product/heRafraichissant400.jpg",
         textLove:
           "Pour soulager rapidement les douleurs musculaires, notre huile essentielle sera idéale. Elle apporte un réconfort immédiat aux muscles endoloris, favorisant une récupération rapide et vous permettant de reprendre vos activités avec une nouvelle énergie. Essayez-la dès maintenant pour un soulagement rapide et efficace."
       },
@@ -77,6 +81,8 @@ export const mereDeTous = {
         id: "mereDeTous1",
         link: "apportMineraux",
         pictureLove: "/img/jpg/product/ApportMineraux.jpg",
+        pictureLove264: "/img/jpg/product/ApportMineraux264.jpg",
+        pictureLove400: "/img/jpg/product/ApportMineraux400.jpg",
         textLove:
           "Notre produit avec notre complément spécialement formulé à base de minéraux essentiels vous permettra de d’améliorer votre vision et votre peau et soutiendra votre coeur. Cette formule composée d’ingrédients aux propriétés anti-inflammatoires vous offre une approche complète pour un bien-être optimal."
       },
@@ -84,6 +90,8 @@ export const mereDeTous = {
         id: "mereDeTous2",
         link: "apportVitamines",
         pictureLove: "/img/jpg/product/ApportVitamines.jpg",
+        pictureLove264: "/img/jpg/product/ApportVitamines264.jpg",
+        pictureLove400: "/img/jpg/product/ApportVitamines400.jpg",
         textLove:
           "Pour une prise en charge globale des douleurs musculaires, osseuses et nerveuses, notre complément enrichi en vitamines saura vous combler. Cette formule offre une approche naturelle pour soulager et prévenir les inconforts, tout en soutenant le bien-être de votre système neuromusculaire."
       },
@@ -91,6 +99,8 @@ export const mereDeTous = {
         id: "mereDeTous3",
         link: "osMuscle",
         pictureLove: "/img/jpg/product/osMuscle.jpg",
+        pictureLove264: "/img/jpg/product/osMuscle264.jpg",
+        pictureLove400: "/img/jpg/product/osMuscle400.jpg",
         textLove:
           "Ce produit est spécialement conçu pour soulager vos douleurs grâce à ses ingrédients aux propriétés anti-inflammatoires agissant en synergie. Retrouvez votre mobilité et votre confort au quotidien. De plus, notre formule stimule la production de collagène pour favoriser des gencives saines et des os solides. Une solution naturelle pour prendre soin de votre bien-être musculaire et osseux, tout en améliorant votre santé bucco-dentaire."
       },
@@ -98,6 +108,8 @@ export const mereDeTous = {
         id: "mereDeTous4",
         link: "equilibreCorpsEsprit",
         pictureLove: "/img/jpg/product/equilibreCorpsEsprit.jpg",
+        pictureLove264: "/img/jpg/product/equilibreCorpsEsprit264.jpg",
+        pictureLove400: "/img/jpg/product/equilibreCorpsEsprit400.jpg",
         textLove:
           "Un sommeil réparateur et revitalisant est essentiel pour votre corps et votre moral. Les douleurs peuvent perturber votre sommeil et impacter votre humeur au réveil. Notre solution vous offre une expérience relaxante, vous permettant de vous réveiller plein d'énergie et de bien-être pour affronter la journée avec vitalité"
       }
@@ -106,8 +118,11 @@ export const mereDeTous = {
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "/img/jpg/product/mereDeTous.jpg",
+  picture264: "/img/jpg/product/mereDeTous264.jpg",
+  picture400: "/img/jpg/product/mereDeTous400.jpg",
   colors: {
     textColor: "#e21e1e",
+    linkTextColor: "#cf0a0a",
     titleColorInSummary: "#cf0a0a",
     bgColorInSummary0: "#eb6262",
     bgColorInSummary1: "#f0e3ea",

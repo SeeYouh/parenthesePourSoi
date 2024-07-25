@@ -22,7 +22,9 @@ export const santePlus = {
         ],
         picture675: "/img/jpg/product/santePlusIllusText675.jpg",
         picture450: "/img/jpg/product/santePlusIllusText450.jpg",
-        picture900: "/img/jpg/product/santePlusIllusText900.jpg"
+        picture225: "/img/jpg/product/santePlusIllusText225.jpg",
+        picture900: "/img/jpg/product/santePlusIllusText900.jpg",
+        picturefb: "/img/jpg/product/santePlusIllusText1524.jpg"
       },
       {
         id: "2santePlus",
@@ -45,14 +47,18 @@ export const santePlus = {
         id: "santePlus0",
         link: "santeMax",
         pictureLove: "/img/jpg/product/santeMax.jpg",
+        pictureLove264: "/img/jpg/product/santeMax264.jpg",
+        pictureLove400: "/img/jpg/product/santeMax400.jpg",
         textLove:
-          "Découvrez la formule encore plus puissante du Noni Original dans ce produit minutieusement conçu pour promouvoir votre santé globale en renforçant votre système immunitaire et en protégeant votre corps des agressions extérieures. Vous bénéficierez d'une énergie durable et naturelle pour vous accompagner tout au long de la journée, vous permettant d'accomplir vos tâches avec dynamisme. En harmonie avec votre corps, notre nectar apaise les tensions, réduit le stress et favorise un état d'esprit positif, améliorant ainsi votre bien-être général et votre bonheur personnel."
+          "Une formule encore plus puissante du Noni Original se trouve dans ce produit minutieusement conçu pour promouvoir votre santé globale en renforçant votre système immunitaire et en protégeant votre corps des agressions extérieures. Vous bénéficierez d'une énergie durable et naturelle pour vous accompagner tout au long de la journée, vous permettant d'accomplir vos tâches avec dynamisme. En harmonie avec votre corps, notre nectar apaise les tensions, réduit le stress et favorise un état d'esprit positif, améliorant ainsi votre bien-être général et votre bonheur personnel."
       },
 
       {
         id: "santePlus1",
         link: "bienEtreInterieur",
         pictureLove: "/img/jpg/product/bienEtreInterieur.jpg",
+        pictureLove264: "/img/jpg/product/bienEtreInterieur264.jpg",
+        pictureLove400: "/img/jpg/product/bienEtreInterieur400.jpg",
         textLove:
           "Ce produit agit en régulant votre microbiote, favorisant un équilibre optimal pour votre bien-être global. Les prébiotiques et probiotiques améliorent la santé digestive, renforcent votre système immunitaire et préviennent les maladies chroniques associées. Son pouvoir antioxydant neutralise les toxines et améliore la flore intestinale. De plus, en boostant l'énergie naturelle de votre corps, il réduit le stress, améliore le sommeil et stimule votre humeur. Pour les femmes, il offre des bienfaits spécifiques en améliorant la santé intime de manière naturelle."
       },
@@ -61,6 +67,8 @@ export const santePlus = {
         id: "santePlus2",
         link: "collagenoni",
         pictureLove: "/img/jpg/product/collagenoni.jpg",
+        pictureLove264: "/img/jpg/product/collagenoni264.jpg",
+        pictureLove400: "/img/jpg/product/collagenoni400.jpg",
         textLove:
           "Le collagène est une protéine essentielle qui constitue la structure de la peau, des cheveux, des ongles, des muscles, des os et des articulations. À partir de l'âge de 25 ans, nous perdons environ 1% de collagène chaque année, entraînant le vieillissement cutané avec l'apparition de rides et de perte de fermeté. Notre produit stimule le renouvellement cellulaire pour une peau plus éclatante et hydratée, réduisant les signes de sécheresse et les tâches pigmentaires. Il combat efficacement les rides, ridules et cernes, tout en renforçant les ongles et les cheveux."
       },
@@ -69,6 +77,8 @@ export const santePlus = {
         id: "santePlus3",
         link: "heDesinfectante",
         pictureLove: "/img/jpg/product/heDesinfectante.jpg",
+        pictureLove264: "/img/jpg/product/heDesinfectante264.jpg",
+        pictureLove400: "/img/jpg/product/heDesinfectante400.jpg",
         textLove:
           "L'huile essentielle désinfectante est un puissant remède naturel pour lutter contre les infections et maintenir un environnement sain. Elle aide à soigner les maladies saisonnières telles que les rhumes, les toux et la grippe, tout en renforçant le système immunitaire pour une meilleure résistance aux maladies saisonnières. Son parfum agréable et ses propriétés apaisantes en font un allié pour améliorer l'humeur et favoriser la relaxation."
       },
@@ -77,6 +87,8 @@ export const santePlus = {
         id: "santePlus4",
         link: "goutteMinceur",
         pictureLove: "/img/jpg/product/goutteMinceur.jpg",
+        pictureLove264: "/img/jpg/product/goutteMinceur264.jpg",
+        pictureLove400: "/img/jpg/product/goutteMinceur400.jpg",
         textLove:
           "Notre produit, avec ses deux fioles de gouttes uniques, offre une solution avancée pour votre cure minceur. En plus de la gestion du poids, ces gouttes améliorent le métabolisme, augmentent l'énergie et réduit l'apparence de la cellulite. Une approche complète pour une cure minceur réussie et un bien-être général amélioré."
       }
@@ -85,6 +97,8 @@ export const santePlus = {
   firstCategory: [getCategoryById("1Sante").name],
   secondCategory: [getSecondCategoryById("1Sante2SystemesCorps").text],
   picture: "/img/jpg/product/santePlus.jpg",
+  picture264: "/img/jpg/product/santePlus264.jpg",
+  picture400: "/img/jpg/product/santePlus400.jpg",
   colors: {
     textColor: "#3483a7",
     titleColorInSummary: "#3483a7",
@@ -98,20 +112,28 @@ export const santePlus = {
   inSummary: [
     {
       id: "SPiS0",
-      title: "Santé",
+      title: "Gestion du poids",
       text: (
         <ul>
-          <li>...</li>
+          <li>Aide à la perte de poids</li>
         </ul>
       )
     },
 
     {
       id: "SPiS1",
-      title: "Gestion du poids",
+      title: "Santé",
       text: (
         <ul>
-          <li>...</li>
+          <li>Protège les cellules contre le stress oxydatif</li>
+          <li>Booste l’énergie naturelle du métabolisme</li>
+          <li>Régule le système digestif</li>
+          <li>Booste le système immunitaire</li>
+          <li>Lutte contre les maladies saisonnières</li>
+          <li>Maintient une ossature normale</li>
+          <li>
+            Améliore la formation des tissus conjonctifs (améliore la vue)
+          </li>
         </ul>
       )
     }

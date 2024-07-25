@@ -5,7 +5,7 @@ export const serumComplet = {
   id: "serumComplet",
 
   summary: {
-    title: "Un sérum complet au 9 brevets pour une efficacité incomparable.",
+    title: "Un sérum complet aux 9 brevets pour une efficacité incomparable",
     paragraph: [
       {
         id: "0serumComplet",
@@ -15,13 +15,65 @@ export const serumComplet = {
       {
         id: "1serumComplet",
         subTitle: "Hydratez, humidifiez et protégez",
-        text: [
-          "Notre sérum se distingue par l'utilisation de la technologie liposomale. Cette innovation permet à notre sérum de traverser les couches de l'épiderme pour hydrater et humidifier votre peau de l'intérieur, offrant une hydratation profonde et durable. La technologie liposomale encapsule les actifs hydratants dans des micro-vésicules, leur permettant d'atteindre les couches profondes de la peau. Cette hydratation en profondeur vous permet de dire adieu à la peau sèche et à la déshydratation, tout en profitant d'une sensation de confort qui dure toute la journée.",
-          "La formule puissante de notre sérum est conçue pour renforcer et consolider la barrière cutanée de votre peau. Ce renforcement agit comme un bouclier, protégeant votre peau des agressions extérieures et des facteurs environnementaux nocifs. En fortifiant votre barrière cutanée, votre peau est mieux armée pour résister aux défis quotidiens, tout en conservant son éclat et sa vitalité naturels."
-        ],
+        text: (
+          <div>
+            <p>
+              Notre sérum se distingue par l'utilisation de la{" "}
+              <span>
+                <style>
+                  {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+                </style>
+                <a
+                  className="btn btn-extLink"
+                  href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  technologie liposomale
+                </a>
+              </span>
+              . Cette innovation permet à notre sérum de traverser les couches
+              de l'épiderme pour hydrater et humidifier votre peau de
+              l'intérieur, offrant une hydratation profonde et durable. La{" "}
+              <span>
+                <style>
+                  {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+                </style>
+                <a
+                  className="btn btn-extLink"
+                  href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  technologie liposomale
+                </a>
+              </span>
+              encapsule les actifs hydratants dans des micro-vésicules, leur
+              permettant d'atteindre les couches profondes de la peau. Cette
+              hydratation en profondeur vous permet de dire adieu à la peau
+              sèche et à la déshydratation, tout en profitant d'une sensation de
+              confort qui dure toute la journée.
+            </p>
+            <p>
+              La formule puissante de notre sérum est conçue pour renforcer et
+              consolider la barrière cutanée de votre peau. Ce renforcement agit
+              comme un bouclier, protégeant votre peau des agressions
+              extérieures et des facteurs environnementaux nocifs. En fortifiant
+              votre barrière cutanée, votre peau est mieux armée pour résister
+              aux défis quotidiens, tout en conservant son éclat et sa vitalité
+              naturels.
+            </p>
+          </div>
+        ),
         picture450: "/img/jpg/product/serumCompletIllusText450.jpg",
+        picture225: "/img/jpg/product/serumCompletIllusText225.jpg",
         picture675: "/img/jpg/product/serumCompletIllusText675.jpg",
-        picture900: "/img/jpg/product/serumCompletIllusText900.jpg"
+        picture900: "/img/jpg/product/serumCompletIllusText900.jpg",
+        picturefb: "/img/jpg/product/serumCompletIllusText1524.jpg"
       },
       {
         id: "2serumComplet",
@@ -57,42 +109,83 @@ export const serumComplet = {
         id: "SerumComplet0",
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
+        pictureLove264: "/img/jpg/product/cremeDay264.jpg",
+        pictureLove400: "/img/jpg/product/cremeDay400.jpg",
         textLove:
-          "Découvrez notre crème hydratante aux innombrables bienfaits. Instantanément apaisante, elle laisse votre peau souple et éclatante. Sa formule nourrissante combat efficacement la sécheresse en préservant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et homogénéise le teint. Optez pour notre crème d'exception et retrouvez une peau nette, débarrassée de l'acné, pour un éclat radieux et uniforme. Votre peau vous remerciera pour ce soin d'exception."
+          "Notre crème hydratante apaise instantanément et laisse votre peau souple et éclatante. Sa formule nourrissante combat efficacement la sécheresse en préservant une hydratation optimale et renforce la barrière cutanée pour protéger des agressions extérieures. En ciblant les tâches sombres, elle éclaircit et homogénéise le teint. Optez pour notre crème d'exception et retrouvez une peau nette, débarrassée de l'acné, pour un éclat radieux et uniforme. Votre peau vous remerciera pour ce soin d'exception."
       },
       {
         id: "SerumComplet1",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
-        textLove:
-          "Découvrez notre crème de nuit qui offre une régénération cellulaire complète, stimulant et restaurant le processus cellulaire de votre peau pendant la nuit. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et les signes de relâchement cutané. En ciblant les tâches et les décolorations, elle estompe progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante. Optez pour notre crème et retrouvez une peau épanouie et éblouissante de beauté !"
+        pictureLove264: "/img/jpg/product/cremeNight264.jpg",
+        pictureLove400: "/img/jpg/product/cremeNight400.jpg",
+        textLove: (
+          <div>
+            <p>
+              Notre crème de nuit offre une régénération cellulaire complète,
+              stimulant et restaurant le processus cellulaire de votre peau
+              pendant la nuit. Grâce à sa
+              <span>
+                <style>
+                  {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+                </style>
+                <a
+                  className="btn btn-extLink"
+                  href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  technologie liposomale
+                </a>
+              </span>
+              avancée, elle hydrate en profondeur, lissant les ridules et les
+              signes de relâchement cutané. En ciblant les tâches et les
+              décolorations, elle estompe progressivement les imperfections pour
+              un teint uniforme et éclatant. Avec ses actifs antioxydants, elle
+              lutte contre les signes visibles de l'âge, vous offrant une peau
+              jeune et éclatante. Optez pour notre crème et retrouvez une peau
+              épanouie et éblouissante de beauté !
+            </p>
+          </div>
+        )
       },
       {
         id: "SerumComplet2",
         link: "serumFlash",
         pictureLove: "/img/jpg/product/serumFlash.jpg",
+        pictureLove264: "/img/jpg/product/serumFlash264.jpg",
+        pictureLove400: "/img/jpg/product/serumFlash400.jpg",
         textLove:
-          "Dites adieu au visage fatigué et endormi grâce à notre sérum révolutionnaire. Il agit rapidement pour réduire visiblement les poches sous les yeux, corriger les cernes et atténuer les poches. En lissant les rides et ridules, il vous offre une peau plus jeune et ferme. Notre formule puissante lifte et raffermit la peau délicate autour des yeux, vous offrant un regard éclatant et rajeuni. Les résultats sont visibles jusqu'à 8 heures après l'application, et avec une utilisation régulière sur 28 jours, les résultats seront encore plus remarquables pour une transformation durable de la zone des yeux. Découvrez une formule avancée pour sublimer votre regard !"
+          "Vous pouvez dire adieu au visage fatigué et endormi grâce à notre sérum révolutionnaire. Il agit rapidement pour réduire visiblement les poches sous les yeux, corriger les cernes et atténuer les poches. En lissant les rides et ridules, il vous offre une peau plus jeune et ferme. Notre formule puissante lifte et raffermit la peau délicate autour des yeux, vous offrant un regard éclatant et rajeuni. Les résultats sont visibles jusqu'à 8 heures après l'application, et avec une utilisation régulière sur 28 jours, les résultats seront encore plus remarquables pour une transformation durable de la zone des yeux. Découvrez une formule avancée pour sublimer votre regard !"
       },
       {
         id: "SerumComplet3",
         link: "gelNettoyant",
         pictureLove: "/img/jpg/product/gelNettoyant.jpg",
+        pictureLove264: "/img/jpg/product/gelNettoyant264.jpg",
+        pictureLove400: "/img/jpg/product/gelNettoyant400.jpg",
         textLove:
-          "Choisissez notre produit de soin polyvalent pour prendre soin de votre peau après une journée bien remplie. Il élimine en douceur les impuretés, le maquillage et les saletés accumulés, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Sa formule hydratante assure une peau douce et veloutée, sans sensation de tiraillement. Respectant l'équilibre cutané, il préserve la barrière naturelle pour une peau saine et protégée. Ses actifs ciblés combattent les imperfections et préviennent les éruptions cutanées, vous offrant ainsi une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau. Profitez d'une peau éclatante de beauté et en pleine santé grâce à notre formule de confiance."
+          "Notre gel nettoyant prend soin de votre peau après une journée bien remplie. Il élimine en douceur les impuretés, le maquillage et les saletés accumulées, laissant votre peau fraîche et prête à se régénérer pendant la nuit. Sa formule hydratante assure une peau douce et veloutée, sans sensation de tiraillement. Respectant l'équilibre cutané, il préserve la barrière naturelle pour une peau saine et protégée. Ses actifs ciblés combattent les imperfections et préviennent les éruptions cutanées, vous offrant ainsi une peau nette et purifiée. Testé sous contrôle dermatologique, notre produit est sûr et efficace pour tous les types de peau. Profitez d'une peau éclatante de beauté et en pleine santé grâce à notre formule de confiance."
       },
       {
         id: "SerumComplet4",
         link: "huileDemaquillante",
         pictureLove: "/img/jpg/product/huileDemaquillante.jpg",
+        pictureLove264: "/img/jpg/product/huileDemaquillante264.jpg",
+        pictureLove400: "/img/jpg/product/huileDemaquillante400.jpg",
         textLove:
-          "Explorez les bienfaits de notre huile tout-en-un, conçue pour nettoyer, démaquiller et décontaminer en profondeur votre peau. Elle élimine efficacement saletés, impuretés et polluants, vous laissant une peau fraîche et revitalisée. Enrichie en huiles de plantes et de fruits, elle hydrate en douceur, révélant la souplesse et l'éclat naturel de votre peau. Parfaite pour démaquiller, elle élimine même le maquillage tenace, sans obstruer les pores avec des huiles minérales. Rigoureusement testée dermatologiquement, notre formule assure une expérience de soin optimale et sûre. Offrez à votre peau le meilleur en choisissant notre huile polyvalente !"
+          "Une huile tout-en-un conçue pour nettoyer, démaquiller et décontaminer en profondeur votre peau. Elle élimine efficacement saletés, impuretés et polluants, vous laissant une peau fraîche et revitalisée. Enrichie en huiles de plantes et de fruits, elle hydrate en douceur, révélant la souplesse et l'éclat naturel de votre peau. Parfaite pour démaquiller, elle élimine même le maquillage tenace, sans obstruer les pores avec des huiles minérales. Rigoureusement testée dermatologiquement, notre formule assure une expérience de soin optimale et sûre. Offrez à votre peau le meilleur en choisissant notre huile polyvalente !"
       }
     ]
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/serumComplet.jpg",
+  picture264: "/img/jpg/product/serumComplet264.jpg",
+  picture400: "/img/jpg/product/serumComplet400.jpg",
   colors: {
     textColor: "#015c77",
     titleColorInSummary: "#015c77",
@@ -106,28 +199,37 @@ export const serumComplet = {
   inSummary: [
     {
       id: "BLiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
-    },
-    {
-      id: "BLiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "BLiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "BLiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "BLiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>
+            Hydrate et humidifie la peau de l’intérieur grâce à la
+            <span>
+              <style>
+                {`a:visited { 
+                    color: "#015c77"; 
+                  }`}
+              </style>
+              <a
+                className="btn btn-extLink"
+                href="https://sante.journaldesfemmes.fr/fiches-medicaments/2862067-liposomale-definition-vitamine-c-quel-interet/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                technologie liposomale
+              </a>
+            </span>
+          </li>
+          <li>
+            Aide à préserver l’élasticité et la fermeté de la peau en la
+            repulpant
+          </li>
+          <li>Améliore les décolorations et le teint irrégulier de la peau</li>
+          <li>Lisse et réduit l’apparence des rides et ridules</li>
+          <li>Diminue les tâches et le masque de grossesse</li>
+          <li>Renforce et consolide la barrière cutanée</li>
+        </ul>
+      )
     }
   ]
 };

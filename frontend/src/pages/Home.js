@@ -1,11 +1,18 @@
-import React from "react";
-import Card from "../components/data/Card";
-import Logo from "../components/Logo";
-import { motion, useScroll, useSpring } from "framer-motion";
-import FirstCategoryNavBar from "../components/data/FirstCategoryNavBar";
-import Footer from "../components/data/Footer";
+import React from 'react';
+
+import {
+  motion,
+  useScroll,
+  useSpring,
+} from 'framer-motion';
+
+import Card from '../components/data/Card';
+import FirstCategoryNavBar from '../components/data/FirstCategoryNavBar';
+import Footer from '../components/data/Footer';
+import Logo from '../components/Logo';
 
 const Home = () => {
+
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,

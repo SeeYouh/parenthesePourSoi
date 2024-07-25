@@ -26,13 +26,18 @@
 
 .legalTitle {
   text-transform: uppercase;
-  font-size: 3rem;
   font-weight: 700;
   background-color: $bgColor11;
 }
 
 .subLegalTitle {
-  font-size: 1.3rem;
+  // font-size: 1.3rem;
   font-weight: 700;
   color: $bgColor2;
 }
+
+// @media screen and (max-width: 1199px) {
+//   .legalContainer {
+//     text-align: justify;
+//   }
+// }

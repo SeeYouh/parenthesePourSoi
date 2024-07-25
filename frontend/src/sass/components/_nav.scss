@@ -1,15 +1,26 @@
+.allNavBar {
+  height: 100%;
+}
+
+#iconMenu {
+  display: none;
+  top: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 100;
+  color: $bgColor5;
+}
+
 .navbar {
   z-index: 100;
-  display: grid;
-  grid-template:
-    "b a a" 1fr
-    "b c c" 1fr / 1fr 2fr;
-  height: 100px;
-  width: 100%;
   background-color: $bgColor7;
 
-  img {
-    height: 80px;
+  .logo-upps {
+    width: auto;
+    height: 100px;
   }
 
   .menu-navbar {
@@ -19,23 +30,87 @@
   }
 }
 
-.all-menu-navbar {
-  margin-right: 20px;
+//--------- MEDIA QUERIES --------//
+
+@media screen and (max-width: 1199px) {
+  .navbar {
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .category {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .subCategory {
+    z-index: 10;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    min-width: 100vw;
+    // background-color: $bgColor7;
+  }
+
+  .navbar {
+    height: 100vh;
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .container-link {
+    padding-top: 150px;
+    width: 100%;
+  }
+
+  #iconMenu {
+    display: block;
+  }
+
+  #iconMenu:before {
+    content: "\2630";
+  }
+
+  .activeMenu #iconMenu:before {
+    content: "\2715";
+  }
+
+  .activeMenu {
+    left: 0;
+  }
 }
 
-.allNavBar {
-  height: 100%;
-  // border: 1px solid black;
-}
-
-.subCategory {
-  li {
-    padding: calc(10px + 1vmin) calc(15px + 1vmin);
+@media screen and (min-width: 1200px) {
+  .arrayProductCard {
+    min-height: calc(100vh - 125px);
   }
 
   .category {
     position: relative;
-    height: 50px;
-    // margin: 0 auto;
+    height: 40px;
+  }
+
+  .line {
+    height: 40px;
+    background: linear-gradient(to top, transparent, $bgColor6, transparent);
+  }
+
+  .navbar {
+    display: grid;
+    grid-template:
+      "b a a" 1fr
+      "b c c" 1fr / 1fr 2fr;
+    height: 100px;
+    width: 100%;
+
+    img {
+      z-index: 100;
+      height: 80px;
+    }
+
+    .menu-navbar {
+      li {
+        margin: 0 2px 0 10px;
+      }
+    }
   }
 }

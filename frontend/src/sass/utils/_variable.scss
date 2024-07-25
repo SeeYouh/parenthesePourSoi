@@ -6,17 +6,21 @@ $bgColor3: #fff;
 
 // Background
 
-$bgColor4: #f2fdd6;
-$bgColor5: #56a045;
-$bgColor6: #b2d45a;
+$bgColor4: #fdf9d6;
+$bgColor5: #46c0b9;
+$bgColor6: #f2c04c;
 $bgColor7: white;
-$bgColor11: #edffea;
+$bgColor11: #fffeea;
 $bgColor10: #6ebb5d;
 
 .bgWhite {
   background-color: $bgColor7;
   transform: translateZ(0);
 }
+
+// Gradient
+
+$linear-gradient-1: linear-gradient(90deg, $bgColor6, $bgColor5);
 
 //Shadow
 
@@ -25,6 +29,7 @@ $bgColor9: #b1d45a91;
 
 //position
 
+#iconMenu,
 .positionFixed {
   position: fixed;
 }
@@ -50,7 +55,7 @@ main,
 .contact:before,
 #leafTopRightImg,
 .legalArticle p:before,
-#logoPicture,
+.logo-upps,
 .logoPictureFooter,
 #leafBottomLeftImg {
   position: absolute;
@@ -86,4 +91,21 @@ main,
 
 .overflowHidden {
   overflow: hidden;
+}
+
+a,
+.cursor,
+label {
+  cursor: pointer !important;
+}
+
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  color: black;
+}
+
+.z-index {
+  z-index: 10;
 }

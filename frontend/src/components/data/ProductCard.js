@@ -1,10 +1,8 @@
-// import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
+import { scroller } from 'react-scroll';
+import { useNavigate } from 'react-router-dom';
 
-import { motion } from "framer-motion";
-import { scroller } from "react-scroll";
-import { useNavigate } from "react-router-dom";
-
-import { useHover } from "../utils/useHover";
+import { useHover } from '../utils/useHover';
 
 const ProductCard = ({ product }) => {
   const [isHovered, hoverProps] = useHover();

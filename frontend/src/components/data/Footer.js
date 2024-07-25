@@ -1,24 +1,31 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 
 import { scroller } from "react-scroll";
 import { useNavigate } from "react-router-dom";
 
 import { generalDataImg } from "../../data/generalData";
+import { LogoUP } from "../../assets/img/svg/LogoUP";
 import { RadioContext } from "../utils/radioContext";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [angle, setAngle] = useState(0);
+  const bgColor5 = "#46c0b9";
+  const bgColor6 = "#338c87";
 
   const {
     setSelectedRadio,
     setSelectedSubRadio,
     setSelectedProduct,
-    setIsActive
+    setIsActive,
   } = useContext(RadioContext);
 
   const navigate = useNavigate();
 
   const handleCategoryChange = async (e, navigateToPage, offset) => {
+    await navigateToPage();
+    await goToPageAndScroll("legalTitle", offset);
+
     if (e.target.checked) {
       setSelectedRadio(e.target.id);
       setSelectedSubRadio("");
@@ -30,29 +37,51 @@ const Footer = () => {
       setSelectedSubRadio("");
       setSelectedProduct("");
     }
-
-    await navigateToPage();
-
-    await goToPageAndScroll("legalTitle", offset);
   };
 
   const goToPageAndScroll = async (selector, offset) => {
     await scroller.scrollTo(selector, {
-      duration: 1000,
+      duration: 500,
       smooth: true,
       offset: offset,
-      spy: true
+      spy: true,
     });
   };
 
+  useEffect(() => {
+    let start;
+    const rotate = (timestamp) => {
+      if (!start) start = timestamp;
+      const progress = timestamp - start;
+      const newAngle = (progress / 50) % 360;
+      setAngle(newAngle);
+      requestAnimationFrame(rotate);
+    };
+
+    requestAnimationFrame(rotate);
+  }, []);
+
+  const backgroundStyle = {
+    background: `linear-gradient(${angle}deg, ${bgColor5}, ${bgColor6})`,
+  };
+
   return (
-    <footer className="footer">
+    <footer className="footer" style={backgroundStyle}>
       <div className="logoPictureFooter">
-        <img
-          key={generalDataImg[0].id}
-          src={generalDataImg[0].src}
-          alt={generalDataImg[0].alt}
-        />
+        <div
+          className="cursor z-index"
+          alt={generalDataImg[4].alt}
+          onClick={() => {
+            goToPageAndScroll("scrollTop");
+            setSelectedRadio("");
+            setSelectedSubRadio("");
+            setSelectedProduct("");
+            setIsActive(false);
+          }}
+        >
+          {/* {svgLogoUpps} */}
+          {LogoUP}
+        </div>
       </div>
       <div className="footerContainer">
         <div className="socialNetWorkContainer">
@@ -65,22 +94,27 @@ const Footer = () => {
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="instagram-icon" viewBox="0 0 448 512">
-                  <path d={generalDataImg[4].logoInstagram} />
+                  <path d={generalDataImg[2].logoInstagram} />
                 </symbol>
               </defs>
               <use xlinkHref="#instagram-icon" />
             </svg>
           </a>
-          <div className="socialNetwork">
+          <a
+            className="socialNetwork"
+            href="https://www.tiktok.com/@laurachevreau16"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="tiktok-icon" viewBox="0 0 512 512">
-                  <path d={generalDataImg[6].logoTikTok} />
+                  <path d={generalDataImg[4].logoTikTok} />
                 </symbol>
               </defs>
               <use xlinkHref="#tiktok-icon" />
             </svg>
-          </div>
+          </a>
           <a
             className="socialNetwork"
             href="https://www.facebook.com/groups/423046286411685/?ref=share_group_link"
@@ -90,14 +124,13 @@ const Footer = () => {
             <svg xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <symbol id="facebook-icon" viewBox="0 0 320 512">
-                  <path d={generalDataImg[5].logoFacebook} />
+                  <path d={generalDataImg[3].logoFacebook} />
                 </symbol>
               </defs>
               <use xlinkHref="#facebook-icon" />
             </svg>
           </a>
         </div>
-
         <div className="legal">
           <div className="containerLegal">
             <p> ©{currentYear} Tous droits réservés </p>
@@ -105,12 +138,12 @@ const Footer = () => {
               className="legalArticle"
               style={{
                 borderTop: "2px solid white",
-                marginTop: "15px"
+                marginTop: "15px",
               }}
             >
               <p
                 style={{
-                  borderRight: "2px solid white"
+                  borderRight: "2px solid white",
                 }}
                 onClick={(e) =>
                   handleCategoryChange(e, () => navigate("/privacy"), -105)
@@ -128,21 +161,22 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="contactContainer">
           <a
+            href="mailto:contact@un-possible.fr?subject=Prise de contact depuis le site&body=Bonjour,"
             className="contact"
-            href="https://agenda.une-parenthese-pour-soi.fr/"
+          >
+            Contactez moi
+          </a>
+
+          <a
+            className="contact"
+            href="https://agenda.un-possible.fr/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Prendre rendez-vous
-          </a>
-
-          <a
-            href="mailto:contact@une-parenthese-pour-soi.fr?subject=Prise de contact depuis le site&body=Bonjour,"
-            className="contact"
-          >
-            Contactez moi
           </a>
         </div>
       </div>

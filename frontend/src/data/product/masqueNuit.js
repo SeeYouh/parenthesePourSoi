@@ -21,8 +21,10 @@ export const masqueNuit = {
           "Notre formule avancée travaille en profondeur pour améliorer les imperfections de la peau, vous offrant ainsi une peau plus saine et éclatante. Ce masque agit sur les zones du visage, des mains, du cou et de la poitrine pour resserrer les pores et améliorer la texture cutanée. Il est particulièrement efficace pour lutter contre les problèmes cutanés tels que l'acné, vous laissant avec une peau lisse, uniforme et rayonnante."
         ],
         picture450: "/img/jpg/product/masqueNuitIllusText450.jpg",
+        picture225: "/img/jpg/product/masqueNuitIllusText225.jpg",
         picture675: "/img/jpg/product/masqueNuitIllusText675.jpg",
-        picture900: "/img/jpg/product/masqueNuitIllusText900.jpg"
+        picture900: "/img/jpg/product/masqueNuitIllusText900.jpg",
+        picturefb: "/img/jpg/product/masqueNuitIllusText1524.jpg"
       },
       {
         id: "2masqueNuit",
@@ -50,6 +52,8 @@ export const masqueNuit = {
         id: "masqueNuit0",
         link: "decontaminant",
         pictureLove: "/img/jpg/product/decontaminant.jpg",
+        pictureLove264: "/img/jpg/product/decontaminant264.jpg",
+        pictureLove400: "/img/jpg/product/decontaminant400.jpg",
         textLove:
           "Notre produit doux et efficace révèle une peau resplendissante de beauté en éliminant les peaux mortes et les impuretés pour un teint frais et radieux. Spécialement conçu pour resserrer les pores et affiner la texture de la peau, il offre une apparence plus lisse et uniforme. Notre décontaminant cible les points noirs, réduit les imperfections et les tâches pigmentaires pour un teint éclatant. De plus, notre formule apaise les yeux fatigués, offrant un regard reposé et éclatant. Testé sous contrôle dermatologique, il convient à tous les types de peau."
       },
@@ -57,35 +61,45 @@ export const masqueNuit = {
         id: "masqueNuit1",
         link: "cremeDay",
         pictureLove: "/img/jpg/product/cremeDay.jpg",
+        pictureLove264: "/img/jpg/product/cremeDay264.jpg",
+        pictureLove400: "/img/jpg/product/cremeDay400.jpg",
         textLove:
-          "Découvrez notre crème hydratante aux nombreux avantages : apaisante, elle laisse la peau souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour une meilleure protection contre les agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint."
+          "Notre crème hydratante est apaisante. Elle laisse la peau souple et éclatante. Sa formule riche combat la sécheresse en maintenant une hydratation optimale et renforce la barrière cutanée pour une meilleure protection contre les agressions extérieures. En ciblant les tâches sombres, elle éclaircit et unifie le teint."
       },
       {
         id: "masqueNuit2",
         link: "cremeNight",
         pictureLove: "/img/jpg/product/cremeNight.jpg",
+        pictureLove264: "/img/jpg/product/cremeNight264.jpg",
+        pictureLove400: "/img/jpg/product/cremeNight400.jpg",
         textLove:
-          "Découvrez notre crème de nuit qui stimule et régénère complètement votre peau pendant le sommeil. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et le relâchement cutané. En ciblant les tâches et les décolorations, elle réduit progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte efficacement contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
+          "Notre crème de nuit stimule et régénère complètement votre peau pendant le sommeil. Grâce à sa technologie liposomale avancée, elle hydrate en profondeur, lissant les ridules et le relâchement cutané. En ciblant les tâches et les décolorations, elle réduit progressivement les imperfections pour un teint uniforme et éclatant. Avec ses actifs antioxydants, elle lutte efficacement contre les signes visibles de l'âge, vous offrant une peau jeune et éclatante."
       },
       {
         id: "masqueNuit3",
         link: "volumateurCils",
         pictureLove: "/img/jpg/product/volumateurCils.jpg",
+        pictureLove264: "/img/jpg/product/volumateurCils264.jpg",
+        pictureLove400: "/img/jpg/product/volumateurCils400.jpg",
         textLove:
-          "Obtenez des cils de biche naturels grâce à notre sérum enrichi d'agents hydratants essentiels. En renforçant leur structure, il protège vos cils des dommages et de la casse. Stimulant leur croissance, il vous offre des cils plus épais, forts et longs pour un regard irrésistible. Notre formule sécurisée, testée sous contrôle dermatologique et ophtalmologique, prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales. Découvrez des cils magnifiés et un regard captivant qui ne passera pas inaperçu !"
+          "Notre sérum enrichi d'agents hydratants essentiels permet de volumiser vos cils. En renforçant leur structure, il protège vos cils des dommages et de la casse. Stimulant leur croissance, il vous offre des cils plus épais, forts et longs pour un regard irrésistible. Notre formule sécurisée, testée sous contrôle dermatologique et ophtalmologique, prend soin de vos cils en profondeur, les nourrissant et les protégeant des agressions environnementales. Découvrez des cils magnifiés et un regard captivant qui ne passera pas inaperçu !"
       },
       {
         id: "masqueNuit4",
         link: "baumeLevres",
         pictureLove: "/img/jpg/product/baumeLevres.jpg",
+        pictureLove264: "/img/jpg/product/baumeLevres264.jpg",
+        pictureLove400: "/img/jpg/product/baumeLevres400.jpg",
         textLove:
-          "Plongez dans une véritable oasis de douceur et de protection avec notre baume à lèvres enrichi d'ingrédients naturels. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, offrant une hydratation durable pour un sourire éclatant de santé. Sa formule avancée forme une barrière protectrice contre les éléments extérieurs, préservant vos lèvres impeccablement. Prévenant l'apparition des lèvres sèches et des gerçures, notre baume répare et renforce vos lèvres, pour un confort retrouvé jour après jour. Nourrissez vos lèvres avec le pouvoir de la nature."
+          "Notre baume à lèvres enrichi d'ingrédients naturels permet une véritable oasis de douceur et de protection. Dès la première application, vos lèvres ressentiront un soulagement immédiat et seront enveloppées d'un voile doux et soyeux, offrant une hydratation durable pour un sourire éclatant de santé. Sa formule avancée forme une barrière protectrice contre les éléments extérieurs, préservant vos lèvres impeccablement. Prévenant l'apparition des lèvres sèches et des gerçures, notre baume répare et renforce vos lèvres, pour un confort retrouvé jour après jour. Nourrissez vos lèvres avec le pouvoir de la nature."
       }
     ]
   },
   firstCategory: [getCategoryById("2Beaute").name],
   secondCategory: [getSecondCategoryById("2Beaute1SoinsVisage").text],
   picture: "/img/jpg/product/masqueNuit.jpg",
+  picture264: "/img/jpg/product/masqueNuit264.jpg",
+  picture400: "/img/jpg/product/masqueNuit400.jpg",
   colors: {
     textColor: "#42848e",
     titleColorInSummary: "#42848e",
@@ -99,28 +113,25 @@ export const masqueNuit = {
   inSummary: [
     {
       id: "MNiS0",
-      title: "Gestion du poids",
-      text: "Détoxifiant"
+      title: "Santé",
+      text: (
+        <ul>
+          <li>Elimine les problèmes cutanés tels que l’acné</li>
+        </ul>
+      )
     },
     {
       id: "MNiS1",
-      title: "Problèmes cutanés",
-      text: "Il élimine les aphtes, les boutons de fièvre, les verrues et l’eczéma."
-    },
-    {
-      id: "MNiS2",
-      title: "Santé",
-      text: "Il soutient le système immunitaire et agit contre les douleurs musculaires, articulaires, osseuses, douleurs de menstruation et symptômes de la ménopause. Il aide à diminuer le cholestérol et la glycémie. Il est recommandé sur les pathologies telles que la dépression, l’arthrite, l’ostéoporose, les rhumatismes…"
-    },
-    {
-      id: "MNiS3",
-      title: "Beauté ",
-      text: "Il augmente la production de l’hormone anti-âge et contient des ingrédients qui luttent contre le vieillissement cutané et la chute des cheveux ."
-    },
-    {
-      id: "MNiS4",
-      title: "Bien-être",
-      text: "Il apaise en agissant directement sur l’hormone du stress. Il diminue la fatigue et améliore le sommeil pour une sensation de détente assurée."
+      title: "Beauté",
+      text: (
+        <ul>
+          <li>Hydrate et adoucit la peau</li>
+          <li>
+            Lutte contre les signes visibles de l’âge : rides, ridules,
+            cicatrices, teint terne, tâches, masque de grossesse, pores dilatés…
+          </li>
+        </ul>
+      )
     }
   ]
 };

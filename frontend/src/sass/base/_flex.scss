@@ -50,8 +50,7 @@ main,
 .bgProductDetails,
 footer,
 .socialNetwork,
-.socialNetWorkContainer,
-.menu-navbar {
+.socialNetWorkContainer {
   flex-direction: row;
 }
 
@@ -148,6 +147,7 @@ main,
   .blocTitleImg,
   footer,
   .footerContainer,
+  .menu-navbar,
   .navbar {
     flex-direction: column;
   }
@@ -188,7 +188,8 @@ main,
   .blocTitleImg,
   .category,
   .footerContainer,
-  .legalArticle {
+  .legalArticle,
+  .menu-navbar {
     flex-direction: row;
   }
 

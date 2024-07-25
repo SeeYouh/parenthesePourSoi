@@ -40,6 +40,7 @@
 
   .category {
     flex-direction: column;
+    width: 100%;
   }
 
   .subCategory {
@@ -56,10 +57,10 @@
     max-width: 800px;
   }
 
-  // .logo {
-  //   height: 150px;
-  //   width: 150px;
-  // }
+  .container-link {
+    padding-top: 150px;
+    width: 100%;
+  }
 
   #iconMenu {
     display: block;

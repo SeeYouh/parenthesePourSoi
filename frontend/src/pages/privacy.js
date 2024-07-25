@@ -22,7 +22,7 @@ const Privacy = () => {
       g.async = true;
       g.defer = true;
       g.src =
-        "https://une-parenthese-pour-soi.fr/analytics/matomo/js/container_346Tgk5W.js";
+        "https://un-possible.fr.fr/analytics/matomo/js/container_346Tgk5W.js";
       g.id = matomoScriptId; // Attribuer l'identifiant au script
       s.parentNode.insertBefore(g, s);
     }
@@ -41,12 +41,12 @@ const Privacy = () => {
         <motion.div className="progressBar" style={{ scaleX }}></motion.div>
         <h1 className="legalTitle">Politique de Confidentialité</h1>
         <div className="legalContainer">
-          <h2 className="subLegalTitle">Mise à jour le : 15 Août 2023</h2>
+          <h2 className="subLegalTitle">Mise à jour le : 26 Juillet 2024</h2>
           <h2 className="subLegalTitle">Cadre et principes généraux</h2>
           <p>
             La présente politique a pour objet d'informer les utilisateurs du
-            site une-parenthese-pour-soi.fr des modalités de collecte,
-            traitement et utilisation de leurs données personnelles.
+            site un-possible.fr des modalités de collecte, traitement et
+            utilisation de leurs données personnelles.
           </p>
           <h2 className="subLegalTitle">Collecte des données</h2>
           <p>
@@ -68,7 +68,7 @@ const Privacy = () => {
             <li>
               Donner suite à toute sollicitation ou requête de l'utilisateur, y
               compris pour des fins de souscription à une lettre d'information
-              émise par une Parenthèse pour Soi.
+              émise par Un Possible.
             </li>
             <li>
               Adapter l'interface du site web en fonction des préférences et
@@ -88,8 +88,8 @@ const Privacy = () => {
               utilisateurs pour optimiser la fonctionnalité du site web.
             </li>
             <li>
-              Transmettre des informations ou mises à jour concernant Une
-              Parenthèse pour Soi susceptibles d'intéresser l'utilisateur.
+              Transmettre des informations ou mises à jour concernant Un
+              Possible susceptibles d'intéresser l'utilisateur.
             </li>
             <li>
               Traiter les données pour toute autre finalité explicitement
@@ -99,9 +99,8 @@ const Privacy = () => {
           </ul>
           <h2 className="subLegalTitle">Absence d'utilisation de cookies</h2>
           <p>
-            Il est expressément stipulé que le site une-parenthese-pour-soi.fr
-            ne fait usage d'aucun cookie et ne collecte donc aucune donnée via
-            ce procédé.
+            Il est expressément stipulé que le site un-possible.fr ne fait usage
+            d'aucun cookie et ne collecte donc aucune donnée via ce procédé.
           </p>
           <h2 className="subLegalTitle">Partage des données avec des tiers</h2>
           <p>
@@ -127,8 +126,8 @@ const Privacy = () => {
           <p>
             Pour toute question relative à la présente politique ou pour toute
             demande concernant leurs données personnelles, les utilisateurs
-            peuvent contacter l'administrateur du site à <span></span>{" "}
-            webmaster@une-parenthese-pour-soi.fr.
+            peuvent contacter l'administrateur du site à{" "}
+            <span>webmaster@un-possible.fr</span>.
           </p>
         </div>
       </main>

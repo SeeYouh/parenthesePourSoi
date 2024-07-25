@@ -34,7 +34,8 @@ footer {
     background-color: white;
     z-index: 2;
     border: 3px solid $bgColor6;
-    transition: border 0.2s ease-in-out, transform 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+      transform 0.2s ease-in-out;
     transform: scale(1);
 
     svg {

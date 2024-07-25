@@ -30,7 +30,7 @@ const ProductPage = () => {
       g.async = true;
       g.defer = true;
       g.src =
-        "https://une-parenthese-pour-soi.fr/analytics/matomo/js/container_346Tgk5W.js";
+        "https://un-possible.fr/analytics/matomo/js/container_346Tgk5W.js";
       g.id = matomoScriptId; // Attribuer l'identifiant au script
       s.parentNode.insertBefore(g, s);
     }
@@ -102,13 +102,13 @@ const ProductPage = () => {
         <meta property="og:description" content={product.summary.title} />
         <meta
           property="og:image"
-          content={`https://www.une-parenthese-pour-soi.fr/img/jpg/product/${
+          content={`https://www.un-possible.fr/img/jpg/product/${
             product.id + "1524"
           }.jpg/`}
         />
         <meta
           property="og:url"
-          content={`https://une-parenthese-pour-soi.fr/product/${product.id}/`}
+          content={`https://un-possible.fr/product/${product.id}/`}
         />
         <meta property="og:type" content="product" />
       </Helmet>
@@ -189,7 +189,7 @@ const ProductPage = () => {
                 </li>
               ))}
               <a
-                href="https://agenda.une-parenthese-pour-soi.fr/"
+                href="https://agenda.un-possible.fr/"
                 className="btn-navbar cursor"
                 style={{
                   color: `${themeColors.linkTextColor}`,

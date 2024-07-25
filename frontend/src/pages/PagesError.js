@@ -19,7 +19,7 @@ const PagesError = () => {
       g.async = true;
       g.defer = true;
       g.src =
-        "https://une-parenthese-pour-soi.fr/analytics/matomo/js/container_346Tgk5W.js";
+        "https://un-possible.fr/analytics/matomo/js/container_346Tgk5W.js";
       g.id = matomoScriptId; // Attribuer l'identifiant au script
       s.parentNode.insertBefore(g, s);
     }

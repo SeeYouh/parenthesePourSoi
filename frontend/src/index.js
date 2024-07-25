@@ -31,7 +31,7 @@ root.render(
           />
           <meta
             property="og:image"
-            content="https://www.une-parenthese-pour-soi.fr/img/png/Une_parenth%C3%A8se_pour_soi_logo500px.png"
+            content="https://www.un-possible.fr/img/png/logoUP_(avecTexte)-512px.png"
           />
           <meta property="og:url" content="https://www.un-possible.fr/" />
           <meta property="og:type" content="website" />

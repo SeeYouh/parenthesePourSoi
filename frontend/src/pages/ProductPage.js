@@ -103,8 +103,8 @@ const ProductPage = () => {
         <meta
           property="og:image"
           content={`https://www.un-possible.fr/img/jpg/product/${
-            product.id + "225"
-          }.jpg/`}
+            product.id + "264"
+          }.jpg`}
         />
         <meta
           property="og:url"
@@ -190,6 +190,7 @@ const ProductPage = () => {
               ))}
               <a
                 href="https://agenda.un-possible.fr/"
+                rel="noreferrer"
                 target="_blank"
                 className="btn-navbar cursor"
                 style={{

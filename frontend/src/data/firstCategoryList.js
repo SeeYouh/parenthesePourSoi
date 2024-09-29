@@ -5,13 +5,13 @@ export const firstCategoryList = [
     secondCategory: [
       {
         id: "0GestionDuPoids0Detoxification",
-        text: "Détoxification"
+        text: "Détoxification",
       },
       {
         id: "0GestionDuPoids1AidePertePoids",
-        text: "Aide perte de poids"
-      }
-    ]
+        text: "Aide perte de poids",
+      },
+    ],
   },
   {
     id: "1Sante",
@@ -19,17 +19,17 @@ export const firstCategoryList = [
     secondCategory: [
       {
         id: "1Sante0ProblemesCutanes",
-        text: "Problèmes cutanés"
+        text: "Problèmes cutanés",
       },
       {
         id: "1Sante1TroublesDigestifsIntestinauxRespiratoires",
-        text: "Troubles digestifs, intestinaux et respiratoires"
+        text: "Troubles digestifs, intestinaux et respiratoires",
       },
       {
         id: "1Sante2SystemesCorps",
-        text: "Systèmes du corps"
-      }
-    ]
+        text: "Systèmes du corps",
+      },
+    ],
   },
   {
     id: "2Beaute",
@@ -37,17 +37,17 @@ export const firstCategoryList = [
     secondCategory: [
       {
         id: "2Beaute0SoinsCheveux",
-        text: "Soins des cheveux"
+        text: "Soins des cheveux",
       },
       {
         id: "2Beaute1SoinsVisage",
-        text: "Soins du visage"
+        text: "Soins du visage",
       },
       {
         id: "2Beaute2SoinsCorps",
-        text: "Soins du corps"
-      }
-    ]
+        text: "Soins du corps",
+      },
+    ],
   },
   {
     id: "3BienEtre",
@@ -55,52 +55,52 @@ export const firstCategoryList = [
     secondCategory: [
       {
         id: "3BienEtre0GestionStress",
-        text: "Gestion du stress"
+        text: "Gestion du stress",
       },
       {
         id: "3BienEtre1Energie",
-        text: "Energie"
+        text: "Energie",
       },
       {
         id: "3BienEtre2FatigueSommeil",
-        text: "Fatigue et sommeil"
+        text: "Fatigue et sommeil",
       },
       {
         id: "3BienEtre3Humeur",
-        text: "Humeur"
-      }
-    ]
-  },
-  {
-    id: "4HuilesEssentielles",
-    name: "Huiles essentielles",
-    secondCategory: [
-      {
-        id: "4HuilesEssentielles0MieuxEtre",
-        text: "Mieux-être"
+        text: "Humeur",
       },
-      {
-        id: "4HuilesEssentielles1ProblemesCutanes",
-        text: "Problèmes cutanés"
-      },
-      {
-        id: "4HuilesEssentielles2MauxDivers",
-        text: "Maux divers"
-      }
-    ]
+    ],
   },
+  // {
+  //   id: "4HuilesEssentielles",
+  //   name: "Huiles essentielles",
+  //   secondCategory: [
+  //     {
+  //       id: "4HuilesEssentielles0MieuxEtre",
+  //       text: "Mieux-être"
+  //     },
+  //     {
+  //       id: "4HuilesEssentielles1ProblemesCutanes",
+  //       text: "Problèmes cutanés"
+  //     },
+  //     {
+  //       id: "4HuilesEssentielles2MauxDivers",
+  //       text: "Maux divers"
+  //     }
+  //   ]
+  // },
   {
     id: "5Purification",
     name: "Purification",
     secondCategory: [
       {
         id: "5Purification0Air",
-        text: "Air"
+        text: "Air",
       },
       {
         id: "5Purification1Eau",
-        text: "Eau"
-      }
-    ]
-  }
+        text: "Eau",
+      },
+    ],
+  },
 ];
